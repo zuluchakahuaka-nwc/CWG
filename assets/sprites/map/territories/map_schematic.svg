@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <rect width="1920" height="1080" fill="#f4e8c1"/>
+  
+  <style>
+    text { font-family: serif; font-size: 11px; fill: #3a2a1a; text-anchor: middle; }
+    .union { fill: #4a7ab5; stroke: #2a5a95; }
+    .confederate { fill: #b54a4a; stroke: #952a2a; }
+    .neutral { fill: #8a8a6a; stroke: #6a6a4a; }
+    .label { font-size: 9px; fill: #2a1a0a; }
+  </style>
+
+  <!-- State outlines (rough polygons) -->
+  
+  <!-- UNION territories -->
+  <polygon class="union" points="810,240 870,230 880,260 860,300 820,310 790,290 790,260" opacity="0.3"/>
+  <text x="835" y="275">Pennsylvania</text>
+  
+  <polygon class="union" points="760,290 820,280 830,310 820,340 790,350 760,340 750,310" opacity="0.3"/>
+  <text x="790" y="320">Maryland</text>
+  
+  <polygon class="union" points="770,310 820,330 830,350 820,360 790,355 770,340" opacity="0.5" stroke-width="3"/>
+  <text x="800" y="345" font-weight="bold" font-size="13">★ Washington D.C.</text>
+  
+  <polygon class="union" points="630,330 680,320 720,340 730,370 700,390 650,380 630,360" opacity="0.3"/>
+  <text x="680" y="360">West Virginia</text>
+
+  <!-- CONFEDERATE territories -->
+  <polygon class="confederate" points="700,360 770,350 790,380 790,420 760,440 720,440 690,420 690,380" opacity="0.3"/>
+  <text x="740" y="410">Shenandoah</text>
+  
+  <polygon class="confederate" points="740,410 800,380 820,400 810,430 790,440 750,445" opacity="0.3"/>
+  <text x="780" y="420">N.Virginia</text>
+  
+  <polygon class="confederate" points="750,430 810,440 820,460 800,480 760,480 740,460" opacity="0.5" stroke-width="3"/>
+  <text x="775" y="465" font-weight="bold" font-size="13">★ Richmond</text>
+
+  <polygon class="confederate" points="680,430 740,450 760,480 740,510 700,520 660,500 660,460" opacity="0.3"/>
+  <text x="705" y="485">N.Carolina</text>
+  
+  <polygon class="confederate" points="660,500 720,510 740,540 720,560 680,560 650,540" opacity="0.3"/>
+  <text x="690" y="535">S.Carolina</text>
+
+  <polygon class="confederate" points="690,530 730,540 740,570 720,590 690,590 670,560" opacity="0.5" stroke-width="3"/>
+  <text x="705" y="570" font-weight="bold">Charleston</text>
+
+  <!-- Western Theater -->
+  <polygon class="neutral" points="610,360 670,350 700,380 690,410 650,420 610,400" opacity="0.3"/>
+  <text x="655" y="390">Kentucky</text>
+
+  <polygon class="confederate" points="580,400 640,390 670,420 660,450 620,460 580,440" opacity="0.3"/>
+  <text x="625" y="430">E.Tennessee</text>
+  
+  <polygon class="confederate" points="560,410 600,400 620,430 610,460 580,460 550,440" opacity="0.3"/>
+  <text x="585" y="440">Chattanooga</text>
+
+  <polygon class="confederate" points="560,440 610,460 620,500 590,520 550,510 540,480" opacity="0.3"/>
+  <text x="580" y="495">Atlanta</text>
+
+  <polygon class="confederate" points="590,510 640,510 660,540 640,570 600,570 580,550" opacity="0.3"/>
+  <text x="615" y="545">Savannah</text>
+
+  <polygon class="confederate" points="480,430 540,420 560,450 550,480 510,490 480,470" opacity="0.3"/>
+  <text x="515" y="460">Mississippi</text>
+
+  <polygon class="confederate" points="450,450 500,440 520,470 510,500 470,510 440,490" opacity="0.5" stroke-width="3"/>
+  <text x="475" y="480" font-weight="bold">Vicksburg</text>
+
+  <!-- Trans-Mississippi -->
+  <polygon class="confederate" points="340,480 400,470 440,500 430,540 390,560 340,550 320,520" opacity="0.3"/>
+  <text x="380" y="520">Texas</text>
+  
+  <polygon class="confederate" points="420,520 470,510 500,540 490,570 450,580 420,560" opacity="0.3"/>
+  <text x="460" y="550">New Orleans</text>
+
+  <polygon class="confederate" points="380,380 430,370 460,400 450,430 410,440 380,420" opacity="0.3"/>
+  <text x="415" y="410">Arkansas</text>
+
+  <polygon class="neutral" points="440,340 500,330 540,360 530,390 490,400 440,380" opacity="0.3"/>
+  <text x="485" y="370">Missouri</text>
+
+  <!-- Rivers -->
+  <path d="M460,350 C460,400 470,450 465,500 C460,550 450,600 460,650" stroke="#5a8aaa" stroke-width="3" fill="none" opacity="0.6"/>
+  <text x="475" y="580" class="label" font-style="italic">Mississippi River</text>
+
+  <!-- Appalachians -->
+  <path d="M700,280 C720,320 730,370 720,420 C710,470 700,510 710,550" stroke="#6a6a4a" stroke-width="2" fill="none" stroke-dasharray="8,4" opacity="0.5"/>
+  <text x="715" y="530" class="label" font-style="italic">Appalachians</text>
+
+  <!-- Atlantic -->
+  <text x="850" y="580" class="label" font-size="12" font-style="italic">Atlantic Ocean</text>
+  
+  <!-- Legend -->
+  <rect x="30" y="900" width="20" height="15" class="union" opacity="0.6"/>
+  <text x="70" y="912" text-anchor="start" font-size="12">Union (North)</text>
+  <rect x="30" y="925" width="20" height="15" class="confederate" opacity="0.6"/>
+  <text x="70" y="937" text-anchor="start" font-size="12">Confederacy (South)</text>
+  <rect x="30" y="950" width="20" height="15" class="neutral" opacity="0.6"/>
+  <text x="70" y="962" text-anchor="start" font-size="12">Neutral / Contested</text>
+  <text x="30" y="985" text-anchor="start" font-size="11" font-style="italic">★ = Capital</text>
+
+  <!-- Title -->
+  <text x="960" y="40" font-size="24" font-weight="bold" text-anchor="middle">Civil War: Blue &amp; Gray — Campaign Map</text>
+  <text x="960" y="65" font-size="14" text-anchor="middle">April 1861 — May 1865</text>
+</svg>

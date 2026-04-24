@@ -1,0 +1,91 @@
+
+D:\Projects\CWG>echo [1/130] u_inf_116pa 
+[1/130] u_inf_116pa
+
+D:\Projects\CWG>curl.exe -s -o "D:\Projects\CWG\assets\sprites\cards\units_union\u_inf_116pa.png" "https://image.pollinations.ai/prompt/19th0century0steel0engraving0styleC0Harper's0Weekly0illustrationC0detailed0cross-hatchingC0fine0lineworkC0sepia0tonesC0historical0printC0vintage0woodcut0engravingC0116th0Pennsylvania0Volunteer0InfantryC0Irish0Brigade000the0only0Pennsylvania0regiment0in0the0Irish0BrigadeC0infantry0regiment0in0battleC0soldiers0with0riflesC0sepia0tones0with0subtle0blue0color0tintingC0blue0color0dominantC0card0game0illustrationC0dramatic0composition?width=512&height=768&nologo=true&seed=2009" --max-time 180 
+
+D:\Projects\CWG>timeout /t 15 /nobreak  1>nul 
+
+D:\Projects\CWG>echo [2/130] u_inf_01mn 
+[2/130] u_inf_01mn
+
+D:\Projects\CWG>curl.exe -s -o "D:\Projects\CWG\assets\sprites\cards\units_union\u_inf_01mn.png" "https://image.pollinations.ai/prompt/19th0century0steel0engraving0styleC0Harper's0Weekly0illustrationC0detailed0cross-hatchingC0fine0lineworkC0sepia0tonesC0historical0printC0vintage0woodcut0engravingC01st0Minnesota0Volunteer0InfantryC0Suffered08200casualties0in0a0single0charge0at0Gettysburg000the0highest0loss0of0any0Union0regiment0inC0infantry0regiment0in0battleC0soldiers0with0riflesC0sepia0tones0with0subtle0blue0color0tintingC0blue0color0dominantC0card0game0illustrationC0dramatic0composition?width=512&height=768&nologo=true&seed=2011" --max-time 180 
+
+D:\Projects\CWG>timeout /t 15 /nobreak  1>nul 
+
+D:\Projects\CWG>echo [3/130] u_inf_14ny 
+[3/130] u_inf_14ny
+
+D:\Projects\CWG>curl.exe -s -o "D:\Projects\CWG\assets\sprites\cards\units_union\u_inf_14ny.png" "https://image.pollinations.ai/prompt/19th0century0steel0engraving0styleC0Harper's0Weekly0illustrationC0detailed0cross-hatchingC0fine0lineworkC0sepia0tonesC0historical0printC0vintage0woodcut0engravingC014th0New0York0State0Militia00BrooklynC0The00Red0Legged0Devils0000distinctive0red0trousers00fought0at0First0Bull0RunC0infantry0regiment0in0battleC0soldiers0with0riflesC0sepia0tones0with0subtle0blue0color0tintingC0blue0color0dominantC0card0game0illustrationC0dramatic0composition?width=512&height=768&nologo=true&seed=2012" --max-time 180 
+
+D:\Projects\CWG>timeout /t 15 /nobreak  1>nul 
+
+D:\Projects\CWG>echo [4/130] u_inf_44ny 
+[4/130] u_inf_44ny
+
+D:\Projects\CWG>curl.exe -s -o "D:\Projects\CWG\assets\sprites\cards\units_union\u_inf_44ny.png" "https://image.pollinations.ai/prompt/19th0century0steel0engraving0styleC0Harper's0Weekly0illustrationC0detailed0cross-hatchingC0fine0lineworkC0sepia0tonesC0historical0printC0vintage0woodcut0engravingC044th0New0York0Volunteer0InfantryC0Ellsworth0s0Avengers0000defended0Little0Round0Top0at0Gettysburg0alongside0the020th0MaineC0infantry0regiment0in0battleC0soldiers0with0riflesC0sepia0tones0with0subtle0blue0color0tintingC0blue0color0dominantC0card0game0illustrationC0dramatic0composition?width=512&height=768&nologo=true&seed=2013" --max-time 180 
+
+D:\Projects\CWG>timeout /t 15 /nobreak  1>nul 
+
+D:\Projects\CWG>echo [5/130] u_inf_83pa 
+[5/130] u_inf_83pa
+
+D:\Projects\CWG>curl.exe -s -o "D:\Projects\CWG\assets\sprites\cards\units_union\u_inf_83pa.png" "https://image.pollinations.ai/prompt/19th0century0steel0engraving0styleC0Harper's0Weekly0illustrationC0detailed0cross-hatchingC0fine0lineworkC0sepia0tonesC0historical0printC0vintage0woodcut0engravingC083rd0Pennsylvania0Volunteer0InfantryC0Held0Little0Round0Top0with0the020th0Maine000among0the0most0decorated0volunteer0regimentsC0infantry0regiment0in0battleC0soldiers0with0riflesC0sepia0tones0with0subtle0blue0color0tintingC0blue0color0dominantC0card0game0illustrationC0dramatic0composition?width=512&height=768&nologo=true&seed=2014" --max-time 180 
+
+D:\Projects\CWG>timeout /t 15 /nobreak  1>nul 
+
+D:\Projects\CWG>echo [6/130] u_inf_16mi 
+[6/130] u_inf_16mi
+
+D:\Projects\CWG>curl.exe -s -o "D:\Projects\CWG\assets\sprites\cards\units_union\u_inf_16mi.png" "https://image.pollinations.ai/prompt/19th0century0steel0engraving0styleC0Harper's0Weekly0illustrationC0detailed0cross-hatchingC0fine0lineworkC0sepia0tonesC0historical0printC0vintage0woodcut0engravingC016th0Michigan0Volunteer0InfantryC0Defended0Little0Round0Top0at0Gettysburg000part0of0Strong0Vincent0s0brigadeC0infantry0regiment0in0battleC0soldiers0with0riflesC0sepia0tones0with0subtle0blue0color0tintingC0blue0color0dominantC0card0game0illustrationC0dramatic0composition?width=512&height=768&nologo=true&seed=2015" --max-time 180 
+
+D:\Projects\CWG>timeout /t 15 /nobreak  1>nul 
+
+D:\Projects\CWG>echo [7/130] u_inf_54ma 
+[7/130] u_inf_54ma
+
+D:\Projects\CWG>curl.exe -s -o "D:\Projects\CWG\assets\sprites\cards\units_union\u_inf_54ma.png" "https://image.pollinations.ai/prompt/19th0century0steel0engraving0styleC0Harper's0Weekly0illustrationC0detailed0cross-hatchingC0fine0lineworkC0sepia0tonesC0historical0printC0vintage0woodcut0engravingC054th0Massachusetts0Volunteer0Infantry00ColoredC0Assault0on0Fort0Wagner000proved0the0courage0of0Black0soldiers00immortalized0in0the0film00GloryC0infantry0regiment0in0battleC0soldiers0with0riflesC0sepia0tones0with0subtle0blue0color0tintingC0blue0color0dominantC0card0game0illustrationC0dramatic0composition?width=512&height=768&nologo=true&seed=2016" --max-time 180 
+
+D:\Projects\CWG>timeout /t 15 /nobreak  1>nul 
+
+D:\Projects\CWG>echo [8/130] u_inf_55ma 
+[8/130] u_inf_55ma
+
+D:\Projects\CWG>curl.exe -s -o "D:\Projects\CWG\assets\sprites\cards\units_union\u_inf_55ma.png" "https://image.pollinations.ai/prompt/19th0century0steel0engraving0styleC0Harper's0Weekly0illustrationC0detailed0cross-hatchingC0fine0lineworkC0sepia0tonesC0historical0printC0vintage0woodcut0engravingC055th0Massachusetts0Volunteer0Infantry00ColoredC0Sister0regiment0of0the054th0Massachusetts000served0in0the0Department0of0the0SouthC0infantry0regiment0in0battleC0soldiers0with0riflesC0sepia0tones0with0subtle0blue0color0tintingC0blue0color0dominantC0card0game0illustrationC0dramatic0composition?width=512&height=768&nologo=true&seed=2017" --max-time 180 
+
+D:\Projects\CWG>timeout /t 15 /nobreak  1>nul 
+
+D:\Projects\CWG>echo [9/130] u_inf_01us 
+[9/130] u_inf_01us
+
+D:\Projects\CWG>curl.exe -s -o "D:\Projects\CWG\assets\sprites\cards\units_union\u_inf_01us.png" "https://image.pollinations.ai/prompt/19th0century0steel0engraving0styleC0Harper's0Weekly0illustrationC0detailed0cross-hatchingC0fine0lineworkC0sepia0tonesC0historical0printC0vintage0woodcut0engravingC01st0United0States0Infantry0RegimentC0Regular0Army000professional0soldiers00superior0drill0and0disciplineC0infantry0regiment0in0battleC0soldiers0with0riflesC0sepia0tones0with0subtle0blue0color0tintingC0blue0color0dominantC0card0game0illustrationC0dramatic0composition?width=512&height=768&nologo=true&seed=2018" --max-time 180 
+
+D:\Projects\CWG>timeout /t 15 /nobreak  1>nul 
+
+D:\Projects\CWG>echo [10/130] u_inf_04us 
+[10/130] u_inf_04us
+
+D:\Projects\CWG>curl.exe -s -o "D:\Projects\CWG\assets\sprites\cards\units_union\u_inf_04us.png" "https://image.pollinations.ai/prompt/19th0century0steel0engraving0styleC0Harper's0Weekly0illustrationC0detailed0cross-hatchingC0fine0lineworkC0sepia0tonesC0historical0printC0vintage0woodcut0engravingC04th0United0States0Infantry0RegimentC0Regular0Army000Captain0Ulysses0S00Grant0served0in0this0regiment0before0the0warC0infantry0regiment0in0battleC0soldiers0with0riflesC0sepia0tones0with0subtle0blue0color0tintingC0blue0color0dominantC0card0game0illustrationC0dramatic0composition?width=512&height=768&nologo=true&seed=2019" --max-time 180 
+
+D:\Projects\CWG>timeout /t 15 /nobreak  1>nul 
+
+D:\Projects\CWG>echo [11/130] u_inf_17us 
+[11/130] u_inf_17us
+
+D:\Projects\CWG>curl.exe -s -o "D:\Projects\CWG\assets\sprites\cards\units_union\u_inf_17us.png" "https://image.pollinations.ai/prompt/19th0century0steel0engraving0styleC0Harper's0Weekly0illustrationC0detailed0cross-hatchingC0fine0lineworkC0sepia0tonesC0historical0printC0vintage0woodcut0engravingC017th0United0States0Infantry0RegimentC0Regular0Brigade000part0of0the0Regular0Army0infantry0at0Gettysburg0and0beyondC0infantry0regiment0in0battleC0soldiers0with0riflesC0sepia0tones0with0subtle0blue0color0tintingC0blue0color0dominantC0card0game0illustrationC0dramatic0composition?width=512&height=768&nologo=true&seed=2020" --max-time 180 
+
+D:\Projects\CWG>timeout /t 15 /nobreak  1>nul 
+
+D:\Projects\CWG>echo [12/130] u_inf_01kc 
+[12/130] u_inf_01kc
+
+D:\Projects\CWG>curl.exe -s -o "D:\Projects\CWG\assets\sprites\cards\units_union\u_inf_01kc.png" "https://image.pollinations.ai/prompt/19th0century0steel0engraving0styleC0Harper's0Weekly0illustrationC0detailed0cross-hatchingC0fine0lineworkC0sepia0tonesC0historical0printC0vintage0woodcut0engravingC01st0Kansas0Volunteer0Infantry00ColoredC0First0Black0combat0unit000fought0at0the0Battle0of0Island0Mound00October01862C0infantry0regiment0in0battleC0soldiers0with0riflesC0sepia0tones0with0subtle0blue0color0tintingC0blue0color0dominantC0card0game0illustrationC0dramatic0composition?width=512&height=768&nologo=true&seed=2021" --max-time 180 
+
+D:\Projects\CWG>timeout /t 15 /nobreak  1>nul 
+
+D:\Projects\CWG>echo [13/130] u_inf_04uc 
+[13/130] u_inf_04uc
+
+D:\Projects\CWG>curl.exe -s -o "D:\Projects\CWG\assets\sprites\cards\units_union\u_inf_04uc.png" "https://image.pollinations.ai/prompt/19th0century0steel0engraving0styleC0Harper's0Weekly0illustrationC0detailed0cross-hatchingC0fine0lineworkC0sepia0tonesC0historical0printC0vintage0woodcut0engravingC04th0United0States0Colored0InfantryC0Earned0the0Medal0of0Honor0at0the0Battle0of0Chaffin0s0Farm00September01864C0infantry0regiment0in0battleC0soldiers0with0riflesC0sepia0tones0with0subtle0blue0color0tintingC0blue0color0dominantC0card0game0illustrationC0dramatic0composition?width=512&height=768&nologo=true&seed=2022" --max-time 180 
+
+D:\Projects\CWG>timeout /t 15 /nobreak  1>nul 

@@ -1,0 +1,7 @@
+Generating frames and UI icons...
+[1/4] Common frame
+[2/4] Uncommon frame
+[3/4] Rare frame
+
+Now generating UI icons (256x256)...
+[1/8] Manpower icon

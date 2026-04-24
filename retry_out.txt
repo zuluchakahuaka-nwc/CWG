@@ -1,0 +1,2045 @@
+[1/130] u_inf_116pa
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "89r1y",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 116th Pennsylvania Volunteer Infantry, Irish Brigade   the only Pennsylvania regiment in the Irish Brigade, infantry regiment in battle, soldiers with rifles, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2009,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[2/130] u_inf_01mn
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "s0i8e7",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 1st Minnesota Volunteer Infantry, Suffered 82  casualties in a single charge at Gettysburg   the highest loss of any Union regiment in, infantry regiment in battle, soldiers with rifles, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2011,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[3/130] u_inf_14ny
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "s5upr9",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 14th New York State Militia  Brooklyn, The  Red Legged Devils    distinctive red trousers  fought at First Bull Run, infantry regiment in battle, soldiers with rifles, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2012,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[4/130] u_inf_44ny
+  OK (103KB)
+[5/130] u_inf_83pa
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "hzq8g",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 83rd Pennsylvania Volunteer Infantry, Held Little Round Top with the 20th Maine   among the most decorated volunteer regiments, infantry regiment in battle, soldiers with rifles, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2014,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[6/130] u_inf_16mi
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "hnbbr8",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 16th Michigan Volunteer Infantry, Defended Little Round Top at Gettysburg   part of Strong Vincent s brigade, infantry regiment in battle, soldiers with rifles, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2015,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[7/130] u_inf_54ma
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "j5lr9g",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 54th Massachusetts Volunteer Infantry  Colored, Assault on Fort Wagner   proved the courage of Black soldiers  immortalized in the film  Glory, infantry regiment in battle, soldiers with rifles, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2016,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[8/130] u_inf_55ma
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "nij36o",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 55th Massachusetts Volunteer Infantry  Colored, Sister regiment of the 54th Massachusetts   served in the Department of the South, infantry regiment in battle, soldiers with rifles, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2017,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[9/130] u_inf_01us
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "j7igqm",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 1st United States Infantry Regiment, Regular Army   professional soldiers  superior drill and discipline, infantry regiment in battle, soldiers with rifles, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2018,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[10/130] u_inf_04us
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "gdwi2z6",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 4th United States Infantry Regiment, Regular Army   Captain Ulysses S  Grant served in this regiment before the war, infantry regiment in battle, soldiers with rifles, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2019,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[11/130] u_inf_17us
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "lc9byte",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 17th United States Infantry Regiment, Regular Brigade   part of the Regular Army infantry at Gettysburg and beyond, infantry regiment in battle, soldiers with rifles, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2020,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[12/130] u_inf_01kc
+  OK (111KB)
+[13/130] u_inf_04uc
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "cu541",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 4th United States Colored Infantry, Earned the Medal of Honor at the Battle of Chaffin s Farm  September 1864, infantry regiment in battle, soldiers with rifles, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2022,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[14/130] u_inf_22ny
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "jqq9s",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 22nd New York Volunteer Infantry, Eastern Iron Brigade    fought in the Northern Virginia Campaign, infantry regiment in battle, soldiers with rifles, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2023,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[15/130] u_inf_24ny
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "qd044i",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 24th New York Volunteer Infantry, Eastern Iron Brigade    two year regiment from New York, infantry regiment in battle, soldiers with rifles, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2024,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[16/130] u_inf_30ny
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "0hjlkv",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 30th New York Volunteer Infantry, Eastern Iron Brigade    served in the Army of Virginia under Pope, infantry regiment in battle, soldiers with rifles, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2025,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[17/130] u_cav_01us
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "c21kns",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 1st United States Cavalry Regiment, Regular Army cavalry   professional mounted troops with superior training, cavalry charge, mounted soldiers with sabers, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2026,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[18/130] u_cav_02us
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "2jmcar",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 2nd United States Cavalry Regiment, Robert E  Lee and Joseph E  Johnston both served in this regiment before the war, cavalry charge, mounted soldiers with sabers, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2027,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[19/130] u_cav_05us
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "31h4ul",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 5th United States Cavalry Regiment, Fought at Yellow Tavern where J E B  Stuart was mortally wounded, cavalry charge, mounted soldiers with sabers, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2028,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[20/130] u_cav_06us
+  OK (109KB)
+[21/130] u_cav_02mi
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "tfx75ma",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 2nd Michigan Volunteer Cavalry, Philip Sheridan s first independent command   the start of his legendary career, cavalry charge, mounted soldiers with sabers, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2030,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[22/130] u_cav_05mi
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "c5371",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 5th Michigan Volunteer Cavalry, Custer s Michigan Brigade   fought at Yellow Tavern and Gettysburg  East Cavalry Field, cavalry charge, mounted soldiers with sabers, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2031,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[23/130] u_cav_06mi
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "gnqcm",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 6th Michigan Volunteer Cavalry, Custer s Michigan Brigade   fought throughout the Overland and Petersburg campaigns, cavalry charge, mounted soldiers with sabers, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2032,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[24/130] u_cav_07mi
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "lh2jto",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 7th Michigan Volunteer Cavalry, Custer s Michigan Brigade   served with distinction at Gettysburg and beyond, cavalry charge, mounted soldiers with sabers, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2033,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[25/130] u_cav_06pa
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "866uqn",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 6th Pennsylvania Volunteer Cavalry, The  Lancers    initially armed with lances  later converted to carbines, cavalry charge, mounted soldiers with sabers, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2034,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[26/130] u_cav_01ny_mr
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "vf0xi5",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 1st New York Mounted Rifles, Mounted riflemen   fought in the Suffolk and Petersburg campaigns, cavalry charge, mounted soldiers with sabers, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2035,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[27/130] u_cav_01wv
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "pmv8r",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 1st West Virginia Volunteer Cavalry, Union loyalists from western Virginia   fought in the Shenandoah Valley, cavalry charge, mounted soldiers with sabers, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2036,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[28/130] u_cav_01vt
+  OK (107KB)
+[29/130] u_cav_05ny
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "u37ru",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 5th New York Volunteer Cavalry, Fought Mosby s partisans in the Loudoun Valley and northern Virginia, cavalry charge, mounted soldiers with sabers, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2038,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[30/130] u_cav_13ny
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "8lfia",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 13th New York Volunteer Cavalry, Pursued Mosby s Rangers throughout northern Virginia, cavalry charge, mounted soldiers with sabers, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2039,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[31/130] u_art_B04us
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "kk87law",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, Battery B  4th United States Light Artillery, Attached to the Iron Brigade   elite regular artillery with superior gunnery, artillery battery firing cannons, smoke and fire, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2040,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[32/130] u_art_01ct
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "f4jpjx",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 1st Connecticut Light Artillery, Armed with 32 pounder howitzers   devastating firepower in siege and garrison roles, artillery battery firing cannons, smoke and fire, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2044,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[33/130] u_art_01mn
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "fp2e1o",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 1st Minnesota Light Battery, Equipped with 3 inch Ordnance rifles   accurate  reliable rifled guns, artillery battery firing cannons, smoke and fire, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2045,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[34/130] u_ship_monitor
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "42pzk",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, USS Monitor, Turret ironclad   revolutionary rotating gun turret with two 11 inch Dahlgren guns  built in 101 day, warship at sea, maritime engraving, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2049,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[35/130] u_ship_galena
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "jzgtw",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, USS Galena, Ironclad sloop   one of the first three ironclads ordered by the US Navy, warship at sea, maritime engraving, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2050,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[36/130] u_ship_newironsides
+  OK (95KB)
+[37/130] u_ship_cairo
+  OK (106KB)
+[38/130] u_ship_carondelet
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "y9lrn",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, USS Carondelet, City class river ironclad   fought in nearly every river engagement on the Mississippi, warship at sea, maritime engraving, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2053,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[39/130] u_ship_benton
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "l5vsp",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, USS Benton, Flagship of the Mississippi Squadron   the most powerful river ironclad on the western waters, warship at sea, maritime engraving, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2054,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[40/130] u_ship_kearsarge
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "3dqmui",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, USS Kearsarge, Sank CSS Alabama off Cherbourg   hidden chain armor protected the engineering spaces, warship at sea, maritime engraving, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2055,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[41/130] u_ship_cumberland
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "pr4o1c",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, USS Cumberland, Sail frigate   rammed and sunk by CSS Virginia at Hampton Roads  went down with guns still firing, warship at sea, maritime engraving, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2056,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[42/130] u_ship_moundcity
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "8slbw",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, USS Mound City, City class river ironclad   served on the Mississippi and its tributaries, warship at sea, maritime engraving, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2057,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[43/130] u_ship_louisville
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "vdxlue",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, USS Louisville, City class river ironclad   participated in the Vicksburg campaign, warship at sea, maritime engraving, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2058,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[44/130] u_ship_essex
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "0ht5b",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, USS Essex, River ironclad   converted from a snag boat  fought at Fort Henry and Vicksburg, warship at sea, maritime engraving, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2059,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[45/130] u_ship_minnesota
+  OK (105KB)
+[46/130] u_ship_vanderbilt
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "gb51b9",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, USS Vanderbilt, Ram steamer   armed merchantman designed to ram CSS Virginia, warship at sea, maritime engraving, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2061,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[47/130] u_spec_berdan1
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "4x3frn",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 1st United States Sharpshooters  Berdan s, Green uniform  Sharps rifles   lethal marksmen accurate to 600 yards, elite soldiers in action, special operations, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2062,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[48/130] u_spec_berdan2
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "rxwv3d",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 2nd United States Sharpshooters, Elite marksmen   recruited for exceptional shooting ability across the Northern states, elite soldiers in action, special operations, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2063,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[49/130] u_spec_ny_ss
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "1n15y",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 1st New York Volunteer Sharpshooter Battalion, Precision fire   independent sharpshooter battalion from New York, elite soldiers in action, special operations, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2064,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[50/130] u_spec_ma_ss
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "yv1v7b",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 1st Company Massachusetts Sharpshooters  Andrew Guards, Sharpshooter volunteers   raised by Governor John Andrew of Massachusetts, elite soldiers in action, special operations, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2065,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[51/130] u_spec_lightning
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "jdx36j",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, Wilder s Lightning Brigade, Spencer repeating rifles   mounted infantry firing seven shots without reloading  revolutionized fir, elite soldiers in action, special operations, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2066,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[52/130] u_spec_loudoun
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "7og2mj",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, Loudoun Rangers  Mean s Rangers, The only unit raised in Virginia that fought for the Union   partisan rangers from Loudoun County, elite soldiers in action, special operations, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2067,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[53/130] u_spec_blazer
+  OK (106KB)
+[54/130] u_spec_1la_ng
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "1ozks6",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 1st Louisiana Native Guard  Colored  Union, Free Creoles of color from New Orleans   among the first Black units officially mustered into the Un, elite soldiers in action, special operations, sepia tones with subtle blue color tinting, blue color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2069,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[55/130] c_inf_02va
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "l7lw6r",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 2nd Virginia Infantry, Stonewall Brigade   fought in nearly every major engagement of the Army of Northern Virginia, infantry regiment in battle, soldiers with rifles, sepia tones with subtle red color tinting, red color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2070,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[56/130] c_inf_04va
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "wngyob",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 4th Virginia Infantry, Stonewall Brigade   included the famed  Rockbridge Grays  company, infantry regiment in battle, soldiers with rifles, sepia tones with subtle red color tinting, red color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2071,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[57/130] c_inf_05va
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "7so2bup",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 5th Virginia Infantry, Stonewall Brigade   steadfast throughout the Valley Campaign and beyond, infantry regiment in battle, soldiers with rifles, sepia tones with subtle red color tinting, red color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2072,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[58/130] c_inf_27va
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "0q22pm",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 27th Virginia Infantry, Stonewall Brigade   the regiment that gave Jackson his immortal nickname at First Manassas, infantry regiment in battle, soldiers with rifles, sepia tones with subtle red color tinting, red color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2073,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[59/130] c_inf_33va
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "buo8g2",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 33rd Virginia Infantry, Stonewall Brigade   included the elite  Shenandoah Sharpshooters  company, infantry regiment in battle, soldiers with rifles, sepia tones with subtle red color tinting, red color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2074,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[60/130] c_inf_01tx
+  ERROR: 
+{
+  "error": "Too Many Requests",
+  "message": "Queue full for IP: 79.165.38.225: 1 requests already queued (max: 1). Get unlimited access at https://enter.pollinations.ai",
+  "debug": null,
+  "timingInfo": [
+    {
+      "step": "Request received and queued.",
+      "timestamp": 0
+    }
+  ],
+  "requestId": "ups33q",
+  "requestParameters": {
+    "prompt": "19th century steel engraving style, Harper\u0027s Weekly illustration, detailed cross-hatching, fine linework, sepia tones, historical print, vintage woodcut engraving, 1st Texas Infantry, Hood s Texas Brigade   suffered 82  casualties at Antietam  the highest of any regiment that day, infantry regiment in battle, soldiers with rifles, sepia tones with subtle red color tinting, red color dominant, card game illustration, dramatic composition",
+    "width": 512,
+    "height": 768,
+    "seed": 2075,
+    "model": "sana",
+    "enhance": false,
+    "nologo": true,
+    "negative_prompt": "undefined",
+    "nofeed": false,
+    "safe": false,
+    "quality": "medium",
+    "image": [],
+    "transparent": false
+  },
+  "queueInfo": {
+    "ip": "79.165.38.225",
+    "currentSize": 1,
+    "pending": 0,
+    "total": 1,
+    "maxAllowed": 1,
+    "username": null,
+    "userId": null,
+    "tier": "anonymous"
+  }
+}
+[61/130] c_inf_04tx

@@ -1,0 +1,12 @@
+
+D:\Projects\CWG>echo [1/24] cmd_lincoln 
+[1/24] cmd_lincoln
+
+D:\Projects\CWG>curl.exe -s -o "D:\Projects\CWG\assets\sprites\cards\units_union\cmd_lincoln.png" "https://image.pollinations.ai/prompt/19th0century0steel0engraving0styleC0Harper's0Weekly0illustrationC0detailed0cross-hatchingC0fine0lineworkC0sepia0tonesC0historical0printC0vintage0woodcut0engravingC0portrait0of0Abraham0LincolnC0C0C0formal0military0portraitC0commander0in0uniformC0dignified0poseC0sepia0tones0with0subtle0blue0color0tintingC0blue0color0dominantC0card0game0illustration?width=512&height=768&nologo=true&seed=3000" --max-time 180 
+
+D:\Projects\CWG>timeout /t 15 /nobreak  1>nul 
+
+D:\Projects\CWG>echo [2/24] cmd_grant 
+[2/24] cmd_grant
+
+D:\Projects\CWG>curl.exe -s -o "D:\Projects\CWG\assets\sprites\cards\units_union\cmd_grant.png" "https://image.pollinations.ai/prompt/19th0century0steel0engraving0styleC0Harper's0Weekly0illustrationC0detailed0cross-hatchingC0fine0lineworkC0sepia0tonesC0historical0printC0vintage0woodcut0engravingC0portrait0of0Ulysses0S00GrantC0C0C0formal0military0portraitC0commander0in0uniformC0dignified0poseC0sepia0tones0with0subtle0blue0color0tintingC0blue0color0dominantC0card0game0illustration?width=512&height=768&nologo=true&seed=3001" --max-time 180 

@@ -1,0 +1,125 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scenes/scenario_select.gd" id="1"]
+
+[node name="ScenarioSelect" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.12, 0.1, 0.08, 1)
+
+[node name="TitleLabel" type="Label" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+offset_top = 30.0
+offset_bottom = 80.0
+horizontal_alignment = 1
+text = "SELECT SCENARIO"
+
+[node name="ScrollContainer" type="ScrollContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 200.0
+offset_top = 100.0
+offset_right = -200.0
+offset_bottom = -100.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 15
+
+[node name="Scenario1861" type="Button" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+minimum_size = Vector2(0, 80)
+text = "1861: First Manassas"
+
+[node name="Scenario1862" type="Button" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+minimum_size = Vector2(0, 80)
+text = "1862: Antietam/Maryland"
+
+[node name="Scenario1863" type="Button" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+minimum_size = Vector2(0, 80)
+text = "1863: Gettysburg/Vicksburg"
+
+[node name="Scenario1864" type="Button" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+minimum_size = Vector2(0, 80)
+text = "1864: Atlanta Campaign"
+
+[node name="Scenario1865" type="Button" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+minimum_size = Vector2(0, 80)
+text = "1865: Appomattox"
+
+[node name="ScenarioFull" type="Button" parent="ScrollContainer/VBoxContainer"]
+layout_mode = 2
+minimum_size = Vector2(0, 80)
+text = "Full Campaign (1861-1865)"
+
+[node name="SideLabel" type="Label" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+offset_top = 550.0
+offset_bottom = 590.0
+horizontal_alignment = 1
+text = "Choose your side:"
+
+[node name="SideHBox" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -200.0
+offset_top = -150.0
+offset_right = 200.0
+offset_bottom = -90.0
+grow_horizontal = 2
+theme_override_constants/separation = 30
+
+[node name="UnionButton" type="Button" parent="SideHBox"]
+layout_mode = 2
+minimum_size = Vector2(180, 50)
+text = "UNION"
+
+[node name="ConfederateButton" type="Button" parent="SideHBox"]
+layout_mode = 2
+minimum_size = Vector2(180, 50)
+text = "CONFEDERACY"
+
+[node name="BackButton" type="Button" parent="."]
+layout_mode = 1
+offset_left = 30.0
+offset_top = 30.0
+offset_right = 150.0
+offset_bottom = 70.0
+text = "BACK"
+
+[node name="StartButton" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -200.0
+offset_top = -80.0
+offset_right = -30.0
+offset_bottom = -30.0
+text = "START"

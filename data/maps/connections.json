@@ -1,0 +1,500 @@
+[
+  {
+    "from": "washington_dc",
+    "to": "maryland",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "washington_dc",
+    "to": "virginia_north",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "maryland",
+    "to": "pennsylvania",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "maryland",
+    "to": "harpers_ferry",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "pennsylvania",
+    "to": "virginia_west",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "harpers_ferry",
+    "to": "shenandoah",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "harpers_ferry",
+    "to": "virginia_north",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "harpers_ferry",
+    "to": "virginia_west",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "virginia_north",
+    "to": "richmond",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "virginia_north",
+    "to": "shenandoah",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "virginia_north",
+    "to": "virginia_west",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "richmond",
+    "to": "shenandoah",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "richmond",
+    "to": "virginia_west",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "richmond",
+    "to": "north_carolina",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "shenandoah",
+    "to": "virginia_west",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "shenandoah",
+    "to": "kentucky",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "virginia_west",
+    "to": "kentucky",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "virginia_west",
+    "to": "tennessee_east",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "kentucky",
+    "to": "tennessee_east",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "kentucky",
+    "to": "tennessee_west",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "kentucky",
+    "to": "missouri",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "tennessee_east",
+    "to": "chattanooga",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "tennessee_west",
+    "to": "memphis",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "tennessee_west",
+    "to": "nashville",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "tennessee_west",
+    "to": "corinth",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "nashville",
+    "to": "chattanooga",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "nashville",
+    "to": "tennessee_east",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "nashville",
+    "to": "corinth",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "nashville",
+    "to": "alabama_north",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "chattanooga",
+    "to": "alabama_north",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "chattanooga",
+    "to": "atlanta",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "chattanooga",
+    "to": "georgia_south",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "corinth",
+    "to": "mississippi_north",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "corinth",
+    "to": "memphis",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "corinth",
+    "to": "alabama_north",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "mississippi_north",
+    "to": "vicksburg",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "mississippi_north",
+    "to": "memphis",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "vicksburg",
+    "to": "natchez",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "natchez",
+    "to": "louisiana_north",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "alabama_north",
+    "to": "atlanta",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "alabama_north",
+    "to": "mobile",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "atlanta",
+    "to": "georgia_south",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "atlanta",
+    "to": "savannah",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "georgia_south",
+    "to": "florida",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "georgia_south",
+    "to": "savannah",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "north_carolina",
+    "to": "south_carolina",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "north_carolina",
+    "to": "wilmington",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "south_carolina",
+    "to": "charleston",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "south_carolina",
+    "to": "georgia_south",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "south_carolina",
+    "to": "savannah",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "charleston",
+    "to": "savannah",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "charleston",
+    "to": "florida",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "florida",
+    "to": "savannah",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "florida",
+    "to": "mobile",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "savannah",
+    "to": "atlantic_coast",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "charleston",
+    "to": "atlantic_coast",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "wilmington",
+    "to": "atlantic_coast",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "missouri",
+    "to": "arkansas",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "missouri",
+    "to": "indian_territory",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "arkansas",
+    "to": "indian_territory",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "arkansas",
+    "to": "louisiana_north",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "arkansas",
+    "to": "texas",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "louisiana_north",
+    "to": "louisiana_south",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "louisiana_north",
+    "to": "texas",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "louisiana_south",
+    "to": "new_orleans",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "louisiana_south",
+    "to": "mobile",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "new_orleans",
+    "to": "gulf_coast",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "texas",
+    "to": "indian_territory",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "texas",
+    "to": "gulf_coast",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "mobile",
+    "to": "gulf_coast",
+    "type": "land",
+    "movement_cost": 1.0
+  },
+  {
+    "from": "memphis",
+    "to": "mississippi_river",
+    "type": "river",
+    "movement_cost": 0.8
+  },
+  {
+    "from": "vicksburg",
+    "to": "mississippi_river",
+    "type": "river",
+    "movement_cost": 0.8
+  },
+  {
+    "from": "natchez",
+    "to": "mississippi_river",
+    "type": "river",
+    "movement_cost": 0.8
+  },
+  {
+    "from": "new_orleans",
+    "to": "mississippi_river",
+    "type": "river",
+    "movement_cost": 0.8
+  },
+  {
+    "from": "atlantic_coast",
+    "to": "gulf_coast",
+    "type": "sea",
+    "movement_cost": 1.5
+  },
+  {
+    "from": "charleston",
+    "to": "gulf_coast",
+    "type": "sea",
+    "movement_cost": 1.5
+  },
+  {
+    "from": "wilmington",
+    "to": "gulf_coast",
+    "type": "sea",
+    "movement_cost": 1.5
+  },
+  {
+    "from": "new_orleans",
+    "to": "gulf_coast",
+    "type": "sea",
+    "movement_cost": 1.5
+  },
+  {
+    "from": "mobile",
+    "to": "gulf_coast",
+    "type": "sea",
+    "movement_cost": 1.5
+  },
+  {
+    "from": "savannah",
+    "to": "atlantic_coast",
+    "type": "sea",
+    "movement_cost": 1.5
+  },
+  {
+    "from": "charleston",
+    "to": "atlantic_coast",
+    "type": "sea",
+    "movement_cost": 1.5
+  },
+  {
+    "from": "wilmington",
+    "to": "atlantic_coast",
+    "type": "sea",
+    "movement_cost": 1.5
+  },
+  {
+    "from": "richmond",
+    "to": "atlantic_coast",
+    "type": "sea",
+    "movement_cost": 1.5
+  }
+]

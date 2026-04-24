@@ -1,0 +1,291 @@
+{
+  "id": "civil_war",
+  "name_en": "The American Civil War",
+  "name_ru": "Гражданская война в США",
+  "start_date": "1861-04-12",
+  "end_date": "1865-05-26",
+  "start_turn": 1,
+  "max_turns": 49,
+  "first_event": "EVENT_FORT_SUMTER",
+
+  "description_en": "April 12, 1861. Confederate batteries open fire on Fort Sumter in Charleston Harbor. The war begins. You command either the Union (North) or the Confederacy (South) through 4 years of the bloodiest conflict in American history. Every decision matters — from conscription to battlefield tactics to the morale of your people.",
+  "description_ru": "12 апреля 1861 года. Конфедеративные батареи открывают огонь по Форт-Самтеру в гавани Чарлстона. Война начинается. Вы командуете Союзом (Север) или Конфедерацией (Юг) на протяжении 4 лет кровопролитнейшего конфликта в американской истории. Каждое решение имеет значение — от призыва до тактики на поле боя до морали вашего народа.",
+
+  "historical_context_en": "The United States is torn apart. Eleven Southern states have seceded to form the Confederate States of America. President Lincoln refuses to recognize the Confederacy. The first shots are fired at Fort Sumter. Both sides expect a short war. Both sides are wrong. Over 600,000 will die before it ends.",
+  "historical_context_ru": "Соединённые Штаты разорваны надвое. Одиннадцать южных штатов вышли из Союза и образовали Конфедеративные Штаты Америки. Президент Линкольн отказывается признавать Конфедерацию. Первые выстрелы прозвучали у Форт-Самтера. Обе стороны ожидают короткой войны. Обе стороны ошибаются. Более 600 000 человек погибнут до её окончания.",
+
+  "initial_territory_owners": {
+    "washington_dc": "union",
+    "maryland": "union",
+    "pennsylvania": "union",
+    "virginia_west": "union",
+    "kentucky": "neutral",
+    "missouri": "neutral",
+
+    "virginia_north": "confederate",
+    "richmond": "confederate",
+    "shenandoah": "confederate",
+    "harpers_ferry": "confederate",
+    "tennessee_east": "confederate",
+    "tennessee_west": "confederate",
+    "nashville": "confederate",
+    "chattanooga": "confederate",
+    "corinth": "confederate",
+    "memphis": "confederate",
+    "mississippi_north": "confederate",
+    "vicksburg": "confederate",
+    "natchez": "confederate",
+    "alabama_north": "confederate",
+    "atlanta": "confederate",
+    "georgia_south": "confederate",
+    "savannah": "confederate",
+    "north_carolina": "confederate",
+    "south_carolina": "confederate",
+    "charleston": "confederate",
+    "wilmington": "confederate",
+    "florida": "confederate",
+    "mobile": "confederate",
+    "arkansas": "confederate",
+    "louisiana_north": "confederate",
+    "louisiana_south": "confederate",
+    "new_orleans": "confederate",
+    "texas": "confederate",
+    "indian_territory": "confederate",
+
+    "mississippi_river": "neutral",
+    "atlantic_coast": "neutral",
+    "gulf_coast": "neutral"
+  },
+
+  "initial_morale": {
+    "union": 0,
+    "confederate": 0
+  },
+
+  "initial_resources": {
+    "union": {"manpower": 6, "money": 7, "supply": 5},
+    "confederate": {"manpower": 4, "money": 4, "supply": 4}
+  },
+
+  "resource_income_per_territory": {
+    "union_base_per_territory": {"manpower": 1, "money": 1, "supply": 0},
+    "confederate_base_per_territory": {"manpower": 0, "money": 0, "supply": 1},
+    "union_industrial_bonus": {"money": 1},
+    "confederate_agricultural_bonus": {"supply": 1}
+  },
+
+  "all_commanders_available": true,
+  "dead_commanders_timeline": {
+    "10": ["cmd_stonewall"],
+    "14": ["cmd_stuart"],
+    "45": ["cmd_aphill"]
+  },
+
+  "event_timeline": {
+    "1": {
+      "auto_trigger": "EVENT_FORT_SUMTER",
+      "description_en": "Fort Sumter bombarded. War begins.",
+      "description_ru": "Форт-Самтер обстрелян. Война начинается.",
+      "effect": "confederate morale +1 (first victory), union morale -1 (humiliation)"
+    },
+    "2": {
+      "available_events": ["EVENT_STONEWALL_NAME"],
+      "historical_note": "First Bull Run / First Manassas — July 1861"
+    },
+    "9": {
+      "auto_trigger": "EVENT_HAMPTON_ROADS",
+      "description_en": "Ironclads clash at Hampton Roads — March 1862",
+      "description_ru": "Броненосцы сталкиваются у Хэмптон-Роудс — март 1862"
+    },
+    "10": {
+      "auto_trigger": "EVENT_CAIRO_MINES",
+      "available_events": ["EVENT_RAM_CUMBERLAND"],
+      "historical_note": "Shiloh, capture of New Orleans — April 1862"
+    },
+    "11": {
+      "available_events": ["EVENT_EMANCIPATION"],
+      "historical_note": "Antietam — September 1862, Emancipation Proclamation issued"
+    },
+    "12": {
+      "available_events": ["EVENT_PELHAM_FLANK"],
+      "historical_note": "Fredericksburg — December 1862"
+    },
+    "14": {
+      "auto_trigger": "EVENT_FRIENDLY_FIRE",
+      "description_en": "Stonewall Jackson killed by friendly fire at Chancellorsville — May 1863",
+      "description_ru": "Стоунуолл Джексон убит дружественным огнём при Чанселлорсвилле — май 1863",
+      "effect": "confederate morale -3 (loss of Jackson), dead_commanders: cmd_stonewall"
+    },
+    "15": {
+      "available_events": ["EVENT_BAYONET_CHARGE", "EVENT_MINNESOTA_SACRIFICE", "EVENT_PICKETTS_CHARGE", "EVENT_IRON_BRIGADE"],
+      "historical_note": "Gettysburg — July 1863. The turning point."
+    },
+    "16": {
+      "auto_trigger": "EVENT_VICKSBURG",
+      "description_en": "Vicksburg falls — July 4, 1863. Confederacy cut in two.",
+      "description_ru": "Виксберг пал — 4 июля 1863. Конфедерация разрезана надвое.",
+      "effect": "confederate morale -3, territory vicksburg → union, territory natchez → union"
+    },
+    "17": {
+      "available_events": ["EVENT_FORT_WAGNER"],
+      "historical_note": "Assault on Fort Wagner — July 1863. 54th Massachusetts."
+    },
+    "22": {
+      "auto_trigger": "EVENT_PELHAM_DEATH",
+      "available_events": ["EVENT_STUART_DEATH"],
+      "historical_note": "Death of J.E.B. Stuart at Yellow Tavern — May 1864"
+    },
+    "27": {
+      "available_events": ["EVENT_HUNLEY_ATTACK", "EVENT_SINK_ALABAMA"],
+      "historical_note": "Hunley sinks Housatonic — Feb 1864. Kearsarge sinks Alabama — June 1864."
+    },
+    "28": {
+      "available_events": ["EVENT_MOBILE_BAY", "EVENT_DAMN_TORPEDOES"],
+      "historical_note": "Battle of Mobile Bay — August 1864. 'Damn the torpedoes!'"
+    },
+    "31": {
+      "auto_trigger": "EVENT_ATLANTA_FALL",
+      "description_en": "Atlanta falls — September 1864. Lincoln's reelection assured.",
+      "description_ru": "Атланта пала — сентябрь 1864. Переизбрание Линкольна обеспечено.",
+      "effect": "union morale +5, territory atlanta → union"
+    },
+    "32": {
+      "available_events": ["EVENT_MARCH_TO_SEA"],
+      "historical_note": "Sherman's March to the Sea — November-December 1864"
+    },
+    "34": {
+      "available_events": ["EVENT_FORREST_BRAVES", "EVENT_BEEFSTEAK_RAID"],
+      "historical_note": "Forrest's campaigns, Beefsteak Raid — 1864"
+    },
+    "38": {
+      "available_events": ["EVENT_CUSHING_TORPEDO"],
+      "historical_note": "Cushing sinks Albemarle — October 1864"
+    },
+    "39": {
+      "auto_trigger": "EVENT_CAPTURE_ATLANTA",
+      "historical_note": "CSS Atlanta captured — already happened by now if not earlier"
+    },
+    "40": {
+      "available_events": ["EVENT_RUSSIAN_SUPPORT", "EVENT_BRITISH_ENFIELDS"]
+    },
+    "45": {
+      "auto_trigger": "EVENT_ARKANSAS_BREAKOUT",
+      "historical_note": "CSS Arkansas breakout — July 1862 (retroactive if not triggered)"
+    },
+    "47": {
+      "available_events": ["EVENT_APPOMATTOX"],
+      "historical_note": "Appomattox — April 1865. Possible end of war."
+    },
+    "48": {
+      "auto_trigger": "EVENT_LINCOLN_ASSASS",
+      "description_en": "Abraham Lincoln assassinated — April 14, 1865",
+      "description_ru": "Авраам Линкольн убит — 14 апреля 1865",
+      "effect": "union morale -3",
+      "condition": "cmd_lincoln has been played / is active"
+    }
+  },
+
+  "asymmetric_balance": {
+    "union_advantages": {
+      "industrial_capacity": "Union generates +1 money per territory (factories, railroads)",
+      "naval_supremacy": "Union starts with naval advantage, can play blockade cards from turn 5+",
+      "manpower_pool": "Larger population = more units over time",
+      "manpower_regrowth": "+1 manpower income per 3 territories controlled",
+      "blockade_mechanic": "Every turn after turn 5: if Union controls >=5 ports → SIT_BLOCKADE auto-activates for Confederate -1 money, -1 supply per turn"
+    },
+    "confederate_advantages": {
+      "defensive_terrain": "+1 DEF bonus when defending home territory (Virginia, Tennessee, Georgia, etc.)",
+      "better_generals": "Confederate commanders are cheaper and have stronger effects (Lee cost 6 vs Grant cost 5, but Lee gives +1 ATK +1 DEF to ALL units)",
+      "cavalry_raids": "Confederate cavalry can raid behind lines: steal 1 resource per successful raid (Mosby, Forrest)",
+      "blockade_runners": "Ships c_ship_syren and c_ship_relee can cancel blockade once per turn",
+      "home_territory_morale": "Each Confederate home territory gives +0.5 morale resistance (harder to push morale below -10)"
+    }
+  },
+
+  "victory_conditions": {
+    "union": [
+      "Capture Richmond and hold for 3 consecutive turns",
+      "Drive Confederate morale to -20 (revolution/capitulation)",
+      "Appomattox: Grant besieges Lee with Confederate resources < 30% of starting values",
+      "If war lasts until May 1865 (turn 49) — Union wins by territorial count"
+    ],
+    "confederate": [
+      "Capture Washington D.C. and hold for 3 consecutive turns",
+      "Drive Union morale to -20 (revolution/Northern uprising)",
+      "Survive until May 1865 (turn 49) with Richmond still in Confederate hands — negotiated peace (draw counted as Confederate win)",
+      "European Recognition: if Confederate morale >= +10 and controls >= 15 territories by turn 25 — foreign intervention wins the war"
+    ]
+  },
+
+  "auto_events": {
+    "blockade": {
+      "starts_turn": 5,
+      "description_en": "Anaconda Plan: Union naval blockade tightens. Confederate ports lose trade income.",
+      "description_ru": "План Анаконда: морская блокада Союза сжимается. Конфедеративные порты теряют торговый доход.",
+      "effect_per_turn": "If Union controls >= 5 ports: Confederate -1 money, -1 supply, -1 morale",
+      "counter": "Confederate can play SIT_BLOCKADE_RUN or use blockade runner ships to cancel"
+    },
+    "desertion": {
+      "starts_turn": 10,
+      "description_en": "War weariness grows. Both sides face desertion.",
+      "description_ru": "Война утомляет. Обе стороны сталкиваются с дезертирством.",
+      "effect_per_turn": "If any side morale < -5: roll d10, on 1 = lose 1 random unit"
+    },
+    "conscription_riots": {
+      "condition": "3+ consecutive SIT_CONSCRIPTION plays",
+      "effect": "Lose 1 random unit, -2 morale, skip next draw phase"
+    }
+  },
+
+  "turn_to_date": {
+    "1": "1861-04",
+    "2": "1861-05",
+    "3": "1861-06",
+    "4": "1861-07",
+    "5": "1861-08",
+    "6": "1861-09",
+    "7": "1861-10",
+    "8": "1861-11",
+    "9": "1861-12",
+    "10": "1862-01",
+    "11": "1862-02",
+    "12": "1862-03",
+    "13": "1862-04",
+    "14": "1862-05",
+    "15": "1862-06",
+    "16": "1862-07",
+    "17": "1862-08",
+    "18": "1862-09",
+    "19": "1862-10",
+    "20": "1862-11",
+    "21": "1862-12",
+    "22": "1863-01",
+    "23": "1863-02",
+    "24": "1863-03",
+    "25": "1863-04",
+    "26": "1863-05",
+    "27": "1863-06",
+    "28": "1863-07",
+    "29": "1863-08",
+    "30": "1863-09",
+    "31": "1863-10",
+    "32": "1863-11",
+    "33": "1863-12",
+    "34": "1864-01",
+    "35": "1864-02",
+    "36": "1864-03",
+    "37": "1864-04",
+    "38": "1864-05",
+    "39": "1864-06",
+    "40": "1864-07",
+    "41": "1864-08",
+    "42": "1864-09",
+    "43": "1864-10",
+    "44": "1864-11",
+    "45": "1864-12",
+    "46": "1865-01",
+    "47": "1865-02",
+    "48": "1865-03",
+    "49": "1865-04"
+  }
+}

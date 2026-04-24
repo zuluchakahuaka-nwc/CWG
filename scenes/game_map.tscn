@@ -1,0 +1,86 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scenes/game_map.gd" id="1"]
+
+[node name="GameMap" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.1, 0.15, 0.1, 1)
+
+[node name="MapArea" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -120.0
+
+[node name="TopBar" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchor_right = 1.0
+offset_bottom = 50.0
+theme_override_constants/separation = 20
+
+[node name="TurnInfo" type="Label" parent="TopBar"]
+layout_mode = 2
+text = "Turn 1 - April 1861"
+
+[node name="PhaseLabel" type="Label" parent="TopBar"]
+layout_mode = 2
+text = "Resource Phase"
+
+[node name="PhonographButton" type="Button" parent="TopBar"]
+layout_mode = 2
+minimum_size = Vector2(40, 40)
+text = "♫"
+
+[node name="MenuButton" type="Button" parent="TopBar"]
+layout_mode = 2
+text = "MENU"
+
+[node name="BottomPanel" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -120.0
+offset_left = 10.0
+offset_right = -10.0
+offset_bottom = -10.0
+
+[node name="ResourcePanel" type="VBoxContainer" parent="BottomPanel"]
+layout_mode = 2
+minimum_size = Vector2(200, 0)
+
+[node name="MoralePanel" type="VBoxContainer" parent="BottomPanel"]
+layout_mode = 2
+minimum_size = Vector2(150, 0)
+
+[node name="HandContainer" type="HBoxContainer" parent="BottomPanel"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="ActionButtons" type="VBoxContainer" parent="BottomPanel"]
+layout_mode = 2
+minimum_size = Vector2(150, 0)
+
+[node name="EndTurnButton" type="Button" parent="BottomPanel/ActionButtons"]
+layout_mode = 2
+minimum_size = Vector2(0, 50)
+text = "END TURN"
+
+[node name="AutoTurnButton" type="Button" parent="BottomPanel/ActionButtons"]
+layout_mode = 2
+minimum_size = Vector2(0, 50)
+text = "AUTO TURN"

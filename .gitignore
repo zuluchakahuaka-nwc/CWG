@@ -1,0 +1,13 @@
+.godot/
+*.import
+export/
+exports/
+*.translation
+.mono/
+data_*/
+builds/
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+user://

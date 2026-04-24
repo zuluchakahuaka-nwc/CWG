@@ -1,0 +1,395 @@
+key,ru,en
+game.title,Гражданская война: Синие и Серые,Civil War: Blue & Gray
+game.new_game,Новая игра,New Game
+game.continue,Продолжить,Continue
+game.settings,Настройки,Settings
+game.quit,Выйти,Quit
+game.language,Язык,Language
+game.back,Назад,Back
+game.ok,ОК,OK
+game.cancel,Отмена,Cancel
+game.apply,Применить,Apply
+game.close,Закрыть,Close
+game.yes,Да,Yes
+game.no,Нет,No
+game.scenarios,Сценарии,Scenarios
+game.start_battle,Начать бой,Start Battle
+game.end_turn,Конец хода,End Turn
+game.auto_turn,Авто-ход,Auto Turn
+game.phonograph,Патефон,Phonograph
+game.victory,Победа!,Victory!
+game.defeat,Поражение,Defeat
+game.draw,Ничья,Draw
+side.union,Союз,Union
+side.confederate,Конфедерация,Confederacy
+side.union_short,Север,North
+side.confederate_short,Юг,South
+resource.manpower,Люди,Manpower
+resource.money,Деньги,Money
+resource.supply,Снабжение,Supply
+resource.morale,Мораль,Morale
+phase.resources,Фаза ресурсов,Resource Phase
+phase.draw,Фаза розыгрыша,Draw Phase
+phase.movement,Фаза перемещения,Movement Phase
+phase.combat,Фаза боя,Combat Phase
+phase.events,Фаза событий,Events Phase
+phase.end,Конец хода,End Turn Phase
+morale.sacred_fervor,Священный рвений,Sacred Fervor
+morale.uplift,Воодушевление,Uplift
+morale.normal,Нормальный,Normal
+morale.neutral,Нейтральный,Neutral
+morale.gloom,Уныние,Gloom
+morale.unrest,Брожение,Unrest
+morale.rebellion,Мятеж,Rebellion
+morale.revolution,Революция,Revolution
+terrain.plains,Равнина,Plains
+terrain.hills,Холмы,Hills
+terrain.forest,Лес,Forest
+terrain.river,Река,River
+terrain.city,Город,City
+terrain.swamp,Болото,Swamp
+terrain.mountain,Горы,Mountains
+card_type.infantry,Пехота,Infantry
+card_type.cavalry,Кавалерия,Cavalry
+card_type.artillery,Артиллерия,Artillery
+card_type.ship,Флот,Navy
+card_type.special,Спецподразделения,Special Forces
+card_type.situation,Ситуация,Situation
+card_type.commander,Командующий,Commander
+rarity.common,Обычная,Common
+rarity.uncommon,Необычная,Uncommon
+rarity.rare,Редкая,Rare
+rarity.legendary,Легендарная,Legendary
+combat.attack,Атака,Attack
+combat.defense,Защита,Defense
+combat.hp,Здоровье,HP
+combat.cost,Стоимость,Cost
+combat.damage,Урон,Damage
+combat.destroyed,Уничтожен,Destroyed
+combat.counterattack,Контратака,Counterattack
+victory.capital,Захват столицы,Capital Capture
+victory.morale_collapse,Моральный крах,Morale Collapse
+victory.appomattox,Капитуляция Аппоматтокс,Appomattox Surrender
+victory.timeout,Время истекло,Time Expired
+scenario.1861,1861: Первый Манассас,1861: First Manassas
+scenario.1862,1862: Энтитем/Мэриленд,1862: Antietam/Maryland
+scenario.1863,1863: Геттисберг/Виксберг,1863: Gettysburg/Vicksburg
+scenario.1864,1864: Атлантская кампания,1864: Atlanta Campaign
+scenario.1865,1865: Аппоматтокс,1865: Appomattox
+scenario.full,Полная кампания (1861-1865),Full Campaign (1861-1865)
+phonograph.title,Патефон,Phonograph
+phonograph.now_playing,Сейчас играет:,Now Playing:
+phonograph.volume,Громкость:,Volume:
+phonograph.shuffle,Перемешать,Shuffle
+phonograph.repeat,Повтор,Repeat
+phonograph.next,Далее,Next
+phonograph.close,Закрыть патефон,Close Phonograph
+phonograph.category.marches,Марши,Marches
+phonograph.category.ballads,Баллады,Ballads
+phonograph.category.hymns,Гимны,Hymns
+phonograph.category.fife_and_drum,Фиф и барабан,Fife and Drum
+phonograph.category.orchestral,Оркестровые,Orchestral
+territory.washington_dc,Вашингтон,Washington D.C.
+territory.maryland,Мэриленд,Maryland
+territory.virginia_north,Северная Виргиния,Northern Virginia
+territory.richmond,Ричмонд,Richmond
+territory.shenandoah,Долина Шенандоа,Shenandoah Valley
+territory.virginia_west,Западная Виргиния,West Virginia
+territory.pennsylvania,Пенсильвания,Pennsylvania
+territory.harpers_ferry,Харперс-Ферри,Harpers Ferry
+territory.kentucky,Кентукки,Kentucky
+territory.tennessee_east,Восточный Теннесси,East Tennessee
+territory.tennessee_west,Западный Теннесси,West Tennessee
+territory.nashville,Нэшвилл,Nashville
+territory.mississippi_north,Северная Миссисипи,Northern Mississippi
+territory.vicksburg,Виксберг,Vicksburg
+territory.alabama_north,Северная Алабама,Northern Alabama
+territory.atlanta,Атланта,Atlanta
+territory.georgia_south,Южная Джорджия,Southern Georgia
+territory.memphis,Мемфис,Memphis
+territory.chattanooga,Чаттануга,Chattanooga
+territory.natchez,Натчез,Natchez
+territory.corinth,Коринф,Corinth
+territory.missouri,Миссури,Missouri
+territory.arkansas,Арканзас,Arkansas
+territory.louisiana_north,Северная Луизиана,Northern Louisiana
+territory.new_orleans,Новый Орлеан,New Orleans
+territory.texas,Техас,Texas
+territory.indian_territory,Индейская территория,Indian Territory
+territory.louisiana_south,Южная Луизиана,Southern Louisiana
+territory.north_carolina,Северная Каролина,North Carolina
+territory.south_carolina,Южная Каролина,South Carolina
+territory.charleston,Чарлстон,Charleston
+territory.florida,Флорида,Florida
+territory.wilmington,Уилмингтон,Wilmington
+territory.savannah,Саванна,Savannah
+territory.mobile,Мобил,Mobile
+territory.atlantic_coast,Атлантическое побережье,Atlantic Coast
+territory.gulf_coast,Мексиканский залив,Gulf of Mexico
+territory.mississippi_river,Река Миссисипи,Mississippi River
+event.hampton_roads,Первый бой броненосцев,First Ironclad Battle
+event.picketts_charge,Чардж Пикетта,Pickett's Charge
+event.friendly_fire,Дружественный огонь,Friendly Fire
+event.bayonet_charge,Штыковая атака,Bayonet Charge
+event.lincoln_assass,Убийство Линкольна,Lincoln Assassination
+event.emancipation,Прокламация об освобождении,Emancipation Proclamation
+event.appomattox,Аппоматтокс,Appomattox
+event.march_to_sea,Марш к морю,March to the Sea
+event.cushing_torpedo,Торпеда Кушинга,Cushing's Spar Torpedo
+event.ram_cumberland,Таран «Вирджинии»,Ram of Virginia
+event.sink_alabama,Потопление «Алабамы»,Sinking of Alabama
+event.hunley_attack,Подводная атака,Submarine Attack
+event.cairo_mines,Мины на Язу,Mines at Yazoo
+event.arkansas_breakout,Прорыв «Арканзаса»,Arkansas Breakout
+event.capture_atlanta_ship,Захват «Атланты»,Capture of Atlanta
+event.mobile_bay,Бой в Мобил-Бэй,Battle of Mobile Bay
+event.last_shot,Последний выстрел войны,Last Shot of the War
+event.fingal_run,Блокадопрорыв «Фингала»,Fingal Blockade Run
+event.minnesota_sacrifice,Жертвенная атака,Minnesota Sacrifice
+event.stonewall_name,«Стоунуолл!»,Stonewall!
+event.iron_brigade,Железная бригада,Iron Brigade
+event.berdan_sniper,Снайперы Бердана,Berdan's Snipers
+event.fort_wagner,Штурм Форт-Уогнера,Assault on Fort Wagner
+event.hoovers_gap,«Молниеносная бригада»,Lightning Brigade
+event.mosby_fairfax,Рейд Мосби,Mosby's Raid
+event.beefsteak_raid,Кража скота,Beefsteak Raid
+event.try_us,«Попробуй нас!»,Try Us!
+event.pelham_flank,Пелхэм при Фредериксберге,Pelham's Flank
+event.pelham_death,Гибель Пелхэма,Death of Pelham
+event.stuart_death,Смерть Стюарта,Death of Stuart
+event.forrest_braves,«Волшебник седла»,Wizard of the Saddle
+event.sidney_johnston,Смерть С. Джонстона,Death of Sidney Johnston
+event.syren_blockade,Блокада прорвана!,Blockade Broken!
+event.russian_support,Поддержка России,Russian Support
+event.british_enfields,Британские «Энфилды»,British Enfields
+event.damn_torpedoes,«Проклятье на торпеды!»,Damn the Torpedoes!
+event.atlanta_fall,Атланта пала,Atlanta Has Fallen
+event.andrews_raid,Железнодорожный рейд Эндрюса,Andrews' Railroad Raid
+event.vicksburg_fall,Виксберг пал,Vicksburg Has Fallen
+event.first_monitor,Первый «Монитор»,First Monitor
+event.lee_refusal,«Я не знаю мистера Ли»,I Know No Mr. Lee
+event.first_manassas,Первый Манассас,First Manassas
+event.shiloh,Шайло,Shiloh
+event.antietam,Энтитем,Antietam
+event.fredericksburg,Фредериксберг,Fredericksburg
+event.chancellorsville,Чанселлорсвилл,Chancellorsville
+event.gettysburg,Геттисберг,Gettysburg
+event.chickamauga,Чикамога,Chickamauga
+event.chattanooga_battle,Чаттануга,Chattanooga
+event.spotsylvania,Спотсильвания,Spotsylvania
+event.cold_harbor,Колд-Харбор,Cold Harbor
+event.petersburg,Петерсберг,Petersburg
+event.bull_run_first,Первый Булл-Ран,First Bull Run
+event.bull_run_second,Второй Булл-Ран,Second Bull Run
+event.pea_ridge,Пи-Ридж,Pea Ridge
+event.stones_river,Стоунс-Ривер,Stones River
+event.wilderness,Глушь,The Wilderness
+event.sherman_march,Марш Шермана,Sherman's March
+event.carolina_campaign,Кампания в Каролинах,Carolina Campaign
+event.nashville_battle,Битва за Нэшвилл,Battle of Nashville
+event.mobile_campaign,Кампания у Мобила,Mobile Campaign
+event.fort_sumter,Форт Самтер,Fort Sumter
+event.bread_riot,Хлебный бунт,Bread Riot
+event.ny_draft_riot,Нью-Йоркский бунт,NY Draft Riot
+event.conscription_cascade,Бунт призывников,Conscript Mutiny
+event.desertion,Дезертирство,Desertion
+event.disease,Тиф/эпидемия,Typhus/Epidemic
+event.blockade,Морская блокада,Naval Blockade
+event.blockade_run,Прорыв блокады,Blockade Run
+event.volunteers,Набор добровольцев,Volunteer Recruitment
+event.conscription,Призыв,Conscription
+event.foreign_arms,Иностранное оружие,Foreign Arms
+event.partisan,Каперство,Privateering
+event.naval_mines,Морские мины,Naval Mines
+event.night_march,Ночной марш,Night March
+event.ambush,Засада,Ambush
+event.reconnaissance,Разведка,Reconnaissance
+event.pontoons,Понтонные мосты,Pontoon Bridges
+event.siege_train,Осадный поезд,Siege Train
+event.rain,Дождь,Rain
+event.hardtack,Сухари и кофе,Hardtack and Coffee
+event.mud,Распутица,Mud
+event.railroad,Железная дорога,Railroad
+event.telegraph,Телеграф,Telegraph
+event.spies,Шпионаж,Spies
+event.counterspy,Контршпионаж,Counterspy
+event.arty_barrage,Артиллерийская подготовка,Artillery Barrage
+event.fieldworks,Полевые укрепления,Fieldworks
+event.suppress_revolt,Подавление бунта,Suppress Revolt
+event.soldier_wound,Ранение,Wound
+event.soldier_death,Гибель,Death
+event.surrender,Сдача,Surrender
+event.reinforce,Подкрепление,Reinforcements
+event.retreat,Отступление,Retreat
+event.advance,Наступление,Advance
+event.flanking,Фланговый обход,Flanking Maneuver
+event.formations,Построение,Formations
+event.charge,Атака в штыки,Bayonet Charge
+event.rally,Перегруппировка,Rally
+event.entrench,Окопаться,Entrench
+event.withdraw,Отвод войск,Withdraw
+event.reconquest,Реконкиста,Reconquest
+event.guerrilla,Партизаны,Guerrillas
+event.scout,Разведка,Scout
+event.supply_line,Линия снабжения,Supply Line
+event.intercept,Перехват,Intercept
+event.fortify,Укрепить,Fortify
+event.demolish,Разрушить,Demolish
+event.repair,Восстановить,Repair
+event.bridge,Мост,Bridge
+event.ford,Брод,Ford
+event.pass,Перевал,Pass
+event.harbor,Гавань,Harbor
+event.lighthouse,Маяк,Lighthouse
+event.warehouse,Склад,Warehouse
+event.armory,Арсенал,Arsenal
+event.hospital,Госпиталь,Hospital
+event.prison,Тюрьма,Prison
+event.camp,Лагерь,Camp
+event.barracks,Казармы,Barracks
+cmd.lincoln,Авраам Линкольн,Abraham Lincoln
+cmd.grant,Улисс С. Грант,Ulysses S. Grant
+cmd.sherman,Уильям Т. Шерман,William T. Sherman
+cmd.mcclellan,Джордж Макклеллан,George McClellan
+cmd.meade,Джордж Миад,George Meade
+cmd.burnside,Амброуз Бернсайд,Ambrose Burnside
+cmd.hooker,Джозеф Хукер,Joseph Hooker
+cmd.sheridan,Филип Шеридан,Philip Sheridan
+cmd.custer,Джордж Армстронг Кастер,George Armstrong Custer
+cmd.hancock,Уинфилд Скотт Хэнкок,Winfield Scott Hancock
+cmd.reynolds,Джон Рейнольдс,John Reynolds
+cmd.chamberlain,Джошуа Чемберлен,Joshua Chamberlain
+cmd.jefferson,Джефферсон Дэвис,Jefferson Davis
+cmd.relee,Роберт Э. Ли,Robert E. Lee
+cmd.stonewall,Томас «Стоунуолл» Джексон,Thomas "Stonewall" Jackson
+cmd.longstreet,Джеймс Лонгстрит,James Longstreet
+cmd.stuart,Дж.Э.Б. Стюарт,J.E.B. Stuart
+cmd.aphill,A.P. Хилл,A.P. Hill
+cmd.forrest,Натан Бедфорд Форрест,Nathan Bedford Forrest
+cmd.johnston,Джозеф Джонстон,Joseph Johnston
+cmd.bragg,Брэкстон Брэгг,Braxton Bragg
+cmd.hood,Джон Белл Худ,John Bell Hood
+cmd.pickett,Джордж Пикетт,George Pickett
+cmd.early,Джубал Эрли,Jubal Early
+cmd.sidney_johnston,Альберт С. Джонстон,Albert S. Johnston
+cmd.beauregard,П.Г.Т. Борегар,P.G.T. Beauregard
+cmd.buckner,Саймон Боливар Бакнер,Simon Bolivar Buckner
+cmd.polk,Леонидас Полк,Leonidas Polk
+cmd.hardee,Уильям Дж. Харди,William J. Hardee
+cmd.cleburne,Патрик Клебёрн,Patrick Cleburne
+cmd.gordon,Джон Б. Гордон,John B. Gordon
+cmd.rosecrans,Уильям Роскранс,William Rosecrans
+cmd.thomas,Джордж Х. Томас,George H. Thomas
+cmd.mclellan_opinion,Макклеллан: слишком осторожен?,McClellan: Too Cautious?
+cmd.burnside_opinion,Бернсайд: лобовая атака?,Burnside: Frontal Assault?
+ui.turn,Ход,Turn
+ui.month.01,Январь,January
+ui.month.02,Февраль,February
+ui.month.03,Март,March
+ui.month.04,Апрель,April
+ui.month.05,Май,May
+ui.month.06,Июнь,June
+ui.month.07,Июль,July
+ui.month.08,Август,August
+ui.month.09,Сентябрь,September
+ui.month.10,Октябрь,October
+ui.month.11,Ноябрь,November
+ui.month.12,Декабрь,December
+ui.year,Год,Year
+ui.deck,Колода,Deck
+ui.hand,Рука,Hand
+ui.discard,Сброс,Discard
+ui.graveyard,Кладбище,Graveyard
+ui.play_card,Разыграть,Play
+ui.draw_card,Взять карту,Draw Card
+ui.discard_card,Сбросить,Discard
+ui.move_unit,Двигать юнита,Move Unit
+ui.select_territory,Выберите территорию,Select Territory
+ui.select_target,Выберите цель,Select Target
+ui.select_card,Выберите карту,Select Card
+ui.confirm,Подтвердить,Confirm
+ui.waiting,Ожидание...,Waiting...
+ui.ai_thinking,ИИ думает...,AI is thinking...
+ui.your_turn,Ваш ход,Your Turn
+ui.enemy_turn,Ход противника,Enemy Turn
+ui.battle_starts,Бой начинается!,Battle Begins!
+ui.battle_ends,Бой окончен,Battle Over
+ui.winner,Победитель:,Winner:
+ui.loser,Проигравший:,Loser:
+ui.casualties,Потери:,Casualties:
+ui.remaining,Осталось:,Remaining:
+ui.player,Игрок,Player
+ui.enemy,Противник,Enemy
+ui.difficulty,Сложность,Difficulty
+ui.difficulty.easy,Лёгкая,Easy
+ui.difficulty.normal,Обычная,Normal
+ui.difficulty.hard,Сложная,Hard
+ui.autoturn.conservative,Консервативная,Conservative
+ui.autoturn.balanced,Сбалансированная,Balanced
+ui.autoturn.aggressive,Агрессивная,Aggressive
+ui.settings.graphics,Графика,Graphics
+ui.settings.audio,Звук,Audio
+ui.settings.gameplay,Геймплей,Gameplay
+ui.music_volume,Музыка,Music
+ui.sfx_volume,Эффекты,SFX
+ui.fullscreen,Полный экран,Fullscreen
+ui.resolution,Разрешение,Resolution
+ui.save,Сохранить,Save
+ui.load,Загрузить,Load
+ui.delete,Удалить,Delete
+ui.saved_games,Сохранения,Saved Games
+ui.no_saves,Нет сохранений,No Saved Games
+ui.save_slot,Слот сохранения,Save Slot
+ui.overwrite_save,Перезаписать сохранение?,Overwrite save?
+ui.load_confirm,Загрузить это сохранение?,Load this save?
+ui.delete_confirm,Удалить это сохранение?,Delete this save?
+ui.tutorial,Обучение,Tutorial
+ui.credits,Авторы,Credits
+ui.credits_text,Разработано с Godot 4.x,Developed with Godot 4.x
+ui.version,Версия,Version
+ui.loading,Загрузка...,Loading...
+ui.error,Ошибка,Error
+ui.warning,Предупреждение,Warning
+ui.info,Информация,Information
+ui.tooltip,Подсказка,Tooltip
+ui.morale_effect,Эффект морали,Morale Effect
+ui.terrain_bonus,Бонус местности,Terrain Bonus
+ui.type_bonus,Бонус типа,Type Bonus
+ui.card_detail,Детали карты,Card Details
+ui.unit_info,Информация о юните,Unit Info
+ui.commander_info,Информация о командующем,Commander Info
+ui.event_info,Информация о событии,Event Info
+ui.territory_info,Информация о территории,Territory Info
+ui.owner,Владелец,Owner
+ui.contested,Оспаривается,Contested
+ui.neutral,Нейтральная,Neutral
+ui.occupied,Оккупирована,Occupied
+ui.blockaded,Блокирована,Blockaded
+ui.supplied,Снабжается,Supplied
+ui.unsupplied,Не снабжается,Unsupplied
+ui.connected,Связана,Connected
+ui.isolated,Изолирована,Isolated
+ui.frontline,Линия фронта,Frontline
+ui.rear,Тыл,Rear
+ui.capital,Столица,Capital
+ui.port,Порт,Port
+ui.railroad,Ж/д узел,Railroad Hub
+ui.fort,Форт,Fort
+ui.resource_income,Доход ресурсов,Resource Income
+ui.manpower_income,Доход людей,Manpower Income
+ui.money_income,Доход денег,Money Income
+ui.supply_income,Доход снабжения,Supply Income
+ui.morale_change,Изменение морали,Morale Change
+ui.cards_in_hand,Карт в руке,Cards in Hand
+ui.cards_in_deck,Карт в колоде,Cards in Deck
+ui.max_hand,Макс. рука,Max Hand
+ui.cost_to_play,Стоимость розыгрыша,Cost to Play
+ui.effect,Эффект,Effect
+ui.duration,Длительность,Duration
+ui.permanent,Постоянный,Permanent
+ui.one_time,Одноразовый,One-time Use
+ui.target_required,Требуется цель,Target Required
+ui.historical_date,Историческая дата,Historical Date
+ui.flavor_text,Историческая справка,Flavor Text
+ui.tags,Теги,Tags
+ui.linked_events,Связанные события,Linked Events

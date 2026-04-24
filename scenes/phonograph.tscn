@@ -1,0 +1,127 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scenes/phonograph.gd" id="1"]
+
+[node name="Phonograph" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Background" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.1, 0.08, 0.06, 1)
+
+[node name="Panel" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -350.0
+offset_top = -300.0
+offset_right = 350.0
+offset_bottom = 300.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBox" type="VBoxContainer" parent="Panel"]
+layout_mode = 2
+
+[node name="TitleLabel" type="Label" parent="Panel/VBox"]
+layout_mode = 2
+text = "PHONOGRAPH"
+horizontal_alignment = 1
+
+[node name="DiscPlaceholder" type="ColorRect" parent="Panel/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 200)
+color = Color(0.2, 0.15, 0.1, 1)
+
+[node name="NowPlayingLabel" type="Label" parent="Panel/VBox"]
+layout_mode = 2
+text = "Now Playing:"
+horizontal_alignment = 1
+
+[node name="TrackLabel" type="Label" parent="Panel/VBox"]
+layout_mode = 2
+text = "---"
+horizontal_alignment = 1
+
+[node name="Progressbar" type="ProgressBar" parent="Panel/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 20)
+max_value = 100.0
+value = 0.0
+
+[node name="CategoryTabs" type="HBoxContainer" parent="Panel/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="MarchesBtn" type="Button" parent="Panel/VBox/CategoryTabs"]
+layout_mode = 2
+text = "Marches"
+
+[node name="BalladsBtn" type="Button" parent="Panel/VBox/CategoryTabs"]
+layout_mode = 2
+text = "Ballads"
+
+[node name="HymnsBtn" type="Button" parent="Panel/VBox/CategoryTabs"]
+layout_mode = 2
+text = "Hymns"
+
+[node name="FifeBtn" type="Button" parent="Panel/VBox/CategoryTabs"]
+layout_mode = 2
+text = "Fife & Drum"
+
+[node name="OrchestralBtn" type="Button" parent="Panel/VBox/CategoryTabs"]
+layout_mode = 2
+text = "Orchestral"
+
+[node name="TrackList" type="ItemList" parent="Panel/VBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 150)
+
+[node name="Controls" type="HBoxContainer" parent="Panel/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 15
+
+[node name="PrevBtn" type="Button" parent="Panel/VBox/Controls"]
+layout_mode = 2
+text = "<< Prev"
+
+[node name="PlayBtn" type="Button" parent="Panel/VBox/Controls"]
+layout_mode = 2
+text = "Play"
+
+[node name="NextBtn" type="Button" parent="Panel/VBox/Controls"]
+layout_mode = 2
+text = "Next >>"
+
+[node name="ShuffleBtn" type="Button" parent="Panel/VBox/Controls"]
+layout_mode = 2
+text = "Shuffle"
+
+[node name="RepeatBtn" type="Button" parent="Panel/VBox/Controls"]
+layout_mode = 2
+text = "Repeat"
+
+[node name="VolumeLabel" type="Label" parent="Panel/VBox"]
+layout_mode = 2
+text = "Volume:"
+
+[node name="VolumeSlider" type="HSlider" parent="Panel/VBox"]
+layout_mode = 2
+max_value = 100.0
+value = 75.0
+
+[node name="CloseButton" type="Button" parent="Panel/VBox"]
+layout_mode = 2
+text = "CLOSE"
