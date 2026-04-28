@@ -22,6 +22,7 @@ func _load_all() -> void:
 	_load_connections()
 	_load_json_raw("res://data/maps/battles.json", _battles)
 	_load_json_raw("res://data/music/tracks.json", _music_tracks)
+	Logger.info("CardDatabase", "Loaded %d units, %d commanders, %d situations, %d territories" % [_units.size(), _commanders.size(), _situations.size(), _territories.size()])
 	database_loaded.emit()
 
 func _load_json_array(path: String, target: Dictionary) -> void:
@@ -57,17 +58,17 @@ func _load_json_raw(path: String, target: Array) -> void:
 
 func _read_json(path: String) -> Variant:
 	if not FileAccess.file_exists(path):
-		push_warning("CardDatabase: file not found: " + path)
+		Logger.warn("CardDatabase", "File not found: " + path)
 		return null
 	var file: FileAccess = FileAccess.open(path, FileAccess.READ)
 	if file == null:
-		push_error("CardDatabase: cannot open: " + path)
+		Logger.error("CardDatabase", "Cannot open: " + path)
 		return null
 	var json: JSON = JSON.new()
 	var err: Error = json.parse(file.get_as_text())
 	file.close()
 	if err != OK:
-		push_error("CardDatabase: parse error in " + path + ": " + json.get_error_message())
+		Logger.error("CardDatabase", "Parse error in %s: %s" % [path, json.get_error_message()])
 		return null
 	return json.get_data()
 
@@ -143,6 +144,10 @@ func get_music_tracks(category: String = "") -> Array:
 		if track.get("category", "") == category:
 			result.append(track)
 	return result
+
+func get_music_tracks_for_side(side: String) -> Array:
+	var style: String = GameManager.get_music_style(side)
+	return get_music_tracks(style)
 
 func get_all_card_ids() -> Dictionary:
 	return {

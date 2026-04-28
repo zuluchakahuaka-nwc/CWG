@@ -11,76 +11,195 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1")
 
-[node name="Background" type="ColorRect" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-color = Color(0.1, 0.15, 0.1, 1)
-
 [node name="MapArea" type="Control" parent="."]
-layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_bottom = -120.0
+grow_horizontal = 2
+grow_vertical = 2
+clip_contents = true
 
-[node name="TopBar" type="HBoxContainer" parent="."]
-layout_mode = 1
+[node name="TopBar" type="PanelContainer" parent="."]
 anchor_right = 1.0
-offset_bottom = 50.0
-theme_override_constants/separation = 20
+offset_bottom = 40.0
+z_index = 10
 
-[node name="TurnInfo" type="Label" parent="TopBar"]
+[node name="HBox" type="HBoxContainer" parent="TopBar"]
 layout_mode = 2
-text = "Turn 1 - April 1861"
+theme_override_constants/separation = 16
 
-[node name="PhaseLabel" type="Label" parent="TopBar"]
+[node name="TurnInfo" type="Label" parent="TopBar/HBox"]
 layout_mode = 2
-text = "Resource Phase"
+text = "Turn 1"
 
-[node name="PhonographButton" type="Button" parent="TopBar"]
+[node name="PhaseLabel" type="Label" parent="TopBar/HBox"]
 layout_mode = 2
-minimum_size = Vector2(40, 40)
-text = "♫"
+text = "Resources"
 
-[node name="MenuButton" type="Button" parent="TopBar"]
+[node name="SideLabel" type="Label" parent="TopBar/HBox"]
 layout_mode = 2
-text = "MENU"
+text = "UNION"
 
-[node name="BottomPanel" type="HBoxContainer" parent="."]
-layout_mode = 1
+[node name="Spacer" type="Control" parent="TopBar/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="EditMapButton" type="Button" parent="TopBar/HBox"]
+layout_mode = 2
+text = "Edit Map"
+toggle_mode = true
+
+[node name="SettingsButton" type="Button" parent="TopBar/HBox"]
+layout_mode = 2
+text = "Settings"
+
+[node name="PhonographButton" type="Button" parent="TopBar/HBox"]
+layout_mode = 2
+text = "Music"
+
+[node name="MenuButton" type="Button" parent="TopBar/HBox"]
+layout_mode = 2
+text = "Menu"
+
+[node name="BottomBg" type="ColorRect" parent="."]
 anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -120.0
-offset_left = 10.0
-offset_right = -10.0
-offset_bottom = -10.0
+offset_top = -200.0
+offset_bottom = 0.0
+z_index = 10
+color = Color(0.22, 0.25, 0.22, 0.92)
 
-[node name="ResourcePanel" type="VBoxContainer" parent="BottomPanel"]
+[node name="StatusBar" type="HBoxContainer" parent="."]
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+offset_bottom = -2.0
+offset_left = 4.0
+offset_right = -4.0
+z_index = 11
+theme_override_constants/separation = 16
+
+[node name="ManpowerLabel" type="Label" parent="StatusBar"]
 layout_mode = 2
-minimum_size = Vector2(200, 0)
+text = "Men: 6"
 
-[node name="MoralePanel" type="VBoxContainer" parent="BottomPanel"]
+[node name="MoneyLabel" type="Label" parent="StatusBar"]
 layout_mode = 2
-minimum_size = Vector2(150, 0)
+text = "Gold: 7"
 
-[node name="HandContainer" type="HBoxContainer" parent="BottomPanel"]
+[node name="SupplyLabel" type="Label" parent="StatusBar"]
+layout_mode = 2
+text = "Supply: 5"
+
+[node name="MoraleLabel" type="Label" parent="StatusBar"]
+layout_mode = 2
+text = "Morale: 0"
+
+[node name="MoraleStatus" type="Label" parent="StatusBar"]
+layout_mode = 2
+text = "Neutral"
+
+[node name="InfoLabel" type="Label" parent="StatusBar"]
 layout_mode = 2
 size_flags_horizontal = 3
+text = ""
+autowrap_mode = 2
 
-[node name="ActionButtons" type="VBoxContainer" parent="BottomPanel"]
+[node name="EndTurnButton" type="Button" parent="StatusBar"]
 layout_mode = 2
-minimum_size = Vector2(150, 0)
+custom_minimum_size = Vector2(120, 30)
+text = "END PHASE"
 
-[node name="EndTurnButton" type="Button" parent="BottomPanel/ActionButtons"]
+[node name="AutoTurnButton" type="Button" parent="StatusBar"]
 layout_mode = 2
-minimum_size = Vector2(0, 50)
-text = "END TURN"
+custom_minimum_size = Vector2(120, 30)
+text = "SKIP TURN"
 
-[node name="AutoTurnButton" type="Button" parent="BottomPanel/ActionButtons"]
+[node name="CardDetailPopup" type="PanelContainer" parent="."]
+visible = false
+z_index = 100
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -120.0
+offset_top = -220.0
+offset_right = 120.0
+offset_bottom = 220.0
+
+[node name="DetailVBox" type="VBoxContainer" parent="CardDetailPopup"]
 layout_mode = 2
-minimum_size = Vector2(0, 50)
-text = "AUTO TURN"
+theme_override_constants/separation = 6
+
+[node name="DetailImage" type="TextureRect" parent="CardDetailPopup/DetailVBox"]
+layout_mode = 2
+custom_minimum_size = Vector2(200, 280)
+expand_mode = 1
+stretch_mode = 5
+
+[node name="DetailName" type="Label" parent="CardDetailPopup/DetailVBox"]
+layout_mode = 2
+text = "Card Name"
+horizontal_alignment = 1
+
+[node name="DetailStats" type="Label" parent="CardDetailPopup/DetailVBox"]
+layout_mode = 2
+text = "ATK:0 DEF:0 HP:0 Cost:0"
+horizontal_alignment = 1
+
+[node name="DetailDesc" type="Label" parent="CardDetailPopup/DetailVBox"]
+layout_mode = 2
+text = ""
+autowrap_mode = 2
+horizontal_alignment = 1
+
+[node name="DetailClose" type="Button" parent="CardDetailPopup/DetailVBox"]
+layout_mode = 2
+text = "CLOSE"
+
+[node name="TerritoryInfoPanel" type="PanelContainer" parent="."]
+visible = false
+z_index = 50
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -340.0
+offset_top = 44.0
+offset_bottom = 400.0
+grow_horizontal = 0
+
+[node name="TVBox" type="VBoxContainer" parent="TerritoryInfoPanel"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="TName" type="Label" parent="TerritoryInfoPanel/TVBox"]
+layout_mode = 2
+text = "Territory"
+horizontal_alignment = 1
+
+[node name="TOwner" type="Label" parent="TerritoryInfoPanel/TVBox"]
+layout_mode = 2
+text = "Owner: Union"
+horizontal_alignment = 1
+
+[node name="TTerrain" type="Label" parent="TerritoryInfoPanel/TVBox"]
+layout_mode = 2
+text = "Terrain: plains"
+horizontal_alignment = 1
+
+[node name="TUnitsLabel" type="Label" parent="TerritoryInfoPanel/TVBox"]
+layout_mode = 2
+text = "Units:"
+
+[node name="TUnitsList" type="VBoxContainer" parent="TerritoryInfoPanel/TVBox"]
+layout_mode = 2
+theme_override_constants/separation = 2
+
+[node name="TClose" type="Button" parent="TerritoryInfoPanel/TVBox"]
+layout_mode = 2
+text = "CLOSE"

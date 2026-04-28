@@ -25,25 +25,51 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -350.0
-offset_top = -300.0
-offset_right = 350.0
-offset_bottom = 300.0
+offset_left = -380.0
+offset_top = -340.0
+offset_right = 380.0
+offset_bottom = 340.0
 grow_horizontal = 2
 grow_vertical = 2
 
 [node name="VBox" type="VBoxContainer" parent="Panel"]
 layout_mode = 2
+theme_override_constants/separation = 8
 
 [node name="TitleLabel" type="Label" parent="Panel/VBox"]
 layout_mode = 2
 text = "PHONOGRAPH"
 horizontal_alignment = 1
+theme_override_font_sizes/font_size = 24
+
+[node name="SideTabs" type="HBoxContainer" parent="Panel/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 10
+alignment = 1
+
+[node name="UnionBtn" type="Button" parent="Panel/VBox/SideTabs"]
+layout_mode = 2
+custom_minimum_size = Vector2(180, 40)
+text = "UNION (North)"
+theme_override_font_sizes/font_size = 14
+
+[node name="ConfedBtn" type="Button" parent="Panel/VBox/SideTabs"]
+layout_mode = 2
+custom_minimum_size = Vector2(180, 40)
+text = "CONFED (South)"
+theme_override_font_sizes/font_size = 14
+
+[node name="ModeLabel" type="Label" parent="Panel/VBox"]
+layout_mode = 2
+text = "PHONOGRAPH RECORDS"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.7, 0.65, 0.5, 1)
 
 [node name="DiscPlaceholder" type="ColorRect" parent="Panel/VBox"]
 layout_mode = 2
-custom_minimum_size = Vector2(0, 200)
-color = Color(0.2, 0.15, 0.1, 1)
+custom_minimum_size = Vector2(0, 120)
+color = Color(0.15, 0.18, 0.25, 1)
 
 [node name="NowPlayingLabel" type="Label" parent="Panel/VBox"]
 layout_mode = 2
@@ -54,44 +80,22 @@ horizontal_alignment = 1
 layout_mode = 2
 text = "---"
 horizontal_alignment = 1
+theme_override_font_sizes/font_size = 14
 
-[node name="Progressbar" type="ProgressBar" parent="Panel/VBox"]
+[node name="ProgressBar" type="ProgressBar" parent="Panel/VBox"]
 layout_mode = 2
-custom_minimum_size = Vector2(0, 20)
+custom_minimum_size = Vector2(0, 16)
 max_value = 100.0
 value = 0.0
 
-[node name="CategoryTabs" type="HBoxContainer" parent="Panel/VBox"]
-layout_mode = 2
-theme_override_constants/separation = 8
-
-[node name="MarchesBtn" type="Button" parent="Panel/VBox/CategoryTabs"]
-layout_mode = 2
-text = "Marches"
-
-[node name="BalladsBtn" type="Button" parent="Panel/VBox/CategoryTabs"]
-layout_mode = 2
-text = "Ballads"
-
-[node name="HymnsBtn" type="Button" parent="Panel/VBox/CategoryTabs"]
-layout_mode = 2
-text = "Hymns"
-
-[node name="FifeBtn" type="Button" parent="Panel/VBox/CategoryTabs"]
-layout_mode = 2
-text = "Fife & Drum"
-
-[node name="OrchestralBtn" type="Button" parent="Panel/VBox/CategoryTabs"]
-layout_mode = 2
-text = "Orchestral"
-
 [node name="TrackList" type="ItemList" parent="Panel/VBox"]
 layout_mode = 2
-custom_minimum_size = Vector2(0, 150)
+custom_minimum_size = Vector2(0, 140)
 
 [node name="Controls" type="HBoxContainer" parent="Panel/VBox"]
 layout_mode = 2
-theme_override_constants/separation = 15
+theme_override_constants/separation = 12
+alignment = 1
 
 [node name="PrevBtn" type="Button" parent="Panel/VBox/Controls"]
 layout_mode = 2
@@ -100,6 +104,10 @@ text = "<< Prev"
 [node name="PlayBtn" type="Button" parent="Panel/VBox/Controls"]
 layout_mode = 2
 text = "Play"
+
+[node name="StopBtn" type="Button" parent="Panel/VBox/Controls"]
+layout_mode = 2
+text = "Stop"
 
 [node name="NextBtn" type="Button" parent="Panel/VBox/Controls"]
 layout_mode = 2
@@ -116,6 +124,7 @@ text = "Repeat"
 [node name="VolumeLabel" type="Label" parent="Panel/VBox"]
 layout_mode = 2
 text = "Volume:"
+horizontal_alignment = 1
 
 [node name="VolumeSlider" type="HSlider" parent="Panel/VBox"]
 layout_mode = 2
@@ -124,4 +133,5 @@ value = 75.0
 
 [node name="CloseButton" type="Button" parent="Panel/VBox"]
 layout_mode = 2
+custom_minimum_size = Vector2(0, 40)
 text = "CLOSE"

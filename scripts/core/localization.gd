@@ -2,11 +2,15 @@ extends Node
 
 signal language_changed(lang: String)
 
-var _current_lang: String = "ru"
+const SAVE_PATH: String = "user://settings.json"
+
+var _current_lang: String = "en"
 var _translations: Dictionary = {}
+var _available_languages: PackedStringArray = []
 
 func _ready() -> void:
 	_load_translations()
+	_load_saved_language()
 
 func _load_translations() -> void:
 	var path: String = "res://data/localization/translations.csv"
@@ -20,7 +24,10 @@ func _load_translations() -> void:
 	var header: PackedStringArray = file.get_csv_line()
 	var lang_idx: Dictionary = {}
 	for i in range(1, header.size()):
-		lang_idx[header[i].strip_edges()] = i
+		var lang: String = header[i].strip_edges()
+		lang_idx[lang] = i
+		if not _available_languages.has(lang):
+			_available_languages.append(lang)
 	while not file.eof_reached():
 		var line: PackedStringArray = file.get_csv_line()
 		if line.size() < 2 or line[0].strip_edges() == "":
@@ -34,14 +41,64 @@ func _load_translations() -> void:
 				_translations[lang][key] = line[idx].strip_edges()
 	file.close()
 
+func _load_saved_language() -> void:
+	if not FileAccess.file_exists(SAVE_PATH):
+		var sys_lang: String = TranslationServer.get_locale()
+		if sys_lang.begins_with("ru"):
+			_current_lang = "ru"
+		return
+	var file: FileAccess = FileAccess.open(SAVE_PATH, FileAccess.READ)
+	if file == null:
+		return
+	var json: JSON = JSON.new()
+	json.parse(file.get_as_text())
+	file.close()
+	var data: Dictionary = json.get_data()
+	if data.has("language"):
+		var saved: String = data["language"]
+		if _available_languages.has(saved):
+			_current_lang = saved
+
+func _save_settings() -> void:
+	var data: Dictionary = {"language": _current_lang}
+	var file: FileAccess = FileAccess.open(SAVE_PATH, FileAccess.WRITE)
+	if file:
+		file.store_string(JSON.stringify(data, "\t"))
+		file.close()
+
 func set_language(lang: String) -> void:
 	if lang == _current_lang:
 		return
 	_current_lang = lang
+	_save_settings()
 	language_changed.emit(lang)
 
 func get_language() -> String:
 	return _current_lang
+
+func get_available_languages() -> PackedStringArray:
+	return _available_languages
+
+func get_language_native_name(lang: String) -> String:
+	match lang:
+		"ru": return "Русский"
+		"en": return "English"
+		"fr": return "Français"
+		"es": return "Español"
+		"de": return "Deutsch"
+		"pt": return "Português"
+		"zh": return "中文"
+		"ja": return "日本語"
+		"hi": return "हिन्दी"
+		"ar": return "العربية"
+		_: return lang
+
+func has_key(key: String) -> bool:
+	if _translations.has(_current_lang) and _translations[_current_lang].has(key):
+		return true
+	if _translations.has("en") and _translations["en"].has(key):
+		return true
+	return false
 
 func t(key: String) -> String:
 	if _translations.has(_current_lang) and _translations[_current_lang].has(key):

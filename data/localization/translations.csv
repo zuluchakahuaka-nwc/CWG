@@ -1,395 +1,463 @@
-key,ru,en
-game.title,Гражданская война: Синие и Серые,Civil War: Blue & Gray
-game.new_game,Новая игра,New Game
-game.continue,Продолжить,Continue
-game.settings,Настройки,Settings
-game.quit,Выйти,Quit
-game.language,Язык,Language
-game.back,Назад,Back
-game.ok,ОК,OK
-game.cancel,Отмена,Cancel
-game.apply,Применить,Apply
-game.close,Закрыть,Close
-game.yes,Да,Yes
-game.no,Нет,No
-game.scenarios,Сценарии,Scenarios
-game.start_battle,Начать бой,Start Battle
-game.end_turn,Конец хода,End Turn
-game.auto_turn,Авто-ход,Auto Turn
-game.phonograph,Патефон,Phonograph
-game.victory,Победа!,Victory!
-game.defeat,Поражение,Defeat
-game.draw,Ничья,Draw
-side.union,Союз,Union
-side.confederate,Конфедерация,Confederacy
-side.union_short,Север,North
-side.confederate_short,Юг,South
-resource.manpower,Люди,Manpower
-resource.money,Деньги,Money
-resource.supply,Снабжение,Supply
-resource.morale,Мораль,Morale
-phase.resources,Фаза ресурсов,Resource Phase
-phase.draw,Фаза розыгрыша,Draw Phase
-phase.movement,Фаза перемещения,Movement Phase
-phase.combat,Фаза боя,Combat Phase
-phase.events,Фаза событий,Events Phase
-phase.end,Конец хода,End Turn Phase
-morale.sacred_fervor,Священный рвений,Sacred Fervor
-morale.uplift,Воодушевление,Uplift
-morale.normal,Нормальный,Normal
-morale.neutral,Нейтральный,Neutral
-morale.gloom,Уныние,Gloom
-morale.unrest,Брожение,Unrest
-morale.rebellion,Мятеж,Rebellion
-morale.revolution,Революция,Revolution
-terrain.plains,Равнина,Plains
-terrain.hills,Холмы,Hills
-terrain.forest,Лес,Forest
-terrain.river,Река,River
-terrain.city,Город,City
-terrain.swamp,Болото,Swamp
-terrain.mountain,Горы,Mountains
-card_type.infantry,Пехота,Infantry
-card_type.cavalry,Кавалерия,Cavalry
-card_type.artillery,Артиллерия,Artillery
-card_type.ship,Флот,Navy
-card_type.special,Спецподразделения,Special Forces
-card_type.situation,Ситуация,Situation
-card_type.commander,Командующий,Commander
-rarity.common,Обычная,Common
-rarity.uncommon,Необычная,Uncommon
-rarity.rare,Редкая,Rare
-rarity.legendary,Легендарная,Legendary
-combat.attack,Атака,Attack
-combat.defense,Защита,Defense
-combat.hp,Здоровье,HP
-combat.cost,Стоимость,Cost
-combat.damage,Урон,Damage
-combat.destroyed,Уничтожен,Destroyed
-combat.counterattack,Контратака,Counterattack
-victory.capital,Захват столицы,Capital Capture
-victory.morale_collapse,Моральный крах,Morale Collapse
-victory.appomattox,Капитуляция Аппоматтокс,Appomattox Surrender
-victory.timeout,Время истекло,Time Expired
-scenario.1861,1861: Первый Манассас,1861: First Manassas
-scenario.1862,1862: Энтитем/Мэриленд,1862: Antietam/Maryland
-scenario.1863,1863: Геттисберг/Виксберг,1863: Gettysburg/Vicksburg
-scenario.1864,1864: Атлантская кампания,1864: Atlanta Campaign
-scenario.1865,1865: Аппоматтокс,1865: Appomattox
-scenario.full,Полная кампания (1861-1865),Full Campaign (1861-1865)
-phonograph.title,Патефон,Phonograph
-phonograph.now_playing,Сейчас играет:,Now Playing:
-phonograph.volume,Громкость:,Volume:
-phonograph.shuffle,Перемешать,Shuffle
-phonograph.repeat,Повтор,Repeat
-phonograph.next,Далее,Next
-phonograph.close,Закрыть патефон,Close Phonograph
-phonograph.category.marches,Марши,Marches
-phonograph.category.ballads,Баллады,Ballads
-phonograph.category.hymns,Гимны,Hymns
-phonograph.category.fife_and_drum,Фиф и барабан,Fife and Drum
-phonograph.category.orchestral,Оркестровые,Orchestral
-territory.washington_dc,Вашингтон,Washington D.C.
-territory.maryland,Мэриленд,Maryland
-territory.virginia_north,Северная Виргиния,Northern Virginia
-territory.richmond,Ричмонд,Richmond
-territory.shenandoah,Долина Шенандоа,Shenandoah Valley
-territory.virginia_west,Западная Виргиния,West Virginia
-territory.pennsylvania,Пенсильвания,Pennsylvania
-territory.harpers_ferry,Харперс-Ферри,Harpers Ferry
-territory.kentucky,Кентукки,Kentucky
-territory.tennessee_east,Восточный Теннесси,East Tennessee
-territory.tennessee_west,Западный Теннесси,West Tennessee
-territory.nashville,Нэшвилл,Nashville
-territory.mississippi_north,Северная Миссисипи,Northern Mississippi
-territory.vicksburg,Виксберг,Vicksburg
-territory.alabama_north,Северная Алабама,Northern Alabama
-territory.atlanta,Атланта,Atlanta
-territory.georgia_south,Южная Джорджия,Southern Georgia
-territory.memphis,Мемфис,Memphis
-territory.chattanooga,Чаттануга,Chattanooga
-territory.natchez,Натчез,Natchez
-territory.corinth,Коринф,Corinth
-territory.missouri,Миссури,Missouri
-territory.arkansas,Арканзас,Arkansas
-territory.louisiana_north,Северная Луизиана,Northern Louisiana
-territory.new_orleans,Новый Орлеан,New Orleans
-territory.texas,Техас,Texas
-territory.indian_territory,Индейская территория,Indian Territory
-territory.louisiana_south,Южная Луизиана,Southern Louisiana
-territory.north_carolina,Северная Каролина,North Carolina
-territory.south_carolina,Южная Каролина,South Carolina
-territory.charleston,Чарлстон,Charleston
-territory.florida,Флорида,Florida
-territory.wilmington,Уилмингтон,Wilmington
-territory.savannah,Саванна,Savannah
-territory.mobile,Мобил,Mobile
-territory.atlantic_coast,Атлантическое побережье,Atlantic Coast
-territory.gulf_coast,Мексиканский залив,Gulf of Mexico
-territory.mississippi_river,Река Миссисипи,Mississippi River
-event.hampton_roads,Первый бой броненосцев,First Ironclad Battle
-event.picketts_charge,Чардж Пикетта,Pickett's Charge
-event.friendly_fire,Дружественный огонь,Friendly Fire
-event.bayonet_charge,Штыковая атака,Bayonet Charge
-event.lincoln_assass,Убийство Линкольна,Lincoln Assassination
-event.emancipation,Прокламация об освобождении,Emancipation Proclamation
-event.appomattox,Аппоматтокс,Appomattox
-event.march_to_sea,Марш к морю,March to the Sea
-event.cushing_torpedo,Торпеда Кушинга,Cushing's Spar Torpedo
-event.ram_cumberland,Таран «Вирджинии»,Ram of Virginia
-event.sink_alabama,Потопление «Алабамы»,Sinking of Alabama
-event.hunley_attack,Подводная атака,Submarine Attack
-event.cairo_mines,Мины на Язу,Mines at Yazoo
-event.arkansas_breakout,Прорыв «Арканзаса»,Arkansas Breakout
-event.capture_atlanta_ship,Захват «Атланты»,Capture of Atlanta
-event.mobile_bay,Бой в Мобил-Бэй,Battle of Mobile Bay
-event.last_shot,Последний выстрел войны,Last Shot of the War
-event.fingal_run,Блокадопрорыв «Фингала»,Fingal Blockade Run
-event.minnesota_sacrifice,Жертвенная атака,Minnesota Sacrifice
-event.stonewall_name,«Стоунуолл!»,Stonewall!
-event.iron_brigade,Железная бригада,Iron Brigade
-event.berdan_sniper,Снайперы Бердана,Berdan's Snipers
-event.fort_wagner,Штурм Форт-Уогнера,Assault on Fort Wagner
-event.hoovers_gap,«Молниеносная бригада»,Lightning Brigade
-event.mosby_fairfax,Рейд Мосби,Mosby's Raid
-event.beefsteak_raid,Кража скота,Beefsteak Raid
-event.try_us,«Попробуй нас!»,Try Us!
-event.pelham_flank,Пелхэм при Фредериксберге,Pelham's Flank
-event.pelham_death,Гибель Пелхэма,Death of Pelham
-event.stuart_death,Смерть Стюарта,Death of Stuart
-event.forrest_braves,«Волшебник седла»,Wizard of the Saddle
-event.sidney_johnston,Смерть С. Джонстона,Death of Sidney Johnston
-event.syren_blockade,Блокада прорвана!,Blockade Broken!
-event.russian_support,Поддержка России,Russian Support
-event.british_enfields,Британские «Энфилды»,British Enfields
-event.damn_torpedoes,«Проклятье на торпеды!»,Damn the Torpedoes!
-event.atlanta_fall,Атланта пала,Atlanta Has Fallen
-event.andrews_raid,Железнодорожный рейд Эндрюса,Andrews' Railroad Raid
-event.vicksburg_fall,Виксберг пал,Vicksburg Has Fallen
-event.first_monitor,Первый «Монитор»,First Monitor
-event.lee_refusal,«Я не знаю мистера Ли»,I Know No Mr. Lee
-event.first_manassas,Первый Манассас,First Manassas
-event.shiloh,Шайло,Shiloh
-event.antietam,Энтитем,Antietam
-event.fredericksburg,Фредериксберг,Fredericksburg
-event.chancellorsville,Чанселлорсвилл,Chancellorsville
-event.gettysburg,Геттисберг,Gettysburg
-event.chickamauga,Чикамога,Chickamauga
-event.chattanooga_battle,Чаттануга,Chattanooga
-event.spotsylvania,Спотсильвания,Spotsylvania
-event.cold_harbor,Колд-Харбор,Cold Harbor
-event.petersburg,Петерсберг,Petersburg
-event.bull_run_first,Первый Булл-Ран,First Bull Run
-event.bull_run_second,Второй Булл-Ран,Second Bull Run
-event.pea_ridge,Пи-Ридж,Pea Ridge
-event.stones_river,Стоунс-Ривер,Stones River
-event.wilderness,Глушь,The Wilderness
-event.sherman_march,Марш Шермана,Sherman's March
-event.carolina_campaign,Кампания в Каролинах,Carolina Campaign
-event.nashville_battle,Битва за Нэшвилл,Battle of Nashville
-event.mobile_campaign,Кампания у Мобила,Mobile Campaign
-event.fort_sumter,Форт Самтер,Fort Sumter
-event.bread_riot,Хлебный бунт,Bread Riot
-event.ny_draft_riot,Нью-Йоркский бунт,NY Draft Riot
-event.conscription_cascade,Бунт призывников,Conscript Mutiny
-event.desertion,Дезертирство,Desertion
-event.disease,Тиф/эпидемия,Typhus/Epidemic
-event.blockade,Морская блокада,Naval Blockade
-event.blockade_run,Прорыв блокады,Blockade Run
-event.volunteers,Набор добровольцев,Volunteer Recruitment
-event.conscription,Призыв,Conscription
-event.foreign_arms,Иностранное оружие,Foreign Arms
-event.partisan,Каперство,Privateering
-event.naval_mines,Морские мины,Naval Mines
-event.night_march,Ночной марш,Night March
-event.ambush,Засада,Ambush
-event.reconnaissance,Разведка,Reconnaissance
-event.pontoons,Понтонные мосты,Pontoon Bridges
-event.siege_train,Осадный поезд,Siege Train
-event.rain,Дождь,Rain
-event.hardtack,Сухари и кофе,Hardtack and Coffee
-event.mud,Распутица,Mud
-event.railroad,Железная дорога,Railroad
-event.telegraph,Телеграф,Telegraph
-event.spies,Шпионаж,Spies
-event.counterspy,Контршпионаж,Counterspy
-event.arty_barrage,Артиллерийская подготовка,Artillery Barrage
-event.fieldworks,Полевые укрепления,Fieldworks
-event.suppress_revolt,Подавление бунта,Suppress Revolt
-event.soldier_wound,Ранение,Wound
-event.soldier_death,Гибель,Death
-event.surrender,Сдача,Surrender
-event.reinforce,Подкрепление,Reinforcements
-event.retreat,Отступление,Retreat
-event.advance,Наступление,Advance
-event.flanking,Фланговый обход,Flanking Maneuver
-event.formations,Построение,Formations
-event.charge,Атака в штыки,Bayonet Charge
-event.rally,Перегруппировка,Rally
-event.entrench,Окопаться,Entrench
-event.withdraw,Отвод войск,Withdraw
-event.reconquest,Реконкиста,Reconquest
-event.guerrilla,Партизаны,Guerrillas
-event.scout,Разведка,Scout
-event.supply_line,Линия снабжения,Supply Line
-event.intercept,Перехват,Intercept
-event.fortify,Укрепить,Fortify
-event.demolish,Разрушить,Demolish
-event.repair,Восстановить,Repair
-event.bridge,Мост,Bridge
-event.ford,Брод,Ford
-event.pass,Перевал,Pass
-event.harbor,Гавань,Harbor
-event.lighthouse,Маяк,Lighthouse
-event.warehouse,Склад,Warehouse
-event.armory,Арсенал,Arsenal
-event.hospital,Госпиталь,Hospital
-event.prison,Тюрьма,Prison
-event.camp,Лагерь,Camp
-event.barracks,Казармы,Barracks
-cmd.lincoln,Авраам Линкольн,Abraham Lincoln
-cmd.grant,Улисс С. Грант,Ulysses S. Grant
-cmd.sherman,Уильям Т. Шерман,William T. Sherman
-cmd.mcclellan,Джордж Макклеллан,George McClellan
-cmd.meade,Джордж Миад,George Meade
-cmd.burnside,Амброуз Бернсайд,Ambrose Burnside
-cmd.hooker,Джозеф Хукер,Joseph Hooker
-cmd.sheridan,Филип Шеридан,Philip Sheridan
-cmd.custer,Джордж Армстронг Кастер,George Armstrong Custer
-cmd.hancock,Уинфилд Скотт Хэнкок,Winfield Scott Hancock
-cmd.reynolds,Джон Рейнольдс,John Reynolds
-cmd.chamberlain,Джошуа Чемберлен,Joshua Chamberlain
-cmd.jefferson,Джефферсон Дэвис,Jefferson Davis
-cmd.relee,Роберт Э. Ли,Robert E. Lee
-cmd.stonewall,Томас «Стоунуолл» Джексон,Thomas "Stonewall" Jackson
-cmd.longstreet,Джеймс Лонгстрит,James Longstreet
-cmd.stuart,Дж.Э.Б. Стюарт,J.E.B. Stuart
-cmd.aphill,A.P. Хилл,A.P. Hill
-cmd.forrest,Натан Бедфорд Форрест,Nathan Bedford Forrest
-cmd.johnston,Джозеф Джонстон,Joseph Johnston
-cmd.bragg,Брэкстон Брэгг,Braxton Bragg
-cmd.hood,Джон Белл Худ,John Bell Hood
-cmd.pickett,Джордж Пикетт,George Pickett
-cmd.early,Джубал Эрли,Jubal Early
-cmd.sidney_johnston,Альберт С. Джонстон,Albert S. Johnston
-cmd.beauregard,П.Г.Т. Борегар,P.G.T. Beauregard
-cmd.buckner,Саймон Боливар Бакнер,Simon Bolivar Buckner
-cmd.polk,Леонидас Полк,Leonidas Polk
-cmd.hardee,Уильям Дж. Харди,William J. Hardee
-cmd.cleburne,Патрик Клебёрн,Patrick Cleburne
-cmd.gordon,Джон Б. Гордон,John B. Gordon
-cmd.rosecrans,Уильям Роскранс,William Rosecrans
-cmd.thomas,Джордж Х. Томас,George H. Thomas
-cmd.mclellan_opinion,Макклеллан: слишком осторожен?,McClellan: Too Cautious?
-cmd.burnside_opinion,Бернсайд: лобовая атака?,Burnside: Frontal Assault?
-ui.turn,Ход,Turn
-ui.month.01,Январь,January
-ui.month.02,Февраль,February
-ui.month.03,Март,March
-ui.month.04,Апрель,April
-ui.month.05,Май,May
-ui.month.06,Июнь,June
-ui.month.07,Июль,July
-ui.month.08,Август,August
-ui.month.09,Сентябрь,September
-ui.month.10,Октябрь,October
-ui.month.11,Ноябрь,November
-ui.month.12,Декабрь,December
-ui.year,Год,Year
-ui.deck,Колода,Deck
-ui.hand,Рука,Hand
-ui.discard,Сброс,Discard
-ui.graveyard,Кладбище,Graveyard
-ui.play_card,Разыграть,Play
-ui.draw_card,Взять карту,Draw Card
-ui.discard_card,Сбросить,Discard
-ui.move_unit,Двигать юнита,Move Unit
-ui.select_territory,Выберите территорию,Select Territory
-ui.select_target,Выберите цель,Select Target
-ui.select_card,Выберите карту,Select Card
-ui.confirm,Подтвердить,Confirm
-ui.waiting,Ожидание...,Waiting...
-ui.ai_thinking,ИИ думает...,AI is thinking...
-ui.your_turn,Ваш ход,Your Turn
-ui.enemy_turn,Ход противника,Enemy Turn
-ui.battle_starts,Бой начинается!,Battle Begins!
-ui.battle_ends,Бой окончен,Battle Over
-ui.winner,Победитель:,Winner:
-ui.loser,Проигравший:,Loser:
-ui.casualties,Потери:,Casualties:
-ui.remaining,Осталось:,Remaining:
-ui.player,Игрок,Player
-ui.enemy,Противник,Enemy
-ui.difficulty,Сложность,Difficulty
-ui.difficulty.easy,Лёгкая,Easy
-ui.difficulty.normal,Обычная,Normal
-ui.difficulty.hard,Сложная,Hard
-ui.autoturn.conservative,Консервативная,Conservative
-ui.autoturn.balanced,Сбалансированная,Balanced
-ui.autoturn.aggressive,Агрессивная,Aggressive
-ui.settings.graphics,Графика,Graphics
-ui.settings.audio,Звук,Audio
-ui.settings.gameplay,Геймплей,Gameplay
-ui.music_volume,Музыка,Music
-ui.sfx_volume,Эффекты,SFX
-ui.fullscreen,Полный экран,Fullscreen
-ui.resolution,Разрешение,Resolution
-ui.save,Сохранить,Save
-ui.load,Загрузить,Load
-ui.delete,Удалить,Delete
-ui.saved_games,Сохранения,Saved Games
-ui.no_saves,Нет сохранений,No Saved Games
-ui.save_slot,Слот сохранения,Save Slot
-ui.overwrite_save,Перезаписать сохранение?,Overwrite save?
-ui.load_confirm,Загрузить это сохранение?,Load this save?
-ui.delete_confirm,Удалить это сохранение?,Delete this save?
-ui.tutorial,Обучение,Tutorial
-ui.credits,Авторы,Credits
-ui.credits_text,Разработано с Godot 4.x,Developed with Godot 4.x
-ui.version,Версия,Version
-ui.loading,Загрузка...,Loading...
-ui.error,Ошибка,Error
-ui.warning,Предупреждение,Warning
-ui.info,Информация,Information
-ui.tooltip,Подсказка,Tooltip
-ui.morale_effect,Эффект морали,Morale Effect
-ui.terrain_bonus,Бонус местности,Terrain Bonus
-ui.type_bonus,Бонус типа,Type Bonus
-ui.card_detail,Детали карты,Card Details
-ui.unit_info,Информация о юните,Unit Info
-ui.commander_info,Информация о командующем,Commander Info
-ui.event_info,Информация о событии,Event Info
-ui.territory_info,Информация о территории,Territory Info
-ui.owner,Владелец,Owner
-ui.contested,Оспаривается,Contested
-ui.neutral,Нейтральная,Neutral
-ui.occupied,Оккупирована,Occupied
-ui.blockaded,Блокирована,Blockaded
-ui.supplied,Снабжается,Supplied
-ui.unsupplied,Не снабжается,Unsupplied
-ui.connected,Связана,Connected
-ui.isolated,Изолирована,Isolated
-ui.frontline,Линия фронта,Frontline
-ui.rear,Тыл,Rear
-ui.capital,Столица,Capital
-ui.port,Порт,Port
-ui.railroad,Ж/д узел,Railroad Hub
-ui.fort,Форт,Fort
-ui.resource_income,Доход ресурсов,Resource Income
-ui.manpower_income,Доход людей,Manpower Income
-ui.money_income,Доход денег,Money Income
-ui.supply_income,Доход снабжения,Supply Income
-ui.morale_change,Изменение морали,Morale Change
-ui.cards_in_hand,Карт в руке,Cards in Hand
-ui.cards_in_deck,Карт в колоде,Cards in Deck
-ui.max_hand,Макс. рука,Max Hand
-ui.cost_to_play,Стоимость розыгрыша,Cost to Play
-ui.effect,Эффект,Effect
-ui.duration,Длительность,Duration
-ui.permanent,Постоянный,Permanent
-ui.one_time,Одноразовый,One-time Use
-ui.target_required,Требуется цель,Target Required
-ui.historical_date,Историческая дата,Historical Date
-ui.flavor_text,Историческая справка,Flavor Text
-ui.tags,Теги,Tags
-ui.linked_events,Связанные события,Linked Events
+key,ru,en,fr,es,de,pt,zh,ja,hi,ar
+game.title,Гражданская война: Синие и Серые,Civil War: Blue & Gray,Guerre civile : Bleu et Gris,Guerra Civil: Azul y Gris,Bürgerkrieg: Blau und Grau,Guerra Civil: Azul e Cinzento,南北战争：蓝与灰,南北戦争：青と灰,सिविल वॉर: ब्लू एंड ग्रे,الحرب الأهلية: الأزرق والرمادي
+game.subtitle,Пошаговая карточная стратегия,Turn-based Card Strategy,Stratégie de cartes au tour par tour,Estrategia de cartas por turnos,Rundenbasierte Kartentaktik,Estratégia de cartas por turnos,回合制卡牌策略,ターン制カード戦略,टर्न आधारित कार्ड रणनीति,استراتيجية بطاقات قائمة على الأدوار
+game.new_game,Новая игра,New Game,Nouvelle partie,Nueva partida,Neues Spiel,Novo Jogo,新游戏,ニューゲーム,नया खेल,لعبة جديدة
+game.continue,Продолжить,Continue,Continuer,Continuar,Fortsetzen,Continuar,继续,続行,जारी रखें,متابعة
+game.settings,Настройки,Settings,Paramètres,Configuración,Einstellungen,Configurações,设置,設定,सेटिंग्स,الإعدادات
+game.quit,Выйти,Quit,Quitter,Salir,Beenden,Sair,退出,終了,बाहर निकलें,خروج
+game.language,Язык,Language,Langue,Idioma,Sprache,Idioma,语言,言語,भाषा,اللغة
+game.back,Назад,Back,Retour,Atrás,Zurück,Voltar,返回,戻る,वापस,رجوع
+game.choose_side,Выберите сторону:,Choose your side:,Choisissez votre camp :,Elige tu bando:,Wähle deine Seite:,Escolha seu lado:,选择阵营:,陣営を選択:,अपना पक्ष चुनें:,اختر جانبك:
+game.ok,ОК,OK,OK,OK,OK,OK,确定,OK,ठीक है,حسناً
+game.cancel,Отмена,Cancel,Annuler,Cancelar,Abbrechen,Cancelar,取消,キャンセル,रद्द करें,إلغاء
+game.apply,Применить,Apply,Appliquer,Aplicar,Anwenden,Aplicar,应用,適用,लागू करें,تطبيق
+game.close,Закрыть,Close,Fermer,Cerrar,Schließen,Fechar,关闭,閉じる,बंद करें,إغلاق
+game.yes,Да,Yes,Oui,Sí,Ja,Sim,是,はい,हाँ,نعم
+game.no,Нет,No,Non,No,Nein,Não,否,いいえ,नहीं,لا
+game.scenarios,Сценарии,Scenarios,Scénarios,Escenarios,Szenarien,Cenários,剧本,シナリオ,परिदृश्य,السيناريوهات
+game.start_battle,Начать бой,Start Battle,Commencer la bataille,Iniciar batalla,Schlacht beginnen,Iniciar Batalha,开始战斗,戦闘開始,युद्ध शुरू करें,بدء المعركة
+game.end_turn,Конец хода,End Turn,Fin du tour,Fin de turno,Runde beenden,Fim do Turno,结束回合,ターン終了,बारी समाप्त,إنهاء الدور
+game.auto_turn,Авто-ход,Auto Turn,Tour automatique,Turno automático,Auto-Runde,Auto-Turno,自动回合,オートターン,स्वचालित बारी,دور تلقائي
+game.phonograph,Патефон,Phonograph,Phonographe,Fonógrafo,Phonograph,Gramofone,留声机,蓄音機,फोनोग्राफ,الفونوغراف
+game.victory,Победа!,Victory!,Victoire !,¡Victoria!,Sieg!,Vitória!,胜利！,勝利！,विजय!,انتصار!
+game.defeat,Поражение,Defeat,Défaite,Derrota,Niederlage,Derrota,失败,敗北,पराजय,هزيمة
+game.draw,Ничья,Draw,Match nul,Empate,Unentschieden,Empate,平局,引き分け,बराबरी,تعادل
+side.union,Союз,Union,Union,Unión,Union,União,联邦,北軍,संघ,الاتحاد
+side.confederate,Конфедерация,Confederacy,Confédération,Confederación,Konföderation,Confederação,邦联,南軍,संघराज्य,الكونفدرالية
+side.union_short,Север,North,Nord,Norte,Norden,Norte,北方,北部,उत्तर,الشمال
+side.confederate_short,Юг,South,Sud,Sur,Süden,Sul,南方,南部,दक्षिण,الجنوب
+resource.manpower,Люди,Manpower,Effectifs,Efectivos,Mannstärke,Efetivos,人力,兵力,जनशक्ति,القوة البشرية
+resource.money,Деньги,Money,Argent,Dinero,Geld,Dinheiro,金钱,資金,धन,المال
+resource.supply,Снабжение,Supply,Approvisionnement,Suministros,Nachschub,Suprimentos,补给,補給,आपूर्ति,الإمدادات
+resource.morale,Мораль,Morale,Moral,Moral,Moral,Moral,士气,士気,मनोबल, الروح المعنوية
+phase.resources,Фаза ресурсов,Resource Phase,Phase de ressources,Fase de recursos,Ressourcenphase,Fase de Recursos,资源阶段,資源フェーズ,संसाधन चरण,مرحلة الموارد
+phase.draw,Фаза розыгрыша,Draw Phase,Phase de pioche,Fase de robo,Ziehphase,Fase de Compra,抽牌阶段,ドローフェーズ,कार्ड चरण,مرحلة السحب
+phase.movement,Фаза перемещения,Movement Phase,Phase de mouvement,Fase de movimiento,Bewegungsphase,Fase de Movimento,移动阶段,移動フェーズ,गतिविधि चरण,مرحلة الحركة
+phase.combat,Фаза боя,Combat Phase,Phase de combat,Fase de combate,Kampfphase,Fase de Combate,战斗阶段,戦闘フェーズ,युद्ध चरण,مرحلة القتال
+phase.events,Фаза событий,Events Phase,Phase d'événements,Fase de eventos,Ereignisphase,Fase de Eventos,事件阶段,イベントフェーズ,घटना चरण,مرحلة الأحداث
+phase.end,Конец хода,End Turn Phase,Phase de fin de tour,Fase de fin de turno,Rundenende,Fim do Turno,回合结束,ターン終了,बारी अंत,نهاية الدور
+morale.sacred_fervor,Священный рвений,Sacred Fervor,Ferveur sacrée,Fervor sagrado,Heilige Inbrunst,Fervor Sagrado,神圣狂热,神聖なる熱狂,पवित्र उत्साह,حماسة مقدسة
+morale.uplift,Воодушевление,Uplift,Enthousiasme,Inspiración,Begeisterung,Inspiração,振奋,高揚,प्रेरणा,حماس
+morale.normal,Нормальный,Normal,Normal,Normal,Normal,Normal,正常,通常,सामान्य,عادي
+morale.neutral,Нейтральный,Neutral,Neutre,Neutral,Neutral,Neutro,中立,中立,तटस्थ,محايد
+morale.gloom,Уныние,Gloom,Abattement,Desánimo,Trübsinn,Desânimo,消沉,落胆,निराशा,كآبة
+morale.unrest,Брожение,Unrest,Agitation,Inquietud,Unruhe,Inquietação,骚动,動揺,अशांति,اضطراب
+morale.rebellion,Мятеж,Rebellion,Rébellion,Rebelión,Rebellion,Rebelião,叛乱,反乱,विद्रोह,تمرد
+morale.revolution,Революция,Revolution,Révolution,Revolución,Revolution,Revolução,革命,革命,क्रांति,ثورة
+terrain.plains,Равнина,Plains,Plaines,Llanuras,Ebene,Planícies,平原,平野,मैदान,سهول
+terrain.hills,Холмы,Hills,Collines,Colinas,Hügel,Colinas,丘陵,丘陵,पहाड़ियाँ,تلال
+terrain.forest,Лес,Forest,Forêt,Bosque,Wald,Floresta,森林,森林,वन,غابة
+terrain.river,Река,River,Rivière,Río,Fluss,Rio,河流,河川,नदी,نهر
+terrain.city,Город,City,Ville,Ciudad,Stadt,Cidade,城市,都市,शहर,مدينة
+terrain.swamp,Болото,Swamp,Marais,Pantano,Sumpf,Pântano,沼泽,湿原,दलदल,مستنقع
+terrain.mountain,Горы,Mountains,Montagnes,Montañas,Gebirge,Montanhas,山地,山岳,पर्वत,جبال
+card_type.infantry,Пехота,Infantry,Infanterie,Infantería,Infanterie,Infantaria,步兵,歩兵,पैदल सेना,مشاة
+card_type.cavalry,Кавалерия,Cavalry,Cavalerie,Caballería,Kavallerie,Cavalaria,骑兵,騎兵,घुड़सवार,فرسان
+card_type.artillery,Артиллерия,Artillery,Artillerie,Artillería,Artillerie,Artilharia,炮兵,砲兵,तोपखाना,مدفعية
+card_type.ship,Флот,Navy,Marine,Marina,Marine,Marinha,海军,海軍,नौसेना,بحرية
+card_type.special,Спецподразделения,Special Forces,Forces spéciales,Fuerzas especiales,Spezialeinheiten,Forças Especiais,特种部队,特殊部隊,विशेष बल,قوات خاصة
+card_type.situation,Ситуация,Situation,Situation,Situación,Situation,Situação,事件,状況,स्थिति,حدث
+card_type.commander,Командующий,Commander,Commandant,Comandante,Befehlshaber,Comandante,指挥官,指揮官,कमांडर,قائد
+rarity.common,Обычная,Common,Commun,Común,Gewöhnlich,Comum,普通,コモン,सामान्य,شائع
+rarity.uncommon,Необычная,Uncommon,Peu commun,Poco común,Ungewöhnlich,Incomum,稀有,アンコモン,असामान्य,غير شائع
+rarity.rare,Редкая,Rare,Rare,Raro,Selten,Raro,珍贵,レア,दुर्लभ,نادر
+rarity.legendary,Легендарная,Legendary,Légendaire,Legendario,Legendär,Lendário,传奇,レジェンダリー,दिव्य,أسطوري
+combat.attack,Атака,Attack,Attaque,Ataque,Angriff,Ataque,攻击,攻撃,हमला,هجوم
+combat.defense,Защита,Defense,Défense,Defensa,Verteidigung,Defesa,防御,防御,रक्षा,دفاع
+combat.hp,Здоровье,HP,PV,PV,TP,PV,生命,HP,स्वास्थ्य,صحة
+combat.cost,Стоимость,Cost,Coût,Coste,Kosten,Custo,费用,コスト,लागत,تكلفة
+combat.damage,Урон,Damage,Dégâts,Daño,Schaden,Dano,伤害,ダメージ,क्षति,ضرر
+combat.destroyed,Уничтожен,Destroyed,Détruit,Destruido,Zerstört,Destruído,被毁,破壊,नष्ट,دمر
+combat.counterattack,Контратака,Counterattack,Contre-attaque,Contraataque,Gegenangriff,Contra-ataque,反击,反撃,प्रति-हमला,هجوم مضاد
+victory.capital,Захват столицы,Capital Capture,Capture de la capitale,Captura de la capital,Hauptstadt-Eroberung,Captura da Capital,占领首都,首都占領,राजधानी पर कब्जा,احتلال العاصمة
+victory.morale_collapse,Моральный крах,Morale Collapse,Effondrement du moral,Colapso moral,Moral-Zusammenbruch,Colapso Moral,士气崩溃,士気崩壊,मनोबल पतन,انهيار الروح المعنوية
+victory.appomattox,Капитуляция Аппоматтокс,Appomattox Surrender,Capitulation d'Appomattox,Rendición de Appomattox,Kapitulation von Appomattox,Rendição de Appomattox,阿波马托克斯投降,アポマトックス降伏,अपोमैटोक्स समर्पण,استسلام أبوماتوكس
+victory.timeout,Время истекло,Time Expired,Temps écoulé,Tiempo agotado,Zeit abgelaufen,Tempo Esgotado,时间耗尽,時間切れ,समय समाप्त,انتهى الوقت
+scenario.1861,1861: Первый Манассас,1861: First Manassas,1861: Première Manassas,1861: Primera Manassas,1861: Erste Schlacht am Manassas,1861: Primeira Manassas,1861：第一次马纳萨斯,1861：第一次マナサス,1861: प्रथम मनासस,1861: ماناساس الأولى
+scenario.1862,1862: Энтитем/Мэриленд,1862: Antietam/Maryland,1862: Antietam/Maryland,1862: Antietam/Maryland,1862: Antietam/Maryland,1862: Antietam/Maryland,1862：安提坦/马里兰,1862：アンティータム,1862: एंटीटम,1862: أنتيتام
+scenario.1863,1863: Геттисберг/Виксберг,1863: Gettysburg/Vicksburg,1863: Gettysburg/Vicksburg,1863: Gettysburg/Vicksburg,1863: Gettysburg/Vicksburg,1863: Gettysburg/Vicksburg,1863：葛底斯堡/维克斯堡,1863：ゲティスバーグ,1863: गेटिसबर्ग,1863: جيتيسبيرغ
+scenario.1864,1864: Атлантская кампания,1864: Atlanta Campaign,1864: Campagne d'Atlanta,1864: Campaña de Atlanta,1864: Atlanta-Feldzug,1864: Campanha de Atlanta,1864：亚特兰大战役,1864：アトランタ戦役,1864: अटलांटा अभियान,1864: حملة أتلانتا
+scenario.1865,1865: Аппоматтокс,1865: Appomattox,1865: Appomattox,1865: Appomattox,1865: Appomattox,1865: Appomattox,1865：阿波马托克斯,1865：アポマトックス,1865: अपोमैटोक्स,1865: أبوماتوكس
+scenario.full,Полная кампания (1861-1865),Full Campaign (1861-1865),Campagne complète (1861-1865),Campaña completa (1861-1865),Gesamtfeldzug (1861-1865),Campanha Completa (1861-1865),完整战役（1861-1865）,全戦役（1861-1865）,पूर्ण अभियान (1861-1865),الحملة الكاملة (1861-1865)
+phonograph.title,Патефон,Phonograph,Phonographe,Fonógrafo,Phonograph,Gramofone,留声机,蓄音機,फोनोग्राफ,الفونوغراف
+phonograph.now_playing,Сейчас играет:,Now Playing:,En cours :,Reproduciendo:,Spielt:,A tocar:,正在播放：,再生中：,बज रहा है:,يعمل الآن:
+phonograph.volume,Громкость:,Volume:,Volume :,Volumen:,Lautstärke:,Volume:,音量：,音量：,आवाज़:,الصوت:
+phonograph.shuffle,Перемешать,Shuffle,Aléatoire,Aleatorio,Mischen,Aleatório,随机,シャッフル,शफल,عشوائي
+phonograph.repeat,Повтор,Repeat,Répéter,Repetir,Wiederholen,Repetir,重复,リピート,दोहराएं,تكرار
+phonograph.close,Закрыть патефон,Close Phonograph,Fermer le phonographe,Cerrar fonógrafo,Phonograph schließen,Fechar Gramofone,关闭留声机,蓄音機を閉じる,फोनोग्राफ बंद करें,إغلاق الفونوغراف
+phonograph.play,Играть,Play,Jouer,Jugar,Spielen,Reproduzir,播放,再生,चलाएं,تشغيل
+phonograph.pause,Пауза,Pause,Pause,Pausa,Pause,Pausa,暂停,一時停止,रोकें,إيقاف مؤقت
+phonograph.stop,Стоп,Stop,Arrêter,Detener,Stopp,Parar,停止,停止,रुकें,إيقاف
+phonograph.prev,Пред.,Prev,Préc.,Anterior,Zurück,Anterior,上一首,前へ,पिछला,سابق
+phonograph.next,След.,Next,Suiv.,Siguiente,Weiter,Próximo,下一首,次へ,अगला,التالي
+phonograph.mode_phonograph,ПАТЕФОН,PHONOGRAPH RECORDS,PHONOGRAPHE,FONÓGRAFO,PHONOGRAPH,GRAMOFONE,留声机唱片,蓄音機レコード,फोनोग्राफ रिकॉर्ड,أسطوانات الفونوغراف
+phonograph.mode_orchestra,ОРКЕСТР,ORCHESTRA,ORCHESTRE,ORQUESTA,ORCHESTER,ORQUESTRA,管弦乐团,オーケストラ,ऑर्केस्ट्रा,أوركسترا
+phonograph.desc_phonograph,Солдаты собираются у граммофона в лагере,Soldiers gather around the gramophone in camp,Les soldats se rassemblent autour du gramophone,Los soldados se reúnen alrededor del gramófono,Soldaten versammeln sich am Grammophon,Os soldados se reúnem ao redor do gramofone,士兵围在营地的留声机旁,兵営の蓄音機に兵士が集まる,शिविर में सैनिक ग्रामोफोन के पास जमा होते हैं,يجتمع الجنود حول الفونوغراف في المعسكر
+phonograph.desc_orchestra,Духовой оркестр играет для войск,A brass band plays for the troops,L'orchestre d'harmonie joue pour les troupes,Una banda toca para las tropas,Eine Blaskapelle spielt für die Truppen,Uma banda toca para as tropas,军乐队为部队演奏,軍楽隊が兵士のために演奏,ब्रास बैंड सेना के लिए बजता है,فرقة عسكرية تعزف للقوات
+phonograph.no_track,Нет трека,No Track,Aucune piste,Sin pista,Kein Titel,Nenhuma faixa,无曲目,曲なし,कोई ट्रैक नहीं,لا توجد مقطوعة
+phonograph.category.marches,Марши,Marches,Marches,Marchas,Märsche,Marchas,进行曲,行進曲,मार्च,مسيرات
+phonograph.category.ballads,Баллады,Ballads,Ballades,Baladas,Balladen,Baladas,民谣,バラード,गाथागीत,قصائد
+phonograph.category.hymns,Гимны,Hymns,Hymnes,Himnos,Hymnen,Hinos,圣歌,賛美歌,भजन,ترانيم
+phonograph.category.fife_and_drum,Фиф и барабан,Fife and Drum,Fifre et tambour,Pífano y tambor,Piccolo und Trommel,Pífaro e Tambor,横笛与鼓,ファイフ＆ドラム,बाँसुरी और ढोल,ناي وطبول
+phonograph.category.orchestral,Оркестровые,Orchestral,Orchestral,Orquestal,Orchester,Orquestral,管弦乐,オーケストラ,ऑर्केस्ट्रा,أوركسترا
+territory.washington_dc,Вашингтон,Washington D.C.,Washington D.C.,Washington D.C.,Washington D.C.,Washington D.C.,Washington D.C.,Washington D.C.,Washington D.C.,Washington D.C.
+territory.maryland,Мэриленд,Maryland,Maryland,Maryland,Maryland,Maryland,Maryland,Maryland,Maryland,Maryland
+territory.virginia_north,Северная Виргиния,Northern Virginia,Virginie du Nord,Virginia del Norte,Nord-Virginia,Virgínia do Norte,北弗吉尼亚,北部バージニア,उत्तरी वर्जीनिया,شمال فرجينيا
+territory.richmond,Ричмонд,Richmond,Richmond,Richmond,Richmond,Richmond,Richmond,Richmond,Richmond,Richmond
+territory.shenandoah,Долина Шенандоа,Shenandoah Valley,Vallée de la Shenandoah,Valle de Shenandoah,Shenandoah-Tal,Vale do Shenandoah,谢南多厄河谷,シェナンドー渓谷,शेनंडोआ घाटी,وادي شيناندوا
+territory.virginia_west,Западная Виргиния,West Virginia,Virginie-Occidentale,Virginia Occidental,West-Virginia,Virgínia Ocidental,西弗吉尼亚,ウェストバージニア,पश्चिमी वर्जीनिया,فرجينيا الغربية
+territory.pennsylvania,Пенсильвания,Pennsylvania,Pennsylvanie,Pensilvania,Pennsylvania,Pennsylvania,Pennsylvania,Pennsylvania,Pennsylvania,Pennsylvania
+territory.harpers_ferry,Харперс-Ферри,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry
+territory.kentucky,Кентукки,Kentucky,Kentucky,Kentucky,Kentucky,Kentucky,Kentucky,Kentucky,Kentucky,Kentucky
+territory.tennessee_east,Восточный Теннесси,East Tennessee,Tennessee de l'Est,Tennessee del Este,Ost-Tennessee,Tennessee do Leste,东田纳西,東テネシー,पूर्वी टेनेसी,شرق تينيسي
+territory.tennessee_west,Западный Теннесси,West Tennessee,Tennessee de l'Ouest,Tennessee del Oeste,West-Tennessee,Tennessee do Oeste,西田纳西,西テネシー,पश्चिमी टेनेसी,غرب تينيسي
+territory.nashville,Нэшвилл,Nashville,Nashville,Nashville,Nashville,Nashville,Nashville,Nashville,Nashville,Nashville
+territory.mississippi_north,Северная Миссисипи,Northern Mississippi,Mississippi du Nord,Misisipi del Norte,Nord-Mississippi,Mississippi do Norte,北密西西比,北部ミシシッピ,उत्तरी मिसिसिपी,شمال مسيسيبي
+territory.vicksburg,Виксберг,Vicksburg,Vicksburg,Vicksburg,Vicksburg,Vicksburg,Vicksburg,Vicksburg,Vicksburg,Vicksburg
+territory.alabama_north,Северная Алабама,Northern Alabama,Alabama du Nord,Alabama del Norte,Nord-Alabama,Alabama do Norte,北阿拉巴马,北部アラバマ,उत्तरी अलाबामा,شمال ألاباما
+territory.atlanta,Атланта,Atlanta,Atlanta,Atlanta,Atlanta,Atlanta,Atlanta,Atlanta,Atlanta,Atlanta
+territory.georgia_south,Южная Джорджия,Southern Georgia,Géorgie du Sud,Georgia del Sur,Süd-Georgia,Georgia do Sul,南佐治亚,南部ジョージア,दक्षिणी जॉर्जिया,جنوب جورجيا
+territory.memphis,Мемфис,Memphis,Memphis,Memphis,Memphis,Memphis,Memphis,Memphis,Memphis,Memphis
+territory.chattanooga,Чаттануга,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga
+territory.natchez,Натчез,Natchez,Natchez,Natchez,Natchez,Natchez,Natchez,Natchez,Natchez,Natchez
+territory.corinth,Коринф,Corinth,Corinth,Corinto,Corinth,Corinth,Corinth,Corinth,Corinth,Corinth
+territory.missouri,Миссури,Missouri,Missouri,Misuri,Missouri,Missouri,Missouri,Missouri,Missouri,Missouri
+territory.arkansas,Арканзас,Arkansas,Arkansas,Arkansas,Arkansas,Arkansas,Arkansas,Arkansas,Arkansas,Arkansas
+territory.louisiana_north,Северная Луизиана,Northern Louisiana,Louisiane du Nord,Luisiana del Norte,Nord-Louisiana,Louisiana do Norte,北路易斯安那,北部ルイジアナ,उत्तरी लुइज़ियाना,شمال لويزيانا
+territory.new_orleans,Новый Орлеан,New Orleans,La Nouvelle-Orléans,Nueva Orleans,New Orleans,New Orleans,New Orleans,New Orleans,New Orleans,New Orleans
+territory.texas,Техас,Texas,Texas,Texas,Texas,Texas,Texas,Texas,Texas,Texas
+territory.indian_territory,Индейская территория,Indian Territory,Territoire indien,Territorio indio,Indian Territory,Indian Territory,Indian Territory,Indian Territory,Indian Territory,Indian Territory
+territory.louisiana_south,Южная Луизиана,Southern Louisiana,Louisiane du Sud,Luisiana del Sur,Süd-Louisiana,Louisiana do Sul,南路易斯安那,南部ルイジアナ,दक्षिणी लुइज़ियाना,جنوب لويزيانا
+territory.north_carolina,Северная Каролина,North Carolina,Caroline du Nord,Carolina del Norte,North Carolina,North Carolina,North Carolina,North Carolina,North Carolina,North Carolina
+territory.south_carolina,Южная Каролина,South Carolina,Caroline du Sud,Carolina del Sur,South Carolina,South Carolina,South Carolina,South Carolina,South Carolina,South Carolina
+territory.charleston,Чарлстон,Charleston,Charleston,Charleston,Charleston,Charleston,Charleston,Charleston,Charleston,Charleston
+territory.florida,Флорида,Florida,Floride,Florida,Florida,Florida,Florida,Florida,Florida,Florida
+territory.wilmington,Уилмингтон,Wilmington,Wilmington,Wilmington,Wilmington,Wilmington,Wilmington,Wilmington,Wilmington,Wilmington
+territory.savannah,Саванна,Savannah,Savannah,Savannah,Savannah,Savannah,Savannah,Savannah,Savannah,Savannah
+territory.mobile,Мобил,Mobile,Mobile,Mobile,Mobile,Mobile,Mobile,Mobile,Mobile,Mobile
+territory.atlantic_coast,Атлантическое побережье,Atlantic Coast,Côte atlantique,Costa atlántica,Atlantikküste,Costa Atlântica,大西洋海岸,大西洋沿岸,अटलांटिक तट,ساحل الأطلسي
+territory.gulf_coast,Мексиканский залив,Gulf of Mexico,Golfe du Mexique,Golfo de México,Golf von Mexiko,Golfo do México,墨西哥湾,メキシコ湾,मैक्सिको की खाड़ी,خليج المكسيك
+territory.mississippi_river,Река Миссисипи,Mississippi River,Fleuve Mississippi,Río Misisipi,Mississippi River,Mississippi River,Mississippi River,Mississippi River,Mississippi River,Mississippi River
+event.hampton_roads,Первый бой броненосцев,First Ironclad Battle,Premier combat de cuirassés,Primera batalla de acorazados,First Ironclad Battle,First Ironclad Battle,First Ironclad Battle,First Ironclad Battle,First Ironclad Battle,First Ironclad Battle
+event.picketts_charge,Чардж Пикетта,Pickett's Charge,Charge de Pickett,Carga de Pickett,Pickett's Charge,Pickett's Charge,Pickett's Charge,Pickett's Charge,Pickett's Charge,Pickett's Charge
+event.friendly_fire,Дружественный огонь,Friendly Fire,Tir ami,Fuego amigo,Friendly Fire,Friendly Fire,Friendly Fire,Friendly Fire,Friendly Fire,Friendly Fire
+event.bayonet_charge,Штыковая атака,Bayonet Charge,Charge à la baïonnette,Carga a la bayoneta,Bayonet Charge,Bayonet Charge,Bayonet Charge,Bayonet Charge,Bayonet Charge,Bayonet Charge
+event.lincoln_assass,Убийство Линкольна,Lincoln Assassination,Assassinat de Lincoln,Asesinato de Lincoln,Lincoln Assassination,Lincoln Assassination,Lincoln Assassination,Lincoln Assassination,Lincoln Assassination,Lincoln Assassination
+event.emancipation,Прокламация об освобождении,Emancipation Proclamation,Proclamation d'émancipation,Proclamación de emancipación,Emancipation Proclamation,Emancipation Proclamation,Emancipation Proclamation,Emancipation Proclamation,Emancipation Proclamation,Emancipation Proclamation
+event.appomattox,Аппоматтокс,Appomattox,Appomattox,Appomattox,Appomattox,Appomattox,Appomattox,Appomattox,Appomattox,Appomattox
+event.march_to_sea,Марш к морю,March to the Sea,Marche vers la mer,Marcha hacia el mar,March to the Sea,March to the Sea,March to the Sea,March to the Sea,March to the Sea,March to the Sea
+event.cushing_torpedo,Торпеда Кушинга,Cushing's Spar Torpedo,Torpille perche de Cushing,Torpedo de pértiga de Cushing,Cushing's Spar Torpedo,Cushing's Spar Torpedo,Cushing's Spar Torpedo,Cushing's Spar Torpedo,Cushing's Spar Torpedo,Cushing's Spar Torpedo
+event.ram_cumberland,Таран «Вирджинии»,Ram of Virginia,Éperonnage du Virginia,Embestida del Virginia,Ram of Virginia,Ram of Virginia,Ram of Virginia,Ram of Virginia,Ram of Virginia,Ram of Virginia
+event.sink_alabama,Потопление «Алабамы»,Sinking of Alabama,Naufrage de l'Alabama,Hundimiento del Alabama,Sinking of Alabama,Sinking of Alabama,Sinking of Alabama,Sinking of Alabama,Sinking of Alabama,Sinking of Alabama
+event.hunley_attack,Подводная атака,Submarine Attack,Attaque sous-marine,Ataque submarino,Submarine Attack,Submarine Attack,Submarine Attack,Submarine Attack,Submarine Attack,Submarine Attack
+event.cairo_mines,Мины на Язу,Mines at Yazoo,Mines sur le Yazoo,Minas en el Yazoo,Mines at Yazoo,Mines at Yazoo,Mines at Yazoo,Mines at Yazoo,Mines at Yazoo,Mines at Yazoo
+event.arkansas_breakout,Прорыв «Арканзаса»,Arkansas Breakout,Percée de l'Arkansas,Irrupción del Arkansas,Arkansas Breakout,Arkansas Breakout,Arkansas Breakout,Arkansas Breakout,Arkansas Breakout,Arkansas Breakout
+event.capture_atlanta_ship,Захват «Атланты»,Capture of Atlanta,Capture de l'Atlanta,Captura del Atlanta,Capture of Atlanta,Capture of Atlanta,Capture of Atlanta,Capture of Atlanta,Capture of Atlanta,Capture of Atlanta
+event.mobile_bay,Бой в Мобил-Бэй,Battle of Mobile Bay,Bataille de la baie de Mobile,Batalla de la bahía de Mobile,Battle of Mobile Bay,Battle of Mobile Bay,Battle of Mobile Bay,Battle of Mobile Bay,Battle of Mobile Bay,Battle of Mobile Bay
+event.last_shot,Последний выстрел войны,Last Shot of the War,Dernier coup de feu de la guerre,Último disparo de la guerra,Last Shot of the War,Last Shot of the War,Last Shot of the War,Last Shot of the War,Last Shot of the War,Last Shot of the War
+event.fingal_run,Блокадопрорыв «Фингала»,Fingal Blockade Run,Forçage du blocus par le Fingal,Rompedor de bloqueo Fingal,Fingal Blockade Run,Fingal Blockade Run,Fingal Blockade Run,Fingal Blockade Run,Fingal Blockade Run,Fingal Blockade Run
+event.minnesota_sacrifice,Жертвенная атака,Minnesota Sacrifice,Sacrifice du Minnesota,Sacrificio de Minnesota,Minnesota Sacrifice,Minnesota Sacrifice,Minnesota Sacrifice,Minnesota Sacrifice,Minnesota Sacrifice,Minnesota Sacrifice
+event.stonewall_name,«Стоунуолл!»,Stonewall!,Stonewall !,¡Stonewall!,Stonewall!,Stonewall!,Stonewall!,Stonewall!,Stonewall!,Stonewall!
+event.iron_brigade,Железная бригада,Iron Brigade,Iron Brigade,Iron Brigade,Iron Brigade,Iron Brigade,Iron Brigade,Iron Brigade,Iron Brigade,Iron Brigade
+event.berdan_sniper,Снайперы Бердана,Berdan's Snipers,Tireurs d'élite de Berdan,Francotiradores de Berdan,Berdan's Snipers,Berdan's Snipers,Berdan's Snipers,Berdan's Snipers,Berdan's Snipers,Berdan's Snipers
+event.fort_wagner,Штурм Форт-Уогнера,Assault on Fort Wagner,Assaut du fort Wagner,Asalto al fuerte Wagner,Assault on Fort Wagner,Assault on Fort Wagner,Assault on Fort Wagner,Assault on Fort Wagner,Assault on Fort Wagner,Assault on Fort Wagner
+event.hoovers_gap,«Молниеносная бригада»,Lightning Brigade,Lightning Brigade,Brigada Relámpago,Lightning Brigade,Lightning Brigade,Lightning Brigade,Lightning Brigade,Lightning Brigade,Lightning Brigade
+event.mosby_fairfax,Рейд Мосби,Mosby's Raid,Raid de Mosby,Incursión de Mosby,Mosby's Raid,Mosby's Raid,Mosby's Raid,Mosby's Raid,Mosby's Raid,Mosby's Raid
+event.beefsteak_raid,Кража скота,Beefsteak Raid,Raid du bœuf,Redada del ganado,Beefsteak Raid,Beefsteak Raid,Beefsteak Raid,Beefsteak Raid,Beefsteak Raid,Beefsteak Raid
+event.try_us,«Попробуй нас!»,Try Us!,Essayez-nous !,¡Inténtenlo!,Try Us!,Try Us!,Try Us!,Try Us!,Try Us!,Try Us!
+event.pelham_flank,Пелхэм при Фредериксберге,Pelham's Flank,Pelham à Fredericksburg,Pelham en Fredericksburg,Pelham's Flank,Pelham's Flank,Pelham's Flank,Pelham's Flank,Pelham's Flank,Pelham's Flank
+event.pelham_death,Гибель Пелхэма,Death of Pelham,Mort de Pelham,Muerte de Pelham,Death of Pelham,Death of Pelham,Death of Pelham,Death of Pelham,Death of Pelham,Death of Pelham
+event.stuart_death,Смерть Стюарта,Death of Stuart,Mort de Stuart,Muerte de Stuart,Death of Stuart,Death of Stuart,Death of Stuart,Death of Stuart,Death of Stuart,Death of Stuart
+event.forrest_braves,«Волшебник седла»,Wizard of the Saddle,Magicien de la selle,Mago de la silla,Wizard of the Saddle,Wizard of the Saddle,Wizard of the Saddle,Wizard of the Saddle,Wizard of the Saddle,Wizard of the Saddle
+event.sidney_johnston,Смерть С. Джонстона,Death of Sidney Johnston,Mort de Sidney Johnston,Muerte de Sidney Johnston,Death of Sidney Johnston,Death of Sidney Johnston,Death of Sidney Johnston,Death of Sidney Johnston,Death of Sidney Johnston,Death of Sidney Johnston
+event.syren_blockade,Блокада прорвана!,Blockade Broken!,Blocus forcé !,¡Bloqueo roto!,Blockade Broken!,Blockade Broken!,Blockade Broken!,Blockade Broken!,Blockade Broken!,Blockade Broken!
+event.russian_support,Поддержка России,Russian Support,Soutien russe,Apoyo ruso,Russian Support,Russian Support,Russian Support,Russian Support,Russian Support,Russian Support
+event.british_enfields,Британские «Энфилды»,British Enfields,Enfield britanniques,Enfield británicos,British Enfields,British Enfields,British Enfields,British Enfields,British Enfields,British Enfields
+event.damn_torpedoes,«Проклятье на торпеды!»,Damn the Torpedoes!,Au diable les torpilles !,¡Al diablo las minas!,Damn the Torpedoes!,Damn the Torpedoes!,Damn the Torpedoes!,Damn the Torpedoes!,Damn the Torpedoes!,Damn the Torpedoes!
+event.atlanta_fall,Атланта пала,Atlanta Has Fallen,Atlanta est tombée,Atlanta ha caído,Atlanta Has Fallen,Atlanta Has Fallen,Atlanta Has Fallen,Atlanta Has Fallen,Atlanta Has Fallen,Atlanta Has Fallen
+event.andrews_raid,Железнодорожный рейд Эндрюса,Andrews' Railroad Raid,Raid ferroviaire d'Andrews,Incursión ferroviaria de Andrews,Andrews' Railroad Raid,Andrews' Railroad Raid,Andrews' Railroad Raid,Andrews' Railroad Raid,Andrews' Railroad Raid,Andrews' Railroad Raid
+event.vicksburg_fall,Виксберг пал,Vicksburg Has Fallen,Vicksburg est tombé,Vicksburg ha caído,Vicksburg Has Fallen,Vicksburg Has Fallen,Vicksburg Has Fallen,Vicksburg Has Fallen,Vicksburg Has Fallen,Vicksburg Has Fallen
+event.first_monitor,Первый «Монитор»,First Monitor,Premier Monitor,Primer Monitor,First Monitor,First Monitor,First Monitor,First Monitor,First Monitor,First Monitor
+event.lee_refusal,«Я не знаю мистера Ли»,I Know No Mr. Lee,Je ne connais pas ce monsieur Lee,No conozco al señor Lee,I Know No Mr. Lee,I Know No Mr. Lee,I Know No Mr. Lee,I Know No Mr. Lee,I Know No Mr. Lee,I Know No Mr. Lee
+event.first_manassas,Первый Манассас,First Manassas,Première Manassas,Primera Manassas,First Manassas,First Manassas,First Manassas,First Manassas,First Manassas,First Manassas
+event.shiloh,Шайло,Shiloh,Shiloh,Shiloh,Shiloh,Shiloh,Shiloh,Shiloh,Shiloh,Shiloh
+event.antietam,Энтитем,Antietam,Antietam,Antietam,Antietam,Antietam,Antietam,Antietam,Antietam,Antietam
+event.fredericksburg,Фредериксберг,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg
+event.chancellorsville,Чанселлорсвилл,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville
+event.gettysburg,Геттисберг,Gettysburg,Gettysburg,Gettysburg,Gettysburg,Gettysburg,Gettysburg,Gettysburg,Gettysburg,Gettysburg
+event.chickamauga,Чикамога,Chickamauga,Chickamauga,Chickamauga,Chickamauga,Chickamauga,Chickamauga,Chickamauga,Chickamauga,Chickamauga
+event.chattanooga_battle,Чаттануга,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga
+event.spotsylvania,Спотсильвания,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania
+event.cold_harbor,Колд-Харбор,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor
+event.petersburg,Петерсберг,Petersburg,Petersburg,Petersburg,Petersburg,Petersburg,Petersburg,Petersburg,Petersburg,Petersburg
+event.bull_run_first,Первый Булл-Ран,First Bull Run,Première Bull Run,Primera Bull Run,First Bull Run,First Bull Run,First Bull Run,First Bull Run,First Bull Run,First Bull Run
+event.bull_run_second,Второй Булл-Ран,Second Bull Run,Seconde Bull Run,Segunda Bull Run,Second Bull Run,Second Bull Run,Second Bull Run,Second Bull Run,Second Bull Run,Second Bull Run
+event.pea_ridge,Пи-Ридж,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge
+event.stones_river,Стоунс-Ривер,Stones River,Stones River,Stones River,Stones River,Stones River,Stones River,Stones River,Stones River,Stones River
+event.wilderness,Глушь,The Wilderness,The Wilderness,The Wilderness,The Wilderness,The Wilderness,The Wilderness,The Wilderness,The Wilderness,The Wilderness
+event.sherman_march,Марш Шермана,Sherman's March,Marche de Sherman,Marcha de Sherman,Sherman's March,Sherman's March,Sherman's March,Sherman's March,Sherman's March,Sherman's March
+event.carolina_campaign,Кампания в Каролинах,Carolina Campaign,Campagne des Carolines,Campaña de las Carolinas,Carolina Campaign,Carolina Campaign,Carolina Campaign,Carolina Campaign,Carolina Campaign,Carolina Campaign
+event.nashville_battle,Битва за Нэшвилл,Battle of Nashville,Bataille de Nashville,Batalla de Nashville,Battle of Nashville,Battle of Nashville,Battle of Nashville,Battle of Nashville,Battle of Nashville,Battle of Nashville
+event.mobile_campaign,Кампания у Мобила,Mobile Campaign,Campagne de Mobile,Campaña de Mobile,Mobile Campaign,Mobile Campaign,Mobile Campaign,Mobile Campaign,Mobile Campaign,Mobile Campaign
+event.fort_sumter,Форт Самтер,Fort Sumter,Fort Sumter,Fuerte Sumter,Fort Sumter,Fort Sumter,Fort Sumter,Fort Sumter,Fort Sumter,Fort Sumter
+event.bread_riot,Хлебный бунт,Bread Riot,Émeute du pain,Motín del pan,Bread Riot,Bread Riot,Bread Riot,Bread Riot,Bread Riot,Bread Riot
+event.ny_draft_riot,Нью-Йоркский бунт,NY Draft Riot,Émeute de la conscription à New York,Motín de reclutamiento de Nueva York,NY Draft Riot,NY Draft Riot,NY Draft Riot,NY Draft Riot,NY Draft Riot,NY Draft Riot
+event.conscription_cascade,Бунт призывников,Conscript Mutiny,Mutinerie des conscrits,Motín de reclutas,Conscript Mutiny,Conscript Mutiny,Conscript Mutiny,Conscript Mutiny,Conscript Mutiny,Conscript Mutiny
+event.desertion,Дезертирство,Desertion,Désertion,Deserción,Desertion,Desertion,Desertion,Desertion,Desertion,Desertion
+event.disease,Тиф/эпидемия,Typhus/Epidemic,Typhus/Épidémie,Tifus/Epidemia,Typhus/Epidemic,Typhus/Epidemic,Typhus/Epidemic,Typhus/Epidemic,Typhus/Epidemic,Typhus/Epidemic
+event.blockade,Морская блокада,Naval Blockade,Blocus naval,Bloqueo naval,Naval Blockade,Naval Blockade,Naval Blockade,Naval Blockade,Naval Blockade,Naval Blockade
+event.blockade_run,Прорыв блокады,Blockade Run,Forçage du blocus,Romper el bloqueo,Blockade Run,Blockade Run,Blockade Run,Blockade Run,Blockade Run,Blockade Run
+event.volunteers,Набор добровольцев,Volunteer Recruitment,Recrutement de volontaires,Reclutamiento de voluntarios,Volunteer Recruitment,Volunteer Recruitment,Volunteer Recruitment,Volunteer Recruitment,Volunteer Recruitment,Volunteer Recruitment
+event.conscription,Призыв,Conscription,Conscription,Reclutamiento,Conscription,Conscription,Conscription,Conscription,Conscription,Conscription
+event.foreign_arms,Иностранное оружие,Foreign Arms,Armes étrangères,Armas extranjeras,Foreign Arms,Foreign Arms,Foreign Arms,Foreign Arms,Foreign Arms,Foreign Arms
+event.partisan,Каперство,Privateering,Corsaire,Corsarismo,Privateering,Privateering,Privateering,Privateering,Privateering,Privateering
+event.naval_mines,Морские мины,Naval Mines,Mines navales,Minas navales,Naval Mines,Naval Mines,Naval Mines,Naval Mines,Naval Mines,Naval Mines
+event.night_march,Ночной марш,Night March,Marche de nuit,Marcha nocturna,Night March,Night March,Night March,Night March,Night March,Night March
+event.ambush,Засада,Ambush,Embuscade,Emboscada,Ambush,Ambush,Ambush,Ambush,Ambush,Ambush
+event.reconnaissance,Разведка,Reconnaissance,Reconnaissance,Reconocimiento,Reconnaissance,Reconnaissance,Reconnaissance,Reconnaissance,Reconnaissance,Reconnaissance
+event.pontoons,Понтонные мосты,Pontoon Bridges,Ponts de bateaux,Puentes de pontones,Pontoon Bridges,Pontoon Bridges,Pontoon Bridges,Pontoon Bridges,Pontoon Bridges,Pontoon Bridges
+event.siege_train,Осадный поезд,Siege Train,Train de siège,Tren de asedio,Siege Train,Siege Train,Siege Train,Siege Train,Siege Train,Siege Train
+event.rain,Дождь,Rain,Pluie,Lluvia,Rain,Rain,Rain,Rain,Rain,Rain
+event.hardtack,Сухари и кофе,Hardtack and Coffee,Biscuit de mer et café,Galleta dura y café,Hardtack and Coffee,Hardtack and Coffee,Hardtack and Coffee,Hardtack and Coffee,Hardtack and Coffee,Hardtack and Coffee
+event.mud,Распутица,Mud,Boue,Lodo,Mud,Mud,Mud,Mud,Mud,Mud
+event.railroad,Железная дорога,Railroad,Chemin de fer,Ferrocarril,Railroad,Railroad,Railroad,Railroad,Railroad,Railroad
+event.telegraph,Телеграф,Telegraph,Télégraphe,Telégrafo,Telegraph,Telegraph,Telegraph,Telegraph,Telegraph,Telegraph
+event.spies,Шпионаж,Spies,Espionnage,Espionaje,Spies,Spies,Spies,Spies,Spies,Spies
+event.counterspy,Контршпионаж,Counterspy,Contre-espionnage,Contraespionaje,Counterspy,Counterspy,Counterspy,Counterspy,Counterspy,Counterspy
+event.arty_barrage,Артиллерийская подготовка,Artillery Barrage,Barrage d'artillerie,Barrera de artillería,Artillery Barrage,Artillery Barrage,Artillery Barrage,Artillery Barrage,Artillery Barrage,Artillery Barrage
+event.fieldworks,Полевые укрепления,Fieldworks,Travaux de campagne,Fortificaciones de campaña,Fieldworks,Fieldworks,Fieldworks,Fieldworks,Fieldworks,Fieldworks
+event.suppress_revolt,Подавление бунта,Suppress Revolt,Réprimer la révolte,Sofocar la revuelta,Suppress Revolt,Suppress Revolt,Suppress Revolt,Suppress Revolt,Suppress Revolt,Suppress Revolt
+event.soldier_wound,Ранение,Wound,Blessure,Herida,Wound,Wound,Wound,Wound,Wound,Wound
+event.soldier_death,Гибель,Death,Mort,Muerte,Death,Death,Death,Death,Death,Death
+event.surrender,Сдача,Surrender,Capitulation,Rendición,Surrender,Surrender,Surrender,Surrender,Surrender,Surrender
+event.reinforce,Подкрепление,Reinforcements,Renforts,Refuerzos,Reinforcements,Reinforcements,Reinforcements,Reinforcements,Reinforcements,Reinforcements
+event.retreat,Отступление,Retreat,Retraite,Retirada,Retreat,Retreat,Retreat,Retreat,Retreat,Retreat
+event.advance,Наступление,Advance,Avance,Avanza,Advance,Advance,Advance,Advance,Advance,Advance
+event.flanking,Фланговый обход,Flanking Maneuver,Manœuvre de flanc,Maniobra de flanqueo,Flanking Maneuver,Flanking Maneuver,Flanking Maneuver,Flanking Maneuver,Flanking Maneuver,Flanking Maneuver
+event.formations,Построение,Formations,Formations,Formaciones,Formations,Formations,Formations,Formations,Formations,Formations
+event.charge,Атака в штыки,Bayonet Charge,Charge à la baïonnette,Carga a la bayoneta,Bayonet Charge,Bayonet Charge,Bayonet Charge,Bayonet Charge,Bayonet Charge,Bayonet Charge
+event.rally,Перегруппировка,Rally,Rassemblement,Reagrupamiento,Rally,Rally,Rally,Rally,Rally,Rally
+event.entrench,Окопаться,Entrench,S'enterrer,Atrincherarse,Entrench,Entrench,Entrench,Entrench,Entrench,Entrench
+event.withdraw,Отвод войск,Withdraw,Retirer les troupes,Retirar tropas,Withdraw,Withdraw,Withdraw,Withdraw,Withdraw,Withdraw
+event.reconquest,Реконкиста,Reconquest,Reconquête,Reconquista,Reconquest,Reconquest,Reconquest,Reconquest,Reconquest,Reconquest
+event.guerrilla,Партизаны,Guerrillas,Guérilleros,Guerrilleros,Guerrillas,Guerrillas,Guerrillas,Guerrillas,Guerrillas,Guerrillas
+event.scout,Разведка,Scout,Éclaireur,Explorador,Scout,Scout,Scout,Scout,Scout,Scout
+event.supply_line,Линия снабжения,Supply Line,Ligne d'approvisionnement,Línea de suministro,Supply Line,Supply Line,Supply Line,Supply Line,Supply Line,Supply Line
+event.intercept,Перехват,Intercept,Interception,Interceptar,Intercept,Intercept,Intercept,Intercept,Intercept,Intercept
+event.fortify,Укрепить,Fortify,Fortifier,Fortificar,Fortify,Fortify,Fortify,Fortify,Fortify,Fortify
+event.demolish,Разрушить,Demolish,Démolir,Demoler,Demolish,Demolish,Demolish,Demolish,Demolish,Demolish
+event.repair,Восстановить,Repair,Réparer,Reparar,Repair,Repair,Repair,Repair,Repair,Repair
+event.bridge,Мост,Bridge,Pont,Puente,Bridge,Bridge,Bridge,Bridge,Bridge,Bridge
+event.ford,Брод,Ford,Gué,Vado,Ford,Ford,Ford,Ford,Ford,Ford
+event.pass,Перевал,Pass,Col,Paso,Pass,Pass,Pass,Pass,Pass,Pass
+event.harbor,Гавань,Harbor,Port,Puerto,Harbor,Harbor,Harbor,Harbor,Harbor,Harbor
+event.lighthouse,Маяк,Lighthouse,Phare,Faro,Lighthouse,Lighthouse,Lighthouse,Lighthouse,Lighthouse,Lighthouse
+event.warehouse,Склад,Warehouse,Entrepôt,Almacén,Warehouse,Warehouse,Warehouse,Warehouse,Warehouse,Warehouse
+event.armory,Арсенал,Arsenal,Arsenal,Arsenal,Arsenal,Arsenal,Arsenal,Arsenal,Arsenal,Arsenal
+event.hospital,Госпиталь,Hospital,Hôpital,Hospital,Hospital,Hospital,Hospital,Hospital,Hospital,Hospital
+event.prison,Тюрьма,Prison,Prison,Prisión,Prison,Prison,Prison,Prison,Prison,Prison
+event.camp,Лагерь,Camp,Camp,Campamento,Camp,Camp,Camp,Camp,Camp,Camp
+event.barracks,Казармы,Barracks,Caserne,Cuartel,Barracks,Barracks,Barracks,Barracks,Barracks,Barracks
+cmd.lincoln,Авраам Линкольн,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln
+cmd.grant,Улисс С. Грант,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant
+cmd.sherman,Уильям Т. Шерман,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman
+cmd.mcclellan,Джордж Макклеллан,George McClellan,George McClellan,George McClellan,George McClellan,George McClellan,George McClellan,George McClellan,George McClellan,George McClellan
+cmd.meade,Джордж Миад,George Meade,George Meade,George Meade,George Meade,George Meade,George Meade,George Meade,George Meade,George Meade
+cmd.burnside,Амброуз Бернсайд,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside
+cmd.hooker,Джозеф Хукер,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker
+cmd.sheridan,Филип Шеридан,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan
+cmd.custer,Джордж Армстронг Кастер,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer
+cmd.hancock,Уинфилд Скотт Хэнкок,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock
+cmd.reynolds,Джон Рейнольдс,John Reynolds,John Reynolds,John Reynolds,John Reynolds,John Reynolds,John Reynolds,John Reynolds,John Reynolds,John Reynolds
+cmd.chamberlain,Джошуа Чемберлен,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain
+cmd.jefferson,Джефферсон Дэвис,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis
+cmd.relee,Роберт Э. Ли,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee
+cmd.stonewall,Томас «Стоунуолл» Джексон,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson
+cmd.longstreet,Джеймс Лонгстрит,James Longstreet,James Longstreet,James Longstreet,James Longstreet,James Longstreet,James Longstreet,James Longstreet,James Longstreet,James Longstreet
+cmd.stuart,Дж.Э.Б. Стюарт,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart
+cmd.aphill,A.P. Хилл,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill
+cmd.forrest,Натан Бедфорд Форрест,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest
+cmd.johnston,Джозеф Джонстон,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston
+cmd.bragg,Брэкстон Брэгг,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg
+cmd.hood,Джон Белл Худ,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood
+cmd.pickett,Джордж Пикетт,George Pickett,George Pickett,George Pickett,George Pickett,George Pickett,George Pickett,George Pickett,George Pickett,George Pickett
+cmd.early,Джубал Эрли,Jubal Early,Jubal Early,Jubal Early,Jubal Early,Jubal Early,Jubal Early,Jubal Early,Jubal Early,Jubal Early
+cmd.sidney_johnston,Альберт С. Джонстон,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston
+cmd.beauregard,П.Г.Т. Борегар,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard
+cmd.buckner,Саймон Боливар Бакнер,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner
+cmd.polk,Леонидас Полк,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk
+cmd.hardee,Уильям Дж. Харди,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee
+cmd.cleburne,Патрик Клебёрн,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne
+cmd.gordon,Джон Б. Гордон,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon
+cmd.rosecrans,Уильям Роскранс,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans
+cmd.thomas,Джордж Х. Томас,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas
+cmd.mclellan_opinion,Макклеллан: слишком осторожен?,McClellan: Too Cautious?,McClellan : trop prudent ?,McClellan: ¿demasiado cauto?,McClellan: Too Cautious?,McClellan: Too Cautious?,McClellan: Too Cautious?,McClellan: Too Cautious?,McClellan: Too Cautious?,McClellan: Too Cautious?
+cmd.burnside_opinion,Бернсайд: лобовая атака?,Burnside: Frontal Assault?,Burnside : assaut frontal ?,Burnside: ¿asalto frontal?,Burnside: Frontal Assault?,Burnside: Frontal Assault?,Burnside: Frontal Assault?,Burnside: Frontal Assault?,Burnside: Frontal Assault?,Burnside: Frontal Assault?
+ui.month.01,Январь,January,Janvier,Enero,January,January,January,January,January,January
+ui.month.02,Февраль,February,Février,Febrero,February,February,February,February,February,February
+ui.month.03,Март,March,Mars,Marzo,March,March,March,March,March,March
+ui.month.04,Апрель,April,Avril,Abril,April,April,April,April,April,April
+ui.month.05,Май,May,Mai,Mayo,May,May,May,May,May,May
+ui.month.06,Июнь,June,Juin,Junio,June,June,June,June,June,June
+ui.month.07,Июль,July,Juillet,Julio,July,July,July,July,July,July
+ui.month.08,Август,August,Août,Agosto,August,August,August,August,August,August
+ui.month.09,Сентябрь,September,Septembre,Septiembre,September,September,September,September,September,September
+ui.month.10,Октябрь,October,Octobre,Octubre,October,October,October,October,October,October
+ui.month.11,Ноябрь,November,Novembre,Noviembre,November,November,November,November,November,November
+ui.month.12,Декабрь,December,Décembre,Diciembre,December,December,December,December,December,December
+ui.year,Год,Year,Année,Año,Year,Year,Year,Year,Year,Year
+ui.deck,Колода,Deck,Pioche,Mazo,Deck,Deck,Deck,Deck,Deck,Deck
+ui.discard,Сброс,Discard,Défausse,Descarte,Discard,Discard,Discard,Discard,Discard,Discard
+ui.graveyard,Кладбище,Graveyard,Cimetière,Cementerio,Graveyard,Graveyard,Graveyard,Graveyard,Graveyard,Graveyard
+ui.play_card,Разыграть,Play,Jouer,Jugar,Play,Play,Play,Play,Play,Play
+ui.draw_card,Взять карту,Draw Card,Piocher une carte,Robar carta,Draw Card,Draw Card,Draw Card,Draw Card,Draw Card,Draw Card
+ui.discard_card,Сбросить,Discard,Défausser,Descartar,Discard,Discard,Discard,Discard,Discard,Discard
+ui.move_unit,Двигать юнита,Move Unit,Déplacer l'unité,Mover unidad,Move Unit,Move Unit,Move Unit,Move Unit,Move Unit,Move Unit
+ui.select_territory,Выберите территорию,Select Territory,Sélectionner un territoire,Seleccionar territorio,Select Territory,Select Territory,Select Territory,Select Territory,Select Territory,Select Territory
+ui.select_target,Выберите цель,Select Target,Sélectionner une cible,Seleccionar objetivo,Select Target,Select Target,Select Target,Select Target,Select Target,Select Target
+ui.select_card,Выберите карту,Select Card,Sélectionner une carte,Seleccionar carta,Select Card,Select Card,Select Card,Select Card,Select Card,Select Card
+ui.confirm,Подтвердить,Confirm,Confirmer,Confirmar,Confirm,Confirm,Confirm,Confirm,Confirm,Confirm
+ui.waiting,Ожидание...,Waiting...,En attente...,Esperando...,Waiting...,Waiting...,Waiting...,Waiting...,Waiting...,Waiting...
+ui.ai_thinking,ИИ думает...,AI is thinking...,L'IA réfléchit...,La IA está pensando...,AI is thinking...,AI is thinking...,AI is thinking...,AI is thinking...,AI is thinking...,AI is thinking...
+ui.your_turn,Ваш ход,Your Turn,Votre tour,Su turno,Your Turn,Your Turn,Your Turn,Your Turn,Your Turn,Your Turn
+ui.enemy_turn,Ход противника,Enemy Turn,Tour de l'ennemi,Turno del enemigo,Enemy Turn,Enemy Turn,Enemy Turn,Enemy Turn,Enemy Turn,Enemy Turn
+ui.battle_starts,Бой начинается!,Battle Begins!,La bataille commence !,¡La batalla comienza!,Battle Begins!,Battle Begins!,Battle Begins!,Battle Begins!,Battle Begins!,Battle Begins!
+ui.battle_ends,Бой окончен,Battle Over,Fin de la bataille,Fin de la batalla,Battle Over,Battle Over,Battle Over,Battle Over,Battle Over,Battle Over
+ui.winner,Победитель:,Winner:,Vainqueur :,Ganador:,Winner:,Winner:,Winner:,Winner:,Winner:,Winner:
+ui.loser,Проигравший:,Loser:,Perdant :,Perdedor:,Loser:,Loser:,Loser:,Loser:,Loser:,Loser:
+ui.casualties,Потери:,Casualties:,Pertes :,Bajas:,Casualties:,Casualties:,Casualties:,Casualties:,Casualties:,Casualties:
+ui.remaining,Осталось:,Remaining:,Restants :,Restantes:,Remaining:,Remaining:,Remaining:,Remaining:,Remaining:,Remaining:
+ui.player,Игрок,Player,Joueur,Jugador,Player,Player,Player,Player,Player,Player
+ui.enemy,Противник,Enemy,Ennemi,Enemigo,Enemy,Enemy,Enemy,Enemy,Enemy,Enemy
+ui.difficulty,Сложность,Difficulty,Difficulté,Dificultad,Difficulty,Difficulty,Difficulty,Difficulty,Difficulty,Difficulty
+ui.difficulty.easy,Лёгкая,Easy,Facile,Fácil,Easy,Easy,Easy,Easy,Easy,Easy
+ui.difficulty.normal,Обычная,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal
+ui.difficulty.hard,Сложная,Hard,Difficile,Difícil,Hard,Hard,Hard,Hard,Hard,Hard
+ui.autoturn.conservative,Консервативная,Conservative,Conservateur,Conservador,Conservative,Conservative,Conservative,Conservative,Conservative,Conservative
+ui.autoturn.balanced,Сбалансированная,Balanced,Équilibré,Equilibrado,Balanced,Balanced,Balanced,Balanced,Balanced,Balanced
+ui.autoturn.aggressive,Агрессивная,Aggressive,Agressif,Agresivo,Aggressive,Aggressive,Aggressive,Aggressive,Aggressive,Aggressive
+ui.settings.graphics,Графика,Graphics,Graphismes,Gráficos,Graphics,Graphics,Graphics,Graphics,Graphics,Graphics
+ui.settings.audio,Звук,Audio,Audio,Audio,Audio,Áudio,音频,オーディオ,ऑडियो,الصوت
+ui.settings.gameplay,Геймплей,Gameplay,Gameplay,Jugabilidad,Gameplay,Gameplay,Gameplay,Gameplay,Gameplay,Gameplay
+ui.music_volume,Музыка,Music,Musique,Música,Musik,Música,音乐,音楽,संगीत,الموسيقى
+ui.sfx_volume,Эффекты,SFX,Effets sonores,Efectos de sonido,SFX,SFX,SFX,SFX,SFX,SFX
+ui.fullscreen,Полный экран,Fullscreen,Plein écran,Pantalla completa,Vollbild,Ecrã Inteiro,全屏,フルスクリーン,पूर्ण स्क्रीन,ملء الشاشة
+ui.resolution,Разрешение,Resolution,Résolution,Resolución,Auflösung,Resolução,分辨率,解像度,रिज़ॉल्यूशन,الدقة
+ui.save,Сохранить,Save,Sauvegarder,Guardar,Speichern,Guardar,保存,保存,सहेजें,حفظ
+ui.load,Загрузить,Load,Charger,Cargar,Laden,Carregar,加载,読み込み,लोड,تحميل
+ui.delete,Удалить,Delete,Supprimer,Eliminar,Löschen,Excluir,删除,削除,हटाएं,حذف
+ui.saved_games,Сохранения,Saved Games,Parties sauvegardées,Partidas guardadas,Gespeicherte Spiele,Jogos salvos,存档,セーブデータ,सहेजे गए खेल,الألعاب المحفوظة
+ui.no_saves,Нет сохранений,No Saved Games,Aucune sauvegarde,Sin partidas guardadas,Keine Spielstände,Nenhum save salvo,无存档,セーブなし,कोई सहेजे नहीं,لا ألعاب محفوظة
+ui.save_slot,Слот сохранения,Save Slot,Emplacement,Compartimento,Speicherplatz,Slot de save,存档位,セーブスロット,स्लॉट,فتحة الحفظ
+ui.overwrite_save,Перезаписать?,Overwrite?,Écraser ?,¿Sobrescribir?,Überschreiben?,Sobrescrever?,覆盖存档？,上書き？,अधिलेखित？,الكتابة فوق？
+ui.load_confirm,Загрузить?,Load?,Charger ?,¿Cargar?,Laden?,Carregar?,加载？,読み込む？,लोड करें？,تحميل؟
+ui.union_music,Музыка Союза,Union Music,Musique de l'Union,Música de la Unión,Union-Musik,Música da União,联邦音乐,北軍音楽,संघ संगीत,موسيقى الاتحاد
+ui.confed_music,Музыка Конфедерации,Confederate Music,Musique confédérée,Música confederada,Konföderierten-Musik,Música Confederada,邦联音乐,南軍音楽,संघराज्य संगीत,موسيقى الكونفدرالية
+ui.music_style.valces,Вальсы,Waltzes,Valses,Valses,Walzer,Valsas,华尔兹,ワルツ,वाल्ट्ज़,فالس
+ui.music_style.folk,Фолк,Folk,Folk,Folk,Folk,Folk,民谣,フォーク,लोक,فولكلور
+ui.music_style_title,Стиль музыки,Music Style,Style de musique,Estilo de música,Musikstil,Estilo musical,音乐风格,音楽スタイル,संगीत शैली,نمط الموسيقى
+ui.turn,Ход %d — %s,Turn %d — %s,Tour %d — %s,Turno %d — %s,Runde %d — %s,Turno %d — %s,第%d回合 — %s,ターン%d — %s,बारी %d — %s,الدور %d — %s
+ui.end_phase,Конец фазы,END PHASE,Fin de phase,Fin de fase,Phase beenden,Fim de fase,结束阶段,フェーズ終了,चरण समाप्त,إنهاء المرحلة
+ui.skip_turn,Пропустить ход,SKIP TURN,Passer le tour,Pasar turno,Runde überspringen,Pular turno,跳过回合,ターンスキップ,बारी छोड़ें,تخطي الدور
+ui.men_label,Люди: %d,Men: %d,Effectifs: %d,Efectivos: %d,Mannstärke: %d,Efetivos: %d,人力: %d,兵力: %d,जनशक्ति: %d,الرجال: %d
+ui.gold_label,Золото: %d,Gold: %d,Or: %d,Oro: %d,Gold: %d,Ouro: %d,金钱: %d,資金: %d,धन: %d,الذهب: %d
+ui.supply_label,Снабжение: %d,Supply: %d,Approvisionnement: %d,Suministros: %d,Nachschub: %d,Suprimentos: %d,补给: %d,補給: %d,आपूर्ति: %d,الإمدادات: %d
+ui.morale_label,Мораль: %d,Morale: %d,Moral: %d,Moral: %d,Moral: %d,Moral: %d,士气: %d,士気: %d,मनोबल: %d,الروح المعنوية: %d
+ui.info.draw,РОЗЫГРЫШ: ПКМ карта + ваша территория. КОНЕЦ ФАЗЫ — пропустить.,DRAW: Right-click card + your territory to place. END PHASE to skip.,PIOCHE: clic droit carte + votre territoire. FIN DE PHASE pour passer.,ROBAR: clic derecho carta + su territorio. FIN DE FASE para saltar.,ZIEHEN: Rechtsklick Karte + eigenes Gebiet. PHASE BEENDEN zum Überspringen.,COMPRA: clique direito carta + seu território. FIM DE FASE para pular.,抽牌：右键卡牌+你的领土。结束阶段跳过。,ドロー：右クリック+自領土。フェーズ終了でスキップ。,ड्रॉ: राइट-क्लिक कार्ड + आपका क्षेत्र। चरण समाप्त छोड़ें।,السحب: كليك يمين + أراضيك. إنهاء المرحلة للتخطي.
+ui.info.movement,"ПЕРЕМЕЩЕНИЕ: кликните вашу территорию с юнитами — затем смежную.","MOVEMENT: Click YOUR territory with units — then adjacent.","MOUVEMENT: cliquez votre territoire avec unités — puis adjacent.","MOVIMIENTO: clic su territorio con unidades — luego adyacente.","BEWEGUNG: Klicken Sie Ihr Gebiet mit Einheiten — dann angrenzend.","MOVIMENTO: clique seu território com unidades — depois adjacente.","移动：点击你有单位的领土 — 再点击相邻领土。","移動：ユニットのある自領土をクリック — 隣接領土へ。","गतिविधि: अपने इकाई वाले क्षेत्र पर क्लिक — फिर सटे हुए पर।","الحركة: انقر أراضيك مع الوحدات — ثم المجاورة."
+ui.info.move_target,ПЕРЕМЕЩЕНИЕ: источник=%s. Кликните смежную территорию.,MOVEMENT: Source=%s. Click adjacent to move.,MOUVEMENT: Source=%s. Cliquez adjacent pour déplacer.,MOVIMIENTO: Origen=%s. Clic en adyacente para mover.,BEWEGUNG: Quelle=%s. Angrenzendes Gebiet klicken.,MOVIMENTO: Origem=%s. Clique adjacente para mover.,移动：来源=%s。点击相邻领土移动。,移動：出発地=%s。隣接領土をクリック。,गतिविधि: स्रोत=%s। सटे हुए क्षेत्र पर क्लिक करें।,الحركة: المصدر=%s. انقر المجاور للتحريك.
+ui.info.combat,БОЙ:\n%s,COMBAT:\n%s,COMBAT:\n%s,COMBATE:\n%s,KAMPF:\n%s,COMBATE:\n%s,战斗:\n%s,戦闘:\n%s,युद्ध:\n%s,قتال:\n%s
+ui.info.no_battles,Боёв нет.,No battles.,Pas de combats.,Sin batallas.,Keine Kämpfe.,Sem batalhas.,无战斗。,戦闘なし。,कोई युद्ध नहीं।,لا معارك.
+ui.info.resources_collected,Ресурсы собраны. Нажмите КОНЕЦ ФАЗЫ.,RESOURCES collected. Click END PHASE.,Ressources collectées. Cliquez FIN DE PHASE.,Recursos recolectados. Clic FIN DE FASE.,Ressourcen gesammelt. PHASE BEENDEN klicken.,Recursos coletados. Clique FIM DE FASE.,已收集资源。点击结束阶段。,資源収集済み。フェーズ終了をクリック。,संसाधन एकत्र। चरण समाप्त क्लिक करें।,تم جمع الموارد. انقر إنهاء المرحلة.
+ui.info.events_processed,События обработаны. Нажмите КОНЕЦ ФАЗЫ.,EVENTS processed. Click END PHASE.,Événements traités. Cliquez FIN DE PHASE.,Eventos procesados. Clic FIN DE FASE.,Ereignisse verarbeitet. PHASE BEENDEN klicken.,Eventos processados. Clique FIM DE FASE.,事件已处理。点击结束阶段。,イベント処理済み。フェーズ終了をクリック।,घटनाएं संसाधित। चरण समाप्त क्लिक करें।,تم معالجة الأحداث. انقر إنهاء المرحلة.
+ui.info.end_turn,КОНЕЦ ХОДА. Нажмите КОНЕЦ ФАЗЫ.,END OF TURN. Click END PHASE.,FIN DU TOUR. Cliquez FIN DE PHASE.,FIN DE TURNO. Clic FIN DE FASE.,RUNDENENDE. PHASE BEENDEN klicken.,FIM DO TURNO. Clique FIM DE FASE.,回合结束。点击结束阶段。,ターン終了。フェーズ終了をクリック।,बारी अंत। चरण समाप्त क्लिक करें।,نهاية الدور. انقر إنهاء المرحلة.
+ui.units_count,Юниты: %d,Units: %d,Unités: %d,Unidades: %d,Einheiten: %d,Unidades: %d,单位: %d,ユニット: %d,इकाइयाँ: %d,الوحدات: %d
+ui.side_union_blue,СОЮЗ (Синие),UNION (Blue),UNION (Bleu),UNIÓN (Azul),UNION (Blau),UNIÃO (Azul),联邦（蓝）,北軍（青）,संघ (नीले),الاتحاد (أزرق)
+ui.side_confed_red,КОНФЕДЕРАЦИЯ (Серые),CONFED (Red),CONFÉDÉRATION (Rouge),CONFEDERACIÓN (Rojo),KONFÖDERATION (Rot),CONFEDERAÇÃO (Vermelho),邦联（红）,南軍（赤）,संघराज्य (लाल),الكونفدرالية (أحمر)
+ui.delete_confirm,Удалить это сохранение?,Delete this save?,Supprimer cette sauvegarde ?,¿Eliminar esta partida?,Delete this save?,Delete this save?,Delete this save?,Delete this save?,Delete this save?,Delete this save?
+ui.tutorial,Обучение,Tutorial,Tutoriel,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
+ui.credits,Авторы,Credits,Crédits,Créditos,Credits,Credits,Credits,Credits,Credits,Credits
+ui.credits_text,Разработано с Godot 4.x,Developed with Godot 4.x,Développé avec Godot 4.x,Desarrollado con Godot 4.x,Developed with Godot 4.x,Developed with Godot 4.x,Developed with Godot 4.x,Developed with Godot 4.x,Developed with Godot 4.x,Developed with Godot 4.x
+ui.version,Версия,Version,Version,Versión,Version,Version,Version,Version,Version,Version
+ui.loading,Загрузка...,Loading...,Chargement...,Cargando...,Laden...,A carregar...,加载中...,読み込み中...,लोड हो रहा है...,جاري التحميل...
+ui.error,Ошибка,Error,Erreur,Error,Fehler,Erro,错误,エラー,त्रुटि,خطأ
+ui.warning,Предупреждение,Warning,Avertissement,Advertencia,Warning,Warning,Warning,Warning,Warning,Warning
+ui.info,Информация,Information,Information,Información,Information,Information,Information,Information,Information,Information
+ui.tooltip,Подсказка,Tooltip,Info-bulle,Información sobre herramientas,Tooltip,Tooltip,Tooltip,Tooltip,Tooltip,Tooltip
+ui.morale_effect,Эффект морали,Morale Effect,Effet de moral,Efecto de moral,Morale Effect,Morale Effect,Morale Effect,Morale Effect,Morale Effect,Morale Effect
+ui.terrain_bonus,Бонус местности,Terrain Bonus,Bonus de terrain,Bonificación de terreno,Terrain Bonus,Terrain Bonus,Terrain Bonus,Terrain Bonus,Terrain Bonus,Terrain Bonus
+ui.type_bonus,Бонус типа,Type Bonus,Bonus de type,Bonificación de tipo,Type Bonus,Type Bonus,Type Bonus,Type Bonus,Type Bonus,Type Bonus
+ui.card_detail,Детали карты,Card Details,Détails de la carte,Detalles de carta,Card Details,Card Details,Card Details,Card Details,Card Details,Card Details
+ui.unit_info,Информация о юните,Unit Info,Info unité,Info de unidad,Unit Info,Unit Info,Unit Info,Unit Info,Unit Info,Unit Info
+ui.commander_info,Информация о командующем,Commander Info,Info commandant,Info de comandante,Commander Info,Commander Info,Commander Info,Commander Info,Commander Info,Commander Info
+ui.event_info,Информация о событии,Event Info,Info événement,Info de evento,Event Info,Event Info,Event Info,Event Info,Event Info,Event Info
+ui.territory_info,Информация о территории,Territory Info,Info territoire,Info de territorio,Territory Info,Territory Info,Territory Info,Territory Info,Territory Info,Territory Info
+ui.owner,Владелец,Owner,Propriétaire,Propietario,Owner,Owner,Owner,Owner,Owner,Owner
+ui.contested,Оспаривается,Contested,Contesté,Disputado,Contested,Contested,Contested,Contested,Contested,Contested
+ui.neutral,Нейтральная,Neutral,Neutre,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral
+ui.occupied,Оккупирована,Occupied,Occupé,Ocupado,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied
+ui.blockaded,Блокирована,Blockaded,Bloqué,Bloqueado,Blockaded,Blockaded,Blockaded,Blockaded,Blockaded,Blockaded
+ui.supplied,Снабжается,Supplied,Approvisionné,Suministrado,Supplied,Supplied,Supplied,Supplied,Supplied,Supplied
+ui.unsupplied,Не снабжается,Unsupplied,Non approvisionné,Sin suministro,Unsupplied,Unsupplied,Unsupplied,Unsupplied,Unsupplied,Unsupplied
+ui.connected,Связана,Connected,Connecté,Conectado,Connected,Connected,Connected,Connected,Connected,Connected
+ui.isolated,Изолирована,Isolated,Isolé,Aislado,Isolated,Isolated,Isolated,Isolated,Isolated,Isolated
+ui.frontline,Линия фронта,Frontline,Ligne de front,Línea del frente,Frontline,Frontline,Frontline,Frontline,Frontline,Frontline
+ui.rear,Тыл,Rear,Arrière,Retaguardia,Rear,Rear,Rear,Rear,Rear,Rear
+ui.capital,Столица,Capital,Capitale,Capital,Capital,Capital,Capital,Capital,Capital,Capital
+ui.port,Порт,Port,Port,Puerto,Port,Port,Port,Port,Port,Port
+ui.railroad,Ж/д узел,Railroad Hub,Nœud ferroviaire,Nudo ferroviario,Railroad Hub,Railroad Hub,Railroad Hub,Railroad Hub,Railroad Hub,Railroad Hub
+ui.fort,Форт,Fort,Fort,Fuerte,Fort,Fort,Fort,Fort,Fort,Fort
+ui.resource_income,Доход ресурсов,Resource Income,Revenus de ressources,Ingresos de recursos,Resource Income,Resource Income,Resource Income,Resource Income,Resource Income,Resource Income
+ui.manpower_income,Доход людей,Manpower Income,Revenus d'effectifs,Ingresos de efectivos,Manpower Income,Manpower Income,Manpower Income,Manpower Income,Manpower Income,Manpower Income
+ui.money_income,Доход денег,Money Income,Revenus financiers,Ingresos de dinero,Money Income,Money Income,Money Income,Money Income,Money Income,Money Income
+ui.supply_income,Доход снабжения,Supply Income,Revenus d'approvisionnement,Ingresos de suministros,Supply Income,Supply Income,Supply Income,Supply Income,Supply Income,Supply Income
+ui.morale_change,Изменение морали,Morale Change,Variation du moral,Cambio de moral,Morale Change,Morale Change,Morale Change,Morale Change,Morale Change,Morale Change
+ui.cards_in_hand,Карт в руке,Cards in Hand,Cartes en main,Cartas en mano,Cards in Hand,Cards in Hand,Cards in Hand,Cards in Hand,Cards in Hand,Cards in Hand
+ui.cards_in_deck,Карт в колоде,Cards in Deck,Cartes dans la pioche,Cartas en el mazo,Cards in Deck,Cards in Deck,Cards in Deck,Cards in Deck,Cards in Deck,Cards in Deck
+ui.max_hand,Макс. рука,Max Hand,Main max.,Mano máx.,Max Hand,Max Hand,Max Hand,Max Hand,Max Hand,Max Hand
+ui.cost_to_play,Стоимость розыгрыша,Cost to Play,Coût de jeu,Coste de jugar,Cost to Play,Cost to Play,Cost to Play,Cost to Play,Cost to Play,Cost to Play
+ui.effect,Эффект,Effect,Effet,Efecto,Effect,Effect,Effect,Effect,Effect,Effect
+ui.duration,Длительность,Duration,Durée,Duración,Duration,Duration,Duration,Duration,Duration,Duration
+ui.permanent,Постоянный,Permanent,Permanent,Permanente,Permanent,Permanent,Permanent,Permanent,Permanent,Permanent
+ui.one_time,Одноразовый,One-time Use,Usage unique,Uso único,One-time Use,One-time Use,One-time Use,One-time Use,One-time Use,One-time Use
+ui.target_required,Требуется цель,Target Required,Cible requise,Objetivo requerido,Target Required,Target Required,Target Required,Target Required,Target Required,Target Required
+ui.historical_date,Историческая дата,Historical Date,Date historique,Fecha histórica,Historical Date,Historical Date,Historical Date,Historical Date,Historical Date,Historical Date
+ui.flavor_text,Историческая справка,Flavor Text,Note historique,Nota histórica,Flavor Text,Flavor Text,Flavor Text,Flavor Text,Flavor Text,Flavor Text
+ui.tags,Теги,Tags,Étiquettes,Etiquetas,Tags,Tags,Tags,Tags,Tags,Tags
+ui.linked_events,Связанные события,Linked Events,Événements liés,Eventos vinculados,Linked Events,Linked Events,Linked Events,Linked Events,Linked Events,Linked Events
+stat.attack,АТК,ATK,ATQ,ATQ,ANG,ATQ,攻击,攻撃,आक्रमण,هجوم
+stat.defense,ЗАЩ,DEF,DEF,DEF,VER,DEF,防御,防衛,रक्षा,دفاع
+stat.hp,ЗДР,HP,PV,VT,LP,HP,生命,体力,स्वास्थ्य,صحة
+stat.cost,ЦЕНА,COST,COÛT,COST,KOSTEN,CUSTO,费用,コスト,लागत,تكلفة
+phase.resources,Ресурсы,Resources,Ressources,Recursos,Ressourcen,Recursos,资源,資源,संसाधन,موارد
+phase.draw,Добрать,Draw,Pioche,Robar,Ziehen,Comprar,抽牌,ドロー,कार्ड लें,سحب
+phase.play,Разыграть,Play,Jouer,Jugar,Spielen,Jogar,出牌,プレイ,खेलें,لعب
+phase.movement,Перемещение,Movement,Déplacement,Movimiento,Bewegung,Movimento,移动,移動,आंदोलन,حركة
+phase.combat,Бой,Combat,Combat,Combate,Kampf,Combate,战斗,戦闘,युद्ध,قتال
+phase.events,События,Events,Événements,Eventos,Ereignisse,Eventos,事件,イベント,घटनाएँ,أحداث
+phase.end,Конец,End,Fin,Fin,Ende,Fim,结束,終了,अंत,نهاية
+ui.hand,Рука,Hand,Main,Mano,Hand,Mão,手牌,手札,हाथ,يد
+ui.phase,Фаза,Phase,Phase,Fase,Phase,Fase,阶段,フェーズ,चरण,مرحلة
+ui.side,Сторона,Side,Côté,Lado,Seite,Lado,阵营,陣営,पक्ष,جانب
+side.union,Союз,Union,Union,Unión,Union,União,联邦,連邦,संघ,الاتحاد
+side.confederate,Конфедерация,Confederacy,Confédération,Confederación,Konföderation,Confederação,邦联,連邦,संघीय,الكونفدرالية
+territory.delaware,Делавэр,Delaware,Delaware,Delaware,Delaware,Delaware,特拉华,デラウェア,डेलावेयर,ديلاوير
+territory.new_york,Нью-Йорк,New York,New York,Nueva York,New York,Nova York,纽约,ニューヨーク,न्यूयॉर्क,نيويورك
+territory.new_jersey,Нью-Джерси,New Jersey,New Jersey,Nueva Jersey,New Jersey,Nova Jersey,新泽西,ニュージャージー,न्यू जर्सी,نيو جيرسي
+territory.connecticut,Коннектикут,Connecticut,Connecticut,Connecticut,Connecticut,Connecticut,康涅狄格,コネチカット,कनेक्टिकट,كونيتيكت
+territory.ohio,Огайо,Ohio,Ohio,Ohio,Ohio,Ohio,俄亥俄,オハイオ,ओहायो,أوهايو
+territory.indiana,Индиана,Indiana,Indiana,Indiana,Indiana,Indiana,印第安纳,インディアナ,इंडियाना,إنديانا
+territory.illinois,Иллинойс,Illinois,Illinois,Illinois,Illinois,Illinois,伊利诺伊,イリノイ,इलिनॉय,إلينوي
+territory.michigan,Мичиган,Michigan,Michigan,Michigan,Michigan,Michigan,密歇根,ミシガン,मिशिगन,ميشيغان
+territory.wisconsin,Висконсин,Wisconsin,Wisconsin,Wisconsin,Wisconsin,Wisconsin,威斯康星,ウィスコンシン,विस्कॉन्सिन,ويسكونسن
+territory.minnesota,Миннесота,Minnesota,Minnesota,Minnesota,Minnesota,Minnesota,明尼苏达,ミネソタ,मिनेसोटा,مينيسوتا
+territory.minnesota_south,Южная Миннесота,Southern Minnesota,Minnesota du Sud,Minnesota del Sur,Süd-Minnesota,Minnesota do Sul,南明尼苏达,南部ミネソタ,दक्षिणी मिनेसोटा,جنوب مينيسوتا
+territory.iowa,Айова,Iowa,Iowa,Iowa,Iowa,Iowa,爱荷华,アイオワ,आयोवा,آيوا
+territory.kansas,Канзас,Kansas,Kansas,Kansas,Kansas,Kansas,堪萨斯,カンザス,कैनसस,كانساس
+territory.nebraska,Небраска,Nebraska,Nebraska,Nebraska,Nebraska,Nebraska,内布拉斯加,ネブラスカ,नेब्रास्का,نبراسكا
+territory.district_columbia,Округ Колумбия,District of Columbia,District de Columbia,Distrito de Columbia,District of Columbia,Distrito de Columbia,哥伦比亚特区,コロンビア特別区,कोलंबिया जिला,مقاطعة كولومبيا
+territory.maine,Мэн,Maine,Maine,Maine,Maine,Maine,缅因,メイン,मेन,مين
+territory.new_hampshire,Нью-Гэмпшир,New Hampshire,New Hampshire,Nuevo Hampshire,New Hampshire,New Hampshire,新罕布什尔,ニューハンプシャー,न्यू हैम्पशायर,نيو هامبشاير
+territory.vermont,Вермонт,Vermont,Vermont,Vermont,Vermont,Vermont,佛蒙特,バーモント,वर्मॉन्ट,فيرمونت
+territory.massachusetts,Массачусетс,Massachusetts,Massachusetts,Massachusetts,Massachusetts,Massachusetts,马萨诸塞,マサチューセッツ,मैसाचुसेट्स,ماساتشوستس
+territory.rhode_island,Род-Айленд,Rhode Island,Rhode Island,Rhode Island,Rhode Island,Rhode Island,罗德岛,ロードアイランド,रोड आइलैंड,رود آيلاند

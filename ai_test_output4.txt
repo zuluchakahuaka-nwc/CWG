@@ -1,0 +1,477 @@
+Godot Engine v4.2.2.stable.official.15073afe3 - https://godotengine.org
+ 
+[21:47:01] [INFO] [Logger] Game logger initialized
+[21:47:01] [INFO] [CardDatabase] Loaded 146 units, 24 commanders, 67 situations, 38 territories
+[21:47:01] [INFO] [TEST] ============================================
+[21:47:01] [INFO] [TEST]   AI vs AI STRESS TEST - 15 TURNS
+[21:47:01] [INFO] [TEST] ============================================
+[21:47:01] [INFO] [GameManager] Game started: scenario=civil_war player=union
+[21:47:01] [INFO] [TEST] 
+[21:47:01] [INFO] [TEST] ====== TURN 1 | month.april 1861 ======
+[21:47:01] [INFO] [TEST] --- UNION PLAYER ---
+[21:47:01] [INFO] [AI] #1 [UNION] RESOURCES phase start
+[21:47:01] [INFO] [AI] #2 [UNION] Income from 4 territories. Men:11 Gold:15 Supply:9
+[21:47:01] [INFO] [AI] #3 [UNION] DRAW phase start
+[21:47:01] [INFO] [AI] #4 [UNION] Available cards: 70 types
+[21:47:01] [INFO] [AI] #5 [UNION] Drew 3 cards: u_spec_berdan2 u_ship_cumberland u_inf_20me
+[21:47:01] [INFO] [AI] #6 [UNION] PLAY CARDS phase start
+[21:47:01] [INFO] [AI] #7 [UNION] Hand: 3 cards, Gold: 15
+[21:47:01] [INFO] [AI] #8 [UNION] Placed u_spec_berdan2 (special ATK:4 DEF:1 HP:2) -> maryland (cost 3)
+[21:47:01] [INFO] [AI] #9 [UNION] Placed u_ship_cumberland (ship ATK:3 DEF:3 HP:4) -> maryland (cost 2)
+[21:47:01] [INFO] [AI] #10 [UNION] Placed u_inf_20me (infantry ATK:3 DEF:5 HP:4) -> virginia_west (cost 4)
+[21:47:01] [INFO] [AI] #11 [UNION] Played 3 cards, 0 remaining in hand
+[21:47:01] [INFO] [AI] #12 [UNION] MOVEMENT phase start
+[21:47:01] [INFO] [AI] #13 [UNION] Movable units: 3
+[21:47:01] [INFO] [AI] #14 [UNION] Move u_spec_berdan2 -> Harpers Ferry
+[21:47:01] [INFO] [AI] #15 [UNION] Move u_ship_cumberlan -> Harpers Ferry
+[21:47:01] [INFO] [AI] #16 [UNION] Move u_inf_20me -> Harpers Ferry
+[21:47:01] [INFO] [AI] #17 [UNION] Moved 3 units
+[21:47:01] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:47:01] [INFO] [AI] #1 [CONFEDERATE] RESOURCES phase start
+[21:47:01] [INFO] [AI] #2 [CONFEDERATE] Income from 29 territories. Men:23 Gold:39 Supply:35
+[21:47:01] [INFO] [AI] #3 [CONFEDERATE] DRAW phase start
+[21:47:01] [INFO] [AI] #4 [CONFEDERATE] Available cards: 76 types
+[21:47:01] [INFO] [AI] #5 [CONFEDERATE] Drew 3 cards: c_hampton_inf c_inf_07va c_cav_03tn
+[21:47:01] [INFO] [AI] #6 [CONFEDERATE] PLAY CARDS phase start
+[21:47:01] [INFO] [AI] #7 [CONFEDERATE] Hand: 3 cards, Gold: 39
+[21:47:01] [INFO] [AI] #8 [CONFEDERATE] Placed c_hampton_inf (infantry ATK:4 DEF:3 HP:5) -> virginia_north (cost 3)
+[21:47:01] [INFO] [AI] #9 [CONFEDERATE] Placed c_inf_07va (infantry ATK:3 DEF:3 HP:4) -> tennessee_east (cost 2)
+[21:47:01] [INFO] [AI] #10 [CONFEDERATE] Placed c_cav_03tn (cavalry ATK:4 DEF:2 HP:4) -> richmond (cost 3)
+[21:47:01] [INFO] [AI] #11 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:47:01] [INFO] [AI] #12 [CONFEDERATE] MOVEMENT phase start
+[21:47:01] [INFO] [AI] #13 [CONFEDERATE] Movable units: 3
+[21:47:01] [INFO] [AI] #14 [CONFEDERATE] Move c_hampton_inf -> Harpers Ferry
+[21:47:01] [INFO] [AI] #15 [CONFEDERATE] Move c_inf_07va -> Western Virginia
+[21:47:01] [INFO] [AI] #16 [CONFEDERATE] Move c_cav_03tn -> Western Virginia
+[21:47:01] [INFO] [AI] #17 [CONFEDERATE] Moved 3 units
+[21:47:01] [INFO] [TEST] --- COMBAT (both sides) ---
+[21:47:01] [INFO] [AI] #18 [UNION] COMBAT phase start
+[21:47:01] [INFO] [AI] #19 [UNION] BATTLE at Harpers Ferry (hills): 3 union vs 1 confederate
+[21:47:01] [INFO] [Battle] Battle at harpers_ferry: 3 union vs 1 confederate
+[21:47:01] [INFO] [Battle] Battle result at harpers_ferry: losses 1/1 captured=true
+[21:47:01] [INFO] [AI] #20 [UNION] Result: ATK lost 1, DEF lost 1, captured=true
+[21:47:01] [INFO] [AI] #21 [UNION] UNION CAPTURED Harpers Ferry from confederate!
+[21:47:01] [INFO] [AI] #22 [UNION] Unit destroyed: u_spec_berdan2
+[21:47:01] [INFO] [AI] #23 [UNION] Unit destroyed: c_hampton_inf
+[21:47:01] [INFO] [AI] #24 [UNION] Contested territories: 1
+[21:47:01] [INFO] [AI] #25 [UNION] Battles fought: 1
+[21:47:01] [INFO] [AI] #26 [UNION] No contested territories found
+[21:47:01] [INFO] [AI] #27 [UNION] Sample territories: harpers_ferry:{ "union": 2 } virginia_west:{ "confederate": 2 }
+[21:47:01] [INFO] [TEST] --- EVENTS (both sides) ---
+[21:47:01] [INFO] [AI] #28 [UNION] EVENTS phase
+[21:47:01] [INFO] [AI] #29 [UNION] END TURN - ticking buffs
+[21:47:01] [INFO] [AI] #30 [UNION] State verify: 4 units, territories U:5 C:28 N:5
+[21:47:01] [INFO] [AI] #18 [CONFEDERATE] END TURN - ticking buffs
+[21:47:01] [INFO] [AI] #19 [CONFEDERATE] State verify: 4 units, territories U:5 C:28 N:5
+[21:47:01] [INFO] [GameManager] Turn 2 started: month.may 1861
+[21:47:01] [INFO] [TEST] 
+[21:47:01] [INFO] [TEST] ====== TURN 2 | month.may 1861 ======
+[21:47:01] [INFO] [TEST] --- UNION PLAYER ---
+[21:47:01] [INFO] [AI] #31 [UNION] RESOURCES phase start
+[21:47:01] [INFO] [AI] #32 [UNION] Income from 5 territories. Men:16 Gold:15 Supply:14
+[21:47:01] [INFO] [AI] #33 [UNION] DRAW phase start
+[21:47:01] [INFO] [AI] #34 [UNION] Available cards: 70 types
+[21:47:01] [INFO] [AI] #35 [UNION] Drew 3 cards: u_art_B04us u_ship_minnesota u_art_02us
+[21:47:01] [INFO] [AI] #36 [UNION] PLAY CARDS phase start
+[21:47:01] [INFO] [AI] #37 [UNION] Hand: 3 cards, Gold: 15
+[21:47:01] [INFO] [AI] #38 [UNION] Placed u_art_B04us (artillery ATK:5 DEF:2 HP:3) -> virginia_west (cost 4)
+[21:47:01] [INFO] [AI] #39 [UNION] Placed u_ship_minnesota (ship ATK:4 DEF:4 HP:5) -> washington_dc (cost 3)
+[21:47:01] [INFO] [AI] #40 [UNION] Placed u_art_02us (artillery ATK:4 DEF:2 HP:3) -> harpers_ferry (cost 3)
+[21:47:01] [INFO] [AI] #41 [UNION] Played 3 cards, 0 remaining in hand
+[21:47:01] [INFO] [AI] #42 [UNION] MOVEMENT phase start
+[21:47:01] [INFO] [AI] #43 [UNION] Movable units: 5
+[21:47:01] [INFO] [AI] #44 [UNION] Move u_ship_cumberlan -> Western Virginia
+[21:47:01] [INFO] [AI] #45 [UNION] Move u_art_B04us -> Northern Virginia
+[21:47:01] [INFO] [AI] #46 [UNION] Move u_ship_minnesota -> Northern Virginia
+[21:47:01] [INFO] [AI] #47 [UNION] Moved 3 units
+[21:47:01] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:47:01] [INFO] [AI] #20 [CONFEDERATE] RESOURCES phase start
+[21:47:01] [INFO] [AI] #21 [CONFEDERATE] Income from 28 territories. Men:42 Gold:65 Supply:65
+[21:47:01] [INFO] [AI] #22 [CONFEDERATE] DRAW phase start
+[21:47:01] [INFO] [AI] #23 [CONFEDERATE] Available cards: 76 types
+[21:47:01] [INFO] [AI] #24 [CONFEDERATE] Drew 3 cards: c_inf_33va c_cav_03tn c_spec_forrest_div
+[21:47:01] [INFO] [AI] #25 [CONFEDERATE] PLAY CARDS phase start
+[21:47:01] [INFO] [AI] #26 [CONFEDERATE] Hand: 3 cards, Gold: 65
+[21:47:01] [INFO] [AI] #27 [CONFEDERATE] Placed c_inf_33va (infantry ATK:4 DEF:3 HP:5) -> virginia_north (cost 3)
+[21:47:01] [INFO] [AI] #28 [CONFEDERATE] Placed c_cav_03tn (cavalry ATK:4 DEF:2 HP:4) -> shenandoah (cost 3)
+[21:47:01] [INFO] [AI] #29 [CONFEDERATE] Placed c_spec_forrest_div (special ATK:4 DEF:3 HP:4) -> shenandoah (cost 4)
+[21:47:01] [INFO] [AI] #30 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:47:01] [INFO] [AI] #31 [CONFEDERATE] MOVEMENT phase start
+[21:47:01] [INFO] [AI] #32 [CONFEDERATE] Movable units: 5
+[21:47:01] [INFO] [AI] #33 [CONFEDERATE] Move c_inf_07va -> Harpers Ferry
+[21:47:01] [INFO] [AI] #34 [CONFEDERATE] Move c_cav_03tn -> Harpers Ferry
+[21:47:01] [INFO] [AI] #35 [CONFEDERATE] Move c_inf_33va -> Harpers Ferry
+[21:47:01] [INFO] [AI] #36 [CONFEDERATE] Move c_cav_03tn -> Harpers Ferry
+[21:47:01] [INFO] [AI] #37 [CONFEDERATE] Move c_spec_forrest_d -> Harpers Ferry
+[21:47:01] [INFO] [AI] #38 [CONFEDERATE] Moved 5 units
+[21:47:01] [INFO] [TEST] --- COMBAT (both sides) ---
+[21:47:01] [INFO] [AI] #48 [UNION] COMBAT phase start
+[21:47:01] [INFO] [AI] #49 [UNION] BATTLE at Harpers Ferry (hills): 5 confederate vs 2 union
+[21:47:01] [INFO] [Battle] Battle at harpers_ferry: 5 confederate vs 2 union
+[21:47:01] [INFO] [Battle] Battle result at harpers_ferry: losses 5/0 captured=false
+[21:47:01] [INFO] [AI] #50 [UNION] Result: ATK lost 5, DEF lost 0, captured=false
+[21:47:01] [INFO] [AI] #51 [UNION] Unit destroyed: c_inf_07va
+[21:47:01] [INFO] [AI] #52 [UNION] Unit destroyed: c_cav_03tn
+[21:47:01] [INFO] [AI] #53 [UNION] Unit destroyed: c_inf_33va
+[21:47:01] [INFO] [AI] #54 [UNION] Unit destroyed: c_cav_03tn
+[21:47:01] [INFO] [AI] #55 [UNION] Unit destroyed: c_spec_forrest_div
+[21:47:01] [INFO] [AI] #56 [UNION] Contested territories: 1
+[21:47:01] [INFO] [AI] #57 [UNION] Battles fought: 1
+[21:47:01] [INFO] [AI] #58 [UNION] No contested territories found
+[21:47:01] [INFO] [AI] #59 [UNION] Sample territories: harpers_ferry:{ "union": 2 } virginia_west:{ "union": 1 } virginia_north:{ "union": 2 }
+[21:47:01] [INFO] [TEST] --- EVENTS (both sides) ---
+[21:47:01] [INFO] [AI] #60 [UNION] EVENTS phase
+[21:47:01] [INFO] [AI] #61 [UNION] END TURN - ticking buffs
+[21:47:01] [INFO] [AI] #62 [UNION] State verify: 5 units, territories U:5 C:28 N:5
+[21:47:01] [INFO] [AI] #39 [CONFEDERATE] END TURN - ticking buffs
+[21:47:01] [INFO] [AI] #40 [CONFEDERATE] State verify: 5 units, territories U:5 C:28 N:5
+[21:47:01] [INFO] [GameManager] Turn 3 started: month.june 1861
+[21:47:01] [INFO] [TEST] 
+[21:47:01] [INFO] [TEST] ====== TURN 3 | month.june 1861 ======
+[21:47:01] [INFO] [TEST] --- UNION PLAYER ---
+[21:47:01] [INFO] [AI] #63 [UNION] RESOURCES phase start
+[21:47:01] [INFO] [AI] #64 [UNION] Income from 5 territories. Men:21 Gold:14 Supply:19
+[21:47:01] [INFO] [AI] #65 [UNION] DRAW phase start
+[21:47:01] [INFO] [AI] #66 [UNION] Available cards: 70 types
+[21:47:01] [INFO] [AI] #67 [UNION] Drew 3 cards: u_ship_essex u_inf_24mi u_inf_69ny
+[21:47:01] [INFO] [AI] #68 [UNION] PLAY CARDS phase start
+[21:47:01] [INFO] [AI] #69 [UNION] Hand: 3 cards, Gold: 14
+[21:47:01] [INFO] [AI] #70 [UNION] Placed u_ship_essex (ship ATK:4 DEF:5 HP:5) -> virginia_west (cost 4)
+[21:47:01] [INFO] [AI] #71 [UNION] Placed u_inf_24mi (infantry ATK:4 DEF:3 HP:4) -> harpers_ferry (cost 3)
+[21:47:01] [INFO] [AI] #72 [UNION] Placed u_inf_69ny (infantry ATK:4 DEF:3 HP:5) -> washington_dc (cost 3)
+[21:47:01] [INFO] [AI] #73 [UNION] Played 3 cards, 0 remaining in hand
+[21:47:01] [INFO] [AI] #74 [UNION] MOVEMENT phase start
+[21:47:01] [INFO] [AI] #75 [UNION] Movable units: 8
+[21:47:01] [INFO] [AI] #76 [UNION] Move u_inf_20me -> Shenandoah Valley
+[21:47:01] [INFO] [AI] #77 [UNION] Move u_ship_cumberlan -> Northern Virginia
+[21:47:01] [INFO] [AI] #78 [UNION] Move u_ship_essex -> Northern Virginia
+[21:47:01] [INFO] [AI] #79 [UNION] Move u_art_B04us -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #80 [UNION] Move u_ship_minnesota -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #81 [UNION] Move u_inf_69ny -> Northern Virginia
+[21:47:01] [INFO] [AI] #82 [UNION] Moved 6 units
+[21:47:01] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:47:01] [INFO] [AI] #41 [CONFEDERATE] RESOURCES phase start
+[21:47:01] [INFO] [AI] #42 [CONFEDERATE] Income from 28 territories. Men:61 Gold:89 Supply:95
+[21:47:01] [INFO] [AI] #43 [CONFEDERATE] DRAW phase start
+[21:47:01] [INFO] [AI] #44 [CONFEDERATE] Available cards: 76 types
+[21:47:01] [INFO] [AI] #45 [CONFEDERATE] Drew 3 cards: c_art_crenshaw c_brig_wilcox c_inf_07va
+[21:47:01] [INFO] [AI] #46 [CONFEDERATE] PLAY CARDS phase start
+[21:47:01] [INFO] [AI] #47 [CONFEDERATE] Hand: 3 cards, Gold: 89
+[21:47:01] [INFO] [AI] #48 [CONFEDERATE] Placed c_art_crenshaw (artillery ATK:4 DEF:2 HP:3) -> virginia_north (cost 3)
+[21:47:01] [INFO] [AI] #49 [CONFEDERATE] Placed c_brig_wilcox (infantry ATK:3 DEF:2 HP:4) -> virginia_north (cost 2)
+[21:47:01] [INFO] [AI] #50 [CONFEDERATE] Placed c_inf_07va (infantry ATK:3 DEF:3 HP:4) -> shenandoah (cost 2)
+[21:47:01] [INFO] [AI] #51 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:47:01] [INFO] [AI] #52 [CONFEDERATE] MOVEMENT phase start
+[21:47:01] [INFO] [AI] #53 [CONFEDERATE] Movable units: 3
+[21:47:01] [INFO] [AI] #54 [CONFEDERATE] Move c_art_crenshaw -> Harpers Ferry
+[21:47:01] [INFO] [AI] #55 [CONFEDERATE] Move c_brig_wilcox -> Harpers Ferry
+[21:47:01] [INFO] [AI] #56 [CONFEDERATE] Move c_inf_07va -> Harpers Ferry
+[21:47:01] [INFO] [AI] #57 [CONFEDERATE] Moved 3 units
+[21:47:01] [INFO] [TEST] --- COMBAT (both sides) ---
+[21:47:01] [INFO] [AI] #83 [UNION] COMBAT phase start
+[21:47:01] [INFO] [AI] #84 [UNION] BATTLE at Harpers Ferry (hills): 3 confederate vs 2 union
+[21:47:01] [INFO] [Battle] Battle at harpers_ferry: 3 confederate vs 2 union
+[21:47:01] [INFO] [Battle] Battle result at harpers_ferry: losses 3/1 captured=false
+[21:47:01] [INFO] [AI] #85 [UNION] Result: ATK lost 3, DEF lost 1, captured=false
+[21:47:01] [INFO] [AI] #86 [UNION] Unit destroyed: u_art_02us
+[21:47:01] [INFO] [AI] #87 [UNION] Unit destroyed: c_art_crenshaw
+[21:47:01] [INFO] [AI] #88 [UNION] Unit destroyed: c_brig_wilcox
+[21:47:01] [INFO] [AI] #89 [UNION] Unit destroyed: c_inf_07va
+[21:47:01] [INFO] [AI] #90 [UNION] Contested territories: 1
+[21:47:01] [INFO] [AI] #91 [UNION] Battles fought: 1
+[21:47:01] [INFO] [AI] #92 [UNION] No contested territories found
+[21:47:01] [INFO] [AI] #93 [UNION] Sample territories: harpers_ferry:{ "union": 1 } virginia_north:{ "union": 3 } shenandoah:{ "union": 1 } richmond:{ "union": 2 }
+[21:47:01] [INFO] [TEST] --- EVENTS (both sides) ---
+[21:47:01] [INFO] [AI] #94 [UNION] EVENTS phase
+[21:47:01] [INFO] [AI] #95 [UNION] END TURN - ticking buffs
+[21:47:01] [INFO] [AI] #96 [UNION] State verify: 7 units, territories U:5 C:28 N:5
+[21:47:01] [INFO] [AI] #58 [CONFEDERATE] END TURN - ticking buffs
+[21:47:01] [INFO] [AI] #59 [CONFEDERATE] State verify: 7 units, territories U:5 C:28 N:5
+[21:47:01] [INFO] [GameManager] Turn 4 started: month.july 1861
+[21:47:01] [INFO] [TEST] 
+[21:47:01] [INFO] [TEST] ====== TURN 4 | month.july 1861 ======
+[21:47:01] [INFO] [TEST] --- UNION PLAYER ---
+[21:47:01] [INFO] [AI] #97 [UNION] RESOURCES phase start
+[21:47:01] [INFO] [AI] #98 [UNION] Income from 5 territories. Men:26 Gold:13 Supply:24
+[21:47:01] [INFO] [AI] #99 [UNION] DRAW phase start
+[21:47:01] [INFO] [AI] #100 [UNION] Available cards: 70 types
+[21:47:01] [INFO] [AI] #101 [UNION] Drew 3 cards: u_spec_lightning u_art_05us u_ship_essex
+[21:47:01] [INFO] [AI] #102 [UNION] PLAY CARDS phase start
+[21:47:01] [INFO] [AI] #103 [UNION] Hand: 3 cards, Gold: 13
+[21:47:01] [INFO] [AI] #104 [UNION] Placed u_spec_lightning (special ATK:5 DEF:2 HP:4) -> harpers_ferry (cost 5)
+[21:47:01] [INFO] [AI] #105 [UNION] Placed u_art_05us (artillery ATK:4 DEF:2 HP:3) -> washington_dc (cost 3)
+[21:47:01] [INFO] [AI] #106 [UNION] Placed u_ship_essex (ship ATK:4 DEF:5 HP:5) -> washington_dc (cost 4)
+[21:47:01] [INFO] [AI] #107 [UNION] Played 3 cards, 0 remaining in hand
+[21:47:01] [INFO] [AI] #108 [UNION] MOVEMENT phase start
+[21:47:01] [INFO] [AI] #109 [UNION] Movable units: 10
+[21:47:01] [INFO] [AI] #110 [UNION] Move u_inf_24mi -> Shenandoah Valley
+[21:47:01] [INFO] [AI] #111 [UNION] Move u_spec_lightning -> Shenandoah Valley
+[21:47:01] [INFO] [AI] #112 [UNION] Move u_ship_cumberlan -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #113 [UNION] Move u_inf_20me -> Northern Virginia
+[21:47:01] [INFO] [AI] #114 [UNION] Move u_art_B04us -> Northern Virginia
+[21:47:01] [INFO] [AI] #115 [UNION] Move u_art_05us -> Northern Virginia
+[21:47:01] [INFO] [AI] #116 [UNION] Move u_ship_essex -> Northern Virginia
+[21:47:01] [INFO] [AI] #117 [UNION] Moved 7 units
+[21:47:01] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:47:01] [INFO] [AI] #60 [CONFEDERATE] RESOURCES phase start
+[21:47:01] [INFO] [AI] #61 [CONFEDERATE] Income from 28 territories. Men:80 Gold:116 Supply:125
+[21:47:01] [INFO] [AI] #62 [CONFEDERATE] DRAW phase start
+[21:47:01] [INFO] [AI] #63 [CONFEDERATE] Available cards: 76 types
+[21:47:01] [INFO] [AI] #64 [CONFEDERATE] Drew 3 cards: c_brig_kemper c_art_01rockbridge c_cav_43va
+[21:47:01] [INFO] [AI] #65 [CONFEDERATE] PLAY CARDS phase start
+[21:47:01] [INFO] [AI] #66 [CONFEDERATE] Hand: 3 cards, Gold: 116
+[21:47:01] [INFO] [AI] #67 [CONFEDERATE] Placed c_brig_kemper (infantry ATK:3 DEF:2 HP:4) -> richmond (cost 3)
+[21:47:01] [INFO] [AI] #68 [CONFEDERATE] Placed c_art_01rockbridge (artillery ATK:4 DEF:3 HP:4) -> virginia_north (cost 3)
+[21:47:01] [INFO] [AI] #69 [CONFEDERATE] Placed c_cav_43va (cavalry ATK:4 DEF:1 HP:2) -> virginia_north (cost 4)
+[21:47:01] [INFO] [AI] #70 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:47:01] [INFO] [AI] #71 [CONFEDERATE] MOVEMENT phase start
+[21:47:01] [INFO] [AI] #72 [CONFEDERATE] Movable units: 3
+[21:47:01] [INFO] [AI] #73 [CONFEDERATE] Move c_art_01rockbrid -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #74 [CONFEDERATE] Move c_cav_43va -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #75 [CONFEDERATE] Move c_brig_kemper -> Northern Virginia
+[21:47:01] [INFO] [AI] #76 [CONFEDERATE] Moved 3 units
+[21:47:01] [INFO] [TEST] --- COMBAT (both sides) ---
+[21:47:01] [INFO] [AI] #118 [UNION] COMBAT phase start
+[21:47:01] [INFO] [AI] #119 [UNION] BATTLE at Northern Virginia (forest): 6 union vs 1 confederate
+[21:47:01] [INFO] [Battle] Battle at virginia_north: 6 union vs 1 confederate
+[21:47:01] [INFO] [Battle] Battle result at virginia_north: losses 0/1 captured=true
+[21:47:01] [INFO] [AI] #120 [UNION] Result: ATK lost 0, DEF lost 1, captured=true
+[21:47:01] [INFO] [AI] #121 [UNION] UNION CAPTURED Northern Virginia from confederate!
+[21:47:01] [INFO] [AI] #122 [UNION] Unit destroyed: c_brig_kemper
+[21:47:01] [INFO] [AI] #123 [UNION] BATTLE at Richmond, Virginia (city): 2 union vs 2 confederate
+[21:47:01] [INFO] [Battle] Battle at richmond: 2 union vs 2 confederate
+[21:47:01] [INFO] [Battle] Battle result at richmond: losses 2/0 captured=false
+[21:47:01] [INFO] [AI] #124 [UNION] Result: ATK lost 2, DEF lost 0, captured=false
+[21:47:01] [INFO] [AI] #125 [UNION] Unit destroyed: u_ship_minnesota
+[21:47:01] [INFO] [AI] #126 [UNION] Unit destroyed: u_ship_cumberland
+[21:47:01] [INFO] [AI] #127 [UNION] Contested territories: 2
+[21:47:01] [INFO] [AI] #128 [UNION] Battles fought: 2
+[21:47:01] [INFO] [AI] #129 [UNION] No contested territories found
+[21:47:01] [INFO] [AI] #130 [UNION] Sample territories: virginia_north:{ "union": 6 } shenandoah:{ "union": 2 } richmond:{ "confederate": 2 }
+[21:47:01] [INFO] [TEST] --- EVENTS (both sides) ---
+[21:47:01] [INFO] [AI] #131 [UNION] EVENTS phase
+[21:47:01] [INFO] [AI] #132 [UNION] END TURN - ticking buffs
+[21:47:01] [INFO] [AI] #133 [UNION] State verify: 10 units, territories U:6 C:27 N:5
+[21:47:01] [INFO] [AI] #77 [CONFEDERATE] END TURN - ticking buffs
+[21:47:01] [INFO] [AI] #78 [CONFEDERATE] State verify: 10 units, territories U:6 C:27 N:5
+[21:47:01] [INFO] [GameManager] Turn 5 started: month.august 1861
+[21:47:01] [INFO] [TEST] 
+[21:47:01] [INFO] [TEST] ====== TURN 5 | month.august 1861 ======
+[21:47:01] [INFO] [TEST] --- UNION PLAYER ---
+[21:47:01] [INFO] [AI] #134 [UNION] RESOURCES phase start
+[21:47:01] [INFO] [AI] #135 [UNION] Income from 6 territories. Men:32 Gold:11 Supply:30
+[21:47:01] [INFO] [AI] #136 [UNION] DRAW phase start
+[21:47:01] [INFO] [AI] #137 [UNION] Available cards: 70 types
+[21:47:01] [INFO] [AI] #138 [UNION] Drew 3 cards: u_inf_01kc u_spec_blazer u_art_B04us
+[21:47:01] [INFO] [AI] #139 [UNION] PLAY CARDS phase start
+[21:47:01] [INFO] [AI] #140 [UNION] Hand: 3 cards, Gold: 11
+[21:47:01] [INFO] [AI] #141 [UNION] Placed u_inf_01kc (infantry ATK:3 DEF:3 HP:4) -> harpers_ferry (cost 2)
+[21:47:01] [INFO] [AI] #142 [UNION] Placed u_spec_blazer (special ATK:3 DEF:2 HP:3) -> virginia_west (cost 2)
+[21:47:01] [INFO] [AI] #143 [UNION] Placed u_art_B04us (artillery ATK:5 DEF:2 HP:3) -> harpers_ferry (cost 4)
+[21:47:01] [INFO] [AI] #144 [UNION] Played 3 cards, 0 remaining in hand
+[21:47:01] [INFO] [AI] #145 [UNION] MOVEMENT phase start
+[21:47:01] [INFO] [AI] #146 [UNION] Movable units: 11
+[21:47:01] [INFO] [AI] #147 [UNION] Move u_ship_essex -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #148 [UNION] Move u_inf_69ny -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #149 [UNION] Move u_inf_20me -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #150 [UNION] Move u_inf_24mi -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #151 [UNION] Move u_spec_lightning -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #152 [UNION] Move u_inf_01kc -> Shenandoah Valley
+[21:47:01] [INFO] [AI] #153 [UNION] Move u_art_B04us -> Shenandoah Valley
+[21:47:01] [INFO] [AI] #154 [UNION] Move u_spec_blazer -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #155 [UNION] Moved 8 units
+[21:47:01] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:47:01] [INFO] [AI] #79 [CONFEDERATE] RESOURCES phase start
+[21:47:01] [INFO] [AI] #80 [CONFEDERATE] Income from 27 territories. Men:98 Gold:139 Supply:154
+[21:47:01] [INFO] [AI] #81 [CONFEDERATE] DRAW phase start
+[21:47:01] [INFO] [AI] #82 [CONFEDERATE] Available cards: 76 types
+[21:47:01] [INFO] [AI] #83 [CONFEDERATE] Drew 3 cards: c_inf_03ar c_art_palmetto c_cav_35va
+[21:47:01] [INFO] [AI] #84 [CONFEDERATE] PLAY CARDS phase start
+[21:47:01] [INFO] [AI] #85 [CONFEDERATE] Hand: 3 cards, Gold: 139
+[21:47:01] [INFO] [AI] #86 [CONFEDERATE] Placed c_inf_03ar (infantry ATK:4 DEF:3 HP:4) -> tennessee_east (cost 3)
+[21:47:01] [INFO] [AI] #87 [CONFEDERATE] Placed c_art_palmetto (artillery ATK:4 DEF:2 HP:3) -> tennessee_east (cost 3)
+[21:47:01] [INFO] [AI] #88 [CONFEDERATE] Placed c_cav_35va (cavalry ATK:3 DEF:2 HP:3) -> tennessee_east (cost 2)
+[21:47:01] [INFO] [AI] #89 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:47:01] [INFO] [AI] #90 [CONFEDERATE] MOVEMENT phase start
+[21:47:01] [INFO] [AI] #91 [CONFEDERATE] Movable units: 5
+[21:47:01] [INFO] [AI] #92 [CONFEDERATE] Move c_art_01rockbrid -> Northern Virginia
+[21:47:01] [INFO] [AI] #93 [CONFEDERATE] Move c_cav_43va -> Northern Virginia
+[21:47:01] [INFO] [AI] #94 [CONFEDERATE] Move c_inf_03ar -> Western Virginia
+[21:47:01] [INFO] [AI] #95 [CONFEDERATE] Moved 3 units
+[21:47:01] [INFO] [TEST] --- COMBAT (both sides) ---
+[21:47:01] [INFO] [AI] #156 [UNION] COMBAT phase start
+[21:47:01] [INFO] [AI] #157 [UNION] BATTLE at Northern Virginia (forest): 2 confederate vs 3 union
+[21:47:01] [INFO] [Battle] Battle at virginia_north: 2 confederate vs 3 union
+[21:47:01] [INFO] [Battle] Battle result at virginia_north: losses 2/2 captured=false
+[21:47:01] [INFO] [AI] #158 [UNION] Result: ATK lost 2, DEF lost 2, captured=false
+[21:47:01] [INFO] [AI] #159 [UNION] Unit destroyed: u_art_B04us
+[21:47:01] [INFO] [AI] #160 [UNION] Unit destroyed: u_art_05us
+[21:47:01] [INFO] [AI] #161 [UNION] Unit destroyed: c_art_01rockbridge
+[21:47:01] [INFO] [AI] #162 [UNION] Unit destroyed: c_cav_43va
+[21:47:01] [INFO] [AI] #163 [UNION] Contested territories: 1
+[21:47:01] [INFO] [AI] #164 [UNION] Battles fought: 1
+[21:47:01] [INFO] [AI] #165 [UNION] No contested territories found
+[21:47:01] [INFO] [AI] #166 [UNION] Sample territories: virginia_north:{ "union": 1 } richmond:{ "union": 6 } shenandoah:{ "union": 2 } tennessee_east:{ "confederate": 2 } virginia_west:{ "confederate": 1 }
+[21:47:01] [INFO] [TEST] --- EVENTS (both sides) ---
+[21:47:01] [INFO] [AI] #167 [UNION] EVENTS phase
+[21:47:01] [INFO] [AI] #168 [UNION] END TURN - ticking buffs
+[21:47:01] [INFO] [AI] #169 [UNION] State verify: 12 units, territories U:6 C:27 N:5
+[21:47:01] [INFO] [AI] #96 [CONFEDERATE] END TURN - ticking buffs
+[21:47:01] [INFO] [AI] #97 [CONFEDERATE] State verify: 12 units, territories U:6 C:27 N:5
+[21:47:01] [INFO] [GameManager] Turn 6 started: month.september 1861
+[21:47:01] [INFO] [TEST] 
+[21:47:01] [INFO] [TEST] ====== TURN 6 | month.september 1861 ======
+[21:47:01] [INFO] [TEST] --- UNION PLAYER ---
+[21:47:01] [INFO] [AI] #170 [UNION] RESOURCES phase start
+[21:47:01] [INFO] [AI] #171 [UNION] Income from 6 territories. Men:38 Gold:13 Supply:36
+[21:47:01] [INFO] [AI] #172 [UNION] DRAW phase start
+[21:47:01] [INFO] [AI] #173 [UNION] Available cards: 70 types
+[21:47:01] [INFO] [AI] #174 [UNION] Drew 3 cards: u_ship_newironsides u_ship_monitor u_inf_01us
+[21:47:01] [INFO] [AI] #175 [UNION] PLAY CARDS phase start
+[21:47:01] [INFO] [AI] #176 [UNION] Hand: 3 cards, Gold: 13
+[21:47:01] [INFO] [AI] #177 [UNION] Placed u_ship_newironsides (ship ATK:6 DEF:8 HP:8) -> virginia_north (cost 7)
+[21:47:01] [INFO] [AI] #178 [UNION] Placed u_ship_monitor (ship ATK:5 DEF:8 HP:6) -> virginia_west (cost 6)
+[21:47:01] [INFO] [AI] #179 [UNION] Skipped 1 cards (not enough gold)
+[21:47:01] [INFO] [AI] #180 [UNION] Played 2 cards, 1 remaining in hand
+[21:47:01] [INFO] [AI] #181 [UNION] MOVEMENT phase start
+[21:47:01] [INFO] [AI] #182 [UNION] Movable units: 11
+[21:47:01] [INFO] [AI] #183 [UNION] Move u_ship_essex -> Western Virginia
+[21:47:01] [INFO] [AI] #184 [UNION] Move u_ship_newironsi -> Western Virginia
+[21:47:01] [INFO] [AI] #185 [UNION] Move u_ship_essex -> Western Virginia
+[21:47:01] [INFO] [AI] #186 [UNION] Move u_inf_69ny -> Western Virginia
+[21:47:01] [INFO] [AI] #187 [UNION] Move u_inf_20me -> Western Virginia
+[21:47:01] [INFO] [AI] #188 [UNION] Move u_inf_01kc -> Western Virginia
+[21:47:01] [INFO] [AI] #189 [UNION] Move u_art_B04us -> Western Virginia
+[21:47:01] [INFO] [AI] #190 [UNION] Move u_ship_monitor -> East Tennessee
+[21:47:01] [INFO] [AI] #191 [UNION] Moved 8 units
+[21:47:01] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:47:01] [INFO] [AI] #98 [CONFEDERATE] RESOURCES phase start
+[21:47:01] [INFO] [AI] #99 [CONFEDERATE] Income from 27 territories. Men:116 Gold:164 Supply:183
+[21:47:01] [INFO] [AI] #100 [CONFEDERATE] DRAW phase start
+[21:47:01] [INFO] [AI] #101 [CONFEDERATE] Available cards: 76 types
+[21:47:01] [INFO] [AI] #102 [CONFEDERATE] Drew 3 cards: c_ship_jamestown c_cav_11va c_brig_davis
+[21:47:01] [INFO] [AI] #103 [CONFEDERATE] PLAY CARDS phase start
+[21:47:01] [INFO] [AI] #104 [CONFEDERATE] Hand: 3 cards, Gold: 164
+[21:47:01] [INFO] [AI] #105 [CONFEDERATE] Placed c_ship_jamestown (ship ATK:3 DEF:3 HP:4) -> richmond (cost 2)
+[21:47:01] [INFO] [AI] #106 [CONFEDERATE] Placed c_cav_11va (cavalry ATK:3 DEF:2 HP:3) -> richmond (cost 2)
+[21:47:01] [INFO] [AI] #107 [CONFEDERATE] Placed c_brig_davis (infantry ATK:3 DEF:2 HP:4) -> richmond (cost 2)
+[21:47:01] [INFO] [AI] #108 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:47:01] [INFO] [AI] #109 [CONFEDERATE] MOVEMENT phase start
+[21:47:01] [INFO] [AI] #110 [CONFEDERATE] Movable units: 6
+[21:47:01] [INFO] [AI] #111 [CONFEDERATE] Move c_ship_jamestown -> Western Virginia
+[21:47:01] [INFO] [AI] #112 [CONFEDERATE] Move c_art_palmetto -> Western Virginia
+[21:47:01] [INFO] [AI] #113 [CONFEDERATE] Move c_cav_35va -> Western Virginia
+[21:47:01] [INFO] [AI] #114 [CONFEDERATE] Move c_inf_03ar -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #115 [CONFEDERATE] Moved 4 units
+[21:47:01] [INFO] [TEST] --- COMBAT (both sides) ---
+[21:47:01] [INFO] [AI] #192 [UNION] COMBAT phase start
+[21:47:01] [INFO] [AI] #193 [UNION] BATTLE at Richmond, Virginia (city): 3 union vs 3 confederate
+[21:47:01] [INFO] [Battle] Battle at richmond: 3 union vs 3 confederate
+[21:47:01] [INFO] [Battle] Battle result at richmond: losses 3/0 captured=false
+[21:47:01] [INFO] [AI] #194 [UNION] Result: ATK lost 3, DEF lost 0, captured=false
+[21:47:01] [INFO] [AI] #195 [UNION] Unit destroyed: u_inf_24mi
+[21:47:01] [INFO] [AI] #196 [UNION] Unit destroyed: u_spec_lightning
+[21:47:01] [INFO] [AI] #197 [UNION] Unit destroyed: u_spec_blazer
+[21:47:01] [INFO] [AI] #198 [UNION] BATTLE at Western Virginia (hills): 3 confederate vs 7 union
+[21:47:01] [INFO] [Battle] Battle at virginia_west: 3 confederate vs 7 union
+[21:47:01] [INFO] [Battle] Battle result at virginia_west: losses 3/0 captured=false
+[21:47:01] [INFO] [AI] #199 [UNION] Result: ATK lost 3, DEF lost 0, captured=false
+[21:47:01] [INFO] [AI] #200 [UNION] Unit destroyed: c_ship_jamestown
+[21:47:01] [INFO] [AI] #201 [UNION] Unit destroyed: c_art_palmetto
+[21:47:01] [INFO] [AI] #202 [UNION] Unit destroyed: c_cav_35va
+[21:47:01] [INFO] [AI] #203 [UNION] Contested territories: 2
+[21:47:01] [INFO] [AI] #204 [UNION] Battles fought: 2
+[21:47:01] [INFO] [AI] #205 [UNION] No contested territories found
+[21:47:01] [INFO] [AI] #206 [UNION] Sample territories: richmond:{ "confederate": 3 } tennessee_east:{ "union": 1 } virginia_west:{ "union": 7 }
+[21:47:01] [INFO] [TEST] --- EVENTS (both sides) ---
+[21:47:01] [INFO] [AI] #207 [UNION] EVENTS phase
+[21:47:01] [INFO] [AI] #208 [UNION] END TURN - ticking buffs
+[21:47:01] [INFO] [AI] #209 [UNION] State verify: 11 units, territories U:6 C:27 N:5
+[21:47:01] [INFO] [AI] #116 [CONFEDERATE] END TURN - ticking buffs
+[21:47:01] [INFO] [AI] #117 [CONFEDERATE] State verify: 11 units, territories U:6 C:27 N:5
+[21:47:01] [INFO] [GameManager] Turn 7 started: month.october 1861
+[21:47:01] [INFO] [TEST] 
+[21:47:01] [INFO] [TEST] ====== TURN 7 | month.october 1861 ======
+[21:47:01] [INFO] [TEST] --- UNION PLAYER ---
+[21:47:01] [INFO] [AI] #210 [UNION] RESOURCES phase start
+[21:47:01] [INFO] [AI] #211 [UNION] Income from 6 territories. Men:44 Gold:10 Supply:42
+[21:47:01] [INFO] [AI] #212 [UNION] DRAW phase start
+[21:47:01] [INFO] [AI] #213 [UNION] Available cards: 70 types
+[21:47:01] [INFO] [AI] #214 [UNION] Drew 3 cards: u_cav_06mi u_cav_06us u_inf_88ny
+[21:47:01] [INFO] [AI] #215 [UNION] PLAY CARDS phase start
+[21:47:01] [INFO] [AI] #216 [UNION] Hand: 4 cards, Gold: 10
+[21:47:01] [INFO] [AI] #217 [UNION] Placed u_inf_01us (infantry ATK:3 DEF:4 HP:5) -> virginia_west (cost 3)
+[21:47:01] [INFO] [AI] #218 [UNION] Placed u_cav_06mi (cavalry ATK:3 DEF:2 HP:4) -> virginia_west (cost 2)
+[21:47:01] [INFO] [AI] #219 [UNION] Placed u_cav_06us (cavalry ATK:3 DEF:2 HP:4) -> virginia_north (cost 3)
+[21:47:01] [INFO] [AI] #220 [UNION] Skipped 1 cards (not enough gold)
+[21:47:01] [INFO] [AI] #221 [UNION] Played 3 cards, 1 remaining in hand
+[21:47:01] [INFO] [AI] #222 [UNION] MOVEMENT phase start
+[21:47:01] [INFO] [AI] #223 [UNION] Movable units: 11
+[21:47:01] [INFO] [AI] #224 [UNION] Move u_ship_monitor -> Chattanooga, Tennessee
+[21:47:01] [INFO] [AI] #225 [UNION] Move u_ship_essex -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #226 [UNION] Move u_ship_newironsi -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #227 [UNION] Move u_ship_essex -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #228 [UNION] Move u_inf_69ny -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #229 [UNION] Move u_cav_06us -> Richmond, Virginia
+[21:47:01] [INFO] [AI] #230 [UNION] Moved 6 units
+[21:47:01] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:47:01] [INFO] [AI] #118 [CONFEDERATE] RESOURCES phase start
+[21:47:01] [INFO] [AI] #119 [CONFEDERATE] Income from 27 territories. Men:134 Gold:191 Supply:212
+[21:47:01] [INFO] [AI] #120 [CONFEDERATE] DRAW phase start
+[21:47:01] [INFO] [AI] #121 [CONFEDERATE] Available cards: 76 types
+[21:47:01] [INFO] [AI] #122 [CONFEDERATE] Drew 3 cards: c_brig_armistead c_art_purcell c_inf_01tx
+[21:47:01] [INFO] [AI] #123 [CONFEDERATE] PLAY CARDS phase start
+[21:47:01] [INFO] [AI] #124 [CONFEDERATE] Hand: 3 cards, Gold: 191
+[21:47:01] [INFO] [AI] #125 [CONFEDERATE] Placed c_brig_armistead (infantry ATK:3 DEF:2 HP:4) -> richmond (cost 3)
+[21:47:01] [INFO] [AI] #126 [CONFEDERATE] Placed c_art_purcell (artillery ATK:4 DEF:2 HP:3) -> richmond (cost 3)
+[21:47:01] [INFO] [AI] #127 [CONFEDERATE] Placed c_inf_01tx (infantry ATK:5 DEF:3 HP:4) -> tennessee_east (cost 4)
+[21:47:01] [INFO] [AI] #128 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:47:01] [INFO] [AI] #129 [CONFEDERATE] MOVEMENT phase start
+[21:47:01] [INFO] [AI] #130 [CONFEDERATE] Movable units: 6
+[21:47:01] [INFO] [AI] #131 [CONFEDERATE] Move c_cav_11va -> Western Virginia
+[21:47:01] [INFO] [AI] #132 [CONFEDERATE] Move c_brig_davis -> Western Virginia
+[21:47:01] [INFO] [AI] #133 [CONFEDERATE] Move c_inf_01tx -> Western Virginia
+[21:47:01] [INFO] [AI] #134 [CONFEDERATE] Moved 3 units
+[21:47:01] [INFO] [TEST] --- COMBAT (both sides) ---
+[21:47:01] [INFO] [AI] #231 [UNION] COMBAT phase start
+[21:47:01] [INFO] [AI] #232 [UNION] BATTLE at Richmond, Virginia (city): 5 union vs 3 confederate
+[21:47:01] [INFO] [Battle] Battle at richmond: 5 union vs 3 confederate
+[21:47:01] [INFO] [Battle] Battle result at richmond: losses 1/3 captured=true
+[21:47:01] [INFO] [AI] #233 [UNION] Result: ATK lost 1, DEF lost 3, captured=true
+[21:47:01] [INFO] [AI] #234 [UNION] UNION CAPTURED Richmond, Virginia from confederate!
+[21:47:01] [INFO] [AI] #235 [UNION] CAPITAL FELL! union morale +5, confederate morale -5
+[21:47:01] [INFO] [AI] #236 [UNION] Unit destroyed: c_inf_03ar
+[21:47:01] [INFO] [AI] #237 [UNION] Unit destroyed: u_ship_essex
+[21:47:01] [INFO] [AI] #238 [UNION] Unit destroyed: c_brig_armistead
+[21:47:01] [INFO] [AI] #239 [UNION] Unit destroyed: c_art_purcell
+[21:47:01] [INFO] [AI] #240 [UNION] BATTLE at Western Virginia (hills): 3 confederate vs 5 union
+[21:47:01] [INFO] [Battle] Battle at virginia_west: 3 confederate vs 5 union
+[21:47:01] [INFO] [Battle] Battle result at virginia_west: losses 3/0 captured=false
+[21:47:01] [INFO] [AI] #241 [UNION] Result: ATK lost 3, DEF lost 0, captured=false
+[21:47:01] [INFO] [AI] #242 [UNION] Unit destroyed: c_cav_11va
+[21:47:01] [INFO] [AI] #243 [UNION] Unit destroyed: c_brig_davis
+[21:47:01] [INFO] [AI] #244 [UNION] Unit destroyed: c_inf_01tx
+[21:47:01] [INFO] [AI] #245 [UNION] Contested territories: 2
+[21:47:01] [INFO] [AI] #246 [UNION] Battles fought: 2
+[21:47:01] [INFO] [AI] #247 [UNION] No contested territories found
+[21:47:01] [INFO] [AI] #248 [UNION] Sample territories: richmond:{ "union": 4 } virginia_west:{ "union": 5 } chattanooga:{ "union": 1 }
+[21:47:01] [INFO] [TEST] --- EVENTS (both sides) ---
+[21:47:01] [INFO] [AI] #249 [UNION] EVENTS phase
+[21:47:01] [INFO] [AI] #250 [UNION] DESERTION event for confederate (morale=-10)
+[21:47:01] [INFO] [AI] #251 [UNION] END TURN - ticking buffs
+[21:47:01] [INFO] [AI] #252 [UNION] State verify: 10 units, territories U:7 C:26 N:5
+[21:47:01] [INFO] [TEST] *** UNION captures Richmond! ***
+[21:47:01] [INFO] [TEST] 
+[21:47:01] [INFO] [TEST] ============================================
+[21:47:01] [INFO] [TEST]   FINAL REPORT
+[21:47:01] [INFO] [TEST] ============================================
+[21:47:01] [INFO] [TEST] Turns played: 7
+[21:47:01] [INFO] [TEST] Union morale: 5 (morale.normal)
+[21:47:01] [INFO] [TEST] Confed morale: -11 (morale.unrest)
+[21:47:01] [INFO] [TEST] Union res: { "manpower": 44, "money": 2, "supply": 42 }
+[21:47:01] [INFO] [TEST] Confed res: { "manpower": 134, "money": 181, "supply": 212 }
+[21:47:01] [INFO] [TEST] Territories: { "union": 7, "neutral": 5, "confederate": 26 }
+[21:47:01] [INFO] [TEST] Units on map: 10
+[21:47:01] [INFO] [TEST] Union AI bugs: 0 | actions: 252
+[21:47:01] [INFO] [TEST] Confed AI bugs: 0 | actions: 134
+[21:47:01] [INFO] [TEST] TOTAL BUGS FOUND: 0

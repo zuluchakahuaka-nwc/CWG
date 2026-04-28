@@ -24,14 +24,7 @@ func update_display() -> void:
 		_money_label.text = str(res.get("money", 0))
 	if _supply_label:
 		_supply_label.text = str(res.get("supply", 0))
-	var income: Dictionary = {}
-	if not ResourceManager:
-		var rm: Node = Node.new()
-		rm.set_script(load("res://scripts/core/resource_manager.gd"))
-		income = rm.calculate_income(_side)
-		rm.queue_free()
-	else:
-		income = ResourceManager.calculate_income(_side)
+	var income: Dictionary = ResourceManager.calculate_income(_side)
 	if _manpower_income:
 		_manpower_income.text = "+" + str(income.get("manpower", 0))
 	if _money_income:

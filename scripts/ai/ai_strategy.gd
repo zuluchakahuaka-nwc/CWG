@@ -1,3 +1,4 @@
+class_name AIStrategy
 extends RefCounted
 
 enum Strategy { CONSERVATIVE, AGGRESSIVE, BALANCED }

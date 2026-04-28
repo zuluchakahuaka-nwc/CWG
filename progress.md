@@ -54,29 +54,65 @@
 
 ---
 
-### [В ПРОЦЕССЕ] Графика — массовая генерация (170 карт)
-- Метод: Pollinations.ai (бесплатный, через curl.exe)
+### [ГОТОВО] Графика — все 237 карт полностью
+- Метод: Pollinations.ai (бесплатный, через curl.exe / Node.js)
 - Цветовое кодирование: Union = синий, Confederate = красный
+- units_union: 82 файла (70 юнитов + 12 командующих)
+- units_confederate: 88 файлов (76 юнитов + 12 командующих)
+- situations: 67 файлов (все ситуационные карты)
 - Карта: перегенерена в стиле военной стратегии 1861-1865
 - Рамки: frame_legendary.png сгенерена
 - SVG-схема: map_schematic.svg (схема территорий)
-- Скрипт генерации: gen_batch.js → gen_all.bat (170 команд)
-- card_widget.gd: переписан — рисует карту через _draw():
+- card_widget.gd: рисует карту через _draw():
   - Фон по стороне (синий/красный)
   - Рамка по редкости (серая/зелёная/синяя/золотая)
   - Портрет по центру
   - Статы: ATK(красный), DEF(синий), HP(зелёный), COST(жёлтый)
   - Полоска HP при ранении
-  - Иконки типа (🔫🐎💣⚓🎯📜⭐)
+  - Иконки типа
   - ⚡ для карт с linked_events
 
+### [ГОТОВО] Иконки ресурсов и типов (8 шт)
+- icon_manpower.png, icon_money.png, icon_supply.png, icon_morale.png
+- icon_infantry.png, icon_cavalry.png, icon_artillery.png, icon_ship.png
+- Метод: Pollinations.ai, 128x128, стиль гравюры
+
+### [ГОТОВО] Спрайты карты
+- map_background.png (170KB, фоновая карта)
+- map_schematic.svg (схема территорий)
+- game_map.tscn обновлён — TextureRect вместо ColorRect
+- Территории рисуются программно через PanelContainer (map_controller.gd)
+
+### [ГОТОВО] Шрифты (исторический стиль)
+- PlayfairDisplay (Regular + Bold) — заголовки карт
+- CrimsonText (Regular + Bold + Italic) — описания
+- Cinzel (Regular + Bold) — титры
+- SpectralSC (Regular) — подписи
+- FontLoader autoload добавлен в project.godot
+- card_widget.gd обновлён — использует FontLoader
+
+### [ГОТОВО] Звуки SFX (12 эффектов)
+- card_play.wav, card_draw.wav, battle_start.wav, battle_hit.wav
+- battle_destroy.wav, march.wav, morale_up.wav, morale_down.wav
+- victory.wav, defeat.wav, button_click.wav, phonograph_needle.wav
+
+### [ГОТОВО] Музыка патефона (MP3, 18 треков)
+- folk/: 8 треков (Dixieland, Bonnie Blue, Yellow Rose, Camptown, Oh Susanna, Southern Winds, Old Folks, Cumberland Gap)
+- valces/: 10 треков (Home Sweet, Lorena, Aura Lea, Tenting, Just Before, All Quiet, Vacant Chair, When Johnny, Battle Hymn, Marching Georgia)
+- Формат: MP3 (не OGG)
+
+### [ГОТОВО] Тестовые скрипты (4 файла)
+- test_card_database.gd — 12 тестов (загрузка JSON, поля карт, связи территорий)
+- test_battle_resolver.gd — 11 тестов (бой, модификаторы, типы, захват)
+- test_morale_system.gd — 18 тестов (шкала, статусы, бонусы, каскады)
+- test_turn_manager.gd — 14 тестов (ходы, фазы, месяцы, ресурсы, сериализация)
+- test_runner.tscn — сцена-раннер всех тестов
+- Всего: 55 тестов
+
 ### [ОЖИДАЕТ] Следующие шаги
-- [ ] Дождаться генерации 170 карт (~2 часа)
-- [ ] Генерация ситуационных карт (67 шт)
-- [ ] Рамки: common/uncommon/rare (3 шт)
-- [ ] Иконки ресурсов и типов (8 шт)
-- [ ] Шрифты (исторический стиль)
-- [ ] Звуки SFX (12 эффектов)
-- [ ] Музыка (пользователь закинет)
-- [ ] Тестовые скрипты
-- [ ] Экспорт PC + Android
+- [ ] Исправить ошибки воспроизведения музыки MP3 в игре
+- [ ] Анимации UI
+- [ ] Балансировка (плейтестинг)
+- [ ] Экспорт PC (Windows/Linux/macOS)
+- [ ] ~~Экспорт Android (.apk)~~ (отложено)
+- [ ] ~~Адаптация UI под мобильные экраны~~ (отложено)

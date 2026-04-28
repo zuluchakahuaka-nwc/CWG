@@ -1,4 +1,5 @@
 extends Node
+class_name PhonographPlayer
 
 var _audio_player: AudioStreamPlayer
 var _current_track: Dictionary = {}
@@ -8,31 +9,55 @@ var _is_repeating: bool = false
 var _volume: float = 0.75
 var _playlist: Array = []
 var _playlist_index: int = 0
-var _category: String = "marches"
+var _category: String = ""
+var _active_side: String = "union"
+var _needle_player: AudioStreamPlayer = null
 
 signal track_changed(track: Dictionary)
 signal playback_state_changed(is_playing: bool)
+signal side_changed(side: String)
 
 func _ready() -> void:
 	_audio_player = AudioStreamPlayer.new()
 	add_child(_audio_player)
 	_audio_player.volume_db = _linear_to_db(_volume)
 	_audio_player.finished.connect(_on_track_finished)
+	_needle_player = AudioStreamPlayer.new()
+	add_child(_needle_player)
+	_needle_player.volume_db = _linear_to_db(_volume * 0.3)
 
 func play_track(track_data: Dictionary) -> void:
 	_current_track = track_data
 	var file_path: String = track_data.get("file", "")
-	if file_path == "" or not ResourceLoader.exists(file_path):
-		push_warning("PhonographPlayer: file not found: " + file_path)
+	if file_path == "":
 		return
-	var stream: AudioStream = load(file_path)
+	var stream: AudioStream = _load_audio(file_path)
 	if stream == null:
+		push_warning("PhonographPlayer: cannot load: " + file_path)
 		return
+	_play_needle_sound()
 	_audio_player.stream = stream
 	_audio_player.play()
 	_is_playing = true
 	playback_state_changed.emit(true)
 	track_changed.emit(track_data)
+
+func _load_audio(path: String) -> AudioStream:
+	if ResourceLoader.exists(path):
+		var res = load(path)
+		if res is AudioStream:
+			return res
+	var abs_path: String = ProjectSettings.globalize_path(path)
+	if not FileAccess.file_exists(abs_path):
+		return null
+	var file: FileAccess = FileAccess.open(path, FileAccess.READ)
+	if file == null:
+		return null
+	var data: PackedByteArray = file.get_buffer(file.get_length())
+	file.close()
+	var mp3: AudioStreamMP3 = AudioStreamMP3.new()
+	mp3.data = data
+	return mp3
 
 func stop() -> void:
 	_audio_player.stop()
@@ -52,9 +77,23 @@ func resume() -> void:
 func set_volume(value: float) -> void:
 	_volume = clampf(value, 0.0, 1.0)
 	_audio_player.volume_db = _linear_to_db(_volume)
+	if _needle_player:
+		_needle_player.volume_db = _linear_to_db(_volume * 0.3)
 
 func get_volume() -> float:
 	return _volume
+
+func is_playing() -> bool:
+	return _is_playing
+
+func set_side(side: String) -> void:
+	_active_side = side
+	var style: String = GameManager.get_music_style(side)
+	set_category(style)
+	side_changed.emit(side)
+
+func get_active_side() -> String:
+	return _active_side
 
 func set_category(cat: String) -> void:
 	_category = cat
@@ -65,6 +104,11 @@ func set_category(cat: String) -> void:
 
 func play_category(cat: String) -> void:
 	set_category(cat)
+	if not _playlist.is_empty():
+		play_track(_playlist[0])
+
+func play_for_side(side: String) -> void:
+	set_side(side)
 	if not _playlist.is_empty():
 		play_track(_playlist[0])
 
@@ -110,11 +154,48 @@ func get_playback_position() -> float:
 		return _audio_player.get_playback_position()
 	return 0.0
 
+func is_phonograph_mode() -> bool:
+	return _category == "valces"
+
+func is_orchestra_mode() -> bool:
+	return _category == "folk"
+
+func get_mode_description_en() -> String:
+	if is_phonograph_mode():
+		return "Phonograph Records — soldiers gather around the gramophone in camp"
+	else:
+		return "Orchestra — the grand band plays for the troops"
+
+func get_mode_description_ru() -> String:
+	if is_phonograph_mode():
+		return "Пластинки патефона — солдаты собираются у граммофона в лагере"
+	else:
+		return "Оркестр — духовой оркестр играет для войск"
+
 func _on_track_finished() -> void:
 	if _is_repeating:
 		_audio_player.play()
 	else:
 		next_track()
+
+func _play_needle_sound() -> void:
+	if _category == "valces":
+		var path: String = "res://assets/audio/sfx/phonograph_needle.wav"
+		if not FileAccess.file_exists(path):
+			return
+		var f: FileAccess = FileAccess.open(path, FileAccess.READ)
+		if f == null:
+			return
+		var buf: PackedByteArray = f.get_buffer(f.get_length())
+		f.close()
+		var stream: AudioStreamWAV = AudioStreamWAV.new()
+		stream.data = buf
+		stream.format = AudioStreamWAV.FORMAT_16_BITS
+		stream.mix_rate = 44100
+		stream.stereo = false
+		if _needle_player:
+			_needle_player.stream = stream
+			_needle_player.play()
 
 func _linear_to_db(value: float) -> float:
 	if value <= 0.0:

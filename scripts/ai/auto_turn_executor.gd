@@ -1,3 +1,4 @@
+class_name AutoTurnExecutor
 extends Node
 
 var _strategy: AIStrategy.Strategy = AIStrategy.Strategy.BALANCED
@@ -15,9 +16,10 @@ func execute_auto_turn() -> void:
 	var side: String = GameManager.get_player_side()
 	_ai_controller = AIController.new()
 	add_child(_ai_controller)
-	_ai_controller.initialize(side, _strategy)
+	_ai_controller.set_side(side)
+	_ai_controller.set_hands({"union": [], "confederate": []})
 	_ai_controller.execute_turn()
-	await _ai_controller.ai_action
+	await _ai_controller.ai_turn_complete
 	auto_turn_complete.emit()
 	remove_child(_ai_controller)
 	_ai_controller.queue_free()

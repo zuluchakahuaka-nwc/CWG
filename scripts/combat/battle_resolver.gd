@@ -1,3 +1,4 @@
+class_name BattleResolver
 extends RefCounted
 
 enum TerrainModifier { PLAINS, HILLS, FOREST, RIVER, CITY, SWAMP, MOUNTAIN }
@@ -24,7 +25,7 @@ var _type_advantage: Dictionary = {
 
 signal battle_result(attacker_card: Dictionary, defender_card: Dictionary, result: Dictionary)
 
-func resolve_combat(attacker: CardInstance, defender: CardInstance, territory_data: Dictionary) -> Dictionary:
+func resolve_combat(attacker, defender, territory_data: Dictionary) -> Dictionary:
 	var terrain: String = territory_data.get("terrain", "plains")
 	var is_fortified: bool = territory_data.get("is_capital", false) or territory_data.get("is_railroad", false)
 	var result: Dictionary = {
@@ -95,13 +96,14 @@ func resolve_territory_battle(attacker_units: Array, defender_units: Array, terr
 		return result
 	result["attacker_side"] = attacker_units[0].side
 	result["defender_side"] = defender_units[0].side
+	Logger.info("Battle", "Battle at %s: %d %s vs %d %s" % [territory_data.get("id", "?"), attacker_units.size(), result["attacker_side"], defender_units.size(), result["defender_side"]])
 	var remaining_attackers: Array = attacker_units.duplicate()
 	var remaining_defenders: Array = defender_units.duplicate()
 	var atk_idx: int = 0
 	var def_idx: int = 0
 	while not remaining_attackers.is_empty() and not remaining_defenders.is_empty():
-		var atk: CardInstance = remaining_attackers[0]
-		var def: CardInstance = remaining_defenders[0]
+		var atk = remaining_attackers[0]
+		var def = remaining_defenders[0]
 		var combat: Dictionary = resolve_combat(atk, def, territory_data)
 		result["individual_results"].append(combat)
 		if combat["defender_destroyed"]:
@@ -119,4 +121,5 @@ func resolve_territory_battle(attacker_units: Array, defender_units: Array, terr
 				result["defender_losses"] += 1
 	if remaining_defenders.is_empty() and not remaining_attackers.is_empty():
 		result["territory_captured"] = true
+	Logger.info("Battle", "Battle result at %s: losses %d/%d captured=%s" % [result["territory"], result["attacker_losses"], result["defender_losses"], result["territory_captured"]])
 	return result

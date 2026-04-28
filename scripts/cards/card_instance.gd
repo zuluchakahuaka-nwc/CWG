@@ -1,3 +1,4 @@
+class_name CardInstance
 extends RefCounted
 
 var id: String = ""
@@ -75,8 +76,8 @@ func tick_buffs() -> void:
 		temporary_buffs[i]["duration"] -= 1
 		if temporary_buffs[i]["duration"] <= 0:
 			to_remove.append(i)
-	for i in to_remove:
-		temporary_buffs.remove_at(i)
+	for i in range(to_remove.size() - 1, -1, -1):
+		temporary_buffs.remove_at(to_remove[i])
 
 func serialize() -> Dictionary:
 	return {

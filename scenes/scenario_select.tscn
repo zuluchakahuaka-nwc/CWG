@@ -110,16 +110,3 @@ offset_top = 30.0
 offset_right = 150.0
 offset_bottom = 70.0
 text = "BACK"
-
-[node name="StartButton" type="Button" parent="."]
-layout_mode = 1
-anchors_preset = 3
-anchor_left = 1.0
-anchor_top = 1.0
-anchor_right = 1.0
-anchor_bottom = 1.0
-offset_left = -200.0
-offset_top = -80.0
-offset_right = -30.0
-offset_bottom = -30.0
-text = "START"

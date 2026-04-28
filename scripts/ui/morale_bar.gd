@@ -24,7 +24,7 @@ func update_display() -> void:
 	if _morale_value:
 		_morale_value.text = str(morale)
 	if _morale_status:
-		 morale_status.text = Localization.t(status_key)
+		_morale_status.text = Localization.t(status_key)
 
 func _morale_color(morale: int) -> Color:
 	if morale >= 15:

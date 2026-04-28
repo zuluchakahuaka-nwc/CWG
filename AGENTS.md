@@ -24,7 +24,7 @@
 | Хранение данных | JSON-файлы для карт, локализации, сценариев |
 | Локализация | CSV/JSON словари (ru/en) |
 | Графика | 2D спрайты, стилизация под гравюры Harper's Weekly |
-| Звук | OGG Vorbis (музыка), WAV (SFX) |
+| Звук | MP3 (музыка), WAV (SFX) |
 | Экспорт PC | Windows (.exe), Linux (.x86_64), macOS (.dmg) |
 | Экспорт Android | .apk / .aab (min SDK 21, Android 5.0+) |
 | Разрешение | Адаптивное, базовое 1920x1080 (PC), 16:9 / 18:9 (Android) |
@@ -777,7 +777,7 @@ assets/audio/music/
   "category": "marches",
   "side": "both",
   "era": "1863",
-  "file": "res://assets/audio/music/marches/johnny_marching_home.ogg",
+  "file": "res://assets/audio/music/marches/johnny_marching_home.mp3",
   "duration_seconds": 195,
   "description_en": "Popular Union marching song, also sung in the South with different lyrics",
   "description_ru": "Популярный марш Союза, на Юге пели с другими словами",
@@ -817,19 +817,19 @@ assets/audio/music/
 
 ```
 assets/audio/sfx/
-├── card_play.ogg          — Розыгрыш карты
-├── card_draw.ogg          — Взятие карты из колоды
-├── battle_start.ogg       — Начало боя
-├── battle_hit.ogg         — Удар/попадание
-├── battle_destroy.ogg     — Уничтожение юнита
-├── march.ogg              — Перемещение юнитов
-├── morale_up.ogg          — Повышение морали
-├── morale_down.ogg        — Падение морали
-├── victory.ogg            — Победа
-├── defeat.ogg             — Поражение
-├── button_click.ogg       — Клик кнопки
-├── phonograph_needle.ogg  — Игла патефона (треск винила)
-└── phonograph_wind.ogg    — Завод патефона
+├── card_play.wav          — Розыгрыш карты
+├── card_draw.wav          — Взятие карты из колоды
+├── battle_start.wav       — Начало боя
+├── battle_hit.wav         — Удар/попадание
+├── battle_destroy.wav     — Уничтожение юнита
+├── march.wav              — Перемещение юнитов
+├── morale_up.wav          — Повышение морали
+├── morale_down.wav        — Падение морали
+├── victory.wav            — Победа
+├── defeat.wav             — Поражение
+├── button_click.wav       — Клик кнопки
+├── phonograph_needle.wav  — Игла патефона (треск винила)
+└── phonograph_wind.wav    — Завод патефона
 ```
 
 ---
@@ -919,7 +919,23 @@ morale.revolution,Революция,Revolution
 
 ---
 
-## 17. Ключевые исторические заметки (для разработчика)
+## 18. UI-правила (обязательные)
+
+### Z-порядок (слои) на экране карты (game_map.tscn)
+
+Сверху вниз по приоритету отрисовки:
+
+1. **Карта** — самый нижний слой, но рендерится **поверх фона и панелей**. Карта НЕ должна залезать под нижнюю панель (StatusBar/BottomBg). MapArea должен иметь чёткие границы: сверху — под TopBar (offset_top=44), снизу — над нижней панелью (offset_bottom=-260).
+2. **Нижняя панель** (BottomBg + StatusBar) — зелёная/серая полоса внизу экрана (260px). Карта всегда ABOVE этой панели.
+3. **Карточки подразделений в руке** — самый верхний слой. Отрисовываются поверх всего, включая карту и панели. Игрок всегда видит свои карты.
+4. **Popup деталей карты** (CardDetailPopup) — модальное окно поверх всего.
+5. **TopBar** — верхняя панель с информацией хода.
+
+**Правило:** Карта =底层, но строго внутри MapArea. Карты в руке = поверх всего.
+
+---
+
+## 19. Ключевые исторические заметки (для разработчика)
 
 - **Генерал Ли и «Стоунуолл» Джексон — это РАЗНЫЕ люди:**
   - Роберт Э. Ли (1807–1870) — главнокомандующий КША, командующий Армией Северной Виргинии

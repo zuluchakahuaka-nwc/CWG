@@ -1,3 +1,4 @@
+class_name AutoTurn
 extends Node
 
 enum Strategy { CONSERVATIVE, AGGRESSIVE, BALANCED }

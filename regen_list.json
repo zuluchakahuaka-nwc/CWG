@@ -1,0 +1,767 @@
+[
+  {
+    "id": "u_inf_116pa",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_inf_01mn",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_inf_14ny",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_inf_83pa",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_inf_16mi",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_inf_54ma",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_inf_55ma",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_inf_01us",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_inf_04us",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_inf_17us",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_inf_04uc",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_inf_22ny",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_inf_24ny",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_inf_30ny",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_cav_01us",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_cav_02us",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_cav_05us",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_cav_02mi",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_cav_05mi",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_cav_06mi",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_cav_07mi",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_cav_06pa",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_cav_01ny_mr",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_cav_01wv",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_cav_05ny",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_cav_13ny",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_art_B04us",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_art_01ct",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_art_01mn",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_ship_monitor",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_ship_galena",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_ship_carondelet",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_ship_benton",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_ship_kearsarge",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_ship_cumberland",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_ship_moundcity",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_ship_louisville",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_ship_essex",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_ship_vanderbilt",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_spec_berdan1",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_spec_berdan2",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_spec_ny_ss",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_spec_ma_ss",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_spec_lightning",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_spec_loudoun",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "u_spec_1la_ng",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_unit"
+  },
+  {
+    "id": "c_inf_02va",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_inf_04va",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_inf_01tx",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_inf_03va",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_hampton_inf",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_brig_armistead",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_brig_kemper",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_brig_davis",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_brig_wilcox",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_brig_lang",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_brig_brockenbrough",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_cav_02va",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_ship_tennessee",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_ship_arkansas",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_ship_shenandoah",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_ship_hunley",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_ship_patrick_henry",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_ship_jamestown",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_ship_raleigh",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_ship_teaser",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_ship_relee",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_ship_syren",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_ship_fingal",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_ship_sumter",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_spec_forrest_escort",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_spec_forrest_corps",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_spec_forrest_div",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_spec_va_irish",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "c_spec_1mo_cav",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_confederate",
+    "type": "confed_unit"
+  },
+  {
+    "id": "cmd_lincoln",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_cmd"
+  },
+  {
+    "id": "cmd_sherman",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_cmd"
+  },
+  {
+    "id": "cmd_mcclellan",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_cmd"
+  },
+  {
+    "id": "cmd_meade",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_cmd"
+  },
+  {
+    "id": "cmd_burnside",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_cmd"
+  },
+  {
+    "id": "cmd_hooker",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_cmd"
+  },
+  {
+    "id": "cmd_sheridan",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_cmd"
+  },
+  {
+    "id": "cmd_custer",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_cmd"
+  },
+  {
+    "id": "cmd_hancock",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_cmd"
+  },
+  {
+    "id": "cmd_reynolds",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_cmd"
+  },
+  {
+    "id": "cmd_chamberlain",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/units_union",
+    "type": "union_cmd"
+  },
+  {
+    "id": "EVENT_CUSHING_TORPEDO",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_HAMPTON_ROADS",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_RAM_CUMBERLAND",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_SINK_ALABAMA",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_HUNLEY_ATTACK",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_CAIRO_MINES",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_ARKANSAS_BREAKOUT",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_CAPTURE_ATLANTA",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_MOBILE_BAY",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_LAST_SHOT",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_FINGAL_RUN",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_DAMN_TORPEDOES",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_FIRST_MONITOR",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_FRIENDLY_FIRE",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_BAYONET_CHARGE",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_MINNESOTA_SACRIFICE",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_PICKETTS_CHARGE",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_STONEWALL_NAME",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_IRON_BRIGADE",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_BERDAN_SNIPER",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_FORT_WAGNER",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_MARCH_TO_SEA",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_HOOVERS_GAP",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_MOSBY_FAIRFAX",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_BEEFSTEAK_RAID",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_TRY_US",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_PELHAM_FLANK",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_PELHAM_DEATH",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_STUART_DEATH",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_FORREST_BRAVES",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_SIDNEY_JOHNSTON",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_SYREN_BLOCKADE",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_RUSSIAN_SUPPORT",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_BRITISH_ENFIELDS",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_EMANCIPATION",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_ATLANTA_FALL",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_LINCOLN_ASSASS",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_APPOMATTOX",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_VICKSBURG",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_LEE_REFUSAL",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "EVENT_ANDREWS_RAID",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_ARTY_BARRAGE",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_FIELDWORKS",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_SPIES",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_COUNTERSPY",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_DESERTION",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_DISEASE",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_MUD",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_RAILROAD",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_TELEGRAPH",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_VOLUNTEERS",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_CONSCRIPTION",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_BLOCKADE",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_BLOCKADE_RUN",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_SUPRESS_REVOLT",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_NY_DRAFT_RIOT",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_BREAD_RIOT",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_FOREIGN_ARMS",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_PARTISAN",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_NAVAL_MINES",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_NIGHT_MARCH",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_AMBUSH",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_RECONNAISSANCE",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_PONTOONS",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_SIEGE_TRAIN",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_RAIN",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  },
+  {
+    "id": "SIT_HARDTACK",
+    "dir": "D:/Projects/CWG/assets/sprites/cards/situations",
+    "type": "situation"
+  }
+]
