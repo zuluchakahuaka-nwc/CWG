@@ -31,8 +31,13 @@ var _ai_hand: Array = []
 var _conscription_streak: Dictionary = {"union": 0, "confederate": 0}
 var _used_one_time_events: Array = []
 
+var _music_style: Dictionary = {"union": "valces", "confederate": "folk"}
+var _music_style_options: PackedStringArray = ["valces", "folk"]
+var _last_phonograph_track: Dictionary = {}
+var _last_phonograph_side: String = ""
+
 func _ready() -> void:
-	pass
+	_load_music_settings()
 
 func start_game(scenario_id: String, player_side: String) -> void:
 	_scenario_id = scenario_id
@@ -43,6 +48,7 @@ func start_game(scenario_id: String, player_side: String) -> void:
 	_conscription_streak = {"union": 0, "confederate": 0}
 	_used_one_time_events = []
 	_load_scenario()
+	Logger.info("GameManager", "Game started: scenario=%s player=%s" % [scenario_id, player_side])
 	turn_changed.emit(_current_turn, get_current_month())
 
 func _load_scenario() -> void:
@@ -131,6 +137,7 @@ func _check_capital_loss(territory_id: String, old_owner: String) -> void:
 		change_morale("confederate", -5)
 
 func advance_phase() -> void:
+	var old_phase: int = _current_phase
 	match _current_phase:
 		Phase.RESOURCES:
 			_current_phase = Phase.DRAW
@@ -145,6 +152,7 @@ func advance_phase() -> void:
 		Phase.END:
 			_end_turn()
 			return
+	Logger.debug("GameManager", "Phase: %d -> %d (turn %d)" % [old_phase, _current_phase, _current_turn])
 	phase_changed.emit(_current_phase)
 
 func _end_turn() -> void:
@@ -153,7 +161,9 @@ func _end_turn() -> void:
 		_check_time_victory()
 		return
 	_current_phase = Phase.RESOURCES
+	Logger.info("GameManager", "Turn %d started: %s" % [_current_turn, get_current_month()])
 	turn_changed.emit(_current_turn, get_current_month())
+	phase_changed.emit(_current_phase)
 
 func _check_time_victory() -> void:
 	var u_count: int = 0
@@ -219,6 +229,74 @@ func get_player_side() -> String:
 
 func get_ai_side() -> String:
 	return _ai_side
+
+func get_music_style(side: String) -> String:
+	return _music_style.get(side, "valces")
+
+func set_music_style(side: String, style: String) -> void:
+	_music_style[side] = style
+	_save_music_settings()
+
+func get_music_style_options() -> PackedStringArray:
+	return _music_style_options
+
+func get_music_style_label(style: String) -> String:
+	match style:
+		"valces": return Localization.t("ui.music_style.valces")
+		"folk": return Localization.t("ui.music_style.folk")
+		_: return style
+
+func _save_music_settings() -> void:
+	var file: FileAccess = FileAccess.open("user://music_settings.json", FileAccess.WRITE)
+	if file:
+		file.store_string(JSON.stringify(_music_style, "\t"))
+		file.close()
+
+func _load_music_settings() -> void:
+	if not FileAccess.file_exists("user://music_settings.json"):
+		return
+	var file: FileAccess = FileAccess.open("user://music_settings.json", FileAccess.READ)
+	if file == null:
+		return
+	var json: JSON = JSON.new()
+	if json.parse(file.get_as_text()) == OK and json.get_data() is Dictionary:
+		var data: Dictionary = json.get_data()
+		for side in ["union", "confederate"]:
+			if data.has(side):
+				_music_style[side] = data[side]
+	file.close()
+
+func mark_campaign_completed(year: int) -> void:
+	var completed: Array = _load_campaign_progress()
+	if not year in completed:
+		completed.append(year)
+		_save_campaign_progress(completed)
+
+func is_campaign_completed(year: int) -> bool:
+	var completed: Array = _load_campaign_progress()
+	return year in completed
+
+func get_completed_campaigns() -> Array:
+	return _load_campaign_progress()
+
+func _load_campaign_progress() -> Array:
+	if not FileAccess.file_exists("user://campaign_progress.json"):
+		return []
+	var file: FileAccess = FileAccess.open("user://campaign_progress.json", FileAccess.READ)
+	if file == null:
+		return []
+	var json: JSON = JSON.new()
+	if json.parse(file.get_as_text()) == OK and json.get_data() is Array:
+		file.close()
+		return json.get_data()
+	file.close()
+	return []
+
+func _save_campaign_progress(data: Array) -> void:
+	var file: FileAccess = FileAccess.open("user://campaign_progress.json", FileAccess.WRITE)
+	if file:
+		file.store_string(JSON.stringify(data, "\t"))
+		file.close()
 
 func serialize() -> Dictionary:
 	return {

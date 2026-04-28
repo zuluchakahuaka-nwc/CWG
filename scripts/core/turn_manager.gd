@@ -70,7 +70,6 @@ func _process_events() -> void:
 func _process_end() -> void:
 	for side in ["union", "confederate"]:
 		GameManager.reset_conscription(side)
-	GameManager.advance_phase()
 
 func get_phase_name(phase: int) -> String:
 	if phase >= 0 and phase < _phase_names.size():

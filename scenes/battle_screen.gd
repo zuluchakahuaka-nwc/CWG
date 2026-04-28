@@ -3,7 +3,7 @@ extends Control
 var _territory_id: String = ""
 var _attacker_units: Array = []
 var _defender_units: Array = []
-var _resolver: BattleResolver = BattleResolver.new()
+var _resolver: RefCounted = load("res://scripts/combat/battle_resolver.gd").new()
 
 @onready var _title: Label = $TitleLabel
 @onready var _territory_label: Label = $TerritoryLabel

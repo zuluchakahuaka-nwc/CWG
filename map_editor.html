@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>CWG Map Polygon Editor</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { background:#1a1a1a; color:#eee; font-family:monospace; display:flex; height:100vh; }
+#sidebar { width:320px; background:#222; padding:12px; overflow-y:auto; border-right:1px solid #444; display:flex; flex-direction:column; gap:8px; }
+#sidebar h2 { font-size:14px; color:#8cf; }
+#sidebar h3 { font-size:12px; color:#aaa; margin-top:8px; }
+.btn { padding:6px 12px; background:#335; color:#eee; border:1px solid #558; cursor:pointer; font-family:monospace; font-size:12px; }
+.btn:hover { background:#446; }
+.btn.danger { background:#533; border-color:#855; }
+.btn.danger:hover { background:#644; }
+.btn.green { background:#353; border-color:#585; }
+select, input { background:#333; color:#eee; border:1px solid #555; padding:4px 8px; font-family:monospace; font-size:12px; width:100%; }
+#status { font-size:11px; color:#888; padding:4px; background:#1a1a1a; }
+#terrList { max-height:200px; overflow-y:auto; }
+.terr-item { padding:3px 6px; cursor:pointer; font-size:11px; border-bottom:1px solid #333; }
+.terr-item:hover { background:#334; }
+.terr-item.active { background:#336; }
+.terr-item.missing { color:#f88; }
+.terr-item.ok { color:#8f8; }
+#canvas-wrap { flex:1; position:relative; overflow:hidden; }
+canvas { display:block; }
+#coords { position:absolute; bottom:4px; right:8px; font-size:11px; color:#666; }
+#help { position:absolute; top:4px; left:4px; font-size:11px; color:#888; background:rgba(0,0,0,0.7); padding:4px 8px; border-radius:4px; }
+</style>
+</head>
+<body>
+<div id="sidebar">
+  <h2>CWG Polygon Editor</h2>
+  <div>
+    <label>Load map_data.json:</label><br>
+    <input type="file" id="loadMapData" accept=".json">
+  </div>
+  <div>
+    <label>Load territories.json:</label><br>
+    <input type="file" id="loadTerr" accept=".json">
+  </div>
+  <hr style="border-color:#444">
+  <h3>Mode</h3>
+  <select id="mode">
+    <option value="view">View / Select</option>
+    <option value="draw">Draw Polygon</option>
+    <option value="edit">Edit Points</option>
+  </select>
+  <h3>Current Territory</h3>
+  <select id="currentTerr"></select>
+  <div style="display:flex;gap:4px;">
+    <button class="btn green" id="btnSave">Save polygon</button>
+    <button class="btn danger" id="btnDelete">Delete</button>
+  </div>
+  <button class="btn" id="btnExport" style="width:100%">Export map_data.json</button>
+  <hr style="border-color:#444">
+  <h3>Territories</h3>
+  <div id="terrList"></div>
+  <div id="status">Ready</div>
+</div>
+<div id="canvas-wrap">
+  <canvas id="c"></canvas>
+  <div id="coords">x:0 y:0</div>
+  <div id="help">LMB: add point (draw) / select (view) | RMB: undo point | Scroll: zoom | MMB: pan</div>
+</div>
+
+<script>
+const canvas = document.getElementById('c');
+const ctx = canvas.getContext('2d');
+const sidebar = document.getElementById('sidebar');
+
+let mapData = { meta: { width: 1200, height: 850 }, territories: {}, rivers: {}, mountains: {} };
+let territories = [];
+let currentTerrId = '';
+let drawPoints = [];
+let editTerrId = '';
+let selectedPointIdx = -1;
+let zoom = 1;
+let panX = 0, panY = 0;
+let isPanning = false;
+let panStartX = 0, panStartY = 0;
+let hoveredTerr = '';
+let bgImage = null;
+
+const sideColors = {
+  union: 'rgba(40,80,180,0.5)',
+  confederate: 'rgba(180,40,30,0.5)',
+  neutral: 'rgba(120,120,100,0.4)',
+};
+
+function resize() {
+  const wrap = document.getElementById('canvas-wrap');
+  canvas.width = wrap.clientWidth;
+  canvas.height = wrap.clientHeight;
+  render();
+}
+
+function screenToWorld(sx, sy) {
+  return [(sx - panX) / zoom, (sy - panY) / zoom];
+}
+
+function worldToScreen(wx, wy) {
+  return [wx * zoom + panX, wy * zoom + panY];
+}
+
+function centerMap() {
+  const mw = mapData.meta.width || 1200;
+  const mh = mapData.meta.height || 850;
+  zoom = Math.min(canvas.width / mw, canvas.height / mh) * 0.95;
+  panX = (canvas.width - mw * zoom) / 2;
+  panY = (canvas.height - mh * zoom) / 2;
+}
+
+function getOwnerColor(terrId) {
+  const t = territories.find(x => x.id === terrId);
+  if (!t) return 'rgba(80,80,80,0.2)';
+  return sideColors[t.initial_owner || t.owner || 'neutral'] || sideColors.neutral;
+}
+
+function render() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.fillStyle = '#d4c9a8';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  const mw = mapData.meta.width || 1200;
+  const mh = mapData.meta.height || 850;
+  ctx.save();
+  ctx.translate(panX, panY);
+  ctx.scale(zoom, zoom);
+
+  // Background map image
+  if (bgImage) {
+    ctx.globalAlpha = 0.6;
+    ctx.drawImage(bgImage, 0, 0, mw, mh);
+    ctx.globalAlpha = 1.0;
+  }
+
+  // Draw all polygons
+  for (const [id, poly] of Object.entries(mapData.territories)) {
+    if (poly.length < 3) continue;
+    const isCurrent = id === currentTerrId;
+    const isHovered = id === hoveredTerr;
+    const isMissing = !territories.find(x => x.id === id);
+
+    ctx.beginPath();
+    ctx.moveTo(poly[0][0], poly[0][1]);
+    for (let i = 1; i < poly.length; i++) ctx.lineTo(poly[i][0], poly[i][1]);
+    ctx.closePath();
+
+    if (isMissing) {
+      ctx.fillStyle = 'rgba(255,100,100,0.3)';
+    } else {
+      ctx.fillStyle = getOwnerColor(id);
+    }
+    ctx.fill();
+
+    ctx.strokeStyle = isCurrent ? '#ff0' : isHovered ? '#fff' : 'rgba(60,50,30,0.6)';
+    ctx.lineWidth = (isCurrent ? 3 : isHovered ? 2 : 1) / zoom;
+    ctx.stroke();
+
+    // Label
+    const cx = poly.reduce((s, p) => s + p[0], 0) / poly.length;
+    const cy = poly.reduce((s, p) => s + p[1], 0) / poly.length;
+    const fs = Math.max(8, 11 / zoom);
+    ctx.font = `${fs}px monospace`;
+    ctx.fillStyle = isCurrent ? '#ff0' : '#222';
+    ctx.textAlign = 'center';
+    ctx.fillText(id.replace(/_/g, ' '), cx, cy);
+  }
+
+  // Draw current edit/draw points
+  const pts = drawPoints.length > 0 ? drawPoints : (currentTerrId && mapData.territories[currentTerrId]);
+  if (pts && document.getElementById('mode').value !== 'view') {
+    ctx.fillStyle = '#f00';
+    for (const p of pts) {
+      ctx.beginPath();
+      ctx.arc(p[0], p[1], 4 / zoom, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    if (pts.length > 1) {
+      ctx.beginPath();
+      ctx.moveTo(pts[0][0], pts[0][1]);
+      for (let i = 1; i < pts.length; i++) ctx.lineTo(pts[i][0], pts[i][1]);
+      ctx.strokeStyle = '#f44';
+      ctx.lineWidth = 2 / zoom;
+      ctx.setLineDash([5 / zoom, 5 / zoom]);
+      ctx.stroke();
+      ctx.setLineDash([]);
+    }
+  }
+
+  ctx.restore();
+
+  // Status
+  updateStatus();
+}
+
+function updateStatus() {
+  const mode = document.getElementById('mode').value;
+  const polyCount = Object.keys(mapData.territories).length;
+  const terrCount = territories.length;
+  const missing = territories.filter(t => !mapData.territories[t.id]).map(t => t.id);
+  const extra = Object.keys(mapData.territories).filter(id => !territories.find(t => t.id === id));
+  document.getElementById('status').innerHTML =
+    `Polygons: ${polyCount} | Territories: ${terrCount} | Mode: ${mode}<br>` +
+    (missing.length ? `<span style="color:#f88">Missing polygons: ${missing.join(', ')}</span><br>` : '') +
+    (drawPoints.length ? `Drawing: ${drawPoints.length} points` : '') +
+    (currentTerrId ? ` | Selected: ${currentTerrId}` : '');
+}
+
+function buildTerrList() {
+  const list = document.getElementById('terrList');
+  list.innerHTML = '';
+  const sel = document.getElementById('currentTerr');
+  sel.innerHTML = '';
+
+  const allIds = new Set([...territories.map(t => t.id), ...Object.keys(mapData.territories)]);
+  for (const id of [...allIds].sort()) {
+    const hasPoly = !!mapData.territories[id];
+    const hasTerr = !!territories.find(t => t.id === id);
+    const cls = hasPoly && hasTerr ? 'ok' : 'missing';
+
+    const div = document.createElement('div');
+    div.className = 'terr-item ' + cls;
+    div.textContent = (hasPoly ? '■ ' : '□ ') + id + (hasTerr ? '' : ' (no data)');
+    div.onclick = () => selectTerritory(id);
+    list.appendChild(div);
+
+    const opt = document.createElement('option');
+    opt.value = id;
+    opt.textContent = id;
+    sel.appendChild(opt);
+  }
+}
+
+function selectTerritory(id) {
+  currentTerrId = id;
+  drawPoints = mapData.territories[id] ? [...mapData.territories[id].map(p => [...p])] : [];
+  document.getElementById('currentTerr').value = id;
+  render();
+}
+
+function pointInPoly(x, y, poly) {
+  let inside = false;
+  for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+    const xi = poly[i][0], yi = poly[i][1], xj = poly[j][0], yj = poly[j][1];
+    if (((yi > y) !== (yj > y)) && (x < (xj - xi) * (y - yi) / (yj - yi) + xi)) inside = !inside;
+  }
+  return inside;
+}
+
+function findTerritoryAt(wx, wy) {
+  let best = '';
+  let bestArea = Infinity;
+  for (const [id, poly] of Object.entries(mapData.territories)) {
+    if (poly.length < 3) continue;
+    if (pointInPoly(wx, wy, poly)) {
+      const area = poly.length; // rough
+      if (area < bestArea) { best = id; bestArea = area; }
+    }
+  }
+  return best;
+}
+
+// Events
+canvas.addEventListener('wheel', e => {
+  const [wx, wy] = screenToWorld(e.offsetX, e.offsetY);
+  const factor = e.deltaY < 0 ? 1.15 : 1 / 1.15;
+  zoom *= factor;
+  panX = e.offsetX - wx * zoom;
+  panY = e.offsetY - wy * zoom;
+  render();
+  e.preventDefault();
+});
+
+canvas.addEventListener('mousedown', e => {
+  if (e.button === 1) { // middle
+    isPanning = true;
+    panStartX = e.offsetX - panX;
+    panStartY = e.offsetY - panY;
+    e.preventDefault();
+    return;
+  }
+  const [wx, wy] = screenToWorld(e.offsetX, e.offsetY);
+  const mode = document.getElementById('mode').value;
+
+  if (e.button === 2) { // right = undo
+    if (mode === 'draw' && drawPoints.length > 0) {
+      drawPoints.pop();
+      render();
+    }
+    e.preventDefault();
+    return;
+  }
+
+  if (e.button !== 0) return;
+
+  if (mode === 'view') {
+    const tid = findTerritoryAt(wx, wy);
+    if (tid) selectTerritory(tid);
+  } else if (mode === 'draw') {
+    drawPoints.push([Math.round(wx * 10) / 10, Math.round(wy * 10) / 10]);
+    render();
+  } else if (mode === 'edit' && currentTerrId) {
+    const poly = mapData.territories[currentTerrId];
+    if (poly) {
+      let minD = 15 / zoom;
+      selectedPointIdx = -1;
+      for (let i = 0; i < poly.length; i++) {
+        const d = Math.hypot(poly[i][0] - wx, poly[i][1] - wy);
+        if (d < minD) { minD = d; selectedPointIdx = i; }
+      }
+    }
+  }
+});
+
+canvas.addEventListener('mousemove', e => {
+  const [wx, wy] = screenToWorld(e.offsetX, e.offsetY);
+  document.getElementById('coords').textContent = `x:${wx.toFixed(1)} y:${wy.toFixed(1)} zoom:${zoom.toFixed(2)}`;
+
+  if (isPanning) {
+    panX = e.offsetX - panStartX;
+    panY = e.offsetY - panStartY;
+    render();
+    return;
+  }
+
+  const mode = document.getElementById('mode').value;
+  if (mode === 'edit' && selectedPointIdx >= 0 && (e.buttons & 1)) {
+    const poly = mapData.territories[currentTerrId];
+    if (poly) {
+      poly[selectedPointIdx] = [Math.round(wx * 10) / 10, Math.round(wy * 10) / 10];
+      render();
+    }
+  } else if (mode === 'view') {
+    const tid = findTerritoryAt(wx, wy);
+    if (tid !== hoveredTerr) { hoveredTerr = tid; render(); }
+  }
+});
+
+canvas.addEventListener('mouseup', e => {
+  if (e.button === 1) isPanning = false;
+  selectedPointIdx = -1;
+});
+
+canvas.addEventListener('contextmenu', e => e.preventDefault());
+
+document.getElementById('btnSave').onclick = () => {
+  const id = document.getElementById('currentTerr').value || currentTerrId;
+  if (!id) return;
+  if (drawPoints.length >= 3) {
+    mapData.territories[id] = drawPoints.map(p => [...p]);
+    setStatus(`Saved polygon for ${id} (${drawPoints.length} pts)`);
+    drawPoints = [];
+    buildTerrList();
+    render();
+  } else {
+    setStatus('Need at least 3 points!');
+  }
+};
+
+document.getElementById('btnDelete').onclick = () => {
+  const id = document.getElementById('currentTerr').value || currentTerrId;
+  if (id && mapData.territories[id]) {
+    delete mapData.territories[id];
+    drawPoints = [];
+    buildTerrList();
+    render();
+    setStatus(`Deleted polygon for ${id}`);
+  }
+};
+
+document.getElementById('btnExport').onclick = () => {
+  const blob = new Blob([JSON.stringify(mapData, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = 'map_data.json';
+  a.click();
+};
+
+document.getElementById('loadMapData').onchange = e => {
+  const reader = new FileReader();
+  reader.onload = ev => {
+    mapData = JSON.parse(ev.target.result);
+    if (!mapData.meta) mapData.meta = { width: 1200, height: 850 };
+    if (!mapData.territories) mapData.territories = {};
+    centerMap();
+    buildTerrList();
+    render();
+    setStatus(`Loaded map_data.json: ${Object.keys(mapData.territories).length} polygons`);
+  };
+  reader.readAsText(e.target.files[0]);
+};
+
+document.getElementById('loadTerr').onchange = e => {
+  const reader = new FileReader();
+  reader.onload = ev => {
+    territories = JSON.parse(ev.target.result);
+    buildTerrList();
+    render();
+    setStatus(`Loaded territories.json: ${territories.length} territories`);
+  };
+  reader.readAsText(e.target.files[0]);
+};
+
+document.getElementById('currentTerr').onchange = e => {
+  selectTerritory(e.target.value);
+};
+
+document.getElementById('mode').onchange = () => {
+  if (currentTerrId && mapData.territories[currentTerrId]) {
+    drawPoints = mapData.territories[currentTerrId].map(p => [...p]);
+  } else {
+    drawPoints = [];
+  }
+  render();
+};
+
+function setStatus(msg) {
+  document.getElementById('status').innerHTML = msg;
+}
+
+window.addEventListener('resize', resize);
+
+// Auto-load from same directory if served locally
+async function autoLoad() {
+  try {
+    const r1 = await fetch('data/maps/map_data.json');
+    if (r1.ok) { mapData = await r1.json(); if (!mapData.meta) mapData.meta = {width:1200,height:850}; if (!mapData.territories) mapData.territories = {}; }
+  } catch(e) {}
+  try {
+    const r2 = await fetch('data/maps/territories.json');
+    if (r2.ok) territories = await r2.json();
+  } catch(e) {}
+  // Load background map
+  bgImage = new Image();
+  bgImage.src = 'assets/sprites/map/map_base.png';
+  bgImage.onload = () => render();
+  centerMap();
+  buildTerrList();
+  render();
+}
+
+resize();
+autoLoad();
+</script>
+</body>
+</html>

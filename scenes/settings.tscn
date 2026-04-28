@@ -18,52 +18,137 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 color = Color(0.1, 0.1, 0.12, 1)
 
-[node name="TitleLabel" type="Label" parent="."]
+[node name="MarginContainer" type="MarginContainer" parent="."]
 layout_mode = 1
+anchors_preset = 15
 anchor_right = 1.0
-offset_top = 50.0
-offset_bottom = 100.0
-horizontal_alignment = 1
-text = "SETTINGS"
+anchor_bottom = 1.0
+theme_override_constants/margin_left = 40
+theme_override_constants/margin_top = 40
+theme_override_constants/margin_right = 40
+theme_override_constants/margin_bottom = 40
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -200.0
-offset_top = -200.0
-offset_right = 200.0
-offset_bottom = 200.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="VBox" type="VBoxContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 14
+
+[node name="TitleLabel" type="Label" parent="MarginContainer/VBox"]
+layout_mode = 2
+text = "SETTINGS"
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 32
+
+[node name="HSeparator" type="HSeparator" parent="MarginContainer/VBox"]
+layout_mode = 2
+
+[node name="LangSection" type="HBoxContainer" parent="MarginContainer/VBox"]
+layout_mode = 2
 theme_override_constants/separation = 20
 
-[node name="LanguageLabel" type="Label" parent="VBoxContainer"]
+[node name="LangLabel" type="Label" parent="MarginContainer/VBox/LangSection"]
 layout_mode = 2
-text = "Language / Язык"
+custom_minimum_size = Vector2(200, 0)
+text = "Language"
+theme_override_font_sizes/font_size = 20
 
-[node name="LanguageButton" type="Button" parent="VBoxContainer"]
+[node name="LangOption" type="OptionButton" parent="MarginContainer/VBox/LangSection"]
 layout_mode = 2
-minimum_size = Vector2(0, 50)
-text = "Русский / English"
+custom_minimum_size = Vector2(300, 50)
 
-[node name="VolumeLabel" type="Label" parent="VBoxContainer"]
+[node name="HSeparator2" type="HSeparator" parent="MarginContainer/VBox"]
 layout_mode = 2
+
+[node name="AudioSection" type="VBoxContainer" parent="MarginContainer/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="AudioLabel" type="Label" parent="MarginContainer/VBox/AudioSection"]
+layout_mode = 2
+text = "Audio"
+theme_override_font_sizes/font_size = 20
+
+[node name="VolumeRow" type="HBoxContainer" parent="MarginContainer/VBox/AudioSection"]
+layout_mode = 2
+
+[node name="VolumeLabel" type="Label" parent="MarginContainer/VBox/AudioSection/VolumeRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(200, 0)
 text = "Master Volume"
 
-[node name="VolumeSlider" type="HSlider" parent="VBoxContainer"]
+[node name="VolumeSlider" type="HSlider" parent="MarginContainer/VBox/AudioSection/VolumeRow"]
 layout_mode = 2
+size_flags_horizontal = 3
 max_value = 100.0
 value = 75.0
 
-[node name="FullscreenCheck" type="CheckBox" parent="VBoxContainer"]
+[node name="VolumeValue" type="Label" parent="MarginContainer/VBox/AudioSection/VolumeRow"]
 layout_mode = 2
+custom_minimum_size = Vector2(60, 0)
+text = "75%"
+horizontal_alignment = 2
+
+[node name="HSeparator3" type="HSeparator" parent="MarginContainer/VBox"]
+layout_mode = 2
+
+[node name="MusicSection" type="VBoxContainer" parent="MarginContainer/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="MusicLabel" type="Label" parent="MarginContainer/VBox/MusicSection"]
+layout_mode = 2
+text = "Music Style"
+theme_override_font_sizes/font_size = 20
+
+[node name="UnionMusicRow" type="HBoxContainer" parent="MarginContainer/VBox/MusicSection"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="UnionMusicLabel" type="Label" parent="MarginContainer/VBox/MusicSection/UnionMusicRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(200, 0)
+text = "Union Music:"
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(0.4, 0.6, 1.0, 1)
+
+[node name="UnionMusicOption" type="OptionButton" parent="MarginContainer/VBox/MusicSection/UnionMusicRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(300, 40)
+
+[node name="ConfedMusicRow" type="HBoxContainer" parent="MarginContainer/VBox/MusicSection"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="ConfedMusicLabel" type="Label" parent="MarginContainer/VBox/MusicSection/ConfedMusicRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(200, 0)
+text = "Confed Music:"
+theme_override_font_sizes/font_size = 16
+theme_override_colors/font_color = Color(1.0, 0.35, 0.35, 1)
+
+[node name="ConfedMusicOption" type="OptionButton" parent="MarginContainer/VBox/MusicSection/ConfedMusicRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(300, 40)
+
+[node name="HSeparator4" type="HSeparator" parent="MarginContainer/VBox"]
+layout_mode = 2
+
+[node name="DisplaySection" type="VBoxContainer" parent="MarginContainer/VBox"]
+layout_mode = 2
+
+[node name="FullscreenCheck" type="CheckBox" parent="MarginContainer/VBox/DisplaySection"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 40)
 text = "Fullscreen"
 
-[node name="BackButton" type="Button" parent="VBoxContainer"]
+[node name="HSeparator5" type="HSeparator" parent="MarginContainer/VBox"]
 layout_mode = 2
-minimum_size = Vector2(0, 50)
+
+[node name="ButtonRow" type="HBoxContainer" parent="MarginContainer/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 20
+alignment = 1
+
+[node name="BackButton" type="Button" parent="MarginContainer/VBox/ButtonRow"]
+layout_mode = 2
+custom_minimum_size = Vector2(200, 50)
 text = "BACK"

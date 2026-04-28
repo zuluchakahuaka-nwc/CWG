@@ -1,0 +1,1387 @@
+Godot Engine v4.2.2.stable.official.15073afe3 - https://godotengine.org
+ 
+[21:44:02] [INFO] [Logger] Game logger initialized
+[21:44:02] [INFO] [CardDatabase] Loaded 146 units, 24 commanders, 67 situations, 38 territories
+[21:44:02] [INFO] [TEST] ============================================
+[21:44:02] [INFO] [TEST]   AI vs AI STRESS TEST - 15 TURNS
+[21:44:02] [INFO] [TEST] ============================================
+[21:44:02] [INFO] [GameManager] Game started: scenario=civil_war player=union
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ====== TURN 1 | month.april 1861 ======
+[21:44:02] [INFO] [TEST] --- UNION PLAYER ---
+[21:44:02] [INFO] [AI] #1 [UNION] RESOURCES phase start
+[21:44:02] [INFO] [AI] #2 [UNION] Income from 4 territories. Men:11 Gold:15 Supply:9
+[21:44:02] [INFO] [AI] #3 [UNION] DRAW phase start
+[21:44:02] [INFO] [AI] #4 [UNION] Available cards: 70 types
+[21:44:02] [INFO] [AI] #5 [UNION] Drew 3 cards: u_inf_116pa u_spec_lightning u_art_02uc
+[21:44:02] [INFO] [AI] #6 [UNION] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #7 [UNION] Hand: 3 cards, Gold: 15
+[21:44:02] [INFO] [AI] #8 [UNION] Placed u_inf_116pa (infantry ATK:3 DEF:3 HP:4) -> maryland (cost 2)
+[21:44:02] [INFO] [AI] #9 [UNION] Placed u_spec_lightning (special ATK:5 DEF:2 HP:4) -> virginia_west (cost 5)
+[21:44:02] [INFO] [AI] #10 [UNION] Placed u_art_02uc (artillery ATK:3 DEF:2 HP:3) -> virginia_west (cost 2)
+[21:44:02] [INFO] [AI] #11 [UNION] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #12 [UNION] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #13 [UNION] Movable units: 3
+[21:44:02] [INFO] [AI] #14 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #15 [UNION] Move u_spec_lightning -> Harpers Ferry
+[21:44:02] [INFO] [AI] #16 [UNION] Move u_art_02uc -> Harpers Ferry
+[21:44:02] [INFO] [AI] #17 [UNION] Moved 3 units
+[21:44:02] [INFO] [AI] #18 [UNION] COMBAT phase start
+[21:44:02] [INFO] [AI] #19 [UNION] Battles fought: 0
+[21:44:02] [INFO] [AI] #20 [UNION] EVENTS phase
+[21:44:02] [INFO] [AI] #21 [UNION] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #22 [UNION] State verify: 3 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:44:02] [INFO] [AI] #1 [CONFEDERATE] RESOURCES phase start
+[21:44:02] [INFO] [AI] #2 [CONFEDERATE] Income from 29 territories. Men:23 Gold:39 Supply:35
+[21:44:02] [INFO] [AI] #3 [CONFEDERATE] DRAW phase start
+[21:44:02] [INFO] [AI] #4 [CONFEDERATE] Available cards: 76 types
+[21:44:02] [INFO] [AI] #5 [CONFEDERATE] Drew 3 cards: c_art_fredericksburg c_art_fredericksburg c_inf_13va
+[21:44:02] [INFO] [AI] #6 [CONFEDERATE] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #7 [CONFEDERATE] Hand: 3 cards, Gold: 39
+[21:44:02] [INFO] [AI] #8 [CONFEDERATE] Placed c_art_fredericksburg (artillery ATK:4 DEF:2 HP:3) -> shenandoah (cost 3)
+[21:44:02] [INFO] [AI] #9 [CONFEDERATE] Placed c_art_fredericksburg (artillery ATK:4 DEF:2 HP:3) -> virginia_north (cost 3)
+[21:44:02] [INFO] [AI] #10 [CONFEDERATE] Placed c_inf_13va (infantry ATK:3 DEF:3 HP:4) -> virginia_north (cost 2)
+[21:44:02] [INFO] [AI] #11 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #12 [CONFEDERATE] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #13 [CONFEDERATE] Movable units: 3
+[21:44:02] [INFO] [AI] #14 [CONFEDERATE] Move c_art_fredericks -> Western Virginia
+[21:44:02] [INFO] [AI] #15 [CONFEDERATE] Move c_art_fredericks -> Washington, D.C.
+[21:44:02] [INFO] [AI] #16 [CONFEDERATE] Move c_inf_13va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #17 [CONFEDERATE] Moved 3 units
+[21:44:02] [INFO] [AI] #18 [CONFEDERATE] COMBAT phase start
+[21:44:02] [INFO] [AI] #19 [CONFEDERATE] Battles fought: 0
+[21:44:02] [INFO] [AI] #20 [CONFEDERATE] EVENTS phase
+[21:44:02] [INFO] [AI] #21 [CONFEDERATE] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #22 [CONFEDERATE] State verify: 6 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [GameManager] Turn 2 started: month.may 1861
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ====== TURN 2 | month.may 1861 ======
+[21:44:02] [INFO] [TEST] --- UNION PLAYER ---
+[21:44:02] [INFO] [AI] #23 [UNION] RESOURCES phase start
+[21:44:02] [INFO] [AI] #24 [UNION] Income from 4 territories. Men:16 Gold:14 Supply:13
+[21:44:02] [INFO] [AI] #25 [UNION] DRAW phase start
+[21:44:02] [INFO] [AI] #26 [UNION] Available cards: 70 types
+[21:44:02] [INFO] [AI] #27 [UNION] Drew 3 cards: u_inf_01us u_spec_ma_ss u_spec_1la_ng
+[21:44:02] [INFO] [AI] #28 [UNION] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #29 [UNION] Hand: 3 cards, Gold: 14
+[21:44:02] [INFO] [AI] #30 [UNION] Placed u_inf_01us (infantry ATK:3 DEF:4 HP:5) -> virginia_west (cost 3)
+[21:44:02] [INFO] [AI] #31 [UNION] Placed u_spec_ma_ss (special ATK:4 DEF:1 HP:2) -> virginia_west (cost 3)
+[21:44:02] [INFO] [AI] #32 [UNION] Placed u_spec_1la_ng (special ATK:3 DEF:3 HP:4) -> virginia_west (cost 2)
+[21:44:02] [INFO] [AI] #33 [UNION] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #34 [UNION] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #35 [UNION] Movable units: 6
+[21:44:02] [INFO] [AI] #36 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #37 [UNION] Move u_spec_lightning -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #38 [UNION] Move u_art_02uc -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #39 [UNION] Move u_inf_01us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #40 [UNION] Move u_spec_ma_ss -> Harpers Ferry
+[21:44:02] [INFO] [AI] #41 [UNION] Move u_spec_1la_ng -> Harpers Ferry
+[21:44:02] [INFO] [AI] #42 [UNION] Moved 6 units
+[21:44:02] [INFO] [AI] #43 [UNION] COMBAT phase start
+[21:44:02] [INFO] [AI] #44 [UNION] Battles fought: 0
+[21:44:02] [INFO] [AI] #45 [UNION] EVENTS phase
+[21:44:02] [INFO] [AI] #46 [UNION] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #47 [UNION] State verify: 9 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:44:02] [INFO] [AI] #23 [CONFEDERATE] RESOURCES phase start
+[21:44:02] [INFO] [AI] #24 [CONFEDERATE] Income from 29 territories. Men:42 Gold:66 Supply:66
+[21:44:02] [INFO] [AI] #25 [CONFEDERATE] DRAW phase start
+[21:44:02] [INFO] [AI] #26 [CONFEDERATE] Available cards: 76 types
+[21:44:02] [INFO] [AI] #27 [CONFEDERATE] Drew 3 cards: c_ship_atlanta c_cav_01va c_art_richmond
+[21:44:02] [INFO] [AI] #28 [CONFEDERATE] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #29 [CONFEDERATE] Hand: 3 cards, Gold: 66
+[21:44:02] [INFO] [AI] #30 [CONFEDERATE] Placed c_ship_atlanta (ship ATK:4 DEF:5 HP:5) -> virginia_north (cost 5)
+[21:44:02] [INFO] [AI] #31 [CONFEDERATE] Placed c_cav_01va (cavalry ATK:4 DEF:3 HP:4) -> shenandoah (cost 4)
+[21:44:02] [INFO] [AI] #32 [CONFEDERATE] Placed c_art_richmond (artillery ATK:4 DEF:3 HP:4) -> virginia_north (cost 3)
+[21:44:02] [INFO] [AI] #33 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #34 [CONFEDERATE] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #35 [CONFEDERATE] Movable units: 6
+[21:44:02] [INFO] [AI] #36 [CONFEDERATE] Move c_art_fredericks -> Pennsylvania
+[21:44:02] [INFO] [AI] #37 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #38 [CONFEDERATE] Move c_inf_13va -> Maryland
+[21:44:02] [INFO] [AI] #39 [CONFEDERATE] Move c_cav_01va -> Western Virginia
+[21:44:02] [INFO] [AI] #40 [CONFEDERATE] Move c_ship_atlanta -> Washington, D.C.
+[21:44:02] [INFO] [AI] #41 [CONFEDERATE] Move c_art_richmond -> Washington, D.C.
+[21:44:02] [INFO] [AI] #42 [CONFEDERATE] Moved 6 units
+[21:44:02] [INFO] [AI] #43 [CONFEDERATE] COMBAT phase start
+[21:44:02] [INFO] [AI] #44 [CONFEDERATE] Battles fought: 0
+[21:44:02] [INFO] [AI] #45 [CONFEDERATE] EVENTS phase
+[21:44:02] [INFO] [AI] #46 [CONFEDERATE] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #47 [CONFEDERATE] State verify: 12 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [GameManager] Turn 3 started: month.june 1861
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ====== TURN 3 | month.june 1861 ======
+[21:44:02] [INFO] [TEST] --- UNION PLAYER ---
+[21:44:02] [INFO] [AI] #48 [UNION] RESOURCES phase start
+[21:44:02] [INFO] [AI] #49 [UNION] Income from 4 territories. Men:21 Gold:14 Supply:17
+[21:44:02] [INFO] [AI] #50 [UNION] DRAW phase start
+[21:44:02] [INFO] [AI] #51 [UNION] Available cards: 70 types
+[21:44:02] [INFO] [AI] #52 [UNION] Drew 3 cards: u_inf_06wi u_art_05us u_ship_cairo
+[21:44:02] [INFO] [AI] #53 [UNION] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #54 [UNION] Hand: 3 cards, Gold: 14
+[21:44:02] [INFO] [AI] #55 [UNION] Placed u_inf_06wi (infantry ATK:4 DEF:3 HP:5) -> virginia_west (cost 3)
+[21:44:02] [INFO] [AI] #56 [UNION] Placed u_art_05us (artillery ATK:4 DEF:2 HP:3) -> washington_dc (cost 3)
+[21:44:02] [INFO] [AI] #57 [UNION] Placed u_ship_cairo (ship ATK:4 DEF:5 HP:5) -> maryland (cost 4)
+[21:44:02] [INFO] [AI] #58 [UNION] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #59 [UNION] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #60 [UNION] Movable units: 9
+[21:44:02] [INFO] [AI] #61 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #62 [UNION] Move u_spec_lightning -> Harpers Ferry
+[21:44:02] [INFO] [AI] #63 [UNION] Move u_art_02uc -> Harpers Ferry
+[21:44:02] [INFO] [AI] #64 [UNION] Move u_inf_01us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #65 [UNION] Move u_spec_ma_ss -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #66 [UNION] Move u_spec_1la_ng -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #67 [UNION] Move u_ship_cairo -> Harpers Ferry
+[21:44:02] [INFO] [AI] #68 [UNION] Move u_inf_06wi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #69 [UNION] Move u_art_05us -> Northern Virginia
+[21:44:02] [INFO] [AI] #70 [UNION] Moved 9 units
+[21:44:02] [INFO] [AI] #71 [UNION] COMBAT phase start
+[21:44:02] [INFO] [AI] #72 [UNION] Battles fought: 0
+[21:44:02] [INFO] [AI] #73 [UNION] EVENTS phase
+[21:44:02] [INFO] [AI] #74 [UNION] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #75 [UNION] State verify: 15 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:44:02] [INFO] [AI] #48 [CONFEDERATE] RESOURCES phase start
+[21:44:02] [INFO] [AI] #49 [CONFEDERATE] Income from 29 territories. Men:61 Gold:89 Supply:97
+[21:44:02] [INFO] [AI] #50 [CONFEDERATE] DRAW phase start
+[21:44:02] [INFO] [AI] #51 [CONFEDERATE] Available cards: 76 types
+[21:44:02] [INFO] [AI] #52 [CONFEDERATE] Drew 3 cards: c_inf_05va c_art_petersburg c_inf_09va
+[21:44:02] [INFO] [AI] #53 [CONFEDERATE] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #54 [CONFEDERATE] Hand: 3 cards, Gold: 89
+[21:44:02] [INFO] [AI] #55 [CONFEDERATE] Placed c_inf_05va (infantry ATK:4 DEF:3 HP:5) -> harpers_ferry (cost 3)
+[21:44:02] [INFO] [AI] #56 [CONFEDERATE] Placed c_art_petersburg (artillery ATK:4 DEF:2 HP:3) -> harpers_ferry (cost 3)
+[21:44:02] [INFO] [AI] #57 [CONFEDERATE] Placed c_inf_09va (infantry ATK:3 DEF:3 HP:4) -> richmond (cost 2)
+[21:44:02] [INFO] [AI] #58 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #59 [CONFEDERATE] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #60 [CONFEDERATE] Movable units: 9
+[21:44:02] [INFO] [AI] #61 [CONFEDERATE] Move c_inf_05va -> Maryland
+[21:44:02] [INFO] [AI] #62 [CONFEDERATE] Move c_art_petersburg -> Maryland
+[21:44:02] [INFO] [AI] #63 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #64 [CONFEDERATE] Move c_art_fredericks -> Washington, D.C.
+[21:44:02] [INFO] [AI] #65 [CONFEDERATE] Move c_inf_13va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #66 [CONFEDERATE] Move c_cav_01va -> Pennsylvania
+[21:44:02] [INFO] [AI] #67 [CONFEDERATE] Move c_ship_atlanta -> Maryland
+[21:44:02] [INFO] [AI] #68 [CONFEDERATE] Move c_art_richmond -> Maryland
+[21:44:02] [INFO] [AI] #69 [CONFEDERATE] Move c_inf_09va -> Western Virginia
+[21:44:02] [INFO] [AI] #70 [CONFEDERATE] Moved 9 units
+[21:44:02] [INFO] [AI] #71 [CONFEDERATE] COMBAT phase start
+[21:44:02] [INFO] [AI] #72 [CONFEDERATE] Battles fought: 0
+[21:44:02] [INFO] [AI] #73 [CONFEDERATE] EVENTS phase
+[21:44:02] [INFO] [AI] #74 [CONFEDERATE] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #75 [CONFEDERATE] State verify: 18 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [GameManager] Turn 4 started: month.july 1861
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ====== TURN 4 | month.july 1861 ======
+[21:44:02] [INFO] [TEST] --- UNION PLAYER ---
+[21:44:02] [INFO] [AI] #76 [UNION] RESOURCES phase start
+[21:44:02] [INFO] [AI] #77 [UNION] Income from 4 territories. Men:26 Gold:12 Supply:21
+[21:44:02] [INFO] [AI] #78 [UNION] DRAW phase start
+[21:44:02] [INFO] [AI] #79 [UNION] Available cards: 70 types
+[21:44:02] [INFO] [AI] #80 [UNION] Drew 3 cards: u_inf_88ny u_cav_01wv u_ship_kearsarge
+[21:44:02] [INFO] [AI] #81 [UNION] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #82 [UNION] Hand: 3 cards, Gold: 12
+[21:44:02] [INFO] [AI] #83 [UNION] Placed u_inf_88ny (infantry ATK:3 DEF:3 HP:4) -> maryland (cost 3)
+[21:44:02] [INFO] [AI] #84 [UNION] Placed u_cav_01wv (cavalry ATK:3 DEF:2 HP:4) -> virginia_west (cost 2)
+[21:44:02] [INFO] [AI] #85 [UNION] Placed u_ship_kearsarge (ship ATK:5 DEF:5 HP:6) -> maryland (cost 5)
+[21:44:02] [INFO] [AI] #86 [UNION] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #87 [UNION] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #88 [UNION] Movable units: 12
+[21:44:02] [INFO] [AI] #89 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #90 [UNION] Move u_spec_lightning -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #91 [UNION] Move u_art_02uc -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #92 [UNION] Move u_ship_cairo -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #93 [UNION] Move u_inf_06wi -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #94 [UNION] Move u_inf_88ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #95 [UNION] Move u_ship_kearsarge -> Harpers Ferry
+[21:44:02] [INFO] [AI] #96 [UNION] Move u_inf_01us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #97 [UNION] Move u_spec_ma_ss -> Harpers Ferry
+[21:44:02] [INFO] [AI] #98 [UNION] Move u_spec_1la_ng -> Harpers Ferry
+[21:44:02] [INFO] [AI] #99 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #100 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #101 [UNION] Moved 12 units
+[21:44:02] [INFO] [AI] #102 [UNION] COMBAT phase start
+[21:44:02] [INFO] [AI] #103 [UNION] Battles fought: 0
+[21:44:02] [INFO] [AI] #104 [UNION] EVENTS phase
+[21:44:02] [INFO] [AI] #105 [UNION] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #106 [UNION] State verify: 21 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:44:02] [INFO] [AI] #76 [CONFEDERATE] RESOURCES phase start
+[21:44:02] [INFO] [AI] #77 [CONFEDERATE] Income from 29 territories. Men:80 Gold:116 Supply:128
+[21:44:02] [INFO] [AI] #78 [CONFEDERATE] DRAW phase start
+[21:44:02] [INFO] [AI] #79 [CONFEDERATE] Available cards: 76 types
+[21:44:02] [INFO] [AI] #80 [CONFEDERATE] Drew 3 cards: c_cav_01va c_spec_1mo_cav c_inf_13va
+[21:44:02] [INFO] [AI] #81 [CONFEDERATE] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #82 [CONFEDERATE] Hand: 3 cards, Gold: 116
+[21:44:02] [INFO] [AI] #83 [CONFEDERATE] Placed c_cav_01va (cavalry ATK:4 DEF:3 HP:4) -> harpers_ferry (cost 4)
+[21:44:02] [INFO] [AI] #84 [CONFEDERATE] Placed c_spec_1mo_cav (special ATK:3 DEF:2 HP:3) -> richmond (cost 2)
+[21:44:02] [INFO] [AI] #85 [CONFEDERATE] Placed c_inf_13va (infantry ATK:3 DEF:3 HP:4) -> richmond (cost 2)
+[21:44:02] [INFO] [AI] #86 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #87 [CONFEDERATE] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #88 [CONFEDERATE] Movable units: 12
+[21:44:02] [INFO] [AI] #89 [CONFEDERATE] Move c_inf_05va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #90 [CONFEDERATE] Move c_art_petersburg -> Washington, D.C.
+[21:44:02] [INFO] [AI] #91 [CONFEDERATE] Move c_art_fredericks -> Washington, D.C.
+[21:44:02] [INFO] [AI] #92 [CONFEDERATE] Move c_ship_atlanta -> Washington, D.C.
+[21:44:02] [INFO] [AI] #93 [CONFEDERATE] Move c_art_richmond -> Washington, D.C.
+[21:44:02] [INFO] [AI] #94 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #95 [CONFEDERATE] Move c_inf_13va -> Maryland
+[21:44:02] [INFO] [AI] #96 [CONFEDERATE] Move c_cav_01va -> Maryland
+[21:44:02] [INFO] [AI] #97 [CONFEDERATE] Move c_inf_09va -> Pennsylvania
+[21:44:02] [INFO] [AI] #98 [CONFEDERATE] Move c_cav_01va -> Maryland
+[21:44:02] [INFO] [AI] #99 [CONFEDERATE] Move c_spec_1mo_cav -> Western Virginia
+[21:44:02] [INFO] [AI] #100 [CONFEDERATE] Move c_inf_13va -> Western Virginia
+[21:44:02] [INFO] [AI] #101 [CONFEDERATE] Moved 12 units
+[21:44:02] [INFO] [AI] #102 [CONFEDERATE] COMBAT phase start
+[21:44:02] [INFO] [AI] #103 [CONFEDERATE] Battles fought: 0
+[21:44:02] [INFO] [AI] #104 [CONFEDERATE] EVENTS phase
+[21:44:02] [INFO] [AI] #105 [CONFEDERATE] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #106 [CONFEDERATE] State verify: 24 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [GameManager] Turn 5 started: month.august 1861
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ====== TURN 5 | month.august 1861 ======
+[21:44:02] [INFO] [TEST] --- UNION PLAYER ---
+[21:44:02] [INFO] [AI] #107 [UNION] RESOURCES phase start
+[21:44:02] [INFO] [AI] #108 [UNION] Income from 4 territories. Men:31 Gold:10 Supply:25
+[21:44:02] [INFO] [AI] #109 [UNION] DRAW phase start
+[21:44:02] [INFO] [AI] #110 [UNION] Available cards: 70 types
+[21:44:02] [INFO] [AI] #111 [UNION] Drew 3 cards: u_inf_54ma u_inf_116pa u_cav_01wv
+[21:44:02] [INFO] [AI] #112 [UNION] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #113 [UNION] Hand: 3 cards, Gold: 10
+[21:44:02] [INFO] [AI] #114 [UNION] Placed u_inf_54ma (infantry ATK:3 DEF:3 HP:4) -> virginia_west (cost 3)
+[21:44:02] [INFO] [AI] #115 [UNION] Placed u_inf_116pa (infantry ATK:3 DEF:3 HP:4) -> virginia_west (cost 2)
+[21:44:02] [INFO] [AI] #116 [UNION] Placed u_cav_01wv (cavalry ATK:3 DEF:2 HP:4) -> maryland (cost 2)
+[21:44:02] [INFO] [AI] #117 [UNION] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #118 [UNION] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #119 [UNION] Movable units: 15
+[21:44:02] [INFO] [AI] #120 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #121 [UNION] Move u_spec_lightning -> Harpers Ferry
+[21:44:02] [INFO] [AI] #122 [UNION] Move u_art_02uc -> Harpers Ferry
+[21:44:02] [INFO] [AI] #123 [UNION] Move u_ship_cairo -> Harpers Ferry
+[21:44:02] [INFO] [AI] #124 [UNION] Move u_inf_06wi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #125 [UNION] Move u_inf_88ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #126 [UNION] Move u_ship_kearsarge -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #127 [UNION] Move u_inf_01us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #128 [UNION] Move u_spec_ma_ss -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #129 [UNION] Move u_spec_1la_ng -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #130 [UNION] Move u_art_05us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #131 [UNION] Move u_cav_01wv -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #132 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #133 [UNION] Move u_inf_54ma -> Harpers Ferry
+[21:44:02] [INFO] [AI] #134 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #135 [UNION] Moved 15 units
+[21:44:02] [INFO] [AI] #136 [UNION] COMBAT phase start
+[21:44:02] [INFO] [AI] #137 [UNION] Battles fought: 0
+[21:44:02] [INFO] [AI] #138 [UNION] EVENTS phase
+[21:44:02] [INFO] [AI] #139 [UNION] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #140 [UNION] State verify: 27 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:44:02] [INFO] [AI] #107 [CONFEDERATE] RESOURCES phase start
+[21:44:02] [INFO] [AI] #108 [CONFEDERATE] Income from 29 territories. Men:99 Gold:143 Supply:159
+[21:44:02] [INFO] [AI] #109 [CONFEDERATE] DRAW phase start
+[21:44:02] [INFO] [AI] #110 [CONFEDERATE] Available cards: 76 types
+[21:44:02] [INFO] [AI] #111 [CONFEDERATE] Drew 3 cards: c_brig_wilcox c_ship_hunley c_spec_va_irish
+[21:44:02] [INFO] [AI] #112 [CONFEDERATE] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #113 [CONFEDERATE] Hand: 3 cards, Gold: 143
+[21:44:02] [INFO] [AI] #114 [CONFEDERATE] Placed c_brig_wilcox (infantry ATK:3 DEF:2 HP:4) -> richmond (cost 2)
+[21:44:02] [INFO] [AI] #115 [CONFEDERATE] Placed c_ship_hunley (ship ATK:8 DEF:1 HP:1) -> harpers_ferry (cost 5)
+[21:44:02] [INFO] [AI] #116 [CONFEDERATE] Placed c_spec_va_irish (special ATK:3 DEF:3 HP:4) -> virginia_north (cost 2)
+[21:44:02] [INFO] [AI] #117 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #118 [CONFEDERATE] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #119 [CONFEDERATE] Movable units: 15
+[21:44:02] [INFO] [AI] #120 [CONFEDERATE] Move c_inf_05va -> Maryland
+[21:44:02] [INFO] [AI] #121 [CONFEDERATE] Move c_art_petersburg -> Maryland
+[21:44:02] [INFO] [AI] #122 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #123 [CONFEDERATE] Move c_ship_atlanta -> Maryland
+[21:44:02] [INFO] [AI] #124 [CONFEDERATE] Move c_art_richmond -> Maryland
+[21:44:02] [INFO] [AI] #125 [CONFEDERATE] Move c_ship_hunley -> Maryland
+[21:44:02] [INFO] [AI] #126 [CONFEDERATE] Move c_art_fredericks -> Washington, D.C.
+[21:44:02] [INFO] [AI] #127 [CONFEDERATE] Move c_inf_13va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #128 [CONFEDERATE] Move c_cav_01va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #129 [CONFEDERATE] Move c_cav_01va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #130 [CONFEDERATE] Move c_inf_09va -> Maryland
+[21:44:02] [INFO] [AI] #131 [CONFEDERATE] Move c_spec_1mo_cav -> Pennsylvania
+[21:44:02] [INFO] [AI] #132 [CONFEDERATE] Move c_inf_13va -> Pennsylvania
+[21:44:02] [INFO] [AI] #133 [CONFEDERATE] Move c_brig_wilcox -> Western Virginia
+[21:44:02] [INFO] [AI] #134 [CONFEDERATE] Move c_spec_va_irish -> Washington, D.C.
+[21:44:02] [INFO] [AI] #135 [CONFEDERATE] Moved 15 units
+[21:44:02] [INFO] [AI] #136 [CONFEDERATE] COMBAT phase start
+[21:44:02] [INFO] [AI] #137 [CONFEDERATE] Battles fought: 0
+[21:44:02] [INFO] [AI] #138 [CONFEDERATE] EVENTS phase
+[21:44:02] [INFO] [AI] #139 [CONFEDERATE] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #140 [CONFEDERATE] State verify: 30 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [GameManager] Turn 6 started: month.september 1861
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ====== TURN 6 | month.september 1861 ======
+[21:44:02] [INFO] [TEST] --- UNION PLAYER ---
+[21:44:02] [INFO] [AI] #141 [UNION] RESOURCES phase start
+[21:44:02] [INFO] [AI] #142 [UNION] Income from 4 territories. Men:36 Gold:11 Supply:29
+[21:44:02] [INFO] [AI] #143 [UNION] DRAW phase start
+[21:44:02] [INFO] [AI] #144 [UNION] Available cards: 70 types
+[21:44:02] [INFO] [AI] #145 [UNION] Drew 3 cards: u_inf_44ny u_cav_01ny_mr u_art_05us
+[21:44:02] [INFO] [AI] #146 [UNION] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #147 [UNION] Hand: 3 cards, Gold: 11
+[21:44:02] [INFO] [AI] #148 [UNION] Placed u_inf_44ny (infantry ATK:3 DEF:4 HP:4) -> virginia_west (cost 3)
+[21:44:02] [INFO] [AI] #149 [UNION] Placed u_cav_01ny_mr (cavalry ATK:3 DEF:2 HP:3) -> washington_dc (cost 2)
+[21:44:02] [INFO] [AI] #150 [UNION] Placed u_art_05us (artillery ATK:4 DEF:2 HP:3) -> maryland (cost 3)
+[21:44:02] [INFO] [AI] #151 [UNION] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #152 [UNION] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #153 [UNION] Movable units: 18
+[21:44:02] [INFO] [AI] #154 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #155 [UNION] Move u_spec_lightning -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #156 [UNION] Move u_art_02uc -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #157 [UNION] Move u_ship_cairo -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #158 [UNION] Move u_inf_06wi -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #159 [UNION] Move u_cav_01wv -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #160 [UNION] Move u_inf_54ma -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #161 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #162 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #163 [UNION] Move u_inf_88ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #164 [UNION] Move u_ship_kearsarge -> Harpers Ferry
+[21:44:02] [INFO] [AI] #165 [UNION] Move u_inf_01us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #166 [UNION] Move u_spec_ma_ss -> Harpers Ferry
+[21:44:02] [INFO] [AI] #167 [UNION] Move u_spec_1la_ng -> Harpers Ferry
+[21:44:02] [INFO] [AI] #168 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #169 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #170 [UNION] Move u_cav_01ny_mr -> Northern Virginia
+[21:44:02] [INFO] [AI] #171 [UNION] Move u_inf_44ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #172 [UNION] Moved 18 units
+[21:44:02] [INFO] [AI] #173 [UNION] COMBAT phase start
+[21:44:02] [INFO] [AI] #174 [UNION] Battles fought: 0
+[21:44:02] [INFO] [AI] #175 [UNION] EVENTS phase
+[21:44:02] [INFO] [AI] #176 [UNION] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #177 [UNION] State verify: 33 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:44:02] [INFO] [AI] #141 [CONFEDERATE] RESOURCES phase start
+[21:44:02] [INFO] [AI] #142 [CONFEDERATE] Income from 29 territories. Men:118 Gold:169 Supply:190
+[21:44:02] [INFO] [AI] #143 [CONFEDERATE] DRAW phase start
+[21:44:02] [INFO] [AI] #144 [CONFEDERATE] Available cards: 76 types
+[21:44:02] [INFO] [AI] #145 [CONFEDERATE] Drew 3 cards: c_ship_patrick_henry c_inf_24va c_inf_18ga
+[21:44:02] [INFO] [AI] #146 [CONFEDERATE] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #147 [CONFEDERATE] Hand: 3 cards, Gold: 169
+[21:44:02] [INFO] [AI] #148 [CONFEDERATE] Placed c_ship_patrick_henry (ship ATK:3 DEF:3 HP:4) -> shenandoah (cost 2)
+[21:44:02] [INFO] [AI] #149 [CONFEDERATE] Placed c_inf_24va (infantry ATK:3 DEF:3 HP:4) -> richmond (cost 2)
+[21:44:02] [INFO] [AI] #150 [CONFEDERATE] Placed c_inf_18ga (infantry ATK:3 DEF:3 HP:4) -> virginia_north (cost 2)
+[21:44:02] [INFO] [AI] #151 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #152 [CONFEDERATE] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #153 [CONFEDERATE] Movable units: 18
+[21:44:02] [INFO] [AI] #154 [CONFEDERATE] Move c_inf_05va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #155 [CONFEDERATE] Move c_art_petersburg -> Washington, D.C.
+[21:44:02] [INFO] [AI] #156 [CONFEDERATE] Move c_art_fredericks -> Washington, D.C.
+[21:44:02] [INFO] [AI] #157 [CONFEDERATE] Move c_ship_atlanta -> Washington, D.C.
+[21:44:02] [INFO] [AI] #158 [CONFEDERATE] Move c_art_richmond -> Washington, D.C.
+[21:44:02] [INFO] [AI] #159 [CONFEDERATE] Move c_ship_hunley -> Washington, D.C.
+[21:44:02] [INFO] [AI] #160 [CONFEDERATE] Move c_inf_09va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #161 [CONFEDERATE] Move c_ship_patrick_h -> Western Virginia
+[21:44:02] [INFO] [AI] #162 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #163 [CONFEDERATE] Move c_inf_13va -> Maryland
+[21:44:02] [INFO] [AI] #164 [CONFEDERATE] Move c_cav_01va -> Maryland
+[21:44:02] [INFO] [AI] #165 [CONFEDERATE] Move c_cav_01va -> Maryland
+[21:44:02] [INFO] [AI] #166 [CONFEDERATE] Move c_spec_va_irish -> Maryland
+[21:44:02] [INFO] [AI] #167 [CONFEDERATE] Move c_spec_1mo_cav -> Maryland
+[21:44:02] [INFO] [AI] #168 [CONFEDERATE] Move c_inf_13va -> Maryland
+[21:44:02] [INFO] [AI] #169 [CONFEDERATE] Move c_brig_wilcox -> Pennsylvania
+[21:44:02] [INFO] [AI] #170 [CONFEDERATE] Move c_inf_18ga -> Washington, D.C.
+[21:44:02] [INFO] [AI] #171 [CONFEDERATE] Move c_inf_24va -> Western Virginia
+[21:44:02] [INFO] [AI] #172 [CONFEDERATE] Moved 18 units
+[21:44:02] [INFO] [AI] #173 [CONFEDERATE] COMBAT phase start
+[21:44:02] [INFO] [AI] #174 [CONFEDERATE] Battles fought: 0
+[21:44:02] [INFO] [AI] #175 [CONFEDERATE] EVENTS phase
+[21:44:02] [INFO] [AI] #176 [CONFEDERATE] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #177 [CONFEDERATE] State verify: 36 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [GameManager] Turn 7 started: month.october 1861
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ====== TURN 7 | month.october 1861 ======
+[21:44:02] [INFO] [TEST] --- UNION PLAYER ---
+[21:44:02] [INFO] [AI] #178 [UNION] RESOURCES phase start
+[21:44:02] [INFO] [AI] #179 [UNION] Income from 4 territories. Men:41 Gold:11 Supply:33
+[21:44:02] [INFO] [AI] #180 [UNION] DRAW phase start
+[21:44:02] [INFO] [AI] #181 [UNION] Available cards: 70 types
+[21:44:02] [INFO] [AI] #182 [UNION] Drew 3 cards: u_ship_essex u_inf_116pa u_cav_01wv
+[21:44:02] [INFO] [AI] #183 [UNION] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #184 [UNION] Hand: 3 cards, Gold: 11
+[21:44:02] [INFO] [AI] #185 [UNION] Placed u_ship_essex (ship ATK:4 DEF:5 HP:5) -> maryland (cost 4)
+[21:44:02] [INFO] [AI] #186 [UNION] Placed u_inf_116pa (infantry ATK:3 DEF:3 HP:4) -> maryland (cost 2)
+[21:44:02] [INFO] [AI] #187 [UNION] Placed u_cav_01wv (cavalry ATK:3 DEF:2 HP:4) -> maryland (cost 2)
+[21:44:02] [INFO] [AI] #188 [UNION] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #189 [UNION] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #190 [UNION] Movable units: 21
+[21:44:02] [INFO] [AI] #191 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #192 [UNION] Move u_spec_lightning -> Harpers Ferry
+[21:44:02] [INFO] [AI] #193 [UNION] Move u_art_02uc -> Harpers Ferry
+[21:44:02] [INFO] [AI] #194 [UNION] Move u_ship_cairo -> Harpers Ferry
+[21:44:02] [INFO] [AI] #195 [UNION] Move u_inf_06wi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #196 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #197 [UNION] Move u_inf_54ma -> Harpers Ferry
+[21:44:02] [INFO] [AI] #198 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #199 [UNION] Move u_art_05us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #200 [UNION] Move u_inf_88ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #201 [UNION] Move u_ship_kearsarge -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #202 [UNION] Move u_inf_01us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #203 [UNION] Move u_spec_ma_ss -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #204 [UNION] Move u_spec_1la_ng -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #205 [UNION] Move u_art_05us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #206 [UNION] Move u_cav_01wv -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #207 [UNION] Move u_inf_44ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #208 [UNION] Move u_cav_01ny_mr -> Harpers Ferry
+[21:44:02] [INFO] [AI] #209 [UNION] Move u_ship_essex -> Harpers Ferry
+[21:44:02] [INFO] [AI] #210 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #211 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #212 [UNION] Moved 21 units
+[21:44:02] [INFO] [AI] #213 [UNION] COMBAT phase start
+[21:44:02] [INFO] [AI] #214 [UNION] Battles fought: 0
+[21:44:02] [INFO] [AI] #215 [UNION] EVENTS phase
+[21:44:02] [INFO] [AI] #216 [UNION] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #217 [UNION] State verify: 39 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:44:02] [INFO] [AI] #178 [CONFEDERATE] RESOURCES phase start
+[21:44:02] [INFO] [AI] #179 [CONFEDERATE] Income from 29 territories. Men:137 Gold:198 Supply:221
+[21:44:02] [INFO] [AI] #180 [CONFEDERATE] DRAW phase start
+[21:44:02] [INFO] [AI] #181 [CONFEDERATE] Available cards: 76 types
+[21:44:02] [INFO] [AI] #182 [CONFEDERATE] Drew 3 cards: c_brig_brockenbrough c_brig_brockenbrough c_inf_11va
+[21:44:02] [INFO] [AI] #183 [CONFEDERATE] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #184 [CONFEDERATE] Hand: 3 cards, Gold: 198
+[21:44:02] [INFO] [AI] #185 [CONFEDERATE] Placed c_brig_brockenbrough (infantry ATK:2 DEF:1 HP:3) -> richmond (cost 1)
+[21:44:02] [INFO] [AI] #186 [CONFEDERATE] Placed c_brig_brockenbrough (infantry ATK:2 DEF:1 HP:3) -> shenandoah (cost 1)
+[21:44:02] [INFO] [AI] #187 [CONFEDERATE] Placed c_inf_11va (infantry ATK:3 DEF:3 HP:4) -> virginia_north (cost 2)
+[21:44:02] [INFO] [AI] #188 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #189 [CONFEDERATE] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #190 [CONFEDERATE] Movable units: 21
+[21:44:02] [INFO] [AI] #191 [CONFEDERATE] Move c_inf_05va -> Maryland
+[21:44:02] [INFO] [AI] #192 [CONFEDERATE] Move c_art_petersburg -> Maryland
+[21:44:02] [INFO] [AI] #193 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #194 [CONFEDERATE] Move c_ship_atlanta -> Maryland
+[21:44:02] [INFO] [AI] #195 [CONFEDERATE] Move c_art_richmond -> Maryland
+[21:44:02] [INFO] [AI] #196 [CONFEDERATE] Move c_ship_hunley -> Maryland
+[21:44:02] [INFO] [AI] #197 [CONFEDERATE] Move c_inf_09va -> Maryland
+[21:44:02] [INFO] [AI] #198 [CONFEDERATE] Move c_inf_18ga -> Maryland
+[21:44:02] [INFO] [AI] #199 [CONFEDERATE] Move c_ship_patrick_h -> Pennsylvania
+[21:44:02] [INFO] [AI] #200 [CONFEDERATE] Move c_inf_24va -> Pennsylvania
+[21:44:02] [INFO] [AI] #201 [CONFEDERATE] Move c_art_fredericks -> Washington, D.C.
+[21:44:02] [INFO] [AI] #202 [CONFEDERATE] Move c_inf_13va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #203 [CONFEDERATE] Move c_cav_01va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #204 [CONFEDERATE] Move c_cav_01va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #205 [CONFEDERATE] Move c_spec_va_irish -> Washington, D.C.
+[21:44:02] [INFO] [AI] #206 [CONFEDERATE] Move c_spec_1mo_cav -> Washington, D.C.
+[21:44:02] [INFO] [AI] #207 [CONFEDERATE] Move c_inf_13va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #208 [CONFEDERATE] Move c_brig_wilcox -> Maryland
+[21:44:02] [INFO] [AI] #209 [CONFEDERATE] Move c_brig_brockenbr -> Western Virginia
+[21:44:02] [INFO] [AI] #210 [CONFEDERATE] Move c_brig_brockenbr -> Western Virginia
+[21:44:02] [INFO] [AI] #211 [CONFEDERATE] Move c_inf_11va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #212 [CONFEDERATE] Moved 21 units
+[21:44:02] [INFO] [AI] #213 [CONFEDERATE] COMBAT phase start
+[21:44:02] [INFO] [AI] #214 [CONFEDERATE] Battles fought: 0
+[21:44:02] [INFO] [AI] #215 [CONFEDERATE] EVENTS phase
+[21:44:02] [INFO] [AI] #216 [CONFEDERATE] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #217 [CONFEDERATE] State verify: 42 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [GameManager] Turn 8 started: month.november 1861
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ====== TURN 8 | month.november 1861 ======
+[21:44:02] [INFO] [TEST] --- UNION PLAYER ---
+[21:44:02] [INFO] [AI] #218 [UNION] RESOURCES phase start
+[21:44:02] [INFO] [AI] #219 [UNION] Income from 4 territories. Men:46 Gold:11 Supply:37
+[21:44:02] [INFO] [AI] #220 [UNION] DRAW phase start
+[21:44:02] [INFO] [AI] #221 [UNION] Available cards: 70 types
+[21:44:02] [INFO] [AI] #222 [UNION] Drew 3 cards: u_inf_54ma u_inf_07wi u_inf_116pa
+[21:44:02] [INFO] [AI] #223 [UNION] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #224 [UNION] Hand: 3 cards, Gold: 11
+[21:44:02] [INFO] [AI] #225 [UNION] Placed u_inf_54ma (infantry ATK:3 DEF:3 HP:4) -> virginia_west (cost 3)
+[21:44:02] [INFO] [AI] #226 [UNION] Placed u_inf_07wi (infantry ATK:4 DEF:3 HP:5) -> virginia_west (cost 3)
+[21:44:02] [INFO] [AI] #227 [UNION] Placed u_inf_116pa (infantry ATK:3 DEF:3 HP:4) -> washington_dc (cost 2)
+[21:44:02] [INFO] [AI] #228 [UNION] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #229 [UNION] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #230 [UNION] Movable units: 24
+[21:44:02] [INFO] [AI] #231 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #232 [UNION] Move u_spec_lightning -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #233 [UNION] Move u_art_02uc -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #234 [UNION] Move u_ship_cairo -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #235 [UNION] Move u_inf_06wi -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #236 [UNION] Move u_cav_01wv -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #237 [UNION] Move u_inf_54ma -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #238 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #239 [UNION] Move u_cav_01ny_mr -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #240 [UNION] Move u_ship_essex -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #241 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #242 [UNION] Move u_cav_01wv -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #243 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #244 [UNION] Move u_inf_88ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #245 [UNION] Move u_ship_kearsarge -> Harpers Ferry
+[21:44:02] [INFO] [AI] #246 [UNION] Move u_inf_01us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #247 [UNION] Move u_spec_ma_ss -> Harpers Ferry
+[21:44:02] [INFO] [AI] #248 [UNION] Move u_spec_1la_ng -> Harpers Ferry
+[21:44:02] [INFO] [AI] #249 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #250 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #251 [UNION] Move u_inf_44ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #252 [UNION] Move u_inf_116pa -> Northern Virginia
+[21:44:02] [INFO] [AI] #253 [UNION] Move u_inf_54ma -> Harpers Ferry
+[21:44:02] [INFO] [AI] #254 [UNION] Move u_inf_07wi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #255 [UNION] Moved 24 units
+[21:44:02] [INFO] [AI] #256 [UNION] COMBAT phase start
+[21:44:02] [INFO] [AI] #257 [UNION] Battles fought: 0
+[21:44:02] [INFO] [AI] #258 [UNION] EVENTS phase
+[21:44:02] [INFO] [AI] #259 [UNION] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #260 [UNION] State verify: 45 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:44:02] [INFO] [AI] #218 [CONFEDERATE] RESOURCES phase start
+[21:44:02] [INFO] [AI] #219 [CONFEDERATE] Income from 29 territories. Men:156 Gold:229 Supply:252
+[21:44:02] [INFO] [AI] #220 [CONFEDERATE] DRAW phase start
+[21:44:02] [INFO] [AI] #221 [CONFEDERATE] Available cards: 76 types
+[21:44:02] [INFO] [AI] #222 [CONFEDERATE] Drew 3 cards: c_inf_11va c_inf_17va c_spec_forrest_div
+[21:44:02] [INFO] [AI] #223 [CONFEDERATE] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #224 [CONFEDERATE] Hand: 3 cards, Gold: 229
+[21:44:02] [INFO] [AI] #225 [CONFEDERATE] Placed c_inf_11va (infantry ATK:3 DEF:3 HP:4) -> richmond (cost 2)
+[21:44:02] [INFO] [AI] #226 [CONFEDERATE] Placed c_inf_17va (infantry ATK:3 DEF:3 HP:4) -> tennessee_east (cost 2)
+[21:44:02] [INFO] [AI] #227 [CONFEDERATE] Placed c_spec_forrest_div (special ATK:4 DEF:3 HP:4) -> tennessee_east (cost 4)
+[21:44:02] [INFO] [AI] #228 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #229 [CONFEDERATE] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #230 [CONFEDERATE] Movable units: 24
+[21:44:02] [INFO] [AI] #231 [CONFEDERATE] Move c_inf_05va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #232 [CONFEDERATE] Move c_art_petersburg -> Washington, D.C.
+[21:44:02] [INFO] [AI] #233 [CONFEDERATE] Move c_art_fredericks -> Washington, D.C.
+[21:44:02] [INFO] [AI] #234 [CONFEDERATE] Move c_ship_atlanta -> Washington, D.C.
+[21:44:02] [INFO] [AI] #235 [CONFEDERATE] Move c_art_richmond -> Washington, D.C.
+[21:44:02] [INFO] [AI] #236 [CONFEDERATE] Move c_ship_hunley -> Washington, D.C.
+[21:44:02] [INFO] [AI] #237 [CONFEDERATE] Move c_inf_09va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #238 [CONFEDERATE] Move c_inf_18ga -> Washington, D.C.
+[21:44:02] [INFO] [AI] #239 [CONFEDERATE] Move c_brig_wilcox -> Washington, D.C.
+[21:44:02] [INFO] [AI] #240 [CONFEDERATE] Move c_ship_patrick_h -> Maryland
+[21:44:02] [INFO] [AI] #241 [CONFEDERATE] Move c_inf_24va -> Maryland
+[21:44:02] [INFO] [AI] #242 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #243 [CONFEDERATE] Move c_inf_13va -> Maryland
+[21:44:02] [INFO] [AI] #244 [CONFEDERATE] Move c_cav_01va -> Maryland
+[21:44:02] [INFO] [AI] #245 [CONFEDERATE] Move c_cav_01va -> Maryland
+[21:44:02] [INFO] [AI] #246 [CONFEDERATE] Move c_spec_va_irish -> Maryland
+[21:44:02] [INFO] [AI] #247 [CONFEDERATE] Move c_spec_1mo_cav -> Maryland
+[21:44:02] [INFO] [AI] #248 [CONFEDERATE] Move c_inf_13va -> Maryland
+[21:44:02] [INFO] [AI] #249 [CONFEDERATE] Move c_inf_11va -> Maryland
+[21:44:02] [INFO] [AI] #250 [CONFEDERATE] Move c_brig_brockenbr -> Pennsylvania
+[21:44:02] [INFO] [AI] #251 [CONFEDERATE] Move c_brig_brockenbr -> Pennsylvania
+[21:44:02] [INFO] [AI] #252 [CONFEDERATE] Move c_inf_11va -> Western Virginia
+[21:44:02] [INFO] [AI] #253 [CONFEDERATE] Move c_inf_17va -> Western Virginia
+[21:44:02] [INFO] [AI] #254 [CONFEDERATE] Move c_spec_forrest_d -> Western Virginia
+[21:44:02] [INFO] [AI] #255 [CONFEDERATE] Moved 24 units
+[21:44:02] [INFO] [AI] #256 [CONFEDERATE] COMBAT phase start
+[21:44:02] [INFO] [AI] #257 [CONFEDERATE] Battles fought: 0
+[21:44:02] [INFO] [AI] #258 [CONFEDERATE] EVENTS phase
+[21:44:02] [INFO] [AI] #259 [CONFEDERATE] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #260 [CONFEDERATE] State verify: 48 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [GameManager] Turn 9 started: month.december 1861
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ====== TURN 9 | month.december 1861 ======
+[21:44:02] [INFO] [TEST] --- UNION PLAYER ---
+[21:44:02] [INFO] [AI] #261 [UNION] RESOURCES phase start
+[21:44:02] [INFO] [AI] #262 [UNION] Income from 4 territories. Men:51 Gold:11 Supply:41
+[21:44:02] [INFO] [AI] #263 [UNION] DRAW phase start
+[21:44:02] [INFO] [AI] #264 [UNION] Available cards: 70 types
+[21:44:02] [INFO] [AI] #265 [UNION] Drew 3 cards: u_art_01ct u_art_05us u_inf_17us
+[21:44:02] [INFO] [AI] #266 [UNION] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #267 [UNION] Hand: 3 cards, Gold: 11
+[21:44:02] [INFO] [AI] #268 [UNION] Placed u_art_01ct (artillery ATK:5 DEF:2 HP:3) -> washington_dc (cost 4)
+[21:44:02] [INFO] [AI] #269 [UNION] Placed u_art_05us (artillery ATK:4 DEF:2 HP:3) -> virginia_west (cost 3)
+[21:44:02] [INFO] [AI] #270 [UNION] Placed u_inf_17us (infantry ATK:3 DEF:3 HP:4) -> maryland (cost 2)
+[21:44:02] [INFO] [AI] #271 [UNION] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #272 [UNION] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #273 [UNION] Movable units: 27
+[21:44:02] [INFO] [AI] #274 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #275 [UNION] Move u_spec_lightning -> Harpers Ferry
+[21:44:02] [INFO] [AI] #276 [UNION] Move u_art_02uc -> Harpers Ferry
+[21:44:02] [INFO] [AI] #277 [UNION] Move u_ship_cairo -> Harpers Ferry
+[21:44:02] [INFO] [AI] #278 [UNION] Move u_inf_06wi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #279 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #280 [UNION] Move u_inf_54ma -> Harpers Ferry
+[21:44:02] [INFO] [AI] #281 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #282 [UNION] Move u_cav_01ny_mr -> Harpers Ferry
+[21:44:02] [INFO] [AI] #283 [UNION] Move u_ship_essex -> Harpers Ferry
+[21:44:02] [INFO] [AI] #284 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #285 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #286 [UNION] Move u_art_01ct -> Northern Virginia
+[21:44:02] [INFO] [AI] #287 [UNION] Move u_art_05us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #288 [UNION] Move u_inf_88ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #289 [UNION] Move u_ship_kearsarge -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #290 [UNION] Move u_inf_01us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #291 [UNION] Move u_spec_ma_ss -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #292 [UNION] Move u_spec_1la_ng -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #293 [UNION] Move u_art_05us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #294 [UNION] Move u_cav_01wv -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #295 [UNION] Move u_inf_44ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #296 [UNION] Move u_inf_54ma -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #297 [UNION] Move u_inf_07wi -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #298 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #299 [UNION] Move u_inf_17us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #300 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #301 [UNION] Moved 27 units
+[21:44:02] [INFO] [AI] #302 [UNION] COMBAT phase start
+[21:44:02] [INFO] [AI] #303 [UNION] Battles fought: 0
+[21:44:02] [INFO] [AI] #304 [UNION] EVENTS phase
+[21:44:02] [INFO] [AI] #305 [UNION] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #306 [UNION] State verify: 51 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:44:02] [INFO] [AI] #261 [CONFEDERATE] RESOURCES phase start
+[21:44:02] [INFO] [AI] #262 [CONFEDERATE] Income from 29 territories. Men:175 Gold:256 Supply:283
+[21:44:02] [INFO] [AI] #263 [CONFEDERATE] DRAW phase start
+[21:44:02] [INFO] [AI] #264 [CONFEDERATE] Available cards: 76 types
+[21:44:02] [INFO] [AI] #265 [CONFEDERATE] Drew 3 cards: c_cav_02va c_inf_01va c_cav_mcneill
+[21:44:02] [INFO] [AI] #266 [CONFEDERATE] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #267 [CONFEDERATE] Hand: 3 cards, Gold: 256
+[21:44:02] [INFO] [AI] #268 [CONFEDERATE] Placed c_cav_02va (cavalry ATK:3 DEF:2 HP:4) -> harpers_ferry (cost 3)
+[21:44:02] [INFO] [AI] #269 [CONFEDERATE] Placed c_inf_01va (infantry ATK:3 DEF:3 HP:4) -> richmond (cost 2)
+[21:44:02] [INFO] [AI] #270 [CONFEDERATE] Placed c_cav_mcneill (cavalry ATK:3 DEF:1 HP:2) -> virginia_north (cost 2)
+[21:44:02] [INFO] [AI] #271 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #272 [CONFEDERATE] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #273 [CONFEDERATE] Movable units: 27
+[21:44:02] [INFO] [AI] #274 [CONFEDERATE] Move c_inf_05va -> Maryland
+[21:44:02] [INFO] [AI] #275 [CONFEDERATE] Move c_art_petersburg -> Maryland
+[21:44:02] [INFO] [AI] #276 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #277 [CONFEDERATE] Move c_ship_atlanta -> Maryland
+[21:44:02] [INFO] [AI] #278 [CONFEDERATE] Move c_art_richmond -> Maryland
+[21:44:02] [INFO] [AI] #279 [CONFEDERATE] Move c_ship_hunley -> Maryland
+[21:44:02] [INFO] [AI] #280 [CONFEDERATE] Move c_inf_09va -> Maryland
+[21:44:02] [INFO] [AI] #281 [CONFEDERATE] Move c_inf_18ga -> Maryland
+[21:44:02] [INFO] [AI] #282 [CONFEDERATE] Move c_brig_wilcox -> Maryland
+[21:44:02] [INFO] [AI] #283 [CONFEDERATE] Move c_cav_02va -> Maryland
+[21:44:02] [INFO] [AI] #284 [CONFEDERATE] Move c_cav_mcneill -> Washington, D.C.
+[21:44:02] [INFO] [AI] #285 [CONFEDERATE] Move c_ship_patrick_h -> Washington, D.C.
+[21:44:02] [INFO] [AI] #286 [CONFEDERATE] Move c_inf_24va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #287 [CONFEDERATE] Move c_art_fredericks -> Washington, D.C.
+[21:44:02] [INFO] [AI] #288 [CONFEDERATE] Move c_inf_13va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #289 [CONFEDERATE] Move c_cav_01va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #290 [CONFEDERATE] Move c_cav_01va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #291 [CONFEDERATE] Move c_spec_va_irish -> Washington, D.C.
+[21:44:02] [INFO] [AI] #292 [CONFEDERATE] Move c_spec_1mo_cav -> Washington, D.C.
+[21:44:02] [INFO] [AI] #293 [CONFEDERATE] Move c_inf_13va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #294 [CONFEDERATE] Move c_inf_11va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #295 [CONFEDERATE] Move c_brig_brockenbr -> Maryland
+[21:44:02] [INFO] [AI] #296 [CONFEDERATE] Move c_brig_brockenbr -> Maryland
+[21:44:02] [INFO] [AI] #297 [CONFEDERATE] Move c_inf_11va -> Pennsylvania
+[21:44:02] [INFO] [AI] #298 [CONFEDERATE] Move c_inf_17va -> Pennsylvania
+[21:44:02] [INFO] [AI] #299 [CONFEDERATE] Move c_spec_forrest_d -> Pennsylvania
+[21:44:02] [INFO] [AI] #300 [CONFEDERATE] Move c_inf_01va -> Western Virginia
+[21:44:02] [INFO] [AI] #301 [CONFEDERATE] Moved 27 units
+[21:44:02] [INFO] [AI] #302 [CONFEDERATE] COMBAT phase start
+[21:44:02] [INFO] [AI] #303 [CONFEDERATE] Battles fought: 0
+[21:44:02] [INFO] [AI] #304 [CONFEDERATE] EVENTS phase
+[21:44:02] [INFO] [AI] #305 [CONFEDERATE] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #306 [CONFEDERATE] State verify: 54 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [GameManager] Turn 10 started: month.january 1861
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ====== TURN 10 | month.january 1861 ======
+[21:44:02] [INFO] [TEST] --- UNION PLAYER ---
+[21:44:02] [INFO] [AI] #307 [UNION] RESOURCES phase start
+[21:44:02] [INFO] [AI] #308 [UNION] Income from 4 territories. Men:56 Gold:10 Supply:45
+[21:44:02] [INFO] [AI] #309 [UNION] DRAW phase start
+[21:44:02] [INFO] [AI] #310 [UNION] Available cards: 70 types
+[21:44:02] [INFO] [AI] #311 [UNION] Drew 3 cards: u_ship_moundcity u_inf_02wi u_inf_83pa
+[21:44:02] [INFO] [AI] #312 [UNION] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #313 [UNION] Hand: 3 cards, Gold: 10
+[21:44:02] [INFO] [AI] #314 [UNION] Placed u_ship_moundcity (ship ATK:4 DEF:5 HP:5) -> virginia_west (cost 4)
+[21:44:02] [INFO] [AI] #315 [UNION] Placed u_inf_02wi (infantry ATK:4 DEF:3 HP:5) -> washington_dc (cost 3)
+[21:44:02] [INFO] [AI] #316 [UNION] Placed u_inf_83pa (infantry ATK:3 DEF:4 HP:4) -> virginia_west (cost 3)
+[21:44:02] [INFO] [AI] #317 [UNION] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #318 [UNION] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #319 [UNION] Movable units: 30
+[21:44:02] [INFO] [AI] #320 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #321 [UNION] Move u_spec_lightning -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #322 [UNION] Move u_art_02uc -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #323 [UNION] Move u_ship_cairo -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #324 [UNION] Move u_inf_06wi -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #325 [UNION] Move u_cav_01wv -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #326 [UNION] Move u_inf_54ma -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #327 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #328 [UNION] Move u_cav_01ny_mr -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #329 [UNION] Move u_ship_essex -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #330 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #331 [UNION] Move u_cav_01wv -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #332 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #333 [UNION] Move u_inf_17us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #334 [UNION] Move u_art_05us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #335 [UNION] Move u_art_01ct -> Harpers Ferry
+[21:44:02] [INFO] [AI] #336 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #337 [UNION] Move u_inf_88ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #338 [UNION] Move u_ship_kearsarge -> Harpers Ferry
+[21:44:02] [INFO] [AI] #339 [UNION] Move u_inf_01us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #340 [UNION] Move u_spec_ma_ss -> Harpers Ferry
+[21:44:02] [INFO] [AI] #341 [UNION] Move u_spec_1la_ng -> Harpers Ferry
+[21:44:02] [INFO] [AI] #342 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #343 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #344 [UNION] Move u_inf_44ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #345 [UNION] Move u_inf_54ma -> Harpers Ferry
+[21:44:02] [INFO] [AI] #346 [UNION] Move u_inf_07wi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #347 [UNION] Move u_inf_02wi -> Northern Virginia
+[21:44:02] [INFO] [AI] #348 [UNION] Move u_ship_moundcity -> Harpers Ferry
+[21:44:02] [INFO] [AI] #349 [UNION] Move u_inf_83pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #350 [UNION] Moved 30 units
+[21:44:02] [INFO] [AI] #351 [UNION] COMBAT phase start
+[21:44:02] [INFO] [AI] #352 [UNION] Battles fought: 0
+[21:44:02] [INFO] [AI] #353 [UNION] EVENTS phase
+[21:44:02] [INFO] [AI] #354 [UNION] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #355 [UNION] State verify: 57 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:44:02] [INFO] [AI] #307 [CONFEDERATE] RESOURCES phase start
+[21:44:02] [INFO] [AI] #308 [CONFEDERATE] Income from 29 territories. Men:194 Gold:284 Supply:314
+[21:44:02] [INFO] [AI] #309 [CONFEDERATE] DRAW phase start
+[21:44:02] [INFO] [AI] #310 [CONFEDERATE] Available cards: 76 types
+[21:44:02] [INFO] [AI] #311 [CONFEDERATE] Drew 3 cards: c_cav_mcneill c_ship_alabama c_cav_09va
+[21:44:02] [INFO] [AI] #312 [CONFEDERATE] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #313 [CONFEDERATE] Hand: 3 cards, Gold: 284
+[21:44:02] [INFO] [AI] #314 [CONFEDERATE] Placed c_cav_mcneill (cavalry ATK:3 DEF:1 HP:2) -> shenandoah (cost 2)
+[21:44:02] [INFO] [AI] #315 [CONFEDERATE] Placed c_ship_alabama (ship ATK:4 DEF:3 HP:4) -> tennessee_east (cost 4)
+[21:44:02] [INFO] [AI] #316 [CONFEDERATE] Placed c_cav_09va (cavalry ATK:3 DEF:2 HP:3) -> harpers_ferry (cost 2)
+[21:44:02] [INFO] [AI] #317 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #318 [CONFEDERATE] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #319 [CONFEDERATE] Movable units: 30
+[21:44:02] [INFO] [AI] #320 [CONFEDERATE] Move c_inf_05va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #321 [CONFEDERATE] Move c_art_petersburg -> Washington, D.C.
+[21:44:02] [INFO] [AI] #322 [CONFEDERATE] Move c_art_fredericks -> Washington, D.C.
+[21:44:02] [INFO] [AI] #323 [CONFEDERATE] Move c_ship_atlanta -> Washington, D.C.
+[21:44:02] [INFO] [AI] #324 [CONFEDERATE] Move c_art_richmond -> Washington, D.C.
+[21:44:02] [INFO] [AI] #325 [CONFEDERATE] Move c_ship_hunley -> Washington, D.C.
+[21:44:02] [INFO] [AI] #326 [CONFEDERATE] Move c_inf_09va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #327 [CONFEDERATE] Move c_inf_18ga -> Washington, D.C.
+[21:44:02] [INFO] [AI] #328 [CONFEDERATE] Move c_brig_wilcox -> Washington, D.C.
+[21:44:02] [INFO] [AI] #329 [CONFEDERATE] Move c_cav_02va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #330 [CONFEDERATE] Move c_brig_brockenbr -> Washington, D.C.
+[21:44:02] [INFO] [AI] #331 [CONFEDERATE] Move c_brig_brockenbr -> Washington, D.C.
+[21:44:02] [INFO] [AI] #332 [CONFEDERATE] Move c_cav_mcneill -> Western Virginia
+[21:44:02] [INFO] [AI] #333 [CONFEDERATE] Move c_cav_mcneill -> Maryland
+[21:44:02] [INFO] [AI] #334 [CONFEDERATE] Move c_ship_patrick_h -> Maryland
+[21:44:02] [INFO] [AI] #335 [CONFEDERATE] Move c_inf_24va -> Maryland
+[21:44:02] [INFO] [AI] #336 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #337 [CONFEDERATE] Move c_inf_13va -> Maryland
+[21:44:02] [INFO] [AI] #338 [CONFEDERATE] Move c_cav_01va -> Maryland
+[21:44:02] [INFO] [AI] #339 [CONFEDERATE] Move c_cav_01va -> Maryland
+[21:44:02] [INFO] [AI] #340 [CONFEDERATE] Move c_spec_va_irish -> Maryland
+[21:44:02] [INFO] [AI] #341 [CONFEDERATE] Move c_spec_1mo_cav -> Maryland
+[21:44:02] [INFO] [AI] #342 [CONFEDERATE] Move c_inf_13va -> Maryland
+[21:44:02] [INFO] [AI] #343 [CONFEDERATE] Move c_inf_11va -> Maryland
+[21:44:02] [INFO] [AI] #344 [CONFEDERATE] Move c_inf_11va -> Maryland
+[21:44:02] [INFO] [AI] #345 [CONFEDERATE] Move c_inf_17va -> Maryland
+[21:44:02] [INFO] [AI] #346 [CONFEDERATE] Move c_spec_forrest_d -> Maryland
+[21:44:02] [INFO] [AI] #347 [CONFEDERATE] Move c_inf_01va -> Pennsylvania
+[21:44:02] [INFO] [AI] #348 [CONFEDERATE] Move c_cav_09va -> Maryland
+[21:44:02] [INFO] [AI] #349 [CONFEDERATE] Move c_ship_alabama -> Western Virginia
+[21:44:02] [INFO] [AI] #350 [CONFEDERATE] Moved 30 units
+[21:44:02] [INFO] [AI] #351 [CONFEDERATE] COMBAT phase start
+[21:44:02] [INFO] [AI] #352 [CONFEDERATE] Battles fought: 0
+[21:44:02] [INFO] [AI] #353 [CONFEDERATE] EVENTS phase
+[21:44:02] [INFO] [AI] #354 [CONFEDERATE] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #355 [CONFEDERATE] State verify: 60 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [GameManager] Turn 11 started: month.february 1861
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ====== TURN 11 | month.february 1861 ======
+[21:44:02] [INFO] [TEST] --- UNION PLAYER ---
+[21:44:02] [INFO] [AI] #356 [UNION] RESOURCES phase start
+[21:44:02] [INFO] [AI] #357 [UNION] Income from 4 territories. Men:61 Gold:8 Supply:49
+[21:44:02] [INFO] [AI] #358 [UNION] DRAW phase start
+[21:44:02] [INFO] [AI] #359 [UNION] Available cards: 70 types
+[21:44:02] [INFO] [AI] #360 [UNION] Drew 3 cards: u_inf_44ny u_inf_69ny u_inf_88ny
+[21:44:02] [INFO] [AI] #361 [UNION] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #362 [UNION] Hand: 3 cards, Gold: 8
+[21:44:02] [INFO] [AI] #363 [UNION] Placed u_inf_44ny (infantry ATK:3 DEF:4 HP:4) -> washington_dc (cost 3)
+[21:44:02] [INFO] [AI] #364 [UNION] Placed u_inf_69ny (infantry ATK:4 DEF:3 HP:5) -> virginia_west (cost 3)
+[21:44:02] [INFO] [AI] #365 [UNION] Skipped 1 cards (not enough gold)
+[21:44:02] [INFO] [AI] #366 [UNION] Played 2 cards, 1 remaining in hand
+[21:44:02] [INFO] [AI] #367 [UNION] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #368 [UNION] Movable units: 32
+[21:44:02] [INFO] [AI] #369 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #370 [UNION] Move u_spec_lightning -> Harpers Ferry
+[21:44:02] [INFO] [AI] #371 [UNION] Move u_art_02uc -> Harpers Ferry
+[21:44:02] [INFO] [AI] #372 [UNION] Move u_ship_cairo -> Harpers Ferry
+[21:44:02] [INFO] [AI] #373 [UNION] Move u_inf_06wi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #374 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #375 [UNION] Move u_inf_54ma -> Harpers Ferry
+[21:44:02] [INFO] [AI] #376 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #377 [UNION] Move u_cav_01ny_mr -> Harpers Ferry
+[21:44:02] [INFO] [AI] #378 [UNION] Move u_ship_essex -> Harpers Ferry
+[21:44:02] [INFO] [AI] #379 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #380 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #381 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #382 [UNION] Move u_inf_17us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #383 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #384 [UNION] Move u_inf_44ny -> Northern Virginia
+[21:44:02] [INFO] [AI] #385 [UNION] Move u_inf_69ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #386 [UNION] Move u_art_01ct -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #387 [UNION] Move u_art_05us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #388 [UNION] Move u_inf_88ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #389 [UNION] Move u_ship_kearsarge -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #390 [UNION] Move u_inf_01us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #391 [UNION] Move u_spec_ma_ss -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #392 [UNION] Move u_spec_1la_ng -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #393 [UNION] Move u_art_05us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #394 [UNION] Move u_cav_01wv -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #395 [UNION] Move u_inf_44ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #396 [UNION] Move u_inf_54ma -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #397 [UNION] Move u_inf_07wi -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #398 [UNION] Move u_ship_moundcity -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #399 [UNION] Move u_inf_83pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #400 [UNION] Move u_inf_02wi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #401 [UNION] Moved 32 units
+[21:44:02] [INFO] [AI] #402 [UNION] COMBAT phase start
+[21:44:02] [INFO] [AI] #403 [UNION] Battles fought: 0
+[21:44:02] [INFO] [AI] #404 [UNION] EVENTS phase
+[21:44:02] [INFO] [AI] #405 [UNION] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #406 [UNION] State verify: 62 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:44:02] [INFO] [AI] #356 [CONFEDERATE] RESOURCES phase start
+[21:44:02] [INFO] [AI] #357 [CONFEDERATE] Income from 29 territories. Men:213 Gold:311 Supply:345
+[21:44:02] [INFO] [AI] #358 [CONFEDERATE] DRAW phase start
+[21:44:02] [INFO] [AI] #359 [CONFEDERATE] Available cards: 76 types
+[21:44:02] [INFO] [AI] #360 [CONFEDERATE] Drew 3 cards: c_spec_forrest_escort c_ship_atlanta c_art_fredericksburg
+[21:44:02] [INFO] [AI] #361 [CONFEDERATE] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #362 [CONFEDERATE] Hand: 3 cards, Gold: 311
+[21:44:02] [INFO] [AI] #363 [CONFEDERATE] Placed c_spec_forrest_escort (special ATK:4 DEF:2 HP:3) -> virginia_north (cost 3)
+[21:44:02] [INFO] [AI] #364 [CONFEDERATE] Placed c_ship_atlanta (ship ATK:4 DEF:5 HP:5) -> harpers_ferry (cost 5)
+[21:44:02] [INFO] [AI] #365 [CONFEDERATE] Placed c_art_fredericksburg (artillery ATK:4 DEF:2 HP:3) -> richmond (cost 3)
+[21:44:02] [INFO] [AI] #366 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #367 [CONFEDERATE] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #368 [CONFEDERATE] Movable units: 33
+[21:44:02] [INFO] [AI] #369 [CONFEDERATE] Move c_inf_05va -> Maryland
+[21:44:02] [INFO] [AI] #370 [CONFEDERATE] Move c_art_petersburg -> Maryland
+[21:44:02] [INFO] [AI] #371 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #372 [CONFEDERATE] Move c_ship_atlanta -> Maryland
+[21:44:02] [INFO] [AI] #373 [CONFEDERATE] Move c_art_richmond -> Maryland
+[21:44:02] [INFO] [AI] #374 [CONFEDERATE] Move c_ship_hunley -> Maryland
+[21:44:02] [INFO] [AI] #375 [CONFEDERATE] Move c_inf_09va -> Maryland
+[21:44:02] [INFO] [AI] #376 [CONFEDERATE] Move c_inf_18ga -> Maryland
+[21:44:02] [INFO] [AI] #377 [CONFEDERATE] Move c_brig_wilcox -> Maryland
+[21:44:02] [INFO] [AI] #378 [CONFEDERATE] Move c_cav_02va -> Maryland
+[21:44:02] [INFO] [AI] #379 [CONFEDERATE] Move c_brig_brockenbr -> Maryland
+[21:44:02] [INFO] [AI] #380 [CONFEDERATE] Move c_brig_brockenbr -> Maryland
+[21:44:02] [INFO] [AI] #381 [CONFEDERATE] Move c_cav_mcneill -> Pennsylvania
+[21:44:02] [INFO] [AI] #382 [CONFEDERATE] Move c_ship_alabama -> Pennsylvania
+[21:44:02] [INFO] [AI] #383 [CONFEDERATE] Move c_ship_atlanta -> Maryland
+[21:44:02] [INFO] [AI] #384 [CONFEDERATE] Move c_spec_forrest_e -> Washington, D.C.
+[21:44:02] [INFO] [AI] #385 [CONFEDERATE] Move c_cav_mcneill -> Washington, D.C.
+[21:44:02] [INFO] [AI] #386 [CONFEDERATE] Move c_ship_patrick_h -> Washington, D.C.
+[21:44:02] [INFO] [AI] #387 [CONFEDERATE] Move c_inf_24va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #388 [CONFEDERATE] Move c_art_fredericks -> Washington, D.C.
+[21:44:02] [INFO] [AI] #389 [CONFEDERATE] Move c_inf_13va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #390 [CONFEDERATE] Move c_cav_01va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #391 [CONFEDERATE] Move c_cav_01va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #392 [CONFEDERATE] Move c_spec_va_irish -> Washington, D.C.
+[21:44:02] [INFO] [AI] #393 [CONFEDERATE] Move c_spec_1mo_cav -> Washington, D.C.
+[21:44:02] [INFO] [AI] #394 [CONFEDERATE] Move c_inf_13va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #395 [CONFEDERATE] Move c_inf_11va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #396 [CONFEDERATE] Move c_inf_11va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #397 [CONFEDERATE] Move c_inf_17va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #398 [CONFEDERATE] Move c_spec_forrest_d -> Washington, D.C.
+[21:44:02] [INFO] [AI] #399 [CONFEDERATE] Move c_cav_09va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #400 [CONFEDERATE] Move c_inf_01va -> Maryland
+[21:44:02] [INFO] [AI] #401 [CONFEDERATE] Move c_art_fredericks -> Western Virginia
+[21:44:02] [INFO] [AI] #402 [CONFEDERATE] Moved 33 units
+[21:44:02] [INFO] [AI] #403 [CONFEDERATE] COMBAT phase start
+[21:44:02] [INFO] [AI] #404 [CONFEDERATE] Battles fought: 0
+[21:44:02] [INFO] [AI] #405 [CONFEDERATE] EVENTS phase
+[21:44:02] [INFO] [AI] #406 [CONFEDERATE] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #407 [CONFEDERATE] State verify: 65 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [GameManager] Turn 12 started: month.march 1861
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ====== TURN 12 | month.march 1861 ======
+[21:44:02] [INFO] [TEST] --- UNION PLAYER ---
+[21:44:02] [INFO] [AI] #407 [UNION] RESOURCES phase start
+[21:44:02] [INFO] [AI] #408 [UNION] Income from 4 territories. Men:66 Gold:10 Supply:53
+[21:44:02] [INFO] [AI] #409 [UNION] DRAW phase start
+[21:44:02] [INFO] [AI] #410 [UNION] Available cards: 70 types
+[21:44:02] [INFO] [AI] #411 [UNION] Drew 3 cards: u_inf_14ny u_inf_63ny u_art_05us
+[21:44:02] [INFO] [AI] #412 [UNION] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #413 [UNION] Hand: 4 cards, Gold: 10
+[21:44:02] [INFO] [AI] #414 [UNION] Placed u_inf_88ny (infantry ATK:3 DEF:3 HP:4) -> washington_dc (cost 3)
+[21:44:02] [INFO] [AI] #415 [UNION] Placed u_inf_14ny (infantry ATK:3 DEF:3 HP:4) -> maryland (cost 2)
+[21:44:02] [INFO] [AI] #416 [UNION] Placed u_inf_63ny (infantry ATK:3 DEF:3 HP:4) -> washington_dc (cost 3)
+[21:44:02] [INFO] [AI] #417 [UNION] Skipped 1 cards (not enough gold)
+[21:44:02] [INFO] [AI] #418 [UNION] Played 3 cards, 1 remaining in hand
+[21:44:02] [INFO] [AI] #419 [UNION] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #420 [UNION] Movable units: 35
+[21:44:02] [INFO] [AI] #421 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #422 [UNION] Move u_spec_lightning -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #423 [UNION] Move u_art_02uc -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #424 [UNION] Move u_ship_cairo -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #425 [UNION] Move u_inf_06wi -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #426 [UNION] Move u_cav_01wv -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #427 [UNION] Move u_inf_54ma -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #428 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #429 [UNION] Move u_cav_01ny_mr -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #430 [UNION] Move u_ship_essex -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #431 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #432 [UNION] Move u_cav_01wv -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #433 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #434 [UNION] Move u_inf_17us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #435 [UNION] Move u_art_05us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #436 [UNION] Move u_inf_69ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #437 [UNION] Move u_inf_02wi -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #438 [UNION] Move u_inf_44ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #439 [UNION] Move u_inf_14ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #440 [UNION] Move u_art_01ct -> Harpers Ferry
+[21:44:02] [INFO] [AI] #441 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #442 [UNION] Move u_inf_88ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #443 [UNION] Move u_ship_kearsarge -> Harpers Ferry
+[21:44:02] [INFO] [AI] #444 [UNION] Move u_inf_01us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #445 [UNION] Move u_spec_ma_ss -> Harpers Ferry
+[21:44:02] [INFO] [AI] #446 [UNION] Move u_spec_1la_ng -> Harpers Ferry
+[21:44:02] [INFO] [AI] #447 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #448 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #449 [UNION] Move u_inf_44ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #450 [UNION] Move u_inf_54ma -> Harpers Ferry
+[21:44:02] [INFO] [AI] #451 [UNION] Move u_inf_07wi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #452 [UNION] Move u_ship_moundcity -> Harpers Ferry
+[21:44:02] [INFO] [AI] #453 [UNION] Move u_inf_83pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #454 [UNION] Move u_inf_88ny -> Northern Virginia
+[21:44:02] [INFO] [AI] #455 [UNION] Move u_inf_63ny -> Northern Virginia
+[21:44:02] [INFO] [AI] #456 [UNION] Moved 35 units
+[21:44:02] [INFO] [AI] #457 [UNION] COMBAT phase start
+[21:44:02] [INFO] [AI] #458 [UNION] Battles fought: 0
+[21:44:02] [INFO] [AI] #459 [UNION] EVENTS phase
+[21:44:02] [INFO] [AI] #460 [UNION] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #461 [UNION] State verify: 68 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:44:02] [INFO] [AI] #408 [CONFEDERATE] RESOURCES phase start
+[21:44:02] [INFO] [AI] #409 [CONFEDERATE] Income from 29 territories. Men:232 Gold:335 Supply:376
+[21:44:02] [INFO] [AI] #410 [CONFEDERATE] DRAW phase start
+[21:44:02] [INFO] [AI] #411 [CONFEDERATE] Available cards: 76 types
+[21:44:02] [INFO] [AI] #412 [CONFEDERATE] Drew 3 cards: c_art_stuart_horse c_ship_patrick_henry c_ship_arkansas
+[21:44:02] [INFO] [AI] #413 [CONFEDERATE] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #414 [CONFEDERATE] Hand: 3 cards, Gold: 335
+[21:44:02] [INFO] [AI] #415 [CONFEDERATE] Placed c_art_stuart_horse (artillery ATK:5 DEF:2 HP:3) -> virginia_north (cost 4)
+[21:44:02] [INFO] [AI] #416 [CONFEDERATE] Placed c_ship_patrick_henry (ship ATK:3 DEF:3 HP:4) -> tennessee_east (cost 2)
+[21:44:02] [INFO] [AI] #417 [CONFEDERATE] Placed c_ship_arkansas (ship ATK:5 DEF:6 HP:5) -> virginia_north (cost 5)
+[21:44:02] [INFO] [AI] #418 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #419 [CONFEDERATE] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #420 [CONFEDERATE] Movable units: 36
+[21:44:02] [INFO] [AI] #421 [CONFEDERATE] Move c_inf_05va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #422 [CONFEDERATE] Move c_art_petersburg -> Washington, D.C.
+[21:44:02] [INFO] [AI] #423 [CONFEDERATE] Move c_art_fredericks -> Washington, D.C.
+[21:44:02] [INFO] [AI] #424 [CONFEDERATE] Move c_ship_atlanta -> Washington, D.C.
+[21:44:02] [INFO] [AI] #425 [CONFEDERATE] Move c_art_richmond -> Washington, D.C.
+[21:44:02] [INFO] [AI] #426 [CONFEDERATE] Move c_ship_hunley -> Washington, D.C.
+[21:44:02] [INFO] [AI] #427 [CONFEDERATE] Move c_inf_09va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #428 [CONFEDERATE] Move c_inf_18ga -> Washington, D.C.
+[21:44:02] [INFO] [AI] #429 [CONFEDERATE] Move c_brig_wilcox -> Washington, D.C.
+[21:44:02] [INFO] [AI] #430 [CONFEDERATE] Move c_cav_02va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #431 [CONFEDERATE] Move c_brig_brockenbr -> Washington, D.C.
+[21:44:02] [INFO] [AI] #432 [CONFEDERATE] Move c_brig_brockenbr -> Washington, D.C.
+[21:44:02] [INFO] [AI] #433 [CONFEDERATE] Move c_ship_atlanta -> Washington, D.C.
+[21:44:02] [INFO] [AI] #434 [CONFEDERATE] Move c_inf_01va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #435 [CONFEDERATE] Move c_cav_mcneill -> Maryland
+[21:44:02] [INFO] [AI] #436 [CONFEDERATE] Move c_ship_alabama -> Maryland
+[21:44:02] [INFO] [AI] #437 [CONFEDERATE] Move c_spec_forrest_e -> Maryland
+[21:44:02] [INFO] [AI] #438 [CONFEDERATE] Move c_cav_mcneill -> Maryland
+[21:44:02] [INFO] [AI] #439 [CONFEDERATE] Move c_ship_patrick_h -> Maryland
+[21:44:02] [INFO] [AI] #440 [CONFEDERATE] Move c_inf_24va -> Maryland
+[21:44:02] [INFO] [AI] #441 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #442 [CONFEDERATE] Move c_inf_13va -> Maryland
+[21:44:02] [INFO] [AI] #443 [CONFEDERATE] Move c_cav_01va -> Maryland
+[21:44:02] [INFO] [AI] #444 [CONFEDERATE] Move c_cav_01va -> Maryland
+[21:44:02] [INFO] [AI] #445 [CONFEDERATE] Move c_spec_va_irish -> Maryland
+[21:44:02] [INFO] [AI] #446 [CONFEDERATE] Move c_spec_1mo_cav -> Maryland
+[21:44:02] [INFO] [AI] #447 [CONFEDERATE] Move c_inf_13va -> Maryland
+[21:44:02] [INFO] [AI] #448 [CONFEDERATE] Move c_inf_11va -> Maryland
+[21:44:02] [INFO] [AI] #449 [CONFEDERATE] Move c_inf_11va -> Maryland
+[21:44:02] [INFO] [AI] #450 [CONFEDERATE] Move c_inf_17va -> Maryland
+[21:44:02] [INFO] [AI] #451 [CONFEDERATE] Move c_spec_forrest_d -> Maryland
+[21:44:02] [INFO] [AI] #452 [CONFEDERATE] Move c_cav_09va -> Maryland
+[21:44:02] [INFO] [AI] #453 [CONFEDERATE] Move c_art_fredericks -> Pennsylvania
+[21:44:02] [INFO] [AI] #454 [CONFEDERATE] Move c_art_stuart_hor -> Washington, D.C.
+[21:44:02] [INFO] [AI] #455 [CONFEDERATE] Move c_ship_arkansas -> Washington, D.C.
+[21:44:02] [INFO] [AI] #456 [CONFEDERATE] Move c_ship_patrick_h -> Western Virginia
+[21:44:02] [INFO] [AI] #457 [CONFEDERATE] Moved 36 units
+[21:44:02] [INFO] [AI] #458 [CONFEDERATE] COMBAT phase start
+[21:44:02] [INFO] [AI] #459 [CONFEDERATE] Battles fought: 0
+[21:44:02] [INFO] [AI] #460 [CONFEDERATE] EVENTS phase
+[21:44:02] [INFO] [AI] #461 [CONFEDERATE] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #462 [CONFEDERATE] State verify: 71 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [GameManager] Turn 13 started: month.april 1862
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ====== TURN 13 | month.april 1862 ======
+[21:44:02] [INFO] [TEST] --- UNION PLAYER ---
+[21:44:02] [INFO] [AI] #462 [UNION] RESOURCES phase start
+[21:44:02] [INFO] [AI] #463 [UNION] Income from 4 territories. Men:71 Gold:10 Supply:57
+[21:44:02] [INFO] [AI] #464 [UNION] DRAW phase start
+[21:44:02] [INFO] [AI] #465 [UNION] Available cards: 70 types
+[21:44:02] [INFO] [AI] #466 [UNION] Drew 3 cards: u_inf_17us u_cav_05mi u_inf_55ma
+[21:44:02] [INFO] [AI] #467 [UNION] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #468 [UNION] Hand: 4 cards, Gold: 10
+[21:44:02] [INFO] [AI] #469 [UNION] Placed u_art_05us (artillery ATK:4 DEF:2 HP:3) -> maryland (cost 3)
+[21:44:02] [INFO] [AI] #470 [UNION] Placed u_inf_17us (infantry ATK:3 DEF:3 HP:4) -> maryland (cost 2)
+[21:44:02] [INFO] [AI] #471 [UNION] Placed u_cav_05mi (cavalry ATK:4 DEF:2 HP:4) -> maryland (cost 3)
+[21:44:02] [INFO] [AI] #472 [UNION] Placed u_inf_55ma (infantry ATK:3 DEF:3 HP:4) -> washington_dc (cost 2)
+[21:44:02] [INFO] [AI] #473 [UNION] Played 4 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #474 [UNION] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #475 [UNION] Movable units: 39
+[21:44:02] [INFO] [AI] #476 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #477 [UNION] Move u_spec_lightning -> Harpers Ferry
+[21:44:02] [INFO] [AI] #478 [UNION] Move u_art_02uc -> Harpers Ferry
+[21:44:02] [INFO] [AI] #479 [UNION] Move u_ship_cairo -> Harpers Ferry
+[21:44:02] [INFO] [AI] #480 [UNION] Move u_inf_06wi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #481 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #482 [UNION] Move u_inf_54ma -> Harpers Ferry
+[21:44:02] [INFO] [AI] #483 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #484 [UNION] Move u_cav_01ny_mr -> Harpers Ferry
+[21:44:02] [INFO] [AI] #485 [UNION] Move u_ship_essex -> Harpers Ferry
+[21:44:02] [INFO] [AI] #486 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #487 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #488 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #489 [UNION] Move u_inf_17us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #490 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #491 [UNION] Move u_inf_69ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #492 [UNION] Move u_inf_02wi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #493 [UNION] Move u_inf_55ma -> Northern Virginia
+[21:44:02] [INFO] [AI] #494 [UNION] Move u_inf_44ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #495 [UNION] Move u_inf_14ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #496 [UNION] Move u_art_01ct -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #497 [UNION] Move u_art_05us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #498 [UNION] Move u_inf_88ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #499 [UNION] Move u_ship_kearsarge -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #500 [UNION] Move u_inf_01us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #501 [UNION] Move u_spec_ma_ss -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #502 [UNION] Move u_spec_1la_ng -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #503 [UNION] Move u_art_05us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #504 [UNION] Move u_cav_01wv -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #505 [UNION] Move u_inf_44ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #506 [UNION] Move u_inf_54ma -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #507 [UNION] Move u_inf_07wi -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #508 [UNION] Move u_ship_moundcity -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #509 [UNION] Move u_inf_83pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #510 [UNION] Move u_inf_88ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #511 [UNION] Move u_inf_63ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #512 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #513 [UNION] Move u_inf_17us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #514 [UNION] Move u_cav_05mi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #515 [UNION] Moved 39 units
+[21:44:02] [INFO] [AI] #516 [UNION] COMBAT phase start
+[21:44:02] [INFO] [AI] #517 [UNION] Battles fought: 0
+[21:44:02] [INFO] [AI] #518 [UNION] EVENTS phase
+[21:44:02] [INFO] [AI] #519 [UNION] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #520 [UNION] State verify: 75 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:44:02] [INFO] [AI] #463 [CONFEDERATE] RESOURCES phase start
+[21:44:02] [INFO] [AI] #464 [CONFEDERATE] Income from 29 territories. Men:251 Gold:359 Supply:407
+[21:44:02] [INFO] [AI] #465 [CONFEDERATE] DRAW phase start
+[21:44:02] [INFO] [AI] #466 [CONFEDERATE] Available cards: 76 types
+[21:44:02] [INFO] [AI] #467 [CONFEDERATE] Drew 3 cards: c_ship_sumter c_cav_43va c_inf_07va
+[21:44:02] [INFO] [AI] #468 [CONFEDERATE] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #469 [CONFEDERATE] Hand: 3 cards, Gold: 359
+[21:44:02] [INFO] [AI] #470 [CONFEDERATE] Placed c_ship_sumter (ship ATK:3 DEF:2 HP:3) -> richmond (cost 2)
+[21:44:02] [INFO] [AI] #471 [CONFEDERATE] Placed c_cav_43va (cavalry ATK:4 DEF:1 HP:2) -> harpers_ferry (cost 4)
+[21:44:02] [INFO] [AI] #472 [CONFEDERATE] Placed c_inf_07va (infantry ATK:3 DEF:3 HP:4) -> shenandoah (cost 2)
+[21:44:02] [INFO] [AI] #473 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #474 [CONFEDERATE] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #475 [CONFEDERATE] Movable units: 39
+[21:44:02] [INFO] [AI] #476 [CONFEDERATE] Move c_inf_05va -> Maryland
+[21:44:02] [INFO] [AI] #477 [CONFEDERATE] Move c_art_petersburg -> Maryland
+[21:44:02] [INFO] [AI] #478 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #479 [CONFEDERATE] Move c_ship_atlanta -> Maryland
+[21:44:02] [INFO] [AI] #480 [CONFEDERATE] Move c_art_richmond -> Maryland
+[21:44:02] [INFO] [AI] #481 [CONFEDERATE] Move c_ship_hunley -> Maryland
+[21:44:02] [INFO] [AI] #482 [CONFEDERATE] Move c_inf_09va -> Maryland
+[21:44:02] [INFO] [AI] #483 [CONFEDERATE] Move c_inf_18ga -> Maryland
+[21:44:02] [INFO] [AI] #484 [CONFEDERATE] Move c_brig_wilcox -> Maryland
+[21:44:02] [INFO] [AI] #485 [CONFEDERATE] Move c_cav_02va -> Maryland
+[21:44:02] [INFO] [AI] #486 [CONFEDERATE] Move c_brig_brockenbr -> Maryland
+[21:44:02] [INFO] [AI] #487 [CONFEDERATE] Move c_brig_brockenbr -> Maryland
+[21:44:02] [INFO] [AI] #488 [CONFEDERATE] Move c_ship_atlanta -> Maryland
+[21:44:02] [INFO] [AI] #489 [CONFEDERATE] Move c_inf_01va -> Maryland
+[21:44:02] [INFO] [AI] #490 [CONFEDERATE] Move c_art_stuart_hor -> Maryland
+[21:44:02] [INFO] [AI] #491 [CONFEDERATE] Move c_ship_arkansas -> Maryland
+[21:44:02] [INFO] [AI] #492 [CONFEDERATE] Move c_cav_43va -> Maryland
+[21:44:02] [INFO] [AI] #493 [CONFEDERATE] Move c_cav_mcneill -> Washington, D.C.
+[21:44:02] [INFO] [AI] #494 [CONFEDERATE] Move c_ship_alabama -> Washington, D.C.
+[21:44:02] [INFO] [AI] #495 [CONFEDERATE] Move c_spec_forrest_e -> Washington, D.C.
+[21:44:02] [INFO] [AI] #496 [CONFEDERATE] Move c_cav_mcneill -> Washington, D.C.
+[21:44:02] [INFO] [AI] #497 [CONFEDERATE] Move c_ship_patrick_h -> Washington, D.C.
+[21:44:02] [INFO] [AI] #498 [CONFEDERATE] Move c_inf_24va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #499 [CONFEDERATE] Move c_art_fredericks -> Washington, D.C.
+[21:44:02] [INFO] [AI] #500 [CONFEDERATE] Move c_inf_13va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #501 [CONFEDERATE] Move c_cav_01va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #502 [CONFEDERATE] Move c_cav_01va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #503 [CONFEDERATE] Move c_spec_va_irish -> Washington, D.C.
+[21:44:02] [INFO] [AI] #504 [CONFEDERATE] Move c_spec_1mo_cav -> Washington, D.C.
+[21:44:02] [INFO] [AI] #505 [CONFEDERATE] Move c_inf_13va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #506 [CONFEDERATE] Move c_inf_11va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #507 [CONFEDERATE] Move c_inf_11va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #508 [CONFEDERATE] Move c_inf_17va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #509 [CONFEDERATE] Move c_spec_forrest_d -> Washington, D.C.
+[21:44:02] [INFO] [AI] #510 [CONFEDERATE] Move c_cav_09va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #511 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #512 [CONFEDERATE] Move c_ship_patrick_h -> Pennsylvania
+[21:44:02] [INFO] [AI] #513 [CONFEDERATE] Move c_inf_07va -> Western Virginia
+[21:44:02] [INFO] [AI] #514 [CONFEDERATE] Move c_ship_sumter -> Western Virginia
+[21:44:02] [INFO] [AI] #515 [CONFEDERATE] Moved 39 units
+[21:44:02] [INFO] [AI] #516 [CONFEDERATE] COMBAT phase start
+[21:44:02] [INFO] [AI] #517 [CONFEDERATE] Battles fought: 0
+[21:44:02] [INFO] [AI] #518 [CONFEDERATE] EVENTS phase
+[21:44:02] [INFO] [AI] #519 [CONFEDERATE] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #520 [CONFEDERATE] State verify: 78 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [GameManager] Turn 14 started: month.may 1862
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ====== TURN 14 | month.may 1862 ======
+[21:44:02] [INFO] [TEST] --- UNION PLAYER ---
+[21:44:02] [INFO] [AI] #521 [UNION] RESOURCES phase start
+[21:44:02] [INFO] [AI] #522 [UNION] Income from 4 territories. Men:76 Gold:8 Supply:61
+[21:44:02] [INFO] [AI] #523 [UNION] DRAW phase start
+[21:44:02] [INFO] [AI] #524 [UNION] Available cards: 70 types
+[21:44:02] [INFO] [AI] #525 [UNION] Drew 3 cards: u_cav_06mi u_inf_88ny u_ship_cairo
+[21:44:02] [INFO] [AI] #526 [UNION] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #527 [UNION] Hand: 3 cards, Gold: 8
+[21:44:02] [INFO] [AI] #528 [UNION] Placed u_cav_06mi (cavalry ATK:3 DEF:2 HP:4) -> maryland (cost 2)
+[21:44:02] [INFO] [AI] #529 [UNION] Placed u_inf_88ny (infantry ATK:3 DEF:3 HP:4) -> virginia_west (cost 3)
+[21:44:02] [INFO] [AI] #530 [UNION] Skipped 1 cards (not enough gold)
+[21:44:02] [INFO] [AI] #531 [UNION] Played 2 cards, 1 remaining in hand
+[21:44:02] [INFO] [AI] #532 [UNION] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #533 [UNION] Movable units: 41
+[21:44:02] [INFO] [AI] #534 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #535 [UNION] Move u_spec_lightning -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #536 [UNION] Move u_art_02uc -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #537 [UNION] Move u_ship_cairo -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #538 [UNION] Move u_inf_06wi -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #539 [UNION] Move u_cav_01wv -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #540 [UNION] Move u_inf_54ma -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #541 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #542 [UNION] Move u_cav_01ny_mr -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #543 [UNION] Move u_ship_essex -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #544 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #545 [UNION] Move u_cav_01wv -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #546 [UNION] Move u_inf_116pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #547 [UNION] Move u_inf_17us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #548 [UNION] Move u_art_05us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #549 [UNION] Move u_inf_69ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #550 [UNION] Move u_inf_02wi -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #551 [UNION] Move u_inf_88ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #552 [UNION] Move u_inf_63ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #553 [UNION] Move u_art_05us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #554 [UNION] Move u_inf_17us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #555 [UNION] Move u_cav_05mi -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #556 [UNION] Move u_inf_55ma -> Harpers Ferry
+[21:44:02] [INFO] [AI] #557 [UNION] Move u_cav_06mi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #558 [UNION] Move u_inf_44ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #559 [UNION] Move u_inf_14ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #560 [UNION] Move u_art_01ct -> Harpers Ferry
+[21:44:02] [INFO] [AI] #561 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #562 [UNION] Move u_inf_88ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #563 [UNION] Move u_ship_kearsarge -> Harpers Ferry
+[21:44:02] [INFO] [AI] #564 [UNION] Move u_inf_01us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #565 [UNION] Move u_spec_ma_ss -> Harpers Ferry
+[21:44:02] [INFO] [AI] #566 [UNION] Move u_spec_1la_ng -> Harpers Ferry
+[21:44:02] [INFO] [AI] #567 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #568 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #569 [UNION] Move u_inf_44ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #570 [UNION] Move u_inf_54ma -> Harpers Ferry
+[21:44:02] [INFO] [AI] #571 [UNION] Move u_inf_07wi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #572 [UNION] Move u_ship_moundcity -> Harpers Ferry
+[21:44:02] [INFO] [AI] #573 [UNION] Move u_inf_83pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #574 [UNION] Move u_inf_88ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #575 [UNION] Moved 41 units
+[21:44:02] [INFO] [AI] #576 [UNION] COMBAT phase start
+[21:44:02] [INFO] [AI] #577 [UNION] Battles fought: 0
+[21:44:02] [INFO] [AI] #578 [UNION] EVENTS phase
+[21:44:02] [INFO] [AI] #579 [UNION] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #580 [UNION] State verify: 80 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:44:02] [INFO] [AI] #521 [CONFEDERATE] RESOURCES phase start
+[21:44:02] [INFO] [AI] #522 [CONFEDERATE] Income from 29 territories. Men:270 Gold:386 Supply:438
+[21:44:02] [INFO] [AI] #523 [CONFEDERATE] DRAW phase start
+[21:44:02] [INFO] [AI] #524 [CONFEDERATE] Available cards: 76 types
+[21:44:02] [INFO] [AI] #525 [CONFEDERATE] Drew 3 cards: c_spec_forrest_div c_cav_02va c_ship_teaser
+[21:44:02] [INFO] [AI] #526 [CONFEDERATE] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #527 [CONFEDERATE] Hand: 3 cards, Gold: 386
+[21:44:02] [INFO] [AI] #528 [CONFEDERATE] Placed c_spec_forrest_div (special ATK:4 DEF:3 HP:4) -> virginia_north (cost 4)
+[21:44:02] [INFO] [AI] #529 [CONFEDERATE] Placed c_cav_02va (cavalry ATK:3 DEF:2 HP:4) -> tennessee_east (cost 3)
+[21:44:02] [INFO] [AI] #530 [CONFEDERATE] Placed c_ship_teaser (ship ATK:2 DEF:2 HP:3) -> tennessee_east (cost 1)
+[21:44:02] [INFO] [AI] #531 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #532 [CONFEDERATE] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #533 [CONFEDERATE] Movable units: 42
+[21:44:02] [INFO] [AI] #534 [CONFEDERATE] Move c_inf_05va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #535 [CONFEDERATE] Move c_art_petersburg -> Washington, D.C.
+[21:44:02] [INFO] [AI] #536 [CONFEDERATE] Move c_art_fredericks -> Washington, D.C.
+[21:44:02] [INFO] [AI] #537 [CONFEDERATE] Move c_ship_atlanta -> Washington, D.C.
+[21:44:02] [INFO] [AI] #538 [CONFEDERATE] Move c_art_richmond -> Washington, D.C.
+[21:44:02] [INFO] [AI] #539 [CONFEDERATE] Move c_ship_hunley -> Washington, D.C.
+[21:44:02] [INFO] [AI] #540 [CONFEDERATE] Move c_inf_09va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #541 [CONFEDERATE] Move c_inf_18ga -> Washington, D.C.
+[21:44:02] [INFO] [AI] #542 [CONFEDERATE] Move c_brig_wilcox -> Washington, D.C.
+[21:44:02] [INFO] [AI] #543 [CONFEDERATE] Move c_cav_02va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #544 [CONFEDERATE] Move c_brig_brockenbr -> Washington, D.C.
+[21:44:02] [INFO] [AI] #545 [CONFEDERATE] Move c_brig_brockenbr -> Washington, D.C.
+[21:44:02] [INFO] [AI] #546 [CONFEDERATE] Move c_ship_atlanta -> Washington, D.C.
+[21:44:02] [INFO] [AI] #547 [CONFEDERATE] Move c_inf_01va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #548 [CONFEDERATE] Move c_art_stuart_hor -> Washington, D.C.
+[21:44:02] [INFO] [AI] #549 [CONFEDERATE] Move c_ship_arkansas -> Washington, D.C.
+[21:44:02] [INFO] [AI] #550 [CONFEDERATE] Move c_cav_43va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #551 [CONFEDERATE] Move c_art_fredericks -> Washington, D.C.
+[21:44:02] [INFO] [AI] #552 [CONFEDERATE] Move c_cav_mcneill -> Maryland
+[21:44:02] [INFO] [AI] #553 [CONFEDERATE] Move c_ship_alabama -> Maryland
+[21:44:02] [INFO] [AI] #554 [CONFEDERATE] Move c_spec_forrest_e -> Maryland
+[21:44:02] [INFO] [AI] #555 [CONFEDERATE] Move c_cav_mcneill -> Maryland
+[21:44:02] [INFO] [AI] #556 [CONFEDERATE] Move c_ship_patrick_h -> Maryland
+[21:44:02] [INFO] [AI] #557 [CONFEDERATE] Move c_inf_24va -> Maryland
+[21:44:02] [INFO] [AI] #558 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #559 [CONFEDERATE] Move c_inf_13va -> Maryland
+[21:44:02] [INFO] [AI] #560 [CONFEDERATE] Move c_cav_01va -> Maryland
+[21:44:02] [INFO] [AI] #561 [CONFEDERATE] Move c_cav_01va -> Maryland
+[21:44:02] [INFO] [AI] #562 [CONFEDERATE] Move c_spec_va_irish -> Maryland
+[21:44:02] [INFO] [AI] #563 [CONFEDERATE] Move c_spec_1mo_cav -> Maryland
+[21:44:02] [INFO] [AI] #564 [CONFEDERATE] Move c_inf_13va -> Maryland
+[21:44:02] [INFO] [AI] #565 [CONFEDERATE] Move c_inf_11va -> Maryland
+[21:44:02] [INFO] [AI] #566 [CONFEDERATE] Move c_inf_11va -> Maryland
+[21:44:02] [INFO] [AI] #567 [CONFEDERATE] Move c_inf_17va -> Maryland
+[21:44:02] [INFO] [AI] #568 [CONFEDERATE] Move c_spec_forrest_d -> Maryland
+[21:44:02] [INFO] [AI] #569 [CONFEDERATE] Move c_cav_09va -> Maryland
+[21:44:02] [INFO] [AI] #570 [CONFEDERATE] Move c_ship_patrick_h -> Maryland
+[21:44:02] [INFO] [AI] #571 [CONFEDERATE] Move c_inf_07va -> Pennsylvania
+[21:44:02] [INFO] [AI] #572 [CONFEDERATE] Move c_ship_sumter -> Pennsylvania
+[21:44:02] [INFO] [AI] #573 [CONFEDERATE] Move c_spec_forrest_d -> Washington, D.C.
+[21:44:02] [INFO] [AI] #574 [CONFEDERATE] Move c_cav_02va -> Western Virginia
+[21:44:02] [INFO] [AI] #575 [CONFEDERATE] Move c_ship_teaser -> Western Virginia
+[21:44:02] [INFO] [AI] #576 [CONFEDERATE] Moved 42 units
+[21:44:02] [INFO] [AI] #577 [CONFEDERATE] COMBAT phase start
+[21:44:02] [INFO] [AI] #578 [CONFEDERATE] Battles fought: 0
+[21:44:02] [INFO] [AI] #579 [CONFEDERATE] EVENTS phase
+[21:44:02] [INFO] [AI] #580 [CONFEDERATE] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #581 [CONFEDERATE] State verify: 83 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [GameManager] Turn 15 started: month.june 1862
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ====== TURN 15 | month.june 1862 ======
+[21:44:02] [INFO] [TEST] --- UNION PLAYER ---
+[21:44:02] [INFO] [AI] #581 [UNION] RESOURCES phase start
+[21:44:02] [INFO] [AI] #582 [UNION] Income from 4 territories. Men:81 Gold:11 Supply:65
+[21:44:02] [INFO] [AI] #583 [UNION] DRAW phase start
+[21:44:02] [INFO] [AI] #584 [UNION] Available cards: 70 types
+[21:44:02] [INFO] [AI] #585 [UNION] Drew 3 cards: u_art_01mn u_cav_05ny u_inf_16mi
+[21:44:02] [INFO] [AI] #586 [UNION] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #587 [UNION] Hand: 4 cards, Gold: 11
+[21:44:02] [INFO] [AI] #588 [UNION] Placed u_ship_cairo (ship ATK:4 DEF:5 HP:5) -> maryland (cost 4)
+[21:44:02] [INFO] [AI] #589 [UNION] Placed u_art_01mn (artillery ATK:4 DEF:2 HP:3) -> washington_dc (cost 3)
+[21:44:02] [INFO] [AI] #590 [UNION] Placed u_cav_05ny (cavalry ATK:3 DEF:2 HP:3) -> maryland (cost 2)
+[21:44:02] [INFO] [AI] #591 [UNION] Placed u_inf_16mi (infantry ATK:3 DEF:3 HP:4) -> virginia_west (cost 2)
+[21:44:02] [INFO] [AI] #592 [UNION] Played 4 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #593 [UNION] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #594 [UNION] Movable units: 45
+[21:44:02] [INFO] [AI] #595 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #596 [UNION] Move u_spec_lightning -> Harpers Ferry
+[21:44:02] [INFO] [AI] #597 [UNION] Move u_art_02uc -> Harpers Ferry
+[21:44:02] [INFO] [AI] #598 [UNION] Move u_ship_cairo -> Harpers Ferry
+[21:44:02] [INFO] [AI] #599 [UNION] Move u_inf_06wi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #600 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #601 [UNION] Move u_inf_54ma -> Harpers Ferry
+[21:44:02] [INFO] [AI] #602 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #603 [UNION] Move u_cav_01ny_mr -> Harpers Ferry
+[21:44:02] [INFO] [AI] #604 [UNION] Move u_ship_essex -> Harpers Ferry
+[21:44:02] [INFO] [AI] #605 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #606 [UNION] Move u_cav_01wv -> Harpers Ferry
+[21:44:02] [INFO] [AI] #607 [UNION] Move u_inf_116pa -> Harpers Ferry
+[21:44:02] [INFO] [AI] #608 [UNION] Move u_inf_17us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #609 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #610 [UNION] Move u_inf_69ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #611 [UNION] Move u_inf_02wi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #612 [UNION] Move u_inf_88ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #613 [UNION] Move u_inf_63ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #614 [UNION] Move u_art_05us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #615 [UNION] Move u_inf_17us -> Harpers Ferry
+[21:44:02] [INFO] [AI] #616 [UNION] Move u_cav_05mi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #617 [UNION] Move u_art_01mn -> Northern Virginia
+[21:44:02] [INFO] [AI] #618 [UNION] Move u_inf_55ma -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #619 [UNION] Move u_cav_06mi -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #620 [UNION] Move u_inf_44ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #621 [UNION] Move u_inf_14ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #622 [UNION] Move u_art_01ct -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #623 [UNION] Move u_art_05us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #624 [UNION] Move u_inf_88ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #625 [UNION] Move u_ship_kearsarge -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #626 [UNION] Move u_inf_01us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #627 [UNION] Move u_spec_ma_ss -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #628 [UNION] Move u_spec_1la_ng -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #629 [UNION] Move u_art_05us -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #630 [UNION] Move u_cav_01wv -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #631 [UNION] Move u_inf_44ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #632 [UNION] Move u_inf_54ma -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #633 [UNION] Move u_inf_07wi -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #634 [UNION] Move u_ship_moundcity -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #635 [UNION] Move u_inf_83pa -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #636 [UNION] Move u_inf_88ny -> Shenandoah Valley
+[21:44:02] [INFO] [AI] #637 [UNION] Move u_ship_cairo -> Harpers Ferry
+[21:44:02] [INFO] [AI] #638 [UNION] Move u_cav_05ny -> Harpers Ferry
+[21:44:02] [INFO] [AI] #639 [UNION] Move u_inf_16mi -> Harpers Ferry
+[21:44:02] [INFO] [AI] #640 [UNION] Moved 45 units
+[21:44:02] [INFO] [AI] #641 [UNION] COMBAT phase start
+[21:44:02] [INFO] [AI] #642 [UNION] Battles fought: 0
+[21:44:02] [INFO] [AI] #643 [UNION] EVENTS phase
+[21:44:02] [INFO] [AI] #644 [UNION] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #645 [UNION] State verify: 87 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [TEST] --- CONFEDERATE PLAYER ---
+[21:44:02] [INFO] [AI] #582 [CONFEDERATE] RESOURCES phase start
+[21:44:02] [INFO] [AI] #583 [CONFEDERATE] Income from 29 territories. Men:289 Gold:413 Supply:469
+[21:44:02] [INFO] [AI] #584 [CONFEDERATE] DRAW phase start
+[21:44:02] [INFO] [AI] #585 [CONFEDERATE] Available cards: 76 types
+[21:44:02] [INFO] [AI] #586 [CONFEDERATE] Drew 3 cards: c_ship_arkansas c_inf_08va c_ship_jamestown
+[21:44:02] [INFO] [AI] #587 [CONFEDERATE] PLAY CARDS phase start
+[21:44:02] [INFO] [AI] #588 [CONFEDERATE] Hand: 3 cards, Gold: 413
+[21:44:02] [INFO] [AI] #589 [CONFEDERATE] Placed c_ship_arkansas (ship ATK:5 DEF:6 HP:5) -> richmond (cost 5)
+[21:44:02] [INFO] [AI] #590 [CONFEDERATE] Placed c_inf_08va (infantry ATK:4 DEF:3 HP:4) -> harpers_ferry (cost 3)
+[21:44:02] [INFO] [AI] #591 [CONFEDERATE] Placed c_ship_jamestown (ship ATK:3 DEF:3 HP:4) -> virginia_north (cost 2)
+[21:44:02] [INFO] [AI] #592 [CONFEDERATE] Played 3 cards, 0 remaining in hand
+[21:44:02] [INFO] [AI] #593 [CONFEDERATE] MOVEMENT phase start
+[21:44:02] [INFO] [AI] #594 [CONFEDERATE] Movable units: 45
+[21:44:02] [INFO] [AI] #595 [CONFEDERATE] Move c_inf_05va -> Maryland
+[21:44:02] [INFO] [AI] #596 [CONFEDERATE] Move c_art_petersburg -> Maryland
+[21:44:02] [INFO] [AI] #597 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #598 [CONFEDERATE] Move c_ship_atlanta -> Maryland
+[21:44:02] [INFO] [AI] #599 [CONFEDERATE] Move c_art_richmond -> Maryland
+[21:44:02] [INFO] [AI] #600 [CONFEDERATE] Move c_ship_hunley -> Maryland
+[21:44:02] [INFO] [AI] #601 [CONFEDERATE] Move c_inf_09va -> Maryland
+[21:44:02] [INFO] [AI] #602 [CONFEDERATE] Move c_inf_18ga -> Maryland
+[21:44:02] [INFO] [AI] #603 [CONFEDERATE] Move c_brig_wilcox -> Maryland
+[21:44:02] [INFO] [AI] #604 [CONFEDERATE] Move c_cav_02va -> Maryland
+[21:44:02] [INFO] [AI] #605 [CONFEDERATE] Move c_brig_brockenbr -> Maryland
+[21:44:02] [INFO] [AI] #606 [CONFEDERATE] Move c_brig_brockenbr -> Maryland
+[21:44:02] [INFO] [AI] #607 [CONFEDERATE] Move c_ship_atlanta -> Maryland
+[21:44:02] [INFO] [AI] #608 [CONFEDERATE] Move c_inf_01va -> Maryland
+[21:44:02] [INFO] [AI] #609 [CONFEDERATE] Move c_art_stuart_hor -> Maryland
+[21:44:02] [INFO] [AI] #610 [CONFEDERATE] Move c_ship_arkansas -> Maryland
+[21:44:02] [INFO] [AI] #611 [CONFEDERATE] Move c_cav_43va -> Maryland
+[21:44:02] [INFO] [AI] #612 [CONFEDERATE] Move c_art_fredericks -> Maryland
+[21:44:02] [INFO] [AI] #613 [CONFEDERATE] Move c_spec_forrest_d -> Maryland
+[21:44:02] [INFO] [AI] #614 [CONFEDERATE] Move c_inf_08va -> Maryland
+[21:44:02] [INFO] [AI] #615 [CONFEDERATE] Move c_cav_mcneill -> Washington, D.C.
+[21:44:02] [INFO] [AI] #616 [CONFEDERATE] Move c_ship_alabama -> Washington, D.C.
+[21:44:02] [INFO] [AI] #617 [CONFEDERATE] Move c_spec_forrest_e -> Washington, D.C.
+[21:44:02] [INFO] [AI] #618 [CONFEDERATE] Move c_cav_mcneill -> Washington, D.C.
+[21:44:02] [INFO] [AI] #619 [CONFEDERATE] Move c_ship_patrick_h -> Washington, D.C.
+[21:44:02] [INFO] [AI] #620 [CONFEDERATE] Move c_inf_24va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #621 [CONFEDERATE] Move c_art_fredericks -> Washington, D.C.
+[21:44:02] [INFO] [AI] #622 [CONFEDERATE] Move c_inf_13va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #623 [CONFEDERATE] Move c_cav_01va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #624 [CONFEDERATE] Move c_cav_01va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #625 [CONFEDERATE] Move c_spec_va_irish -> Washington, D.C.
+[21:44:02] [INFO] [AI] #626 [CONFEDERATE] Move c_spec_1mo_cav -> Washington, D.C.
+[21:44:02] [INFO] [AI] #627 [CONFEDERATE] Move c_inf_13va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #628 [CONFEDERATE] Move c_inf_11va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #629 [CONFEDERATE] Move c_inf_11va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #630 [CONFEDERATE] Move c_inf_17va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #631 [CONFEDERATE] Move c_spec_forrest_d -> Washington, D.C.
+[21:44:02] [INFO] [AI] #632 [CONFEDERATE] Move c_cav_09va -> Washington, D.C.
+[21:44:02] [INFO] [AI] #633 [CONFEDERATE] Move c_ship_patrick_h -> Washington, D.C.
+[21:44:02] [INFO] [AI] #634 [CONFEDERATE] Move c_inf_07va -> Maryland
+[21:44:02] [INFO] [AI] #635 [CONFEDERATE] Move c_ship_sumter -> Maryland
+[21:44:02] [INFO] [AI] #636 [CONFEDERATE] Move c_cav_02va -> Pennsylvania
+[21:44:02] [INFO] [AI] #637 [CONFEDERATE] Move c_ship_teaser -> Pennsylvania
+[21:44:02] [INFO] [AI] #638 [CONFEDERATE] Move c_ship_jamestown -> Washington, D.C.
+[21:44:02] [INFO] [AI] #639 [CONFEDERATE] Move c_ship_arkansas -> Western Virginia
+[21:44:02] [INFO] [AI] #640 [CONFEDERATE] Moved 45 units
+[21:44:02] [INFO] [AI] #641 [CONFEDERATE] COMBAT phase start
+[21:44:02] [INFO] [AI] #642 [CONFEDERATE] Battles fought: 0
+[21:44:02] [INFO] [AI] #643 [CONFEDERATE] EVENTS phase
+[21:44:02] [INFO] [AI] #644 [CONFEDERATE] END TURN - ticking buffs
+[21:44:02] [INFO] [AI] #645 [CONFEDERATE] State verify: 90 units, territories U:4 C:29 N:5
+[21:44:02] [INFO] [GameManager] Turn 16 started: month.july 1862
+[21:44:02] [INFO] [TEST] 
+[21:44:02] [INFO] [TEST] ============================================
+[21:44:02] [INFO] [TEST]   FINAL REPORT
+[21:44:02] [INFO] [TEST] ============================================
+[21:44:02] [INFO] [TEST] Turns played: 15
+[21:44:02] [INFO] [TEST] Union morale: 0 (morale.neutral)
+[21:44:02] [INFO] [TEST] Confed morale: 0 (morale.neutral)
+[21:44:02] [INFO] [TEST] Union res: { "manpower": 81, "money": 0, "supply": 65 }
+[21:44:02] [INFO] [TEST] Confed res: { "manpower": 289, "money": 403, "supply": 469 }
+[21:44:02] [INFO] [TEST] Territories: { "union": 4, "neutral": 5, "confederate": 29 }
+[21:44:02] [INFO] [TEST] Units on map: 90
+[21:44:02] [INFO] [TEST] Union AI bugs: 0 | actions: 645
+[21:44:02] [INFO] [TEST] Confed AI bugs: 0 | actions: 645
+[21:44:02] [INFO] [TEST] TOTAL BUGS FOUND: 0

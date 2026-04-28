@@ -26,10 +26,11 @@ var _morale_modifiers: Dictionary = {
 
 func apply_modifier(side: String, modifier_key: String) -> void:
 	if not _morale_modifiers.has(modifier_key):
-		push_warning("MoraleSystem: unknown modifier: " + modifier_key)
+		Logger.warn("MoraleSystem", "Unknown modifier: " + modifier_key)
 		return
 	var amount: int = _morale_modifiers[modifier_key]
 	GameManager.change_morale(side, amount)
+	Logger.info("MoraleSystem", "%s morale %+d (%s) -> %d" % [side, amount, modifier_key, GameManager.get_morale(side)])
 	morale_changed.emit(side, GameManager.get_morale(side), GameManager.get_morale_status(side))
 
 func apply_custom(side: String, amount: int) -> void:

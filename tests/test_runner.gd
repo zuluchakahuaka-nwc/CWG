@@ -17,7 +17,8 @@ func _initialize() -> void:
 		"res://tests/test_card_database.gd",
 		"res://tests/test_battle_resolver.gd",
 		"res://tests/test_morale_system.gd",
-		"res://tests/test_turn_manager.gd"
+		"res://tests/test_turn_manager.gd",
+		"res://tests/test_map_layout.gd"
 	]
 	for path in test_files:
 		print("\nRunning: " + path)

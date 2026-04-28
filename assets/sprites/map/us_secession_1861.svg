@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html class="client-js" lang="en" dir="ltr"><head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta http-equiv="content-language" content="en-us">
+<link rel="icon" type="image/png" href="/images/wk/favicon-16x16.png" sizes="16x16">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/wk/apple-touch-icon.png">
+<title>Not found</title>
+<link rel="stylesheet" href="/load.php?debug=false&amp;lang=en&amp;modules=mediawiki.ui.button%2Cicon%7Cskins.minerva.base.reset%2Cstyles%7Cskins.minerva.content.styles%7Cskins.minerva.footerV2.styles%7Cskins.minerva.icons.images%7Cskins.minerva.tablet.styles&amp;only=styles&amp;skin=minerva">
+<script async="" src="/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=minerva&amp;target=mobile"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<meta name="generator" content="MediaWiki 1.28.0">
+<meta name="viewport" content="initial-scale=1.0, user-scalable=yes, minimum-scale=0.25, maximum-scale=5.0, width=device-width">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch_desc.php" title="Kids encyclopedia facts (en)">
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt stable skin-minerva action-view feature-footer-v2 animations">
+
+<div id="mw-mf-viewport">
+	<!--[if lt IE 9]>
+   <script>
+      document.createElement('nav');
+   </script>
+<![endif]-->
+
+	<div id="mw-mf-page-center">
+		<div class="header-container" style="background-color: #f8efc6;">
+			<div class="header">
+<div>
+
+<table style="
+    width: 100%;
+"><tbody><tr>
+
+<td id="robotcell"><a href="https://www.kiddle.co"><img src="/images/wk/kids-robot.svg" height="170" width="139" alt="kids encyclopedia robot" style="
+    height: 170px;
+    width: 139px;
+    margin-left: 5px;
+    margin-right: -10px;
+"></a></td>
+
+<td>
+
+  <div class="search_form">
+      <form action="https://www.kiddle.co/c.php" id="cse-search-box" method="GET">
+<center>
+
+<a href="https://www.kiddle.co"><div class="logo-top"><img src="/images/wk/kids_search_engine.svg" border="0" height="80" width="256" alt="Kids search engine"></div></a>
+
+</center>
+        <table><tbody><tr>
+
+            
+          <td id="search_container" class="">  
+            <table>
+              <tbody><tr>
+              
+                <td class="search_field_clear">
+                  <input type="text" name="q" id="q" size="35" autocapitalize="off" autocomplete="off" autocorrect="off" onfocus="if (this.value == '') { document.getElementById('search_form_input_clear_one').className = 'search_form_input_clear_closed' }
+                  			if (this.value != '') { document.getElementById('search_container').className = 'active'; } " onblur="document.getElementById('search_container').className = ''; " onkeydown="document.getElementById('search_form_input_clear_one').className = 'search_form_input_clear_opened';
+                  			document.getElementById('search_container').className = 'active';" onkeyup="if (this.value == '') { document.getElementById('search_form_input_clear_one').className = 'search_form_input_clear_closed'
+                  	document.getElementById('search_form_input_clear_one').className = 'search_form_input_clear_closed';
+                    document.getElementById('search_container').className = 'active'; };">
+                </td>
+                
+                <td class="search_form_input_clear">
+                  <button id="search_form_input_clear_one" class="search_form_input_clear_closed" type="button" value="X" onclick="document.getElementById('q').value=''; document.getElementById('q').focus();">Clear</button>
+                </td>
+                
+                <td class="search_button">
+                  <button type="submit" value="Search" class="submit s_btn">Search</button>
+                </td>              
+              
+              </tr>
+            </tbody></table>  
+          </td>
+        </tr>
+<tr>
+<td>
+
+<div class="top_menu">
+  <ul>
+<li><a href="https://www.kiddle.co">Web</a></li> <li><a href="https://www.kiddle.co/images.php">Images</a></li>  <li><a href="https://www.kiddle.co/kimages.php">Kimages</a></li> 
+<li class="active"><a href="https://kids.kiddle.co">Kpedia</a></li>  
+<li><a href="https://es.kiddle.co">Español</a></li>
+ 
+  </ul>
+</div>
+
+</td>
+</tr>
+</tbody></table>
+      </form>
+
+      <script type="text/javascript">
+          var clearbut = document.getElementById('search_form_input_clear_one');
+          var searchfield = document.getElementById('q');
+		  var submitbtn = document.getElementById('s_btn');
+		  var srcx = document.getElementById('search_container');
+		  
+          if (searchfield.value != '') { clearbut.className = 'search_form_input_clear_opened'; srcx.className = 'active'; }
+		  else if (searchfield.value === '') { clearbut.className = 'search_form_input_clear_closed'; srcx.className = ''; }
+      </script>
+  </div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+		<div id="content" class="mw-body" style="background-color: #ddd;">
+			<div class="pre-content heading-holder"><h1 id="section_0">Article not found...</h1>  <div style="display: block; font-family: 'Linux Libertine','Georgia','Times',serif; font-size: 15px; line-height: 1.3; margin-top: -7px; padding-left: 2px;"><a href="/">Kids Encyclopedia Facts</a></div></div><div id="bodyContent" class="content"><div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><p>Use the search form above to find what you are looking for, or go to the <a href="/" style="color:#0053ff;">main Kiddle Encyclopedia page</a>.</p><a href="https://www.kiddle.co"><img src="https://www.kiddle.co/error-robot-15.png" width="291" height="360"></a>
+
+
+
+
+
+
+
+
+
+
+
+</div><div class="printfooter">
+</div>
+</div><div class="post-content" id="page-secondary-actions"></div>
+
+
+
+
+		</div>
+
+<footer>
+<div class="post-content footer-content">
+<table><tbody><tr>
+<td>
+	<h2><a href="/">Kiddle encyclopedia</a></h2>
+	<div class="license">
+
+Content is available under <a rel="nofollow" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> unless otherwise noted. 
+Kiddle encyclopedia articles are based on selected content and facts from <a rel="nofollow" href="https://en.wikipedia.org">Wikipedia</a>, rewritten for children. 
+Powered by <a rel="nofollow" href="https://www.mediawiki.org">MediaWiki</a>.
+</div>
+	
+	<ul class="footer-places hlist hlist-separated">
+<li><a href="https://www.kiddle.co">Kiddle</a></li>
+<li><a rel="nofollow" href="https://www.kiddle.co/about.php">About</a></li>
+<li><a rel="nofollow" href="https://www.kiddle.co/privacy.php">Privacy</a></li>
+<li><a rel="nofollow" href="https://www.kiddle.co/contact.php">Contact us</a></li>
+ © 2025 Kiddle.co
+	</ul>
+</td>
+</tr>
+</tbody></table>	
+</div>
+</footer>
+
+	<div class="transparent-shield cloaked-element"></div></div>
+</div>
+<!-- v:5 -->
+		
+		</body></html>
