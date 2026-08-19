@@ -1,4 +1,11 @@
+- Не расширять бесконечно один и тот же файл
+- Всегда проводить рефакторинг кода
+
 # AGENTS.md — Civil War: Blue & Gray
+
+## 0. Правила работы
+
+1. **Проверяй сам перед тем как говорить "работает".** Не отправляй пользователя проверять — запускай, читай логи, убеждайся сам. Пока сам не проверил — не утверждай что исправлено.
 
 ## 1. Обзор проекта
 
@@ -951,3 +958,14 @@ morale.revolution,Революция,Revolution
 - Общие потери: ~620 000 — 750 000 солдат убиты
 - 237 названных сражений + множество мелких столкновений
 - Последний выстрел: CSS Shenandoah в Беринговом море, июнь 1865 (не знал что война кончилась)
+
+## Local-only files - NEVER push to GitHub
+
+The following are **local-only**. They must be gitignored and NEVER committed/pushed to any remote:
+
+- `AGENTS.md` (this file)
+- `TODO.md`
+- any local config / secrets: `.env*`, credentials, keys, PINs, IMEI, private configs
+
+They live on disk only. If you share project state, do so **without** these files.
+See `.gitignore` (`/AGENTS.md`, `/TODO.md`).

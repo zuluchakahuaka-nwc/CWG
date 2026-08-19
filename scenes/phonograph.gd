@@ -21,6 +21,7 @@ var _PhonographPlayerScript = load("res://scripts/ui/phonograph_player.gd")
 @onready var _confed_btn: Button = $Panel/VBox/SideTabs/ConfedBtn
 
 var _current_side: String = "union"
+var _loading: bool = false
 
 func _ready() -> void:
 	_player = _PhonographPlayerScript.new()
@@ -76,6 +77,9 @@ func _update_mode_label() -> void:
 		_mode_label.text = Localization.t("phonograph.mode_orchestra") + "\n" + Localization.t("phonograph.desc_orchestra")
 
 func _load_side_tracks(side: String) -> void:
+	if _loading:
+		return
+	_loading = true
 	_current_side = side
 	_track_list.clear()
 	_player.stop()
@@ -90,6 +94,7 @@ func _load_side_tracks(side: String) -> void:
 		_player.play_track(tracks[0])
 		_update_now_playing()
 		_play_btn.text = Localization.t("phonograph.pause")
+	_loading = false
 
 func _on_side_tab(side: String) -> void:
 	_load_side_tracks(side)
@@ -158,6 +163,9 @@ func _on_close() -> void:
 		if not track.is_empty():
 			GameManager._last_phonograph_track = track
 			GameManager._last_phonograph_side = _current_side
+	else:
+		GameManager._last_phonograph_track = {}
+		GameManager._last_phonograph_side = ""
 	get_tree().change_scene_to_file("res://scenes/game_map.tscn")
 
 func _process(_delta: float) -> void:

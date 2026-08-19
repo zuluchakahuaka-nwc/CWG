@@ -49,6 +49,11 @@ layout_mode = 2
 text = "Edit Map"
 toggle_mode = true
 
+[node name="SaveMapButton" type="Button" parent="TopBar/HBox"]
+layout_mode = 2
+text = "Save Map"
+visible = false
+
 [node name="SettingsButton" type="Button" parent="TopBar/HBox"]
 layout_mode = 2
 text = "Settings"
@@ -62,6 +67,7 @@ layout_mode = 2
 text = "Menu"
 
 [node name="BottomBg" type="ColorRect" parent="."]
+visible = false
 anchors_preset = 12
 anchor_top = 1.0
 anchor_right = 1.0
@@ -69,7 +75,7 @@ anchor_bottom = 1.0
 offset_top = -200.0
 offset_bottom = 0.0
 z_index = 10
-color = Color(0.22, 0.25, 0.22, 0.92)
+color = Color(0.0, 0.0, 0.0, 0.0)
 
 [node name="StatusBar" type="HBoxContainer" parent="."]
 anchors_preset = 12

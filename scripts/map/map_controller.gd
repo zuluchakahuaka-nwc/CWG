@@ -597,6 +597,22 @@ func _save_polygon_to_disk() -> void:
 		wfile.close()
 		Logger.info("MapController", "Saved polygon for %s" % _edit_territory)
 
+func export_map_data() -> void:
+	var src_path: String = "res://data/maps/map_data.json"
+	var file: FileAccess = FileAccess.open(src_path, FileAccess.READ)
+	if file == null:
+		Logger.error("MapController", "Cannot read map_data.json")
+		return
+	var content: String = file.get_as_text()
+	file.close()
+	var dst_path: String = "user://map_data_export.json"
+	var wfile: FileAccess = FileAccess.open(dst_path, FileAccess.WRITE)
+	if wfile:
+		wfile.store_string(content)
+		wfile.close()
+		Logger.info("MapController", "Map exported to %s" % dst_path)
+		Logger.info("MapController", "Windows path: %s" % ProjectSettings.globalize_path(dst_path))
+
 func set_view_transform(zoom: float, pan: Vector2) -> void:
 	_view_zoom = zoom
 	_view_pan = pan

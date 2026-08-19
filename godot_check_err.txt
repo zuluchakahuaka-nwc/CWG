@@ -1,0 +1,4 @@
+WARNING: Импорт файлов Blend включен в настройках проекта, но путь к Blender не настроен в настройках редактора. Файлы Blend не будут импортироваться.
+     at: _editor_init (modules/gltf/register_types.cpp:63)
+WARNING: Scan thread aborted...
+     at: _notification (editor/editor_file_system.cpp:1225)
