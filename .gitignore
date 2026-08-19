@@ -11,3 +11,10 @@ Thumbs.db
 *.tmp
 *.bak
 user://
+
+# Local-only (never push to GitHub)
+/AGENTS.md
+/TODO.md
+godot_bin/
+godot.zip
+node_modules/

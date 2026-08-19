@@ -34,6 +34,7 @@ var _pan_offset: Vector2 = Vector2.ZERO
 @onready var _phonograph_btn: Button = $TopBar/HBox/PhonographButton
 @onready var _menu_btn: Button = $TopBar/HBox/MenuButton
 @onready var _edit_map_btn: Button = $TopBar/HBox/EditMapButton
+@onready var _save_map_btn: Button = $TopBar/HBox/SaveMapButton
 @onready var _end_turn_btn: Button = $StatusBar/EndTurnButton
 @onready var _auto_turn_btn: Button = $StatusBar/AutoTurnButton
 @onready var _map_area: Control = $MapArea
@@ -61,39 +62,37 @@ var _hand_label: Label = null
 var _drag_card_idx: int = -1
 var _drag_preview: Control = null
 var _dragging: bool = false
+var _selected_card_idx: int = -1
 
 func _build_hand_panel() -> void:
 	_hand_label = Label.new()
 	_hand_label.name = "HandLabel"
 	_hand_label.text = "HAND: 0 cards"
-	_hand_label.anchor_left = 0.0
-	_hand_label.anchor_right = 1.0
-	_hand_label.anchor_top = 1.0
-	_hand_label.anchor_bottom = 1.0
+	_hand_label.set_anchors_preset(Control.PRESET_BOTTOM_WIDE)
 	_hand_label.offset_left = 8.0
-	_hand_label.offset_top = -198.0
+	_hand_label.offset_top = -42.0
 	_hand_label.offset_right = -8.0
-	_hand_label.offset_bottom = -180.0
+	_hand_label.offset_bottom = -24.0
 	_hand_label.z_index = 12
 	add_child(_hand_label)
-	var hand_scroll: ScrollContainer = ScrollContainer.new()
-	hand_scroll.name = "HandScroll"
-	hand_scroll.anchor_left = 0.0
-	hand_scroll.anchor_right = 1.0
-	hand_scroll.anchor_top = 1.0
-	hand_scroll.anchor_bottom = 1.0
-	hand_scroll.offset_left = 4.0
-	hand_scroll.offset_top = -176.0
-	hand_scroll.offset_right = -4.0
-	hand_scroll.offset_bottom = -44.0
-	hand_scroll.z_index = 12
-	hand_scroll.horizontal_scroll_mode = ScrollContainer.SCROLL_MODE_SHOW_ALWAYS
-	hand_scroll.vertical_scroll_mode = ScrollContainer.SCROLL_MODE_DISABLED
+	var hand_panel: Control = Control.new()
+	hand_panel.name = "HandPanel"
+	hand_panel.set_anchors_preset(Control.PRESET_BOTTOM_WIDE)
+	hand_panel.offset_left = 4.0
+	hand_panel.offset_top = -500.0
+	hand_panel.offset_right = -4.0
+	hand_panel.offset_bottom = -44.0
+	hand_panel.z_index = 12
+	hand_panel.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	hand_panel.clip_contents = false
 	_hand_container = HBoxContainer.new()
 	_hand_container.name = "HandCards"
-	_hand_container.add_theme_constant_override("separation", 8)
-	hand_scroll.add_child(_hand_container)
-	add_child(hand_scroll)
+	_hand_container.add_theme_constant_override("separation", -160)
+	_hand_container.set_anchors_preset(Control.PRESET_BOTTOM_WIDE)
+	_hand_container.offset_top = -170.0
+	_hand_container.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	hand_panel.add_child(_hand_container)
+	add_child(hand_panel)
 
 func _ready() -> void:
 	var map_ctrl_script = load("res://scripts/map/map_controller.gd")
@@ -112,6 +111,7 @@ func _ready() -> void:
 	_detail_close.pressed.connect(_on_close_detail)
 	$TerritoryInfoPanel/TVBox/TClose.pressed.connect(_on_close_terr_info)
 	_edit_map_btn.toggled.connect(_on_edit_map_toggle)
+	_save_map_btn.pressed.connect(_on_save_map)
 	GameManager.turn_changed.connect(_on_turn_changed)
 	GameManager.phase_changed.connect(_on_phase_changed)
 	_map_controller.territory_clicked.connect(_on_territory_clicked)
@@ -330,16 +330,17 @@ func _refresh_hand() -> void:
 	var hand: Array = _hands[_active_side]
 	for i in range(hand.size()):
 		var card = hand[i]
+		var side: String = card.side
 		var bg: PanelContainer = PanelContainer.new()
 		var bg_style: StyleBoxFlat = StyleBoxFlat.new()
-		var side: String = card.side
-		bg_style.bg_color = Color(0.15, 0.2, 0.35) if side == "union" else Color(0.35, 0.15, 0.12)
-		var rarity: String = card.rarity
-		bg_style.set_border_width_all(2)
-		bg_style.border_color = _rarity_color(rarity)
-		bg_style.set_corner_radius_all(4)
+		bg_style.bg_color = Color(0, 0, 0, 0)
+		bg_style.set_border_width_all(0)
+		if i == _selected_card_idx:
+			bg_style.bg_color = Color(1.0, 0.9, 0.3, 0.35)
+			bg_style.set_border_width_all(2)
+			bg_style.border_color = Color(1.0, 0.85, 0.0)
 		bg.add_theme_stylebox_override("panel", bg_style)
-		bg.custom_minimum_size = Vector2(150, 130)
+		bg.custom_minimum_size = Vector2(220, 340)
 		var vbox: VBoxContainer = VBoxContainer.new()
 		vbox.add_theme_constant_override("separation", 2)
 		var portrait: TextureRect = TextureRect.new()
@@ -349,24 +350,28 @@ func _refresh_hand() -> void:
 			portrait.texture = tex
 		portrait.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 		portrait.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-		portrait.custom_minimum_size = Vector2(140, 75)
+		portrait.custom_minimum_size = Vector2(200, 160)
 		vbox.add_child(portrait)
 		var name_lbl: Label = Label.new()
-		name_lbl.text = Localization.get_card_name(card.card_data).left(18)
-		name_lbl.add_theme_font_size_override("font_size", 11)
+		name_lbl.text = Localization.get_card_name(card.card_data)
+		name_lbl.add_theme_font_size_override("font_size", 12)
 		name_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+		name_lbl.text_overrun_behavior = TextServer.OVERRUN_TRIM_WORD_ELLIPSIS
+		name_lbl.max_lines_visible = 3
+		name_lbl.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		name_lbl.add_theme_color_override("font_color", Color(0, 0, 0))
 		vbox.add_child(name_lbl)
 		var stats_lbl: Label = Label.new()
-		stats_lbl.text = "A:%d D:%d H:%d $%d" % [card.attack, card.defense, card.max_hp, card.cost]
-		stats_lbl.add_theme_font_size_override("font_size", 11)
+		stats_lbl.text = "ATK:%d DEF:%d HP:%d Cost:%d" % [card.attack, card.defense, card.max_hp, card.cost]
+		stats_lbl.add_theme_font_size_override("font_size", 14)
 		stats_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-		stats_lbl.add_theme_color_override("font_color", Color(0.85, 0.85, 0.85))
+		stats_lbl.add_theme_color_override("font_color", Color(0, 0, 0))
 		vbox.add_child(stats_lbl)
 		var type_lbl: Label = Label.new()
-		type_lbl.text = card.type.to_upper()
-		type_lbl.add_theme_font_size_override("font_size", 9)
+		type_lbl.text = card.type.to_upper() + " | " + card.rarity.to_upper()
+		type_lbl.add_theme_font_size_override("font_size", 12)
 		type_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
-		type_lbl.add_theme_color_override("font_color", Color(0.6, 0.6, 0.6))
+		type_lbl.add_theme_color_override("font_color", Color(0.15, 0.15, 0.15))
 		vbox.add_child(type_lbl)
 		bg.add_child(vbox)
 		bg.gui_input.connect(_on_card_gui_input.bind(i))
@@ -380,9 +385,9 @@ func _on_card_gui_input(event: InputEvent, idx: int) -> void:
 		_start_drag(idx)
 		accept_event()
 	elif event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_RIGHT:
-		var hand: Array = _hands[_active_side]
-		if idx >= 0 and idx < hand.size() and _selected_territory_id != "":
-			_try_place_card_at(_selected_territory_id, idx)
+		_selected_card_idx = idx
+		_refresh_hand()
+		accept_event()
 
 func _start_drag(idx: int) -> void:
 	var hand: Array = _hands[_active_side]
@@ -504,6 +509,10 @@ func _on_territory_clicked(territory_id: String) -> void:
 	_map_controller.highlight_territories([territory_id])
 	_show_territory_info(territory_id)
 	var phase: int = GameManager.get_current_phase()
+	if phase == GameManager.Phase.DRAW or phase == GameManager.Phase.RESOURCES:
+		if _selected_card_idx >= 0:
+			_try_place_card_at(territory_id, _selected_card_idx)
+			_selected_card_idx = -1
 	if phase == GameManager.Phase.MOVEMENT:
 		_handle_movement(territory_id)
 	_update_ui()
@@ -675,6 +684,7 @@ func _setup_bg_music() -> void:
 	_bg_music = _PhonographPlayerScript.new()
 	add_child(_bg_music)
 	_bg_music.set_volume(0.5)
+	_bg_music.set_side(_active_side)
 	if GameManager._last_phonograph_track and not GameManager._last_phonograph_track.is_empty():
 		_bg_music.play_track(GameManager._last_phonograph_track)
 		GameManager._last_phonograph_track = {}
@@ -693,3 +703,8 @@ func _on_edit_map_toggle(enabled: bool) -> void:
 	if _map_controller and _map_controller.has_method("set_edit_mode"):
 		_map_controller.set_edit_mode(enabled)
 	_edit_map_btn.text = "DONE" if enabled else "Edit Map"
+	_save_map_btn.visible = enabled
+
+func _on_save_map() -> void:
+	if _map_controller and _map_controller.has_method("export_map_data"):
+		_map_controller.export_map_data()
