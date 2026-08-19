@@ -18,3 +18,7 @@ user://
 godot_bin/
 godot.zip
 node_modules/
+
+# Music tracks are NOT distributed in this repo (see README Music section)
+assets/audio/music/**/*.mp3
+data/music/**/*.mp3

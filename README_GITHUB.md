@@ -24,7 +24,7 @@
 - **Morale system** — Ranges from -20 to +20; affects combat outcomes and unit behavior
 - **Territory map** — 38 distinct regions to capture and hold across the war theater
 - **AI opponent** — Single-player against a strategic AI
-- **Phonograph music player** — Period-appropriate soundtrack
+- **Phonograph music player** — Period-appropriate soundtrack *(music tracks NOT included — see [Music](#music) section)*
 - **Full localization** — Russian and English
 - **Data-driven design** — All cards, maps, and events stored in JSON files for easy modding
 
@@ -37,6 +37,29 @@
 | Data Format | JSON |
 | Art | 2D digital / card art |
 | Resolution | 1920×1080 (PC), adaptive (Android) |
+
+## Music
+
+> ⚠ **This game needs music — audio files are not distributed in this repository.**
+
+All music tracks were removed from the repo (and from git history) for licensing reasons.
+The **directory structure with melody categories is preserved** as placeholders:
+
+```
+assets/audio/music/
+├── folk/       # Folk tunes (Dixieland, Bonnie Blue, Yellow Rose, Camptown...)
+└── valces/     # Waltzes / ballads (Home Sweet Home, Lorena, Aura Lea, Battle Hymn...)
+
+data/music/
+├── FOLK COUNTRY/
+├── VALCES/
+└── tracks.json   # Full catalogue: ids, titles (RU/EN), categories, durations, descriptions
+```
+
+**To restore/add music:** place `.mp3` files into these directories following the
+filenames listed in `data/music/tracks.json` (e.g. `folk_01_dixieland.mp3`,
+`valc_09_battle_hymn.mp3`). SFX (`.wav` in `assets/audio/sfx/`) are included —
+only the music is missing.
 
 ## Installation
 
@@ -84,7 +107,7 @@ cd civil-war-blue-gray
 ├── assets/
 │   ├── cards/               # Card artwork
 │   ├── maps/                # Map graphics
-│   ├── music/               # Soundtrack files
+│   ├── music/               # Music dirs (folk/, valces/) — tracks NOT included, see Music section
 │   └── ui/                  # UI elements
 ├── localization/
 │   ├── en.json              # English strings
