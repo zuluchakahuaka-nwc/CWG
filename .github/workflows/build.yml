@@ -1,0 +1,75 @@
+name: build
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+env:
+  GODOT_VERSION: "4.2.2-stable"
+
+jobs:
+  test-and-export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Godot + export templates
+        run: |
+          sudo apt-get update && sudo apt-get install -y unzip
+          wget -q "https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}/Godot_v${GODOT_VERSION}_linux.x86_64.zip"
+          wget -q "https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}/Godot_v${GODOT_VERSION}_export_templates.tpz"
+          unzip -q "Godot_v${GODOT_VERSION}_linux.x86_64.zip" -d godot_bin
+          mkdir -p ~/.local/share/godot/export_templates/${GODOT_VERSION%.stable}.stable
+          unzip -q "Godot_v${GODOT_VERSION}_export_templates.tpz" -d tpz_tmp
+          mv tpz_tmp/templates/* ~/.local/share/godot/export_templates/${GODOT_VERSION%.stable}.stable/
+          echo "GODOT=$PWD/godot_bin/Godot_v${GODOT_VERSION}_linux.x86_64" >> "$GITHUB_ENV"
+
+      - name: Tests (aggregated runner, CI exit code)
+        run: |
+          $GODOT --headless --path . res://tests/test_runner.tscn 2>&1 | tee tests_output.log
+          grep -q "SUITES TOTAL" tests_output.log
+
+      - name: Import check (fresh clone must build)
+        run: $GODOT --headless --path . --import
+
+      - name: Export Windows build
+        run: |
+          mkdir -p builds/cwg-win64
+          $GODOT --headless --path . --export-release "Windows Desktop"
+
+      - name: Export Linux build
+        run: |
+          mkdir -p builds/cwg-linux64
+          $GODOT --headless --path . --export-release "Linux"
+          chmod +x builds/cwg-linux64/CivilWarBlueGray.x86_64
+
+      - name: Smoke test the Linux build (Law #0)
+        run: |
+          timeout 30s ./builds/cwg-linux64/CivilWarBlueGray.x86_64 --headless > smoke.log 2>&1
+          code=$?
+          # 124 = still alive after 30s (killed by timeout) - the game boots.
+          if [ $code -ne 124 ]; then
+            echo "SMOKE FAIL: exported build exited with $code"
+            cat smoke.log
+            exit 1
+          fi
+          echo "SMOKE PASS: exported build alive after 30s"
+
+      - name: Upload Windows artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CWG-win64
+          path: builds/cwg-win64/
+          retention-days: 14
+
+      - name: Upload Linux artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CWG-linux64
+          path: builds/cwg-linux64/
+          retention-days: 14
