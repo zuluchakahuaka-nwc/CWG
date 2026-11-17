@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cqi0hwfq0pi1t"
+path="res://.godot/imported/cf367888-e64b-4c55-b7ed-14f58040d4cf.mp3-32385701310c8fc04697af9ac413c815.mp3str"
+
+[deps]
+
+source_file="res://data/music/FOLK COUNTRY/cf367888-e64b-4c55-b7ed-14f58040d4cf.mp3"
+dest_files=["res://.godot/imported/cf367888-e64b-4c55-b7ed-14f58040d4cf.mp3-32385701310c8fc04697af9ac413c815.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
