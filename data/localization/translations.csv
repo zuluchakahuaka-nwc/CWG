@@ -460,4 +460,7 @@ territory.maine,Мэн,Maine,Maine,Maine,Maine,Maine,缅因,メイン,मेन,
 territory.new_hampshire,Нью-Гэмпшир,New Hampshire,New Hampshire,Nuevo Hampshire,New Hampshire,New Hampshire,新罕布什尔,ニューハンプシャー,न्यू हैम्पशायर,نيو هامبشاير
 territory.vermont,Вермонт,Vermont,Vermont,Vermont,Vermont,Vermont,佛蒙特,バーモント,वर्मॉन्ट,فيرمونت
 territory.massachusetts,Массачусетс,Massachusetts,Massachusetts,Massachusetts,Massachusetts,Massachusetts,马萨诸塞,マサチューセッツ,मैसाचुसेट्स,ماساتشوستس
-territory.rhode_island,Род-Айленд,Rhode Island,Rhode Island,Rhode Island,Rhode Island,Rhode Island,罗德岛,ロードアイランド,रोड आइलैंड,رود آيلاند
+territory.rhode_island,Род-Айленд,Rhode Island,Rhode Island,Rhode Island,Rhode Island,Rhode Island,罗德岛,ロードアイランド,रोड आइलैंड,رود آيلاندgame.over.title,Игра окончена,Game Over,Fin de partie,Fin del juego,Spiel vorbei,Fim de jogo,游戏结束,ゲームオーバー,खेल समाप्त,انتهت اللعبة
+game.over.winner,Победитель:,Winner:,Vainqueur :,Ganador:,Sieger:,Vencedor:,获胜方：,勝者：,विजेता:,الفائز:
+game.over.back_to_menu,В главное меню,Back to menu,Retour au menu,Volver al menú,Zum Hauptmenü,Voltar ao menu,返回主菜单,メインメニューへ,मुख्य मेनू,القائمة الرئيسية
+game.over.title,Игра окончена,Game Over,Fin de partie,Fin del juego,Spiel vorbei,Fim de jogo,游戏结束,ゲームオーバー,खेल समाप्त,انتهت اللعبة

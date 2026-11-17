@@ -114,8 +114,10 @@ func _ready() -> void:
 	_save_map_btn.pressed.connect(_on_save_map)
 	GameManager.turn_changed.connect(_on_turn_changed)
 	GameManager.phase_changed.connect(_on_phase_changed)
+	GameManager.game_over.connect(_on_game_over)
 	_map_controller.territory_clicked.connect(_on_territory_clicked)
 	_active_side = "union"
+	_restore_hands_if_any()
 	_process_phase()
 	Localization.language_changed.connect(_localize)
 	_localize()
@@ -171,6 +173,14 @@ func _apply_map_transform() -> void:
 		_map_controller.set_view_transform(_zoom_level, _pan_offset)
 
 func _process_phase() -> void:
+	# The marker lives in GameManager so it survives scene round-trips.
+	# It deduplicates double fires (signals + explicit calls) and stops
+	# scene re-entry from re-running side effects (income, draws).
+	var marker: String = "%d:%d" % [GameManager.get_current_turn(), GameManager.get_current_phase()]
+	if marker == GameManager.phase_execution_marker:
+		_update_ui()
+		return
+	GameManager.phase_execution_marker = marker
 	var phase: int = GameManager.get_current_phase()
 	match phase:
 		GameManager.Phase.RESOURCES:
@@ -318,7 +328,9 @@ func _find_card_image(card_id: String, side: String, card_type: String) -> Strin
 		sub = "units_confederate/"
 	for ext in [".jpg", ".png"]:
 		var p: String = base + sub + card_id + ext
-		if FileAccess.file_exists(p):
+		# ResourceLoader understands imported resources - works in exported
+		# builds too, unlike FileAccess on source files.
+		if ResourceLoader.exists(p):
 			return p
 	return ""
 
@@ -644,7 +656,43 @@ func _on_end_turn() -> void:
 		_play_music_for_side(_active_side)
 	else:
 		GameManager.advance_phase()
-	_process_phase()
+	# _process_phase() runs via the phase_changed/turn_changed signals;
+	# calling it here as well is safe - the marker guard deduplicates.
+
+func _on_game_over(winner: String, reason: String) -> void:
+	Logger.info("GameMap", "Game over: winner=%s reason=%s" % [winner, reason])
+	_show_game_over_overlay(winner, reason)
+
+func _show_game_over_overlay(winner: String, reason: String) -> void:
+	var layer: CanvasLayer = CanvasLayer.new()
+	layer.layer = 100
+	add_child(layer)
+	var dim: ColorRect = ColorRect.new()
+	dim.color = Color(0, 0, 0, 0.85)
+	dim.set_anchors_preset(Control.PRESET_FULL_RECT)
+	layer.add_child(dim)
+	var box: VBoxContainer = VBoxContainer.new()
+	box.set_anchors_preset(Control.PRESET_CENTER)
+	box.grow_horizontal = Control.GROW_DIRECTION_BOTH
+	box.grow_vertical = Control.GROW_DIRECTION_BOTH
+	box.alignment = BoxContainer.ALIGNMENT_CENTER
+	layer.add_child(box)
+	var title: Label = Label.new()
+	var winner_name: String = Localization.t("side." + ("union" if winner == "union" else "confederate"))
+	title.text = Localization.t("game.over.title") + "\n" + Localization.t("game.over.winner") + " " + winner_name
+	title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	title.add_theme_font_size_override("font_size", 42)
+	box.add_child(title)
+	var ok_btn: Button = Button.new()
+	ok_btn.text = Localization.t("game.over.back_to_menu")
+	ok_btn.pressed.connect(func() -> void:
+		var save: FileAccess = FileAccess.open("user://save_game.json", FileAccess.WRITE)
+		if save:
+			save.store_string("")
+			save.close()
+		get_tree().change_scene_to_file("res://scenes/main_menu.tscn")
+	)
+	box.add_child(ok_btn)
 
 func _on_turn_changed(_turn: int, _month: String) -> void:
 	_process_phase()
@@ -675,10 +723,31 @@ func _localize() -> void:
 
 func _save_game() -> void:
 	var data: Dictionary = GameManager.serialize()
+	# Hands live in the scene - persist them through the save payload.
+	data["hands"] = {
+		"union": [c.serialize() for c in _hands["union"]],
+		"confederate": [c.serialize() for c in _hands["confederate"]]
+	}
 	var file: FileAccess = FileAccess.open("user://save_game.json", FileAccess.WRITE)
 	if file:
 		file.store_string(JSON.stringify(data, "\t"))
 		file.close()
+
+func _restore_hands_if_any() -> void:
+	var restored: Dictionary = GameManager.take_restored_hands()
+	if restored.is_empty():
+		return
+	for side in ["union", "confederate"]:
+		var rebuilt: Array = []
+		for card_state in restored.get(side, []):
+			var card_data: Dictionary = CardDatabase.get_unit(str(card_state.get("id", "")))
+			if card_data.is_empty():
+				continue
+			var card = load("res://scripts/cards/card_instance.gd").new(card_data)
+			card.deserialize(card_state)
+			rebuilt.append(card)
+		_hands[side] = rebuilt
+	Logger.info("GameMap", "Restored hands from save: U=%d C=%d" % [_hands["union"].size(), _hands["confederate"].size()])
 
 func _setup_bg_music() -> void:
 	_bg_music = _PhonographPlayerScript.new()

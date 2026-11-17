@@ -60,8 +60,14 @@ func _load_game() -> void:
 	if file == null:
 		return
 	var json: JSON = JSON.new()
-	json.parse(file.get_as_text())
+	var text: String = file.get_as_text()
 	file.close()
+	if json.parse(text) != OK or not (json.get_data() is Dictionary):
+		# Corrupt/truncated save must not crash the menu - just ignore it.
+		Logger.warn("MainMenu", "Save file is corrupt, ignoring")
+		return
 	var data: Dictionary = json.get_data()
+	if data.is_empty():
+		return
 	GameManager.deserialize(data)
 	get_tree().change_scene_to_file("res://scenes/game_map.tscn")

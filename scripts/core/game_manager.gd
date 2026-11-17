@@ -35,6 +35,10 @@ var _music_style: Dictionary = {"union": "valces", "confederate": "folk"}
 var _music_style_options: PackedStringArray = ["valces", "folk"]
 var _last_phonograph_track: Dictionary = {}
 var _last_phonograph_side: String = ""
+# turn:phase marker of the last EXECUTED phase. Lives in the autoload so
+# it survives scene changes (settings/phonograph round-trips) - prevents
+# re-executing phase side effects (double income, double draws).
+var phase_execution_marker: String = ""
 
 func _ready() -> void:
 	_load_music_settings()
@@ -308,8 +312,19 @@ func serialize() -> Dictionary:
 		"resources": _resources.duplicate(true),
 		"territory_owners": _territory_owners.duplicate(true),
 		"conscription_streak": _conscription_streak.duplicate(true),
-		"used_one_time_events": _used_one_time_events.duplicate()
+		"used_one_time_events": _used_one_time_events.duplicate(),
+		"units_on_map": _serialize_units_on_map()
 	}
+
+func _serialize_units_on_map() -> Dictionary:
+	var data: Dictionary = {}
+	for t_id in _units_on_map:
+		var units: Array = []
+		for u in _units_on_map[t_id]:
+			if u.has_method("serialize"):
+				units.append(u.serialize())
+		data[t_id] = units
+	return data
 
 func deserialize(data: Dictionary) -> void:
 	_current_turn = data.get("turn", 1)
@@ -322,3 +337,33 @@ func deserialize(data: Dictionary) -> void:
 	_territory_owners = data.get("territory_owners", {})
 	_conscription_streak = data.get("conscription_streak", {"union": 0, "confederate": 0})
 	_used_one_time_events = data.get("used_one_time_events", [])
+	_deserialize_units_on_map(data.get("units_on_map", {}))
+	_restored_hands = data.get("hands", {})
+	# The loaded phase already executed before the save - mark it so the
+	# game scene does not re-run its side effects on Continue.
+	phase_execution_marker = "%d:%d" % [_current_turn, _current_phase]
+
+func _deserialize_units_on_map(data: Dictionary) -> void:
+	_units_on_map.clear()
+	var card_script: GDScript = load("res://scripts/cards/card_instance.gd")
+	for t_id in data:
+		var units: Array = []
+		for card_state in data[t_id]:
+			var card_data: Dictionary = CardDatabase.get_unit(str(card_state.get("id", "")))
+			if card_data.is_empty():
+				Logger.warn("GameManager", "Save references unknown unit: %s" % str(card_state.get("id", "")))
+				continue
+			var card = card_script.new(card_data)
+			card.deserialize(card_state)
+			units.append(card)
+		if not units.is_empty():
+			_units_on_map[t_id] = units
+
+## Hands are owned by the game scene; a loaded save stashes them here
+## for the scene to pick up on _ready (take_restored_hands).
+var _restored_hands: Dictionary = {}
+
+func take_restored_hands() -> Dictionary:
+	var hands: Dictionary = _restored_hands
+	_restored_hands = {}
+	return hands

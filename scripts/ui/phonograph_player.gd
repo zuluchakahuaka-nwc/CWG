@@ -206,20 +206,13 @@ func _on_track_finished() -> void:
 func _play_needle_sound() -> void:
 	if _category == "valces":
 		var path: String = "res://assets/audio/sfx/phonograph_needle.wav"
-		if not FileAccess.file_exists(path):
+		# Use the imported resource - source files are absent in exported
+		# builds, so raw FileAccess dies silently there.
+		if not ResourceLoader.exists(path):
 			return
-		var f: FileAccess = FileAccess.open(path, FileAccess.READ)
-		if f == null:
-			return
-		var buf: PackedByteArray = f.get_buffer(f.get_length())
-		f.close()
-		var stream: AudioStreamWAV = AudioStreamWAV.new()
-		stream.data = buf
-		stream.format = AudioStreamWAV.FORMAT_16_BITS
-		stream.mix_rate = 44100
-		stream.stereo = false
-		if _needle_player:
-			_needle_player.stream = stream
+		var stream_res = load(path)
+		if stream_res is AudioStream and _needle_player:
+			_needle_player.stream = stream_res
 			_needle_player.play()
 
 func _linear_to_db(value: float) -> float:

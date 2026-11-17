@@ -149,10 +149,12 @@ func _get_portrait_path() -> String:
 	else:
 		sub = "units_confederate/"
 	var jpg_path: String = base + sub + card_id + ".jpg"
-	if FileAccess.file_exists(jpg_path):
+	# ResourceLoader works with imported resources in exported builds;
+	# FileAccess.file_exists fails there for source images.
+	if ResourceLoader.exists(jpg_path):
 		return jpg_path
 	var png_path: String = base + sub + card_id + ".png"
-	if FileAccess.file_exists(png_path):
+	if ResourceLoader.exists(png_path):
 		return png_path
 	return ""
 
