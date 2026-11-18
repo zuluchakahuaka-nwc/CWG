@@ -24,9 +24,12 @@ jobs:
           wget -q "https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}/Godot_v${GODOT_VERSION}_linux.x86_64.zip"
           wget -q "https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}/Godot_v${GODOT_VERSION}_export_templates.tpz"
           unzip -q "Godot_v${GODOT_VERSION}_linux.x86_64.zip" -d godot_bin
-          mkdir -p ~/.local/share/godot/export_templates/${GODOT_VERSION%.stable}.stable
+          # Template dir uses a DOT before 'stable': 4.2.2.stable
+          TEMPLATE_DIR="${GODOT_VERSION/-/.}"
+          mkdir -p ~/.local/share/godot/export_templates/${TEMPLATE_DIR}
           unzip -q "Godot_v${GODOT_VERSION}_export_templates.tpz" -d tpz_tmp
-          mv tpz_tmp/templates/* ~/.local/share/godot/export_templates/${GODOT_VERSION%.stable}.stable/
+          mv tpz_tmp/templates/* ~/.local/share/godot/export_templates/${TEMPLATE_DIR}/
+          ls ~/.local/share/godot/export_templates/${TEMPLATE_DIR}/ | head -5
           echo "GODOT=$PWD/godot_bin/Godot_v${GODOT_VERSION}_linux.x86_64" >> "$GITHUB_ENV"
 
       - name: Tests (aggregated runner, CI exit code)
