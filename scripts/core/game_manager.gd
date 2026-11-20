@@ -116,6 +116,10 @@ func get_morale(side: String) -> int:
 
 func change_morale(side: String, amount: int) -> void:
 	_morale[side] = clampi(_morale[side] + amount, -20, 20)
+	if amount > 0:
+		AudioManager.play("morale_up")
+	elif amount < 0:
+		AudioManager.play("morale_down")
 	if _morale[side] <= -20:
 		game_over.emit("confederate" if side == "union" else "union", "morale_collapse")
 

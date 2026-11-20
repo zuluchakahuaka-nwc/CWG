@@ -26,6 +26,7 @@ func _ready() -> void:
 	_conf_btn.pressed.connect(_on_confederate)
 	_build_year_buttons()
 	_update_locks()
+	AudioManager.attach_button_sounds(self)
 
 func _build_year_buttons() -> void:
 	var keys: Array = [1861, 1862, 1863, 1864, 1865, 9999]

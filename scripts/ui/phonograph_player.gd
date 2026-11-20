@@ -12,7 +12,6 @@ var _playlist: Array = []
 var _playlist_index: int = 0
 var _category: String = ""
 var _active_side: String = "union"
-var _needle_player: AudioStreamPlayer = null
 var _track_finished_checked: bool = false
 
 signal track_changed(track: Dictionary)
@@ -24,9 +23,6 @@ func _ready() -> void:
 	add_child(_audio_player)
 	_audio_player.volume_db = _linear_to_db(_volume)
 	_audio_player.finished.connect(_on_track_finished)
-	_needle_player = AudioStreamPlayer.new()
-	add_child(_needle_player)
-	_needle_player.volume_db = _linear_to_db(_volume * 0.3)
 
 func _process(_delta: float) -> void:
 	if _is_playing and not _is_paused and not _audio_player.playing and not _audio_player.stream_paused:
@@ -99,8 +95,6 @@ func resume() -> void:
 func set_volume(value: float) -> void:
 	_volume = clampf(value, 0.0, 1.0)
 	_audio_player.volume_db = _linear_to_db(_volume)
-	if _needle_player:
-		_needle_player.volume_db = _linear_to_db(_volume * 0.3)
 
 func get_volume() -> float:
 	return _volume
@@ -204,16 +198,10 @@ func _on_track_finished() -> void:
 		next_track()
 
 func _play_needle_sound() -> void:
+	# Phonograph crackle only in the phonograph category; the path lives in
+	# the AudioManager table, volume stays coupled to the phonograph slider.
 	if _category == "valces":
-		var path: String = "res://assets/audio/sfx/phonograph_needle.wav"
-		# Use the imported resource - source files are absent in exported
-		# builds, so raw FileAccess dies silently there.
-		if not ResourceLoader.exists(path):
-			return
-		var stream_res = load(path)
-		if stream_res is AudioStream and _needle_player:
-			_needle_player.stream = stream_res
-			_needle_player.play()
+		AudioManager.play("phonograph_needle", _linear_to_db(_volume * 0.3))
 
 func _linear_to_db(value: float) -> float:
 	if value <= 0.0:

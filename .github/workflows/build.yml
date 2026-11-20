@@ -51,6 +51,18 @@ jobs:
           $GODOT --headless --path . --export-release "Linux"
           chmod +x builds/cwg-linux64/CivilWarBlueGray.x86_64
 
+      - name: Probe exported PCK (SFX/scripts survive the export remap)
+        run: |
+          # "Linux Pack" = the Linux preset with embed_pck=false, so the
+          # pack lands on disk as a mountable .pck for the probe.
+          mkdir -p builds/cwg-linux64
+          $GODOT --headless --path . --export-release "Linux Pack"
+          mkdir -p /tmp/probe_proj
+          printf 'config_version=5\n\n[application]\n\nconfig/name="probe"\n' > /tmp/probe_proj/project.godot
+          cp tests/probe_pack.gd /tmp/probe_proj/
+          $GODOT --headless --path /tmp/probe_proj --script res://probe_pack.gd -- "$PWD/builds/cwg-linux64/CivilWarBlueGray.pck" /tmp/probe_report.json
+          echo "PCK probe: $(head -c 400 /tmp/probe_report.json)"
+
       - name: Smoke test the Linux build (Law #0)
         run: |
           set +e

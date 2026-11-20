@@ -67,8 +67,11 @@ func resolve_combat(attacker, defender, territory_data: Dictionary) -> Dictionar
 		result["defender_destroyed"] = true
 		result["attacker_won"] = true
 		defender.take_damage(round_data["damage_to_defender"])
+		AudioManager.play("battle_destroy")
 	else:
 		defender.take_damage(round_data["damage_to_defender"])
+		if round_data["damage_to_defender"] > 0:
+			AudioManager.play("battle_hit")
 		# Counterattack: a normal attack with swapped roles - the defender
 		# attacks out of the terrain (attack penalty applies), the assaulting
 		# unit does not gain the terrain DEF bonus.
@@ -79,8 +82,11 @@ func resolve_combat(attacker, defender, territory_data: Dictionary) -> Dictionar
 		var counter_round: Dictionary = _resolve_round(counter_atk, counter_def)
 		result["rounds"].append(counter_round)
 		attacker.take_damage(counter_round["damage_to_defender"])
+		if counter_round["damage_to_defender"] > 0:
+			AudioManager.play("battle_hit")
 		if not attacker.is_alive():
 			result["attacker_destroyed"] = true
+			AudioManager.play("battle_destroy")
 	return result
 
 func _resolve_round(atk_value: int, def_value: int) -> Dictionary:
@@ -121,6 +127,7 @@ func resolve_territory_battle(attacker_units: Array, defender_units: Array, terr
 	result["attacker_side"] = attacker_units[0].side
 	result["defender_side"] = defender_units[0].side
 	Logger.info("Battle", "Battle at %s: %d %s vs %d %s" % [territory_data.get("id", "?"), attacker_units.size(), result["attacker_side"], defender_units.size(), result["defender_side"]])
+	AudioManager.play("battle_start")
 	var remaining_attackers: Array = attacker_units.duplicate()
 	var remaining_defenders: Array = defender_units.duplicate()
 	var rounds_fought: int = 0

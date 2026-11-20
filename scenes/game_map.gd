@@ -122,6 +122,7 @@ func _ready() -> void:
 	Localization.language_changed.connect(_localize)
 	_localize()
 	_setup_bg_music()
+	AudioManager.attach_button_sounds(self)
 	Logger.info("GameMap", "Hotseat game ready. Turn=%d" % GameManager.get_current_turn())
 
 func _input(event: InputEvent) -> void:
@@ -222,6 +223,7 @@ func _phase_draw() -> void:
 			var card = ci_script.new(card_data)
 			_hands[side].append(card)
 		Logger.info("Phase", "Drew %d cards for %s (hand: %d)" % [count, side, _hands[side].size()])
+		AudioManager.play("card_draw")
 
 func _phase_combat() -> void:
 	_battle_log = ""
@@ -582,6 +584,7 @@ func _try_place_card_at(territory_id: String, idx: int) -> void:
 		GameManager._units_on_map[territory_id] = []
 	GameManager._units_on_map[territory_id].append(card)
 	Logger.info("GameMap", "Placed %s at %s (cost %d)" % [card.id, territory_id, cost])
+	AudioManager.play("card_play")
 	_update_ui()
 	_refresh_hand()
 	_show_territory_info(territory_id)
@@ -633,6 +636,7 @@ func _do_move(from_id: String, to_id: String) -> void:
 		u.territory_id = to_id
 		GameManager._units_on_map[to_id].append(u)
 	Logger.info("GameMap", "Moved %d units: %s -> %s" % [to_move.size(), from_id, to_id])
+	AudioManager.play("march")
 	_update_ui()
 	_show_territory_info(to_id)
 	if _map_controller and _map_controller.has_method("update_unit_markers"):
@@ -661,6 +665,8 @@ func _on_end_turn() -> void:
 
 func _on_game_over(winner: String, reason: String) -> void:
 	Logger.info("GameMap", "Game over: winner=%s reason=%s" % [winner, reason])
+	# Hotseat: a decisive outcome is a fanfare; a draw gets the somber cue.
+	AudioManager.play("victory" if winner != "draw" else "defeat")
 	_show_game_over_overlay(winner, reason)
 
 func _show_game_over_overlay(winner: String, reason: String) -> void:
@@ -693,6 +699,7 @@ func _show_game_over_overlay(winner: String, reason: String) -> void:
 		get_tree().change_scene_to_file("res://scenes/main_menu.tscn")
 	)
 	box.add_child(ok_btn)
+	AudioManager.attach_button_sounds(box)
 
 func _on_turn_changed(_turn: int, _month: String) -> void:
 	_process_phase()
@@ -724,10 +731,13 @@ func _localize() -> void:
 func _save_game() -> void:
 	var data: Dictionary = GameManager.serialize()
 	# Hands live in the scene - persist them through the save payload.
-	data["hands"] = {
-		"union": [c.serialize() for c in _hands["union"]],
-		"confederate": [c.serialize() for c in _hands["confederate"]]
-	}
+	# (Plain loops: GDScript has no comprehensions - the previous one-liner
+	# never parsed and silently broke script loading in exported builds.)
+	var hands: Dictionary = {"union": [], "confederate": []}
+	for side in ["union", "confederate"]:
+		for card in _hands[side]:
+			hands[side].append(card.serialize())
+	data["hands"] = hands
 	var file: FileAccess = FileAccess.open("user://save_game.json", FileAccess.WRITE)
 	if file:
 		file.store_string(JSON.stringify(data, "\t"))

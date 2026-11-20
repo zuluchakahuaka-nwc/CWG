@@ -1,3 +1,4 @@
+class_name CardEffect
 extends RefCounted
 
 enum EffectType {

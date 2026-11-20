@@ -42,6 +42,7 @@ func _ready() -> void:
 	_player.side_changed.connect(_on_player_side_changed)
 	Localization.language_changed.connect(_localize)
 	_on_side_tab("union")
+	AudioManager.attach_button_sounds(self)
 
 func _localize() -> void:
 	_title.text = Localization.t("phonograph.title")

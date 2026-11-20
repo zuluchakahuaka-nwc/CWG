@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3]
+[gd_scene load_steps=7 format=3]
 
 [ext_resource type="Script" path="res://tests/test_runner_main.gd" id="0"]
 [ext_resource type="Script" path="res://tests/test_card_database.gd" id="1"]
 [ext_resource type="Script" path="res://tests/test_battle_resolver.gd" id="2"]
 [ext_resource type="Script" path="res://tests/test_morale_system.gd" id="3"]
 [ext_resource type="Script" path="res://tests/test_turn_manager.gd" id="4"]
+[ext_resource type="Script" path="res://tests/test_audio_manager.gd" id="5"]
 
 [node name="TestRunner" type="Control"]
 layout_mode = 3
@@ -26,3 +27,6 @@ script = ExtResource("3")
 
 [node name="TestTurnManager" type="Node" parent="."]
 script = ExtResource("4")
+
+[node name="TestAudioManager" type="Node" parent="."]
+script = ExtResource("5")

@@ -19,6 +19,7 @@ func _ready() -> void:
 	_gear_btn.pressed.connect(_on_settings)
 	_continue_btn.disabled = not _has_save()
 	Localization.language_changed.connect(_localize)
+	AudioManager.attach_button_sounds(self)
 
 func _localize() -> void:
 	_title.text = Localization.t("game.title")

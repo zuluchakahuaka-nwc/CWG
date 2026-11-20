@@ -3,11 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://duxfqd2k7h261"
-valid=false
+path="res://.godot/imported/cmd_grant.jpg-21a9807875ce625f88c8f3e23e87a26e.ctex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://assets/sprites/cards/units_union/cmd_grant.jpg"
+dest_files=["res://.godot/imported/cmd_grant.jpg-21a9807875ce625f88c8f3e23e87a26e.ctex"]
 
 [params]
 

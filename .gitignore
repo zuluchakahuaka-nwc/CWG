@@ -18,8 +18,23 @@ godot_bin/
 godot.zip
 node_modules/
 
+# Secrets / device data (law: serials, keystores and credentials never enter git)
+*.keystore
+*.jks
+*.p12
+*.pem
+.env*
+*secret*
+*serial*
+*imei*
+device_*.json
+screenshots/
+
 # Music tracks are NOT distributed in this repo (see README Music section)
 assets/audio/music/**/*.mp3
 data/music/**/*.mp3
+# Sidecars for local-only media must not enter git either: clones lack the
+# sources and the stale sidecars poison the import scan.
+data/music/**/*.mp3.import
 
 *.md

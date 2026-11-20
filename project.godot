@@ -20,6 +20,7 @@ config/icon="res://assets/sprites/ui/icons/icon_morale.jpg"
 
 Logger="*res://scripts/core/logger.gd"
 Localization="*res://scripts/core/localization.gd"
+AudioManager="*res://scripts/core/audio_manager.gd"
 GameManager="*res://scripts/core/game_manager.gd"
 CardDatabase="*res://scripts/cards/card_database.gd"
 FontLoader="*res://scripts/ui/font_loader.gd"

@@ -31,6 +31,7 @@ func _ready() -> void:
 	_confed_music_option.item_selected.connect(_on_confed_music_selected)
 	Localization.language_changed.connect(_localize)
 	_localize()
+	AudioManager.attach_button_sounds(self)
 
 func _populate_languages() -> void:
 	_lang_option.clear()

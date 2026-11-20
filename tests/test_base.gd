@@ -1,7 +1,7 @@
 class_name TestBase
 extends RefCounted
 
-func assert(condition: bool, message: String = "") -> void:
+func assert_true(condition: bool, message: String = "") -> void:
 	if not condition:
 		push_error("ASSERT FAIL: " + message)
 	else:

@@ -1,3 +1,4 @@
+class_name Hand
 extends RefCounted
 
 var _cards: Array = []
