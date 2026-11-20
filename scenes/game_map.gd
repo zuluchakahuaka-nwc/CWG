@@ -26,6 +26,9 @@ var _zoom_step: float = 0.2
 var _is_panning: bool = false
 var _pan_start: Vector2 = Vector2.ZERO
 var _pan_offset: Vector2 = Vector2.ZERO
+# Keyboard panning speed, screen px per second (hub request: arrows move
+# the map view; mouse: hold RMB and drag, wheel zooms).
+const KEY_PAN_SPEED: float = 900.0
 
 @onready var _turn_label: Label = $TopBar/HBox/TurnInfo
 @onready var _phase_label: Label = $TopBar/HBox/PhaseLabel
@@ -160,6 +163,23 @@ func _input(event: InputEvent) -> void:
 				_is_panning = false
 	elif event is InputEventMouseMotion and _is_panning:
 		_pan_offset = event.position - _pan_start
+		_apply_map_transform()
+
+func _process(delta: float) -> void:
+	var dir: Vector2 = Vector2.ZERO
+	if Input.is_key_pressed(KEY_LEFT):
+		dir.x -= 1.0
+	if Input.is_key_pressed(KEY_RIGHT):
+		dir.x += 1.0
+	if Input.is_key_pressed(KEY_UP):
+		dir.y -= 1.0
+	if Input.is_key_pressed(KEY_DOWN):
+		dir.y += 1.0
+	if dir != Vector2.ZERO:
+		# Arrows move the VIEW (arrow-right looks right); the offset is a
+		# grab-style content translation (mouse drag moves the map itself),
+		# so arrows subtract from it.
+		_pan_offset -= dir.normalized() * KEY_PAN_SPEED * delta
 		_apply_map_transform()
 
 func _zoom_map(new_zoom: float) -> void:

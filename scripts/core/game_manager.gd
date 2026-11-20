@@ -42,6 +42,12 @@ var phase_execution_marker: String = ""
 
 func _ready() -> void:
 	_load_music_settings()
+	# Deterministic map coloring: prime the 1861 owners even when the game
+	# scene runs without a start_game() round-trip (direct scene runs,
+	# editor smoke tests) - the map must never boot colorless. Deferred so
+	# CardDatabase (a later autoload) is ready when we read territories.
+	if _territory_owners.is_empty():
+		call_deferred("_load_territory_owners")
 
 func start_game(scenario_id: String, player_side: String) -> void:
 	_scenario_id = scenario_id
