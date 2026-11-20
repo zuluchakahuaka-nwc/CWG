@@ -429,18 +429,10 @@ stat.attack,АТК,ATK,ATQ,ATQ,ANG,ATQ,攻击,攻撃,आक्रमण,هجوم
 stat.defense,ЗАЩ,DEF,DEF,DEF,VER,DEF,防御,防衛,रक्षा,دفاع
 stat.hp,ЗДР,HP,PV,VT,LP,HP,生命,体力,स्वास्थ्य,صحة
 stat.cost,ЦЕНА,COST,COÛT,COST,KOSTEN,CUSTO,费用,コスト,लागत,تكلفة
-phase.resources,Ресурсы,Resources,Ressources,Recursos,Ressourcen,Recursos,资源,資源,संसाधन,موارد
-phase.draw,Добрать,Draw,Pioche,Robar,Ziehen,Comprar,抽牌,ドロー,कार्ड लें,سحب
 phase.play,Разыграть,Play,Jouer,Jugar,Spielen,Jogar,出牌,プレイ,खेलें,لعب
-phase.movement,Перемещение,Movement,Déplacement,Movimiento,Bewegung,Movimento,移动,移動,आंदोलन,حركة
-phase.combat,Бой,Combat,Combat,Combate,Kampf,Combate,战斗,戦闘,युद्ध,قتال
-phase.events,События,Events,Événements,Eventos,Ereignisse,Eventos,事件,イベント,घटनाएँ,أحداث
-phase.end,Конец,End,Fin,Fin,Ende,Fim,结束,終了,अंत,نهاية
 ui.hand,Рука,Hand,Main,Mano,Hand,Mão,手牌,手札,हाथ,يد
 ui.phase,Фаза,Phase,Phase,Fase,Phase,Fase,阶段,フェーズ,चरण,مرحلة
 ui.side,Сторона,Side,Côté,Lado,Seite,Lado,阵营,陣営,पक्ष,جانب
-side.union,Союз,Union,Union,Unión,Union,União,联邦,連邦,संघ,الاتحاد
-side.confederate,Конфедерация,Confederacy,Confédération,Confederación,Konföderation,Confederação,邦联,連邦,संघीय,الكونفدرالية
 territory.delaware,Делавэр,Delaware,Delaware,Delaware,Delaware,Delaware,特拉华,デラウェア,डेलावेयर,ديلاوير
 territory.new_york,Нью-Йорк,New York,New York,Nueva York,New York,Nova York,纽约,ニューヨーク,न्यूयॉर्क,نيويورك
 territory.new_jersey,Нью-Джерси,New Jersey,New Jersey,Nueva Jersey,New Jersey,Nova Jersey,新泽西,ニュージャージー,न्यू जर्सी,نيو جيرسي
@@ -460,7 +452,7 @@ territory.maine,Мэн,Maine,Maine,Maine,Maine,Maine,缅因,メイン,मेन,
 territory.new_hampshire,Нью-Гэмпшир,New Hampshire,New Hampshire,Nuevo Hampshire,New Hampshire,New Hampshire,新罕布什尔,ニューハンプシャー,न्यू हैम्पशायर,نيو هامبشاير
 territory.vermont,Вермонт,Vermont,Vermont,Vermont,Vermont,Vermont,佛蒙特,バーモント,वर्मॉन्ट,فيرمونت
 territory.massachusetts,Массачусетс,Massachusetts,Massachusetts,Massachusetts,Massachusetts,Massachusetts,马萨诸塞,マサチューセッツ,मैसाचुसेट्स,ماساتشوستس
-territory.rhode_island,Род-Айленд,Rhode Island,Rhode Island,Rhode Island,Rhode Island,Rhode Island,罗德岛,ロードアイランド,रोड आइलैंड,رود آيلاندgame.over.title,Игра окончена,Game Over,Fin de partie,Fin del juego,Spiel vorbei,Fim de jogo,游戏结束,ゲームオーバー,खेल समाप्त,انتهت اللعبة
+territory.rhode_island,Род-Айленд,Rhode Island,Rhode Island,Rhode Island,Rhode Island,Rhode Island,罗德岛,ロードアイランド,रोड आइलैंड,رود آيلاندgame.over.title
 game.over.winner,Победитель:,Winner:,Vainqueur :,Ganador:,Sieger:,Vencedor:,获胜方：,勝者：,विजेता:,الفائز:
 game.over.back_to_menu,В главное меню,Back to menu,Retour au menu,Volver al menú,Zum Hauptmenü,Voltar ao menu,返回主菜单,メインメニューへ,मुख्य मेनू,القائمة الرئيسية
 game.over.title,Игра окончена,Game Over,Fin de partie,Fin del juego,Spiel vorbei,Fim de jogo,游戏结束,ゲームオーバー,खेल समाप्त,انتهت اللعبة

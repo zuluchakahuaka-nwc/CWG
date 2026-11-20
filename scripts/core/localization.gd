@@ -107,11 +107,16 @@ func has_key(key: String) -> bool:
 	return false
 
 func t(key: String) -> String:
-	if _translations.has(_current_lang) and _translations[_current_lang].has(key):
+	if _translations.has(_current_lang) and _translations[_current_lang].has(key) \
+			and _translations[_current_lang][key] != "":
 		return _translations[_current_lang][key]
-	if _translations.has("en") and _translations["en"].has(key):
+	if _translations.has("en") and _translations["en"].has(key) \
+			and _translations["en"][key] != "":
 		return _translations["en"][key]
-	return key
+	# Hub law: the player never sees raw keys. Last resort is a humanized
+	# placeholder plus a loud warning so tests/logs catch it immediately.
+	Logger.warn("Localization", "MISSING TRANSLATION '%s' (lang '%s')" % [key, _current_lang])
+	return key.substr(key.rfind(".") + 1).replace("_", " ").capitalize()
 
 func get_card_name(card_data: Dictionary) -> String:
 	var field: String = "name_" + _current_lang

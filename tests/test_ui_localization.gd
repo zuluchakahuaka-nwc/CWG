@@ -76,15 +76,65 @@ const LAW_KEYS: PackedStringArray = [
 	"game.settings", "phonograph.title", "ui.menu", "ui.edit_map",
 	"ui.save_map", "ui.done", "ui.close", "ui.card_stats",
 	"ui.info.battle_line", "ui.info.battle_captured", "scenario.select.title",
+	"scenario.1861", "scenario.1862", "scenario.1863", "scenario.1864",
+	"scenario.1865", "scenario.full",
+	"morale.sacred_fervor", "morale.uplift", "morale.normal", "morale.neutral",
+	"morale.gloom", "morale.unrest", "morale.rebellion", "morale.revolution",
+	"game.over.title",
 ]
 
 func _ready() -> void:
 	print("\n=== TEST: OneLanguagePerScreen law ===")
+	test_csv_hygiene()
 	test_scene_texts_covered()
 	test_script_text_literals_covered()
 	test_law_keys_exist_in_ru_and_en()
 	test_all_code_keys_resolve()
+	test_every_key_has_ru_and_en()
 	_print_summary()
+
+## CSV hygiene: the player must never see raw keys, so the dictionary
+## itself must be sane - 11 fields per row, unique keys, ru+en filled.
+func test_csv_hygiene() -> void:
+	var path := "res://data/localization/translations.csv"
+	var f := FileAccess.open(path, FileAccess.READ)
+	if f == null:
+		_assert(false, "translations.csv readable")
+		return
+	var malformed: Array = []
+	var seen: Dictionary = {}
+	var dupes: Array = []
+	var header: PackedStringArray = f.get_csv_line()
+	var expected_fields: int = header.size()
+	var count: int = 0
+	while not f.eof_reached():
+		var line: PackedStringArray = f.get_csv_line()
+		if line.size() == 1 and line[0].strip_edges() == "":
+			continue
+		count += 1
+		if line.size() != expected_fields:
+			malformed.append("row %d (%s) has %d fields" % [count, line[0], line.size()])
+		var key := line[0].strip_edges()
+		if key != "":
+			if seen.has(key):
+				dupes.append(key)
+			seen[key] = true
+	f.close()
+	_assert(expected_fields == 11, "CSV has 11 columns (key + 10 locales), got %d" % expected_fields)
+	_assert(malformed.is_empty(), "every CSV row has 11 fields %s" % str(malformed).left(200))
+	_assert(dupes.is_empty(), "no duplicate keys (dupes overwrite translations) %s" % str(dupes).left(200))
+
+func test_every_key_has_ru_and_en() -> void:
+	var empty_ru: Array = []
+	var empty_en: Array = []
+	for key in Localization._translations.get("ru", {}).keys():
+		if str(Localization._translations["ru"][key]).strip_edges() == "":
+			empty_ru.append(key)
+	for key in Localization._translations.get("en", {}).keys():
+		if str(Localization._translations["en"][key]).strip_edges() == "":
+			empty_en.append(key)
+	_assert(empty_ru.is_empty(), "no key with empty ru value %s" % str(empty_ru).left(200))
+	_assert(empty_en.is_empty(), "no key with empty en value %s" % str(empty_en).left(200))
 
 func _assert(condition: bool, test_name: String) -> void:
 	if condition:

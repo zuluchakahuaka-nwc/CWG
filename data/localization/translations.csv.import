@@ -1,17 +1,7 @@
 [remap]
 
-importer="csv_translation"
-type="Translation"
-uid="uid://bam6y11jmgd7m"
+importer="keep"
 
 [deps]
 
-files=["res://data/localization/translations.ru.translation", "res://data/localization/translations.en.translation", "res://data/localization/translations.fr.translation", "res://data/localization/translations.es.translation", "res://data/localization/translations.de.translation", "res://data/localization/translations.pt.translation", "res://data/localization/translations.zh.translation", "res://data/localization/translations.ja.translation", "res://data/localization/translations.hi.translation", "res://data/localization/translations.ar.translation"]
-
 source_file="res://data/localization/translations.csv"
-dest_files=["res://data/localization/translations.ru.translation", "res://data/localization/translations.en.translation", "res://data/localization/translations.fr.translation", "res://data/localization/translations.es.translation", "res://data/localization/translations.de.translation", "res://data/localization/translations.pt.translation", "res://data/localization/translations.zh.translation", "res://data/localization/translations.ja.translation", "res://data/localization/translations.hi.translation", "res://data/localization/translations.ar.translation"]
-
-[params]
-
-compress=true
-delimiter=0

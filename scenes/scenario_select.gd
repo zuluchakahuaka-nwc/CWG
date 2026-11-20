@@ -20,13 +20,13 @@ var _year_scenarios: Dictionary = {
 @onready var _vbox: VBoxContainer = $ScrollContainer/VBoxContainer
 
 func _ready() -> void:
-	_localize()
 	_back_btn.pressed.connect(_on_back)
 	_union_btn.pressed.connect(_on_union)
 	_conf_btn.pressed.connect(_on_confederate)
 	_build_year_buttons()
 	_update_locks()
 	AudioManager.attach_button_sounds(self)
+	_localize()
 
 func _build_year_buttons() -> void:
 	var keys: Array = [1861, 1862, 1863, 1864, 1865, 9999]
@@ -84,6 +84,10 @@ func _update_side_highlight() -> void:
 
 func _localize() -> void:
 	_title.text = Localization.t("scenario.select.title")
+	for key in _year_buttons:
+		var btn: Button = _year_buttons[key]
+		var suffix: String = "full" if key == 9999 else str(key)
+		btn.text = Localization.t("scenario." + suffix)
 	_side_label.text = Localization.t("game.choose_side")
 	_union_btn.text = Localization.t("side.union")
 	_conf_btn.text = Localization.t("side.confederate")

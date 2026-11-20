@@ -510,7 +510,7 @@ func _update_ui() -> void:
 		_money_label.text = Localization.t("ui.gold_label") % int(res.get("money", 0))
 		_supply_label.text = Localization.t("ui.supply_label") % int(res.get("supply", 0))
 		_morale_label.text = Localization.t("ui.morale_label") % int(GameManager.get_morale(_active_side))
-		_morale_status.text = GameManager.get_morale_status(_active_side)
+		_morale_status.text = Localization.t(GameManager.get_morale_status(_active_side))
 	var info: String = ""
 	var phase: int = GameManager.get_current_phase()
 	if phase == GameManager.Phase.DRAW:
