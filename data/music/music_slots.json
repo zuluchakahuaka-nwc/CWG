@@ -6,45 +6,45 @@
 			"role": "menu",
 			"category": "valces",
 			"loop": true,
-			"source": "",
-			"license": "",
-			"status": "placeholder"
+			"source": "LOC National Jukebox (Public Domain Mark 1.0) + U.S. Army Old Guard Fife and Drum Corps (US Gov, 17 USC 105)",
+			"license": "Public Domain",
+			"status": "final"
 		},
 		{
 			"id": "game_union",
 			"role": "level",
 			"category": "valces",
 			"loop": true,
-			"source": "",
-			"license": "",
-			"status": "placeholder"
+			"source": "LOC National Jukebox (Public Domain Mark 1.0) + U.S. Army Old Guard Fife and Drum Corps (US Gov, 17 USC 105)",
+			"license": "Public Domain",
+			"status": "final"
 		},
 		{
 			"id": "game_confederate",
 			"role": "level",
 			"category": "folk",
 			"loop": true,
-			"source": "",
-			"license": "",
-			"status": "placeholder"
+			"source": "LOC National Jukebox (PDM), US military bands (US Gov PD), one pre-1926 U.S. recording (PD by age)",
+			"license": "Public Domain",
+			"status": "final"
 		},
 		{
 			"id": "victory",
 			"role": "screen",
 			"category": "folk",
 			"loop": false,
-			"source": "",
-			"license": "",
-			"status": "placeholder"
+			"source": "LOC National Jukebox (PDM), US military bands (US Gov PD), one pre-1926 U.S. recording (PD by age)",
+			"license": "Public Domain",
+			"status": "final"
 		},
 		{
 			"id": "defeat",
 			"role": "screen",
 			"category": "valces",
 			"loop": false,
-			"source": "",
-			"license": "",
-			"status": "placeholder"
+			"source": "LOC National Jukebox (Public Domain Mark 1.0) + U.S. Army Old Guard Fife and Drum Corps (US Gov, 17 USC 105)",
+			"license": "Public Domain",
+			"status": "final"
 		}
 	]
 }

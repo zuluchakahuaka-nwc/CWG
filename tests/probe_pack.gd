@@ -22,6 +22,8 @@ const CHECK_PATHS: PackedStringArray = [
 	"res://scenes/game_map.gd",
 	"res://scripts/core/audio_manager.gd",
 	"res://data/music/tracks.json",
+	"res://data/music/music_slots.json",
+	"res://assets/audio/music/pd/valc_09_battle_hymn.ogg",
 ]
 
 func _initialize() -> void:
