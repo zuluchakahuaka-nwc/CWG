@@ -482,3 +482,5 @@ ui.terrain,Местность,Terrain,Terrain,Terreno,Gelände,Terreno,地形,�
 ui.no_units,Нет войск,No units,Aucune unité,Sin unidades,Keine Truppen,Sem unidades,无部队,部隊なし,कोई सेना नहीं,لا وحدات
 game.turn,Ход,Turn,Tour,Turno,Zug,Turno,回合,ターン,बारी,دور
 splash.skip,Любая клавиша — пропустить,Any key to skip,Touche pour passer,Tecla para saltar,Taste zum Uberspringen,Tecla para pular,按任意键跳过,スキップ：任意のキー,कोई भी कुंजी — छोड़ें,أي مفتاح للتخطي
+map.cartouche,ТЕАТР ВОЕННЫХ ДЕЙСТВИЙ,THEATER OF WAR,THÉÂTRE DE GUERRE,TEATRO DE GUERRA,KRIEGSSCHAUPLATZ,TEATRO DE GUERRA,战区,戦域,युद्ध क्षेत्र,مسرح الحرب
+map.cartouche.sub,Север и Юг · 1861,The North and the South · 1861,Le Nord et le Sud · 1861,El Norte y el Sur · 1861,Nord und Süd · 1861,Norte e Sul · 1861,北与南 · 1861,北と南 · 1861,उत्तर और दक्षिण · 1861,الشمال والجنوب · 1861

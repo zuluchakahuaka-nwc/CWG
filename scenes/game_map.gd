@@ -129,6 +129,13 @@ func _ready() -> void:
 	Logger.info("GameMap", "Hotseat game ready. Turn=%d" % GameManager.get_current_turn())
 
 func _input(event: InputEvent) -> void:
+	if event.is_action_pressed("ui_cancel"):
+		return
+	if event is InputEventKey and event.pressed and not event.echo and event.keycode == KEY_F9:
+		# Preview toggle: old map <-> engraved v2 (branch map-v2).
+		_save_game()
+		get_tree().change_scene_to_file("res://scenes/map_v2.tscn")
+		return
 	if _detail_popup.visible:
 		if event is InputEventMouseButton and event.pressed:
 			if not _detail_popup.get_global_rect().has_point(event.global_position):
