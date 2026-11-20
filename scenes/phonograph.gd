@@ -86,15 +86,24 @@ func _load_side_tracks(side: String) -> void:
 	_player.stop()
 	_player.set_side(side)
 	var tracks: Array = _player.get_playlist()
-	for track in tracks:
-		var title: String = track.get("title_" + Localization.get_language(), track.get("title_en", "???"))
-		_track_list.add_item(title)
+	var audio_available: bool = _player.side_has_audio(side)
+	if audio_available:
+		for track in tracks:
+			var title: String = track.get("title_" + Localization.get_language(), track.get("title_en", "???"))
+			_track_list.add_item(title)
+	else:
+		# Honest state for music-free builds: the catalog is there but no
+		# track file loads - say so instead of pretending to play.
+		_track_list.add_item(Localization.t("phonograph.no_tracks"))
+		_track_list.set_item_disabled(0, true)
+		_track_label.text = Localization.t("phonograph.no_tracks")
 	_update_side_highlight()
 	_update_mode_label()
-	if not tracks.is_empty():
+	if audio_available and not tracks.is_empty():
 		_player.play_track(tracks[0])
 		_update_now_playing()
 		_play_btn.text = Localization.t("phonograph.pause")
+	_play_btn.disabled = not audio_available
 	_loading = false
 
 func _on_side_tab(side: String) -> void:

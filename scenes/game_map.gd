@@ -667,6 +667,8 @@ func _on_game_over(winner: String, reason: String) -> void:
 	Logger.info("GameMap", "Game over: winner=%s reason=%s" % [winner, reason])
 	# Hotseat: a decisive outcome is a fanfare; a draw gets the somber cue.
 	AudioManager.play("victory" if winner != "draw" else "defeat")
+	if _bg_music:
+		_bg_music.play_slot("victory" if winner != "draw" else "defeat")
 	_show_game_over_overlay(winner, reason)
 
 func _show_game_over_overlay(winner: String, reason: String) -> void:
@@ -773,7 +775,7 @@ func _setup_bg_music() -> void:
 func _play_music_for_side(side: String) -> void:
 	if _bg_music == null:
 		return
-	_bg_music.play_for_side(side)
+	_bg_music.play_slot(MusicSlots.side_slot(side))
 
 func _on_side_switched(new_side: String) -> void:
 	_play_music_for_side(new_side)

@@ -128,6 +128,28 @@ func play_for_side(side: String) -> void:
 	if not _playlist.is_empty():
 		play_track(_playlist[0])
 
+## Slot-driven playback (hub law: code knows slot ids, never track paths).
+## Unknown slot or empty playlist -> silence, no crash.
+func play_slot(slot_id: String) -> void:
+	var category: String = MusicSlots.effective_category(slot_id)
+	if category == "":
+		Logger.warn("PhonographPlayer", "Unknown music slot: %s - silence" % slot_id)
+		stop()
+		_playlist = []
+		_playlist_index = 0
+		return
+	set_category(category)
+	if _playlist.is_empty():
+		Logger.info("PhonographPlayer", "Slot %s has no tracks - silence" % slot_id)
+		stop()
+		return
+	play_track(_playlist[0])
+
+## Whether the side's slot has any actually loadable audio (honest state
+## for builds shipped without music).
+func side_has_audio(side: String) -> bool:
+	return MusicSlots.has_audio(MusicSlots.side_slot(side))
+
 func next_track() -> void:
 	if _playlist.is_empty():
 		Logger.warn("PhonographPlayer", "next_track: playlist empty")

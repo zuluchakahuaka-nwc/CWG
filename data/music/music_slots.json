@@ -1,0 +1,50 @@
+{
+	"comment": "Hub law 'music slots': the single source of truth for what plays where. Code addresses slots by id only - swapping a melody is a one-line edit here. A missing slot or file degrades to silence, never a crash. Per-side style overrides chosen in Settings take precedence over the category bound here.",
+	"slots": [
+		{
+			"id": "menu",
+			"role": "menu",
+			"category": "valces",
+			"loop": true,
+			"source": "",
+			"license": "",
+			"status": "placeholder"
+		},
+		{
+			"id": "game_union",
+			"role": "level",
+			"category": "valces",
+			"loop": true,
+			"source": "",
+			"license": "",
+			"status": "placeholder"
+		},
+		{
+			"id": "game_confederate",
+			"role": "level",
+			"category": "folk",
+			"loop": true,
+			"source": "",
+			"license": "",
+			"status": "placeholder"
+		},
+		{
+			"id": "victory",
+			"role": "screen",
+			"category": "folk",
+			"loop": false,
+			"source": "",
+			"license": "",
+			"status": "placeholder"
+		},
+		{
+			"id": "defeat",
+			"role": "screen",
+			"category": "valces",
+			"loop": false,
+			"source": "",
+			"license": "",
+			"status": "placeholder"
+		}
+	]
+}

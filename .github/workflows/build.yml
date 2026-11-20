@@ -40,6 +40,9 @@ jobs:
       - name: Import check (fresh clone must build)
         run: $GODOT --headless --path . --import
 
+      - name: Music manifest check (slots resolve, licenses filled)
+        run: $GODOT --headless --path . --script res://tests/music_check.gd
+
       - name: Export Windows build
         run: |
           mkdir -p builds/cwg-win64

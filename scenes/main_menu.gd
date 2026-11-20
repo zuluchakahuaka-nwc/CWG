@@ -20,6 +20,17 @@ func _ready() -> void:
 	_continue_btn.disabled = not _has_save()
 	Localization.language_changed.connect(_localize)
 	AudioManager.attach_button_sounds(self)
+	_play_menu_music()
+
+var _PhonographPlayerScript = load("res://scripts/ui/phonograph_player.gd")
+var _menu_music = null
+
+func _play_menu_music() -> void:
+	# Slot-driven menu music (hub law): builds without music stay silent.
+	_menu_music = _PhonographPlayerScript.new()
+	add_child(_menu_music)
+	_menu_music.set_volume(0.4)
+	_menu_music.play_slot("menu")
 
 func _localize() -> void:
 	_title.text = Localization.t("game.title")
