@@ -80,7 +80,7 @@ const LAW_KEYS: PackedStringArray = [
 	"scenario.1865", "scenario.full",
 	"morale.sacred_fervor", "morale.uplift", "morale.normal", "morale.neutral",
 	"morale.gloom", "morale.unrest", "morale.rebellion", "morale.revolution",
-	"game.over.title",
+	"game.over.title", "game.title", "splash.skip",
 ]
 
 func _ready() -> void:
