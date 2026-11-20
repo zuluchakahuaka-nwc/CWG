@@ -11,6 +11,12 @@ var _available_languages: PackedStringArray = []
 func _ready() -> void:
 	_load_translations()
 	_load_saved_language()
+	# Session-only override for dev/E2E screenshots (hub law: one language
+	# per screen must be verifiable deterministically). Not persisted.
+	var env_lang: String = OS.get_environment("CWG_LANG")
+	if env_lang != "" and _available_languages.has(env_lang) and env_lang != _current_lang:
+		_current_lang = env_lang
+		language_changed.emit(env_lang)
 
 func _load_translations() -> void:
 	var path: String = "res://data/localization/translations.csv"

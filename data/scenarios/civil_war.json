@@ -67,6 +67,17 @@
     "confederate": {"manpower": 4, "money": 4, "supply": 4}
   },
 
+  "initial_units": {
+    "washington_dc": [
+      {"id": "u_inf_01us"},
+      {"id": "u_art_01us"}
+    ],
+    "richmond": [
+      {"id": "c_inf_01va"},
+      {"id": "c_art_01rockbridge"}
+    ]
+  },
+
   "resource_income_per_territory": {
     "union_base_per_territory": {"manpower": 1, "money": 1, "supply": 0},
     "confederate_base_per_territory": {"manpower": 0, "money": 0, "supply": 1},

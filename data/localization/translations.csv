@@ -465,3 +465,27 @@ game.over.winner,Победитель:,Winner:,Vainqueur :,Ganador:,Sieger:,Venc
 game.over.back_to_menu,В главное меню,Back to menu,Retour au menu,Volver al menú,Zum Hauptmenü,Voltar ao menu,返回主菜单,メインメニューへ,मुख्य मेनू,القائمة الرئيسية
 game.over.title,Игра окончена,Game Over,Fin de partie,Fin del juego,Spiel vorbei,Fim de jogo,游戏结束,ゲームオーバー,खेल समाप्त,انتهت اللعبة
 phonograph.no_tracks,Нет доступных записей (сборка без музыки),No records available (music-free build),Aucun disque disponible (build sans musique),No hay discos disponibles (version sin musica),Keine Platten verfugbar (Build ohne Musik),Sem discos disponiveis (build sem musica),无可用唱片（无音乐版本）,利用可能なレコードなし（音楽なしビルド）,कोई रिकॉर्ड उपलब्ध नहीं (संगीत-रहित बिल्ड),لا تسجيلات متاحة (نسخة بدون موسيقى)
+ui.menu,Меню,Menu,Menu,Menú,Menü,Menu,菜单,メニュー,मेनू,القائمة
+ui.edit_map,Правка карты,Edit Map,Modifier la carte,Editar mapa,Karte bearbeiten,Editar mapa,编辑地图,マップ編集,मानचित्र संपादित करें,تحرير الخريطة
+ui.save_map,Сохранить карту,Save Map,Enregistrer la carte,Guardar mapa,Karte speichern,Salvar mapa,保存地图,マップ保存,मानचित्र सहेजें,حفظ الخريطة
+ui.done,Готово,Done,Terminé,Listo,Fertig,Pronto,完成,完了,पूर्ण,تم
+ui.close,Закрыть,Close,Fermer,Cerrar,Schließen,Fechar,关闭,閉じる,बंद करें,إغلاق
+ui.card_stats,ATK:%d DEF:%d HP:%d Цена:%d,ATK:%d DEF:%d HP:%d Cost:%d,ATK:%d DEF:%d PV:%d Coût:%d,ATQ:%d DEF:%d PV:%d Coste:%d,ANG:%d VER:%d KP:%d Kosten:%d,ATQ:%d DEF:%d PV:%d Custo:%d,攻击:%d 防御:%d 生命:%d 费用:%d,攻撃:%d 防御:%d HP:%d コスト:%d,ATK:%d DEF:%d HP:%d लागत:%d,هجوم:%d دفاع:%d صحة:%d تكلفة:%d
+ui.info.battle_line,%s : %d против %d - потери: атака %d оборона %d,%s : %d vs %d - losses: atk %d def %d,%s : %d contre %d - pertes : atq %d def %d,%s : %d contra %d - bajas: atq %d def %d,%s : %d gegen %d - Verluste: Ang %d Ver %d,%s : %d contra %d - baixas: atq %d def %d,%s：%d 对 %d - 损失：攻 %d 守 %d,%s：%d 対 %d - 損失：攻 %d 守 %d,%s : %d बनाम %d - नुकसान: आक्रमण %d रक्षा %d,%s : %d ضد %d - خسائر: هجوم %d دفاع %d
+ui.info.battle_captured,ЗАХВАЧЕНО (%s)!,CAPTURED by %s!,CONQUIS par %s !,¡CAPTURADO por %s!,EROBERT von %s!,CAPTURADO por %s!,已被%s攻占！,%sに占領された！,%s द्वारा कब्ज़ा!,تم الاستيلاء بواسطة %s!
+scenario.select.title,Выбор сценария,Select Scenario,Choix du scénario,Seleccionar escenario,Szenario wählen,Selecionar cenário,选择剧本,シナリオ選択,परिदृश्य चुनें,اختيار السيناريو
+month.january,Январь,January,janvier,enero,Januar,janeiro,一月,1月,जनवरी,يناير
+month.february,Февраль,February,février,febrero,Februar,fevereiro,二月,2月,फ़रवरी,فبراير
+month.march,Март,March,mars,marzo,März,março,三月,3月,मार्च,مارس
+month.april,Апрель,April,avril,abril,April,abril,四月,4月,अप्रैल,أبريل
+month.may,Май,May,mai,may,Mai,maio,五月,5月,मई,مايو
+month.june,Июнь,June,juin,junio,Juni,junho,六月,6月,जून,يونيو
+month.july,Июль,July,juillet,julio,Juli,julho,七月,7月,जुलाई,يوليو
+month.august,Август,August,août,agosto,August,agosto,八月,8月,अगस्त,أغسطس
+month.september,Сентябрь,September,septembre,septiembre,September,setembro,九月,9月,सितंबर,سبتمبر
+month.october,Октябрь,October,octobre,octubre,Oktober,outubro,十月,10月,अक्टूबर,أكتوبر
+month.november,Ноябрь,November,novembre,noviembre,November,novembro,十一月,11月,नवंबर,نوفمبر
+month.december,Декабрь,December,décembre,diciembre,Dezember,dezembro,十二月,12月,दिसंबर,ديسمبر
+ui.terrain,Местность,Terrain,Terrain,Terreno,Gelände,Terreno,地形,地形,भूभाग,التضاريس
+ui.no_units,Нет войск,No units,Aucune unité,Sin unidades,Keine Truppen,Sem unidades,无部队,部隊なし,कोई सेना नहीं,لا وحدات
+game.turn,Ход,Turn,Tour,Turno,Zug,Turno,回合,ターン,बारी,دور

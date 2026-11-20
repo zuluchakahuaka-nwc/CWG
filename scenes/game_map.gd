@@ -256,11 +256,11 @@ func _phase_combat() -> void:
 		var resolver = resolver_script.new()
 		var result: Dictionary = resolver.resolve_territory_battle(attackers, defenders, t_data)
 		var t_name: String = t_data.get("name_en", t_id)
-		_battle_log += "%s: %d vs %d -> ATK lost %d DEF lost %d" % [t_name, attackers.size(), defenders.size(), result["attacker_losses"], result["defender_losses"]]
+		_battle_log += Localization.t("ui.info.battle_line") % [t_name, attackers.size(), defenders.size(), result["attacker_losses"], result["defender_losses"]]
 		if result["territory_captured"]:
 			var new_owner: String = attackers[0].side
 			GameManager.set_territory_owner(t_id, new_owner)
-			_battle_log += " CAPTURED by %s!" % new_owner
+			_battle_log += " " + Localization.t("ui.info.battle_captured") % new_owner
 			if t_data.get("is_capital", false):
 				GameManager.change_morale(new_owner, 5)
 		_battle_log += "\n"
@@ -376,7 +376,7 @@ func _refresh_hand() -> void:
 		name_lbl.add_theme_color_override("font_color", Color(0, 0, 0))
 		vbox.add_child(name_lbl)
 		var stats_lbl: Label = Label.new()
-		stats_lbl.text = "ATK:%d DEF:%d HP:%d Cost:%d" % [card.attack, card.defense, card.max_hp, card.cost]
+		stats_lbl.text = Localization.t("ui.card_stats") % [card.attack, card.defense, card.max_hp, card.cost]
 		stats_lbl.add_theme_font_size_override("font_size", 14)
 		stats_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		stats_lbl.add_theme_color_override("font_color", Color(0, 0, 0))
@@ -458,7 +458,7 @@ func _show_card_detail(data: Dictionary) -> void:
 	var dfn: int = data.get("defense", 0)
 	var hp: int = data.get("hp", 0)
 	var cost: int = data.get("cost", 0)
-	_detail_stats.text = "ATK:%d  DEF:%d  HP:%d  Cost:%d" % [atk, dfn, hp, cost]
+	_detail_stats.text = Localization.t("ui.card_stats") % [atk, dfn, hp, cost]
 	var desc: String = Localization.get_card_description(data)
 	if desc == "":
 		desc = data.get("description_en", "")
@@ -729,6 +729,15 @@ func _on_settings() -> void:
 
 func _localize() -> void:
 	_update_ui()
+	# Hub law "one language per screen": every visible text node of the
+	# scene gets its text here - scene-file placeholders never survive.
+	_settings_btn.text = Localization.t("game.settings")
+	_phonograph_btn.text = Localization.t("phonograph.title")
+	_menu_btn.text = Localization.t("ui.menu")
+	_edit_map_btn.text = Localization.t("ui.done") if _edit_map_btn.button_pressed else Localization.t("ui.edit_map")
+	_save_map_btn.text = Localization.t("ui.save_map")
+	_detail_close.text = Localization.t("ui.close")
+	$TerritoryInfoPanel/TVBox/TClose.text = Localization.t("ui.close")
 
 func _save_game() -> void:
 	var data: Dictionary = GameManager.serialize()
@@ -783,7 +792,7 @@ func _on_side_switched(new_side: String) -> void:
 func _on_edit_map_toggle(enabled: bool) -> void:
 	if _map_controller and _map_controller.has_method("set_edit_mode"):
 		_map_controller.set_edit_mode(enabled)
-	_edit_map_btn.text = "DONE" if enabled else "Edit Map"
+	_edit_map_btn.text = Localization.t("ui.done") if enabled else Localization.t("ui.edit_map")
 	_save_map_btn.visible = enabled
 
 func _on_save_map() -> void:

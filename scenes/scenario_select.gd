@@ -83,7 +83,7 @@ func _update_side_highlight() -> void:
 	_conf_btn.modulate = Color(1.0, 0.4, 0.4)
 
 func _localize() -> void:
-	_title.text = "Гражданская война" if Localization.get_language() == "ru" else "Civil War"
+	_title.text = Localization.t("scenario.select.title")
 	_side_label.text = Localization.t("game.choose_side")
 	_union_btn.text = Localization.t("side.union")
 	_conf_btn.text = Localization.t("side.confederate")

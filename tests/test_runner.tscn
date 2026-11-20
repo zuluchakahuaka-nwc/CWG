@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3]
+[gd_scene load_steps=10 format=3]
 
 [ext_resource type="Script" path="res://tests/test_runner_main.gd" id="0"]
 [ext_resource type="Script" path="res://tests/test_card_database.gd" id="1"]
@@ -7,6 +7,8 @@
 [ext_resource type="Script" path="res://tests/test_turn_manager.gd" id="4"]
 [ext_resource type="Script" path="res://tests/test_audio_manager.gd" id="5"]
 [ext_resource type="Script" path="res://tests/test_music_slots.gd" id="6"]
+[ext_resource type="Script" path="res://tests/test_ui_localization.gd" id="7"]
+[ext_resource type="Script" path="res://tests/test_game_start.gd" id="8"]
 
 [node name="TestRunner" type="Control"]
 layout_mode = 3
@@ -34,3 +36,9 @@ script = ExtResource("5")
 
 [node name="TestMusicSlots" type="Node" parent="."]
 script = ExtResource("6")
+
+[node name="TestUiLocalization" type="Node" parent="."]
+script = ExtResource("7")
+
+[node name="TestGameStart" type="Node" parent="."]
+script = ExtResource("8")

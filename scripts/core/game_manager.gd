@@ -61,12 +61,33 @@ func _load_scenario() -> void:
 	if data.is_empty():
 		_load_territory_owners()
 		return
+	if data.has("initial_units"):
+		_load_initial_units(data["initial_units"])
 	_scenario_data = data
 	if data.has("initial_morale"):
 		_morale = data["initial_morale"].duplicate(true)
 	if data.has("initial_resources"):
 		_resources = data["initial_resources"].duplicate(true)
 	_load_scenario_territories(data)
+
+## Start-of-war garrisons: free units placed on key territories so the
+## map is alive before the first card is played (owner decision 20.11).
+func _load_initial_units(units_data: Dictionary) -> void:
+	_units_on_map.clear()
+	var card_script: GDScript = load("res://scripts/cards/card_instance.gd")
+	for t_id in units_data:
+		var units: Array = []
+		for entry in units_data[t_id]:
+			var card_data: Dictionary = CardDatabase.get_unit(str(entry.get("id", "")))
+			if card_data.is_empty():
+				Logger.warn("GameManager", "Initial unit not found: %s" % str(entry.get("id", "")))
+				continue
+			var card = card_script.new(card_data)
+			card.territory_id = t_id
+			units.append(card)
+		if not units.is_empty():
+			_units_on_map[t_id] = units
+	Logger.info("GameManager", "Initial garrisons: %d territories" % _units_on_map.size())
 
 func _read_scenario_json(path: String) -> Dictionary:
 	if not FileAccess.file_exists(path):
