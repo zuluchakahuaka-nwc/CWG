@@ -20,7 +20,19 @@ func _ready() -> void:
 	_continue_btn.disabled = not _has_save()
 	Localization.language_changed.connect(_localize)
 	AudioManager.attach_button_sounds(self)
+	_help_btn = Button.new()
+	_help_btn.name = "HelpButton"
+	_help_btn.pressed.connect(_on_help)
+	var box: VBoxContainer = $VBoxContainer
+	box.add_child(_help_btn)
+	box.move_child(_help_btn, box.get_child_count() - 2)
+	_localize()
 	_play_menu_music()
+
+var _help_btn: Button = null
+
+func _on_help() -> void:
+	get_tree().change_scene_to_file("res://scenes/help.tscn")
 
 var _PhonographPlayerScript = load("res://scripts/ui/phonograph_player.gd")
 var _menu_music = null
@@ -41,6 +53,8 @@ func _localize() -> void:
 	_quit_btn.text = Localization.t("game.quit")
 	var current: String = Localization.get_language()
 	_lang_btn.text = Localization.t("game.language") + ": " + Localization.get_language_native_name(current)
+	if _help_btn:
+		_help_btn.text = Localization.t("game.help")
 
 func _on_new_game() -> void:
 	get_tree().change_scene_to_file("res://scenes/scenario_select.tscn")

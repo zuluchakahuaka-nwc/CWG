@@ -136,6 +136,10 @@ func _input(event: InputEvent) -> void:
 		_save_game()
 		get_tree().change_scene_to_file("res://scenes/map_v2.tscn")
 		return
+	if event is InputEventKey and event.pressed and not event.echo and event.keycode == KEY_F1:
+		_save_game()
+		get_tree().change_scene_to_file("res://scenes/help.tscn")
+		return
 	if _detail_popup.visible:
 		if event is InputEventMouseButton and event.pressed:
 			if not _detail_popup.get_global_rect().has_point(event.global_position):
@@ -530,7 +534,10 @@ func _update_ui() -> void:
 	elif phase == GameManager.Phase.COMBAT:
 		info = Localization.t("ui.info.combat") % (_battle_log if _battle_log != "" else Localization.t("ui.info.no_battles"))
 	elif phase == GameManager.Phase.RESOURCES:
-		info = Localization.t("ui.info.resources_collected")
+		if GameManager.get_current_turn() == 1:
+			info = Localization.t("ui.info.resources_first")
+		else:
+			info = Localization.t("ui.info.resources_collected")
 	elif phase == GameManager.Phase.EVENTS:
 		info = Localization.t("ui.info.events_processed")
 	elif phase == GameManager.Phase.END:
@@ -583,13 +590,16 @@ func _show_territory_info(t_id: String) -> void:
 	else:
 		_terr_units_label.text = Localization.t("ui.units_count") % alive_units.size()
 		for u in alive_units:
-			var ulbl: Label = Label.new()
-			var u_name: String = Localization.get_card_name(u.card_data)
-			ulbl.text = "  %s  HP:%d/%d  A:%d D:%d" % [u_name.left(22), u.current_hp, u.max_hp, u.attack, u.defense]
-			ulbl.add_theme_font_size_override("font_size", 11)
-			var side_col: Color = Color(0.5, 0.7, 1.0) if u.side == "union" else Color(1.0, 0.5, 0.5)
-			ulbl.add_theme_color_override("font_color", side_col)
-			_terr_units_list.add_child(ulbl)
+			# Clickable unit row: opens the unit card (owner note - troops
+			# on the map must be inspectable, not just listed as text).
+			var ubtn := Button.new()
+			var u_name2: String = Localization.get_card_name(u.card_data)
+			ubtn.text = "  %s  HP:%d/%d  A:%d D:%d" % [u_name2.left(22), u.current_hp, u.max_hp, u.attack, u.defense]
+			ubtn.alignment = HORIZONTAL_ALIGNMENT_LEFT
+			ubtn.add_theme_font_size_override("font_size", 11)
+			ubtn.modulate = Color(0.8, 0.9, 1.15) if u.side == "union" else Color(1.15, 0.85, 0.8)
+			ubtn.pressed.connect(_show_card_detail.bind(u.card_data))
+			_terr_units_list.add_child(ubtn)
 	_terr_info.visible = true
 
 func _try_place_card_at(territory_id: String, idx: int) -> void:
