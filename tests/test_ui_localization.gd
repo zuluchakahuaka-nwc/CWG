@@ -84,6 +84,10 @@ const LAW_KEYS: PackedStringArray = [
 	"ui.info.resources_first", "game.help", "help.title",
 	"help.flow.title", "help.flow.body", "help.units.title",
 	"help.units.body", "help.controls.title", "help.controls.body",
+	"ui.tip.resources", "ui.tip.draw", "ui.tip.movement", "ui.tip.combat",
+	"ui.tip.events", "ui.tip.end", "ui.tip.help_hint",
+	"ui.res.manpower.tip", "ui.res.money.tip", "ui.res.supply.tip",
+	"ui.res.morale.tip",
 ]
 
 func _ready() -> void:
@@ -94,7 +98,23 @@ func _ready() -> void:
 	test_law_keys_exist_in_ru_and_en()
 	test_all_code_keys_resolve()
 	test_every_key_has_ru_and_en()
+	test_all_scene_scripts_compile()
 	_print_summary()
+
+## A scene script that fails to parse kills the whole scene silently:
+## no _localize, no button handlers (the "English menu + dead Quit"
+## incident was exactly this - a duplicated member declaration).
+## Guard: every scene .gd must compile.
+func test_all_scene_scripts_compile() -> void:
+	var broken: Array = []
+	for path in _collect_gd_files("res://scenes"):
+		var script: GDScript = load(path)
+		if script == null:
+			broken.append(path + " (unloadable)")
+			continue
+		if script.reload() != OK:
+			broken.append(path)
+	_assert(broken.is_empty(), "every scene script compiles %s" % str(broken).left(250))
 
 ## CSV hygiene: the player must never see raw keys, so the dictionary
 ## itself must be sane - 11 fields per row, unique keys, ru+en filled.

@@ -34,8 +34,6 @@ var _help_btn: Button = null
 func _on_help() -> void:
 	get_tree().change_scene_to_file("res://scenes/help.tscn")
 
-var _help_btn: Button = null
-
 func _play_menu_music() -> void:
 	# Slot-driven menu music (hub law): builds without music stay silent.
 	# Autoload player: if the phonograph left a track playing, keep it.
