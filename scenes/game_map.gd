@@ -16,8 +16,6 @@ func _get_phase_names() -> PackedStringArray:
 	])
 var _battle_log: String = ""
 var _card_nodes: Array = []
-var _bg_music = null
-var _PhonographPlayerScript = load("res://scripts/ui/phonograph_player.gd")
 
 var _zoom_level: float = 2.0
 var _min_zoom: float = 2.0
@@ -62,6 +60,10 @@ const KEY_PAN_SPEED: float = 900.0
 
 var _hand_container: HBoxContainer = null
 var _hand_label: Label = null
+var _advisor_panel: PanelContainer = null
+var _advisor_phase: Label = null
+var _advisor_tip: Label = null
+var _advisor_hint: Label = null
 var _drag_card_idx: int = -1
 var _drag_preview: Control = null
 var _dragging: bool = false
@@ -82,7 +84,7 @@ func _build_hand_panel() -> void:
 	hand_panel.name = "HandPanel"
 	hand_panel.set_anchors_preset(Control.PRESET_BOTTOM_WIDE)
 	hand_panel.offset_left = 4.0
-	hand_panel.offset_top = -500.0
+	hand_panel.offset_top = -540.0
 	hand_panel.offset_right = -4.0
 	hand_panel.offset_bottom = -44.0
 	hand_panel.z_index = 12
@@ -96,6 +98,47 @@ func _build_hand_panel() -> void:
 	_hand_container.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	hand_panel.add_child(_hand_container)
 	add_child(hand_panel)
+	_build_advisor()
+
+## Parchment corner card: what THIS phase means and what to press
+## (owner request - the turn order must be readable from the screen).
+func _build_advisor() -> void:
+	_advisor_panel = PanelContainer.new()
+	_advisor_panel.set_anchors_preset(Control.PRESET_TOP_LEFT)
+	_advisor_panel.offset_left = 12.0
+	_advisor_panel.offset_top = 50.0
+	_advisor_panel.offset_right = 392.0
+	_advisor_panel.z_index = 40
+	var style := StyleBoxFlat.new()
+	style.bg_color = Color(0.93, 0.87, 0.72, 0.92)
+	style.border_color = Color(0.24, 0.17, 0.09)
+	style.set_border_width_all(2)
+	style.set_corner_radius_all(4)
+	style.content_margin_left = 10.0
+	style.content_margin_right = 10.0
+	style.content_margin_top = 6.0
+	style.content_margin_bottom = 6.0
+	_advisor_panel.add_theme_stylebox_override("panel", style)
+	var box := VBoxContainer.new()
+	box.add_theme_constant_override("separation", 2)
+	_advisor_panel.add_child(box)
+	_advisor_phase = Label.new()
+	_advisor_phase.add_theme_font_override("font", FontLoader.get_font("caption"))
+	_advisor_phase.add_theme_font_size_override("font_size", 18)
+	_advisor_phase.add_theme_color_override("font_color", Color(0.20, 0.14, 0.07))
+	box.add_child(_advisor_phase)
+	_advisor_tip = Label.new()
+	_advisor_tip.add_theme_font_override("font", FontLoader.get_font("body"))
+	_advisor_tip.add_theme_font_size_override("font_size", 14)
+	_advisor_tip.add_theme_color_override("font_color", Color(0.25, 0.20, 0.12))
+	_advisor_tip.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	_advisor_tip.custom_minimum_size = Vector2(350, 0)
+	box.add_child(_advisor_tip)
+	_advisor_hint = Label.new()
+	_advisor_hint.add_theme_font_size_override("font_size", 12)
+	_advisor_hint.add_theme_color_override("font_color", Color(0.45, 0.38, 0.26))
+	box.add_child(_advisor_hint)
+	add_child(_advisor_panel)
 
 func _ready() -> void:
 	var map_ctrl_script = load("res://scripts/map/map_controller.gd")
@@ -126,7 +169,24 @@ func _ready() -> void:
 	_localize()
 	_setup_bg_music()
 	AudioManager.attach_button_sounds(self)
+	_debug_hand_fill()
 	Logger.info("GameMap", "Hotseat game ready. Turn=%d" % GameManager.get_current_turn())
+
+## QA/vision helper: CWG_DEBUG_HAND=n fills the active hand with n random
+## units so screenshots can show the hand cards deterministically.
+func _debug_hand_fill() -> void:
+	var want: String = OS.get_environment("CWG_DEBUG_HAND")
+	if want == "":
+		return
+	var n: int = int(want)
+	var pool: Array = CardDatabase.get_all_units_for_side(_active_side)
+	if pool.is_empty():
+		return
+	for i in range(n):
+		var card = load("res://scripts/cards/card_instance.gd").new(pool[i % pool.size()])
+		_hands[_active_side].append(card)
+	_refresh_hand()
+	Logger.info("GameMap", "CWG_DEBUG_HAND filled %d cards" % n)
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("ui_cancel"):
@@ -378,16 +438,18 @@ func _refresh_hand() -> void:
 		var side: String = card.side
 		var bg: PanelContainer = PanelContainer.new()
 		var bg_style: StyleBoxFlat = StyleBoxFlat.new()
-		bg_style.bg_color = Color(0, 0, 0, 0)
-		bg_style.set_border_width_all(0)
+		bg_style.bg_color = Color(0.93, 0.87, 0.72, 0.96)
+		bg_style.set_border_width_all(1)
+		bg_style.border_color = Color(0.24, 0.17, 0.09, 0.8)
+		bg_style.set_corner_radius_all(4)
 		if i == _selected_card_idx:
 			bg_style.bg_color = Color(1.0, 0.9, 0.3, 0.35)
 			bg_style.set_border_width_all(2)
 			bg_style.border_color = Color(1.0, 0.85, 0.0)
 		bg.add_theme_stylebox_override("panel", bg_style)
-		bg.custom_minimum_size = Vector2(220, 340)
+		bg.custom_minimum_size = Vector2(300, 460)
 		var vbox: VBoxContainer = VBoxContainer.new()
-		vbox.add_theme_constant_override("separation", 2)
+		vbox.add_theme_constant_override("separation", 3)
 		var portrait: TextureRect = TextureRect.new()
 		var img_path: String = _find_card_image(card.id, side, card.type)
 		var tex: Texture2D = _load_image_texture(img_path)
@@ -395,11 +457,11 @@ func _refresh_hand() -> void:
 			portrait.texture = tex
 		portrait.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 		portrait.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-		portrait.custom_minimum_size = Vector2(200, 160)
+		portrait.custom_minimum_size = Vector2(276, 230)
 		vbox.add_child(portrait)
 		var name_lbl: Label = Label.new()
 		name_lbl.text = Localization.get_card_name(card.card_data)
-		name_lbl.add_theme_font_size_override("font_size", 12)
+		name_lbl.add_theme_font_size_override("font_size", 17)
 		name_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		name_lbl.text_overrun_behavior = TextServer.OVERRUN_TRIM_WORD_ELLIPSIS
 		name_lbl.max_lines_visible = 3
@@ -408,13 +470,13 @@ func _refresh_hand() -> void:
 		vbox.add_child(name_lbl)
 		var stats_lbl: Label = Label.new()
 		stats_lbl.text = Localization.t("ui.card_stats") % [card.attack, card.defense, card.max_hp, card.cost]
-		stats_lbl.add_theme_font_size_override("font_size", 14)
+		stats_lbl.add_theme_font_size_override("font_size", 19)
 		stats_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		stats_lbl.add_theme_color_override("font_color", Color(0, 0, 0))
 		vbox.add_child(stats_lbl)
 		var type_lbl: Label = Label.new()
 		type_lbl.text = card.type.to_upper() + " | " + card.rarity.to_upper()
-		type_lbl.add_theme_font_size_override("font_size", 12)
+		type_lbl.add_theme_font_size_override("font_size", 15)
 		type_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		type_lbl.add_theme_color_override("font_color", Color(0.15, 0.15, 0.15))
 		vbox.add_child(type_lbl)
@@ -544,6 +606,37 @@ func _update_ui() -> void:
 		info = Localization.t("ui.info.end_turn")
 	if _info_label:
 		_info_label.text = info
+	_update_advisor(phase_idx)
+	_apply_resource_tooltips()
+
+func _update_advisor(phase_idx: int) -> void:
+	if _advisor_panel == null:
+		return
+	var names := _get_phase_names()
+	if phase_idx < 0 or phase_idx >= names.size():
+		_advisor_panel.visible = false
+		return
+	_advisor_panel.visible = true
+	_advisor_phase.text = names[phase_idx]
+	var tip_key := ""
+	match phase_idx:
+		GameManager.Phase.RESOURCES: tip_key = "ui.tip.resources"
+		GameManager.Phase.DRAW: tip_key = "ui.tip.draw"
+		GameManager.Phase.MOVEMENT: tip_key = "ui.tip.movement"
+		GameManager.Phase.COMBAT: tip_key = "ui.tip.combat"
+		GameManager.Phase.EVENTS: tip_key = "ui.tip.events"
+		GameManager.Phase.END: tip_key = "ui.tip.end"
+	_advisor_tip.text = Localization.t(tip_key)
+	_advisor_hint.text = Localization.t("ui.tip.help_hint")
+	Logger.info("Advisor", "turn=%d phase_idx=%d marker='%s' owners=%d" % [
+		GameManager.get_current_turn(), phase_idx, GameManager.phase_execution_marker, GameManager._territory_owners.size()])
+
+func _apply_resource_tooltips() -> void:
+	if _manpower_label:
+		_manpower_label.tooltip_text = Localization.t("ui.res.manpower.tip")
+		_money_label.tooltip_text = Localization.t("ui.res.money.tip")
+		_supply_label.tooltip_text = Localization.t("ui.res.supply.tip")
+		_morale_label.tooltip_text = Localization.t("ui.res.morale.tip")
 
 func _on_territory_clicked(territory_id: String) -> void:
 	if _map_controller and _map_controller.has_method("clear_highlights"):
@@ -704,8 +797,7 @@ func _on_game_over(winner: String, reason: String) -> void:
 	Logger.info("GameMap", "Game over: winner=%s reason=%s" % [winner, reason])
 	# Hotseat: a decisive outcome is a fanfare; a draw gets the somber cue.
 	AudioManager.play("victory" if winner != "draw" else "defeat")
-	if _bg_music:
-		_bg_music.play_slot("victory" if winner != "draw" else "defeat")
+	MusicPlayer.play_slot("victory" if winner != "draw" else "defeat")
 	_show_game_over_overlay(winner, reason)
 
 func _show_game_over_overlay(winner: String, reason: String) -> void:
@@ -808,20 +900,14 @@ func _restore_hands_if_any() -> void:
 	Logger.info("GameMap", "Restored hands from save: U=%d C=%d" % [_hands["union"].size(), _hands["confederate"].size()])
 
 func _setup_bg_music() -> void:
-	_bg_music = _PhonographPlayerScript.new()
-	add_child(_bg_music)
-	_bg_music.set_volume(0.5)
-	_bg_music.set_side(_active_side)
-	if GameManager._last_phonograph_track and not GameManager._last_phonograph_track.is_empty():
-		_bg_music.play_track(GameManager._last_phonograph_track)
-		GameManager._last_phonograph_track = {}
-	else:
-		_play_music_for_side(_active_side)
+	# MusicPlayer is an autoload: whatever the phonograph was playing
+	# keeps playing across scenes - never restart a track on return.
+	MusicPlayer.set_volume(0.5)
+	if not MusicPlayer.is_playing():
+		MusicPlayer.play_slot(MusicSlots.side_slot(_active_side))
 
 func _play_music_for_side(side: String) -> void:
-	if _bg_music == null:
-		return
-	_bg_music.play_slot(MusicSlots.side_slot(side))
+	MusicPlayer.play_slot(MusicSlots.side_slot(side))
 
 func _on_side_switched(new_side: String) -> void:
 	_play_music_for_side(new_side)

@@ -1,7 +1,6 @@
 extends Control
 
 var _player = null
-var _PhonographPlayerScript = load("res://scripts/ui/phonograph_player.gd")
 
 @onready var _title: Label = $Panel/VBox/TitleLabel
 @onready var _mode_label: Label = $Panel/VBox/ModeLabel
@@ -24,8 +23,7 @@ var _current_side: String = "union"
 var _loading: bool = false
 
 func _ready() -> void:
-	_player = _PhonographPlayerScript.new()
-	add_child(_player)
+	_player = MusicPlayer  # autoload: music survives scene round-trips
 	_localize()
 	_close_btn.pressed.connect(_on_close)
 	_play_btn.pressed.connect(_on_play)
@@ -168,14 +166,8 @@ func _update_now_playing() -> void:
 	_track_label.text = track.get("title_" + Localization.get_language(), track.get("title_en", "???"))
 
 func _on_close() -> void:
-	if _player and _player.is_playing():
-		var track: Dictionary = _player.get_current_track()
-		if not track.is_empty():
-			GameManager._last_phonograph_track = track
-			GameManager._last_phonograph_side = _current_side
-	else:
-		GameManager._last_phonograph_track = {}
-		GameManager._last_phonograph_side = ""
+	# MusicPlayer is an autoload - the track keeps playing where it is,
+	# no save/restore dance needed on scene changes.
 	get_tree().change_scene_to_file("res://scenes/game_map.tscn")
 
 func _process(_delta: float) -> void:

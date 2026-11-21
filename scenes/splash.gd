@@ -5,8 +5,6 @@ extends Control
 const HOLD_SECONDS: float = 5.0
 
 var _advanced: bool = false
-var _music = null
-var _PhonographPlayerScript = load("res://scripts/ui/phonograph_player.gd")
 
 @onready var _bg: TextureRect = $Bg
 @onready var _dim: ColorRect = $Dim
@@ -50,10 +48,8 @@ func _apply_hint() -> void:
 	_hint.text = Localization.t("splash.skip")
 
 func _play_music() -> void:
-	_music = _PhonographPlayerScript.new()
-	add_child(_music)
-	_music.set_volume(0.45)
-	_music.play_slot("menu")
+	MusicPlayer.set_volume(0.45)
+	MusicPlayer.play_slot("menu")
 
 func _input(event: InputEvent) -> void:
 	if event is InputEventKey or event is InputEventMouseButton:
@@ -63,6 +59,4 @@ func _advance() -> void:
 	if _advanced:
 		return
 	_advanced = true
-	if _music:
-		_music.stop()
 	get_tree().change_scene_to_file("res://scenes/main_menu.tscn")

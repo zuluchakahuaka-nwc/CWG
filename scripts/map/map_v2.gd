@@ -255,19 +255,30 @@ func _draw_river(r_id: String, t: Transform2D) -> void:
 	var scr := PackedVector2Array()
 	for p in pts:
 		scr.append(t * p)
-	draw_polyline(scr, RIVER_INK, 2.2, true)
-	var echo_pts := PackedVector2Array()
-	for p in scr:
-		echo_pts.append(p + Vector2(1.5, 1.5))
-	draw_polyline(echo_pts, Color(RIVER_INK, 0.35), 1.0, true)
+	# Thinner and quieter: rivers must read as rivers, not mystery bands.
+	draw_polyline(scr, Color(RIVER_INK.r, RIVER_INK.g, RIVER_INK.b, 0.65), 1.6, true)
+	var mid: Vector2 = scr[scr.size() / 2]
+	var name_loc: String = Localization.t("river." + r_id) if Localization.has_key("river." + r_id) else ""
+	if name_loc != "":
+		draw_string(FontLoader.get_font("caption"), mid + Vector2(4, -8), name_loc, HORIZONTAL_ALIGNMENT_LEFT, -1, 15, Color(0.17, 0.30, 0.40, 0.95))
 
 func _draw_cartouche(t: Transform2D) -> void:
 	var origin := Vector2(34.0, 30.0)
-	var box := Rect2(origin, Vector2(330.0, 64.0))
+	var box := Rect2(origin, Vector2(360.0, 128.0))
 	draw_rect(box, PARCHMENT)
 	draw_rect(box, INK, false, 2.0)
 	draw_string(FontLoader.get_font("title"), origin + Vector2(14, 30), Localization.t("map.cartouche"), HORIZONTAL_ALIGNMENT_LEFT, -1, 24, INK)
 	draw_string(FontLoader.get_font("body"), origin + Vector2(14, 52), Localization.t("map.cartouche.sub"), HORIZONTAL_ALIGNMENT_LEFT, -1, 14, INK_SOFT)
+	# Legend: what the map colors and unit chips mean.
+	var ly: float = origin.y + 78.0
+	draw_circle(origin + Vector2(22, ly - 4), 7, Color(UNION_FILL.r, UNION_FILL.g, UNION_FILL.b, 0.95))
+	draw_string(FontLoader.get_font("body"), origin + Vector2(36, ly), Localization.t("side.union"), HORIZONTAL_ALIGNMENT_LEFT, -1, 13, INK)
+	draw_circle(origin + Vector2(150, ly - 4), 7, Color(CONFED_FILL.r, CONFED_FILL.g, CONFED_FILL.b, 0.95))
+	draw_string(FontLoader.get_font("body"), origin + Vector2(164, ly), Localization.t("side.confederate"), HORIZONTAL_ALIGNMENT_LEFT, -1, 13, INK)
+	var hy: float = ly + 22.0
+	for i in 9:
+		draw_line(origin + Vector2(16 + i * 3, hy - 8 + i), origin + Vector2(19 + i * 3, hy - 5 + i), INK, 1.4)
+	draw_string(FontLoader.get_font("body"), origin + Vector2(48, hy), Localization.t("map.legend.disputed"), HORIZONTAL_ALIGNMENT_LEFT, -1, 13, INK)
 
 func _draw_unit_chips(t: Transform2D) -> void:
 	_unit_chip_rects.clear()

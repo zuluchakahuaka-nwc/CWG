@@ -34,15 +34,14 @@ var _help_btn: Button = null
 func _on_help() -> void:
 	get_tree().change_scene_to_file("res://scenes/help.tscn")
 
-var _PhonographPlayerScript = load("res://scripts/ui/phonograph_player.gd")
-var _menu_music = null
+var _help_btn: Button = null
 
 func _play_menu_music() -> void:
 	# Slot-driven menu music (hub law): builds without music stay silent.
-	_menu_music = _PhonographPlayerScript.new()
-	add_child(_menu_music)
-	_menu_music.set_volume(0.4)
-	_menu_music.play_slot("menu")
+	# Autoload player: if the phonograph left a track playing, keep it.
+	if not MusicPlayer.is_playing():
+		MusicPlayer.set_volume(0.4)
+		MusicPlayer.play_slot("menu")
 
 func _localize() -> void:
 	_title.text = Localization.t("game.title")

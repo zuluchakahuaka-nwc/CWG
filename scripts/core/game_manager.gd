@@ -33,8 +33,6 @@ var _used_one_time_events: Array = []
 
 var _music_style: Dictionary = {"union": "valces", "confederate": "folk"}
 var _music_style_options: PackedStringArray = ["valces", "folk"]
-var _last_phonograph_track: Dictionary = {}
-var _last_phonograph_side: String = ""
 # turn:phase marker of the last EXECUTED phase. Lives in the autoload so
 # it survives scene changes (settings/phonograph round-trips) - prevents
 # re-executing phase side effects (double income, double draws).
