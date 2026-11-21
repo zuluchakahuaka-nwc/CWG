@@ -85,8 +85,8 @@ func _build_hand_panel() -> void:
 	hand_panel.set_anchors_preset(Control.PRESET_BOTTOM_WIDE)
 	hand_panel.offset_left = 4.0
 	# Cards dock to the screen bottom edge: status bar (38px) + hand
-	# label row below, full 460px card height above - nothing cropped.
-	hand_panel.offset_top = -530.0
+	# label row below, full card height above - nothing cropped.
+	hand_panel.offset_top = -415.0
 	hand_panel.offset_right = -4.0
 	hand_panel.offset_bottom = -64.0
 	hand_panel.z_index = 12
@@ -460,7 +460,7 @@ func _refresh_hand() -> void:
 		var n: int = hand.size()
 		var sep: float = 0.0
 		if n > 1:
-			sep = minf(0.0, (size.x - 16.0 - n * 300.0) / float(n - 1))
+			sep = minf(0.0, (size.x - 16.0 - n * 225.0) / float(n - 1))
 		_hand_container.add_theme_constant_override("separation", int(sep))
 	for i in range(hand.size()):
 		var card = hand[i]
@@ -476,9 +476,9 @@ func _refresh_hand() -> void:
 			bg_style.set_border_width_all(2)
 			bg_style.border_color = Color(1.0, 0.85, 0.0)
 		bg.add_theme_stylebox_override("panel", bg_style)
-		bg.custom_minimum_size = Vector2(300, 460)
+		bg.custom_minimum_size = Vector2(225, 345)
 		var vbox: VBoxContainer = VBoxContainer.new()
-		vbox.add_theme_constant_override("separation", 3)
+		vbox.add_theme_constant_override("separation", 2)
 		var portrait: TextureRect = TextureRect.new()
 		var img_path: String = _find_card_image(card.id, side, card.type)
 		var tex: Texture2D = _load_image_texture(img_path)
@@ -486,28 +486,28 @@ func _refresh_hand() -> void:
 			portrait.texture = tex
 		portrait.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 		portrait.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-		portrait.custom_minimum_size = Vector2(276, 230)
+		portrait.custom_minimum_size = Vector2(207, 172)
 		portrait.size_flags_vertical = Control.SIZE_EXPAND_FILL
 		vbox.add_child(portrait)
 		var name_lbl: Label = Label.new()
 		name_lbl.text = Localization.get_card_name(card.card_data)
-		name_lbl.add_theme_font_size_override("font_size", 17)
+		name_lbl.add_theme_font_size_override("font_size", 13)
 		name_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		name_lbl.text_overrun_behavior = TextServer.OVERRUN_TRIM_WORD_ELLIPSIS
 		name_lbl.max_lines_visible = 3
 		name_lbl.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
-		name_lbl.custom_minimum_size = Vector2(0, 74)
+		name_lbl.custom_minimum_size = Vector2(0, 56)
 		name_lbl.add_theme_color_override("font_color", Color(0, 0, 0))
 		vbox.add_child(name_lbl)
 		var stats_lbl: Label = Label.new()
 		stats_lbl.text = Localization.t("ui.card_stats") % [card.attack, card.defense, card.max_hp, card.cost]
-		stats_lbl.add_theme_font_size_override("font_size", 19)
+		stats_lbl.add_theme_font_size_override("font_size", 14)
 		stats_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		stats_lbl.add_theme_color_override("font_color", Color(0, 0, 0))
 		vbox.add_child(stats_lbl)
 		var type_lbl: Label = Label.new()
 		type_lbl.text = card.type.to_upper() + " | " + card.rarity.to_upper()
-		type_lbl.add_theme_font_size_override("font_size", 15)
+		type_lbl.add_theme_font_size_override("font_size", 11)
 		type_lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 		type_lbl.add_theme_color_override("font_color", Color(0.15, 0.15, 0.15))
 		vbox.add_child(type_lbl)
