@@ -1,5 +1,5 @@
 key,ru,en,fr,es,de,pt,zh,ja,hi,ar
-game.title,Гражданская война: Синие и Серые,Civil War: Blue & Gray,Guerre civile : Bleu et Gris,Guerra Civil: Azul y Gris,Bürgerkrieg: Blau und Grau,Guerra Civil: Azul e Cinzento,南北战争：蓝与灰,南北戦争：青と灰,सिविल वॉर: ब्लू एंड ग्रे,الحرب الأهلية: الأزرق والرمادي
+game.title,Гражданская война: Синие и Красные,Civil War: Blue & Red,Guerre civile : Bleu et Rouge,Guerra Civil: Azul y Rojo,Bürgerkrieg: Blau und Rot,Guerra Civil: Azul e Vermelho,南北战争：蓝与红,南北戦争：青と赤,सिविल वॉर: ब्लू एंड रेड,الحرب الأهلية: الأزرق والأحمر
 game.subtitle,Пошаговая карточная стратегия,Turn-based Card Strategy,Stratégie de cartes au tour par tour,Estrategia de cartas por turnos,Rundenbasierte Kartentaktik,Estratégia de cartas por turnos,回合制卡牌策略,ターン制カード戦略,टर्न आधारित कार्ड रणनीति,استراتيجية بطاقات قائمة على الأدوار
 game.new_game,Новая игра,New Game,Nouvelle partie,Nueva partida,Neues Spiel,Novo Jogo,新游戏,ニューゲーム,नया खेल,لعبة جديدة
 game.continue,Продолжить,Continue,Continuer,Continuar,Fortsetzen,Continuar,继续,続行,जारी रखें,متابعة
@@ -373,7 +373,7 @@ ui.info.events_processed,События обработаны. Нажмите К�
 ui.info.end_turn,КОНЕЦ ХОДА. Нажмите КОНЕЦ ФАЗЫ.,END OF TURN. Click END PHASE.,FIN DU TOUR. Cliquez FIN DE PHASE.,FIN DE TURNO. Clic FIN DE FASE.,RUNDENENDE. PHASE BEENDEN klicken.,FIM DO TURNO. Clique FIM DE FASE.,回合结束。点击结束阶段。,ターン終了。フェーズ終了をクリック।,बारी अंत। चरण समाप्त क्लिक करें।,نهاية الدور. انقر إنهاء المرحلة.
 ui.units_count,Юниты: %d,Units: %d,Unités: %d,Unidades: %d,Einheiten: %d,Unidades: %d,单位: %d,ユニット: %d,इकाइयाँ: %d,الوحدات: %d
 ui.side_union_blue,СОЮЗ (Синие),UNION (Blue),UNION (Bleu),UNIÓN (Azul),UNION (Blau),UNIÃO (Azul),联邦（蓝）,北軍（青）,संघ (नीले),الاتحاد (أزرق)
-ui.side_confed_red,КОНФЕДЕРАЦИЯ (Серые),CONFED (Red),CONFÉDÉRATION (Rouge),CONFEDERACIÓN (Rojo),KONFÖDERATION (Rot),CONFEDERAÇÃO (Vermelho),邦联（红）,南軍（赤）,संघराज्य (लाल),الكونفدرالية (أحمر)
+ui.side_confed_red,КОНФЕДЕРАЦИЯ (Красные),CONFED (Red),CONFÉDÉRATION (Rouge),CONFEDERACIÓN (Rojo),KONFÖDERATION (Rot),CONFEDERAÇÃO (Vermelho),邦联（红）,南軍（赤）,संघराज्य (लाल),الكونفدرالية (أحمر)
 ui.delete_confirm,Удалить это сохранение?,Delete this save?,Supprimer cette sauvegarde ?,¿Eliminar esta partida?,Delete this save?,Delete this save?,Delete this save?,Delete this save?,Delete this save?,Delete this save?
 ui.tutorial,Обучение,Tutorial,Tutoriel,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial
 ui.credits,Авторы,Credits,Crédits,Créditos,Credits,Credits,Credits,Credits,Credits,Credits

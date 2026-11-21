@@ -10,7 +10,7 @@ config_version=5
 
 [application]
 
-config/name="Civil War: Blue & Gray"
+config/name="Civil War: Blue & Red"
 config/description="Turn-based card strategy game about the American Civil War"
 run/main_scene="res://scenes/splash.tscn"
 config/features=PackedStringArray("4.2")
