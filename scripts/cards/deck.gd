@@ -15,6 +15,11 @@ func build_deck(side: String) -> void:
 		for i in copies:
 			_cards.append(unit_data.duplicate(true))
 	for sit_data in situations:
+		# Only hand-playable situations enter the deck (owner law: a card
+		# in the hand that does nothing is a P1 bug). Battle-wired events
+		# join when their combat triggers land.
+		if not SituationPlay.is_playable(sit_data):
+			continue
 		var copies: int = _get_copies_by_rarity(sit_data.get("subtype", "universal"))
 		if sit_data.get("one_time_use", false):
 			copies = 1

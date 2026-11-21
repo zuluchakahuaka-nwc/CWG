@@ -64,12 +64,26 @@ var _advisor_panel: PanelContainer = null
 var _advisor_phase: Label = null
 var _advisor_tip: Label = null
 var _advisor_hint: Label = null
+var _phase_strip: PhaseStrip = null
+var _decks: Dictionary = {}
 var _ai: Node = null
 var _ai_turn_pending: bool = false
 var _drag_card_idx: int = -1
 var _drag_preview: Control = null
 var _dragging: bool = false
 var _selected_card_idx: int = -1
+
+## Bright phase strip under the TopBar (owner feedback 21.11: "I don't
+## see the phases"). Centered horizontally; segments are mouse-transparent
+## so map clicks pass through.
+func _build_phase_strip() -> void:
+	_phase_strip = PhaseStrip.new()
+	_phase_strip.name = "PhaseStrip"
+	_phase_strip.set_anchors_preset(Control.PRESET_CENTER_TOP)
+	_phase_strip.grow_horizontal = Control.GROW_DIRECTION_BOTH
+	_phase_strip.offset_top = 48.0
+	_phase_strip.z_index = 30
+	add_child(_phase_strip)
 
 func _build_hand_panel() -> void:
 	_hand_label = Label.new()
@@ -151,6 +165,7 @@ func _ready() -> void:
 	_map_area.add_child(_map_controller)
 	await get_tree().process_frame
 	_apply_map_transform()
+	_build_phase_strip()
 	_build_hand_panel()
 	_end_turn_btn.pressed.connect(_on_end_turn)
 	_auto_turn_btn.pressed.connect(_on_auto_turn)
@@ -330,16 +345,30 @@ func _phase_draw() -> void:
 			if GameManager._territory_owners[t_id] == side:
 				owned += 1
 		var count: int = 2 + int(owned / 5.0) + GameManager.get_morale_bonus_cards(side)
-		var all_units: Array = CardDatabase.get_all_units_for_side(side)
-		if all_units.is_empty():
-			continue
+		var deck = _ensure_deck(side)
+		var ci_script = load("res://scripts/cards/card_instance.gd")
 		for i in range(count):
-			var card_data: Dictionary = all_units[randi() % all_units.size()]
-			var ci_script = load("res://scripts/cards/card_instance.gd")
-			var card = ci_script.new(card_data)
-			_hands[side].append(card)
+			var card_data: Dictionary = deck.draw_card()
+			if card_data.is_empty():
+				# Deck exhausted: a fresh shuffled deck (discards recycled).
+				deck.build_deck(side)
+				card_data = deck.draw_card()
+			if card_data.is_empty():
+				continue
+			_hands[side].append(ci_script.new(card_data))
 		Logger.info("Phase", "Drew %d cards for %s (territories: %d, hand: %d)" % [count, side, owned, _hands[side].size()])
 		AudioManager.play("card_draw")
+
+## One shared deck per side: units by rarity copies + playable situations
+## + commanders (owner feedback: "no situation cards" - they never reached
+## the draw before; battle-wired situations stay out until their combat
+## triggers exist so no dead card ever sits in the hand).
+func _ensure_deck(side: String):
+	if not _decks.has(side) or _decks[side] == null:
+		var deck = load("res://scripts/cards/deck.gd").new()
+		deck.build_deck(side)
+		_decks[side] = deck
+	return _decks[side]
 
 func _phase_combat() -> void:
 	_battle_log = ""
@@ -456,6 +485,8 @@ func _find_card_image(card_id: String, side: String, card_type: String) -> Strin
 	var sub: String = ""
 	if card_type == "situation":
 		sub = "situations/"
+	elif card_type == "commander":
+		sub = "commanders/"
 	elif side == "union":
 		sub = "units_union/"
 	else:
@@ -749,6 +780,14 @@ func _show_territory_info(t_id: String) -> void:
 	_terr_info.visible = true
 
 func _try_place_card_at(territory_id: String, idx: int) -> void:
+	# Situation & commander cards play as effects, not as deployed units.
+	var hand0: Array = _hands[_active_side]
+	if not hand0.is_empty() and idx < hand0.size():
+		var cd0: Dictionary = hand0[idx].card_data
+		var ctype: String = String(cd0.get("type", "infantry"))
+		if ctype == "situation" or ctype == "event" or SituationPlay.is_commander_card(cd0):
+			_try_play_situation_card(territory_id, idx)
+			return
 	# Placement law (owner feedback 21.11): recruit only onto OWN or
 	# NEUTRAL land. Enemy territory is refused with a hint - it must be
 	# conquered by moving units there and winning the battle.
@@ -776,6 +815,54 @@ func _try_place_card_at(territory_id: String, idx: int) -> void:
 	# defenders joins the side the moment troops stand on it.
 	GameManager.try_bloodless_capture(territory_id, _active_side)
 	Logger.info("GameMap", "Placed %s at %s (cost %d)" % [card.id, territory_id, cost])
+	AudioManager.play("card_play")
+	_update_ui()
+	_refresh_hand()
+	_show_territory_info(territory_id)
+	if _map_controller and _map_controller.has_method("update_unit_markers"):
+		_map_controller.update_unit_markers()
+
+## Playing a situation/commander card from the hand onto a territory.
+## Territory law: buffs, command and healing target OWN (or neutral) land;
+## destroy/debuff/reveal target ENEMY land - that is where enemy units
+## stand. Refusals keep the card in the hand and say why.
+func _try_play_situation_card(territory_id: String, idx: int) -> void:
+	var hand: Array = _hands[_active_side]
+	if hand.is_empty() or idx >= hand.size():
+		return
+	var card = hand[idx]
+	var card_data: Dictionary = card.card_data
+	var owner: String = GameManager.get_territory_owner(territory_id)
+	var wants_enemy: bool = SituationPlay.needs_enemy_land(card_data)
+	if wants_enemy and owner == _active_side:
+		if _info_label:
+			_info_label.text = Localization.t("sit.err.wrong_land")
+		return
+	if not wants_enemy and owner != _active_side and owner != "neutral":
+		if _info_label:
+			_info_label.text = Localization.t("sit.err.wrong_land")
+		return
+	var cost: int = card.cost
+	var res: Dictionary = GameManager.get_resources(_active_side)
+	if res.get("money", 0) < cost:
+		return
+	var result: Dictionary = SituationPlay.play(card_data, _active_side, territory_id, _hands)
+	if not bool(result.get("ok", false)):
+		if _info_label:
+			_info_label.text = Localization.t(String(result.get("key", "sit.err.conditions")))
+		Logger.info("GameMap", "Situation refused (%s): %s" % [card.id, String(result.get("telemetry", ""))])
+		return
+	GameManager.change_resource(_active_side, "money", -cost)
+	if not bool(result.get("keep", false)):
+		hand.pop_at(idx)
+	if _info_label:
+		var msg: String = Localization.t(String(result.get("key", "sit.ok.morale")))
+		var msg_args: Array = result.get("args", [])
+		if msg_args.size() > 0:
+			_info_label.text = msg % msg_args
+		else:
+			_info_label.text = msg
+	Logger.info("GameMap", "Played %s at %s (cost %d): %s" % [card.id, territory_id, cost, String(result.get("telemetry", ""))])
 	AudioManager.play("card_play")
 	_update_ui()
 	_refresh_hand()
@@ -968,7 +1055,7 @@ func _restore_hands_if_any() -> void:
 	for side in ["union", "confederate"]:
 		var rebuilt: Array = []
 		for card_state in restored.get(side, []):
-			var card_data: Dictionary = CardDatabase.get_unit(str(card_state.get("id", "")))
+			var card_data: Dictionary = CardDatabase.get_card(str(card_state.get("id", "")))
 			if card_data.is_empty():
 				continue
 			var card = load("res://scripts/cards/card_instance.gd").new(card_data)

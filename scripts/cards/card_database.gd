@@ -84,6 +84,17 @@ func get_situation(id: String) -> Dictionary:
 		return _situations[id]
 	return {}
 
+## Any card by id: unit, commander or situation (hands may hold all
+## three kinds since the deck feeds situations/commanders too).
+func get_card(id: String) -> Dictionary:
+	if _units.has(id):
+		return _units[id]
+	if _commanders.has(id):
+		return _commanders[id]
+	if _situations.has(id):
+		return _situations[id]
+	return {}
+
 func get_territory(id: String) -> Dictionary:
 	return _territories.get(id, {})
 

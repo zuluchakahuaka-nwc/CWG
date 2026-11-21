@@ -144,6 +144,8 @@ func _get_portrait_path() -> String:
 	var sub: String = ""
 	if type == "situation":
 		sub = "situations/"
+	elif type == "commander":
+		sub = "commanders/"
 	elif side == "union":
 		sub = "units_union/"
 	else:

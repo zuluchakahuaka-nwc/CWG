@@ -100,6 +100,16 @@ func play_cards() -> void:
 		if res["money"] < card.cost:
 			skipped += 1
 			continue
+		var cd: Dictionary = card.card_data
+		var ctype: String = String(cd.get("type", ""))
+		if ctype == "situation" or ctype == "event" or SituationPlay.is_commander_card(cd):
+			# Situations & commanders (the deck feeds all kinds now) play
+			# as effects - only units deploy as garrisons.
+			if _ai_play_effect_card(card):
+				to_remove.append(card)
+			else:
+				skipped += 1
+			continue
 		var my_territories: Array = []
 		for t_id in GameManager._territory_owners:
 			if GameManager._territory_owners[t_id] == _side:
@@ -126,6 +136,38 @@ func play_cards() -> void:
 		_act("Skipped %d cards (not enough gold)" % skipped)
 	if played > 0:
 		_act("Played %d cards, %d remaining in hand" % [played, hand.size()])
+
+## AI plays a situation/commander card from its hand onto a sensible
+## target. Returns true when the card left the hand.
+func _ai_play_effect_card(card) -> bool:
+	var cd: Dictionary = card.card_data
+	var wants_enemy: bool = SituationPlay.needs_enemy_land(cd)
+	var target: String = ""
+	if wants_enemy:
+		var enemy_lands: Array = []
+		for t_id in GameManager._units_on_map:
+			for u in GameManager._units_on_map[t_id]:
+				if u.has_method("is_alive") and u.is_alive() and u.side != _side:
+					enemy_lands.append(t_id)
+					break
+		if enemy_lands.is_empty():
+			return false
+		target = enemy_lands[randi() % enemy_lands.size()]
+	else:
+		var my_lands: Array = []
+		for t_id in GameManager._territory_owners:
+			if GameManager._territory_owners[t_id] == _side:
+				my_lands.append(t_id)
+		if my_lands.is_empty():
+			return false
+		target = my_lands[randi() % my_lands.size()]
+	var result: Dictionary = SituationPlay.play(cd, _side, target, _hands)
+	if not bool(result.get("ok", false)):
+		_act("Kept %s (refused: %s)" % [card.id, String(result.get("telemetry", ""))])
+		return false
+	GameManager.change_resource(_side, "money", -card.cost)
+	_act("Played %s -> %s: %s" % [card.id, target, String(result.get("telemetry", ""))])
+	return true
 
 func _pick_placement_target(territories: Array, card) -> String:
 	var border_territories: Array = []
