@@ -35,12 +35,12 @@ theme_override_constants/separation = 20
 
 [node name="TitleLabel" type="Label" parent="VBoxContainer"]
 layout_mode = 2
-text = "CIVIL WAR: BLUE & GRAY"
+text = "Ciwil War Game"
 horizontal_alignment = 1
 
 [node name="SubtitleLabel" type="Label" parent="VBoxContainer"]
 layout_mode = 2
-text = "Гражданская война: Синие и Красные"
+text = ""
 horizontal_alignment = 1
 
 [node name="Spacer" type="Control" parent="VBoxContainer"]

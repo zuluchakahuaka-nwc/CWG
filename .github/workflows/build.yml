@@ -52,7 +52,7 @@ jobs:
         run: |
           mkdir -p builds/cwg-linux64
           $GODOT --headless --path . --export-release "Linux"
-          chmod +x builds/cwg-linux64/CivilWarBlueRed.x86_64
+          chmod +x builds/cwg-linux64/CiwilWarGame.x86_64
 
       - name: Probe exported PCK (SFX/scripts survive the export remap)
         run: |
@@ -63,13 +63,13 @@ jobs:
           mkdir -p /tmp/probe_proj
           printf 'config_version=5\n\n[application]\n\nconfig/name="probe"\n' > /tmp/probe_proj/project.godot
           cp tests/probe_pack.gd /tmp/probe_proj/
-          $GODOT --headless --path /tmp/probe_proj --script res://probe_pack.gd -- "$PWD/builds/cwg-linux64/CivilWarBlueRed.pck" /tmp/probe_report.json
+          $GODOT --headless --path /tmp/probe_proj --script res://probe_pack.gd -- "$PWD/builds/cwg-linux64/CiwilWarGame.pck" /tmp/probe_report.json
           echo "PCK probe: $(head -c 400 /tmp/probe_report.json)"
 
       - name: Smoke test the Linux build (Law #0)
         run: |
           set +e
-          timeout 30s ./builds/cwg-linux64/CivilWarBlueRed.x86_64 --headless > smoke.log 2>&1
+          timeout 30s ./builds/cwg-linux64/CiwilWarGame.x86_64 --headless > smoke.log 2>&1
           code=$?
           set -e
           # 124 = still alive after 30s (killed by timeout) - the game boots.

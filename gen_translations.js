@@ -17,7 +17,7 @@ for (const nl of newLangs) {
 
 const translations = {
   de: {
-    "game.title": "Bürgerkrieg: Blau und Rot",
+    "game.title": "Ciwil War Game",
     "game.new_game": "Neues Spiel",
     "game.continue": "Fortsetzen",
     "game.settings": "Einstellungen",
@@ -127,7 +127,7 @@ const translations = {
     "month.march": "März"
   },
   pt: {
-    "game.title": "Guerra Civil: Azul e Vermelho",
+    "game.title": "Ciwil War Game",
     "game.new_game": "Novo Jogo",
     "game.continue": "Continuar",
     "game.settings": "Configurações",
@@ -237,7 +237,7 @@ const translations = {
     "month.march": "Março"
   },
   zh: {
-    "game.title": "南北战争：蓝与红",
+    "game.title": "Ciwil War Game",
     "game.new_game": "新游戏",
     "game.continue": "继续",
     "game.settings": "设置",
@@ -347,7 +347,7 @@ const translations = {
     "month.march": "三月"
   },
   ja: {
-    "game.title": "南北戦争：青と赤",
+    "game.title": "Ciwil War Game",
     "game.new_game": "ニューゲーム",
     "game.continue": "続行",
     "game.settings": "設定",
@@ -457,7 +457,7 @@ const translations = {
     "month.march": "3月"
   },
   hi: {
-    "game.title": "सिविल वॉर: ब्लू एंड रेड",
+    "game.title": "Ciwil War Game",
     "game.new_game": "नया खेल",
     "game.continue": "जारी रखें",
     "game.settings": "सेटिंग्स",
@@ -567,7 +567,7 @@ const translations = {
     "month.march": "मार्च"
   },
   ar: {
-    "game.title": "الحرب الأهلية: الأزرق والأحمر",
+    "game.title": "Ciwil War Game",
     "game.new_game": "لعبة جديدة",
     "game.continue": "متابعة",
     "game.settings": "الإعدادات",

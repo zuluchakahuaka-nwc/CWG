@@ -17,7 +17,7 @@ func _log(msg: String) -> void:
 
 func _play_full_game() -> void:
 	_log("========================================")
-	_log("  CIVIL WAR: BLUE & GRAY - TEST MATCH")
+	_log("  CIWIL WAR GAME - TEST MATCH")
 	_log("  Union (Player 1) vs Confederate (Player 2)")
 	_log("========================================")
 
