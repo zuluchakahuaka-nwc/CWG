@@ -389,6 +389,22 @@ func _phase_combat() -> void:
 				still_alive.append(u)
 		if not still_alive.is_empty():
 			alive.append({"t_id": t_id, "units": still_alive})
+	# Post-battle claim: a territory held by a single side's living units
+	# but still owned by the other side (or neutral) flips to the holder.
+	# This is the player's path to enemy land - move in, win (or walk into
+	# an undefended land), the flag changes in COMBAT, never on deploy.
+	for entry in alive:
+		var claim_holder: String = ""
+		var land_contested: bool = false
+		for u in entry["units"]:
+			if claim_holder == "":
+				claim_holder = u.side
+			elif u.side != claim_holder:
+				land_contested = true
+				break
+		if not land_contested and claim_holder != "":
+			if GameManager.try_bloodless_capture(entry["t_id"], claim_holder):
+				_battle_log += Localization.t("ui.info.battle_captured") % claim_holder + "\n"
 	GameManager._units_on_map.clear()
 	for entry in alive:
 		GameManager._units_on_map[entry["t_id"]] = entry["units"]
@@ -554,14 +570,16 @@ func _start_drag(idx: int) -> void:
 func _finish_drop(drop_pos: Vector2) -> void:
 	if _drag_card_idx < 0:
 		return
+	# A drop must land on a REAL territory polygon. Drops on the ocean or
+	# the parchment background used to fall through to the last selected
+	# territory and silently deployed regiments "nowhere" (owner report:
+	# regiments landing on a plain that is not a state). A miss now simply
+	# cancels - the card stays in the hand.
 	if _map_controller and _map_controller.has_method("get_territory_at_point"):
 		var t_id: String = _map_controller.get_territory_at_point(drop_pos)
 		if t_id != "":
 			_try_place_card_at(t_id, _drag_card_idx)
 			return
-	var hand: Array = _hands[_active_side]
-	if _drag_card_idx >= 0 and _drag_card_idx < hand.size() and _selected_territory_id != "":
-		_try_place_card_at(_selected_territory_id, _drag_card_idx)
 
 func _on_close_terr_info() -> void:
 	_terr_info.visible = false
@@ -731,8 +749,14 @@ func _show_territory_info(t_id: String) -> void:
 	_terr_info.visible = true
 
 func _try_place_card_at(territory_id: String, idx: int) -> void:
-	var owner: String = GameManager.get_territory_owner(territory_id)
-	if owner != _active_side:
+	# Placement law (owner feedback 21.11): recruit only onto OWN or
+	# NEUTRAL land. Enemy territory is refused with a hint - it must be
+	# conquered by moving units there and winning the battle.
+	if not GameManager.can_side_place(_active_side, territory_id):
+		var denied_name: String = Localization.t("territory." + territory_id) if Localization.has_key("territory." + territory_id) else territory_id
+		if _info_label:
+			_info_label.text = Localization.t("ui.place.enemy_denied") % denied_name
+		Logger.info("GameMap", "Placement DENIED at %s (owned by enemy)" % territory_id)
 		return
 	var hand: Array = _hands[_active_side]
 	if hand.is_empty() or idx >= hand.size():
@@ -748,6 +772,9 @@ func _try_place_card_at(territory_id: String, idx: int) -> void:
 	if not GameManager._units_on_map.has(territory_id):
 		GameManager._units_on_map[territory_id] = []
 	GameManager._units_on_map[territory_id].append(card)
+	# Unclaimed land: a garrisoned neutral territory with no enemy
+	# defenders joins the side the moment troops stand on it.
+	GameManager.try_bloodless_capture(territory_id, _active_side)
 	Logger.info("GameMap", "Placed %s at %s (cost %d)" % [card.id, territory_id, cost])
 	AudioManager.play("card_play")
 	_update_ui()

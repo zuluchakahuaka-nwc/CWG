@@ -163,6 +163,36 @@ func set_territory_owner(territory_id: String, side: String) -> void:
 	_territory_owners[territory_id] = side
 	_check_capital_loss(territory_id, old)
 
+## Placement law (owner feedback 21.11): new recruits may be deployed only
+## onto (a) the side's OWN territory or (b) a NEUTRAL one. Enemy land must
+## be conquered in battle first - moving units there and winning.
+func can_side_place(side: String, territory_id: String) -> bool:
+	var owner: String = get_territory_owner(territory_id)
+	return owner == side or owner == "neutral"
+
+## Bloodless capture: a side's living units standing on a territory that is
+## not theirs, with no living enemy defenders, claim it. Neutral or enemy
+## alike - undefended land cannot stay foreign (the AI already played this
+## way; the player's recruits and moves get the same law now).
+func try_bloodless_capture(territory_id: String, side: String) -> bool:
+	if get_territory_owner(territory_id) == side:
+		return false
+	var units: Array = _units_on_map.get(territory_id, [])
+	var has_claimant: bool = false
+	for u in units:
+		if u.has_method("is_alive") and u.is_alive():
+			if u.side == side:
+				has_claimant = true
+			else:
+				return false
+	if not has_claimant:
+		return false
+	set_territory_owner(territory_id, side)
+	if CardDatabase.get_territory(territory_id).get("is_capital", false):
+		change_morale(side, 5)
+	Logger.info("GameManager", "Bloodless capture: %s -> %s" % [territory_id, side])
+	return true
+
 func _check_capital_loss(territory_id: String, old_owner: String) -> void:
 	if territory_id == "washington_dc" and old_owner == "union":
 		change_morale("union", -5)
