@@ -65,6 +65,9 @@ func _on_settings() -> void:
 	get_tree().change_scene_to_file("res://scenes/settings.tscn")
 
 func _on_quit() -> void:
+	# Belt-and-braces on this audio-broken host: silence everything
+	# before quitting so nothing can block the exit path.
+	MusicPlayer.stop()
 	get_tree().quit()
 
 func _on_language_cycle() -> void:

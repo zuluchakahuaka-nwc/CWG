@@ -46,6 +46,8 @@ func _apply_hint() -> void:
 	_title.text = Localization.t("game.title")
 	_subtitle.text = "1861 — 1865"
 	_hint.text = Localization.t("splash.skip")
+	Logger.info("Splash", "lang='%s' title='%s' new_game='%s' quit='%s'" % [
+		Localization.get_language(), _title.text.left(12), Localization.t("game.new_game"), Localization.t("game.quit")])
 
 func _play_music() -> void:
 	MusicPlayer.set_volume(0.45)
