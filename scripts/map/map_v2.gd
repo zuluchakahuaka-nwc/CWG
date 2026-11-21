@@ -12,6 +12,17 @@ extends Control
 signal territory_clicked(territory_id: String)
 signal unit_marker_clicked(territory_id: String)
 
+const CARD_IMG_DIRS: Dictionary = {
+	"unit_union": "res://assets/sprites/cards/units_union/",
+	"unit_confederate": "res://assets/sprites/cards/units_confederate/",
+	"situation": "res://assets/sprites/cards/situations/",
+}
+var _card_popup: PanelContainer = null
+var _card_img: TextureRect = null
+var _card_name: Label = null
+var _card_stats: Label = null
+var _card_count: Label = null
+
 const DESIGN: Vector2i = Vector2i(1920, 1080)
 const MAP_MARGIN: float = 24.0
 
@@ -51,9 +62,13 @@ func _ready() -> void:
 	mouse_filter = Control.MOUSE_FILTER_STOP
 
 func _load_data() -> void:
-	var path := "res://data/maps/map_data.json"
+	# Prefer real Census-derived boundaries (map_data_v2.json, public
+	# domain geometry) and fall back to the legacy coarse polygons.
+	var path := "res://data/maps/map_data_v2.json"
 	if not FileAccess.file_exists(path):
-		push_error("MapV2: map_data.json not found")
+		path = "res://data/maps/map_data.json"
+	if not FileAccess.file_exists(path):
+		push_error("MapV2: no map data found")
 		return
 	var f := FileAccess.open(path, FileAccess.READ)
 	var json := JSON.new()
@@ -345,12 +360,102 @@ func _handle_click(pos: Vector2) -> void:
 		if chip["rect"].has_point(pos):
 			unit_marker_clicked.emit(chip["t_id"])
 			_selected = chip["t_id"]
+			_open_unit_card(chip["t_id"])
 			territory_clicked.emit(chip["t_id"])
 			return
 	var hit := _territory_at(pos)
 	if hit != "":
 		_selected = hit
+		_close_unit_card()
 		territory_clicked.emit(hit)
+
+## Clicking a unit chip opens the unit card (owner request: troops on the
+## map must be selectable, not just territories).
+func _open_unit_card(t_id: String) -> void:
+	var units: Array = GameManager._units_on_map.get(t_id, [])
+	var alive: Array = []
+	for u in units:
+		if u.has_method("is_alive") and u.is_alive():
+			alive.append(u)
+	if alive.is_empty():
+		_close_unit_card()
+		return
+	_ensure_card_popup()
+	var u = alive[0]
+	var data: Dictionary = u.card_data
+	_card_name.text = Localization.get_card_name(data)
+	_card_stats.text = Localization.t("ui.card_stats") % [u.attack, u.defense, u.max_hp, u.cost]
+	_card_count.text = Localization.t("ui.units_count") % alive.size()
+	var img_path := _find_card_image(str(data.get("id", "")), str(data.get("side", "union")), str(data.get("type", "infantry")))
+	_card_img.texture = _load_card_texture(img_path)
+	_card_popup.visible = true
+	_dirty = true
+
+func _close_unit_card() -> void:
+	if _card_popup:
+		_card_popup.visible = false
+
+func _ensure_card_popup() -> void:
+	if _card_popup:
+		return
+	_card_popup = PanelContainer.new()
+	_card_popup.set_anchors_preset(Control.PRESET_CENTER_RIGHT)
+	_card_popup.offset_left = -320.0
+	_card_popup.offset_right = -20.0
+	_card_popup.offset_top = 90.0
+	_card_popup.offset_bottom = 560.0
+	_card_popup.z_index = 60
+	var style := StyleBoxFlat.new()
+	style.bg_color = Color(0.93, 0.87, 0.72, 0.97)
+	style.border_color = INK
+	style.set_border_width_all(2)
+	style.set_corner_radius_all(6)
+	_card_popup.add_theme_stylebox_override("panel", style)
+	var box := VBoxContainer.new()
+	box.add_theme_constant_override("separation", 6)
+	_card_popup.add_child(box)
+	_card_img = TextureRect.new()
+	_card_img.custom_minimum_size = Vector2(240, 220)
+	_card_img.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
+	_card_img.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+	box.add_child(_card_img)
+	_card_name = Label.new()
+	_card_name.add_theme_font_override("font", FontLoader.get_font("caption"))
+	_card_name.add_theme_font_size_override("font_size", 20)
+	_card_name.add_theme_color_override("font_color", INK)
+	_card_name.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	_card_name.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+	box.add_child(_card_name)
+	_card_stats = Label.new()
+	_card_stats.add_theme_font_size_override("font_size", 18)
+	_card_stats.add_theme_color_override("font_color", INK)
+	_card_stats.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	box.add_child(_card_stats)
+	_card_count = Label.new()
+	_card_count.add_theme_font_size_override("font_size", 14)
+	_card_count.add_theme_color_override("font_color", Color(0.45, 0.38, 0.26))
+	_card_count.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	box.add_child(_card_count)
+	var close := Button.new()
+	close.text = Localization.t("ui.close")
+	close.pressed.connect(_close_unit_card)
+	box.add_child(close)
+	add_child(_card_popup)
+
+func _find_card_image(card_id: String, side: String, card_type: String) -> String:
+	var sub := str(CARD_IMG_DIRS.get("situation" if card_type == "situation" else ("unit_" + side), ""))
+	for ext in [".jpg", ".png"]:
+		var p := sub + card_id + ext
+		if ResourceLoader.exists(p):
+			return p
+	return ""
+
+func _load_card_texture(path: String) -> Texture2D:
+	if path != "" and ResourceLoader.exists(path):
+		var res = load(path)
+		if res is Texture2D:
+			return res
+	return null
 
 func _territory_at(pos: Vector2) -> String:
 	var t := _map_to_screen()
