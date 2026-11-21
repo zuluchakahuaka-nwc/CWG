@@ -765,14 +765,20 @@ func _handle_movement(territory_id: String) -> void:
 	if _move_source == "":
 		var units: Array = GameManager._units_on_map.get(territory_id, [])
 		var has_ours: bool = false
+		var exhausted_count: int = 0
 		for u in units:
 			if u.has_method("is_alive") and u.side == _active_side and not u.is_exhausted:
 				has_ours = true
-				break
+			elif u.has_method("is_alive") and u.side == _active_side and u.is_exhausted:
+				exhausted_count += 1
 		if has_ours:
 			_move_source = territory_id
 			var adj: Array = CardDatabase.get_adjacent_territories(territory_id)
 			_map_controller.highlight_territories([territory_id] + adj)
+			var t_name: String = Localization.t("territory." + territory_id) if Localization.has_key("territory." + territory_id) else territory_id
+			_info_label.text = "%s -> %s" % [t_name, Localization.t("ui.info.move_target") % ""]
+		elif exhausted_count > 0:
+			_info_label.text = Localization.t("ui.info.units_exhausted")
 	else:
 		if territory_id == _move_source:
 			_move_source = ""
