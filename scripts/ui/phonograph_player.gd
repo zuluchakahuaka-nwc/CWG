@@ -145,6 +145,15 @@ func play_slot(slot_id: String) -> void:
 		return
 	play_track(_playlist[0])
 
+## Ambient side switch (owner feedback 21.11: "skip turn resets the
+## tune"). Automatic side flips must NEVER interrupt whatever is playing -
+## only a direct phonograph choice (play_slot/play_track) switches music.
+func play_side_ambient(slot_id: String) -> void:
+	if _is_playing:
+		Logger.info("PhonographPlayer", "Ambient switch to %s ignored - music already playing" % slot_id)
+		return
+	play_slot(slot_id)
+
 ## Whether the side's slot has any actually loadable audio (honest state
 ## for builds shipped without music).
 func side_has_audio(side: String) -> bool:

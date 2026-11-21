@@ -1068,11 +1068,13 @@ func _setup_bg_music() -> void:
 	# MusicPlayer is an autoload: whatever the phonograph was playing
 	# keeps playing across scenes - never restart a track on return.
 	MusicPlayer.set_volume(0.5)
-	if not MusicPlayer.is_playing():
-		MusicPlayer.play_slot(MusicSlots.side_slot(_active_side))
+	MusicPlayer.play_side_ambient(MusicSlots.side_slot(_active_side))
 
 func _play_music_for_side(side: String) -> void:
-	MusicPlayer.play_slot(MusicSlots.side_slot(side))
+	# Owner feedback 21.11: skip-turn flips the active side several times
+	# per turn and every flip restarted the tune. Side flips are ambient -
+	# they must not interrupt playing music (only the phonograph may).
+	MusicPlayer.play_side_ambient(MusicSlots.side_slot(side))
 
 ## The AI side plays its whole month on its own (owner request: a real
 ## opponent that conquers while the player stalls). Cards are placed in

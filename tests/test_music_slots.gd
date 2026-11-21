@@ -19,6 +19,7 @@ func _ready() -> void:
 	test_style_override_wins_for_side_slots()
 	test_has_audio_never_crashes()
 	test_no_track_paths_in_code()
+	test_ambient_side_switch_never_interrupts()
 	_print_summary()
 
 func _assert(condition: bool, test_name: String) -> void:
@@ -83,6 +84,29 @@ func test_no_track_paths_in_code() -> void:
 			offenders.append(script_path)
 		f.close()
 	_assert(offenders.is_empty(), "no hardcoded track paths in slot code %s" % str(offenders))
+
+func test_ambient_side_switch_never_interrupts() -> void:
+	# Owner feedback 21.11: skip-turn side flips restarted the tune.
+	# play_side_ambient must be a no-op while music is playing; a direct
+	# phonograph play_slot still switches.
+	var menu_playlist_before: Array = []
+	MusicPlayer.stop()
+	# Fake a playing state deterministically (headless has no real audio
+	# but the state machine is what matters here).
+	MusicPlayer.play_slot("menu")
+	var had_audio: bool = MusicPlayer.is_playing()
+	if not had_audio:
+		# No audio in this environment - emulate the state directly.
+		MusicPlayer.set("_is_playing", true)
+	var track_before: Dictionary = MusicPlayer.get_current_track()
+	var cat_before: String = MusicPlayer.get_current_category()
+	MusicPlayer.play_side_ambient(MusicSlots.side_slot("confederate"))
+	_assert(MusicPlayer.get_current_track() == track_before or (track_before.is_empty() and MusicPlayer.get_current_track() == track_before), "ambient switch keeps the current track")
+	_assert(MusicPlayer.get_current_category() == cat_before, "ambient switch keeps the category (%s)" % cat_before)
+	# Cleanup: back to a clean stopped state for other suites.
+	if not had_audio:
+		MusicPlayer.set("_is_playing", false)
+	MusicPlayer.stop()
 
 func _print_summary() -> void:
 	for r in _test_results:
