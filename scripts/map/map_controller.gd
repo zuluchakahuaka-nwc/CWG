@@ -27,14 +27,15 @@ var _edit_drag_idx: int = -1
 signal territory_clicked(territory_id: String)
 signal territory_hovered(territory_id: String)
 
-const COLOR_UNION: Color = Color(0.20, 0.38, 0.72, 0.82)
-const COLOR_CONFEDERATE: Color = Color(0.68, 0.18, 0.15, 0.82)
-const COLOR_NEUTRAL: Color = Color(0.48, 0.48, 0.42, 0.72)
-const COLOR_HIGHLIGHT: Color = Color(1.0, 0.95, 0.3, 0.80)
-const PARCHMENT: Color = Color(0.88, 0.83, 0.72, 1.0)
+const COLOR_UNION: Color = Color(0.23, 0.39, 0.62, 0.55)
+const COLOR_CONFEDERATE: Color = Color(0.70, 0.21, 0.15, 0.55)
+const COLOR_NEUTRAL: Color = Color(0.86, 0.79, 0.61, 0.60)
+const COLOR_HIGHLIGHT: Color = Color(0.95, 0.82, 0.25, 0.90)
+const PARCHMENT: Color = Color(0.93, 0.87, 0.72)
 const OCEAN: Color = Color(0.14, 0.25, 0.42, 1.0)
-const RIVER_COL: Color = Color(0.22, 0.40, 0.65, 0.75)
-const BORDER_COL: Color = Color(0.40, 0.35, 0.25, 0.85)
+const RIVER_COL: Color = Color(0.20, 0.36, 0.48, 0.65)
+const BORDER_COL: Color = Color(0.24, 0.17, 0.09)
+const INK_SOFT: Color = Color(0.24, 0.17, 0.09, 0.45)
 const MTN_COL: Color = Color(0.55, 0.48, 0.38, 0.60)
 const MTN_SNOW: Color = Color(0.90, 0.90, 0.95, 0.50)
 const FOREST_COL: Color = Color(0.18, 0.40, 0.15, 0.55)
@@ -60,16 +61,20 @@ func _notification(what: int) -> void:
 		queue_redraw()
 
 func _load_map_data() -> void:
-	var path: String = "res://data/maps/map_data.json"
+	# Prefer real Census-derived boundaries (map_data_v2.json, public
+	# domain geometry); fall back to the legacy coarse polygons.
+	var path: String = "res://data/maps/map_data_v2.json"
 	if not FileAccess.file_exists(path):
-		push_error("MapController: map_data.json not found")
+		path = "res://data/maps/map_data.json"
+	if not FileAccess.file_exists(path):
+		push_error("MapController: no map data found")
 		return
 	var file: FileAccess = FileAccess.open(path, FileAccess.READ)
 	if file == null:
 		return
 	var json: JSON = JSON.new()
 	if json.parse(file.get_as_text()) != OK:
-		push_error("MapController: parse error in map_data.json")
+		push_error("MapController: parse error in " + path)
 		file.close()
 		return
 	file.close()
@@ -177,18 +182,9 @@ func _draw() -> void:
 		return
 	_calc_transforms()
 	var area: Vector2 = _get_area()
-	var src_w: float = _map_meta.get("width", 1200.0)
-	var src_h: float = _map_meta.get("height", 850.0)
-	var dst_rect: Rect2 = Rect2(_b_offset + _view_pan, Vector2(src_w * _s, src_h * _s))
-
 	draw_rect(Rect2(Vector2.ZERO, area), PARCHMENT)
-
-	if _bg_tex:
-		draw_texture_rect(_bg_tex, dst_rect, false, Color(1.0, 1.0, 1.0, 0.85))
-
-	if _overlay_tex:
-		draw_texture_rect(_overlay_tex, dst_rect, false, Color(1.0, 1.0, 1.0, 0.30))
-
+	_draw_parchment_fibers(area)
+	_draw_map_frame(area)
 	_draw_fills()
 	_draw_rivers()
 	_draw_mountains()
@@ -196,9 +192,36 @@ func _draw() -> void:
 	_draw_borders()
 	_draw_labels()
 	_draw_badges()
+	_draw_cartouche()
 	_draw_compass()
 	if _edit_mode:
 		_draw_edit_handles()
+
+## Period engraving feel: subtle fibre flecks + double ink frame.
+func _draw_parchment_fibers(area: Vector2) -> void:
+	var rng := RandomNumberGenerator.new()
+	rng.seed = 18610412
+	for i in 600:
+		var p := Vector2(rng.randf() * area.x, rng.randf() * area.y)
+		draw_line(p, p + Vector2(2.0, 1.0), Color(0.82, 0.74, 0.55) if i % 3 == 0 else INK_SOFT, 0.6)
+
+func _draw_map_frame(area: Vector2) -> void:
+	var m := 10.0
+	draw_rect(Rect2(m, m, area.x - m * 2.0, area.y - m * 2.0), BORDER_COL, false, 3.0)
+	draw_rect(Rect2(m + 7.0, m + 7.0, area.x - (m + 7.0) * 2.0, area.y - (m + 7.0) * 2.0), INK_SOFT, false, 1.0)
+
+func _draw_cartouche() -> void:
+	var origin := Vector2(34.0, 30.0)
+	var box := Rect2(origin, Vector2(340.0, 90.0))
+	draw_rect(box, PARCHMENT)
+	draw_rect(box, BORDER_COL, false, 2.0)
+	draw_string(FontLoader.get_font("title"), origin + Vector2(14, 28), Localization.t("map.cartouche"), HORIZONTAL_ALIGNMENT_LEFT, -1, 22, BORDER_COL)
+	draw_string(FontLoader.get_font("body"), origin + Vector2(14, 50), Localization.t("map.cartouche.sub"), HORIZONTAL_ALIGNMENT_LEFT, -1, 13, INK_SOFT)
+	# Legend
+	draw_circle(origin + Vector2(22, 68), 6, Color(COLOR_UNION.r, COLOR_UNION.g, COLOR_UNION.b, 0.9))
+	draw_string(FontLoader.get_font("body"), origin + Vector2(34, 72), Localization.t("side.union"), HORIZONTAL_ALIGNMENT_LEFT, -1, 12, BORDER_COL)
+	draw_circle(origin + Vector2(140, 68), 6, Color(COLOR_CONFEDERATE.r, COLOR_CONFEDERATE.g, COLOR_CONFEDERATE.b, 0.9))
+	draw_string(FontLoader.get_font("body"), origin + Vector2(152, 72), Localization.t("side.confederate"), HORIZONTAL_ALIGNMENT_LEFT, -1, 12, BORDER_COL)
 
 func _draw_ocean() -> void:
 	for tid in ["atlantic_coast", "gulf_coast"]:
@@ -221,28 +244,51 @@ func _draw_fills() -> void:
 		var pts: PackedVector2Array = _xp_arr(poly)
 		if pts.size() < 3:
 			continue
-		var info: Dictionary = _territories[t_id]
 		var owner: String = GameManager.get_territory_owner(t_id)
-		var base: Color = _owner_color(owner)
-		var t_data: Dictionary = info.get("data", {})
-		var is_cap: bool = t_data.get("is_capital", false)
+		var col: Color = _owner_color(owner)
 		var is_hi: bool = t_id in _highlighted_territories
-		var col: Color
-		if is_cap:
-			col = Color(base.r, base.g, base.b, 0.65)
-		elif info.get("decorative", false):
-			col = Color(0.5, 0.48, 0.42, 0.15)
-		else:
-			col = Color(base.r, base.g, base.b, 0.45)
 		if is_hi:
 			col = COLOR_HIGHLIGHT
 		if Geometry2D.is_polygon_clockwise(pts):
 			pts.reverse()
-		var tri: Array = Geometry2D.triangulate_polygon(pts)
-		if not tri.is_empty():
-			draw_colored_polygon(pts, col)
-		else:
-			draw_polyline(pts, Color(col.r, col.g, col.b, minf(col.a * 2.0, 1.0)), 2.0 * _s, true)
+		draw_colored_polygon(pts, col)
+		# Neutral territories get a diagonal hatch overlay
+		if owner == "neutral" and not is_hi:
+			_draw_neutral_hatch(pts)
+		# Engraved double border
+		draw_polyline(pts, INK_SOFT, 4.0, true)
+		draw_polyline(pts, BORDER_COL, 1.5, true)
+		if is_hi:
+			draw_polyline(pts, COLOR_HIGHLIGHT, 3.0, true)
+
+func _draw_neutral_hatch(pts: PackedVector2Array) -> void:
+	if pts.size() < 3:
+		return
+	var rect := Rect2(pts[0], Vector2.ZERO)
+	for p in pts:
+		rect = rect.expand(p)
+	var d: float = rect.position.x + rect.position.y
+	while d < rect.end.x + rect.end.y:
+		var seg := PackedVector2Array()
+		for k in pts.size():
+			var a: Vector2 = pts[k]
+			var b: Vector2 = pts[(k + 1) % pts.size()]
+			var hit: Variant = _seg_cross_diag(a, b, d)
+			if hit != null:
+				seg.append(hit)
+		if seg.size() >= 2:
+			draw_polyline(seg, Color(0.30, 0.24, 0.12, 0.45), 1.4, false)
+		d += 24.0
+
+func _seg_cross_diag(a: Vector2, b: Vector2, d: float) -> Variant:
+	var fa: float = a.x + a.y - d
+	var fb: float = b.x + b.y - d
+	if (fa > 0.0 and fb > 0.0) or (fa < 0.0 and fb < 0.0):
+		return null
+	var denom: float = fa - fb
+	if absf(denom) < 0.0001:
+		return null
+	return a + (b - a) * (fa / denom)
 
 func _ear_clip_fill(pts: PackedVector2Array, col: Color) -> void:
 	if pts.size() < 3:

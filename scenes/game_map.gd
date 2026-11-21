@@ -214,11 +214,6 @@ func _debug_hand_fill() -> void:
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("ui_cancel"):
 		return
-	if event is InputEventKey and event.pressed and not event.echo and event.keycode == KEY_F9:
-		# Preview toggle: old map <-> engraved v2 (branch map-v2).
-		_save_game()
-		get_tree().change_scene_to_file("res://scenes/map_v2.tscn")
-		return
 	if event is InputEventKey and event.pressed and not event.echo and event.keycode == KEY_F1:
 		_save_game()
 		get_tree().change_scene_to_file("res://scenes/help.tscn")

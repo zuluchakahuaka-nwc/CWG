@@ -496,5 +496,275 @@
     "to": "atlantic_coast",
     "type": "sea",
     "movement_cost": 1.5
+  },
+  {
+    "from": "arkansas",
+    "to": "mississippi_north",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "arkansas",
+    "to": "tennessee_west",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "arkansas",
+    "to": "memphis",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "connecticut",
+    "to": "new_york",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "delaware",
+    "to": "maryland",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "delaware",
+    "to": "new_jersey",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "delaware",
+    "to": "pennsylvania",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "illinois",
+    "to": "indiana",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "illinois",
+    "to": "iowa",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "illinois",
+    "to": "kentucky",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "illinois",
+    "to": "missouri",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "illinois",
+    "to": "wisconsin",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "indiana",
+    "to": "kentucky",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "indiana",
+    "to": "michigan",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "indiana",
+    "to": "ohio",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "iowa",
+    "to": "minnesota",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "iowa",
+    "to": "missouri",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "iowa",
+    "to": "nebraska",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "iowa",
+    "to": "wisconsin",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "kansas",
+    "to": "missouri",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "kansas",
+    "to": "nebraska",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "kansas",
+    "to": "indian_territory",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "kentucky",
+    "to": "ohio",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "maryland",
+    "to": "virginia_north",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "michigan",
+    "to": "ohio",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "minnesota",
+    "to": "wisconsin",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "missouri",
+    "to": "nebraska",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "missouri",
+    "to": "tennessee_west",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "new_jersey",
+    "to": "new_york",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "new_jersey",
+    "to": "pennsylvania",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "new_york",
+    "to": "pennsylvania",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "north_carolina",
+    "to": "tennessee_east",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "north_carolina",
+    "to": "virginia_north",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "north_carolina",
+    "to": "virginia_west",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "ohio",
+    "to": "pennsylvania",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "pennsylvania",
+    "to": "harpers_ferry",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "texas",
+    "to": "louisiana_south",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "alabama_north",
+    "to": "georgia_south",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "alabama_north",
+    "to": "mississippi_north",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "alabama_north",
+    "to": "tennessee_east",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "alabama_north",
+    "to": "tennessee_west",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "louisiana_north",
+    "to": "mississippi_north",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "louisiana_north",
+    "to": "vicksburg",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "mississippi_north",
+    "to": "tennessee_west",
+    "movement_cost": 1,
+    "type": "land"
+  },
+  {
+    "from": "tennessee_east",
+    "to": "tennessee_west",
+    "movement_cost": 1,
+    "type": "land"
   }
 ]
