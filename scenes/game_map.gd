@@ -485,8 +485,6 @@ func _find_card_image(card_id: String, side: String, card_type: String) -> Strin
 	var sub: String = ""
 	if card_type == "situation":
 		sub = "situations/"
-	elif card_type == "commander":
-		sub = "commanders/"
 	elif side == "union":
 		sub = "units_union/"
 	else:

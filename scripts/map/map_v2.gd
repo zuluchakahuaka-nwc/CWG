@@ -16,7 +16,6 @@ const CARD_IMG_DIRS: Dictionary = {
 	"unit_union": "res://assets/sprites/cards/units_union/",
 	"unit_confederate": "res://assets/sprites/cards/units_confederate/",
 	"situation": "res://assets/sprites/cards/situations/",
-	"commander": "res://assets/sprites/cards/commanders/",
 }
 var _card_popup: PanelContainer = null
 var _card_img: TextureRect = null
@@ -454,12 +453,9 @@ func _ensure_card_popup() -> void:
 	add_child(_card_popup)
 
 func _find_card_image(card_id: String, side: String, card_type: String) -> String:
-	var dir_key: String = "unit_" + side
-	if card_type == "situation":
-		dir_key = "situation"
-	elif card_type == "commander":
-		dir_key = "commander"
-	var sub := str(CARD_IMG_DIRS.get(dir_key, ""))
+	# Commanders physically live with their side's units (cmd_*.jpg in
+	# units_union/units_confederate) - the commanders/ folder is empty.
+	var sub := str(CARD_IMG_DIRS.get("situation" if card_type == "situation" else ("unit_" + side), ""))
 	for ext in [".jpg", ".png"]:
 		var p: String = sub + card_id + ext
 		if ResourceLoader.exists(p):
