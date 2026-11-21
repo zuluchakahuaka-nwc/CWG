@@ -84,17 +84,18 @@ func _build_hand_panel() -> void:
 	hand_panel.name = "HandPanel"
 	hand_panel.set_anchors_preset(Control.PRESET_BOTTOM_WIDE)
 	hand_panel.offset_left = 4.0
-	hand_panel.offset_top = -540.0
+	# Cards dock to the screen bottom edge: status bar (38px) + hand
+	# label row below, full 460px card height above - nothing cropped.
+	hand_panel.offset_top = -530.0
 	hand_panel.offset_right = -4.0
-	hand_panel.offset_bottom = -44.0
+	hand_panel.offset_bottom = -64.0
 	hand_panel.z_index = 12
 	hand_panel.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	hand_panel.clip_contents = false
 	_hand_container = HBoxContainer.new()
 	_hand_container.name = "HandCards"
 	_hand_container.add_theme_constant_override("separation", -160)
-	_hand_container.set_anchors_preset(Control.PRESET_BOTTOM_WIDE)
-	_hand_container.offset_top = -170.0
+	_hand_container.set_anchors_preset(Control.PRESET_FULL_RECT)
 	_hand_container.mouse_filter = Control.MOUSE_FILTER_IGNORE
 	hand_panel.add_child(_hand_container)
 	add_child(hand_panel)
@@ -170,7 +171,27 @@ func _ready() -> void:
 	_setup_bg_music()
 	AudioManager.attach_button_sounds(self)
 	_debug_hand_fill()
+	if OS.get_environment("CWG_DEBUG_HAND") != "":
+		_dump_hand_geometry()
 	Logger.info("GameMap", "Hotseat game ready. Turn=%d" % GameManager.get_current_turn())
+
+func _dump_hand_geometry() -> void:
+	await get_tree().process_frame
+	await get_tree().process_frame
+	var lines: Array = ["vp=%s" % str(get_viewport_rect().size)]
+	if _hand_container:
+		lines.append("container=%s" % str(_hand_container.get_global_rect()))
+	if not _card_nodes.is_empty():
+		var first: Control = _card_nodes[0]
+		lines.append("card0=%s" % str(first.get_global_rect()))
+		for child in first.get_child(0).get_children():
+			if child is Label:
+				lines.append("  lbl(%s)=%s visible=%s" % [child.text.left(10), str(child.get_global_rect()), child.is_visible_in_tree()])
+	var f: FileAccess = FileAccess.open("user://hand_debug.txt", FileAccess.WRITE)
+	if f:
+		for line in lines:
+			f.store_line(line)
+		f.close()
 
 ## QA/vision helper: CWG_DEBUG_HAND=n fills the active hand with n random
 ## units so screenshots can show the hand cards deterministically.
@@ -433,6 +454,14 @@ func _refresh_hand() -> void:
 			w.queue_free()
 	_card_nodes.clear()
 	var hand: Array = _hands[_active_side]
+	# Dynamic fan: no overlap at all while the row fits the screen width,
+	# minimal overlap beyond that - so every card's stats stay readable.
+	if not hand.is_empty() and _hand_container:
+		var n: int = hand.size()
+		var sep: float = 0.0
+		if n > 1:
+			sep = minf(0.0, (size.x - 16.0 - n * 300.0) / float(n - 1))
+		_hand_container.add_theme_constant_override("separation", int(sep))
 	for i in range(hand.size()):
 		var card = hand[i]
 		var side: String = card.side
@@ -458,6 +487,7 @@ func _refresh_hand() -> void:
 		portrait.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 		portrait.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 		portrait.custom_minimum_size = Vector2(276, 230)
+		portrait.size_flags_vertical = Control.SIZE_EXPAND_FILL
 		vbox.add_child(portrait)
 		var name_lbl: Label = Label.new()
 		name_lbl.text = Localization.get_card_name(card.card_data)
@@ -466,6 +496,7 @@ func _refresh_hand() -> void:
 		name_lbl.text_overrun_behavior = TextServer.OVERRUN_TRIM_WORD_ELLIPSIS
 		name_lbl.max_lines_visible = 3
 		name_lbl.autowrap_mode = TextServer.AUTOWRAP_WORD_SMART
+		name_lbl.custom_minimum_size = Vector2(0, 74)
 		name_lbl.add_theme_color_override("font_color", Color(0, 0, 0))
 		vbox.add_child(name_lbl)
 		var stats_lbl: Label = Label.new()
