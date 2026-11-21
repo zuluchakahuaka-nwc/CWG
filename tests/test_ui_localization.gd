@@ -101,20 +101,27 @@ func _ready() -> void:
 	test_all_scene_scripts_compile()
 	_print_summary()
 
-## A scene script that fails to parse kills the whole scene silently:
-## no _localize, no button handlers (the "English menu + dead Quit"
-## incident was exactly this - a duplicated member declaration).
-## Guard: every scene .gd must compile.
+## A script that fails to parse kills its scene silently (no handlers,
+## no drawing - the "gray F9 screen" incident was exactly this). Guard:
+## EVERY game .gd under scenes/ and scripts/ must compile.
 func test_all_scene_scripts_compile() -> void:
+	var config := ConfigFile.new()
+	var autoload_paths: Array = []
+	if config.load("res://project.godot") == OK and config.has_section("autoload"):
+		for key in config.get_section_keys("autoload"):
+			var p: String = config.get_value("autoload", key)
+			autoload_paths.append(p.trim_prefix("*"))
 	var broken: Array = []
-	for path in _collect_gd_files("res://scenes"):
+	for path in _collect_gd_files("res://scenes") + _collect_gd_files("res://scripts"):
+		if path in autoload_paths:
+			continue
 		var script: GDScript = load(path)
 		if script == null:
 			broken.append(path + " (unloadable)")
 			continue
 		if script.reload() != OK:
 			broken.append(path)
-	_assert(broken.is_empty(), "every scene script compiles %s" % str(broken).left(250))
+	_assert(broken.is_empty(), "every game script compiles %s" % str(broken).left(300))
 
 ## CSV hygiene: the player must never see raw keys, so the dictionary
 ## itself must be sane - 11 fields per row, unique keys, ru+en filled.

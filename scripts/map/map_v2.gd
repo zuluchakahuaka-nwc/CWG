@@ -64,20 +64,30 @@ func _ready() -> void:
 func _load_data() -> void:
 	# Prefer real Census-derived boundaries (map_data_v2.json, public
 	# domain geometry) and fall back to the legacy coarse polygons.
+	# Load via ResourceLoader first (works in exports where the raw file
+	# may be remapped), FileAccess as the fallback.
 	var path := "res://data/maps/map_data_v2.json"
-	if not FileAccess.file_exists(path):
+	if not FileAccess.file_exists(path) and not ResourceLoader.exists(path):
 		path = "res://data/maps/map_data.json"
-	if not FileAccess.file_exists(path):
-		push_error("MapV2: no map data found")
-		return
-	var f := FileAccess.open(path, FileAccess.READ)
-	var json := JSON.new()
-	var parsed := json.parse(f.get_as_text())
-	f.close()
-	if parsed != OK:
-		push_error("MapV2: parse error")
-		return
-	var data: Dictionary = json.get_data()
+	var data: Dictionary = {}
+	if ResourceLoader.exists(path):
+		var res = load(path)
+		if res is JSON and res.data is Dictionary:
+			data = res.data
+		elif res is Dictionary:
+			data = res
+	if data.is_empty():
+		var file := FileAccess.open(path, FileAccess.READ)
+		if file == null:
+			push_error("MapV2: no readable map data at " + path)
+			return
+		var json := JSON.new()
+		var parsed := json.parse(file.get_as_text())
+		file.close()
+		if parsed != OK:
+			push_error("MapV2: parse error")
+			return
+		data = json.get_data()
 	_polys = data.get("territories", {})
 	_rivers = data.get("rivers", {})
 	_meta = data.get("meta", {})
@@ -445,7 +455,7 @@ func _ensure_card_popup() -> void:
 func _find_card_image(card_id: String, side: String, card_type: String) -> String:
 	var sub := str(CARD_IMG_DIRS.get("situation" if card_type == "situation" else ("unit_" + side), ""))
 	for ext in [".jpg", ".png"]:
-		var p := sub + card_id + ext
+		var p: String = sub + card_id + ext
 		if ResourceLoader.exists(p):
 			return p
 	return ""
