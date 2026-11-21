@@ -214,6 +214,21 @@ func play_movement() -> void:
 		else:
 			moves_made += 1
 			moved_from[from_id] = moved_from.get(from_id, 0) + 1
+			# Bloodless capture: moving into enemy/neutral territory with
+			# no defenders flips the owner (owner doctrine - the AI must
+			# conquer, not just sightsee).
+			var target_owner: String = GameManager.get_territory_owner(best_target)
+			if target_owner != _side and target_owner != "":
+				var defenders: Array = GameManager._units_on_map.get(best_target, [])
+				var has_defenders: bool = false
+				for du in defenders:
+					if du.side != _side and du.is_alive():
+						has_defenders = true
+						break
+				if not has_defenders:
+					GameManager.set_territory_owner(best_target, _side)
+					var t_name: String = CardDatabase.get_territory(best_target).get("name_en", best_target)
+					_act("CAPTURED %s (bloodless - no defenders)" % t_name)
 
 	_act("Moved %d units" % moves_made)
 

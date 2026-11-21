@@ -64,6 +64,8 @@ var _advisor_panel: PanelContainer = null
 var _advisor_phase: Label = null
 var _advisor_tip: Label = null
 var _advisor_hint: Label = null
+var _ai: Node = null
+var _ai_turn_pending: bool = false
 var _drag_card_idx: int = -1
 var _drag_preview: Control = null
 var _dragging: bool = false
@@ -325,7 +327,14 @@ func _phase_resources() -> void:
 
 func _phase_draw() -> void:
 	for side in ["union", "confederate"]:
-		var count: int = 3 + GameManager.get_morale_bonus_cards(side)
+		# Snowball doctrine: card draw scales with territory count.
+		# A player sitting on their starting lands gets ~2-3 cards; a
+		# conquering side feeds its own expansion (6+ by mid-war).
+		var owned: int = 0
+		for t_id in GameManager._territory_owners:
+			if GameManager._territory_owners[t_id] == side:
+				owned += 1
+		var count: int = 2 + int(owned / 5.0) + GameManager.get_morale_bonus_cards(side)
 		var all_units: Array = CardDatabase.get_all_units_for_side(side)
 		if all_units.is_empty():
 			continue
@@ -334,7 +343,7 @@ func _phase_draw() -> void:
 			var ci_script = load("res://scripts/cards/card_instance.gd")
 			var card = ci_script.new(card_data)
 			_hands[side].append(card)
-		Logger.info("Phase", "Drew %d cards for %s (hand: %d)" % [count, side, _hands[side].size()])
+		Logger.info("Phase", "Drew %d cards for %s (territories: %d, hand: %d)" % [count, side, owned, _hands[side].size()])
 		AudioManager.play("card_draw")
 
 func _phase_combat() -> void:
@@ -819,6 +828,9 @@ func _on_end_turn() -> void:
 		GameManager.advance_phase()
 		_active_side = "confederate" if _active_side == "union" else "union"
 		_play_music_for_side(_active_side)
+		if _active_side == GameManager.get_ai_side():
+			_ai_turn_pending = true
+			_run_ai_side_turn()
 	else:
 		GameManager.advance_phase()
 	# _process_phase() runs via the phase_changed/turn_changed signals;
@@ -870,9 +882,16 @@ func _on_phase_changed(_phase: GameManager.Phase) -> void:
 	_process_phase()
 
 func _on_auto_turn() -> void:
-	for i in range(6):
-		GameManager.advance_phase()
-	_active_side = "union"
+	# Fast-forward whole turns through the SAME flow as END PHASE clicks
+	# - the exhausted reset, the side flip and the AI opponent hook all
+	# live in _on_end_turn. (The old version advanced phases directly
+	# and the AI never got to play - the "armies grow, nobody fights"
+	# owner report.)
+	for i in range(14):
+		_on_end_turn()
+		if _active_side == GameManager.get_player_side() \
+				and GameManager.get_current_phase() == GameManager.Phase.RESOURCES:
+			break
 	_process_phase()
 
 func _on_phonograph() -> void:
@@ -939,6 +958,65 @@ func _setup_bg_music() -> void:
 
 func _play_music_for_side(side: String) -> void:
 	MusicPlayer.play_slot(MusicSlots.side_slot(side))
+
+## The AI side plays its whole month on its own (owner request: a real
+## opponent that conquers while the player stalls). Cards are placed in
+## the DRAW phase, armies move and invade in MOVEMENT, then the turn
+## returns to the player.
+func _run_ai_side_turn() -> void:
+	if _ai == null:
+		_ai = load("res://scripts/ai/ai_controller.gd").new()
+		add_child(_ai)
+	_ai.set_side(GameManager.get_ai_side())
+	_ai.set_hands(_hands)
+	_on_end_turn()          # RESOURCES -> DRAW (cards arrive for both)
+	_ai.play_cards()        # AI recruits onto border territories
+	_on_end_turn()          # -> MOVEMENT
+	_ai.play_movement()     # AI advances and invades
+	_on_end_turn()          # -> COMBAT (contested resolve)
+	_on_end_turn()          # -> EVENTS
+	_on_end_turn()          # -> END, side flips back to the player
+	_ai_turn_pending = false
+	Logger.info("GameMap", "AI turn complete: %s" % GameManager.get_ai_side())
+	_check_stall()
+
+## Per-turn state check (owner request): if the game stalls, log both
+## sides' standings so the cause is diagnosable immediately.
+var _stall_turns: int = 0
+var _captures_last_turn: int = 0
+
+func _check_stall() -> void:
+	var turn: int = GameManager.get_current_turn()
+	var counts: Dictionary = {"union": 0, "confederate": 0, "neutral": 0}
+	var units: Dictionary = {"union": 0, "confederate": 0}
+	for t_id in GameManager._territory_owners:
+		var o: String = GameManager._territory_owners[t_id]
+		counts[o] = counts.get(o, 0) + 1
+	for t_id in GameManager._units_on_map:
+		for u in GameManager._units_on_map[t_id]:
+			if u.has_method("is_alive") and u.is_alive():
+				units[u.side] = units.get(u.side, 0) + 1
+	var total_captures: int = 0
+	for t_id in GameManager._territory_owners:
+		var td: Dictionary = CardDatabase.get_territory(t_id)
+		var initial: String = str(td.get("initial_owner", "neutral"))
+		var current: String = GameManager._territory_owners[t_id]
+		if initial != "neutral" and current != initial:
+			total_captures += 1
+	var captures_this_turn: int = total_captures - _captures_last_turn
+	_captures_last_turn = total_captures
+	var armies_alive: bool = units["union"] >= 2 and units["confederate"] >= 2
+	if captures_this_turn == 0 and armies_alive:
+		_stall_turns += 1
+	else:
+		_stall_turns = 0
+	var stall_note := ""
+	if _stall_turns >= 3:
+		stall_note = " *** STALL DETECTED (%d turns no captures) ***" % _stall_turns
+	Logger.info("GameState", "TURN %d | U: ter %d units %d | C: ter %d units %d | hand U:%d C:%d | captures total %d (+%d)%s" % [
+		turn, counts["union"], units["union"], counts["confederate"], units["confederate"],
+		_hands["union"].size(), _hands["confederate"].size(),
+		total_captures, captures_this_turn, stall_note])
 
 func _on_side_switched(new_side: String) -> void:
 	_play_music_for_side(new_side)
