@@ -14,9 +14,13 @@ func _ready() -> void:
 	# Session-only override for dev/E2E screenshots (hub law: one language
 	# per screen must be verifiable deterministically). Not persisted.
 	var env_lang: String = OS.get_environment("CWG_LANG")
-	if env_lang != "" and _available_languages.has(env_lang) and env_lang != _current_lang:
-		_current_lang = env_lang
-		language_changed.emit(env_lang)
+	if env_lang != "":
+		if _available_languages.has(env_lang) and env_lang != _current_lang:
+			Logger.info("Localization", "CWG_LANG override: %s -> %s" % [_current_lang, env_lang])
+			_current_lang = env_lang
+			language_changed.emit(env_lang)
+		elif not _available_languages.has(env_lang):
+			Logger.warn("Localization", "CWG_LANG='%s' is not a known locale (known: %s)" % [env_lang, str(_available_languages)])
 
 func _load_translations() -> void:
 	var path: String = "res://data/localization/translations.csv"
@@ -97,6 +101,10 @@ func get_language_native_name(lang: String) -> String:
 		"ja": return "日本語"
 		"hi": return "हिन्दी"
 		"ar": return "العربية"
+		"it": return "Italiano"
+		"pl": return "Polski"
+		"tr": return "Türkçe"
+		"ko": return "한국어"
 		_: return lang
 
 func has_key(key: String) -> bool:

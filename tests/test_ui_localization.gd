@@ -98,8 +98,25 @@ func _ready() -> void:
 	test_law_keys_exist_in_ru_and_en()
 	test_all_code_keys_resolve()
 	test_every_key_has_ru_and_en()
+	test_every_key_has_all_locales()
+	test_font_coverage_all_locales()
 	test_all_scene_scripts_compile()
 	_print_summary()
+
+## Hub law: the game ships 14 locales. A language that only exists in the
+## header but has holes silently degrades to English mid-screen (mix bug).
+const REQUIRED_LOCALES: PackedStringArray = [
+	"ru", "en", "fr", "es", "de", "pt", "zh", "ja", "hi", "ar",
+	"it", "pl", "tr", "ko",
+]
+
+## Per-script probe strings: chars our vintage fonts do NOT carry, so the
+## test proves the Noto fallback chain actually loads and covers them.
+const SCRIPT_PROBES: Dictionary = {
+	"pl": "ąćęłńóśźż", "tr": "ğışçöüİŞĞ",
+	"zh": "汉字测试", "ja": "いろはにほへと", "ko": "한국어핵",
+	"ar": "العربية", "hi": "हिन्दी",
+}
 
 ## A script that fails to parse kills its scene silently (no handlers,
 ## no drawing - the "gray F9 screen" incident was exactly this). Guard:
@@ -150,9 +167,49 @@ func test_csv_hygiene() -> void:
 				dupes.append(key)
 			seen[key] = true
 	f.close()
-	_assert(expected_fields == 11, "CSV has 11 columns (key + 10 locales), got %d" % expected_fields)
-	_assert(malformed.is_empty(), "every CSV row has 11 fields %s" % str(malformed).left(200))
+	_assert(expected_fields == REQUIRED_LOCALES.size() + 1,
+		"CSV has %d columns (key + %d locales), got %d" % [REQUIRED_LOCALES.size() + 1, REQUIRED_LOCALES.size(), expected_fields])
+	_assert(malformed.is_empty(), "every CSV row has the same field count %s" % str(malformed).left(200))
 	_assert(dupes.is_empty(), "no duplicate keys (dupes overwrite translations) %s" % str(dupes).left(200))
+	for i in range(1, header.size()):
+		_assert(REQUIRED_LOCALES.has(header[i].strip_edges()),
+			"CSV column %d is a known locale (got '%s')" % [i, header[i]])
+
+func test_every_key_has_all_locales() -> void:
+	for lang in REQUIRED_LOCALES:
+		var dict: Dictionary = Localization._translations.get(lang, {})
+		var missing: Array = []
+		for key in Localization._translations.get("ru", {}).keys():
+			if not dict.has(key) or str(dict[key]).strip_edges() == "":
+				missing.append(key)
+				if missing.size() >= 5:
+					break
+		_assert(missing.is_empty(),
+			"locale '%s' has no holes (%s...)" % [lang, str(missing).left(150)])
+
+func test_font_coverage_all_locales() -> void:
+	var purposes: PackedStringArray = ["title", "body", "caption", "display"]
+	var broken: Array = []
+	for lang in REQUIRED_LOCALES:
+		var sample: String = Localization.get_language_native_name(lang) + SCRIPT_PROBES.get(lang, "Aa")
+		for purpose in purposes:
+			var font: Font = FontLoader.get_font(purpose)
+			if font == null:
+				broken.append("%s/%s: no font" % [lang, purpose])
+				continue
+			for ch in sample:
+				if not _font_stack_has(font, ch):
+					broken.append("%s/%s: no glyph U+%04X '%s'" % [lang, purpose, ch.unicode_at(0), ch])
+					break
+	_assert(broken.is_empty(), "every locale renders on every font stack %s" % str(broken).left(300))
+
+func _font_stack_has(font: Font, ch: String) -> bool:
+	if font.has_char(ch.unicode_at(0)):
+		return true
+	for fb in font.fallbacks:
+		if fb is Font and fb.has_char(ch.unicode_at(0)):
+			return true
+	return false
 
 func test_every_key_has_ru_and_en() -> void:
 	var empty_ru: Array = []

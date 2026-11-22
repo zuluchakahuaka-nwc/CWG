@@ -8,7 +8,9 @@ on:
   workflow_dispatch:
 
 env:
-  GODOT_VERSION: "4.2.2-stable"
+  # 4.4.1 required: the Noto fallback fonts are variable TTFs ([wght]),
+  # which the 4.2 importer rejects -> fontless (tofu) exports.
+  GODOT_VERSION: "4.4.1-stable"
 
 jobs:
   test-and-export:
@@ -20,7 +22,7 @@ jobs:
 
       - name: Install Godot + export templates
         run: |
-          sudo apt-get update && sudo apt-get install -y unzip
+          sudo apt-get update && sudo apt-get install -y unzip xvfb
           wget -q "https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}/Godot_v${GODOT_VERSION}_linux.x86_64.zip"
           wget -q "https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}/Godot_v${GODOT_VERSION}_export_templates.tpz"
           unzip -q "Godot_v${GODOT_VERSION}_linux.x86_64.zip" -d godot_bin
@@ -32,9 +34,13 @@ jobs:
           ls ~/.local/share/godot/export_templates/${TEMPLATE_DIR}/ | head -5
           echo "GODOT=$PWD/godot_bin/Godot_v${GODOT_VERSION}_linux.x86_64" >> "$GITHUB_ENV"
 
+      # SK-06 "honest headless" (AIGAMETEST.MD): Godot 4 does NOT deliver
+      # mouse clicks to Control nodes in --headless mode; tests that click
+      # buttons must run under a real display. xvfb provides one without a
+      # GPU; the aggregated runner still exits with the CI-friendly code.
       - name: Tests (aggregated runner, CI exit code)
         run: |
-          $GODOT --headless --path . res://tests/test_runner.tscn 2>&1 | tee tests_output.log
+          xvfb-run -a $GODOT --path . res://tests/test_runner.tscn 2>&1 | tee tests_output.log
           grep -q "SUITES TOTAL" tests_output.log
 
       - name: Import check (fresh clone must build)
