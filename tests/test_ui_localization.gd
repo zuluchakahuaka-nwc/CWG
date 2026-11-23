@@ -100,6 +100,7 @@ func _ready() -> void:
 	test_every_key_has_ru_and_en()
 	test_every_key_has_all_locales()
 	test_font_coverage_all_locales()
+	test_card_names_fit_card_width()
 	test_all_scene_scripts_compile()
 	_print_summary()
 
@@ -202,6 +203,31 @@ func test_font_coverage_all_locales() -> void:
 					broken.append("%s/%s: no glyph U+%04X '%s'" % [lang, purpose, ch.unicode_at(0), ch])
 					break
 	_assert(broken.is_empty(), "every locale renders on every font stack %s" % str(broken).left(300))
+
+## Every localized card name must FIT its card after the shrink-to-fit +
+## ellipsis pass (card_widget). Long German/Polish names are the driver.
+func test_card_names_fit_card_width() -> void:
+	var widget: Control = load("res://scripts/ui/card_widget.gd").new()
+	var font: Font = FontLoader.get_font("display")
+	var card_w: float = 225.0 - 8.0
+	var broken: Array = []
+	var cards: Array = []
+	cards += CardDatabase.get_all_units_for_side("union")
+	cards += CardDatabase.get_all_units_for_side("confederate")
+	for card in cards:
+		for lang in REQUIRED_LOCALES:
+			var name: String = str(card.get("name_" + lang, ""))
+			var size: int = 31
+			while size > 7 and font.get_string_size(name, HORIZONTAL_ALIGNMENT_LEFT, -1, size).x > card_w:
+				size -= 1
+			var fitted: String = name
+			if font.get_string_size(fitted, HORIZONTAL_ALIGNMENT_LEFT, -1, size).x > card_w:
+				fitted = widget._ellipsize_to_width(fitted, font, size, card_w)
+			if font.get_string_size(fitted, HORIZONTAL_ALIGNMENT_LEFT, -1, size).x > card_w * 1.05:
+				broken.append("%s:%s" % [card.get("id", "?"), lang])
+	_assert(broken.is_empty(),
+		"every localized name fits the card after shrink+ellipsis %s" % str(broken).left(200))
+	widget.free()
 
 func _font_stack_has(font: Font, ch: String) -> bool:
 	if font.has_char(ch.unicode_at(0)):

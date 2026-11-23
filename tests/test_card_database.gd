@@ -18,6 +18,7 @@ func _ready() -> void:
 	test_get_all_units_for_side()
 	test_get_adjacent_territories()
 	test_all_cards_have_required_fields()
+	test_all_cards_have_names_in_every_locale()
 	_print_summary()
 
 func _assert(condition: bool, test_name: String) -> void:
@@ -27,6 +28,35 @@ func _assert(condition: bool, test_name: String) -> void:
 	else:
 		_fail_count += 1
 		_test_results.append("  FAIL: " + test_name)
+
+## Hub l10n law, part 2/2: card NAMES must exist in every locale the CSV
+## ships - a missing name silently degrades to English mid-screen (mix).
+const CARD_LOCALES: PackedStringArray = [
+	"en", "ru", "fr", "es", "de", "pt", "zh", "ja", "hi", "ar",
+	"it", "pl", "tr", "ko",
+]
+
+func test_all_cards_have_names_in_every_locale() -> void:
+	var missing: Array = []
+	var cards: Array = []
+	cards += CardDatabase.get_all_units_for_side("union")
+	cards += CardDatabase.get_all_units_for_side("confederate")
+	cards += CardDatabase.get_all_commanders_for_side("union")
+	cards += CardDatabase.get_all_commanders_for_side("confederate")
+	var sit_ids: Array = CardDatabase.get_all_card_ids().get("situations", [])
+	for sid in sit_ids:
+		cards.append(CardDatabase.get_situation(str(sid)))
+	for card in cards:
+		for lang in CARD_LOCALES:
+			var value: String = str(card.get("name_" + lang, ""))
+			if value.strip_edges() == "":
+				missing.append("%s:%s" % [card.get("id", "?"), lang])
+				if missing.size() >= 5:
+					break
+		if missing.size() >= 5:
+			break
+	_assert(missing.is_empty(),
+		"every card has a name in all %d locales %s" % [CARD_LOCALES.size(), str(missing).left(200)])
 
 func test_load_union_units() -> void:
 	var units: Array = CardDatabase.get_all_units_for_side("union")

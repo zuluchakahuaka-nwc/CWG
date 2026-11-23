@@ -57,7 +57,14 @@ func _draw() -> void:
 	var stat_font: Font = FontLoader.get_font("caption") if FontLoader else ThemeDB.fallback_font
 	var name_str: String = Localization.get_card_name(_card_data) if Localization else _card_data.get("name_en", _card_data.get("id", ""))
 	var font_name_size: int = maxi(8, int(name_h * 0.65))
-	draw_string(name_font, Vector2(4, name_h * 0.75), name_str, HORIZONTAL_ALIGNMENT_LEFT, w - 8, font_name_size, Color.WHITE)
+	# L10n: German/Polish names run 3x the English length - shrink the font
+	# to fit before clipping anything, and only then ellipsize.
+	while font_name_size > 7 and name_font.get_string_size(name_str, HORIZONTAL_ALIGNMENT_LEFT, -1, font_name_size).x > w - 8:
+		font_name_size -= 1
+	var display_name: String = name_str
+	if name_font.get_string_size(display_name, HORIZONTAL_ALIGNMENT_LEFT, -1, font_name_size).x > w - 8:
+		display_name = _ellipsize_to_width(display_name, name_font, font_name_size, w - 8)
+	draw_string(name_font, Vector2(4, name_h * 0.75), display_name, HORIZONTAL_ALIGNMENT_LEFT, w - 8, font_name_size, Color.WHITE)
 
 	var type_str: String = _get_type_icon(card_type)
 	var font_type_size: int = maxi(7, int(name_h * 0.5))
@@ -176,6 +183,14 @@ func _gui_input(event: InputEvent) -> void:
 			card_selected.emit(_card_data)
 		elif event.button_index == MOUSE_BUTTON_RIGHT:
 			card_played.emit(_card_data)
+
+## L10n: trim a too-long card name with an explicit ellipsis instead of a
+## hard mid-glyph clip (the pre-localization era clipped silently).
+func _ellipsize_to_width(text: String, font: Font, size: int, max_w: float) -> String:
+	var out: String = text
+	while out.length() > 1 and font.get_string_size(out + "…", HORIZONTAL_ALIGNMENT_LEFT, -1, size).x > max_w:
+		out = out.substr(0, out.length() - 1)
+	return out + "…"
 
 func get_card_data() -> Dictionary:
 	return _card_data

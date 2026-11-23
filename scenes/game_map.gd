@@ -591,7 +591,10 @@ func _start_drag(idx: int) -> void:
 	_drag_preview.custom_minimum_size = Vector2(100, 60)
 	_drag_preview.z_index = 200
 	var lbl: Label = Label.new()
-	lbl.text = Localization.get_card_name(card.card_data).left(15)
+	lbl.text = Localization.get_card_name(card.card_data)
+	# L10n: long German/Polish names - ellipsize at a word boundary instead
+	# of the pre-localization hard .left(15) char cut.
+	lbl.text_overrun_behavior = TextServer.OVERRUN_TRIM_WORD_ELLIPSIS
 	lbl.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
 	_drag_preview.add_child(lbl)
 	add_child(_drag_preview)
