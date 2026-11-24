@@ -44,7 +44,7 @@ const CARD_LOCALES: PackedStringArray = [
 ## 12 are materialized). The guard also rejects a locale that exists
 ## only on SOME cards (partial application).
 const DESC_DONE_LOCALES: PackedStringArray = [
-	"fr",
+	"fr", "es",
 ]
 
 func _all_cards_for_l10n() -> Array:
