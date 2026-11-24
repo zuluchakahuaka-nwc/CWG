@@ -100,245 +100,245 @@ phonograph.category.ballads,Баллады,Ballads,Ballades,Baladas,Balladen,Bal
 phonograph.category.hymns,Гимны,Hymns,Hymnes,Himnos,Hymnen,Hinos,圣歌,賛美歌,भजन,ترانيم,Inni,Hymny,İlahiler,찬가
 phonograph.category.fife_and_drum,Фиф и барабан,Fife and Drum,Fifre et tambour,Pífano y tambor,Piccolo und Trommel,Pífaro e Tambor,横笛与鼓,ファイフ＆ドラム,बाँसुरी और ढोल,ناي وطبول,Ottavino e tamburo,Flet i bęben,Kaval ve davul,피리와 북
 phonograph.category.orchestral,Оркестровые,Orchestral,Orchestral,Orquestal,Orchester,Orquestral,管弦乐,オーケストラ,ऑर्केस्ट्रा,أوركسترا,Orchestrali,Orkiestrowe,Orkestral,오케스트라
-territory.washington_dc,Вашингтон,Washington D.C.,Washington D.C.,Washington D.C.,Washington D.C.,Washington D.C.,Washington D.C.,Washington D.C.,Washington D.C.,Washington D.C.,Washington D.C.,Waszyngton,Washington D.C.,워싱턴 D.C.
-territory.maryland,Мэриленд,Maryland,Maryland,Maryland,Maryland,Maryland,Maryland,Maryland,Maryland,Maryland,Maryland,Maryland,Maryland,메릴랜드
+territory.washington_dc,Вашингтон,Washington D.C.,Washington D.C.,Washington D.C.,Washington D.C.,Washington D.C.,华盛顿,ワシントンD.C.,वाशिंगटन डी.सी.,واشنطن دي.سي.,Washington D.C.,Waszyngton,Washington D.C.,워싱턴 D.C.
+territory.maryland,Мэриленд,Maryland,Maryland,Maryland,Maryland,Maryland,马里兰,メリーランド,मैरीलैंड,ميريلاند,Maryland,Maryland,Maryland,메릴랜드
 territory.virginia_north,Северная Виргиния,Northern Virginia,Virginie du Nord,Virginia del Norte,Nord-Virginia,Virgínia do Norte,北弗吉尼亚,北部バージニア,उत्तरी वर्जीनिया,شمال فرجينيا,Virginia settentrionale,Wirginia Północna,Kuzey Virginia,북부 버지니아
-territory.richmond,Ричмонд,Richmond,Richmond,Richmond,Richmond,Richmond,Richmond,Richmond,Richmond,Richmond,Richmond,Richmond,Richmond,리치먼드
+territory.richmond,Ричмонд,Richmond,Richmond,Richmond,Richmond,Richmond,里士满,リッチモンド,रिचमंड,ريتشموند,Richmond,Richmond,Richmond,리치먼드
 territory.shenandoah,Долина Шенандоа,Shenandoah Valley,Vallée de la Shenandoah,Valle de Shenandoah,Shenandoah-Tal,Vale do Shenandoah,谢南多厄河谷,シェナンドー渓谷,शेनंडोआ घाटी,وادي شيناندوا,Valle dello Shenandoah,Dolina Shenandoah,Shenandoah Vadisi,셰넌도어 계곡
 territory.virginia_west,Западная Виргиния,West Virginia,Virginie-Occidentale,Virginia Occidental,West-Virginia,Virgínia Ocidental,西弗吉尼亚,ウェストバージニア,पश्चिमी वर्जीनिया,فرجينيا الغربية,Virginia occidentale,Wirginia Zachodnia,Batı Virginia,서부 버지니아
-territory.pennsylvania,Пенсильвания,Pennsylvania,Pennsylvanie,Pensilvania,Pennsylvania,Pennsylvania,Pennsylvania,Pennsylvania,Pennsylvania,Pennsylvania,Pennsylvania,Pensylwania,Pennsylvania,펜실베이니아
-territory.harpers_ferry,Харперс-Ферри,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,하퍼스페리
-territory.kentucky,Кентукки,Kentucky,Kentucky,Kentucky,Kentucky,Kentucky,Kentucky,Kentucky,Kentucky,Kentucky,Kentucky,Kentucky,Kentucky,켄터키
+territory.pennsylvania,Пенсильвания,Pennsylvania,Pennsylvanie,Pensilvania,Pennsylvania,Pennsylvania,宾夕法尼亚,ペンシルベニア,पेंसिल्वेनिया,بنسلفانيا,Pennsylvania,Pensylwania,Pennsylvania,펜실베이니아
+territory.harpers_ferry,Харперс-Ферри,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,Harpers Ferry,哈珀斯费里,ハーパーズフェリー,हार्पर्स फेरी,هاربرز فيري,Harpers Ferry,Harpers Ferry,Harpers Ferry,하퍼스페리
+territory.kentucky,Кентукки,Kentucky,Kentucky,Kentucky,Kentucky,Kentucky,肯塔基,ケンタッキー,केंटकी,كنتاكي,Kentucky,Kentucky,Kentucky,켄터키
 territory.tennessee_east,Восточный Теннесси,East Tennessee,Tennessee de l'Est,Tennessee del Este,Ost-Tennessee,Tennessee do Leste,东田纳西,東テネシー,पूर्वी टेनेसी,شرق تينيسي,Tennessee orientale,Tennessee Wschodni,Doğu Tennessee,동부 테네시
 territory.tennessee_west,Западный Теннесси,West Tennessee,Tennessee de l'Ouest,Tennessee del Oeste,West-Tennessee,Tennessee do Oeste,西田纳西,西テネシー,पश्चिमी टेनेसी,غرب تينيسي,Tennessee occidentale,Tennessee Zachodni,Batı Tennessee,서부 테네시
-territory.nashville,Нэшвилл,Nashville,Nashville,Nashville,Nashville,Nashville,Nashville,Nashville,Nashville,Nashville,Nashville,Nashville,Nashville,내슈빌
+territory.nashville,Нэшвилл,Nashville,Nashville,Nashville,Nashville,Nashville,纳什维尔,ナッシュビル,नैशविल,ناشفيل,Nashville,Nashville,Nashville,내슈빌
 territory.mississippi_north,Северная Миссисипи,Northern Mississippi,Mississippi du Nord,Misisipi del Norte,Nord-Mississippi,Mississippi do Norte,北密西西比,北部ミシシッピ,उत्तरी मिसिसिपी,شمال مسيسيبي,Mississippi settentrionale,Missisipi Północne,Kuzey Mississippi,북부 미시시피
-territory.vicksburg,Виксберг,Vicksburg,Vicksburg,Vicksburg,Vicksburg,Vicksburg,Vicksburg,Vicksburg,Vicksburg,Vicksburg,Vicksburg,Vicksburg,Vicksburg,빅스버그
+territory.vicksburg,Виксберг,Vicksburg,Vicksburg,Vicksburg,Vicksburg,Vicksburg,维克斯堡,ヴィックスバーグ,विक्सबर्ग,فيكسبيرغ,Vicksburg,Vicksburg,Vicksburg,빅스버그
 territory.alabama_north,Северная Алабама,Northern Alabama,Alabama du Nord,Alabama del Norte,Nord-Alabama,Alabama do Norte,北阿拉巴马,北部アラバマ,उत्तरी अलाबामा,شمال ألاباما,Alabama settentrionale,Alabama Północna,Kuzey Alabama,북부 앨라배마
-territory.atlanta,Атланта,Atlanta,Atlanta,Atlanta,Atlanta,Atlanta,Atlanta,Atlanta,Atlanta,Atlanta,Atlanta,Atlanta,Atlanta,애틀랜타
+territory.atlanta,Атланта,Atlanta,Atlanta,Atlanta,Atlanta,Atlanta,亚特兰大,アトランタ,अटलांटा,أتلانتا,Atlanta,Atlanta,Atlanta,애틀랜타
 territory.georgia_south,Южная Джорджия,Southern Georgia,Géorgie du Sud,Georgia del Sur,Süd-Georgia,Georgia do Sul,南佐治亚,南部ジョージア,दक्षिणी जॉर्जिया,جنوب جورجيا,Georgia meridionale,Georgia Południowa,Güney Georgia,남부 조지아
-territory.memphis,Мемфис,Memphis,Memphis,Memphis,Memphis,Memphis,Memphis,Memphis,Memphis,Memphis,Memphis,Memphis,Memphis,멤피스
-territory.chattanooga,Чаттануга,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,채터누가
-territory.natchez,Натчез,Natchez,Natchez,Natchez,Natchez,Natchez,Natchez,Natchez,Natchez,Natchez,Natchez,Natchez,Natchez,내치즈
-territory.corinth,Коринф,Corinth,Corinth,Corinto,Corinth,Corinth,Corinth,Corinth,Corinth,Corinth,Corinto,Korynt,Korint,코린트
-territory.missouri,Миссури,Missouri,Missouri,Misuri,Missouri,Missouri,Missouri,Missouri,Missouri,Missouri,Missouri,Missouri,Missouri,미주리
-territory.arkansas,Арканзас,Arkansas,Arkansas,Arkansas,Arkansas,Arkansas,Arkansas,Arkansas,Arkansas,Arkansas,Arkansas,Arkansas,Arkansas,아칸소
+territory.memphis,Мемфис,Memphis,Memphis,Memphis,Memphis,Memphis,孟菲斯,メンフィス,मेम्फिस,ممفيس,Memphis,Memphis,Memphis,멤피스
+territory.chattanooga,Чаттануга,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,查塔努加,チャタヌーガ,चट्टानूगा,تشاتانوغا,Chattanooga,Chattanooga,Chattanooga,채터누가
+territory.natchez,Натчез,Natchez,Natchez,Natchez,Natchez,Natchez,纳奇兹,ナッチェズ,नाचेज़,ناتشيز,Natchez,Natchez,Natchez,내치즈
+territory.corinth,Коринф,Corinth,Corinth,Corinto,Corinth,Corinth,科林斯,コリンス,कोरिंथ,كورينث,Corinto,Korynt,Korint,코린트
+territory.missouri,Миссури,Missouri,Missouri,Misuri,Missouri,Missouri,密苏里,ミズーリ,मिसौरी,ميسوري,Missouri,Missouri,Missouri,미주리
+territory.arkansas,Арканзас,Arkansas,Arkansas,Arkansas,Arkansas,Arkansas,阿肯色,アーカンソー,अर्कांसस,أركنساس,Arkansas,Arkansas,Arkansas,아칸소
 territory.louisiana_north,Северная Луизиана,Northern Louisiana,Louisiane du Nord,Luisiana del Norte,Nord-Louisiana,Louisiana do Norte,北路易斯安那,北部ルイジアナ,उत्तरी लुइज़ियाना,شمال لويزيانا,Louisiana settentrionale,Luizjana Północna,Kuzey Louisiana,북부 루이지애나
-territory.new_orleans,Новый Орлеан,New Orleans,La Nouvelle-Orléans,Nueva Orleans,New Orleans,New Orleans,New Orleans,New Orleans,New Orleans,New Orleans,New Orleans,Nowy Orlean,New Orleans,뉴올리언스
-territory.texas,Техас,Texas,Texas,Texas,Texas,Texas,Texas,Texas,Texas,Texas,Texas,Teksas,Teksas,텍사스
-territory.indian_territory,Индейская территория,Indian Territory,Territoire indien,Territorio indio,Indian Territory,Indian Territory,Indian Territory,Indian Territory,Indian Territory,Indian Territory,Territorio indiano,Terytorium Indiańskie,Kızılderili Bölgesi,인디언 준주
+territory.new_orleans,Новый Орлеан,New Orleans,La Nouvelle-Orléans,Nueva Orleans,New Orleans,New Orleans,新奥尔良,ニューオーリンズ,न्यू ऑरलियन्स,نيو أورلينز,New Orleans,Nowy Orlean,New Orleans,뉴올리언스
+territory.texas,Техас,Texas,Texas,Texas,Texas,Texas,得克萨斯,テキサス,टेक्सस,تكساس,Texas,Teksas,Teksas,텍사스
+territory.indian_territory,Индейская территория,Indian Territory,Territoire indien,Territorio indio,Indian Territory,Indian Territory,印第安领地,インディアン準州,इंडियन टेरिटरी,الإقليم الهندي,Territorio indiano,Terytorium Indiańskie,Kızılderili Bölgesi,인디언 준주
 territory.louisiana_south,Южная Луизиана,Southern Louisiana,Louisiane du Sud,Luisiana del Sur,Süd-Louisiana,Louisiana do Sul,南路易斯安那,南部ルイジアナ,दक्षिणी लुइज़ियाना,جنوب لويزيانا,Louisiana meridionale,Luizjana Południowa,Güney Louisiana,남부 루이지애나
-territory.north_carolina,Северная Каролина,North Carolina,Caroline du Nord,Carolina del Norte,North Carolina,North Carolina,North Carolina,North Carolina,North Carolina,North Carolina,North Carolina,Karolina Północna,Kuzey Karolina,노스캐롤라이나
-territory.south_carolina,Южная Каролина,South Carolina,Caroline du Sud,Carolina del Sur,South Carolina,South Carolina,South Carolina,South Carolina,South Carolina,South Carolina,South Carolina,Karolina Południowa,Güney Karolina,사우스캐롤라이나
-territory.charleston,Чарлстон,Charleston,Charleston,Charleston,Charleston,Charleston,Charleston,Charleston,Charleston,Charleston,Charleston,Charleston,Charleston,찰스턴
-territory.florida,Флорида,Florida,Floride,Florida,Florida,Florida,Florida,Florida,Florida,Florida,Florida,Floryda,Florida,플로리다
-territory.wilmington,Уилмингтон,Wilmington,Wilmington,Wilmington,Wilmington,Wilmington,Wilmington,Wilmington,Wilmington,Wilmington,Wilmington,Wilmington,Wilmington,윌밍턴
-territory.savannah,Саванна,Savannah,Savannah,Savannah,Savannah,Savannah,Savannah,Savannah,Savannah,Savannah,Savannah,Savannah,Savannah,사바나
-territory.mobile,Мобил,Mobile,Mobile,Mobile,Mobile,Mobile,Mobile,Mobile,Mobile,Mobile,Mobile,Mobile,Mobile,모빌
+territory.north_carolina,Северная Каролина,North Carolina,Caroline du Nord,Carolina del Norte,North Carolina,North Carolina,北卡罗来纳,ノースカロライナ,उत्तरी कैरोलिना,كارولاينا الشمالية,North Carolina,Karolina Północna,Kuzey Karolina,노스캐롤라이나
+territory.south_carolina,Южная Каролина,South Carolina,Caroline du Sud,Carolina del Sur,South Carolina,South Carolina,南卡罗来纳,サウスカロライナ,दक्षिणी कैरोलिना,كارولاينا الجنوبية,South Carolina,Karolina Południowa,Güney Karolina,사우스캐롤라이나
+territory.charleston,Чарлстон,Charleston,Charleston,Charleston,Charleston,Charleston,查尔斯顿,チャールストン,चार्ल्सटन,تشارلستون,Charleston,Charleston,Charleston,찰스턴
+territory.florida,Флорида,Florida,Floride,Florida,Florida,Florida,佛罗里达,フロリダ,फ्लोरिडा,فلوريدا,Florida,Floryda,Florida,플로리다
+territory.wilmington,Уилмингтон,Wilmington,Wilmington,Wilmington,Wilmington,Wilmington,威尔明顿,ウィルミントン,विल्मिंगटन,ويلمنغتون,Wilmington,Wilmington,Wilmington,윌밍턴
+territory.savannah,Саванна,Savannah,Savannah,Savannah,Savannah,Savannah,萨凡纳,サバンナ,सवाना,سافانا,Savannah,Savannah,Savannah,사바나
+territory.mobile,Мобил,Mobile,Mobile,Mobile,Mobile,Mobile,莫比尔,モービル,मोबाइल,موبايل,Mobile,Mobile,Mobile,모빌
 territory.atlantic_coast,Атлантическое побережье,Atlantic Coast,Côte atlantique,Costa atlántica,Atlantikküste,Costa Atlântica,大西洋海岸,大西洋沿岸,अटलांटिक तट,ساحل الأطلسي,Costa atlantica,Wybrzeże atlantyckie,Atlantik kıyısı,대서양 연안
 territory.gulf_coast,Мексиканский залив,Gulf of Mexico,Golfe du Mexique,Golfo de México,Golf von Mexiko,Golfo do México,墨西哥湾,メキシコ湾,मैक्सिको की खाड़ी,خليج المكسيك,Golfo del Messico,Zatoka Meksykańska,Meksika Körfezi,멕시코만
-territory.mississippi_river,Река Миссисипи,Mississippi River,Fleuve Mississippi,Río Misisipi,Mississippi River,Mississippi River,Mississippi River,Mississippi River,Mississippi River,Mississippi River,Fiume Mississippi,Rzeka Missisipi,Mississippi Nehri,미시시피 강
-event.hampton_roads,Первый бой броненосцев,First Ironclad Battle,Premier combat de cuirassés,Primera batalla de acorazados,First Ironclad Battle,First Ironclad Battle,First Ironclad Battle,First Ironclad Battle,First Ironclad Battle,First Ironclad Battle,Prima battaglia delle corazzate,Pierwsza bitwa pancerników,İlk zırhlı savaşı,최초의 철갑함 전투
-event.picketts_charge,Чардж Пикетта,Pickett's Charge,Charge de Pickett,Carga de Pickett,Pickett's Charge,Pickett's Charge,Pickett's Charge,Pickett's Charge,Pickett's Charge,Pickett's Charge,Carica di Pickett,Szarża Picketta,Pickett hücumu,피켓의 돌격
-event.friendly_fire,Дружественный огонь,Friendly Fire,Tir ami,Fuego amigo,Friendly Fire,Friendly Fire,Friendly Fire,Friendly Fire,Friendly Fire,Friendly Fire,Fuoco amico,Ostrzał sojuszniczy,Dost ateşi,아군 오사
-event.bayonet_charge,Штыковая атака,Bayonet Charge,Charge à la baïonnette,Carga a la bayoneta,Bayonet Charge,Bayonet Charge,Bayonet Charge,Bayonet Charge,Bayonet Charge,Bayonet Charge,Carica alla baionetta,Szarża na bagnety,Süngü hücumu,총검 돌격
-event.lincoln_assass,Убийство Линкольна,Lincoln Assassination,Assassinat de Lincoln,Asesinato de Lincoln,Lincoln Assassination,Lincoln Assassination,Lincoln Assassination,Lincoln Assassination,Lincoln Assassination,Lincoln Assassination,Assassinio di Lincoln,Zamach na Lincolna,Lincoln suikastı,링컨 암살
-event.emancipation,Прокламация об освобождении,Emancipation Proclamation,Proclamation d'émancipation,Proclamación de emancipación,Emancipation Proclamation,Emancipation Proclamation,Emancipation Proclamation,Emancipation Proclamation,Emancipation Proclamation,Emancipation Proclamation,Proclama di emancipazione,Proklamacja emancypacji,Özgürleştirme Bildirisi,노예 해방 선언
-event.appomattox,Аппоматтокс,Appomattox,Appomattox,Appomattox,Appomattox,Appomattox,Appomattox,Appomattox,Appomattox,Appomattox,Appomattox,Appomattox,Appomattox,애버매턱스
-event.march_to_sea,Марш к морю,March to the Sea,Marche vers la mer,Marcha hacia el mar,March to the Sea,March to the Sea,March to the Sea,March to the Sea,March to the Sea,March to the Sea,Marcia verso il mare,Marsz do morza,Denize yürüyüş,바다로의 행군
-event.cushing_torpedo,Торпеда Кушинга,Cushing's Spar Torpedo,Torpille perche de Cushing,Torpedo de pértiga de Cushing,Cushing's Spar Torpedo,Cushing's Spar Torpedo,Cushing's Spar Torpedo,Cushing's Spar Torpedo,Cushing's Spar Torpedo,Cushing's Spar Torpedo,Torpedine a sperone di Cushing,Torpeda na wywiesie Cushinga,Cushing'ın istingalı torpidosu,커싱의 봉 어뢰
-event.ram_cumberland,Таран «Вирджинии»,Ram of Virginia,Éperonnage du Virginia,Embestida del Virginia,Ram of Virginia,Ram of Virginia,Ram of Virginia,Ram of Virginia,Ram of Virginia,Ram of Virginia,Speronamento della Virginia,Taran Virginii,Virginia'nın mahmuzu,버지니아호의 충각
-event.sink_alabama,Потопление «Алабамы»,Sinking of Alabama,Naufrage de l'Alabama,Hundimiento del Alabama,Sinking of Alabama,Sinking of Alabama,Sinking of Alabama,Sinking of Alabama,Sinking of Alabama,Sinking of Alabama,Affondamento dell'Alabama,Zatopienie Alabamy,Alabama'nın batırılışı,앨라배마호 격침
-event.hunley_attack,Подводная атака,Submarine Attack,Attaque sous-marine,Ataque submarino,Submarine Attack,Submarine Attack,Submarine Attack,Submarine Attack,Submarine Attack,Submarine Attack,Attacco sottomarino,Atak podwodny,Denizaltı saldırısı,잠수정 공격
-event.cairo_mines,Мины на Язу,Mines at Yazoo,Mines sur le Yazoo,Minas en el Yazoo,Mines at Yazoo,Mines at Yazoo,Mines at Yazoo,Mines at Yazoo,Mines at Yazoo,Mines at Yazoo,Mine sullo Yazoo,Miny na Yazoo,Yazoo mayınları,야주 강의 기뢰
-event.arkansas_breakout,Прорыв «Арканзаса»,Arkansas Breakout,Percée de l'Arkansas,Irrupción del Arkansas,Arkansas Breakout,Arkansas Breakout,Arkansas Breakout,Arkansas Breakout,Arkansas Breakout,Arkansas Breakout,Evasione dell'Arkansas,Przełamanie Arkansas,Arkansas'ın atılımı,아칸소호의 돌파
-event.capture_atlanta_ship,Захват «Атланты»,Capture of Atlanta,Capture de l'Atlanta,Captura del Atlanta,Capture of Atlanta,Capture of Atlanta,Capture of Atlanta,Capture of Atlanta,Capture of Atlanta,Capture of Atlanta,Cattura dell'Atlanta,Zdobycie Atlanty,Atlanta'nın ele geçirilişi,애틀란타호 나포
-event.mobile_bay,Бой в Мобил-Бэй,Battle of Mobile Bay,Bataille de la baie de Mobile,Batalla de la bahía de Mobile,Battle of Mobile Bay,Battle of Mobile Bay,Battle of Mobile Bay,Battle of Mobile Bay,Battle of Mobile Bay,Battle of Mobile Bay,Battaglia della baia di Mobile,Bitwa w zatoce Mobile,Mobile Körfezi savaşı,모빌만 해전
-event.last_shot,Последний выстрел войны,Last Shot of the War,Dernier coup de feu de la guerre,Último disparo de la guerra,Last Shot of the War,Last Shot of the War,Last Shot of the War,Last Shot of the War,Last Shot of the War,Last Shot of the War,Ultimo colpo della guerra,Ostatni strzał wojny,Savaşın son atışı,전쟁의 마지막 포성
-event.fingal_run,Блокадопрорыв «Фингала»,Fingal Blockade Run,Forçage du blocus par le Fingal,Rompedor de bloqueo Fingal,Fingal Blockade Run,Fingal Blockade Run,Fingal Blockade Run,Fingal Blockade Run,Fingal Blockade Run,Fingal Blockade Run,Rottura del blocco del Fingal,Przebicie blokady przez Fingal,Fingal'ın abluka yarışı,핑갈호의 봉쇄 돌파
-event.minnesota_sacrifice,Жертвенная атака,Minnesota Sacrifice,Sacrifice du Minnesota,Sacrificio de Minnesota,Minnesota Sacrifice,Minnesota Sacrifice,Minnesota Sacrifice,Minnesota Sacrifice,Minnesota Sacrifice,Minnesota Sacrifice,Sacrificio del Minnesota,Poświęcenie Minnesoty,Minnesota'nın fedakârlığı,미네소타의 희생
-event.stonewall_name,«Стоунуолл!»,Stonewall!,Stonewall !,¡Stonewall!,Stonewall!,Stonewall!,Stonewall!,Stonewall!,Stonewall!,Stonewall!,Stonewall!,Stonewall!,Stonewall!,스톤월!
-event.iron_brigade,Железная бригада,Iron Brigade,Iron Brigade,Iron Brigade,Iron Brigade,Iron Brigade,Iron Brigade,Iron Brigade,Iron Brigade,Iron Brigade,Brigata di Ferro,Żelazna Brygada,Demir Tugay,철벽 여단
-event.berdan_sniper,Снайперы Бердана,Berdan's Snipers,Tireurs d'élite de Berdan,Francotiradores de Berdan,Berdan's Snipers,Berdan's Snipers,Berdan's Snipers,Berdan's Snipers,Berdan's Snipers,Berdan's Snipers,Tiratori scelti di Berdan,Strzelcy wyborowi Berdana,Berdan'ın keskin nişancıları,버단의 저격수
-event.fort_wagner,Штурм Форт-Уогнера,Assault on Fort Wagner,Assaut du fort Wagner,Asalto al fuerte Wagner,Assault on Fort Wagner,Assault on Fort Wagner,Assault on Fort Wagner,Assault on Fort Wagner,Assault on Fort Wagner,Assault on Fort Wagner,Assalto al Fort Wagner,Szturm Fort Wagner,Fort Wagner hücumu,웨그너 요새 돌격
-event.hoovers_gap,«Молниеносная бригада»,Lightning Brigade,Lightning Brigade,Brigada Relámpago,Lightning Brigade,Lightning Brigade,Lightning Brigade,Lightning Brigade,Lightning Brigade,Lightning Brigade,Brigata Fulmine,Brygada Błyskawiczna,Şimşek Tugayı,번개 여단
-event.mosby_fairfax,Рейд Мосби,Mosby's Raid,Raid de Mosby,Incursión de Mosby,Mosby's Raid,Mosby's Raid,Mosby's Raid,Mosby's Raid,Mosby's Raid,Mosby's Raid,Incursione di Mosby,Zagon Mosby’ego,Mosby baskını,모즈비의 습격
-event.beefsteak_raid,Кража скота,Beefsteak Raid,Raid du bœuf,Redada del ganado,Beefsteak Raid,Beefsteak Raid,Beefsteak Raid,Beefsteak Raid,Beefsteak Raid,Beefsteak Raid,Razzia del bestiame,Kradzież bydła,Sığır hırsızlığı,소 절도 사건
-event.try_us,«Попробуй нас!»,Try Us!,Essayez-nous !,¡Inténtenlo!,Try Us!,Try Us!,Try Us!,Try Us!,Try Us!,Try Us!,Provateci!,Spróbujcie nas!,Bize deneyin!,우리를 건드려 봐!
-event.pelham_flank,Пелхэм при Фредериксберге,Pelham's Flank,Pelham à Fredericksburg,Pelham en Fredericksburg,Pelham's Flank,Pelham's Flank,Pelham's Flank,Pelham's Flank,Pelham's Flank,Pelham's Flank,Pelham a Fredericksburg,Pelham pod Fredericksburgiem,Pelham Fredericksburg'da,프레더릭스버그의 펠햄
-event.pelham_death,Гибель Пелхэма,Death of Pelham,Mort de Pelham,Muerte de Pelham,Death of Pelham,Death of Pelham,Death of Pelham,Death of Pelham,Death of Pelham,Death of Pelham,Morte di Pelham,Śmierć Pelhama,Pelham'ın ölümü,펠햄의 죽음
-event.stuart_death,Смерть Стюарта,Death of Stuart,Mort de Stuart,Muerte de Stuart,Death of Stuart,Death of Stuart,Death of Stuart,Death of Stuart,Death of Stuart,Death of Stuart,Morte di Stuart,Śmierć Stuarta,Stuart'ın ölümü,스튜어트의 죽음
-event.forrest_braves,«Волшебник седла»,Wizard of the Saddle,Magicien de la selle,Mago de la silla,Wizard of the Saddle,Wizard of the Saddle,Wizard of the Saddle,Wizard of the Saddle,Wizard of the Saddle,Wizard of the Saddle,Mago della sella,Czarodziej siodła,Eyerin büyücüsü,안장의 마법사
-event.sidney_johnston,Смерть С. Джонстона,Death of Sidney Johnston,Mort de Sidney Johnston,Muerte de Sidney Johnston,Death of Sidney Johnston,Death of Sidney Johnston,Death of Sidney Johnston,Death of Sidney Johnston,Death of Sidney Johnston,Death of Sidney Johnston,Morte di Sidney Johnston,Śmierć Sidneya Johnstona,Sidney Johnston'ın ölümü,시드니 존스턴의 죽음
-event.syren_blockade,Блокада прорвана!,Blockade Broken!,Blocus forcé !,¡Bloqueo roto!,Blockade Broken!,Blockade Broken!,Blockade Broken!,Blockade Broken!,Blockade Broken!,Blockade Broken!,Blocco rotto!,Blokada przełamana!,Abluka yarıldı!,봉쇄 돌파 성공!
-event.russian_support,Поддержка России,Russian Support,Soutien russe,Apoyo ruso,Russian Support,Russian Support,Russian Support,Russian Support,Russian Support,Russian Support,Appoggio russo,Wsparcie rosyjskie,Rus desteği,러시아의 지지
-event.british_enfields,Британские «Энфилды»,British Enfields,Enfield britanniques,Enfield británicos,British Enfields,British Enfields,British Enfields,British Enfields,British Enfields,British Enfields,Enfield britannici,Brytyjskie Enfieldy,İngiliz Enfield tüfekleri,영제 엔필드 소총
-event.damn_torpedoes,«Проклятье на торпеды!»,Damn the Torpedoes!,Au diable les torpilles !,¡Al diablo las minas!,Damn the Torpedoes!,Damn the Torpedoes!,Damn the Torpedoes!,Damn the Torpedoes!,Damn the Torpedoes!,Damn the Torpedoes!,Al diavolo le torpedini!,Diabeł weź miny!,Torpidoları cehennemlik edin!,어뢰 따위는 지옥에나 가라!
-event.atlanta_fall,Атланта пала,Atlanta Has Fallen,Atlanta est tombée,Atlanta ha caído,Atlanta Has Fallen,Atlanta Has Fallen,Atlanta Has Fallen,Atlanta Has Fallen,Atlanta Has Fallen,Atlanta Has Fallen,Atlanta è caduta,Atlanta upadła,Atlanta düştü,애틀랜타 함락
-event.andrews_raid,Железнодорожный рейд Эндрюса,Andrews' Railroad Raid,Raid ferroviaire d'Andrews,Incursión ferroviaria de Andrews,Andrews' Railroad Raid,Andrews' Railroad Raid,Andrews' Railroad Raid,Andrews' Railroad Raid,Andrews' Railroad Raid,Andrews' Railroad Raid,Razzia ferroviaria di Andrews,Zagon kolejowy Andrewsa,Andrews'ın tren baskını,앤드루스의 기차 습격
-event.vicksburg_fall,Виксберг пал,Vicksburg Has Fallen,Vicksburg est tombé,Vicksburg ha caído,Vicksburg Has Fallen,Vicksburg Has Fallen,Vicksburg Has Fallen,Vicksburg Has Fallen,Vicksburg Has Fallen,Vicksburg Has Fallen,Vicksburg è caduta,Vicksburg upadł,Vicksburg düştü,빅스버그 함락
-event.first_monitor,Первый «Монитор»,First Monitor,Premier Monitor,Primer Monitor,First Monitor,First Monitor,First Monitor,First Monitor,First Monitor,First Monitor,Primo Monitor,Pierwszy Monitor,İlk Monitor,최초의 모니터호
-event.lee_refusal,«Я не знаю мистера Ли»,I Know No Mr. Lee,Je ne connais pas ce monsieur Lee,No conozco al señor Lee,I Know No Mr. Lee,I Know No Mr. Lee,I Know No Mr. Lee,I Know No Mr. Lee,I Know No Mr. Lee,I Know No Mr. Lee,Non conosco il signor Lee,Nie znam pana Lee,Bay Lee'yi tanımıyorum,리 씨는 모릅니다
-event.first_manassas,Первый Манассас,First Manassas,Première Manassas,Primera Manassas,First Manassas,First Manassas,First Manassas,First Manassas,First Manassas,First Manassas,Prima Manassas,Pierwsza Manassas,İlk Manassas,제1차 매나서스
-event.shiloh,Шайло,Shiloh,Shiloh,Shiloh,Shiloh,Shiloh,Shiloh,Shiloh,Shiloh,Shiloh,Shiloh,Shiloh,Shiloh,실로
-event.antietam,Энтитем,Antietam,Antietam,Antietam,Antietam,Antietam,Antietam,Antietam,Antietam,Antietam,Antietam,Antietam,Antietam,앤티텀
-event.fredericksburg,Фредериксберг,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,프레더릭스버그
-event.chancellorsville,Чанселлорсвилл,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,챈슬러즈빌
-event.gettysburg,Геттисберг,Gettysburg,Gettysburg,Gettysburg,Gettysburg,Gettysburg,Gettysburg,Gettysburg,Gettysburg,Gettysburg,Gettysburg,Gettysburg,Gettysburg,게티즈버그
-event.chickamauga,Чикамога,Chickamauga,Chickamauga,Chickamauga,Chickamauga,Chickamauga,Chickamauga,Chickamauga,Chickamauga,Chickamauga,Chickamauga,Chickamauga,Chickamauga,치카모가
-event.chattanooga_battle,Чаттануга,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,채터누가
-event.spotsylvania,Спотсильвания,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,스폿실베이니아
-event.cold_harbor,Колд-Харбор,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,콜드하버
-event.petersburg,Петерсберг,Petersburg,Petersburg,Petersburg,Petersburg,Petersburg,Petersburg,Petersburg,Petersburg,Petersburg,Petersburg,Petersburg,Petersburg,피터스버그
-event.bull_run_first,Первый Булл-Ран,First Bull Run,Première Bull Run,Primera Bull Run,First Bull Run,First Bull Run,First Bull Run,First Bull Run,First Bull Run,First Bull Run,Prima Bull Run,Pierwszy Bull Run,İlk Bull Run,제1차 불런
-event.bull_run_second,Второй Булл-Ран,Second Bull Run,Seconde Bull Run,Segunda Bull Run,Second Bull Run,Second Bull Run,Second Bull Run,Second Bull Run,Second Bull Run,Second Bull Run,Seconda Bull Run,Drugi Bull Run,İkinci Bull Run,제2차 불런
-event.pea_ridge,Пи-Ридж,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,피아 리지
-event.stones_river,Стоунс-Ривер,Stones River,Stones River,Stones River,Stones River,Stones River,Stones River,Stones River,Stones River,Stones River,Stones River,Stones River,Stones River,스톤스 리버
-event.wilderness,Глушь,The Wilderness,The Wilderness,The Wilderness,The Wilderness,The Wilderness,The Wilderness,The Wilderness,The Wilderness,The Wilderness,La Wilderness,Dzicz,Vahşi bölge,황야
-event.sherman_march,Марш Шермана,Sherman's March,Marche de Sherman,Marcha de Sherman,Sherman's March,Sherman's March,Sherman's March,Sherman's March,Sherman's March,Sherman's March,Marcia di Sherman,Marsz Shermana,Sherman'ın yürüyüşü,셔먼의 행군
-event.carolina_campaign,Кампания в Каролинах,Carolina Campaign,Campagne des Carolines,Campaña de las Carolinas,Carolina Campaign,Carolina Campaign,Carolina Campaign,Carolina Campaign,Carolina Campaign,Carolina Campaign,Campagna delle Carolina,Kampania karolińska,Karolina harekâtı,캐롤라이나 전역
-event.nashville_battle,Битва за Нэшвилл,Battle of Nashville,Bataille de Nashville,Batalla de Nashville,Battle of Nashville,Battle of Nashville,Battle of Nashville,Battle of Nashville,Battle of Nashville,Battle of Nashville,Battaglia di Nashville,Bitwa o Nashville,Nashville savaşı,내슈빌 전투
-event.mobile_campaign,Кампания у Мобила,Mobile Campaign,Campagne de Mobile,Campaña de Mobile,Mobile Campaign,Mobile Campaign,Mobile Campaign,Mobile Campaign,Mobile Campaign,Mobile Campaign,Campagna di Mobile,Kampania mobile,Mobile harekâtı,모빌 전역
-event.fort_sumter,Форт Самтер,Fort Sumter,Fort Sumter,Fuerte Sumter,Fort Sumter,Fort Sumter,Fort Sumter,Fort Sumter,Fort Sumter,Fort Sumter,Fort Sumter,Fort Sumter,Fort Sumter,섬터 요새
-event.bread_riot,Хлебный бунт,Bread Riot,Émeute du pain,Motín del pan,Bread Riot,Bread Riot,Bread Riot,Bread Riot,Bread Riot,Bread Riot,Tumulto del pane,Zamieszki chlebowe,Ekmek isyanı,빈폭동
-event.ny_draft_riot,Нью-Йоркский бунт,NY Draft Riot,Émeute de la conscription à New York,Motín de reclutamiento de Nueva York,NY Draft Riot,NY Draft Riot,NY Draft Riot,NY Draft Riot,NY Draft Riot,NY Draft Riot,Tumulti della leva di New York,Zamieszki poborowe w Nowym Jorku,New York askere alma isyanı,뉴욕 징병 폭동
-event.conscription_cascade,Бунт призывников,Conscript Mutiny,Mutinerie des conscrits,Motín de reclutas,Conscript Mutiny,Conscript Mutiny,Conscript Mutiny,Conscript Mutiny,Conscript Mutiny,Conscript Mutiny,Ammutinamento delle leve,Bunt poborowych,Asker isyanı,징집병 반란
-event.desertion,Дезертирство,Desertion,Désertion,Deserción,Desertion,Desertion,Desertion,Desertion,Desertion,Desertion,Diserzione,Dezercja,Firar,탈영
-event.disease,Тиф/эпидемия,Typhus/Epidemic,Typhus/Épidémie,Tifus/Epidemia,Typhus/Epidemic,Typhus/Epidemic,Typhus/Epidemic,Typhus/Epidemic,Typhus/Epidemic,Typhus/Epidemic,Tifo/Epidemia,Tyfus/Epidemia,Tifüs/Salgın,장티푸스/전염병
-event.blockade,Морская блокада,Naval Blockade,Blocus naval,Bloqueo naval,Naval Blockade,Naval Blockade,Naval Blockade,Naval Blockade,Naval Blockade,Naval Blockade,Blocco navale,Blokada morska,Deniz ablukası,해상 봉쇄
-event.blockade_run,Прорыв блокады,Blockade Run,Forçage du blocus,Romper el bloqueo,Blockade Run,Blockade Run,Blockade Run,Blockade Run,Blockade Run,Blockade Run,Rottura del blocco,Przebicie blokady,Abluka yarması,봉쇄 돌파
-event.volunteers,Набор добровольцев,Volunteer Recruitment,Recrutement de volontaires,Reclutamiento de voluntarios,Volunteer Recruitment,Volunteer Recruitment,Volunteer Recruitment,Volunteer Recruitment,Volunteer Recruitment,Volunteer Recruitment,Reclutamento volontari,Nabór ochotników,Gönüllü toplama,지원병 모집
-event.conscription,Призыв,Conscription,Conscription,Reclutamiento,Conscription,Conscription,Conscription,Conscription,Conscription,Conscription,Leva obbligatoria,Pobór,Askere alma,징병
-event.foreign_arms,Иностранное оружие,Foreign Arms,Armes étrangères,Armas extranjeras,Foreign Arms,Foreign Arms,Foreign Arms,Foreign Arms,Foreign Arms,Foreign Arms,Armi straniere,Broń zagraniczna,Yabancı silahlar,외국제 무기
-event.partisan,Каперство,Privateering,Corsaire,Corsarismo,Privateering,Privateering,Privateering,Privateering,Privateering,Privateering,Corsari,Kaperstwo,Korsanlık,사략
-event.naval_mines,Морские мины,Naval Mines,Mines navales,Minas navales,Naval Mines,Naval Mines,Naval Mines,Naval Mines,Naval Mines,Naval Mines,Mine navali,Miny morskie,Deniz mayınları,해상 기뢰
-event.night_march,Ночной марш,Night March,Marche de nuit,Marcha nocturna,Night March,Night March,Night March,Night March,Night March,Night March,Marcia notturna,Marsz nocny,Gece yürüyüşü,야간 행군
-event.ambush,Засада,Ambush,Embuscade,Emboscada,Ambush,Ambush,Ambush,Ambush,Ambush,Ambush,Imboscata,Zasadzka,Pusu,매복
-event.reconnaissance,Разведка,Reconnaissance,Reconnaissance,Reconocimiento,Reconnaissance,Reconnaissance,Reconnaissance,Reconnaissance,Reconnaissance,Reconnaissance,Ricognizione,Zwiad,Keşif,정찰
-event.pontoons,Понтонные мосты,Pontoon Bridges,Ponts de bateaux,Puentes de pontones,Pontoon Bridges,Pontoon Bridges,Pontoon Bridges,Pontoon Bridges,Pontoon Bridges,Pontoon Bridges,Pontoni,Mosty pontonowe,Ponton köprüleri,주교
-event.siege_train,Осадный поезд,Siege Train,Train de siège,Tren de asedio,Siege Train,Siege Train,Siege Train,Siege Train,Siege Train,Siege Train,Treno d'assedio,Pociąg oblężniczy,Kuşatma treni,공성 열차
-event.rain,Дождь,Rain,Pluie,Lluvia,Rain,Rain,Rain,Rain,Rain,Rain,Pioggia,Deszcz,Yağmur,비
-event.hardtack,Сухари и кофе,Hardtack and Coffee,Biscuit de mer et café,Galleta dura y café,Hardtack and Coffee,Hardtack and Coffee,Hardtack and Coffee,Hardtack and Coffee,Hardtack and Coffee,Hardtack and Coffee,Galletta e caffè,Suchary i kawa,Pesküdü ve kahve,건빵과 커피
-event.mud,Распутица,Mud,Boue,Lodo,Mud,Mud,Mud,Mud,Mud,Mud,Fango,Rozmokła droga,Çamur,진창
-event.railroad,Железная дорога,Railroad,Chemin de fer,Ferrocarril,Railroad,Railroad,Railroad,Railroad,Railroad,Railroad,Ferrovia,Kolej,Demiryolu,철도
-event.telegraph,Телеграф,Telegraph,Télégraphe,Telégrafo,Telegraph,Telegraph,Telegraph,Telegraph,Telegraph,Telegraph,Telegrafo,Telegraf,Telgraf,전신
-event.spies,Шпионаж,Spies,Espionnage,Espionaje,Spies,Spies,Spies,Spies,Spies,Spies,Spionaggio,Szpiegostwo,Casusluk,첩보
-event.counterspy,Контршпионаж,Counterspy,Contre-espionnage,Contraespionaje,Counterspy,Counterspy,Counterspy,Counterspy,Counterspy,Counterspy,Controspionaggio,Kontrwywiad,Karşı casusluk,반첩보
-event.arty_barrage,Артиллерийская подготовка,Artillery Barrage,Barrage d'artillerie,Barrera de artillería,Artillery Barrage,Artillery Barrage,Artillery Barrage,Artillery Barrage,Artillery Barrage,Artillery Barrage,Preparazione d'artiglieria,Przygotowanie artyleryjskie,Topçu hazırlığı,포병 준비사격
-event.fieldworks,Полевые укрепления,Fieldworks,Travaux de campagne,Fortificaciones de campaña,Fieldworks,Fieldworks,Fieldworks,Fieldworks,Fieldworks,Fieldworks,Fortificazioni da campo,Fortyfikacje polowe,Sahra tahkimatı,야전 참호
-event.suppress_revolt,Подавление бунта,Suppress Revolt,Réprimer la révolte,Sofocar la revuelta,Suppress Revolt,Suppress Revolt,Suppress Revolt,Suppress Revolt,Suppress Revolt,Suppress Revolt,Soppressione della rivolta,Stłumienie buntu,İsyanın bastırılması,폭동 진압
-event.soldier_wound,Ранение,Wound,Blessure,Herida,Wound,Wound,Wound,Wound,Wound,Wound,Ferita,Rana,Yaralanma,부상
-event.soldier_death,Гибель,Death,Mort,Muerte,Death,Death,Death,Death,Death,Death,Morte,Śmierć,Ölüm,전사
-event.surrender,Сдача,Surrender,Capitulation,Rendición,Surrender,Surrender,Surrender,Surrender,Surrender,Surrender,Resa,Kapitulacja,Teslim,항복
-event.reinforce,Подкрепление,Reinforcements,Renforts,Refuerzos,Reinforcements,Reinforcements,Reinforcements,Reinforcements,Reinforcements,Reinforcements,Rinforzi,Wzmocnienia,Takviye,증원
-event.retreat,Отступление,Retreat,Retraite,Retirada,Retreat,Retreat,Retreat,Retreat,Retreat,Retreat,Ritirata,Odwrót,Geri çekilme,후퇴
-event.advance,Наступление,Advance,Avance,Avanza,Advance,Advance,Advance,Advance,Advance,Advance,Avanzata,Natarcie,Taarruz,진격
-event.flanking,Фланговый обход,Flanking Maneuver,Manœuvre de flanc,Maniobra de flanqueo,Flanking Maneuver,Flanking Maneuver,Flanking Maneuver,Flanking Maneuver,Flanking Maneuver,Flanking Maneuver,Manovra di flanco,Obejście skrzydłowe,Kanat manevrası,측면 기동
-event.formations,Построение,Formations,Formations,Formaciones,Formations,Formations,Formations,Formations,Formations,Formations,Schieramenti,Szyki,Düzen,대형
-event.charge,Атака в штыки,Bayonet Charge,Charge à la baïonnette,Carga a la bayoneta,Bayonet Charge,Bayonet Charge,Bayonet Charge,Bayonet Charge,Bayonet Charge,Bayonet Charge,Carica alla baionetta,Atak na bagnety,Süngü hücumu,총검 돌격
-event.rally,Перегруппировка,Rally,Rassemblement,Reagrupamiento,Rally,Rally,Rally,Rally,Rally,Rally,Raggruppamento,Przegrupowanie,Toplanma,재집결
-event.entrench,Окопаться,Entrench,S'enterrer,Atrincherarse,Entrench,Entrench,Entrench,Entrench,Entrench,Entrench,Trincerarsi,Okopać się,Siper kaz,참호 구축
-event.withdraw,Отвод войск,Withdraw,Retirer les troupes,Retirar tropas,Withdraw,Withdraw,Withdraw,Withdraw,Withdraw,Withdraw,Ritiro delle truppe,Wycofanie wojsk,Birlikleri çek,병력 철수
-event.reconquest,Реконкиста,Reconquest,Reconquête,Reconquista,Reconquest,Reconquest,Reconquest,Reconquest,Reconquest,Reconquest,Riconquista,Rekonkwista,Geri alma,수복
-event.guerrilla,Партизаны,Guerrillas,Guérilleros,Guerrilleros,Guerrillas,Guerrillas,Guerrillas,Guerrillas,Guerrillas,Guerrillas,Guerriglieri,Partyzanci,Gerillalar,게릴라
-event.scout,Разведка,Scout,Éclaireur,Explorador,Scout,Scout,Scout,Scout,Scout,Scout,Esploratore,Zwiadowca,Öncü,척후
-event.supply_line,Линия снабжения,Supply Line,Ligne d'approvisionnement,Línea de suministro,Supply Line,Supply Line,Supply Line,Supply Line,Supply Line,Supply Line,Linea di rifornimento,Linia zaopatrzenia,Ikmal hattı,보급선
-event.intercept,Перехват,Intercept,Interception,Interceptar,Intercept,Intercept,Intercept,Intercept,Intercept,Intercept,Intercettazione,Przechwycenie,Karşılama,요격
-event.fortify,Укрепить,Fortify,Fortifier,Fortificar,Fortify,Fortify,Fortify,Fortify,Fortify,Fortify,Fortificare,Umocnić,Tahkim et,요새화
-event.demolish,Разрушить,Demolish,Démolir,Demoler,Demolish,Demolish,Demolish,Demolish,Demolish,Demolish,Demolire,Zburzyć,Yık,파괴
-event.repair,Восстановить,Repair,Réparer,Reparar,Repair,Repair,Repair,Repair,Repair,Repair,Riparare,Naprawić,Onar,수리
-event.bridge,Мост,Bridge,Pont,Puente,Bridge,Bridge,Bridge,Bridge,Bridge,Bridge,Ponte,Most,Köprü,교량
-event.ford,Брод,Ford,Gué,Vado,Ford,Ford,Ford,Ford,Ford,Ford,Guado,Bród,Sığ geçit,여울
-event.pass,Перевал,Pass,Col,Paso,Pass,Pass,Pass,Pass,Pass,Pass,Valico,Przełęcz,Geçit,고개
-event.harbor,Гавань,Harbor,Port,Puerto,Harbor,Harbor,Harbor,Harbor,Harbor,Harbor,Porto,Port,Liman,항구
-event.lighthouse,Маяк,Lighthouse,Phare,Faro,Lighthouse,Lighthouse,Lighthouse,Lighthouse,Lighthouse,Lighthouse,Faro,Latarnia morska,Deniz feneri,등대
-event.warehouse,Склад,Warehouse,Entrepôt,Almacén,Warehouse,Warehouse,Warehouse,Warehouse,Warehouse,Warehouse,Magazzino,Magazyn,Depo,창고
-event.armory,Арсенал,Arsenal,Arsenal,Arsenal,Arsenal,Arsenal,Arsenal,Arsenal,Arsenal,Arsenal,Arsenale,Zbrojownia,Cephanelik,병기고
-event.hospital,Госпиталь,Hospital,Hôpital,Hospital,Hospital,Hospital,Hospital,Hospital,Hospital,Hospital,Ospedale,Szpital,Hastane,병원
-event.prison,Тюрьма,Prison,Prison,Prisión,Prison,Prison,Prison,Prison,Prison,Prison,Prigione,Więzienie,Hapishane,감옥
-event.camp,Лагерь,Camp,Camp,Campamento,Camp,Camp,Camp,Camp,Camp,Camp,Accampamento,Obóz,Kamp,야영지
-event.barracks,Казармы,Barracks,Caserne,Cuartel,Barracks,Barracks,Barracks,Barracks,Barracks,Barracks,Caserma,Koszary,Kışla,병영
-cmd.lincoln,Авраам Линкольн,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,에이브러햄 링컨
-cmd.grant,Улисс С. Грант,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,율리시스 S. 그랜트
-cmd.sherman,Уильям Т. Шерман,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,윌리엄 T. 셔먼
-cmd.mcclellan,Джордж Макклеллан,George McClellan,George McClellan,George McClellan,George McClellan,George McClellan,George McClellan,George McClellan,George McClellan,George McClellan,George McClellan,George McClellan,George McClellan,조지 매클레런
-cmd.meade,Джордж Миад,George Meade,George Meade,George Meade,George Meade,George Meade,George Meade,George Meade,George Meade,George Meade,George Meade,George Meade,George Meade,조지 미드
-cmd.burnside,Амброуз Бернсайд,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,앰브로즈 번사이드
-cmd.hooker,Джозеф Хукер,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,조지프 후커
-cmd.sheridan,Филип Шеридан,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,필립 셰리든
-cmd.custer,Джордж Армстронг Кастер,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,조지 암스트롱 커스터
-cmd.hancock,Уинфилд Скотт Хэнкок,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,윈필드 스콧 핸콕
-cmd.reynolds,Джон Рейнольдс,John Reynolds,John Reynolds,John Reynolds,John Reynolds,John Reynolds,John Reynolds,John Reynolds,John Reynolds,John Reynolds,John Reynolds,John Reynolds,John Reynolds,존 레이놀즈
-cmd.chamberlain,Джошуа Чемберлен,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,조슈아 체임벌린
-cmd.jefferson,Джефферсон Дэвис,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,제퍼슨 데이비스
-cmd.relee,Роберт Э. Ли,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,로버트 E. 리
-cmd.stonewall,Томас «Стоунуолл» Джексон,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,토머스 스톤월 잭슨
-cmd.longstreet,Джеймс Лонгстрит,James Longstreet,James Longstreet,James Longstreet,James Longstreet,James Longstreet,James Longstreet,James Longstreet,James Longstreet,James Longstreet,James Longstreet,James Longstreet,James Longstreet,제임스 롱스트리트
-cmd.stuart,Дж.Э.Б. Стюарт,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. 스튜어트
-cmd.aphill,A.P. Хилл,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P. 힐
-cmd.forrest,Натан Бедфорд Форрест,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,네이선 베드퍼드 포러스트
-cmd.johnston,Джозеф Джонстон,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,조지프 존스턴
-cmd.bragg,Брэкстон Брэгг,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,브랙스턴 브래그
-cmd.hood,Джон Белл Худ,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,존 벨 후드
-cmd.pickett,Джордж Пикетт,George Pickett,George Pickett,George Pickett,George Pickett,George Pickett,George Pickett,George Pickett,George Pickett,George Pickett,George Pickett,George Pickett,George Pickett,조지 피켓
-cmd.early,Джубал Эрли,Jubal Early,Jubal Early,Jubal Early,Jubal Early,Jubal Early,Jubal Early,Jubal Early,Jubal Early,Jubal Early,Jubal Early,Jubal Early,Jubal Early,주벌 얼리
-cmd.sidney_johnston,Альберт С. Джонстон,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,앨버트 S. 존스턴
-cmd.beauregard,П.Г.Т. Борегар,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. 보리가드
-cmd.buckner,Саймон Боливар Бакнер,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,사이먼 볼리버 벅너
-cmd.polk,Леонидас Полк,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,레오니다스 폴크
-cmd.hardee,Уильям Дж. Харди,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,윌리엄 J. 하디
-cmd.cleburne,Патрик Клебёрн,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,패트릭 클리번
-cmd.gordon,Джон Б. Гордон,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,존 B. 고든
-cmd.rosecrans,Уильям Роскранс,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,윌리엄 로즈크랜스
-cmd.thomas,Джордж Х. Томас,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,조지 H. 토머스
-cmd.mclellan_opinion,Макклеллан: слишком осторожен?,McClellan: Too Cautious?,McClellan : trop prudent ?,McClellan: ¿demasiado cauto?,McClellan: Too Cautious?,McClellan: Too Cautious?,McClellan: Too Cautious?,McClellan: Too Cautious?,McClellan: Too Cautious?,McClellan: Too Cautious?,McClellan: troppo cauto?,McClellan: zbyt ostrożny?,McClellan: fazla mı ihtiyatlı?,매클레런: 너무 신중한가?
-cmd.burnside_opinion,Бернсайд: лобовая атака?,Burnside: Frontal Assault?,Burnside : assaut frontal ?,Burnside: ¿asalto frontal?,Burnside: Frontal Assault?,Burnside: Frontal Assault?,Burnside: Frontal Assault?,Burnside: Frontal Assault?,Burnside: Frontal Assault?,Burnside: Frontal Assault?,Burnside: assalto frontale?,Burnside: atak frontalny?,Burnside: cepheden taarruz mu?,번사이드: 정면 돌파인가?
-ui.month.01,Январь,January,Janvier,Enero,January,January,January,January,January,January,Gennaio,Styczeń,Ocak,1월
-ui.month.02,Февраль,February,Février,Febrero,February,February,February,February,February,February,Febbraio,Luty,Şubat,2월
-ui.month.03,Март,March,Mars,Marzo,March,March,March,March,March,March,Marzo,Marzec,Mart,3월
-ui.month.04,Апрель,April,Avril,Abril,April,April,April,April,April,April,Aprile,Kwiecień,Nisan,4월
-ui.month.05,Май,May,Mai,Mayo,May,May,May,May,May,May,Maggio,Maj,Mayıs,5월
-ui.month.06,Июнь,June,Juin,Junio,June,June,June,June,June,June,Giugno,Czerwiec,Haziran,6월
-ui.month.07,Июль,July,Juillet,Julio,July,July,July,July,July,July,Luglio,Lipiec,Temmuz,7월
-ui.month.08,Август,August,Août,Agosto,August,August,August,August,August,August,Agosto,Sierpień,Ağustos,8월
-ui.month.09,Сентябрь,September,Septembre,Septiembre,September,September,September,September,September,September,Settembre,Wrzesień,Eylül,9월
-ui.month.10,Октябрь,October,Octobre,Octubre,October,October,October,October,October,October,Ottobre,Październik,Ekim,10월
-ui.month.11,Ноябрь,November,Novembre,Noviembre,November,November,November,November,November,November,Novembre,Listopad,Kasım,11월
-ui.month.12,Декабрь,December,Décembre,Diciembre,December,December,December,December,December,December,Dicembre,Grudzień,Aralık,12월
-ui.year,Год,Year,Année,Año,Year,Year,Year,Year,Year,Year,Anno,Rok,Yıl,연도
-ui.deck,Колода,Deck,Pioche,Mazo,Deck,Deck,Deck,Deck,Deck,Deck,Mazzo,Talia,Deste,덱
-ui.discard,Сброс,Discard,Défausse,Descarte,Discard,Discard,Discard,Discard,Discard,Discard,Carta scartata,Odrzuty,Atılanlar,버린 카드
-ui.graveyard,Кладбище,Graveyard,Cimetière,Cementerio,Graveyard,Graveyard,Graveyard,Graveyard,Graveyard,Graveyard,Cimitero,Cmentarz,Mezarlık,무덤
-ui.play_card,Разыграть,Play,Jouer,Jugar,Play,Play,Play,Play,Play,Play,Gioca,Zagraj,Oyna,플레이
-ui.draw_card,Взять карту,Draw Card,Piocher une carte,Robar carta,Draw Card,Draw Card,Draw Card,Draw Card,Draw Card,Draw Card,Pesca carta,Dobierz kartę,Kart çek,카드 드로우
-ui.discard_card,Сбросить,Discard,Défausser,Descartar,Discard,Discard,Discard,Discard,Discard,Discard,Scarta,Odrzuć,At,버리기
-ui.move_unit,Двигать юнита,Move Unit,Déplacer l'unité,Mover unidad,Move Unit,Move Unit,Move Unit,Move Unit,Move Unit,Move Unit,Muovi unità,Przesuń jednostkę,Birliği taşı,유닛 이동
-ui.select_territory,Выберите территорию,Select Territory,Sélectionner un territoire,Seleccionar territorio,Select Territory,Select Territory,Select Territory,Select Territory,Select Territory,Select Territory,Seleziona territorio,Wybierz terytorium,Bölge seç,영토 선택
-ui.select_target,Выберите цель,Select Target,Sélectionner une cible,Seleccionar objetivo,Select Target,Select Target,Select Target,Select Target,Select Target,Select Target,Seleziona bersaglio,Wybierz cel,Hedef seç,대상 선택
-ui.select_card,Выберите карту,Select Card,Sélectionner une carte,Seleccionar carta,Select Card,Select Card,Select Card,Select Card,Select Card,Select Card,Seleziona carta,Wybierz kartę,Kart seç,카드 선택
-ui.confirm,Подтвердить,Confirm,Confirmer,Confirmar,Confirm,Confirm,Confirm,Confirm,Confirm,Confirm,Conferma,Potwierdź,Onayla,확인
-ui.waiting,Ожидание...,Waiting...,En attente...,Esperando...,Waiting...,Waiting...,Waiting...,Waiting...,Waiting...,Waiting...,Attesa...,Oczekiwanie...,Bekleniyor...,대기 중...
-ui.ai_thinking,ИИ думает...,AI is thinking...,L'IA réfléchit...,La IA está pensando...,AI is thinking...,AI is thinking...,AI is thinking...,AI is thinking...,AI is thinking...,AI is thinking...,L'IA sta pensando...,AI myśli...,YZ düşünüyor...,AI 생각 중...
-ui.your_turn,Ваш ход,Your Turn,Votre tour,Su turno,Your Turn,Your Turn,Your Turn,Your Turn,Your Turn,Your Turn,Tuo turno,Twoja tura,Sıra sende,당신의 턴
-ui.enemy_turn,Ход противника,Enemy Turn,Tour de l'ennemi,Turno del enemigo,Enemy Turn,Enemy Turn,Enemy Turn,Enemy Turn,Enemy Turn,Enemy Turn,Turno nemico,Tura przeciwnika,Rakibin sırası,적의 턴
-ui.battle_starts,Бой начинается!,Battle Begins!,La bataille commence !,¡La batalla comienza!,Battle Begins!,Battle Begins!,Battle Begins!,Battle Begins!,Battle Begins!,Battle Begins!,La battaglia inizia!,Bitwa się zaczyna!,Savaş başlıyor!,전투 시작!
-ui.battle_ends,Бой окончен,Battle Over,Fin de la bataille,Fin de la batalla,Battle Over,Battle Over,Battle Over,Battle Over,Battle Over,Battle Over,Battaglia finita,Bitwa zakończona,Savaş bitti,전투 종료
-ui.winner,Победитель:,Winner:,Vainqueur :,Ganador:,Winner:,Winner:,Winner:,Winner:,Winner:,Winner:,Vincitore:,Zwycięzca:,Kazanan:,승자:
-ui.loser,Проигравший:,Loser:,Perdant :,Perdedor:,Loser:,Loser:,Loser:,Loser:,Loser:,Loser:,Perdente:,Przegrany:,Kaybeden:,패자:
-ui.casualties,Потери:,Casualties:,Pertes :,Bajas:,Casualties:,Casualties:,Casualties:,Casualties:,Casualties:,Casualties:,Perdite:,Straty:,Zayiat:,손실:
-ui.remaining,Осталось:,Remaining:,Restants :,Restantes:,Remaining:,Remaining:,Remaining:,Remaining:,Remaining:,Remaining:,Rimasti:,Pozostało:,Kalan:,남음:
-ui.player,Игрок,Player,Joueur,Jugador,Player,Player,Player,Player,Player,Player,Giocatore,Gracz,Oyuncu,플레이어
-ui.enemy,Противник,Enemy,Ennemi,Enemigo,Enemy,Enemy,Enemy,Enemy,Enemy,Enemy,Nemico,Przeciwnik,Rakip,적
-ui.difficulty,Сложность,Difficulty,Difficulté,Dificultad,Difficulty,Difficulty,Difficulty,Difficulty,Difficulty,Difficulty,Difficoltà,Poziom trudności,Zorluk,난이도
-ui.difficulty.easy,Лёгкая,Easy,Facile,Fácil,Easy,Easy,Easy,Easy,Easy,Easy,Facile,Łatwy,Kolay,쉬움
-ui.difficulty.normal,Обычная,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normal,Normale,Normalny,Normal,보통
-ui.difficulty.hard,Сложная,Hard,Difficile,Difícil,Hard,Hard,Hard,Hard,Hard,Hard,Difficile,Trudny,Zor,어려움
-ui.autoturn.conservative,Консервативная,Conservative,Conservateur,Conservador,Conservative,Conservative,Conservative,Conservative,Conservative,Conservative,Conservativa,Konserwatywna,Muhafazakâr,보수적
-ui.autoturn.balanced,Сбалансированная,Balanced,Équilibré,Equilibrado,Balanced,Balanced,Balanced,Balanced,Balanced,Balanced,Equilibrata,Zrównoważona,Dengeli,균형
-ui.autoturn.aggressive,Агрессивная,Aggressive,Agressif,Agresivo,Aggressive,Aggressive,Aggressive,Aggressive,Aggressive,Aggressive,Aggressiva,Agresywna,Saldırgan,공격적
-ui.settings.graphics,Графика,Graphics,Graphismes,Gráficos,Graphics,Graphics,Graphics,Graphics,Graphics,Graphics,Grafica,Grafika,Grafik,그래픽
+territory.mississippi_river,Река Миссисипи,Mississippi River,Fleuve Mississippi,Río Misisipi,Mississippi River,Mississippi River,密西西比河,ミシシッピ川,मिसिसिपी नदी,نهر المسيسيبي,Fiume Mississippi,Rzeka Missisipi,Mississippi Nehri,미시시피 강
+event.hampton_roads,Первый бой броненосцев,First Ironclad Battle,Premier combat de cuirassés,Primera batalla de acorazados,Erstes Gefecht der Panzerschiffe,Primeiro Combate de Couraçados,铁甲舰首次交战,鉄甲艦初の海戦,कवचित जहाजों की पहली लड़ाई,أول معركة سفن مدرعة,Prima battaglia delle corazzate,Pierwsza bitwa pancerników,İlk zırhlı savaşı,최초의 철갑함 전투
+event.picketts_charge,Чардж Пикетта,Pickett's Charge,Charge de Pickett,Carga de Pickett,Picketts Angriff,Carga de Pickett,皮克特冲锋,ピケットの突撃,पिकेट का धावा,هجمة بيكيت,Carica di Pickett,Szarża Picketta,Pickett hücumu,피켓의 돌격
+event.friendly_fire,Дружественный огонь,Friendly Fire,Tir ami,Fuego amigo,Eigenbeschuss,Fogo Amigo,友军误伤,同士討ち,अपनी गोलीबारी,نيران صديقة,Fuoco amico,Ostrzał sojuszniczy,Dost ateşi,아군 오사
+event.bayonet_charge,Штыковая атака,Bayonet Charge,Charge à la baïonnette,Carga a la bayoneta,Bajonettangriff,Carga de Baioneta,刺刀冲锋,銃剣突撃,बेयनेट धावा,هجوم بالحراب,Carica alla baionetta,Szarża na bagnety,Süngü hücumu,총검 돌격
+event.lincoln_assass,Убийство Линкольна,Lincoln Assassination,Assassinat de Lincoln,Asesinato de Lincoln,Ermordung Lincolns,Assassinato de Lincoln,林肯遇刺,リンカーン暗殺,लिंकन की हत्या,اغتيال لينكون,Assassinio di Lincoln,Zamach na Lincolna,Lincoln suikastı,링컨 암살
+event.emancipation,Прокламация об освобождении,Emancipation Proclamation,Proclamation d'émancipation,Proclamación de emancipación,Emanzipationsproklamation,Proclamação de Emancipação,解放宣言,奴隷解放宣言,दास मुक्ति घोषणा,إعلان التحرر,Proclama di emancipazione,Proklamacja emancypacji,Özgürleştirme Bildirisi,노예 해방 선언
+event.appomattox,Аппоматтокс,Appomattox,Appomattox,Appomattox,Appomattox,Appomattox,阿波马托克斯,アポマトックス,अपोमैटॉक्स,أبوماتوكس,Appomattox,Appomattox,Appomattox,애버매턱스
+event.march_to_sea,Марш к морю,March to the Sea,Marche vers la mer,Marcha hacia el mar,Marsch zum Meer,Marcha ao Mar,向大海进军,海への進軍,समुद्र तक मार्च,الزحف نحو البحر,Marcia verso il mare,Marsz do morza,Denize yürüyüş,바다로의 행군
+event.cushing_torpedo,Торпеда Кушинга,Cushing's Spar Torpedo,Torpille perche de Cushing,Torpedo de pértiga de Cushing,Cushings Spartorpedo,Torpedo de Esporão de Cushing,库欣杆式鱼雷,カッシングの棒魚雷,कुशिंग का स्पार टॉरपीडो,طوربيد كوشينغ الزنادي,Torpedine a sperone di Cushing,Torpeda na wywiesie Cushinga,Cushing'ın istingalı torpidosu,커싱의 봉 어뢰
+event.ram_cumberland,Таран «Вирджинии»,Ram of Virginia,Éperonnage du Virginia,Embestida del Virginia,Rammstoß der Virginia,Abalroamento da Virginia,弗吉尼亚号冲撞,バージニアの衝角攻撃,वर्जीनिया का टक्कर,صدم فرجينيا,Speronamento della Virginia,Taran Virginii,Virginia'nın mahmuzu,버지니아호의 충각
+event.sink_alabama,Потопление «Алабамы»,Sinking of Alabama,Naufrage de l'Alabama,Hundimiento del Alabama,Versenkung der Alabama,Afundamento do Alabama,击沉亚拉巴马号,アラバマの撃沈,अलबामा का डूबना,إغراق ألاباما,Affondamento dell'Alabama,Zatopienie Alabamy,Alabama'nın batırılışı,앨라배마호 격침
+event.hunley_attack,Подводная атака,Submarine Attack,Attaque sous-marine,Ataque submarino,Unterwasserangriff,Ataque Submarino,潜艇攻击,潜水艇攻撃,पनडुब्बी हमला,هجوم الغواصة,Attacco sottomarino,Atak podwodny,Denizaltı saldırısı,잠수정 공격
+event.cairo_mines,Мины на Язу,Mines at Yazoo,Mines sur le Yazoo,Minas en el Yazoo,Minen im Yazoo,Minas no Yazoo,亚祖河的水雷,ヤズー川の機雷,याज़ू में समुद्री माइनें,ألغام يازو,Mine sullo Yazoo,Miny na Yazoo,Yazoo mayınları,야주 강의 기뢰
+event.arkansas_breakout,Прорыв «Арканзаса»,Arkansas Breakout,Percée de l'Arkansas,Irrupción del Arkansas,Ausbruch der Arkansas,Rompimento do Arkansas,阿肯色号突围,アーカンソーの突破,अर्कांसस का घेरा तोड़ना,اختراق أركنساس,Evasione dell'Arkansas,Przełamanie Arkansas,Arkansas'ın atılımı,아칸소호의 돌파
+event.capture_atlanta_ship,Захват «Атланты»,Capture of Atlanta,Capture de l'Atlanta,Captura del Atlanta,Eroberung der Atlanta,Captura do Atlanta,捕获亚特兰大号,アトランタの捕獲,अटलांटा पर कब्ज़ा,الاستيلاء على أتلانتا,Cattura dell'Atlanta,Zdobycie Atlanty,Atlanta'nın ele geçirilişi,애틀란타호 나포
+event.mobile_bay,Бой в Мобил-Бэй,Battle of Mobile Bay,Bataille de la baie de Mobile,Batalla de la bahía de Mobile,Schlacht in der Mobile Bay,Batalha da Baía de Mobile,莫比尔湾海战,モービル湾の海戦,मोबाइल खाड़ी की लड़ाई,معركة خليج موبايل,Battaglia della baia di Mobile,Bitwa w zatoce Mobile,Mobile Körfezi savaşı,모빌만 해전
+event.last_shot,Последний выстрел войны,Last Shot of the War,Dernier coup de feu de la guerre,Último disparo de la guerra,Letzter Schuss des Krieges,Último Tiro da Guerra,战争的最后一炮,戦争最後の一砲,युद्ध का आख़िरी गोला,آخر طلقة في الحرب,Ultimo colpo della guerra,Ostatni strzał wojny,Savaşın son atışı,전쟁의 마지막 포성
+event.fingal_run,Блокадопрорыв «Фингала»,Fingal Blockade Run,Forçage du blocus par le Fingal,Rompedor de bloqueo Fingal,Blockadebruch der Fingal,Rompimento de Bloqueio do Fingal,芬戈尔号突破封锁,フィンガルの封鎖突破,फिंगल का नाकाबंदी भंग,فينغال يخترق الحصار,Rottura del blocco del Fingal,Przebicie blokady przez Fingal,Fingal'ın abluka yarışı,핑갈호의 봉쇄 돌파
+event.minnesota_sacrifice,Жертвенная атака,Minnesota Sacrifice,Sacrifice du Minnesota,Sacrificio de Minnesota,Opferangriff der Minnesota,Sacrifício de Minnesota,明尼苏达的牺牲,ミネソタの犠牲,मिनेसोटा का बलिदान,تضحية مينيسوتا,Sacrificio del Minnesota,Poświęcenie Minnesoty,Minnesota'nın fedakârlığı,미네소타의 희생
+event.stonewall_name,«Стоунуолл!»,Stonewall!,Stonewall !,¡Stonewall!,Stonewall!,Stonewall!,石墙！,石壁！,स्टोनवॉल!,الجدار الحجري!,Stonewall!,Stonewall!,Stonewall!,스톤월!
+event.iron_brigade,Железная бригада,Iron Brigade,Iron Brigade,Iron Brigade,Iron Brigade,Iron Brigade,铁旅,鉄の旅団,लोहे की ब्रिगेड,اللواء الحديدي,Brigata di Ferro,Żelazna Brygada,Demir Tugay,철벽 여단
+event.berdan_sniper,Снайперы Бердана,Berdan's Snipers,Tireurs d'élite de Berdan,Francotiradores de Berdan,Berdans Scharfschützen,Atiradores de Berdan,伯丹狙击手,バーダン狙撃兵,बर्डन के निशानेबाज़,قناصة بيردان,Tiratori scelti di Berdan,Strzelcy wyborowi Berdana,Berdan'ın keskin nişancıları,버단의 저격수
+event.fort_wagner,Штурм Форт-Уогнера,Assault on Fort Wagner,Assaut du fort Wagner,Asalto al fuerte Wagner,Sturm auf Fort Wagner,Assalto ao Fort Wagner,强攻瓦格纳堡,ワグナー砦強襲,फोर्ट वैगनर पर धावा,اقتحام فورت واغنر,Assalto al Fort Wagner,Szturm Fort Wagner,Fort Wagner hücumu,웨그너 요새 돌격
+event.hoovers_gap,«Молниеносная бригада»,Lightning Brigade,Lightning Brigade,Brigada Relámpago,Lightning Brigade,Lightning Brigade,闪电旅,電撃旅団,बिजली की ब्रिगेड,لواء البرق,Brigata Fulmine,Brygada Błyskawiczna,Şimşek Tugayı,번개 여단
+event.mosby_fairfax,Рейд Мосби,Mosby's Raid,Raid de Mosby,Incursión de Mosby,Mosbys Überfall,Incursão de Mosby,莫斯比突袭,モスビーの襲撃,मॉस्बी का छापा,غارة موزبي,Incursione di Mosby,Zagon Mosby’ego,Mosby baskını,모즈비의 습격
+event.beefsteak_raid,Кража скота,Beefsteak Raid,Raid du bœuf,Redada del ganado,Rinderdiebstahl,Roubo de Gado,偷牛行动,牛肉強奪,मवेशी चोरी,سرقة الماشية,Razzia del bestiame,Kradzież bydła,Sığır hırsızlığı,소 절도 사건
+event.try_us,«Попробуй нас!»,Try Us!,Essayez-nous !,¡Inténtenlo!,Probiert uns!,Experimentem-nos!,试试我们！,我らを試してみろ！,हमें आज़माओ!,جرّبونا!,Provateci!,Spróbujcie nas!,Bize deneyin!,우리를 건드려 봐!
+event.pelham_flank,Пелхэм при Фредериксберге,Pelham's Flank,Pelham à Fredericksburg,Pelham en Fredericksburg,Pelhams Flanke,Flanco de Pelham,佩尔汉姆的侧翼,ペルハムの側面,पेलहम का फ्लैंक,جناح بيلهام,Pelham a Fredericksburg,Pelham pod Fredericksburgiem,Pelham Fredericksburg'da,프레더릭스버그의 펠햄
+event.pelham_death,Гибель Пелхэма,Death of Pelham,Mort de Pelham,Muerte de Pelham,Pelhams Tod,Morte de Pelham,佩尔汉姆之死,ペルハムの戦死,पेलहम की मृत्यु,مقتل بيلهام,Morte di Pelham,Śmierć Pelhama,Pelham'ın ölümü,펠햄의 죽음
+event.stuart_death,Смерть Стюарта,Death of Stuart,Mort de Stuart,Muerte de Stuart,Stuarts Tod,Morte de Stuart,斯图尔特之死,スチュアートの戦死,स्टुअर्ट की मृत्यु,مقتل ستيوارت,Morte di Stuart,Śmierć Stuarta,Stuart'ın ölümü,스튜어트의 죽음
+event.forrest_braves,«Волшебник седла»,Wizard of the Saddle,Magicien de la selle,Mago de la silla,Zauberer im Sattel,Mago da Sela,马鞍上的奇才,鞍の奇術師,काठी का जादूगर,ساحر السرج,Mago della sella,Czarodziej siodła,Eyerin büyücüsü,안장의 마법사
+event.sidney_johnston,Смерть С. Джонстона,Death of Sidney Johnston,Mort de Sidney Johnston,Muerte de Sidney Johnston,Tod des Sidney Johnston,Morte de Sidney Johnston,西德尼·约翰斯顿之死,シドニー・ジョンストンの戦死,सिडनी जॉनस्टन की मृत्यु,مقتل سيدني جونستون,Morte di Sidney Johnston,Śmierć Sidneya Johnstona,Sidney Johnston'ın ölümü,시드니 존스턴의 죽음
+event.syren_blockade,Блокада прорвана!,Blockade Broken!,Blocus forcé !,¡Bloqueo roto!,Blockade gebrochen!,Bloqueio Rompido!,封锁突破！,封鎖突破！,नाकाबंदी टूटी!,الحصار يُخترق!,Blocco rotto!,Blokada przełamana!,Abluka yarıldı!,봉쇄 돌파 성공!
+event.russian_support,Поддержка России,Russian Support,Soutien russe,Apoyo ruso,Russische Unterstützung,Apoio Russo,俄国的支持,ロシアの支援,रूस का समर्थन,الدعم الروسي,Appoggio russo,Wsparcie rosyjskie,Rus desteği,러시아의 지지
+event.british_enfields,Британские «Энфилды»,British Enfields,Enfield britanniques,Enfield británicos,Britische Enfield-Gewehre,Enfields Britânicos,英制恩菲尔德步枪,イギリス製エンフィールド銃,ब्रिटिश एनफील्ड राइफलें,بنادق إنفيلد البريطانية,Enfield britannici,Brytyjskie Enfieldy,İngiliz Enfield tüfekleri,영제 엔필드 소총
+event.damn_torpedoes,«Проклятье на торпеды!»,Damn the Torpedoes!,Au diable les torpilles !,¡Al diablo las minas!,Zur Hölle mit den Torpedos!,Malditos os Torpedos!,该死的水雷！,魚雷など知るものか！,ख़ैर टॉरपीडो को!,اللعنة على الألغام!,Al diavolo le torpedini!,Diabeł weź miny!,Torpidoları cehennemlik edin!,어뢰 따위는 지옥에나 가라!
+event.atlanta_fall,Атланта пала,Atlanta Has Fallen,Atlanta est tombée,Atlanta ha caído,Atlanta ist gefallen,Atlanta Caiu,亚特兰大陷落,アトランタ陥落,अटलांटा गिर गया,سقوط أتلانتا,Atlanta è caduta,Atlanta upadła,Atlanta düştü,애틀랜타 함락
+event.andrews_raid,Железнодорожный рейд Эндрюса,Andrews' Railroad Raid,Raid ferroviaire d'Andrews,Incursión ferroviaria de Andrews,Andrews Eisenbahnüberfall,Incursão Ferroviária de Andrews,安德鲁斯铁路突袭,アンドリューズ鉄道襲撃,एंड्रयूज़ का रेल छापा,غارة أندروز على السكك,Razzia ferroviaria di Andrews,Zagon kolejowy Andrewsa,Andrews'ın tren baskını,앤드루스의 기차 습격
+event.vicksburg_fall,Виксберг пал,Vicksburg Has Fallen,Vicksburg est tombé,Vicksburg ha caído,Vicksburg ist gefallen,Vicksburg Caiu,维克斯堡陷落,ヴィックスバーグ陥落,विक्सबर्ग गिर गया,سقوط فيكسبيرغ,Vicksburg è caduta,Vicksburg upadł,Vicksburg düştü,빅스버그 함락
+event.first_monitor,Первый «Монитор»,First Monitor,Premier Monitor,Primer Monitor,Der erste Monitor,O Primeiro Monitor,首艘莫尼特号,最初のモニター,पहला मॉनिटर,المونيتور الأول,Primo Monitor,Pierwszy Monitor,İlk Monitor,최초의 모니터호
+event.lee_refusal,«Я не знаю мистера Ли»,I Know No Mr. Lee,Je ne connais pas ce monsieur Lee,No conozco al señor Lee,Ich kenne keinen Mr. Lee,Não Conheço o Sr. Lee,我不认识李先生,私はリー氏を知らない,मैं मि. ली को नहीं जानता,لا أعرف السيد لي,Non conosco il signor Lee,Nie znam pana Lee,Bay Lee'yi tanımıyorum,리 씨는 모릅니다
+event.first_manassas,Первый Манассас,First Manassas,Première Manassas,Primera Manassas,Erste Schlacht am Manassas,Primeiro Manassas,第一次马纳萨斯,第一次マナサス,पहला मनासस,ماناساس الأولى,Prima Manassas,Pierwsza Manassas,İlk Manassas,제1차 매나서스
+event.shiloh,Шайло,Shiloh,Shiloh,Shiloh,Shiloh,Shiloh,夏伊洛,シロー,शाइलो,شيلوه,Shiloh,Shiloh,Shiloh,실로
+event.antietam,Энтитем,Antietam,Antietam,Antietam,Antietam,Antietam,安蒂特姆,アンティータム,एंटीटम,أنتيتام,Antietam,Antietam,Antietam,앤티텀
+event.fredericksburg,Фредериксберг,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,Fredericksburg,弗雷德里克斯堡,フレデリックスバーグ,फ्रेडरिक्सबर्ग,فريدريكسبرغ,Fredericksburg,Fredericksburg,Fredericksburg,프레더릭스버그
+event.chancellorsville,Чанселлорсвилл,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,Chancellorsville,钱瑟勒斯维尔,チャンセラーズヴィル,चांसलर्सविल,تشانسلورزفيل,Chancellorsville,Chancellorsville,Chancellorsville,챈슬러즈빌
+event.gettysburg,Геттисберг,Gettysburg,Gettysburg,Gettysburg,Gettysburg,Gettysburg,葛底斯堡,ゲティスバーグ,गेटिसबर्ग,غيتيسبرغ,Gettysburg,Gettysburg,Gettysburg,게티즈버그
+event.chickamauga,Чикамога,Chickamauga,Chickamauga,Chickamauga,Chickamauga,Chickamauga,奇卡莫加,チカマウガ,चिकामौगा,تشيكاموغا,Chickamauga,Chickamauga,Chickamauga,치카모가
+event.chattanooga_battle,Чаттануга,Chattanooga,Chattanooga,Chattanooga,Chattanooga,Chattanooga,查塔努加战役,チャタヌーガの戦い,चट्टानूगा,تشاتانوغا,Chattanooga,Chattanooga,Chattanooga,채터누가
+event.spotsylvania,Спотсильвания,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,Spotsylvania,斯波特西尔瓦尼亚,スポットシルヴァニア,स्पॉट्सिल्वेनिया,سبوتسيلفانيا,Spotsylvania,Spotsylvania,Spotsylvania,스폿실베이니아
+event.cold_harbor,Колд-Харбор,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,Cold Harbor,冷港,コールドハーバー,कोल्ड हार्बर,كولد هاربور,Cold Harbor,Cold Harbor,Cold Harbor,콜드하버
+event.petersburg,Петерсберг,Petersburg,Petersburg,Petersburg,Petersburg,Petersburg,彼得斯堡,ピーターズバーグ,पीटर्सबर्ग,بيترسبيرغ,Petersburg,Petersburg,Petersburg,피터스버그
+event.bull_run_first,Первый Булл-Ран,First Bull Run,Première Bull Run,Primera Bull Run,Erste Schlacht am Bull Run,Primeiro Bull Run,第一次布尔朗,第一次ブルラン,पहला बुल रन,بول ران الأولى,Prima Bull Run,Pierwszy Bull Run,İlk Bull Run,제1차 불런
+event.bull_run_second,Второй Булл-Ран,Second Bull Run,Seconde Bull Run,Segunda Bull Run,Zweite Schlacht am Bull Run,Segundo Bull Run,第二次布尔朗,第二次ブルラン,दूसरा बुल रन,بول ران الثانية,Seconda Bull Run,Drugi Bull Run,İkinci Bull Run,제2차 불런
+event.pea_ridge,Пи-Ридж,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,Pea Ridge,皮岭,ピーリッジ,पी रिज,بيا ريدج,Pea Ridge,Pea Ridge,Pea Ridge,피아 리지
+event.stones_river,Стоунс-Ривер,Stones River,Stones River,Stones River,Stones River,Stones River,斯通斯河,ストーンズリバー,स्टोन्स नदी,ستونز ريفر,Stones River,Stones River,Stones River,스톤스 리버
+event.wilderness,Глушь,The Wilderness,The Wilderness,The Wilderness,The Wilderness,The Wilderness,荒野,荒野,जंगली इलाक़ा,البرّية,La Wilderness,Dzicz,Vahşi bölge,황야
+event.sherman_march,Марш Шермана,Sherman's March,Marche de Sherman,Marcha de Sherman,Shermans Marsch,Marcha de Sherman,谢尔曼的进军,シャーマンの進軍,शेरमन का मार्च,زحف شيرمان,Marcia di Sherman,Marsz Shermana,Sherman'ın yürüyüşü,셔먼의 행군
+event.carolina_campaign,Кампания в Каролинах,Carolina Campaign,Campagne des Carolines,Campaña de las Carolinas,Feldzug in den Carolinas,Campanha nas Carolinas,卡罗来纳战局,カロライナ戦役,कैरोलाइना अभियान,حملة كارولاينا,Campagna delle Carolina,Kampania karolińska,Karolina harekâtı,캐롤라이나 전역
+event.nashville_battle,Битва за Нэшвилл,Battle of Nashville,Bataille de Nashville,Batalla de Nashville,Schlacht von Nashville,Batalha de Nashville,纳什维尔战役,ナッシュビルの戦い,नैशविल की लड़ाई,معركة ناشفيل,Battaglia di Nashville,Bitwa o Nashville,Nashville savaşı,내슈빌 전투
+event.mobile_campaign,Кампания у Мобила,Mobile Campaign,Campagne de Mobile,Campaña de Mobile,Feldzug um Mobile,Campanha de Mobile,莫比尔战局,モービル戦役,मोबाइल अभियान,حملة موبايل,Campagna di Mobile,Kampania mobile,Mobile harekâtı,모빌 전역
+event.fort_sumter,Форт Самтер,Fort Sumter,Fort Sumter,Fuerte Sumter,Fort Sumter,Fort Sumter,萨姆特堡,サムター要塞,फोर्ट सम्टर,فورت سمتر,Fort Sumter,Fort Sumter,Fort Sumter,섬터 요새
+event.bread_riot,Хлебный бунт,Bread Riot,Émeute du pain,Motín del pan,Brotaufstand,Motim do Pão,面包暴动,パン暴動,रोटी दंगा,ثورة الخبز,Tumulto del pane,Zamieszki chlebowe,Ekmek isyanı,빈폭동
+event.ny_draft_riot,Нью-Йоркский бунт,NY Draft Riot,Émeute de la conscription à New York,Motín de reclutamiento de Nueva York,Aufstand in New York,Motim de Nova York,纽约征兵暴动,ニューヨーク徴兵暴動,न्यूयॉर्क दंगा,ثورة نيويورك,Tumulti della leva di New York,Zamieszki poborowe w Nowym Jorku,New York askere alma isyanı,뉴욕 징병 폭동
+event.conscription_cascade,Бунт призывников,Conscript Mutiny,Mutinerie des conscrits,Motín de reclutas,Rekrutenaufstand,Motim dos Recrutas,新兵哗变,徴集兵の反乱,भर्ती सैनिकों का विद्रोह,تمرد المجندين,Ammutinamento delle leve,Bunt poborowych,Asker isyanı,징집병 반란
+event.desertion,Дезертирство,Desertion,Désertion,Deserción,Fahnenflucht,Deserção,逃兵,脱走,पलायन,فرار من الخدمة,Diserzione,Dezercja,Firar,탈영
+event.disease,Тиф/эпидемия,Typhus/Epidemic,Typhus/Épidémie,Tifus/Epidemia,Typhus/Epidemie,Tifo/Epidemia,伤寒/瘟疫,発疹チフス/伝染病,टाइफस/महामारी,التيفوس/الوباء,Tifo/Epidemia,Tyfus/Epidemia,Tifüs/Salgın,장티푸스/전염병
+event.blockade,Морская блокада,Naval Blockade,Blocus naval,Bloqueo naval,Seeblockade,Bloqueio Naval,海上封锁,海上封鎖,नौसैनिक नाकाबंदी,الحصار البحري,Blocco navale,Blokada morska,Deniz ablukası,해상 봉쇄
+event.blockade_run,Прорыв блокады,Blockade Run,Forçage du blocus,Romper el bloqueo,Blockadebruch,Quebra do Bloqueio,突破封锁,封鎖突破,नाकाबंदी भेदना,اختراق الحصار,Rottura del blocco,Przebicie blokady,Abluka yarması,봉쇄 돌파
+event.volunteers,Набор добровольцев,Volunteer Recruitment,Recrutement de volontaires,Reclutamiento de voluntarios,Freiwilligenwerbung,Recrutamento de Voluntários,招募志愿兵,志願兵募集,स्वयंसेवक भर्ती,تجنيد المتطوعين,Reclutamento volontari,Nabór ochotników,Gönüllü toplama,지원병 모집
+event.conscription,Призыв,Conscription,Conscription,Reclutamiento,Einberufung,Conscrição,征兵,徴兵,अनिवार्य भर्ती,التجنيد الإجباري,Leva obbligatoria,Pobór,Askere alma,징병
+event.foreign_arms,Иностранное оружие,Foreign Arms,Armes étrangères,Armas extranjeras,Ausländische Waffen,Armamento Estrangeiro,外国武器,外国製武器,विदेशी हथियार,أسلحة أجنبية,Armi straniere,Broń zagraniczna,Yabancı silahlar,외국제 무기
+event.partisan,Каперство,Privateering,Corsaire,Corsarismo,Kaperfahrt,Atividade Corsária,私掠巡航,私掠船活動,समुद्री डकैती,القرصنة المرخصة,Corsari,Kaperstwo,Korsanlık,사략
+event.naval_mines,Морские мины,Naval Mines,Mines navales,Minas navales,Seeminen,Minas Navais,海军水雷,海軍機雷,समुद्री माइनें,ألغام بحرية,Mine navali,Miny morskie,Deniz mayınları,해상 기뢰
+event.night_march,Ночной марш,Night March,Marche de nuit,Marcha nocturna,Nachtmarsch,Marcha Noturna,夜间行军,夜間行軍,रात का मार्च,زحف ليلي,Marcia notturna,Marsz nocny,Gece yürüyüşü,야간 행군
+event.ambush,Засада,Ambush,Embuscade,Emboscada,Hinterhalt,Emboscada,伏击,待ち伏せ,घात,كمين,Imboscata,Zasadzka,Pusu,매복
+event.reconnaissance,Разведка,Reconnaissance,Reconnaissance,Reconocimiento,Aufklärung,Reconhecimento,侦察,偵察,टोह,استطلاع,Ricognizione,Zwiad,Keşif,정찰
+event.pontoons,Понтонные мосты,Pontoon Bridges,Ponts de bateaux,Puentes de pontones,Pontonbrücken,Pontes de Pontões,浮桥,舟橋,पोंटून पुल,جسور عائمة,Pontoni,Mosty pontonowe,Ponton köprüleri,주교
+event.siege_train,Осадный поезд,Siege Train,Train de siège,Tren de asedio,Belagerungstrain,Trem de Sítio,攻城列车,攻城列車,घेराबंदी का काफ़िला,قطار الحصار,Treno d'assedio,Pociąg oblężniczy,Kuşatma treni,공성 열차
+event.rain,Дождь,Rain,Pluie,Lluvia,Regen,Chuva,大雨,雨,बारिश,مطر,Pioggia,Deszcz,Yağmur,비
+event.hardtack,Сухари и кофе,Hardtack and Coffee,Biscuit de mer et café,Galleta dura y café,Hartkeks und Kaffee,Bolacha e Café,硬饼和咖啡,硬パンとコーヒー,बिस्कुट और कॉफ़ी,البسكويت والقهوة,Galletta e caffè,Suchary i kawa,Pesküdü ve kahve,건빵과 커피
+event.mud,Распутица,Mud,Boue,Lodo,Schlammzeit,Atolamento,泥泞季节,泥濘期,कीचड़ का मौसम,موسم الوحل,Fango,Rozmokła droga,Çamur,진창
+event.railroad,Железная дорога,Railroad,Chemin de fer,Ferrocarril,Eisenbahn,Ferrovia,铁路,鉄道,रेलमार्ग,سكة حديد,Ferrovia,Kolej,Demiryolu,철도
+event.telegraph,Телеграф,Telegraph,Télégraphe,Telégrafo,Telegraf,Telégrafo,电报,電信,तार,التلغراف,Telegrafo,Telegraf,Telgraf,전신
+event.spies,Шпионаж,Spies,Espionnage,Espionaje,Spionage,Espionagem,间谍活动,諜報活動,जासूसी,تجسس,Spionaggio,Szpiegostwo,Casusluk,첩보
+event.counterspy,Контршпионаж,Counterspy,Contre-espionnage,Contraespionaje,Gegenspionage,Contraspionagem,反间谍,防諜活動,विरोधी जासूसी,مكافحة التجسس,Controspionaggio,Kontrwywiad,Karşı casusluk,반첩보
+event.arty_barrage,Артиллерийская подготовка,Artillery Barrage,Barrage d'artillerie,Barrera de artillería,Artillerievorbereitung,Preparação de Artilharia,炮火准备,砲撃準備,तोपख़ाने की तैयारी,تمهيد مدفعي,Preparazione d'artiglieria,Przygotowanie artyleryjskie,Topçu hazırlığı,포병 준비사격
+event.fieldworks,Полевые укрепления,Fieldworks,Travaux de campagne,Fortificaciones de campaña,Feldbefestigungen,Fortificações de Campanha,野战工事,野戦築城,मैदानी रक्षा-कार्य,تحصينات ميدانية,Fortificazioni da campo,Fortyfikacje polowe,Sahra tahkimatı,야전 참호
+event.suppress_revolt,Подавление бунта,Suppress Revolt,Réprimer la révolte,Sofocar la revuelta,Aufstandsunterdrückung,Supressão de Motim,镇压暴动,暴動鎮圧,दंगा दबाना,قمع التمرد,Soppressione della rivolta,Stłumienie buntu,İsyanın bastırılması,폭동 진압
+event.soldier_wound,Ранение,Wound,Blessure,Herida,Verwundung,Ferimento,负伤,負傷,घायल,إصابة,Ferita,Rana,Yaralanma,부상
+event.soldier_death,Гибель,Death,Mort,Muerte,Tod,Morte,阵亡,戦死,मृत्यु,مصرع,Morte,Śmierć,Ölüm,전사
+event.surrender,Сдача,Surrender,Capitulation,Rendición,Kapitulation,Rendição,投降,降伏,समर्पण,استسلام,Resa,Kapitulacja,Teslim,항복
+event.reinforce,Подкрепление,Reinforcements,Renforts,Refuerzos,Verstärkung,Reforços,增援,増援,सहायता दल,تعزيزات,Rinforzi,Wzmocnienia,Takviye,증원
+event.retreat,Отступление,Retreat,Retraite,Retirada,Rückzug,Retirada,撤退,撤退,पीछे हटना,انسحاب,Ritirata,Odwrót,Geri çekilme,후퇴
+event.advance,Наступление,Advance,Avance,Avanza,Vorstoß,Avanço,推进,進撃,आगे बढ़ना,تقدم,Avanzata,Natarcie,Taarruz,진격
+event.flanking,Фланговый обход,Flanking Maneuver,Manœuvre de flanc,Maniobra de flanqueo,Flankenmanöver,Manobra de Flanco,侧翼迂回,側面機動,पार्श्व घेराव,مناورة التطويق,Manovra di flanco,Obejście skrzydłowe,Kanat manevrası,측면 기동
+event.formations,Построение,Formations,Formations,Formaciones,Formierung,Formações,队形,隊形,व्यूह,تشكيلات,Schieramenti,Szyki,Düzen,대형
+event.charge,Атака в штыки,Bayonet Charge,Charge à la baïonnette,Carga a la bayoneta,Bajonettangriff,Ataque à Baioneta,刺刀突击,銃剣白兵突撃,बेयनेट हमला,هجوم حِرابي,Carica alla baionetta,Atak na bagnety,Süngü hücumu,총검 돌격
+event.rally,Перегруппировка,Rally,Rassemblement,Reagrupamiento,Neugruppierung,Reagrupamento,重新集结,立て直し,पुनर्गठन,إعادة التجمع,Raggruppamento,Przegrupowanie,Toplanma,재집결
+event.entrench,Окопаться,Entrench,S'enterrer,Atrincherarse,Eingraben,Entrincheirar,挖壕,塹壕構築,खाई खोदना,تحصين بالخنادق,Trincerarsi,Okopać się,Siper kaz,참호 구축
+event.withdraw,Отвод войск,Withdraw,Retirer les troupes,Retirar tropas,Truppenabzug,Recuo de Tropas,撤出部队,兵団引き揚げ,सेना हटाना,سحب القوات,Ritiro delle truppe,Wycofanie wojsk,Birlikleri çek,병력 철수
+event.reconquest,Реконкиста,Reconquest,Reconquête,Reconquista,Rückeroberung,Reconquista,收复,奪回,पुनर्विजय,استعادة,Riconquista,Rekonkwista,Geri alma,수복
+event.guerrilla,Партизаны,Guerrillas,Guérilleros,Guerrilleros,Partisanen,Guerrilheiros,游击队,ゲリラ,गुरिल्ला,حرب عصابات,Guerriglieri,Partyzanci,Gerillalar,게릴라
+event.scout,Разведка,Scout,Éclaireur,Explorador,Erkundung,Batedor,搜索,捜索,खोजबीन,استكشاف,Esploratore,Zwiadowca,Öncü,척후
+event.supply_line,Линия снабжения,Supply Line,Ligne d'approvisionnement,Línea de suministro,Nachschublinie,Linha de Suprimentos,补给线,補給線,आपूर्ति लाइन,خط الإمداد,Linea di rifornimento,Linia zaopatrzenia,Ikmal hattı,보급선
+event.intercept,Перехват,Intercept,Interception,Interceptar,Abfangen,Interceptar,拦截,迎撃,अवरोधन,اعتراض,Intercettazione,Przechwycenie,Karşılama,요격
+event.fortify,Укрепить,Fortify,Fortifier,Fortificar,Befestigen,Fortificar,设防,要塞化,किलेबंदी करना,تحصين,Fortificare,Umocnić,Tahkim et,요새화
+event.demolish,Разрушить,Demolish,Démolir,Demoler,Zerstören,Demolir,拆毁,破壊,ध्वस्त करना,هدم,Demolire,Zburzyć,Yık,파괴
+event.repair,Восстановить,Repair,Réparer,Reparar,Reparieren,Reparar,修复,修理,मरम्मत,إصلاح,Riparare,Naprawić,Onar,수리
+event.bridge,Мост,Bridge,Pont,Puente,Brücke,Ponte,桥梁,橋,पुल,جسر,Ponte,Most,Köprü,교량
+event.ford,Брод,Ford,Gué,Vado,Furt,Vau,浅滩,浅瀬,नदी-उतार,مخاضة,Guado,Bród,Sığ geçit,여울
+event.pass,Перевал,Pass,Col,Paso,Pass,Passagem,山口,峠,दर्रा,ممر جبلي,Valico,Przełęcz,Geçit,고개
+event.harbor,Гавань,Harbor,Port,Puerto,Hafen,Porto,港口,港湾,बंदरगाह,ميناء,Porto,Port,Liman,항구
+event.lighthouse,Маяк,Lighthouse,Phare,Faro,Leuchtturm,Farol,灯塔,灯台,प्रकाशस्तंभ,منارة,Faro,Latarnia morska,Deniz feneri,등대
+event.warehouse,Склад,Warehouse,Entrepôt,Almacén,Lagerhaus,Armazém,仓库,倉庫,गोदाम,مستودع,Magazzino,Magazyn,Depo,창고
+event.armory,Арсенал,Arsenal,Arsenal,Arsenal,Arsenal,Arsenal,军械库,兵器廠,शस्त्रागार,ترسانة,Arsenale,Zbrojownia,Cephanelik,병기고
+event.hospital,Госпиталь,Hospital,Hôpital,Hospital,Hospital,Hospital,医院,病院,अस्पताल,مستشفى,Ospedale,Szpital,Hastane,병원
+event.prison,Тюрьма,Prison,Prison,Prisión,Gefängnis,Prisão,监狱,監獄,जेल,سجن,Prigione,Więzienie,Hapishane,감옥
+event.camp,Лагерь,Camp,Camp,Campamento,Lager,Acampamento,营地,野営地,शिविर,معسكر,Accampamento,Obóz,Kamp,야영지
+event.barracks,Казармы,Barracks,Caserne,Cuartel,Kasernen,Quartel,兵营,兵舎,बैरक,ثكنة,Caserma,Koszary,Kışla,병영
+cmd.lincoln,Авраам Линкольн,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,亚伯拉罕·林肯,エイブラハム・リンカーン,अब्राहम लिंकन,أبراهام لينكون,Abraham Lincoln,Abraham Lincoln,Abraham Lincoln,에이브러햄 링컨
+cmd.grant,Улисс С. Грант,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,尤利西斯·S·格兰特,ユリシーズ・S・グラント,यूलिसिस एस. ग्रांट,يوليسيس س. غرانت,Ulysses S. Grant,Ulysses S. Grant,Ulysses S. Grant,율리시스 S. 그랜트
+cmd.sherman,Уильям Т. Шерман,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,William T. Sherman,威廉·T·谢尔曼,ウィリアム・T・シャーマン,विलियम टी. शेरमन,ويليام ت. شيرمان,William T. Sherman,William T. Sherman,William T. Sherman,윌리엄 T. 셔먼
+cmd.mcclellan,Джордж Макклеллан,George McClellan,George McClellan,George McClellan,George McClellan,George McClellan,乔治·麦克莱伦,ジョージ・マクレラン,जॉर्ज मैक्लेलन,جورج ماكليلان,George McClellan,George McClellan,George McClellan,조지 매클레런
+cmd.meade,Джордж Миад,George Meade,George Meade,George Meade,George Meade,George Meade,乔治·米德,ジョージ・ミード,जॉर्ज मीड,جورج ميد,George Meade,George Meade,George Meade,조지 미드
+cmd.burnside,Амброуз Бернсайд,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,安布罗斯·伯恩赛德,アンブローズ・バーンサイド,एम्ब्रोज़ बर्नसाइड,أمبروز بيرنسايد,Ambrose Burnside,Ambrose Burnside,Ambrose Burnside,앰브로즈 번사이드
+cmd.hooker,Джозеф Хукер,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,Joseph Hooker,约瑟夫·胡克,ジョセフ・フッカー,जोसेफ हुकर,جوزيف هوكر,Joseph Hooker,Joseph Hooker,Joseph Hooker,조지프 후커
+cmd.sheridan,Филип Шеридан,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,Philip Sheridan,菲利普·谢里登,フィリップ・シェリダン,फिलिप शेरिडन,فيليب شيريدان,Philip Sheridan,Philip Sheridan,Philip Sheridan,필립 셰리든
+cmd.custer,Джордж Армстронг Кастер,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,乔治·阿姆斯特朗·卡斯特,ジョージ・アームストロング・カスター,जॉर्ज आर्मस्ट्रॉन्ग कस्टर,جورج أرمسترونغ كاستر,George Armstrong Custer,George Armstrong Custer,George Armstrong Custer,조지 암스트롱 커스터
+cmd.hancock,Уинфилд Скотт Хэнкок,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,温菲尔德·斯科特·汉考克,ウィンフィールド・スコット・ハンコック,विनफ़ील्ड स्कॉट हैनकॉक,وينفيلد سكوت هانكوك,Winfield Scott Hancock,Winfield Scott Hancock,Winfield Scott Hancock,윈필드 스콧 핸콕
+cmd.reynolds,Джон Рейнольдс,John Reynolds,John Reynolds,John Reynolds,John Reynolds,John Reynolds,约翰·雷诺兹,ジョン・レイノルズ,जॉन रेनॉल्ड्स,جون رينولدز,John Reynolds,John Reynolds,John Reynolds,존 레이놀즈
+cmd.chamberlain,Джошуа Чемберлен,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,约书亚·张伯伦,ジョシュア・チェンバレン,जोशुआ चैंबरलिन,جوشوا تشامبرلين,Joshua Chamberlain,Joshua Chamberlain,Joshua Chamberlain,조슈아 체임벌린
+cmd.jefferson,Джефферсон Дэвис,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,Jefferson Davis,杰斐逊·戴维斯,ジェファーソン・デイヴィス,जेफ़रसन डेविस,جفرسون ديفيس,Jefferson Davis,Jefferson Davis,Jefferson Davis,제퍼슨 데이비스
+cmd.relee,Роберт Э. Ли,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,Robert E. Lee,罗伯特·E·李,ロバート・E・リー,रॉबर्ट ई. ली,روبرت إي. لي,Robert E. Lee,Robert E. Lee,Robert E. Lee,로버트 E. 리
+cmd.stonewall,Томас «Стоунуолл» Джексон,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,托马斯·石墙·杰克逊,トマス・ストーンウォール・ジャクソン,थॉमस स्टोनवॉल जैक्सन,توماس ستونوول جاكسون,Thomas Stonewall Jackson,Thomas Stonewall Jackson,Thomas Stonewall Jackson,토머스 스톤월 잭슨
+cmd.longstreet,Джеймс Лонгстрит,James Longstreet,James Longstreet,James Longstreet,James Longstreet,James Longstreet,詹姆斯·朗斯特里特,ジェームズ・ロングストリート,जेम्स लॉन्गस्ट्रीट,جيمس لونغستريت,James Longstreet,James Longstreet,James Longstreet,제임스 롱스트리트
+cmd.stuart,Дж.Э.Б. Стюарт,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B.斯图尔特,J.E.B.スチュアート,जे.ई.बी. स्टुअर्ट,ج.إ.ب. ستيوارت,J.E.B. Stuart,J.E.B. Stuart,J.E.B. Stuart,J.E.B. 스튜어트
+cmd.aphill,A.P. Хилл,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P. Hill,A.P.希尔,A.P.ヒル,ए.पी. हिल,إيه.بي. هيل,A.P. Hill,A.P. Hill,A.P. Hill,A.P. 힐
+cmd.forrest,Натан Бедфорд Форрест,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,纳撒尼尔·贝德福德·福雷斯特,ネイサン・ベッドフォード・フォレスト,नैथन बेडफ़ोर्ड फ़ॉरेस्ट,ناثان بيدفورد فورست,Nathan Bedford Forrest,Nathan Bedford Forrest,Nathan Bedford Forrest,네이선 베드퍼드 포러스트
+cmd.johnston,Джозеф Джонстон,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,Joseph Johnston,约瑟夫·约翰斯顿,ジョセフ・ジョンストン,जोसेफ जॉनस्टन,جوزيف جونستون,Joseph Johnston,Joseph Johnston,Joseph Johnston,조지프 존스턴
+cmd.bragg,Брэкстон Брэгг,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,Braxton Bragg,布拉克斯顿·布拉格,ブラクストン・ブラッグ,ब्रैक्सटन ब्रैग,براكستون براغ,Braxton Bragg,Braxton Bragg,Braxton Bragg,브랙스턴 브래그
+cmd.hood,Джон Белл Худ,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,John Bell Hood,约翰·贝尔·胡德,ジョン・ベル・フッド,जॉन बेल हुड,جون بيل هود,John Bell Hood,John Bell Hood,John Bell Hood,존 벨 후드
+cmd.pickett,Джордж Пикетт,George Pickett,George Pickett,George Pickett,George Pickett,George Pickett,乔治·皮克特,ジョージ・ピケット,जॉर्ज पिकेट,جورج بيكيت,George Pickett,George Pickett,George Pickett,조지 피켓
+cmd.early,Джубал Эрли,Jubal Early,Jubal Early,Jubal Early,Jubal Early,Jubal Early,朱巴尔·厄尔利,ジュバル・アーリー,जुबल अर्ली,جوبال إيرلي,Jubal Early,Jubal Early,Jubal Early,주벌 얼리
+cmd.sidney_johnston,Альберт С. Джонстон,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,艾伯特·S·约翰斯顿,アルバート・S・ジョンストン,अल्बर्ट एस. जॉनस्टन,ألبرت س. جونستون,Albert S. Johnston,Albert S. Johnston,Albert S. Johnston,앨버트 S. 존스턴
+cmd.beauregard,П.Г.Т. Борегар,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T.博雷加德,P.G.T.ボーリガード,पी.जी.टी. बोरगार्ड,بي.جي.تي. بورغار,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. Beauregard,P.G.T. 보리가드
+cmd.buckner,Саймон Боливар Бакнер,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,西蒙·玻利瓦尔·巴克纳,サイモン・ボリバール・バックナー,साइमन बोलिवर बकनर,سيمون بوليفار بوكنر,Simon Bolivar Buckner,Simon Bolivar Buckner,Simon Bolivar Buckner,사이먼 볼리버 벅너
+cmd.polk,Леонидас Полк,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,Leonidas Polk,列奥尼达斯·波尔克,レオニダス・ポーク,लियोनिडास पोल्क,ليونيداس بولك,Leonidas Polk,Leonidas Polk,Leonidas Polk,레오니다스 폴크
+cmd.hardee,Уильям Дж. Харди,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,William J. Hardee,威廉·J·哈迪,ウィリアム・J・ハーディ,विलियम जे. हार्डी,ويليام ج. هاردي,William J. Hardee,William J. Hardee,William J. Hardee,윌리엄 J. 하디
+cmd.cleburne,Патрик Клебёрн,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,帕特里克·克利本,パトリック・クリバーン,पैट्रिक क्लेबर्न,باتريك كليبورن,Patrick Cleburne,Patrick Cleburne,Patrick Cleburne,패트릭 클리번
+cmd.gordon,Джон Б. Гордон,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,John B. Gordon,约翰·B·戈登,ジョン・B・ゴードン,जॉन बी. गॉर्डन,جون ب. غوردون,John B. Gordon,John B. Gordon,John B. Gordon,존 B. 고든
+cmd.rosecrans,Уильям Роскранс,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,William Rosecrans,威廉·罗斯克兰斯,ウィリアム・ローズクランズ,विलियम रोज़क्रांस,ويليام روزكرانس,William Rosecrans,William Rosecrans,William Rosecrans,윌리엄 로즈크랜스
+cmd.thomas,Джордж Х. Томас,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,George H. Thomas,乔治·H·托马斯,ジョージ・H・トーマス,जॉर्ज एच. थॉमस,جورج هـ. توماس,George H. Thomas,George H. Thomas,George H. Thomas,조지 H. 토머스
+cmd.mclellan_opinion,Макклеллан: слишком осторожен?,McClellan: Too Cautious?,McClellan : trop prudent ?,McClellan: ¿demasiado cauto?,McClellan: Zu vorsichtig?,McClellan: Cauteloso Demais?,麦克莱伦：过于谨慎？,マクレラン：慎重すぎるか？,मैक्लेलन: ज़्यादा ही सतर्क?,ماكليلان: حذر أكثر من اللازم؟,McClellan: troppo cauto?,McClellan: zbyt ostrożny?,McClellan: fazla mı ihtiyatlı?,매클레런: 너무 신중한가?
+cmd.burnside_opinion,Бернсайд: лобовая атака?,Burnside: Frontal Assault?,Burnside : assaut frontal ?,Burnside: ¿asalto frontal?,Burnside: Frontalangriff?,Burnside: Ataque Frontal?,伯恩赛德：正面强攻？,バーンサイド：正面攻撃か？,बर्नसाइड: सीधा हमला?,بيرنسايد: هجوم أمامي؟,Burnside: assalto frontale?,Burnside: atak frontalny?,Burnside: cepheden taarruz mu?,번사이드: 정면 돌파인가?
+ui.month.01,Январь,January,Janvier,Enero,Januar,Janeiro,一月,1月,जनवरी,يناير,Gennaio,Styczeń,Ocak,1월
+ui.month.02,Февраль,February,Février,Febrero,Februar,Fevereiro,二月,2月,फ़रवरी,فبراير,Febbraio,Luty,Şubat,2월
+ui.month.03,Март,March,Mars,Marzo,März,Março,三月,3月,मार्च,مارس,Marzo,Marzec,Mart,3월
+ui.month.04,Апрель,April,Avril,Abril,April,Abril,四月,4月,अप्रैल,أبريل,Aprile,Kwiecień,Nisan,4월
+ui.month.05,Май,May,Mai,Mayo,Mai,Maio,五月,5月,मई,مايو,Maggio,Maj,Mayıs,5월
+ui.month.06,Июнь,June,Juin,Junio,Juni,Junho,六月,6月,जून,يونيو,Giugno,Czerwiec,Haziran,6월
+ui.month.07,Июль,July,Juillet,Julio,Juli,Julho,七月,7月,जुलाई,يوليو,Luglio,Lipiec,Temmuz,7월
+ui.month.08,Август,August,Août,Agosto,August,Agosto,八月,8月,अगस्त,أغسطس,Agosto,Sierpień,Ağustos,8월
+ui.month.09,Сентябрь,September,Septembre,Septiembre,September,Setembro,九月,9月,सितंबर,سبتمبر,Settembre,Wrzesień,Eylül,9월
+ui.month.10,Октябрь,October,Octobre,Octubre,Oktober,Outubro,十月,10月,अक्टूबर,أكتوبر,Ottobre,Październik,Ekim,10월
+ui.month.11,Ноябрь,November,Novembre,Noviembre,November,Novembro,十一月,11月,नवंबर,نوفمبر,Novembre,Listopad,Kasım,11월
+ui.month.12,Декабрь,December,Décembre,Diciembre,Dezember,Dezembro,十二月,12月,दिसंबर,ديسمبر,Dicembre,Grudzień,Aralık,12월
+ui.year,Год,Year,Année,Año,Jahr,Ano,年份,年,वर्ष,السنة,Anno,Rok,Yıl,연도
+ui.deck,Колода,Deck,Pioche,Mazo,Kartenstapel,Baralho,牌库,デッキ,डेक,المجموعة,Mazzo,Talia,Deste,덱
+ui.discard,Сброс,Discard,Défausse,Descarte,Ablage,Descarte,弃牌堆,捨て札,फेंके पत्ते,المهملات,Carta scartata,Odrzuty,Atılanlar,버린 카드
+ui.graveyard,Кладбище,Graveyard,Cimetière,Cementerio,Friedhof,Cemitério,墓地,墓地,क़ब्रिस्तान,المقبرة,Cimitero,Cmentarz,Mezarlık,무덤
+ui.play_card,Разыграть,Play,Jouer,Jugar,Ausspielen,Jogar,打出,プレイ,खेलना,لعب,Gioca,Zagraj,Oyna,플레이
+ui.draw_card,Взять карту,Draw Card,Piocher une carte,Robar carta,Karte ziehen,Comprar Carta,抽牌,カードを引く,पत्ता उठाना,سحب بطاقة,Pesca carta,Dobierz kartę,Kart çek,카드 드로우
+ui.discard_card,Сбросить,Discard,Défausser,Descartar,Ablegen,Descartar,弃掉,捨てる,फेंकना,رمي,Scarta,Odrzuć,At,버리기
+ui.move_unit,Двигать юнита,Move Unit,Déplacer l'unité,Mover unidad,Einheit bewegen,Mover Unidade,移动部队,部隊移動,इकाई खिसकाएँ,تحريك الوحدة,Muovi unità,Przesuń jednostkę,Birliği taşı,유닛 이동
+ui.select_territory,Выберите территорию,Select Territory,Sélectionner un territoire,Seleccionar territorio,Gebiet wählen,Selecionar Território,选择领土,領土を選択,क्षेत्र चुनें,اختر الإقليم,Seleziona territorio,Wybierz terytorium,Bölge seç,영토 선택
+ui.select_target,Выберите цель,Select Target,Sélectionner une cible,Seleccionar objetivo,Ziel wählen,Selecionar Alvo,选择目标,目標を選択,लक्ष्य चुनें,اختر الهدف,Seleziona bersaglio,Wybierz cel,Hedef seç,대상 선택
+ui.select_card,Выберите карту,Select Card,Sélectionner une carte,Seleccionar carta,Karte wählen,Selecionar Carta,选择卡牌,カードを選択,पत्ता चुनें,اختر بطاقة,Seleziona carta,Wybierz kartę,Kart seç,카드 선택
+ui.confirm,Подтвердить,Confirm,Confirmer,Confirmar,Bestätigen,Confirmar,确认,確認,पुष्टि करें,تأكيد,Conferma,Potwierdź,Onayla,확인
+ui.waiting,Ожидание...,Waiting...,En attente...,Esperando...,Warten...,Aguardando...,等待中…,待機中…,प्रतीक्षा…,انتظار…,Attesa...,Oczekiwanie...,Bekleniyor...,대기 중...
+ui.ai_thinking,ИИ думает...,AI is thinking...,L'IA réfléchit...,La IA está pensando...,KI denkt nach...,IA pensando...,AI思考中…,AI思考中…,एआई सोच रहा है…,الذكاء الاصطناعي يفكر…,L'IA sta pensando...,AI myśli...,YZ düşünüyor...,AI 생각 중...
+ui.your_turn,Ваш ход,Your Turn,Votre tour,Su turno,Ihr Zug,Seu Turno,你的回合,あなたのターン,आपकी बारी,دورك,Tuo turno,Twoja tura,Sıra sende,당신의 턴
+ui.enemy_turn,Ход противника,Enemy Turn,Tour de l'ennemi,Turno del enemigo,Zug des Gegners,Turno do Inimigo,敌方回合,敵のターン,दुश्मन की बारी,دور العدو,Turno nemico,Tura przeciwnika,Rakibin sırası,적의 턴
+ui.battle_starts,Бой начинается!,Battle Begins!,La bataille commence !,¡La batalla comienza!,Der Kampf beginnt!,A Batalha Começa!,战斗开始！,戦闘開始！,युद्ध शुरू!,تبدأ المعركة!,La battaglia inizia!,Bitwa się zaczyna!,Savaş başlıyor!,전투 시작!
+ui.battle_ends,Бой окончен,Battle Over,Fin de la bataille,Fin de la batalla,Kampf beendet,Batalha Encerrada,战斗结束,戦闘終了,युद्ध समाप्त,انتهت المعركة,Battaglia finita,Bitwa zakończona,Savaş bitti,전투 종료
+ui.winner,Победитель:,Winner:,Vainqueur :,Ganador:,Sieger:,Vencedor:,胜者：,勝者：,विजेता:,الفائز:,Vincitore:,Zwycięzca:,Kazanan:,승자:
+ui.loser,Проигравший:,Loser:,Perdant :,Perdedor:,Verlierer:,Perdedor:,败者：,敗者：,हारने वाला:,الخاسر:,Perdente:,Przegrany:,Kaybeden:,패자:
+ui.casualties,Потери:,Casualties:,Pertes :,Bajas:,Verluste:,Baixas:,伤亡：,損害：,हताहत:,الخسائر:,Perdite:,Straty:,Zayiat:,손실:
+ui.remaining,Осталось:,Remaining:,Restants :,Restantes:,Verbleibend:,Restante:,剩余：,残り：,शेष:,المتبقي:,Rimasti:,Pozostało:,Kalan:,남음:
+ui.player,Игрок,Player,Joueur,Jugador,Spieler,Jogador,玩家,プレイヤー,खिलाड़ी,اللاعب,Giocatore,Gracz,Oyuncu,플레이어
+ui.enemy,Противник,Enemy,Ennemi,Enemigo,Gegner,Inimigo,敌人,敵,दुश्मन,العدو,Nemico,Przeciwnik,Rakip,적
+ui.difficulty,Сложность,Difficulty,Difficulté,Dificultad,Schwierigkeit,Dificuldade,难度,難易度,कठिनाई,الصعوبة,Difficoltà,Poziom trudności,Zorluk,난이도
+ui.difficulty.easy,Лёгкая,Easy,Facile,Fácil,Leicht,Fácil,简单,易しい,आसान,سهل,Facile,Łatwy,Kolay,쉬움
+ui.difficulty.normal,Обычная,Normal,Normal,Normal,Normal,Normal,普通,普通,सामान्य,عادي,Normale,Normalny,Normal,보통
+ui.difficulty.hard,Сложная,Hard,Difficile,Difícil,Schwer,Difícil,困难,難しい,कठिन,صعب,Difficile,Trudny,Zor,어려움
+ui.autoturn.conservative,Консервативная,Conservative,Conservateur,Conservador,Konservativ,Conservadora,保守,慎重,रूढ़िवादी,متحفظ,Conservativa,Konserwatywna,Muhafazakâr,보수적
+ui.autoturn.balanced,Сбалансированная,Balanced,Équilibré,Equilibrado,Ausgeglichen,Equilibrada,均衡,バランス,संतुलित,متوازن,Equilibrata,Zrównoważona,Dengeli,균형
+ui.autoturn.aggressive,Агрессивная,Aggressive,Agressif,Agresivo,Aggressiv,Agressiva,激进,積極的,आक्रामक,عدواني,Aggressiva,Agresywna,Saldırgan,공격적
+ui.settings.graphics,Графика,Graphics,Graphismes,Gráficos,Grafik,Gráficos,图形,グラフィック,ग्राफ़िक्स,الرسوميات,Grafica,Grafika,Grafik,그래픽
 ui.settings.audio,Звук,Audio,Audio,Audio,Audio,Áudio,音频,オーディオ,ऑडियो,الصوت,Audio,Dźwięk,Ses,오디오
-ui.settings.gameplay,Геймплей,Gameplay,Gameplay,Jugabilidad,Gameplay,Gameplay,Gameplay,Gameplay,Gameplay,Gameplay,Gameplay,Rozgrywka,Oynanış,게임플레이
+ui.settings.gameplay,Геймплей,Gameplay,Gameplay,Jugabilidad,Gameplay,Gameplay,游戏性,ゲームプレイ,गेमप्ले,أسلوب اللعب,Gameplay,Rozgrywka,Oynanış,게임플레이
 ui.music_volume,Музыка,Music,Musique,Música,Musik,Música,音乐,音楽,संगीत,الموسيقى,Musica,Muzyka,Müzik,음악
 ui.sfx_volume,Эффекты,SFX,Effets sonores,Efectos de sonido,SFX,SFX,SFX,SFX,SFX,SFX,Effetti,Efekty,Efektler,효과음
 ui.fullscreen,Полный экран,Fullscreen,Plein écran,Pantalla completa,Vollbild,Ecrã Inteiro,全屏,フルスクリーン,पूर्ण स्क्रीन,ملء الشاشة,Schermo intero,Pełny ekran,Tam ekran,전체 화면
@@ -395,61 +395,61 @@ ui.info.end_turn,КОНЕЦ ХОДА. Нажмите КОНЕЦ ФАЗЫ.,END OF
 ui.units_count,Юниты: %d,Units: %d,Unités: %d,Unidades: %d,Einheiten: %d,Unidades: %d,单位: %d,ユニット: %d,इकाइयाँ: %d,الوحدات: %d,Unità: %d,Jednostki: %d,Birlik: %d,유닛: %d
 ui.side_union_blue,СОЮЗ (Синие),UNION (Blue),UNION (Bleu),UNIÓN (Azul),UNION (Blau),UNIÃO (Azul),联邦（蓝）,北軍（青）,संघ (नीले),الاتحاد (أزرق),UNIONE (Blu),UNIA (Niebiescy),BİRLİK (Maviler),연합 (파랑)
 ui.side_confed_red,КОНФЕДЕРАЦИЯ (Красные),CONFED (Red),CONFÉDÉRATION (Rouge),CONFEDERACIÓN (Rojo),KONFÖDERATION (Rot),CONFEDERAÇÃO (Vermelho),邦联（红）,南軍（赤）,संघराज्य (लाल),الكونفدرالية (أحمر),CONFEDERAZIONE (Rossi),SKONFEDEROWANI (Czerwoni),KONFEDERASYON (Kızillar),남부동맹 (빨강)
-ui.delete_confirm,Удалить это сохранение?,Delete this save?,Supprimer cette sauvegarde ?,¿Eliminar esta partida?,Delete this save?,Delete this save?,Delete this save?,Delete this save?,Delete this save?,Delete this save?,Eliminare questo salvataggio?,Usunąć ten zapis?,Bu kayıt silinsin mi?,이 저장을 삭제할까요?
-ui.tutorial,Обучение,Tutorial,Tutoriel,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Tutorial,Samouczek,Eğitim,튜토리얼
-ui.credits,Авторы,Credits,Crédits,Créditos,Credits,Credits,Credits,Credits,Credits,Credits,Crediti,Autorzy,Emeği geçenler,제작진
-ui.credits_text,Разработано с Godot 4.x,Developed with Godot 4.x,Développé avec Godot 4.x,Desarrollado con Godot 4.x,Developed with Godot 4.x,Developed with Godot 4.x,Developed with Godot 4.x,Developed with Godot 4.x,Developed with Godot 4.x,Developed with Godot 4.x,Sviluppato con Godot 4.x,Stworzone w Godot 4.x,Godot 4.x ile geliştirildi,Godot 4.x로 제작됨
-ui.version,Версия,Version,Version,Versión,Version,Version,Version,Version,Version,Version,Versione,Wersja,Sürüm,버전
+ui.delete_confirm,Удалить это сохранение?,Delete this save?,Supprimer cette sauvegarde ?,¿Eliminar esta partida?,Diesen Spielstand löschen?,Excluir este salvamento?,删除此存档？,このセーブを削除する？,यह सेव मिटाएँ?,حذف هذا الحفظ؟,Eliminare questo salvataggio?,Usunąć ten zapis?,Bu kayıt silinsin mi?,이 저장을 삭제할까요?
+ui.tutorial,Обучение,Tutorial,Tutoriel,Tutorial,Tutorial,Tutorial,教程,チュートリアル,ट्यूटोरियल,البرنامج التعليمي,Tutorial,Samouczek,Eğitim,튜토리얼
+ui.credits,Авторы,Credits,Crédits,Créditos,Autoren,Créditos,制作人员,クレジット,श्रेय,الفريق,Crediti,Autorzy,Emeği geçenler,제작진
+ui.credits_text,Разработано с Godot 4.x,Developed with Godot 4.x,Développé avec Godot 4.x,Desarrollado con Godot 4.x,Entwickelt mit Godot 4.x,Desenvolvido com Godot 4.x,使用Godot 4.x开发,Godot 4.xで開発,Godot 4.x से विकसित,طُوّر بواسطة Godot 4.x,Sviluppato con Godot 4.x,Stworzone w Godot 4.x,Godot 4.x ile geliştirildi,Godot 4.x로 제작됨
+ui.version,Версия,Version,Version,Versión,Version,Version,版本,バージョン,संस्करण,الإصدار,Versione,Wersja,Sürüm,버전
 ui.loading,Загрузка...,Loading...,Chargement...,Cargando...,Laden...,A carregar...,加载中...,読み込み中...,लोड हो रहा है...,جاري التحميل...,Caricamento...,Ładowanie...,Yükleniyor...,불러오는 중...
 ui.error,Ошибка,Error,Erreur,Error,Fehler,Erro,错误,エラー,त्रुटि,خطأ,Errore,Błąd,Hata,오류
-ui.warning,Предупреждение,Warning,Avertissement,Advertencia,Warning,Warning,Warning,Warning,Warning,Warning,Avviso,Ostrzeżenie,Uyarı,경고
-ui.info,Информация,Information,Information,Información,Information,Information,Information,Information,Information,Information,Informazioni,Informacje,Bilgi,정보
-ui.tooltip,Подсказка,Tooltip,Info-bulle,Información sobre herramientas,Tooltip,Tooltip,Tooltip,Tooltip,Tooltip,Tooltip,Suggerimento,Podpowiedź,İpucu,도구 설명
-ui.morale_effect,Эффект морали,Morale Effect,Effet de moral,Efecto de moral,Morale Effect,Morale Effect,Morale Effect,Morale Effect,Morale Effect,Morale Effect,Effetto del morale,Efekt morale,Moral etkisi,사기 효과
-ui.terrain_bonus,Бонус местности,Terrain Bonus,Bonus de terrain,Bonificación de terreno,Terrain Bonus,Terrain Bonus,Terrain Bonus,Terrain Bonus,Terrain Bonus,Terrain Bonus,Bonus terreno,Bonus terenu,Arazi bonusu,지형 보너스
-ui.type_bonus,Бонус типа,Type Bonus,Bonus de type,Bonificación de tipo,Type Bonus,Type Bonus,Type Bonus,Type Bonus,Type Bonus,Type Bonus,Bonus tipo,Bonus typu,Tür bonusu,유형 보너스
-ui.card_detail,Детали карты,Card Details,Détails de la carte,Detalles de carta,Card Details,Card Details,Card Details,Card Details,Card Details,Card Details,Dettagli carta,Szczegóły karty,Kart ayrıntıları,카드 상세
-ui.unit_info,Информация о юните,Unit Info,Info unité,Info de unidad,Unit Info,Unit Info,Unit Info,Unit Info,Unit Info,Unit Info,Info unità,Informacje o jednostce,Birlik bilgisi,유닛 정보
-ui.commander_info,Информация о командующем,Commander Info,Info commandant,Info de comandante,Commander Info,Commander Info,Commander Info,Commander Info,Commander Info,Commander Info,Info comandante,Informacje o dowódcy,Komutan bilgisi,지휘관 정보
-ui.event_info,Информация о событии,Event Info,Info événement,Info de evento,Event Info,Event Info,Event Info,Event Info,Event Info,Event Info,Info evento,Informacje o zdarzeniu,Olay bilgisi,사건 정보
-ui.territory_info,Информация о территории,Territory Info,Info territoire,Info de territorio,Territory Info,Territory Info,Territory Info,Territory Info,Territory Info,Territory Info,Info territorio,Informacje o terytorium,Bölge bilgisi,영토 정보
-ui.owner,Владелец,Owner,Propriétaire,Propietario,Owner,Owner,Owner,Owner,Owner,Owner,Proprietario,Właściciel,Sahip,소유자
-ui.contested,Оспаривается,Contested,Contesté,Disputado,Contested,Contested,Contested,Contested,Contested,Contested,Conteso,Sporne,İhtilaflı,분쟁 중
-ui.neutral,Нейтральная,Neutral,Neutre,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutral,Neutrale,Neutralne,Tarafsız,중립
-ui.occupied,Оккупирована,Occupied,Occupé,Ocupado,Occupied,Occupied,Occupied,Occupied,Occupied,Occupied,Occupato,Okupowane,Işgal altında,점령됨
-ui.blockaded,Блокирована,Blockaded,Bloqué,Bloqueado,Blockaded,Blockaded,Blockaded,Blockaded,Blockaded,Blockaded,Bloccato,Zablokowane,Abluka altında,봉쇄됨
-ui.supplied,Снабжается,Supplied,Approvisionné,Suministrado,Supplied,Supplied,Supplied,Supplied,Supplied,Supplied,Rifornito,Zaopatrzone,Ikmalde,보급됨
-ui.unsupplied,Не снабжается,Unsupplied,Non approvisionné,Sin suministro,Unsupplied,Unsupplied,Unsupplied,Unsupplied,Unsupplied,Unsupplied,Senza rifornimenti,Bez zaopatrzenia,Ikmalsiz,보급 없음
-ui.connected,Связана,Connected,Connecté,Conectado,Connected,Connected,Connected,Connected,Connected,Connected,Collegato,Połączone,Bağlantılı,연결됨
-ui.isolated,Изолирована,Isolated,Isolé,Aislado,Isolated,Isolated,Isolated,Isolated,Isolated,Isolated,Isolato,Odizolowane,İzole,고립됨
-ui.frontline,Линия фронта,Frontline,Ligne de front,Línea del frente,Frontline,Frontline,Frontline,Frontline,Frontline,Frontline,Linea del fronte,Linia frontu,Cephe hattı,전선
-ui.rear,Тыл,Rear,Arrière,Retaguardia,Rear,Rear,Rear,Rear,Rear,Rear,Retrovia,Tyły,Geri hat,후방
-ui.capital,Столица,Capital,Capitale,Capital,Capital,Capital,Capital,Capital,Capital,Capital,Capitale,Stolica,Başkent,수도
-ui.port,Порт,Port,Port,Puerto,Port,Port,Port,Port,Port,Port,Porto,Port,Liman,항구
-ui.railroad,Ж/д узел,Railroad Hub,Nœud ferroviaire,Nudo ferroviario,Railroad Hub,Railroad Hub,Railroad Hub,Railroad Hub,Railroad Hub,Railroad Hub,Nodo ferroviario,Węzeł kolejowy,Demiryolu düğümü,철도 거점
-ui.fort,Форт,Fort,Fort,Fuerte,Fort,Fort,Fort,Fort,Fort,Fort,Forte,Fort,Kale,요새
-ui.resource_income,Доход ресурсов,Resource Income,Revenus de ressources,Ingresos de recursos,Resource Income,Resource Income,Resource Income,Resource Income,Resource Income,Resource Income,Entrate risorse,Dochód zasobów,Kaynak geliri,자원 수입
-ui.manpower_income,Доход людей,Manpower Income,Revenus d'effectifs,Ingresos de efectivos,Manpower Income,Manpower Income,Manpower Income,Manpower Income,Manpower Income,Manpower Income,Entrate uomini,Dochód ludzi,Adam gücü geliri,병력 수입
-ui.money_income,Доход денег,Money Income,Revenus financiers,Ingresos de dinero,Money Income,Money Income,Money Income,Money Income,Money Income,Money Income,Entrate denaro,Dochód pieniędzy,Para geliri,자금 수입
-ui.supply_income,Доход снабжения,Supply Income,Revenus d'approvisionnement,Ingresos de suministros,Supply Income,Supply Income,Supply Income,Supply Income,Supply Income,Supply Income,Entrate rifornimenti,Dochód zaopatrzenia,Ikmal geliri,보급 수입
-ui.morale_change,Изменение морали,Morale Change,Variation du moral,Cambio de moral,Morale Change,Morale Change,Morale Change,Morale Change,Morale Change,Morale Change,Variazione morale,Zmiana morale,Moral değişimi,사기 변화
-ui.cards_in_hand,Карт в руке,Cards in Hand,Cartes en main,Cartas en mano,Cards in Hand,Cards in Hand,Cards in Hand,Cards in Hand,Cards in Hand,Cards in Hand,Carte in mano,Kart w ręce,Eldaki kart,손의 카드
-ui.cards_in_deck,Карт в колоде,Cards in Deck,Cartes dans la pioche,Cartas en el mazo,Cards in Deck,Cards in Deck,Cards in Deck,Cards in Deck,Cards in Deck,Cards in Deck,Carte nel mazzo,Kart w talii,Destedeki kart,덱의 카드
-ui.max_hand,Макс. рука,Max Hand,Main max.,Mano máx.,Max Hand,Max Hand,Max Hand,Max Hand,Max Hand,Max Hand,Mano massima,Maks. ręka,Maks. el,최대 손패
-ui.cost_to_play,Стоимость розыгрыша,Cost to Play,Coût de jeu,Coste de jugar,Cost to Play,Cost to Play,Cost to Play,Cost to Play,Cost to Play,Cost to Play,Costo di gioco,Koszt zagrania,Oynama maliyeti,플레이 비용
-ui.effect,Эффект,Effect,Effet,Efecto,Effect,Effect,Effect,Effect,Effect,Effect,Effetto,Efekt,Etki,효과
-ui.duration,Длительность,Duration,Durée,Duración,Duration,Duration,Duration,Duration,Duration,Duration,Durata,Czas trwania,Süre,지속시간
-ui.permanent,Постоянный,Permanent,Permanent,Permanente,Permanent,Permanent,Permanent,Permanent,Permanent,Permanent,Permanente,Stały,Kalıcı,영구
-ui.one_time,Одноразовый,One-time Use,Usage unique,Uso único,One-time Use,One-time Use,One-time Use,One-time Use,One-time Use,One-time Use,Uso unico,Jednorazowy,Tek kullanımlık,일회용
-ui.target_required,Требуется цель,Target Required,Cible requise,Objetivo requerido,Target Required,Target Required,Target Required,Target Required,Target Required,Target Required,Bersaglio richiesto,Wymagany cel,Hedef gerekli,대상 필요
-ui.historical_date,Историческая дата,Historical Date,Date historique,Fecha histórica,Historical Date,Historical Date,Historical Date,Historical Date,Historical Date,Historical Date,Data storica,Data historyczna,Tarihi tarih,역사적 날짜
-ui.flavor_text,Историческая справка,Flavor Text,Note historique,Nota histórica,Flavor Text,Flavor Text,Flavor Text,Flavor Text,Flavor Text,Flavor Text,Nota storica,Notka historyczna,Tarihi not,역사 노트
-ui.tags,Теги,Tags,Étiquettes,Etiquetas,Tags,Tags,Tags,Tags,Tags,Tags,Etichette,Tagi,Etiketler,태그
-ui.linked_events,Связанные события,Linked Events,Événements liés,Eventos vinculados,Linked Events,Linked Events,Linked Events,Linked Events,Linked Events,Linked Events,Eventi collegati,Powiązane zdarzenia,Bağlı olaylar,연관 사건
+ui.warning,Предупреждение,Warning,Avertissement,Advertencia,Warnung,Aviso,警告,警告,चेतावनी,تحذير,Avviso,Ostrzeżenie,Uyarı,경고
+ui.info,Информация,Information,Information,Información,Information,Informação,信息,情報,सूचना,معلومات,Informazioni,Informacje,Bilgi,정보
+ui.tooltip,Подсказка,Tooltip,Info-bulle,Información sobre herramientas,Quickinfo,Dica,提示,ツールチップ,संकेत,تلميح,Suggerimento,Podpowiedź,İpucu,도구 설명
+ui.morale_effect,Эффект морали,Morale Effect,Effet de moral,Efecto de moral,Moraleffekt,Efeito de Moral,士气效果,士気効果,मनोबल प्रभाव,تأثير المعنويات,Effetto del morale,Efekt morale,Moral etkisi,사기 효과
+ui.terrain_bonus,Бонус местности,Terrain Bonus,Bonus de terrain,Bonificación de terreno,Geländebonus,Bônus de Terreno,地形加成,地形ボーナス,इलाक़ा बोनस,مكافأة التضاريس,Bonus terreno,Bonus terenu,Arazi bonusu,지형 보너스
+ui.type_bonus,Бонус типа,Type Bonus,Bonus de type,Bonificación de tipo,Typenbonus,Bônus de Tipo,类型加成,タイプボーナス,प्रकार बोनस,مكافأة النوع,Bonus tipo,Bonus typu,Tür bonusu,유형 보너스
+ui.card_detail,Детали карты,Card Details,Détails de la carte,Detalles de carta,Kartendetails,Detalhes da Carta,卡牌详情,カード詳細,पत्ते का विवरण,تفاصيل البطاقة,Dettagli carta,Szczegóły karty,Kart ayrıntıları,카드 상세
+ui.unit_info,Информация о юните,Unit Info,Info unité,Info de unidad,Info zur Einheit,Informações da Unidade,部队信息,部隊情報,इकाई की जानकारी,معلومات الوحدة,Info unità,Informacje o jednostce,Birlik bilgisi,유닛 정보
+ui.commander_info,Информация о командующем,Commander Info,Info commandant,Info de comandante,Info zum Befehlshaber,Informações do Comandante,指挥官信息,指揮官情報,कमांडर की जानकारी,معلومات القائد,Info comandante,Informacje o dowódcy,Komutan bilgisi,지휘관 정보
+ui.event_info,Информация о событии,Event Info,Info événement,Info de evento,Info zum Ereignis,Informações do Evento,事件信息,イベント情報,घटना की जानकारी,معلومات الحدث,Info evento,Informacje o zdarzeniu,Olay bilgisi,사건 정보
+ui.territory_info,Информация о территории,Territory Info,Info territoire,Info de territorio,Info zum Gebiet,Informações do Território,领土信息,領土情報,क्षेत्र की जानकारी,معلومات الإقليم,Info territorio,Informacje o terytorium,Bölge bilgisi,영토 정보
+ui.owner,Владелец,Owner,Propriétaire,Propietario,Besitzer,Proprietário,归属,所有者,स्वामी,المالك,Proprietario,Właściciel,Sahip,소유자
+ui.contested,Оспаривается,Contested,Contesté,Disputado,Umkämpft,Disputada,争夺中,係争中,विवादित,متنازع عليها,Conteso,Sporne,İhtilaflı,분쟁 중
+ui.neutral,Нейтральная,Neutral,Neutre,Neutral,Neutral,Neutral,中立,中立,तटस्थ,محايد,Neutrale,Neutralne,Tarafsız,중립
+ui.occupied,Оккупирована,Occupied,Occupé,Ocupado,Besetzt,Ocupada,被占领,占領下,क़ब्ज़े में,محتلة,Occupato,Okupowane,Işgal altında,점령됨
+ui.blockaded,Блокирована,Blockaded,Bloqué,Bloqueado,Blockiert,Bloqueada,被封锁,封鎖中,नाकाबंद,محاصرة,Bloccato,Zablokowane,Abluka altında,봉쇄됨
+ui.supplied,Снабжается,Supplied,Approvisionné,Suministrado,Versorgt,Abastecida,有补给,補給あり,आपूर्ति है,مُمدّة,Rifornito,Zaopatrzone,Ikmalde,보급됨
+ui.unsupplied,Не снабжается,Unsupplied,Non approvisionné,Sin suministro,Unversorgt,Desabastecida,无补给,補給なし,आपूर्ति नहीं,بلا إمداد,Senza rifornimenti,Bez zaopatrzenia,Ikmalsiz,보급 없음
+ui.connected,Связана,Connected,Connecté,Conectado,Verbunden,Conectada,已连通,連結済み,जुड़ा हुआ,متصلة,Collegato,Połączone,Bağlantılı,연결됨
+ui.isolated,Изолирована,Isolated,Isolé,Aislado,Isoliert,Isolada,被孤立,孤立状態,अलग-थलग,معزولة,Isolato,Odizolowane,İzole,고립됨
+ui.frontline,Линия фронта,Frontline,Ligne de front,Línea del frente,Frontlinie,Linha de Frente,前线,前線,मोर्चा,الخط الأمامي,Linea del fronte,Linia frontu,Cephe hattı,전선
+ui.rear,Тыл,Rear,Arrière,Retaguardia,Rückraum,Retaguarda,后方,後方,पिछला इलाक़ा,الخط الخلفي,Retrovia,Tyły,Geri hat,후방
+ui.capital,Столица,Capital,Capitale,Capital,Hauptstadt,Capital,首都,首都,राजधानी,العاصمة,Capitale,Stolica,Başkent,수도
+ui.port,Порт,Port,Port,Puerto,Port,Port,港口,港,बंदरगाह,ميناء,Porto,Port,Liman,항구
+ui.railroad,Ж/д узел,Railroad Hub,Nœud ferroviaire,Nudo ferroviario,Eisenbahnknoten,Nodo Ferroviário,铁路枢纽,鉄道結節点,रेलमार्ग केंद्र,عقدة السكك,Nodo ferroviario,Węzeł kolejowy,Demiryolu düğümü,철도 거점
+ui.fort,Форт,Fort,Fort,Fuerte,Fort,Fort,要塞,要塞,किला,حصن,Forte,Fort,Kale,요새
+ui.resource_income,Доход ресурсов,Resource Income,Revenus de ressources,Ingresos de recursos,Ressourcenertrag,Renda de Recursos,资源收入,資源収入,संसाधन आय,دخل الموارد,Entrate risorse,Dochód zasobów,Kaynak geliri,자원 수입
+ui.manpower_income,Доход людей,Manpower Income,Revenus d'effectifs,Ingresos de efectivos,Mannschaftsertrag,Renda de Efetivos,兵力收入,兵員収入,जनशक्ति आय,دخل القوى البشرية,Entrate uomini,Dochód ludzi,Adam gücü geliri,병력 수입
+ui.money_income,Доход денег,Money Income,Revenus financiers,Ingresos de dinero,Geldertrag,Renda de Dinheiro,资金收入,資金収入,धन आय,دخل المال,Entrate denaro,Dochód pieniędzy,Para geliri,자금 수입
+ui.supply_income,Доход снабжения,Supply Income,Revenus d'approvisionnement,Ingresos de suministros,Nachschubertrag,Renda de Suprimentos,补给收入,補給収入,आपूर्ति आय,دخل الإمداد,Entrate rifornimenti,Dochód zaopatrzenia,Ikmal geliri,보급 수입
+ui.morale_change,Изменение морали,Morale Change,Variation du moral,Cambio de moral,Moraländerung,Mudança de Moral,士气变化,士気変動,मनोबल परिवर्तन,تغير المعنويات,Variazione morale,Zmiana morale,Moral değişimi,사기 변화
+ui.cards_in_hand,Карт в руке,Cards in Hand,Cartes en main,Cartas en mano,Karten auf der Hand,Cartas na Mão,手牌数,手札数,हाथ में पत्ते,بطاقات اليد,Carte in mano,Kart w ręce,Eldaki kart,손의 카드
+ui.cards_in_deck,Карт в колоде,Cards in Deck,Cartes dans la pioche,Cartas en el mazo,Karten im Stapel,Cartas no Baralho,牌库数,デッキ枚数,डेक में पत्ते,بطاقات المجموعة,Carte nel mazzo,Kart w talii,Destedeki kart,덱의 카드
+ui.max_hand,Макс. рука,Max Hand,Main max.,Mano máx.,Maximale Handkarten,Mão Máxima,手牌上限,最大手札,अधिकतम हाथ,الحد الأقصى لليد,Mano massima,Maks. ręka,Maks. el,최대 손패
+ui.cost_to_play,Стоимость розыгрыша,Cost to Play,Coût de jeu,Coste de jugar,Ausspielkosten,Custo para Jogar,打出费用,プレイコスト,खेलने की लागत,تكلفة اللعب,Costo di gioco,Koszt zagrania,Oynama maliyeti,플레이 비용
+ui.effect,Эффект,Effect,Effet,Efecto,Effekt,Efeito,效果,効果,प्रभाव,التأثير,Effetto,Efekt,Etki,효과
+ui.duration,Длительность,Duration,Durée,Duración,Dauer,Duração,持续时间,持続時間,अवधि,المدة,Durata,Czas trwania,Süre,지속시간
+ui.permanent,Постоянный,Permanent,Permanent,Permanente,Permanent,Permanent,永久,永続,स्थायी,دائم,Permanente,Stały,Kalıcı,영구
+ui.one_time,Одноразовый,One-time Use,Usage unique,Uso único,Einmalig,Uso Único,一次性,一回限り,एक बार उपयोग,للاستخدام مرة واحدة,Uso unico,Jednorazowy,Tek kullanımlık,일회용
+ui.target_required,Требуется цель,Target Required,Cible requise,Objetivo requerido,Ziel erforderlich,Requer Alvo,需要目标,目標が必要,लक्ष्य आवश्यक,يلزم هدف,Bersaglio richiesto,Wymagany cel,Hedef gerekli,대상 필요
+ui.historical_date,Историческая дата,Historical Date,Date historique,Fecha histórica,Historisches Datum,Data Histórica,历史日期,歴史的日付,ऐतिहासिक तिथि,تاريخ الحدث,Data storica,Data historyczna,Tarihi tarih,역사적 날짜
+ui.flavor_text,Историческая справка,Flavor Text,Note historique,Nota histórica,Historische Notiz,Nota Histórica,历史背景,歴史メモ,ऐतिहासिक टिप्पणी,ملاحظة تاريخية,Nota storica,Notka historyczna,Tarihi not,역사 노트
+ui.tags,Теги,Tags,Étiquettes,Etiquetas,Stichworte,Etiquetas,标签,タグ,टैग,الوسوم,Etichette,Tagi,Etiketler,태그
+ui.linked_events,Связанные события,Linked Events,Événements liés,Eventos vinculados,Verknüpfte Ereignisse,Eventos Vinculados,关联事件,関連イベント,संबंधित घटनाएँ,الأحداث المرتبطة,Eventi collegati,Powiązane zdarzenia,Bağlı olaylar,연관 사건
 stat.attack,АТК,ATK,ATQ,ATQ,ANG,ATQ,攻击,攻撃,आक्रमण,هجوم,ATK,ATK,ATK,공격
 stat.defense,ЗАЩ,DEF,DEF,DEF,VER,DEF,防御,防衛,रक्षा,دفاع,DEF,OBR,SAV,방어
 stat.hp,ЗДР,HP,PV,VT,LP,HP,生命,体力,स्वास्थ्य,صحة,HP,ZDR,SGL,체력
-stat.cost,ЦЕНА,COST,COÛT,COST,KOSTEN,CUSTO,费用,コスト,लागत,تكلفة,COSTO,KOSZT,MALİYET,비용
+stat.cost,ЦЕНА,COST,COÛT,COSTO,KOSTEN,CUSTO,费用,コスト,लागत,تكلفة,COSTO,KOSZT,MALİYET,비용
 phase.play,Разыграть,Play,Jouer,Jugar,Spielen,Jogar,出牌,プレイ,खेलें,لعب,Gioca,Zagraj,Oyna,플레이
 ui.hand,Рука,Hand,Main,Mano,Hand,Mão,手牌,手札,हाथ,يد,Mano,Ręka,El,손패
 ui.phase,Фаза,Phase,Phase,Fase,Phase,Fase,阶段,フェーズ,चरण,مرحلة,Fase,Faza,Aşama,단계
