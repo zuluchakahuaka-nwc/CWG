@@ -43,7 +43,7 @@
 		"rank_ru": "Генерал-лейтенант",
 		"cost": 5,
 		"effect_en": "All units +1 ATK for 2 turns. Risk: can overextend supply lines",
-		"effect_ru": "Все юниты +1 ATK на 2 хода. Риск: может растянуть линии снабжения",
+		"effect_ru": "Все юниты +1 АТК на 2 хода. Риск: может растянуть линии снабжения",
 		"effect_type": "global_atk_buff",
 		"effect_duration": 2,
 		"tags": [
@@ -117,7 +117,7 @@
 		"rank_ru": "Генерал-майор",
 		"cost": 3,
 		"effect_en": "+2 DEF to all units, but cannot attack for 1 turn",
-		"effect_ru": "+2 DEF всем юнитам, но нельзя атаковать 1 ход",
+		"effect_ru": "+2 ЗАЩ всем юнитам, но нельзя атаковать 1 ход",
 		"effect_type": "global_def_buff_skip_attack",
 		"effect_duration": 1,
 		"tags": [
@@ -150,7 +150,7 @@
 		"rank_ru": "Генерал-майор",
 		"cost": 4,
 		"effect_en": "+1 DEF to all units. In Pennsylvania: +3 DEF to chosen position",
-		"effect_ru": "+1 DEF всем юнитам. В Пенсильвании: +3 DEF на выбранной позиции",
+		"effect_ru": "+1 ЗАЩ всем юнитам. В Пенсильвании: +3 ЗАЩ на выбранной позиции",
 		"effect_type": "def_buff_territory_bonus",
 		"effect_duration": 1,
 		"tags": [
@@ -184,7 +184,7 @@
 		"rank_ru": "Генерал-майор",
 		"cost": 3,
 		"effect_en": "Frontal assault: +2 ATK but all units lose 50% HP",
-		"effect_ru": "Лобовая атака: +2 ATK, но все юниты теряют 50% HP",
+		"effect_ru": "Лобовая атака: +2 АТК, но все юниты теряют 50% ЗДР",
 		"effect_type": "atk_buff_hp_cost",
 		"effect_duration": 0,
 		"tags": [
@@ -218,7 +218,7 @@
 		"rank_ru": "Генерал-майор",
 		"cost": 3,
 		"effect_en": "+1 ATK to entire army. Risk: may fall into Lee's trap",
-		"effect_ru": "+1 ATK всей армии. Риск: может попасть в ловушку Ли",
+		"effect_ru": "+1 АТК всей армии. Риск: может попасть в ловушку Ли",
 		"effect_type": "global_atk_buff_risk_trap",
 		"effect_duration": 1,
 		"tags": [
@@ -251,7 +251,7 @@
 		"rank_ru": "Генерал-майор",
 		"cost": 5,
 		"effect_en": "All cavalry +2 ATK. Can \"burn the valley\" — destroy all infrastructure in Shenandoah Valley",
-		"effect_ru": "Вся кавалерия +2 ATK. Может «сжечь долину» — уничтожить всю инфраструктуру в долине Шенандоа",
+		"effect_ru": "Вся кавалерия +2 АТК. Может «сжечь долину» — уничтожить всю инфраструктуру в долине Шенандоа",
 		"effect_type": "cavalry_buff_scorched_earth",
 		"effect_duration": 2,
 		"tags": [
@@ -285,7 +285,7 @@
 		"rank_ru": "Бригадный генерал",
 		"cost": 3,
 		"effect_en": "Custer's Brigade +3 ATK. Risk: attacks without reconnaissance",
-		"effect_ru": "Бригада Кастера +3 ATK. Риск: атака без разведки",
+		"effect_ru": "Бригада Кастера +3 АТК. Риск: атака без разведки",
 		"effect_type": "brigade_atk_buff_no_recon",
 		"effect_duration": 1,
 		"tags": [
@@ -321,7 +321,7 @@
 		"rank_ru": "Генерал-майор",
 		"cost": 4,
 		"effect_en": "+2 DEF on chosen position. \"Hancock the Superb\"",
-		"effect_ru": "+2 DEF на выбранной позиции. «Великолепный Хэнкок»",
+		"effect_ru": "+2 ЗАЩ на выбранной позиции. «Великолепный Хэнкок»",
 		"effect_type": "position_def_buff",
 		"effect_duration": 1,
 		"tags": [
@@ -387,7 +387,7 @@
 		"rank_ru": "Полковник",
 		"cost": 2,
 		"effect_en": "Linked to 20th Maine: bayonet charge +5 ATK but uses all ammunition",
-		"effect_ru": "Связан с 20-м Мэнским: штыковая атака +5 ATK, но тратит все боеприпасы",
+		"effect_ru": "Связан с 20-м Мэнским: штыковая атака +5 АТК, но тратит все боеприпасы",
 		"effect_type": "linked_unit_bayonet_charge",
 		"effect_duration": 0,
 		"tags": [
@@ -456,7 +456,7 @@
 		"rank_ru": "Генерал (главнокомандующий КША)",
 		"cost": 6,
 		"effect_en": "All units +1 ATK and +1 DEF. Risk: tendency to split forces",
-		"effect_ru": "Все юниты +1 ATK и +1 DEF. Риск: склонность разделять силы",
+		"effect_ru": "Все юниты +1 АТК и +1 ЗАЩ. Риск: склонность разделять силы",
 		"effect_type": "global_atk_def_buff_risk_split",
 		"effect_duration": 2,
 		"tags": [
@@ -494,7 +494,7 @@
 		"rank_ru": "Генерал-лейтенант",
 		"cost": 5,
 		"effect_en": "Flanking maneuver: +3 ATK if attacking from flank",
-		"effect_ru": "Фланговый обход: +3 ATK при атаке с фланга",
+		"effect_ru": "Фланговый обход: +3 АТК при атаке с фланга",
 		"effect_type": "flank_atk_bonus",
 		"effect_duration": 1,
 		"tags": [
@@ -531,7 +531,7 @@
 		"rank_ru": "Генерал-лейтенант",
 		"cost": 4,
 		"effect_en": "Defensive tactics: +3 DEF on chosen position",
-		"effect_ru": "Оборонительная тактика: +3 DEF на выбранной позиции",
+		"effect_ru": "Оборонительная тактика: +3 ЗАЩ на выбранной позиции",
 		"effect_type": "position_def_buff",
 		"effect_duration": 1,
 		"tags": [
@@ -564,7 +564,7 @@
 		"rank_ru": "Генерал-майор",
 		"cost": 4,
 		"effect_en": "All cavalry +2 ATK. Reconnaissance: see 1 enemy card",
-		"effect_ru": "Вся кавалерия +2 ATK. Разведка: посмотреть 1 карту противника",
+		"effect_ru": "Вся кавалерия +2 АТК. Разведка: посмотреть 1 карту противника",
 		"effect_type": "cavalry_buff_recon",
 		"effect_duration": 1,
 		"tags": [
@@ -669,7 +669,7 @@
 		"rank_ru": "Генерал",
 		"cost": 3,
 		"effect_en": "Retreat tactic: lose territory without losses, +2 DEF on next position",
-		"effect_ru": "Тактика отступления: потерять территорию без потерь, +2 DEF на следующей позиции",
+		"effect_ru": "Тактика отступления: потерять территорию без потерь, +2 ЗАЩ на следующей позиции",
 		"effect_type": "strategic_retreat_def_buff",
 		"effect_duration": 1,
 		"tags": [
@@ -705,7 +705,7 @@
 		"rank_ru": "Генерал",
 		"cost": 3,
 		"effect_en": "-1 enemy morale, but -1 ATK to own troops",
-		"effect_ru": "-1 мораль противника, но -1 ATK собственным войскам",
+		"effect_ru": "-1 мораль противника, но -1 АТК собственным войскам",
 		"effect_type": "enemy_morale_debuff_self_atk_cost",
 		"effect_duration": 1,
 		"tags": [
@@ -738,7 +738,7 @@
 		"rank_ru": "Генерал-майор",
 		"cost": 4,
 		"effect_en": "Aggressive attack: +4 ATK but -3 DEF",
-		"effect_ru": "Агрессивная атака: +4 ATK, но -3 DEF",
+		"effect_ru": "Агрессивная атака: +4 АТК, но -3 ЗАЩ",
 		"effect_type": "atk_buff_def_penalty",
 		"effect_duration": 1,
 		"tags": [

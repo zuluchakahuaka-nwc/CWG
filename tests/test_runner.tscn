@@ -13,6 +13,7 @@
 [ext_resource type="Script" path="res://tests/test_situation_play.gd" id="10"]
 [ext_resource type="Script" path="res://tests/test_game_invariants.gd" id="11"]
 [ext_resource type="Script" path="res://tests/test_data_schema.gd" id="12"]
+[ext_resource type="Script" path="res://tests/test_localization_fields.gd" id="13"]
 
 [node name="TestRunner" type="Control"]
 layout_mode = 3
@@ -58,3 +59,5 @@ script = ExtResource("11")
 
 [node name="TestDataSchema" type="Node" parent="."]
 script = ExtResource("12")
+[node name="TestLocalizationFields" type="Node" parent="."]
+script = ExtResource("13")

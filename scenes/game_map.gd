@@ -46,10 +46,14 @@ const KEY_PAN_SPEED: float = 900.0
 @onready var _morale_status: Label = $StatusBar/MoraleStatus
 @onready var _info_label: Label = $StatusBar/InfoLabel
 @onready var _detail_popup: PanelContainer = $CardDetailPopup
+@onready var _detail_vbox: VBoxContainer = $CardDetailPopup/DetailVBox
 @onready var _detail_image: TextureRect = $CardDetailPopup/DetailVBox/DetailImage
 @onready var _detail_name: Label = $CardDetailPopup/DetailVBox/DetailName
+@onready var _detail_rank: Label = $CardDetailPopup/DetailVBox/DetailRank
 @onready var _detail_stats: Label = $CardDetailPopup/DetailVBox/DetailStats
+@onready var _detail_effect: Label = $CardDetailPopup/DetailVBox/DetailEffect
 @onready var _detail_desc: Label = $CardDetailPopup/DetailVBox/DetailDesc
+@onready var _detail_flavor: Label = $CardDetailPopup/DetailVBox/DetailFlavor
 @onready var _detail_close: Button = $CardDetailPopup/DetailVBox/DetailClose
 @onready var _terr_info: PanelContainer = $TerritoryInfoPanel
 @onready var _terr_name: Label = $TerritoryInfoPanel/TVBox/TName
@@ -190,6 +194,7 @@ func _ready() -> void:
 	_debug_hand_fill()
 	if OS.get_environment("CWG_DEBUG_HAND") != "":
 		_dump_hand_geometry()
+	_card_shot()
 	Logger.info("GameMap", "Hotseat game ready. Turn=%d" % GameManager.get_current_turn())
 
 func _dump_hand_geometry() -> void:
@@ -225,6 +230,58 @@ func _debug_hand_fill() -> void:
 		_hands[_active_side].append(card)
 	_refresh_hand()
 	Logger.info("GameMap", "CWG_DEBUG_HAND filled %d cards" % n)
+
+## QA/vision helper: CWG_CARD_SHOT=<card_id> opens the card detail popup
+## for that card, saves a screenshot to res://builds/e2e/card_shots/ and
+## quits. Vision pipelines get deterministic card popups without live
+## input (agent-session SendInput flakes - journal 23.11).
+## Exit codes: 0 = saved, 1 = unknown card, 2 = png save error.
+func _card_shot() -> void:
+	var card_id: String = OS.get_environment("CWG_CARD_SHOT")
+	if card_id == "":
+		return
+	var data: Dictionary = CardDatabase.get_card(card_id)
+	if data.is_empty():
+		Logger.warn("GameMap", "CWG_CARD_SHOT: unknown card '%s'" % card_id)
+		get_tree().quit(1)
+		return
+	_show_card_detail(data)
+	for i in range(3):
+		await get_tree().process_frame
+	_dump_detail_geometry()
+	var img: Image = get_viewport().get_texture().get_image()
+	var dir: DirAccess = DirAccess.open("res://")
+	dir.make_dir_recursive("builds/e2e/card_shots")
+	var path: String = "res://builds/e2e/card_shots/card_%s_%s.png" % [
+		card_id, Localization.get_language(),
+	]
+	var err: int = img.save_png(path)
+	Logger.info("GameMap", "CWG_CARD_SHOT saved %s (err=%d)" % [path, err])
+	get_tree().quit(0 if err == OK else 2)
+
+func _dump_detail_geometry() -> void:
+	var lines: Array = [
+		"popup=%s" % str(_detail_popup.get_global_rect()),
+		"vbox_min=%s vbox_rect=%s" % [
+			str(_detail_vbox.get_combined_minimum_size()),
+			str(_detail_vbox.get_global_rect()),
+		],
+	]
+	for node_name: String in ["DetailImage", "DetailName", "DetailRank",
+			"DetailStats", "DetailEffect", "DetailDesc", "DetailFlavor",
+			"DetailClose"]:
+		var node: Control = _detail_popup.get_node("DetailVBox/" + node_name)
+		var text: String = ""
+		if node is Label:
+			text = (node as Label).text
+		elif node is Button:
+			text = (node as Button).text
+		lines.append("%s=%s visible=%s text=[%s]" % [
+			node_name, str(node.get_global_rect()),
+			str(node.is_visible_in_tree()), text.left(60),
+		])
+	for line in lines:
+		Logger.info("CardShot", line)
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("ui_cancel"):
@@ -632,17 +689,33 @@ func _show_card_detail(data: Dictionary) -> void:
 	var tex: Texture2D = _load_image_texture(path)
 	_detail_image.texture = tex
 	_detail_name.text = Localization.get_card_name(data)
+	var rank: String = Localization.get_card_rank(data)
+	_detail_rank.text = rank
+	_detail_rank.visible = rank != ""
 	var atk: int = data.get("attack", 0)
 	var dfn: int = data.get("defense", 0)
 	var hp: int = data.get("hp", 0)
 	var cost: int = data.get("cost", 0)
 	_detail_stats.text = Localization.t("ui.card_stats") % [atk, dfn, hp, cost]
+	var effect: String = Localization.get_card_effect(data)
+	_detail_effect.text = "%s: %s" % [Localization.t("ui.effect"), effect] if effect != "" else ""
+	_detail_effect.visible = effect != ""
 	var desc: String = Localization.get_card_description(data)
 	if desc == "":
 		desc = data.get("description_en", "")
 	_detail_desc.text = desc
+	_detail_desc.visible = desc != ""
+	var flavor: String = Localization.get_card_flavor(data)
+	_detail_flavor.text = flavor
+	_detail_flavor.visible = flavor != ""
 	_detail_popup.visible = true
-	_detail_popup.size = Vector2(240, 440)
+	_detail_popup.size = Vector2(340, 700)
+	# Autowrap labels report garbage minimum heights until they have been
+	# laid out once (they wrap at ~1px width) - wait a frame before
+	# measuring, otherwise the panel gets locked at a huge minimum.
+	await get_tree().process_frame
+	var content_min: Vector2 = _detail_vbox.get_combined_minimum_size()
+	_detail_popup.size = Vector2(maxf(340.0, content_min.x + 24.0), content_min.y + 24.0)
 	var vp: Vector2 = get_viewport().get_visible_rect().size
 	_detail_popup.position = (vp - _detail_popup.size) / 2.0
 

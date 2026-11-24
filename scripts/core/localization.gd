@@ -142,10 +142,20 @@ func get_card_description(card_data: Dictionary) -> String:
 		return card_data["description_en"]
 	return ""
 
+## Strict getters for the detail-popup sections that must NOT fall back
+## to English mid-screen (hub one-language law): a missing locale value
+## returns "" and the popup hides the whole section instead of mixing.
 func get_card_flavor(card_data: Dictionary) -> String:
-	var field: String = "flavor_" + _current_lang
-	if card_data.has(field):
-		return card_data[field]
-	if card_data.has("flavor_en"):
-		return card_data["flavor_en"]
+	return _strict_card_field(card_data, "flavor")
+
+func get_card_effect(card_data: Dictionary) -> String:
+	return _strict_card_field(card_data, "effect")
+
+func get_card_rank(card_data: Dictionary) -> String:
+	return _strict_card_field(card_data, "rank")
+
+func _strict_card_field(card_data: Dictionary, field_name: String) -> String:
+	var field: String = field_name + "_" + _current_lang
+	if card_data.has(field) and str(card_data[field]).strip_edges() != "":
+		return str(card_data[field])
 	return ""
