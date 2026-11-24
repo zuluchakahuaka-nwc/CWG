@@ -33,7 +33,8 @@
 		"name_it": "2° Regimento fanteria volontaria del Wisconsin",
 		"name_pl": "2. Ochotniczy Pułk Piechoty Wisconsin",
 		"name_tr": "2. Wisconsin Gönüllü Piyade Alayı",
-		"name_ko": "제2위스콘신 의용 보병 연대"
+		"name_ko": "제2위스콘신 의용 보병 연대",
+		"description_fr": "Brigade de Fer — la seule brigade entièrement occidentale de l'armée du Potomac"
 	},
 	{
 		"id": "u_inf_06wi",
@@ -68,7 +69,8 @@
 		"name_it": "6° Reggimento fanteria volontaria del Wisconsin",
 		"name_pl": "6. Ochotniczy Pułk Piechoty Wisconsin",
 		"name_tr": "6. Wisconsin Gönüllü Piyade Alayı",
-		"name_ko": "제6위스콘신 의용 보병 연대"
+		"name_ko": "제6위스콘신 의용 보병 연대",
+		"description_fr": "Captura un train confédéré à Gettysburg lors du combat du Railroad Cut"
 	},
 	{
 		"id": "u_inf_07wi",
@@ -102,7 +104,8 @@
 		"name_it": "7° Reggimento fanteria volontaria del Wisconsin",
 		"name_pl": "7. Ochotniczy Pułk Piechoty Wisconsin",
 		"name_tr": "7. Wisconsin Gönüllü Piyade Alayı",
-		"name_ko": "제7위스콘신 의용 보병 연대"
+		"name_ko": "제7위스콘신 의용 보병 연대",
+		"description_fr": "Brigade de Fer — participa à tous les grands engagements de l'armée du Potomac"
 	},
 	{
 		"id": "u_inf_19in",
@@ -136,7 +139,8 @@
 		"name_it": "19° Reggimento fanteria volontaria dell'Indiana",
 		"name_pl": "19. Ochotniczy Pułk Piechoty Indiany",
 		"name_tr": "19. Indiana Gönüllü Piyade Alayı",
-		"name_ko": "제19인디애나 의용 보병 연대"
+		"name_ko": "제19인디애나 의용 보병 연대",
+		"description_fr": "Brigade de Fer — le seul régiment de l'Indiana dans cette brigade toute occidentale"
 	},
 	{
 		"id": "u_inf_24mi",
@@ -173,7 +177,8 @@
 		"name_it": "24° Reggimento fanteria volontaria del Michigan",
 		"name_pl": "24. Ochotniczy Pułk Piechoty Michigan",
 		"name_tr": "24. Michigan Gönüllü Piyade Alayı",
-		"name_ko": "제24미시간 의용 보병 연대"
+		"name_ko": "제24미시간 의용 보병 연대",
+		"description_fr": "Brigade de Fer — subit 80% de pertes le premier jour à Gettysburg"
 	},
 	{
 		"id": "u_inf_69ny",
@@ -207,7 +212,8 @@
 		"name_it": "69° Reggimento fanteria volontaria di New York",
 		"name_pl": "69. Ochotniczy Pułk Piechoty Nowego Jorku",
 		"name_tr": "69. New York Gönüllü Piyade Alayı",
-		"name_ko": "제69뉴욕 의용 보병 연대"
+		"name_ko": "제69뉴욕 의용 보병 연대",
+		"description_fr": "Le «Fighting 69th» — brigade irlandaise composée surtout d'immigrants irlandais"
 	},
 	{
 		"id": "u_inf_63ny",
@@ -239,7 +245,8 @@
 		"name_it": "63° Reggimento fanteria volontaria di New York",
 		"name_pl": "63. Ochotniczy Pułk Piechoty Nowego Jorku",
 		"name_tr": "63. New York Gönüllü Piyade Alayı",
-		"name_ko": "제63뉴욕 의용 보병 연대"
+		"name_ko": "제63뉴욕 의용 보병 연대",
+		"description_fr": "Brigade irlandaise — combattit à Antietam, Fredericksburg et Gettysburg"
 	},
 	{
 		"id": "u_inf_88ny",
@@ -271,7 +278,8 @@
 		"name_it": "88° Reggimento fanteria volontaria di New York",
 		"name_pl": "88. Ochotniczy Pułk Piechoty Nowego Jorku",
 		"name_tr": "88. New York Gönüllü Piyade Alayı",
-		"name_ko": "제88뉴욕 의용 보병 연대"
+		"name_ko": "제88뉴욕 의용 보병 연대",
+		"description_fr": "Brigade irlandaise — les «Connacht Rangers», issus d'émigrés du comté de Galway"
 	},
 	{
 		"id": "u_inf_28ma",
@@ -303,7 +311,8 @@
 		"name_it": "28° Reggimento fanteria volontaria del Massachusetts",
 		"name_pl": "28. Ochotniczy Pułk Piechoty Massachusetts",
 		"name_tr": "28. Massachusetts Gönüllü Piyade Alayı",
-		"name_ko": "제28매사추세츠 의용 보병 연대"
+		"name_ko": "제28매사추세츠 의용 보병 연대",
+		"description_fr": "Brigade irlandaise — armée de mousquets rayés Enfield importés de Grande-Bretagne"
 	},
 	{
 		"id": "u_inf_116pa",
@@ -335,7 +344,8 @@
 		"name_it": "116° Reggimento fanteria volontaria della Pennsylvania",
 		"name_pl": "116. Ochotniczy Pułk Piechoty Pensylwanii",
 		"name_tr": "116. Pennsylvania Gönüllü Piyade Alayı",
-		"name_ko": "제116펜실베이니아 의용 보병 연대"
+		"name_ko": "제116펜실베이니아 의용 보병 연대",
+		"description_fr": "Brigade irlandaise — le seul régiment de Pennsylvanie de la brigade irlandaise"
 	},
 	{
 		"id": "u_inf_20me",
@@ -371,7 +381,8 @@
 		"name_it": "20° Reggimento fanteria volontaria del Maine",
 		"name_pl": "20. Ochotniczy Pułk Piechoty Maine",
 		"name_tr": "20. Maine Gönüllü Piyade Alayı",
-		"name_ko": "제20메인 의용 보병 연대"
+		"name_ko": "제20메인 의용 보병 연대",
+		"description_fr": "Charge à la baïonnette à Little Round Top, Gettysburg — tint l'extrême aile gauche de la ligne de l'Union"
 	},
 	{
 		"id": "u_inf_01mn",
@@ -406,7 +417,8 @@
 		"name_it": "1° Reggimento fanteria volontaria del Minnesota",
 		"name_pl": "1. Ochotniczy Pułk Piechoty Minnesoty",
 		"name_tr": "1. Minnesota Gönüllü Piyade Alayı",
-		"name_ko": "제1미네소타 의용 보병 연대"
+		"name_ko": "제1미네소타 의용 보병 연대",
+		"description_fr": "Subit 82% de pertes en une seule charge à Gettysburg — la perte la plus lourde d'un régiment de l'Union en une bataille"
 	},
 	{
 		"id": "u_inf_14ny",
@@ -439,7 +451,8 @@
 		"name_it": "14° Reggimento milizia statale di New York (Brooklyn)",
 		"name_pl": "14. Pułk Piechoty Milicji Stanowej Nowego Jorku (Brooklyn)",
 		"name_tr": "14. New York Eyalet Milis Piyade Alayı (Brooklyn)",
-		"name_ko": "제14뉴욕 주 민병대 보병 연대 (브루클린)"
+		"name_ko": "제14뉴욕 주 민병대 보병 연대 (브루클린)",
+		"description_fr": "Les «diables aux jambes rouges» — pantalons rouges distinctifs, combattit au premier Bull Run"
 	},
 	{
 		"id": "u_inf_44ny",
@@ -471,7 +484,8 @@
 		"name_it": "44° Reggimento fanteria volontaria di New York",
 		"name_pl": "44. Ochotniczy Pułk Piechoty Nowego Jorku",
 		"name_tr": "44. New York Gönüllü Piyade Alayı",
-		"name_ko": "제44뉴욕 의용 보병 연대"
+		"name_ko": "제44뉴욕 의용 보병 연대",
+		"description_fr": "Les «vengeurs d'Ellsworth» — défendit Little Round Top à Gettysburg aux côtés du 20e Maine"
 	},
 	{
 		"id": "u_inf_83pa",
@@ -503,7 +517,8 @@
 		"name_it": "83° Reggimento fanteria volontaria della Pennsylvania",
 		"name_pl": "83. Ochotniczy Pułk Piechoty Pensylwanii",
 		"name_tr": "83. Pennsylvania Gönüllü Piyade Alayı",
-		"name_ko": "제83펜실베이니아 의용 보병 연대"
+		"name_ko": "제83펜실베이니아 의용 보병 연대",
+		"description_fr": "Tint Little Round Top avec le 20e Maine — parmi les régiments de volontiers les plus décorés"
 	},
 	{
 		"id": "u_inf_16mi",
@@ -535,7 +550,8 @@
 		"name_it": "16° Reggimento fanteria volontaria del Michigan",
 		"name_pl": "16. Ochotniczy Pułk Piechoty Michigan",
 		"name_tr": "16. Michigan Gönüllü Piyade Alayı",
-		"name_ko": "제16미시간 의용 보병 연대"
+		"name_ko": "제16미시간 의용 보병 연대",
+		"description_fr": "Défendit Little Round Top à Gettysburg — rattachée à la brigade de Strong Vincent"
 	},
 	{
 		"id": "u_inf_54ma",
@@ -571,7 +587,8 @@
 		"name_it": "54° Reggimento fanteria volontaria del Massachusetts (di colore)",
 		"name_pl": "54. Ochotniczy Pułk Piechoty Massachusetts (kolorowych)",
 		"name_tr": "54. Massachusetts Gönüllü Piyade Alayı (renkli)",
-		"name_ko": "제54매사추세츠 의용 보병 연대 (유색인종)"
+		"name_ko": "제54매사추세츠 의용 보병 연대 (유색인종)",
+		"description_fr": "Assaut du fort Wagner — prouva le courage des soldats noirs, immortalisé dans le film «Glory»"
 	},
 	{
 		"id": "u_inf_55ma",
@@ -602,7 +619,8 @@
 		"name_it": "55° Reggimento fanteria volontaria del Massachusetts (di colore)",
 		"name_pl": "55. Ochotniczy Pułk Piechoty Massachusetts (kolorowych)",
 		"name_tr": "55. Massachusetts Gönüllü Piyade Alayı (renkli)",
-		"name_ko": "제55매사추세츠 의용 보병 연대 (유색인종)"
+		"name_ko": "제55매사추세츠 의용 보병 연대 (유색인종)",
+		"description_fr": "Régiment frère du 54e Massachusetts — servit dans le département du Sud"
 	},
 	{
 		"id": "u_inf_01us",
@@ -633,7 +651,8 @@
 		"name_it": "1° Reggimento fanteria degli Stati Uniti (esercito regolare)",
 		"name_pl": "1. Pułk Piechoty Stanów Zjednoczonych (armia regularna)",
 		"name_tr": "1. ABD Piyade Alayı (düzenli ordu)",
-		"name_ko": "제1합중국 보병 연대 (정규군)"
+		"name_ko": "제1합중국 보병 연대 (정규군)",
+		"description_fr": "Armée régulière — soldats professionnels, exercice et discipline supérieurs"
 	},
 	{
 		"id": "u_inf_04us",
@@ -665,7 +684,8 @@
 		"name_it": "4° Reggimento fanteria degli Stati Uniti (esercito regolare)",
 		"name_pl": "4. Pułk Piechoty Stanów Zjednoczonych (armia regularna)",
 		"name_tr": "4. ABD Piyade Alayı (düzenli ordu)",
-		"name_ko": "제4합중국 보병 연대 (정규군)"
+		"name_ko": "제4합중국 보병 연대 (정규군)",
+		"description_fr": "Armée régulière — le capitaine Ulysses S. Grant servit dans ce régiment avant la guerre"
 	},
 	{
 		"id": "u_inf_17us",
@@ -696,7 +716,8 @@
 		"name_it": "17° Reggimento fanteria degli Stati Uniti (esercito regolare)",
 		"name_pl": "17. Pułk Piechoty Stanów Zjednoczonych (armia regularna)",
 		"name_tr": "17. ABD Piyade Alayı (düzenli ordu)",
-		"name_ko": "제17합중국 보병 연대 (정규군)"
+		"name_ko": "제17합중국 보병 연대 (정규군)",
+		"description_fr": "Brigade régulière — infanterie de l'armée régulière à Gettysburg et au-delà"
 	},
 	{
 		"id": "u_inf_01kc",
@@ -728,7 +749,8 @@
 		"name_it": "1° Reggimento fanteria volontaria del Kansas (di colore)",
 		"name_pl": "1. Ochotniczy Pułk Piechoty Kansas (kolorowych)",
 		"name_tr": "1. Kansas Gönüllü Piyade Alayı (renkli)",
-		"name_ko": "제1캔자스 의용 보병 연대 (유색인종)"
+		"name_ko": "제1캔자스 의용 보병 연대 (유색인종)",
+		"description_fr": "Première unité de combat noire — combattit à la bataille d'Island Mound, octobre 1862"
 	},
 	{
 		"id": "u_inf_04uc",
@@ -759,7 +781,8 @@
 		"name_it": "4° Reggimento fanteria di colore degli Stati Uniti",
 		"name_pl": "4. Kolorowy Pułk Piechoty Stanów Zjednoczonych",
 		"name_tr": "4. ABD Renkli Piyade Alayı",
-		"name_ko": "제4합중국 유색 보병 연대"
+		"name_ko": "제4합중국 유색 보병 연대",
+		"description_fr": "Reçut la médaille d'honneur à la bataille de Chaffin's Farm, septembre 1864"
 	},
 	{
 		"id": "u_inf_22ny",
@@ -790,7 +813,8 @@
 		"name_it": "22° Reggimento fanteria volontaria di New York",
 		"name_pl": "22. Ochotniczy Pułk Piechoty Nowego Jorku",
 		"name_tr": "22. New York Gönüllü Piyade Alayı",
-		"name_ko": "제22뉴욕 의용 보병 연대"
+		"name_ko": "제22뉴욕 의용 보병 연대",
+		"description_fr": "«Brigade de Fer de l'Est» — combattit lors de la campagne du nord de la Virginie"
 	},
 	{
 		"id": "u_inf_24ny",
@@ -821,7 +845,8 @@
 		"name_it": "24° Reggimento fanteria volontaria di New York",
 		"name_pl": "24. Ochotniczy Pułk Piechoty Nowego Jorku",
 		"name_tr": "24. New York Gönüllü Piyade Alayı",
-		"name_ko": "제24뉴욕 의용 보병 연대"
+		"name_ko": "제24뉴욕 의용 보병 연대",
+		"description_fr": "«Brigade de Fer de l'Est» — régiment de deux ans de New York"
 	},
 	{
 		"id": "u_inf_30ny",
@@ -852,7 +877,8 @@
 		"name_it": "30° Reggimento fanteria volontaria di New York",
 		"name_pl": "30. Ochotniczy Pułk Piechoty Nowego Jorku",
 		"name_tr": "30. New York Gönüllü Piyade Alayı",
-		"name_ko": "제30뉴욕 의용 보병 연대"
+		"name_ko": "제30뉴욕 의용 보병 연대",
+		"description_fr": "«Brigade de Fer de l'Est» — servit dans l'armée de Virginie sous Pope"
 	},
 	{
 		"id": "u_cav_01us",
@@ -884,7 +910,8 @@
 		"name_it": "1° Reggimento cavalleria degli Stati Uniti (esercito regolare)",
 		"name_pl": "1. Pułk Kawalerii Stanów Zjednoczonych (armia regularna)",
 		"name_tr": "1. ABD Süvari Alayı (düzenli ordu)",
-		"name_ko": "제1합중국 기병 연대 (정규군)"
+		"name_ko": "제1합중국 기병 연대 (정규군)",
+		"description_fr": "Cavalerie de l'armée régulière — troupes montées professionnelles à l'entraînement supérieur"
 	},
 	{
 		"id": "u_cav_02us",
@@ -916,7 +943,8 @@
 		"name_it": "2° Reggimento cavalleria degli Stati Uniti (esercito regolare)",
 		"name_pl": "2. Pułk Kawalerii Stanów Zjednoczonych (armia regularna)",
 		"name_tr": "2. ABD Süvari Alayı (düzenli ordu)",
-		"name_ko": "제2합중국 기병 연대 (정규군)"
+		"name_ko": "제2합중국 기병 연대 (정규군)",
+		"description_fr": "Robert E. Lee et Joseph E. Johnston servirent tous deux dans ce régiment avant la guerre"
 	},
 	{
 		"id": "u_cav_05us",
@@ -951,7 +979,8 @@
 		"name_it": "5° Reggimento cavalleria degli Stati Uniti (esercito regolare)",
 		"name_pl": "5. Pułk Kawalerii Stanów Zjednoczonych (armia regularna)",
 		"name_tr": "5. ABD Süvari Alayı (düzenli ordu)",
-		"name_ko": "제5합중국 기병 연대 (정규군)"
+		"name_ko": "제5합중국 기병 연대 (정규군)",
+		"description_fr": "Combattit à Yellow Tavern où J.E.B. Stuart fut mortellement blessé"
 	},
 	{
 		"id": "u_cav_06us",
@@ -983,7 +1012,8 @@
 		"name_it": "6° Reggimento cavalleria degli Stati Uniti (esercito regolare)",
 		"name_pl": "6. Pułk Kawalerii Stanów Zjednoczonych (armia regularna)",
 		"name_tr": "6. ABD Süvari Alayı (düzenli ordu)",
-		"name_ko": "제6합중국 기병 연대 (정규군)"
+		"name_ko": "제6합중국 기병 연대 (정규군)",
+		"description_fr": "Le seul nouveau régiment de cavalerie levé pour l'armée régulière pendant la guerre"
 	},
 	{
 		"id": "u_cav_02mi",
@@ -1015,7 +1045,8 @@
 		"name_it": "2° Reggimento cavalleria volontaria del Michigan",
 		"name_pl": "2. Ochotniczy Pułk Kawalerii Michigan",
 		"name_tr": "2. Michigan Gönüllü Süvari Alayı",
-		"name_ko": "제2미시간 의용 기병 연대"
+		"name_ko": "제2미시간 의용 기병 연대",
+		"description_fr": "Premier commandement indépendant de Philip Sheridan — le début de sa carrière légendaire"
 	},
 	{
 		"id": "u_cav_05mi",
@@ -1050,7 +1081,8 @@
 		"name_it": "5° Reggimento cavalleria volontaria del Michigan",
 		"name_pl": "5. Ochotniczy Pułk Kawalerii Michigan",
 		"name_tr": "5. Michigan Gönüllü Süvari Alayı",
-		"name_ko": "제5미시간 의용 기병 연대"
+		"name_ko": "제5미시간 의용 기병 연대",
+		"description_fr": "Brigade du Michigan de Custer — combattit à Yellow Tavern et à Gettysburg (champ de cavalerie Est)"
 	},
 	{
 		"id": "u_cav_06mi",
@@ -1082,7 +1114,8 @@
 		"name_it": "6° Reggimento cavalleria volontaria del Michigan",
 		"name_pl": "6. Ochotniczy Pułk Kawalerii Michigan",
 		"name_tr": "6. Michigan Gönüllü Süvari Alayı",
-		"name_ko": "제6미시간 의용 기병 연대"
+		"name_ko": "제6미시간 의용 기병 연대",
+		"description_fr": "Brigade du Michigan de Custer — combattit pendant les campagnes de l'Overland et de Petersburg"
 	},
 	{
 		"id": "u_cav_07mi",
@@ -1114,7 +1147,8 @@
 		"name_it": "7° Reggimento cavalleria volontaria del Michigan",
 		"name_pl": "7. Ochotniczy Pułk Kawalerii Michigan",
 		"name_tr": "7. Michigan Gönüllü Süvari Alayı",
-		"name_ko": "제7미시간 의용 기병 연대"
+		"name_ko": "제7미시간 의용 기병 연대",
+		"description_fr": "Brigade du Michigan de Custer — servit avec distinction à Gettysburg et au-delà"
 	},
 	{
 		"id": "u_cav_06pa",
@@ -1146,7 +1180,8 @@
 		"name_it": "6° Reggimento cavalleria volontaria della Pennsylvania",
 		"name_pl": "6. Ochotniczy Pułk Kawalerii Pensylwanii",
 		"name_tr": "6. Pennsylvania Gönüllü Süvari Alayı",
-		"name_ko": "제6펜실베이니아 의용 기병 연대"
+		"name_ko": "제6펜실베이니아 의용 기병 연대",
+		"description_fr": "Les «lanciers» — d'abord armés de lances, puis convertis aux carabines"
 	},
 	{
 		"id": "u_cav_01ny_mr",
@@ -1178,7 +1213,8 @@
 		"name_it": "1° Reggimento fucilieri a cavallo di New York",
 		"name_pl": "1. Pułk Strzelców Konnych Nowego Jorku",
 		"name_tr": "1. New York Atlı Nişancı Alayı",
-		"name_ko": "제1뉴욕 마상총포병 연대"
+		"name_ko": "제1뉴욕 마상총포병 연대",
+		"description_fr": "Fusiliers montés — combattirent lors des campagnes de Suffolk et de Petersburg"
 	},
 	{
 		"id": "u_cav_01wv",
@@ -1210,7 +1246,8 @@
 		"name_it": "1° Reggimento cavalleria volontaria della Virginia Occidentale",
 		"name_pl": "1. Ochotniczy Pułk Kawalerii Wirginii Zachodniej",
 		"name_tr": "1. Batı Virginia Gönüllü Süvari Alayı",
-		"name_ko": "제1웨스트버지니아 의용 기병 연대"
+		"name_ko": "제1웨스트버지니아 의용 기병 연대",
+		"description_fr": "Loyalistes de l'Union de l'ouest de la Virginie — combattirent dans la vallée de Shenandoah"
 	},
 	{
 		"id": "u_cav_01vt",
@@ -1242,7 +1279,8 @@
 		"name_it": "1° Reggimento cavalleria volontaria del Vermont",
 		"name_pl": "1. Ochotniczy Pułk Kawalerii Vermont",
 		"name_tr": "1. Vermont Gönüllü Süvari Alayı",
-		"name_ko": "제1버몬트 의용 기병 연대"
+		"name_ko": "제1버몬트 의용 기병 연대",
+		"description_fr": "Combattit les rangers de Mosby dans le nord de la Virginie — de Gettysburg à Appomattox"
 	},
 	{
 		"id": "u_cav_05ny",
@@ -1274,7 +1312,8 @@
 		"name_it": "5° Reggimento cavalleria volontaria di New York",
 		"name_pl": "5. Ochotniczy Pułk Kawalerii Nowego Jorku",
 		"name_tr": "5. New York Gönüllü Süvari Alayı",
-		"name_ko": "제5뉴욕 의용 기병 연대"
+		"name_ko": "제5뉴욕 의용 기병 연대",
+		"description_fr": "Combattit les partisans de Mosby dans la vallée de Loudoun et le nord de la Virginie"
 	},
 	{
 		"id": "u_cav_13ny",
@@ -1306,7 +1345,8 @@
 		"name_it": "13° Reggimento cavalleria volontaria di New York",
 		"name_pl": "13. Ochotniczy Pułk Kawalerii Nowego Jorku",
 		"name_tr": "13. New York Gönüllü Süvari Alayı",
-		"name_ko": "제13뉴욕 의용 기병 연대"
+		"name_ko": "제13뉴욕 의용 기병 연대",
+		"description_fr": "Pourchassa les rangers de Mosby dans tout le nord de la Virginie"
 	},
 	{
 		"id": "u_art_B04us",
@@ -1338,7 +1378,8 @@
 		"name_it": "Batteria B - 4ª artiglieria leggera degli Stati Uniti",
 		"name_pl": "Bateria B - 4. Lekkiej Artylerii Stanów Zjednoczonych",
 		"name_tr": "Batarya B - 4. ABD Hafif Topçu Alayı",
-		"name_ko": "B포대 - 제4합중국 경포병 연대"
+		"name_ko": "B포대 - 제4합중국 경포병 연대",
+		"description_fr": "Rattachée à la Brigade de Fer — artillerie régulière d'élite au tir remarquable"
 	},
 	{
 		"id": "u_art_01us",
@@ -1369,7 +1410,8 @@
 		"name_it": "1° Reggimento artiglieria degli Stati Uniti (esercito regolare)",
 		"name_pl": "1. Pułk Artylerii Stanów Zjednoczonych (armia regularna)",
 		"name_tr": "1. ABD Topçu Alayı (düzenli ordu)",
-		"name_ko": "제1합중국 포병 연대 (정규군)"
+		"name_ko": "제1합중국 포병 연대 (정규군)",
+		"description_fr": "Armée régulière — toutes ses batteries servirent dans chaque grand théâtre de la guerre"
 	},
 	{
 		"id": "u_art_02us",
@@ -1401,7 +1443,8 @@
 		"name_it": "2° Reggimento artiglieria degli Stati Uniti (esercito regolare)",
 		"name_pl": "2. Pułk Artylerii Stanów Zjednoczonych (armia regularna)",
 		"name_tr": "2. ABD Topçu Alayı (düzenli ordu)",
-		"name_ko": "제2합중국 포병 연대 (정규군)"
+		"name_ko": "제2합중국 포병 연대 (정규군)",
+		"description_fr": "Artillerie à cheval de Tidball — artillerie très mobile appuyant les opérations de cavalerie"
 	},
 	{
 		"id": "u_art_05us",
@@ -1432,7 +1475,8 @@
 		"name_it": "5° Reggimento artiglieria degli Stati Uniti (esercito regolare)",
 		"name_pl": "5. Pułk Artylerii Stanów Zjednoczonych (armia regularna)",
 		"name_tr": "5. ABD Topçu Alayı (düzenli ordu)",
-		"name_ko": "제5합중국 포병 연대 (정규군)"
+		"name_ko": "제5합중국 포병 연대 (정규군)",
+		"description_fr": "Artillerie de l'armée régulière — ses batteries servirent du premier Bull Run à Appomattox"
 	},
 	{
 		"id": "u_art_01ct",
@@ -1464,7 +1508,8 @@
 		"name_it": "1ª artiglieria leggera del Connecticut",
 		"name_pl": "1. Lekka Artyleria Connecticut",
 		"name_tr": "1. Connecticut Hafif Topçusu",
-		"name_ko": "제1코네티컷 경포병"
+		"name_ko": "제1코네티컷 경포병",
+		"description_fr": "Armée d'obusiers de 32 livres — puissance de feu dévastatrice en siège et en garnison"
 	},
 	{
 		"id": "u_art_01mn",
@@ -1495,7 +1540,8 @@
 		"name_it": "1ª batteria leggera del Minnesota",
 		"name_pl": "1. Lekka Bateria Minnesoty",
 		"name_tr": "1. Minnesota Hafif Bataryası",
-		"name_ko": "제1미네소타 경포대"
+		"name_ko": "제1미네소타 경포대",
+		"description_fr": "Équipée de canons rayés Ordnance de 3 pouces — pièces rayées précises et fiables"
 	},
 	{
 		"id": "u_art_13in",
@@ -1526,7 +1572,8 @@
 		"name_it": "13ª batteria leggera dell'Indiana",
 		"name_pl": "13. Lekka Bateria Indiany",
 		"name_tr": "13. Indiana Hafif Bataryası",
-		"name_ko": "제13인디애나 경포대"
+		"name_ko": "제13인디애나 경포대",
+		"description_fr": "Armée de canons Napoleon de 12 livres — la pièce maîtresse de l'artillerie de campagne"
 	},
 	{
 		"id": "u_art_07ny_h",
@@ -1558,7 +1605,8 @@
 		"name_it": "7ª artiglieria pesante di New York",
 		"name_pl": "7. Ciężka Artyleria Nowego Jorku",
 		"name_tr": "7. New York Ağır Topçusu",
-		"name_ko": "제7뉴욕 중포병 연대"
+		"name_ko": "제7뉴욕 중포병 연대",
+		"description_fr": "Artillerie lourde servant comme canonniers et fantassins — fonctions de garnison et de siège"
 	},
 	{
 		"id": "u_art_02uc",
@@ -1589,7 +1637,8 @@
 		"name_it": "2ª artiglieria di colore (leggera) degli Stati Uniti",
 		"name_pl": "2. Kolorowa (lekka) Artyleria Stanów Zjednoczonych",
 		"name_tr": "2. ABD Renkli (Hafif) Topçusu",
-		"name_ko": "제2합중국 유색 (경) 포병 연대"
+		"name_ko": "제2합중국 유색 (경) 포병 연대",
+		"description_fr": "Neuf batteries distinctes d'artilleurs noirs — servirent dans le théâtre occidental"
 	},
 	{
 		"id": "u_ship_monitor",
@@ -1626,7 +1675,8 @@
 		"name_it": "USS Monitor",
 		"name_pl": "USS Monitor",
 		"name_tr": "USS Monitor",
-		"name_ko": "USS 모니터"
+		"name_ko": "USS 모니터",
+		"description_fr": "Cuirassé à tourelle — tourelle rotative révolutionnaire avec deux canons Dahlgren de 11 pouces, construit en 101 jours"
 	},
 	{
 		"id": "u_ship_galena",
@@ -1657,7 +1707,8 @@
 		"name_it": "USS Galena",
 		"name_pl": "USS Galena",
 		"name_tr": "USS Galena",
-		"name_ko": "USS 갈레나"
+		"name_ko": "USS 갈레나",
+		"description_fr": "Sloop cuirassé — l'un des trois premiers cuirassés commandés par la marine américaine"
 	},
 	{
 		"id": "u_ship_newironsides",
@@ -1689,7 +1740,8 @@
 		"name_it": "USS New Ironsides",
 		"name_pl": "USS New Ironsides",
 		"name_tr": "USS New Ironsides",
-		"name_ko": "USS 뉴아이언사이즈"
+		"name_ko": "USS 뉴아이언사이즈",
+		"description_fr": "Cuirassé à casemate — le navire à bordée le plus puissant de la marine américaine, dévasta les défenses de Charleston"
 	},
 	{
 		"id": "u_ship_cairo",
@@ -1724,7 +1776,8 @@
 		"name_it": "USS Cairo",
 		"name_pl": "USS Cairo",
 		"name_tr": "USS Cairo",
-		"name_ko": "USS 카이로"
+		"name_ko": "USS 카이로",
+		"description_fr": "Cuirassé fluvial de classe City («Pook Turtle») — coulé par une mine confédérée sur la rivière Yazoo"
 	},
 	{
 		"id": "u_ship_carondelet",
@@ -1757,7 +1810,8 @@
 		"name_it": "USS Carondelet",
 		"name_pl": "USS Carondelet",
 		"name_tr": "USS Carondelet",
-		"name_ko": "USS 카론들릿"
+		"name_ko": "USS 카론들릿",
+		"description_fr": "Cuirassé fluvial de classe City — combattit dans presque tous les engagements fluviaux sur le Mississippi"
 	},
 	{
 		"id": "u_ship_benton",
@@ -1791,7 +1845,8 @@
 		"name_it": "USS Benton",
 		"name_pl": "USS Benton",
 		"name_tr": "USS Benton",
-		"name_ko": "USS 벤턴"
+		"name_ko": "USS 벤턴",
+		"description_fr": "Navire amiral de l'escadron du Mississippi — le cuirassé fluvial le plus puissant des eaux de l'Ouest"
 	},
 	{
 		"id": "u_ship_kearsarge",
@@ -1825,7 +1880,8 @@
 		"name_it": "USS Kearsarge",
 		"name_pl": "USS Kearsarge",
 		"name_tr": "USS Kearsarge",
-		"name_ko": "USS 키어서지"
+		"name_ko": "USS 키어서지",
+		"description_fr": "Coula le CSS Alabama au large de Cherbourg — une armure de chaînes cachée protégeait les machines"
 	},
 	{
 		"id": "u_ship_cumberland",
@@ -1859,7 +1915,8 @@
 		"name_it": "USS Cumberland",
 		"name_pl": "USS Cumberland",
 		"name_tr": "USS Cumberland",
-		"name_ko": "USS 컴벌랜드"
+		"name_ko": "USS 컴벌랜드",
+		"description_fr": "Frégate à voiles — éperonnée et coulée par le CSS Virginia à Hampton Roads, sombra canons au clair"
 	},
 	{
 		"id": "u_ship_moundcity",
@@ -1892,7 +1949,8 @@
 		"name_it": "USS Mound City",
 		"name_pl": "USS Mound City",
 		"name_tr": "USS Mound City",
-		"name_ko": "USS 마운드시티"
+		"name_ko": "USS 마운드시티",
+		"description_fr": "Cuirassé fluvial de classe City — servit sur le Mississippi et ses affluents"
 	},
 	{
 		"id": "u_ship_louisville",
@@ -1926,7 +1984,8 @@
 		"name_it": "USS Louisville",
 		"name_pl": "USS Louisville",
 		"name_tr": "USS Louisville",
-		"name_ko": "USS 루이빌"
+		"name_ko": "USS 루이빌",
+		"description_fr": "Cuirassé fluvial de classe City — participa à la campagne de Vicksburg"
 	},
 	{
 		"id": "u_ship_essex",
@@ -1959,7 +2018,8 @@
 		"name_it": "USS Essex",
 		"name_pl": "USS Essex",
 		"name_tr": "USS Essex",
-		"name_ko": "USS 에식스"
+		"name_ko": "USS 에식스",
+		"description_fr": "Cuirassé fluvial — converti depuis un bateau de dégagement, combattit au fort Henry et à Vicksburg"
 	},
 	{
 		"id": "u_ship_minnesota",
@@ -1991,7 +2051,8 @@
 		"name_it": "USS Minnesota",
 		"name_pl": "USS Minnesota",
 		"name_tr": "USS Minnesota",
-		"name_ko": "USS 미네소타"
+		"name_ko": "USS 미네소타",
+		"description_fr": "Frégate à vapeur — navire amiral de l'escadron de blocus de l'Atlantique Nord"
 	},
 	{
 		"id": "u_ship_vanderbilt",
@@ -2023,7 +2084,8 @@
 		"name_it": "USS Vanderbilt",
 		"name_pl": "USS Vanderbilt",
 		"name_tr": "USS Vanderbilt",
-		"name_ko": "USS 밴더빌트"
+		"name_ko": "USS 밴더빌트",
+		"description_fr": "Vapeur d'éperonnage — navire marchand armé conçu pour éperonner le CSS Virginia"
 	},
 	{
 		"id": "u_spec_berdan1",
@@ -2059,7 +2121,8 @@
 		"name_it": "1° Reggimento tiratori scelti degli Stati Uniti (di Berdan)",
 		"name_pl": "1. Pułk Strzelców Stanów Zjednoczonych (Berdana)",
 		"name_tr": "1. ABD Keskin Nişancı Alayı (Berdan'ın)",
-		"name_ko": "제1합중국 저격병 연대 (버던)"
+		"name_ko": "제1합중국 저격병 연대 (버던)",
+		"description_fr": "Uniforme vert, fusils Sharps — tireurs d'élite mortels précis jusqu'à 600 yards"
 	},
 	{
 		"id": "u_spec_berdan2",
@@ -2091,7 +2154,8 @@
 		"name_it": "2° Reggimento tiratori scelti degli Stati Uniti",
 		"name_pl": "2. Pułk Strzelców Stanów Zjednoczonych",
 		"name_tr": "2. ABD Keskin Nişancı Alayı",
-		"name_ko": "제2합중국 저격병 연대"
+		"name_ko": "제2합중국 저격병 연대",
+		"description_fr": "Tireurs d'élite — recrutés pour leurs capacités exceptionnelles de tir à travers les états du Nord"
 	},
 	{
 		"id": "u_spec_ny_ss",
@@ -2122,7 +2186,8 @@
 		"name_it": "1° Battaglione tiratori scelti volontari di New York",
 		"name_pl": "1. Ochotniczy Batalion Strzelców Nowego Jorku",
 		"name_tr": "1. New York Gönüllü Keskin Nişancı Taburu",
-		"name_ko": "제1뉴욕 의용 저격병 대대"
+		"name_ko": "제1뉴욕 의용 저격병 대대",
+		"description_fr": "Tir de précision — bataillon indépendant de tireurs d'élite de New York"
 	},
 	{
 		"id": "u_spec_ma_ss",
@@ -2153,7 +2218,8 @@
 		"name_it": "1ª compagnia tiratori scelti del Massachusetts (Andrew Guards)",
 		"name_pl": "1. Kompania Strzelców Massachusetts (Gwardia Andrew)",
 		"name_tr": "1. Massachusetts Keskin Nişancı Bölüğü (Andrew Muhafızları)",
-		"name_ko": "제1매사추세츠 저격병 중대 (앤드루 근위대)"
+		"name_ko": "제1매사추세츠 저격병 중대 (앤드루 근위대)",
+		"description_fr": "Tireurs d'élite volontaires — levés par le gouverneur John Andrew du Massachusetts"
 	},
 	{
 		"id": "u_spec_lightning",
@@ -2190,7 +2256,8 @@
 		"name_it": "Brigata Fulmine di Wilder",
 		"name_pl": "Brygada Błyskawiczna Wildera",
 		"name_tr": "Wilder'ın Şimşek Tugayı",
-		"name_ko": "와일더의 번개 여단"
+		"name_ko": "와일더의 번개 여단",
+		"description_fr": "Fusils à répétition Spencer — infanterie montée tirant sept coups sans recharger, révolutionna la puissance de feu"
 	},
 	{
 		"id": "u_spec_loudoun",
@@ -2222,7 +2289,8 @@
 		"name_it": "Ranger di Loudoun (ranger di Mean)",
 		"name_pl": "Rangerzy Loudoun (rangerzy Meana)",
 		"name_tr": "Loudoun Kışancıları (Mean'in kışancıları)",
-		"name_ko": "라우든 레인저스 (민의 레인저스)"
+		"name_ko": "라우든 레인저스 (민의 레인저스)",
+		"description_fr": "La seule unité levée en Virginie qui combattit pour l'Union — rangers partisans du comté de Loudoun"
 	},
 	{
 		"id": "u_spec_blazer",
@@ -2254,7 +2322,8 @@
 		"name_it": "Esploratori di Blazer",
 		"name_pl": "Zwiadowcy Blazera",
 		"name_tr": "Blazer'ın İzcileri",
-		"name_ko": "블레이저의 정찰병"
+		"name_ko": "블레이저의 정찰병",
+		"description_fr": "Compagnie d'éclaireurs indépendante formée spécifiquement pour contrer les rangers de Mosby"
 	},
 	{
 		"id": "u_spec_1la_ng",
@@ -2287,6 +2356,7 @@
 		"name_it": "1ª guardia nativa della Louisiana (di colore - Unione)",
 		"name_pl": "1. Gwardia Krajowa Luizjany (kolorowych - Unia)",
 		"name_tr": "1. Louisiana Yerli Muhafızları (renkli - Birlik)",
-		"name_ko": "제1루이지애나 원주민 위병 (유색 - 연합)"
+		"name_ko": "제1루이지애나 원주민 위병 (유색 - 연합)",
+		"description_fr": "Créoles libres de couleur de La Nouvelle-Orléans — parmi les premières unités noires incorporées dans l'armée de l'Union"
 	}
 ]

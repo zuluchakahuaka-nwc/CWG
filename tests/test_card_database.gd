@@ -19,6 +19,7 @@ func _ready() -> void:
 	test_get_adjacent_territories()
 	test_all_cards_have_required_fields()
 	test_all_cards_have_names_in_every_locale()
+	test_card_descriptions_locale_coverage()
 	_print_summary()
 
 func _assert(condition: bool, test_name: String) -> void:
@@ -35,6 +36,52 @@ const CARD_LOCALES: PackedStringArray = [
 	"en", "ru", "fr", "es", "de", "pt", "zh", "ja", "hi", "ar",
 	"it", "pl", "tr", "ko",
 ]
+
+## Hub l10n law, part 3b: card DESCRIPTIONS (rendered in the detail
+## popup via Localization.get_card_description) must exist in every
+## locale marked done below. A locale not in the list falls back to
+## description_en = on-screen mix (tracked in the hub TODO until all
+## 12 are materialized). The guard also rejects a locale that exists
+## only on SOME cards (partial application).
+const DESC_DONE_LOCALES: PackedStringArray = [
+	"fr",
+]
+
+func _all_cards_for_l10n() -> Array:
+	var cards: Array = []
+	cards += CardDatabase.get_all_units_for_side("union")
+	cards += CardDatabase.get_all_units_for_side("confederate")
+	var sit_ids: Array = CardDatabase.get_all_card_ids().get("situations", [])
+	for sid in sit_ids:
+		var sit = CardDatabase.get_situation(str(sid))
+		if sit != null:
+			cards.append(sit)
+	return cards
+
+func test_card_descriptions_locale_coverage() -> void:
+	var cards: Array = _all_cards_for_l10n()
+	var with_desc: Array = cards.filter(
+		func(c): return str(c.get("description_en", "")).strip_edges() != ""
+	)
+	var missing: Array = []
+	var partial: Array = []
+	for lang in DESC_DONE_LOCALES:
+		var have: int = 0
+		for card in with_desc:
+			var value: String = str(card.get("description_" + lang, "")).strip_edges()
+			if value == "":
+				missing.append("%s:%s" % [card.get("id", "?"), lang])
+				if missing.size() >= 5:
+					break
+			else:
+				have += 1
+		if have > 0 and have < with_desc.size():
+			partial.append("%s on %d/%d cards" % [lang, have, with_desc.size()])
+		if missing.size() >= 5:
+			break
+	_assert(missing.is_empty() and partial.is_empty(),
+		"descriptions complete in %s locales (missing=%s partial=%s)" % [
+			str(DESC_DONE_LOCALES), str(missing).left(120), str(partial)])
 
 func test_all_cards_have_names_in_every_locale() -> void:
 	var missing: Array = []
