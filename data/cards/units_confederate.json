@@ -29,7 +29,8 @@
 		"name_tr": "2. Virginia Piyade Alayı",
 		"name_ko": "제2버지니아 보병 연대",
 		"description_fr": "Brigade de Stonewall — combattit dans presque tous les grands engagements de l'armée de Virginie du Nord.",
-		"description_es": "Brigada de Stonewall — combatió en casi todos los grandes enfrentamientos del Ejército de Virginia del Norte."
+		"description_es": "Brigada de Stonewall — combatió en casi todos los grandes enfrentamientos del Ejército de Virginia del Norte.",
+		"description_de": "Stonewall-Brigade — kämpfte in fast jeder größeren Schlacht der Army of Northern Virginia."
 	},
 	{
 		"id": "c_inf_04va",
@@ -63,7 +64,9 @@
 		"name_tr": "4. Virginia Piyade Alayı",
 		"name_ko": "제4버지니아 보병 연대",
 		"description_fr": "Brigade de Stonewall — comprenait la célèbre compagnie des «Rockbridge Grays».",
-		"description_es": "Brigada de Stonewall — incluía la célebre compañía «Rockbridge Grays»."
+		"description_es": "Brigada de Stonewall — incluía la célebre compañía «Rockbridge Grays».",
+		"description_de": "Stonewall-Brigade — umfasste die berühmte Kompanie der „Rockbridge Grays“.",
+		"flavor_de": "Die Rockbridge Grays — Herrenfreiwillige, die zu abgehärteten Veteranen wurden."
 	},
 	{
 		"id": "c_inf_05va",
@@ -95,7 +98,8 @@
 		"name_tr": "5. Virginia Piyade Alayı",
 		"name_ko": "제5버지니아 보병 연대",
 		"description_fr": "Brigade de Stonewall — inébranlable pendant toute la campagne de la vallée et au-delà.",
-		"description_es": "Brigada de Stonewall — firme durante toda la Campaña del Valle y más allá."
+		"description_es": "Brigada de Stonewall — firme durante toda la Campaña del Valle y más allá.",
+		"description_de": "Stonewall-Brigade — unerschütterlich während des gesamten Tal-Feldzugs und darüber hinaus."
 	},
 	{
 		"id": "c_inf_27va",
@@ -131,7 +135,9 @@
 		"name_tr": "27. Virginia Piyade Alayı",
 		"name_ko": "제27버지니아 보병 연대",
 		"description_fr": "Brigade de Stonewall — le régiment qui valut à Jackson son surnom immortel au premier Manassas.",
-		"description_es": "Brigada de Stonewall — el regimiento que le dio a Jackson su apodo inmortal en el Primer Manassas."
+		"description_es": "Brigada de Stonewall — el regimiento que le dio a Jackson su apodo inmortal en el Primer Manassas.",
+		"description_de": "Stonewall-Brigade — das Regiment, das Jackson beim Ersten Manassas seinen unsterblichen Beinamen einbrachte.",
+		"flavor_de": "„Dort steht Jackson wie eine Steinmauer!“ — Gen. Barnard Bee, 21. Juli 1861"
 	},
 	{
 		"id": "c_inf_33va",
@@ -163,7 +169,8 @@
 		"name_tr": "33. Virginia Piyade Alayı",
 		"name_ko": "제33버지니아 보병 연대",
 		"description_fr": "Brigade de Stonewall — comprenait la compagnie d'élite des «Shenandoah Sharpshooters».",
-		"description_es": "Brigada de Stonewall — incluía la compañía de élite «Shenandoah Sharpshooters»."
+		"description_es": "Brigada de Stonewall — incluía la compañía de élite «Shenandoah Sharpshooters».",
+		"description_de": "Stonewall-Brigade — umfasste die Elitakompagnie der „Shenandoah Sharpshooters“."
 	},
 	{
 		"id": "c_inf_01tx",
@@ -197,7 +204,9 @@
 		"name_tr": "1. Teksas Piyade Alayı",
 		"name_ko": "제1텍사스 보병 연대",
 		"description_fr": "Brigade du Texas de Hood — subit 82% de pertes à Antietam, la plus lourde de tout régiment ce jour-là.",
-		"description_es": "Brigada de Texas de Hood — sufrió 82% de bajas en Antietam, la mayor de cualquier regimiento ese día."
+		"description_es": "Brigada de Texas de Hood — sufrió 82% de bajas en Antietam, la mayor de cualquier regimiento ese día.",
+		"description_de": "Hoods Texas-Brigade — erlitt bei Antietam 82% Verluste, höher als jedes andere Regiment an diesem Tag.",
+		"flavor_de": "Sie standen im Kornfeld, wo keine anderen Truppen zu bleiben wagten."
 	},
 	{
 		"id": "c_inf_04tx",
@@ -229,7 +238,8 @@
 		"name_tr": "4. Teksas Piyade Alayı",
 		"name_ko": "제4텍사스 보병 연대",
 		"description_fr": "Brigade du Texas de Hood — combattit avec distinction de la péninsule à Appomattox.",
-		"description_es": "Brigada de Texas de Hood — combatió con distinción desde la Península hasta Appomattox."
+		"description_es": "Brigada de Texas de Hood — combatió con distinción desde la Península hasta Appomattox.",
+		"description_de": "Hoods Texas-Brigade — kämpfte mit Auszeichnung von der Halbinsel bis Appomattox."
 	},
 	{
 		"id": "c_inf_05tx",
@@ -263,7 +273,9 @@
 		"name_tr": "5. Teksas Piyade Alayı",
 		"name_ko": "제5텍사스 보병 연대",
 		"description_fr": "Brigade du Texas de Hood — sur 5 353 hommes enrôlés, il n'en restait que 617 à Appomattox.",
-		"description_es": "Brigada de Texas de Hood — de 5 353 hombres enrolados, solo quedaban 617 en Appomattox."
+		"description_es": "Brigada de Texas de Hood — de 5 353 hombres enrolados, solo quedaban 617 en Appomattox.",
+		"description_de": "Hoods Texas-Brigade — von 5 353 eingebrachten Männern standen bei Appomattox nur noch 617.",
+		"flavor_de": "617 von 5 353 — der Tribut von vier Jahren Krieg."
 	},
 	{
 		"id": "c_inf_03ar",
@@ -293,7 +305,8 @@
 		"name_tr": "3. Arkansas Piyade Alayı",
 		"name_ko": "제3아칸소 보병 연대",
 		"description_fr": "Le seul régiment trans-Mississippi à servir dans l'armée de Virginie du Nord de Lee.",
-		"description_es": "El único regimiento trans-Mississippi que sirvió con el Ejército de Virginia del Norte de Lee."
+		"description_es": "El único regimiento trans-Mississippi que sirvió con el Ejército de Virginia del Norte de Lee.",
+		"description_de": "Das einzige Trans-Mississippi-Regiment in Lees Army of Northern Virginia."
 	},
 	{
 		"id": "c_inf_18ga",
@@ -323,7 +336,8 @@
 		"name_tr": "18. Georgia Piyade Alayı",
 		"name_ko": "제18조지아 보병 연대",
 		"description_fr": "Servit dans la brigade du Texas de Hood avant son transfert à la brigade de Géorgie.",
-		"description_es": "Sirvió en la Brigada de Texas de Hood antes de ser transferido a la Brigada de Georgia."
+		"description_es": "Sirvió en la Brigada de Texas de Hood antes de ser transferido a la Brigada de Georgia.",
+		"description_de": "Diente in Hoods Texas-Brigade, bevor es zur Georgia-Brigade versetzt wurde."
 	},
 	{
 		"id": "c_inf_01va",
@@ -353,7 +367,8 @@
 		"name_tr": "1. Virginia Piyade Alayı",
 		"name_ko": "제1버지니아 보병 연대",
 		"description_fr": "Le «Vieux Premier» — l'un des premiers régiments de volontaires de Virginie.",
-		"description_es": "El «Viejo Primero» — uno de los regimientos originales de voluntarios de Virginia."
+		"description_es": "El «Viejo Primero» — uno de los regimientos originales de voluntarios de Virginia.",
+		"description_de": "Der „Alte Erste“ — eines der ursprünglichen Freiwilligenregimenter Virginias."
 	},
 	{
 		"id": "c_inf_07va",
@@ -386,7 +401,8 @@
 		"name_tr": "7. Virginia Piyade Alayı",
 		"name_ko": "제7버지니아 보병 연대",
 		"description_fr": "Brigade de Kemper — participa à la charge de Pickett à Gettysburg.",
-		"description_es": "Brigada de Kemper — participó en la Carga de Pickett en Gettysburg."
+		"description_es": "Brigada de Kemper — participó en la Carga de Pickett en Gettysburg.",
+		"description_de": "Kempers Brigade — nahm an Picketts Angriff bei Gettysburg teil."
 	},
 	{
 		"id": "c_inf_08va",
@@ -416,7 +432,8 @@
 		"name_tr": "8. Virginia Piyade Alayı",
 		"name_ko": "제8버지니아 보병 연대",
 		"description_fr": "Le «Huitième sanglant» — gagna son sinistre surnom par un combat sans relâche.",
-		"description_es": "El «Octavo Sangriento» — ganó su macabro apodo mediante un combate implacable."
+		"description_es": "El «Octavo Sangriento» — ganó su macabro apodo mediante un combate implacable.",
+		"description_de": "Der „Blutige Achte“ — verdiente seinen grausigen Beinamen in schonungslosem Kampf."
 	},
 	{
 		"id": "c_inf_13va",
@@ -446,7 +463,8 @@
 		"name_tr": "13. Virginia Piyade Alayı",
 		"name_ko": "제13버지니아 보병 연대",
 		"description_fr": "Régiment de Walker — produisit plus tard des commandants de la brigade de Stonewall.",
-		"description_es": "Regimiento de Walker — luego produjo comandantes de la Brigada de Stonewall."
+		"description_es": "Regimiento de Walker — luego produjo comandantes de la Brigada de Stonewall.",
+		"description_de": "Walkers Regiment — stellte später Kommandeure der Stonewall-Brigade."
 	},
 	{
 		"id": "c_inf_03va",
@@ -478,7 +496,8 @@
 		"name_tr": "3. Virginia Piyade Alayı",
 		"name_ko": "제3버지니아 보병 연대",
 		"description_fr": "Brigade de Kemper — infanterie de ligne solide de l'armée de Virginie du Nord.",
-		"description_es": "Brigada de Kemper — infantería de línea firme del Ejército de Virginia del Norte."
+		"description_es": "Brigada de Kemper — infantería de línea firme del Ejército de Virginia del Norte.",
+		"description_de": "Kempers Brigade — solide Linieninfanterie der Army of Northern Virginia."
 	},
 	{
 		"id": "c_inf_09va",
@@ -510,7 +529,8 @@
 		"name_tr": "9. Virginia Piyade Alayı",
 		"name_ko": "제9버지니아 보병 연대",
 		"description_fr": "Armée de Virginie du Nord — infanterie de ligne standard.",
-		"description_es": "Ejército de Virginia del Norte — infantería de línea estándar."
+		"description_es": "Ejército de Virginia del Norte — infantería de línea estándar.",
+		"description_de": "Army of Northern Virginia — reguläre Linieninfanterie."
 	},
 	{
 		"id": "c_inf_11va",
@@ -542,7 +562,8 @@
 		"name_tr": "11. Virginia Piyade Alayı",
 		"name_ko": "제11버지니아 보병 연대",
 		"description_fr": "Armée de Virginie du Nord — combattit à Gettysburg et pendant toute la guerre.",
-		"description_es": "Ejército de Virginia del Norte — combatió en Gettysburg y durante toda la guerra."
+		"description_es": "Ejército de Virginia del Norte — combatió en Gettysburg y durante toda la guerra.",
+		"description_de": "Army of Northern Virginia — kämpfte bei Gettysburg und durch den ganzen Krieg."
 	},
 	{
 		"id": "c_inf_17va",
@@ -574,7 +595,8 @@
 		"name_tr": "17. Virginia Piyade Alayı",
 		"name_ko": "제17버지니아 보병 연대",
 		"description_fr": "Armée de Virginie du Nord — infanterie de ligne fiable.",
-		"description_es": "Ejército de Virginia del Norte — infantería de línea fiable."
+		"description_es": "Ejército de Virginia del Norte — infantería de línea fiable.",
+		"description_de": "Army of Northern Virginia — verlässliche Linieninfanterie."
 	},
 	{
 		"id": "c_inf_18va",
@@ -606,7 +628,8 @@
 		"name_tr": "18. Virginia Piyade Alayı",
 		"name_ko": "제18버지니아 보병 연대",
 		"description_fr": "Armée de Virginie du Nord — infanterie de ligne standard.",
-		"description_es": "Ejército de Virginia del Norte — infantería de línea estándar."
+		"description_es": "Ejército de Virginia del Norte — infantería de línea estándar.",
+		"description_de": "Army of Northern Virginia — reguläre Linieninfanterie."
 	},
 	{
 		"id": "c_inf_24va",
@@ -636,7 +659,8 @@
 		"name_tr": "24. Virginia Piyade Alayı",
 		"name_ko": "제24버지니아 보병 연대",
 		"description_fr": "Servit dans la brigade d'Early puis dans sa division pendant toute la guerre.",
-		"description_es": "Sirvió en la Brigada de Early y más tarde en su División durante toda la guerra."
+		"description_es": "Sirvió en la Brigada de Early y más tarde en su División durante toda la guerra.",
+		"description_de": "Diente in Earlys Brigade und später in seiner Division während des ganzen Kriegs."
 	},
 	{
 		"id": "c_hampton_inf",
@@ -668,7 +692,8 @@
 		"name_tr": "Hampton Lejyonu Piyadesi",
 		"name_ko": "햄프턴 군단 보병",
 		"description_fr": "Légion d'élite levée par Wade Hampton de Caroline du Sud — infanterie, cavalerie et artillerie réunies.",
-		"description_es": "Legión de élite reclutada por Wade Hampton de Carolina del Sur — infantería, caballería y artillería combinadas."
+		"description_es": "Legión de élite reclutada por Wade Hampton de Carolina del Sur — infantería, caballería y artillería combinadas.",
+		"description_de": "Elitelegion, von Wade Hampton aus South Carolina aufgestellt — Infanterie, Kavallerie und Artillerie vereint."
 	},
 	{
 		"id": "c_brig_garnett",
@@ -702,7 +727,9 @@
 		"name_tr": "Garnett Tugayı",
 		"name_ko": "가넷 여단",
 		"description_fr": "Brigade de Virginie lors de la charge de Pickett — le général Garnett fut tué à cheval à la tête de ses hommes.",
-		"description_es": "Brigada de Virginia en la Carga de Pickett — el general Garnett murió al frente de sus hombres a caballo."
+		"description_es": "Brigada de Virginia en la Carga de Pickett — el general Garnett murió al frente de sus hombres a caballo.",
+		"description_de": "Virginia-Brigade in Picketts Angriff — General Garnett fiel zu Pferde an der Spitze seiner Männer.",
+		"flavor_de": "Garnett ritt zu Pferde in das Chaos — aus Krankheit konnte er nicht gehen. Seine Leiche wurde nie geborgen."
 	},
 	{
 		"id": "c_brig_armistead",
@@ -738,7 +765,9 @@
 		"name_tr": "Armistead Tugayı",
 		"name_ko": "어미스테드 여단",
 		"description_fr": "«Point culminant de la Confédération» — Armistead planta son drapeau sur l'angle de l'Union à Gettysburg avant de tomber.",
-		"description_es": "«Punto culminante de la Confederación» — Armistead plantó su bandera en el ángulo de la Unión en Gettysburg antes de caer."
+		"description_es": "«Punto culminante de la Confederación» — Armistead plantó su bandera en el ángulo de la Unión en Gettysburg antes de caer.",
+		"description_de": "„Höchstpunkt der Konföderation“ — Armistead pflanzte seine Flagge auf den Unionsschanz bei Gettysburg, bevor er fiel.",
+		"flavor_de": "„Kommt, Jungs! Gebt ihnen das kalte Stahl!“ — Brig. Gen. Lewis Armistead, 3. Juli 1863"
 	},
 	{
 		"id": "c_brig_kemper",
@@ -770,7 +799,8 @@
 		"name_tr": "Kemper Tugayı",
 		"name_ko": "켐퍼 여단",
 		"description_fr": "Brigade de Virginie — aile droite de la charge de Pickett à Gettysburg.",
-		"description_es": "Brigada de Virginia — flanco derecho de la Carga de Pickett en Gettysburg."
+		"description_es": "Brigada de Virginia — flanco derecho de la Carga de Pickett en Gettysburg.",
+		"description_de": "Virginia-Brigade — rechter Flügel von Picketts Angriff bei Gettysburg."
 	},
 	{
 		"id": "c_brig_davis",
@@ -802,7 +832,8 @@
 		"name_tr": "Davis Tugayı",
 		"name_ko": "데이비스 여단",
 		"description_fr": "Troupes du Mississippi et de Caroline du Nord — participèrent à la charge de Pickett à Gettysburg.",
-		"description_es": "Tropas de Mississippi y Carolina del Norte — participaron en la Carga de Pickett en Gettysburg."
+		"description_es": "Tropas de Mississippi y Carolina del Norte — participaron en la Carga de Pickett en Gettysburg.",
+		"description_de": "Truppen aus Mississippi und North Carolina — beteiligten sich an Picketts Angriff bei Gettysburg."
 	},
 	{
 		"id": "c_brig_lane",
@@ -834,7 +865,8 @@
 		"name_tr": "Lane Tugayı",
 		"name_ko": "레인 여단",
 		"description_fr": "Brigade de Caroline du Nord — participa à la charge de Pickett à Gettysburg.",
-		"description_es": "Brigada de Carolina del Norte — participó en la Carga de Pickett en Gettysburg."
+		"description_es": "Brigada de Carolina del Norte — participó en la Carga de Pickett en Gettysburg.",
+		"description_de": "North-Carolina-Brigade — nahm an Picketts Angriff bei Gettysburg teil."
 	},
 	{
 		"id": "c_brig_scales",
@@ -866,7 +898,8 @@
 		"name_tr": "Scales Tugayı",
 		"name_ko": "스케일스 여단",
 		"description_fr": "Brigade de Caroline du Nord — perdit les deux tiers de son effectif avant même le début de la charge de Pickett.",
-		"description_es": "Brigada de Carolina del Norte — perdió dos tercios de su efectivo incluso antes de comenzar la Carga de Pickett."
+		"description_es": "Brigada de Carolina del Norte — perdió dos tercios de su efectivo incluso antes de comenzar la Carga de Pickett.",
+		"description_de": "North-Carolina-Brigade — verlor zwei Drittel ihrer Stärke noch bevor Picketts Angriff begann."
 	},
 	{
 		"id": "c_brig_wilcox",
@@ -898,7 +931,8 @@
 		"name_tr": "Wilcox Tugayı",
 		"name_ko": "윌콕스 여단",
 		"description_fr": "Brigade de l'Alabama — avança pour soutenir la charge de Pickett à Gettysburg.",
-		"description_es": "Brigada de Alabama — avanzó para apoyar la Carga de Pickett en Gettysburg."
+		"description_es": "Brigada de Alabama — avanzó para apoyar la Carga de Pickett en Gettysburg.",
+		"description_de": "Alabama-Brigade — rückte vor, um Picketts Angriff bei Gettysburg zu unterstützen."
 	},
 	{
 		"id": "c_brig_lang",
@@ -930,7 +964,8 @@
 		"name_tr": "Lang/Perry Tugayı",
 		"name_ko": "랭/페리 여단",
 		"description_fr": "Brigade de Floride — soutint la charge de Pickett, subit environ 400 pertes.",
-		"description_es": "Brigada de Florida — apoyó la Carga de Pickett, sufrió unas 400 bajas."
+		"description_es": "Brigada de Florida — apoyó la Carga de Pickett, sufrió unas 400 bajas.",
+		"description_de": "Florida-Brigade — unterstützte Picketts Angriff und erlitt etwa 400 Verluste."
 	},
 	{
 		"id": "c_brig_brockenbrough",
@@ -964,7 +999,9 @@
 		"name_tr": "Brockenbrough Tugayı",
 		"name_ko": "브로큰브로 여단",
 		"description_fr": "Brigade de Virginie — aile gauche de la charge de Pickett, rompit et prit la fuite sous le feu.",
-		"description_es": "Brigada de Virginia — flanco izquierdo de la Carga de Pickett, se quebró y huyó bajo el fuego."
+		"description_es": "Brigada de Virginia — flanco izquierdo de la Carga de Pickett, se quebró y huyó bajo el fuego.",
+		"description_de": "Virginia-Brigade — linker Flügel von Picketts Angriff, brach unter Feuer und floh.",
+		"flavor_de": "Nicht jede Brigade hielt die Linie — Brockenbroughs Männer brachen zuerst."
 	},
 	{
 		"id": "c_cav_01va",
@@ -998,7 +1035,9 @@
 		"name_tr": "1. Virginia Süvari Alayı",
 		"name_ko": "제1버지니아 기병 연대",
 		"description_fr": "Le propre régiment de J.E.B. Stuart — combattit dans plus de 200 batailles, un seul homme restait à Appomattox.",
-		"description_es": "El propio regimiento de J.E.B. Stuart — combatió en más de 200 batallas, quedaba 1 hombre en Appomattox."
+		"description_es": "El propio regimiento de J.E.B. Stuart — combatió en más de 200 batallas, quedaba 1 hombre en Appomattox.",
+		"description_de": "J.E.B. Stuarts eigenes Regiment — über 200 Schlachten, ein einziger Mann blieb bei Appomattox.",
+		"flavor_de": "Zweihundert Schlachten und ein einsamer Reiter bei der Kapitulation."
 	},
 	{
 		"id": "c_cav_02va",
@@ -1028,7 +1067,8 @@
 		"name_tr": "2. Virginia Süvari Alayı",
 		"name_ko": "제2버지니아 기병 연대",
 		"description_fr": "Régiment de Munford — captura 300 prisonniers au second Bull Run.",
-		"description_es": "Regimiento de Munford — capturó 300 prisioneros en el Segundo Bull Run."
+		"description_es": "Regimiento de Munford — capturó 300 prisioneros en el Segundo Bull Run.",
+		"description_de": "Munfords Regiment — nahm beim Zweiten Bull Run 300 Gefangene."
 	},
 	{
 		"id": "c_cav_04va",
@@ -1060,7 +1100,9 @@
 		"name_tr": "4. Virginia Süvari Alayı",
 		"name_ko": "제4버지니아 기병 연대",
 		"description_fr": "Comprenait la compagnie H, la célèbre «Black Horse Cavalry» — cavaliers d'élite du comté de Fauquier.",
-		"description_es": "Incluía la compañía H, la célebre «Black Horse Cavalry» — tropas de élite del condado de Fauquier."
+		"description_es": "Incluía la compañía H, la célebre «Black Horse Cavalry» — tropas de élite del condado de Fauquier.",
+		"description_de": "Beheimatete die Kompanie H, die berühmte „Black Horse Cavalry“ — Elitereiter aus dem Fauquier County.",
+		"flavor_de": "Die Black Horse Cavalry — Herrenreiter, die zu Legenden wurden."
 	},
 	{
 		"id": "c_cav_07va",
@@ -1092,7 +1134,8 @@
 		"name_tr": "7. Virginia Süvari Alayı",
 		"name_ko": "제7버지니아 기병 연대",
 		"description_fr": "Régiment d'Ashby — domina la vallée de Shenandoah au sein de la brigade Laurel.",
-		"description_es": "Regimiento de Ashby — dominó el valle de Shenandoah como parte de la Brigada Laurel."
+		"description_es": "Regimiento de Ashby — dominó el valle de Shenandoah como parte de la Brigada Laurel.",
+		"description_de": "Ashbys Regiment — beherrschte das Shenandoah-Tal als Teil der Laurel-Brigade."
 	},
 	{
 		"id": "c_cav_09va",
@@ -1122,7 +1165,8 @@
 		"name_tr": "9. Virginia Süvari Alayı",
 		"name_ko": "제9버지니아 기병 연대",
 		"description_fr": "Corps de cavalerie de l'armée de Virginie du Nord — cavalerie standard.",
-		"description_es": "Cuerpo de caballería del Ejército de Virginia del Norte — caballería estándar."
+		"description_es": "Cuerpo de caballería del Ejército de Virginia del Norte — caballería estándar.",
+		"description_de": "Kavalleriekorps der Army of Northern Virginia — reguläre Kavallerie."
 	},
 	{
 		"id": "c_cav_11va",
@@ -1154,7 +1198,8 @@
 		"name_tr": "11. Virginia Süvari Alayı",
 		"name_ko": "제11버지니아 기병 연대",
 		"description_fr": "Partie de la brigade Laurel — combattit dans tout le théâtre oriental.",
-		"description_es": "Parte de la Brigada Laurel — combatió en todo el Teatro Oriental."
+		"description_es": "Parte de la Brigada Laurel — combatió en todo el Teatro Oriental.",
+		"description_de": "Teil der Laurel-Brigade — kämpfte im gesamten östlichen Kriegsschauplatz."
 	},
 	{
 		"id": "c_cav_43va",
@@ -1189,7 +1234,9 @@
 		"name_tr": "Mosby Kışancıları",
 		"name_ko": "모즈비의 레인저스",
 		"description_fr": "43e bataillon de cavalerie de Virginie — le «fantôme gris» Mosby immobilisa 17 000 soldats de l'Union avec 400 hommes seulement.",
-		"description_es": "43.º Batallón de Caballería de Virginia — el «fantasma gris» Mosby inmovilizó a 17 000 soldados de la Unión con solo 400 hombres."
+		"description_es": "43.º Batallón de Caballería de Virginia — el «fantasma gris» Mosby inmovilizó a 17 000 soldados de la Unión con solo 400 hombres.",
+		"description_de": "43. Kavalleriebataillon Virginias — der „graue Geist“ Mosby band mit nur 400 Männern 17 000 Unionssoldaten.",
+		"flavor_de": "„Zu viel Denken ist nicht gesund für Mosby.“ — Gen. Augur, bei der Verteidigung Washingtons"
 	},
 	{
 		"id": "c_cav_35va",
@@ -1219,7 +1266,8 @@
 		"name_tr": "35. Virginia Süvari Taburu",
 		"name_ko": "제35버지니아 기병 대대",
 		"description_fr": "Les «Comanches» de White — premières troupes confédérées à entrer dans Gettysburg, célèbres pour le Beefsteak Raid.",
-		"description_es": "Los «Comanches» de White — primeras tropas confederadas en entrar en Gettysburg, famosos por el Beefsteak Raid."
+		"description_es": "Los «Comanches» de White — primeras tropas confederadas en entrar en Gettysburg, famosos por el Beefsteak Raid.",
+		"description_de": "Whites „Komantschen“ — erste konföderierte Truppen in Gettysburg, berühmt für den Beefsteak-Raid."
 	},
 	{
 		"id": "c_cav_08tx",
@@ -1249,7 +1297,8 @@
 		"name_tr": "8. Teksas Süvari Alayı",
 		"name_ko": "제8텍사스 기병 연대",
 		"description_fr": "Rangers du Texas de Terry — armée du Tennessee, célèbres pour leurs raids audacieux et leurs charges montées.",
-		"description_es": "Rangers de Texas de Terry — Ejército de Tennessee, famosos por sus incursiones audaces y cargas montadas."
+		"description_es": "Rangers de Texas de Terry — Ejército de Tennessee, famosos por sus incursiones audaces y cargas montadas.",
+		"description_de": "Terrys Texas Ranger — Armee von Tennessee, berühmt für waghalsige Raids und berittene Attacken."
 	},
 	{
 		"id": "c_cav_01tx",
@@ -1279,7 +1328,8 @@
 		"name_tr": "1. Teksas Süvari Alayı",
 		"name_ko": "제1텍사스 기병 연대",
 		"description_fr": "Département trans-Mississippi — patrouilles et escarmouches sur la frontière occidentale.",
-		"description_es": "Departamento Trans-Mississippi — servicio de patrulla y escaramuza en la frontera occidental."
+		"description_es": "Departamento Trans-Mississippi — servicio de patrulla y escaramuza en la frontera occidental.",
+		"description_de": "Trans-Mississippi-Departement — Patrouillen- und Gefechtsdienst an der Westgrenze."
 	},
 	{
 		"id": "c_cav_03tn",
@@ -1309,7 +1359,8 @@
 		"name_tr": "3. Tennessee Süvari Alayı",
 		"name_ko": "제3테네시 기병 연대",
 		"description_fr": "Premier régiment de Nathan Bedford Forrest — là où le «magicien de la selle» commença sa légende.",
-		"description_es": "Primer regimiento de Nathan Bedford Forrest — donde el «mago de la silla» comenzó su leyenda."
+		"description_es": "Primer regimiento de Nathan Bedford Forrest — donde el «mago de la silla» comenzó su leyenda.",
+		"description_de": "Nathan Bedford Forrests erstes Regiment — hier begann die Legende des „Magiers im Sattel“."
 	},
 	{
 		"id": "c_cav_laurel",
@@ -1341,7 +1392,8 @@
 		"name_tr": "Defne Tugayı",
 		"name_ko": "월계 여단",
 		"description_fr": "Brigade Laurel de Rosser — cavalerie agressive connue pour ses charges montées audacieuses.",
-		"description_es": "Brigada Laurel de Rosser — caballería agresiva conocida por sus audaces cargas montadas."
+		"description_es": "Brigada Laurel de Rosser — caballería agresiva conocida por sus audaces cargas montadas.",
+		"description_de": "Rossers Laurel-Brigade — aggressive Kavallerie, bekannt für kühne berittene Attacken."
 	},
 	{
 		"id": "c_cav_hampton",
@@ -1373,7 +1425,8 @@
 		"name_tr": "2. Güney Karolina Süvari Alayı",
 		"name_ko": "제2사우스캐롤라이나 기병 연대",
 		"description_fr": "Issue de la légion de Hampton — cavalerie d'élite de Caroline du Sud de Wade Hampton.",
-		"description_es": "Reclutada de la Legión de Hampton — caballería de élite de Carolina del Sur de Wade Hampton."
+		"description_es": "Reclutada de la Legión de Hampton — caballería de élite de Carolina del Sur de Wade Hampton.",
+		"description_de": "Aus Hamptons Legion hervorgegangen — Wade Hamptons Elitereiterei aus South Carolina."
 	},
 	{
 		"id": "c_cav_mcneill",
@@ -1403,7 +1456,8 @@
 		"name_tr": "McNeill Kışancıları",
 		"name_ko": "맥닐의 레인저스",
 		"description_fr": "Rangers partisans opérant dans l'ouest de la Virginie — guérilla contre les lignes de ravitaillement de l'Union.",
-		"description_es": "Rangers partisanos que operaban en el oeste de Virginia — guerra de guerrillas contra las líneas de suministro de la Unión."
+		"description_es": "Rangers partisanos que operaban en el oeste de Virginia — guerra de guerrillas contra las líneas de suministro de la Unión.",
+		"description_de": "Partisanenranger in Westvirginia — Guerillakrieg gegen die Nachschublinien der Union."
 	},
 	{
 		"id": "c_art_washington",
@@ -1437,7 +1491,9 @@
 		"name_tr": "New Orleans Washington Topçuları",
 		"name_ko": "뉴올리언스 워싱턴 포병대",
 		"description_fr": "«Essayez-nous!» — artillerie de milice d'élite forte de plus de 60 batailles et 5 batteries sur tous les théâtres.",
-		"description_es": "«¡Pruébanos!» — artillería de milicia de élite con más de 60 batallas y 5 baterías en todos los grandes teatros."
+		"description_es": "«¡Pruébanos!» — artillería de milicia de élite con más de 60 batallas y 5 baterías en todos los grandes teatros.",
+		"description_de": "„Versucht uns!“ — Elitetruppen-Milizartillerie mit über 60 Schlachten und 5 Batterien in jedem großen Kriegsschauplatz.",
+		"flavor_de": "„Versucht uns!“ — das Motto auf ihren Geschützen beim Ersten Manassas."
 	},
 	{
 		"id": "c_art_richmond",
@@ -1467,7 +1523,8 @@
 		"name_tr": "Richmond Obüsleri",
 		"name_ko": "리치먼드 곡사포대",
 		"description_fr": "Fondée par l'élite de la société de Richmond — servit avec distinction du premier Manassas à Appomattox.",
-		"description_es": "Fundada por la élite de la sociedad de Richmond — sirvió con distinción del Primer Manassas a Appomattox."
+		"description_es": "Fundada por la élite de la sociedad de Richmond — sirvió con distinción del Primer Manassas a Appomattox.",
+		"description_de": "Von der Elite der Richmond-Gesellschaft gegründet — diente mit Auszeichnung vom Ersten Manassas bis Appomattox."
 	},
 	{
 		"id": "c_art_palmetto",
@@ -1497,7 +1554,8 @@
 		"name_tr": "Palmetto Topçuları",
 		"name_ko": "팔메토 포병대",
 		"description_fr": "Batterie de Caroline du Sud — combattit du premier Manassas jusqu'à Gettysburg.",
-		"description_es": "Batería de Carolina del Sur — combatió del Primer Manassas hasta Gettysburg."
+		"description_es": "Batería de Carolina del Sur — combatió del Primer Manassas hasta Gettysburg.",
+		"description_de": "Batterie aus South Carolina — kämpfte vom Ersten Manassas bis Gettysburg."
 	},
 	{
 		"id": "c_art_01rockbridge",
@@ -1529,7 +1587,8 @@
 		"name_tr": "1. Rockbridge Topçuları",
 		"name_ko": "제1록브리지 포병대",
 		"description_fr": "Batterie de Pendleton puis de Poague — servit avec la brigade de Stonewall, Pendleton devint chef de l'artillerie de l'AVN.",
-		"description_es": "Batería de Pendleton y luego de Poague — sirvió con la Brigada de Stonewall, Pendleton llegó a ser jefe de artillería del AVN."
+		"description_es": "Batería de Pendleton y luego de Poague — sirvió con la Brigada de Stonewall, Pendleton llegó a ser jefe de artillería del AVN.",
+		"description_de": "Pendletons und später Poagues Batterie — diente bei der Stonewall-Brigade, Pendleton wurde Artilleriechef der ANV."
 	},
 	{
 		"id": "c_art_stuart_horse",
@@ -1564,7 +1623,9 @@
 		"name_tr": "Stuart'ın Atlı Topçuları",
 		"name_ko": "스튜어트의 기마 포병대",
 		"description_fr": "Commandée par le «gallant Pelham» — à Fredericksburg, une seule batterie arrêta toute une division de l'Union.",
-		"description_es": "Comandada por el «gallardo Pelham» — en Fredericksburg, una sola batería detuvo a toda una división de la Unión."
+		"description_es": "Comandada por el «gallardo Pelham» — en Fredericksburg, una sola batería detuvo a toda una división de la Unión.",
+		"description_de": "Vom „galanten Pelham“ geführt — bei Fredericksberg stoppte eine einzige Batterie eine ganze Unionsdivision.",
+		"flavor_de": "„Es ist herrlich, solchen Mut in einem so jungen Mann zu sehen.“ — Robert E. Lee über Pelham bei Fredericksburg"
 	},
 	{
 		"id": "c_art_purcell",
@@ -1594,7 +1655,8 @@
 		"name_tr": "Purcell Topçuları",
 		"name_ko": "퍼셀 포병대",
 		"description_fr": "Batterie de Pegram — artillerie légère de l'AVN, servit dans tout le théâtre oriental.",
-		"description_es": "Batería de Pegram — artillería ligera del AVN, sirvió en todo el Teatro Oriental."
+		"description_es": "Batería de Pegram — artillería ligera del AVN, sirvió en todo el Teatro Oriental.",
+		"description_de": "Pegrams Batterie — leichte Artillerie der ANV, diente im gesamten östlichen Kriegsschauplatz."
 	},
 	{
 		"id": "c_art_fredericksburg",
@@ -1624,7 +1686,8 @@
 		"name_tr": "Fredericksburg Topçuları",
 		"name_ko": "프레더릭스버그 포병대",
 		"description_fr": "Artillerie légère de l'AVN — service de batterie solide pendant toute la guerre.",
-		"description_es": "Artillería ligera del AVN — servicio de batería firme durante toda la guerra."
+		"description_es": "Artillería ligera del AVN — servicio de batería firme durante toda la guerra.",
+		"description_de": "Leichte Artillerie der ANV — verlässlicher Batteriedienst während des ganzen Kriegs."
 	},
 	{
 		"id": "c_art_staunton",
@@ -1654,7 +1717,8 @@
 		"name_tr": "Staunton Topçuları",
 		"name_ko": "스턴턴 포병대",
 		"description_fr": "Artillerie légère de l'AVN — servit dans la vallée et avec l'armée principale.",
-		"description_es": "Artillería ligera del AVN — sirvió en el Valle y con el ejército principal."
+		"description_es": "Artillería ligera del AVN — sirvió en el Valle y con el ejército principal.",
+		"description_de": "Leichte Artillerie der ANV — diente im Tal und bei der Hauptarmee."
 	},
 	{
 		"id": "c_art_crenshaw",
@@ -1684,7 +1748,8 @@
 		"name_tr": "Crenshaw Bataryası",
 		"name_ko": "크렌쇼 포대",
 		"description_fr": "Artillerie légère de l'AVN — batterie fiable de l'armée de Virginie du Nord.",
-		"description_es": "Artillería ligera del AVN — batería fiable del Ejército de Virginia del Norte."
+		"description_es": "Artillería ligera del AVN — batería fiable del Ejército de Virginia del Norte.",
+		"description_de": "Leichte Artillerie der ANV — verlässliche Batterie der Army of Northern Virginia."
 	},
 	{
 		"id": "c_art_hampton",
@@ -1718,7 +1783,9 @@
 		"name_tr": "Hampton Lejyonu Topçuları",
 		"name_ko": "햄프턴 군단 포병대",
 		"description_fr": "Équipée de canons rayés britanniques Blakely passés en contrebande à travers le blocus.",
-		"description_es": "Equipada con cañones rayados británicos Blakely contrabandeados a través del bloqueo."
+		"description_es": "Equipada con cañones rayados británicos Blakely contrabandeados a través del bloqueo.",
+		"description_de": "Mit britischen Blakely-gezogenen Geschützen ausgestattet, durch die Blockade geschmuggelt.",
+		"flavor_de": "Britische Geschütze, südliche Kanoniere — die Blockade konnte nicht alles aufhalten."
 	},
 	{
 		"id": "c_art_petersburg",
@@ -1748,7 +1815,8 @@
 		"name_tr": "Petersburg Topçuları",
 		"name_ko": "피터스버그 포병대",
 		"description_fr": "Convertie plus tard en artillerie à cheval — servit de réserve d'artillerie mobile de l'AVN.",
-		"description_es": "Convertida más tarde en artillería a caballo — sirvió de reserva móvil de artillería del AVN."
+		"description_es": "Convertida más tarde en artillería a caballo — sirvió de reserva móvil de artillería del AVN.",
+		"description_de": "Später zur reitenden Artillerie umgebaut — diente als mobile Artilleriesreserve der ANV."
 	},
 	{
 		"id": "c_ship_virginia",
@@ -1783,7 +1851,9 @@
 		"name_tr": "CSS Virginia",
 		"name_ko": "CSS 버지니아",
 		"description_fr": "Cuirassé à éperon et casemate — construit sur la coque de l'USS Merrimack capturé. Premier combat entre cuirassés de l'histoire.",
-		"description_es": "Ironclad de casamata y espolón — construido sobre el casco del capturado USS Merrimack. Primer combate entre ironclads de la historia."
+		"description_es": "Ironclad de casamata y espolón — construido sobre el casco del capturado USS Merrimack. Primer combate entre ironclads de la historia.",
+		"description_de": "Kasematt-Panzerschiff mit Rammbug — auf dem Rumpf der erbeuteten USS Merrimack gebaut. Erstes Panzerschiffgefecht der Geschichte.",
+		"flavor_de": "8. März 1862: Sie zerstörte Congress und Cumberland. 9. März: traf auf die Monitor. Die Seekriegsführung änderte sich für immer."
 	},
 	{
 		"id": "c_ship_atlanta",
@@ -1816,7 +1886,8 @@
 		"name_tr": "CSS Atlanta",
 		"name_ko": "CSS 애틀랜타",
 		"description_fr": "Bloqueur de blocus converti en cuirassé — transporta 10 000 fusils Enfield à travers le blocus.",
-		"description_es": "Violador de bloqueo convertido en ironclad — transportó 10 000 fusiles Enfield a través del bloqueo."
+		"description_es": "Violador de bloqueo convertido en ironclad — transportó 10 000 fusiles Enfield a través del bloqueo.",
+		"description_de": "Blockadebrecher, zum Panzerschiff umgebaut — brachte 10 000 Enfield-Gewehre durch die Blockade."
 	},
 	{
 		"id": "c_ship_albemarle",
@@ -1850,7 +1921,9 @@
 		"name_tr": "CSS Albemarle",
 		"name_ko": "CSS 올버말",
 		"description_fr": "Cuirassé à éperon construit dans un champ de maïs sur la Roanoke — domina les sounds jusqu'à la torpille de Cushing.",
-		"description_es": "Ironclad de espolón construido en un campo de maíz junto al río Roanoke — dominó los sounds hasta el torpedo de Cushing."
+		"description_es": "Ironclad de espolón construido en un campo de maíz junto al río Roanoke — dominó los sounds hasta el torpedo de Cushing.",
+		"description_de": "Panzerschiff mit Rammbug, auf einem Maisfeld am Roanoke gebaut — beherrschte die Gewässer bis zu Cushings Torpedo.",
+		"flavor_de": "In einem Maisfeld aus Schrottisen gebaut — Not macht erfinderisch."
 	},
 	{
 		"id": "c_ship_tennessee",
@@ -1884,7 +1957,9 @@
 		"name_tr": "CSS Tennessee",
 		"name_ko": "CSS 테네시",
 		"description_fr": "Navire amiral à la bataille de Mobile Bay — ne se rendit qu'après avoir été encerclé par toute la flotte de l'Union.",
-		"description_es": "Buque insignia en la batalla de Mobile Bay — solo se rindió tras ser rodeado por toda la flota de la Unión."
+		"description_es": "Buque insignia en la batalla de Mobile Bay — solo se rindió tras ser rodeado por toda la flota de la Unión.",
+		"description_de": "Flaggschiff in der Schlacht in der Mobile Bay — kapitulierte erst, als die gesamte Unionsflotte es umstellte.",
+		"flavor_de": "„Zur Hölle mit den Torpedos! Volle Kraft voraus!“ — Farragut griff an, doch Tennessee hielt stand."
 	},
 	{
 		"id": "c_ship_arkansas",
@@ -1918,7 +1993,9 @@
 		"name_tr": "CSS Arkansas",
 		"name_ko": "CSS 아칸소",
 		"description_fr": "Traversa toute la flotte de l'Union à Vicksburg en une seule passe audacieuse — trois navires de l'Union mis hors de combat.",
-		"description_es": "Atravesó toda la flota de la Unión en Vicksburg en una sola pasada audaz — tres buques de la Unión inhabilitados."
+		"description_es": "Atravesó toda la flota de la Unión en Vicksburg en una sola pasada audaz — tres buques de la Unión inhabilitados.",
+		"description_de": "Durchbrach bei Vicksburg die gesamte Unionsflotte in einem einzigen waghalsigen Lauf — drei Unionsschiffe außer Gefecht.",
+		"flavor_de": "Ein Schiff gegen das ganze Mississippi-Geschwader — und es gewann."
 	},
 	{
 		"id": "c_ship_alabama",
@@ -1952,7 +2029,9 @@
 		"name_tr": "CSS Alabama",
 		"name_ko": "CSS 앨라배마",
 		"description_fr": "Corsaire — coula 65 navires marchands de l'Union, sillonna les océans deux ans sans entrer dans un seul port.",
-		"description_es": "Corso — hundió 65 buques mercantes de la Unión, surcó los océanos dos años sin entrar en un solo puerto."
+		"description_es": "Corso — hundió 65 buques mercantes de la Unión, surcó los océanos dos años sin entrar en un solo puerto.",
+		"description_de": "Kaperschiff — versenkte 65 Handelsschiffe der Union, kreuzte zwei Jahre auf den Ozeanen, ohne je einen Hafen anzulaufen.",
+		"flavor_de": "65 versenkte Schiffe, zwei Jahre auf See, nie in einem konföderierten Hafen festgemacht."
 	},
 	{
 		"id": "c_ship_shenandoah",
@@ -1986,7 +2065,9 @@
 		"name_tr": "CSS Shenandoah",
 		"name_ko": "CSS 셰넌도아",
 		"description_fr": "Tira le dernier coup de la guerre dans la mer de Béring, juin 1865 — ignorant que la guerre était finie. Boucla ensuite un tour du monde.",
-		"description_es": "Disparó el último tiro de la guerra en el mar de Bering, junio de 1865 — sin saber que la guerra había terminado. Completó una vuelta al mundo."
+		"description_es": "Disparó el último tiro de la guerra en el mar de Bering, junio de 1865 — sin saber que la guerra había terminado. Completó una vuelta al mundo.",
+		"description_de": "Feuerte den letzten Schuss des Kriegs im Beringmeer, Juni 1865 — ohne zu wissen, dass der Krieg vorbei war. Umrundete anschließend die Welt.",
+		"flavor_de": "Die letzte konföderierte Flagge wurde im November 1865 in Liverpool eingeholt."
 	},
 	{
 		"id": "c_ship_hunley",
@@ -2020,7 +2101,9 @@
 		"name_tr": "H.L. Hunley",
 		"name_ko": "H.L. 헌리",
 		"description_fr": "Premier sous-marin à couler un navire de guerre — détruisit l'USS Housatonic avec une torpille d'éperon, puis coula avec tout son équipage.",
-		"description_es": "Primer submarino en hundir un buque de guerra — destruyó al USS Housatonic con un torpedo de espolón, luego se hundió con toda su tripulación."
+		"description_es": "Primer submarino en hundir un buque de guerra — destruyó al USS Housatonic con un torpedo de espolón, luego se hundió con toda su tripulación.",
+		"description_de": "Das erste U-Boot, das ein Kriegsschiff versenkte — zerstörte die USS Housatonic mit einem Spartorpedo und sank mit der gesamten Besatzung.",
+		"flavor_de": "Sie sank dreimal — zweimal im Training, einmal im Sieg. Die Besatzung kannte das Risiko."
 	},
 	{
 		"id": "c_ship_patrick_henry",
@@ -2050,7 +2133,8 @@
 		"name_tr": "CSS Patrick Henry",
 		"name_ko": "CSS 패트릭 헨리",
 		"description_fr": "Canonnière fluviale — combattit à Hampton Roads aux côtés du CSS Virginia.",
-		"description_es": "Cañonera fluvial — combatió en Hampton Roads junto al CSS Virginia."
+		"description_es": "Cañonera fluvial — combatió en Hampton Roads junto al CSS Virginia.",
+		"description_de": "Flusskanonenboot — kämpfte bei Hampton Roads an der Seite der CSS Virginia."
 	},
 	{
 		"id": "c_ship_jamestown",
@@ -2080,7 +2164,8 @@
 		"name_tr": "CSS Jamestown",
 		"name_ko": "CSS 제임스타운",
 		"description_fr": "Canonnière fluviale — captura des prises de l'Union pendant l'engagement de Hampton Roads.",
-		"description_es": "Cañonera fluvial — capturó presas de la Unión durante el combate de Hampton Roads."
+		"description_es": "Cañonera fluvial — capturó presas de la Unión durante el combate de Hampton Roads.",
+		"description_de": "Flusskanonenboot — erbeutete Prisen der Union im Gefecht von Hampton Roads."
 	},
 	{
 		"id": "c_ship_raleigh",
@@ -2110,7 +2195,8 @@
 		"name_tr": "CSS Raleigh",
 		"name_ko": "CSS 롤리",
 		"description_fr": "Canonnière — servit de tender au CSS Virginia à Hampton Roads.",
-		"description_es": "Cañonera — sirvió de buque auxiliar del CSS Virginia en Hampton Roads."
+		"description_es": "Cañonera — sirvió de buque auxiliar del CSS Virginia en Hampton Roads.",
+		"description_de": "Kanonenboot — diente bei Hampton Roads als Tender der CSS Virginia."
 	},
 	{
 		"id": "c_ship_teaser",
@@ -2140,7 +2226,8 @@
 		"name_tr": "CSS Teaser",
 		"name_ko": "CSS 티저",
 		"description_fr": "Remorqueur armé — soutint les opérations navales à Hampton Roads.",
-		"description_es": "Remolcador armado — apoyó las operaciones navales en Hampton Roads."
+		"description_es": "Remolcador armado — apoyó las operaciones navales en Hampton Roads.",
+		"description_de": "Bewaffnetes Schleppschiff — unterstützte die Marineoperationen bei Hampton Roads."
 	},
 	{
 		"id": "c_ship_relee",
@@ -2172,7 +2259,8 @@
 		"name_tr": "CSS Robert E. Lee",
 		"name_ko": "CSS 로버트 E. 리",
 		"description_fr": "Bloqueur de blocus de construction écossaise — l'un des plus efficaces de la guerre.",
-		"description_es": "Violador de bloqueo de construcción escocesa — uno de los más exitosos de la guerra."
+		"description_es": "Violador de bloqueo de construcción escocesa — uno de los más exitosos de la guerra.",
+		"description_de": "Schottischer Blockadebrecher — einer der erfolgreichsten des Kriegs."
 	},
 	{
 		"id": "c_ship_syren",
@@ -2206,7 +2294,9 @@
 		"name_tr": "SS Syren",
 		"name_ko": "SS 사이렌",
 		"description_fr": "Bloqueur de blocus — record avec 33 passages réussis à travers la marine de l'Union.",
-		"description_es": "Violador de bloqueo — récord con 33 pasajes exitosos a través de la marina de la Unión."
+		"description_es": "Violador de bloqueo — récord con 33 pasajes exitosos a través de la marina de la Unión.",
+		"description_de": "Blockadebrecher — Rekordhalter mit 33 geglückten Blockadedurchbrüchen.",
+		"flavor_de": "33 Fahrten — kein anderes Schiff erreichte ihren Rekord."
 	},
 	{
 		"id": "c_ship_fingal",
@@ -2240,7 +2330,9 @@
 		"name_tr": "SS Fingal",
 		"name_ko": "SS 핑갈",
 		"description_fr": "Premier bloqueur de blocs venu de Grande-Bretagne — livra 10 000 fusils et de l'artillerie à Savannah.",
-		"description_es": "Primer violador de bloqueo llegado de Gran Bretaña — entregó 10 000 fusiles y artillería en Savannah."
+		"description_es": "Primer violador de bloqueo llegado de Gran Bretaña — entregó 10 000 fusiles y artillería en Savannah.",
+		"description_de": "Erster Blockadebrecher aus Großbritannien — lieferte 10 000 Gewehre und Artillerie nach Savannah.",
+		"flavor_de": "Zehntausend Enfields im Laderaum — genug, um eine kleine Armee zu bewaffnen."
 	},
 	{
 		"id": "c_ship_sumter",
@@ -2270,7 +2362,8 @@
 		"name_tr": "CSS Sumter",
 		"name_ko": "CSS 섬터",
 		"description_fr": "Premier corsaire confédéré — commandé par Raphael Semmes avant qu'il ne prenne le commandement de l'Alabama.",
-		"description_es": "Primer corsario confederado — comandado por Raphael Semmes antes de tomar el mando del Alabama."
+		"description_es": "Primer corsario confederado — comandado por Raphael Semmes antes de tomar el mando del Alabama.",
+		"description_de": "Erstes konföderiertes Kaperschiff — unter Raphael Semmes, bevor er die Alabama übernahm."
 	},
 	{
 		"id": "c_spec_forrest_escort",
@@ -2302,7 +2395,8 @@
 		"name_tr": "Forrest'un Muhafız Bölüğü",
 		"name_ko": "포러스트의 호위 중대",
 		"description_fr": "40 à 90 cavaliers d'élite servant d'escorte personnelle et de force de frappe au général Forrest.",
-		"description_es": "De 40 a 90 jinetes de élite como escolta personal y fuerza de ataque del general Forrest."
+		"description_es": "De 40 a 90 jinetes de élite como escolta personal y fuerza de ataque del general Forrest.",
+		"description_de": "40 bis 90 Elitereiter als persönliche Eskorte und Stoßtrupp von General Forrest."
 	},
 	{
 		"id": "c_spec_forrest_corps",
@@ -2338,7 +2432,9 @@
 		"name_tr": "Forrest'un Süvari Kolordusu",
 		"name_ko": "포러스트 기병 군단",
 		"description_fr": "«Magicien de la selle» — Forrest révolutionna la doctrine de cavalerie, attaquant avec une force doublée en infériorité numérique.",
-		"description_es": "«Mago de la silla» — Forrest revolucionó la doctrina de caballería, atacando con fuerza doble cuando estaba en desventaja."
+		"description_es": "«Mago de la silla» — Forrest revolucionó la doctrina de caballería, atacando con fuerza doble cuando estaba en desventaja.",
+		"description_de": "„Magier im Sattel“ — Forrest revolutionierte die Kavalleriedoktrin, griff in Unterlegenheit mit doppelter Stärke an.",
+		"flavor_de": "„Kommt zuerst mit den meisten Männern an.“ — zugeschrieben Nathan Bedford Forrest"
 	},
 	{
 		"id": "c_spec_forrest_div",
@@ -2372,7 +2468,9 @@
 		"name_tr": "Forrest'un Süvari Tümeni",
 		"name_ko": "포러스트 기병 사단",
 		"description_fr": "Berna le colonel Streight pour lui faire rendre 1 500 soldats de l'Union avec une poignée d'hommes tournant entre les positions.",
-		"description_es": "Engañó al coronel Streight para rendir a 1 500 soldados de la Unión con un puñado de hombres rotando entre posiciones."
+		"description_es": "Engañó al coronel Streight para rendir a 1 500 soldados de la Unión con un puñado de hombres rotando entre posiciones.",
+		"description_de": "Bluffte Oberst Streight zur Kapitulation von 1 500 Unionssoldaten mit einer Handvoll Männer, die zwischen Stellungen rotierten.",
+		"flavor_de": "Forrest ließ dieselben Männer immer wieder an Streight vorbeimarschieren — der Unions-Oberst kapitulierte vor einer Illusion."
 	},
 	{
 		"id": "c_spec_va_irish",
@@ -2404,7 +2502,9 @@
 		"name_tr": "1. Virginia Piyade Taburu (İrlandalı)",
 		"name_ko": "제1버지니아 보병 대대 (아일랜드)",
 		"description_fr": "Irlandais confédérés — immigrants du Sud qui combattirent pour leur patrie d'adoption.",
-		"description_es": "Irlandeses confederados — inmigrantes del Sur que combatieron por su patria adoptiva."
+		"description_es": "Irlandeses confederados — inmigrantes del Sur que combatieron por su patria adoptiva.",
+		"description_de": "Konföderierte Iren — Einwanderer des Südens, die für ihre Wahlheimat kämpften.",
+		"flavor_de": "Iren kämpften auf beiden Seiten — gebunden an die Pflicht, nicht an die Geografie."
 	},
 	{
 		"id": "c_spec_1mo_cav",
@@ -2434,6 +2534,7 @@
 		"name_tr": "1. Missouri Süvarisi - A Bölüğü",
 		"name_ko": "제1미주리 기병 - A중대",
 		"description_fr": "Représentants du Missouri servant dans l'armée de Lee — combattirent à New Market et dans toute la Virginie.",
-		"description_es": "Representantes de Missouri al servicio del ejército de Lee — combatieron en New Market y por toda Virginia."
+		"description_es": "Representantes de Missouri al servicio del ejército de Lee — combatieron en New Market y por toda Virginia.",
+		"description_de": "Missouri-Vertreter in Lees Armee — kämpften bei New Market und in ganz Virginia."
 	}
 ]

@@ -35,7 +35,9 @@
 		"name_tr": "2. Wisconsin Gönüllü Piyade Alayı",
 		"name_ko": "제2위스콘신 의용 보병 연대",
 		"description_fr": "Brigade de Fer — la seule brigade entièrement occidentale de l'armée du Potomac",
-		"description_es": "Brigada de Hierro — la única brigada totalmente occidental del Ejército del Potomac"
+		"description_es": "Brigada de Hierro — la única brigada totalmente occidental del Ejército del Potomac",
+		"description_de": "Eiserne Brigade — die einzige komplett westliche Brigade der Army of the Potomac",
+		"flavor_de": "„Sie sind aus Eisen, General — deshalb nennt man sie die Eiserne Brigade“"
 	},
 	{
 		"id": "u_inf_06wi",
@@ -72,7 +74,8 @@
 		"name_tr": "6. Wisconsin Gönüllü Piyade Alayı",
 		"name_ko": "제6위스콘신 의용 보병 연대",
 		"description_fr": "Captura un train confédéré à Gettysburg lors du combat du Railroad Cut",
-		"description_es": "Capturó un tren confederado en Gettysburg durante el combate del Railroad Cut"
+		"description_es": "Capturó un tren confederado en Gettysburg durante el combate del Railroad Cut",
+		"description_de": "Erbeutete bei Gettysburg im Kampf um den Railroad Cut einen konföderierten Zug"
 	},
 	{
 		"id": "u_inf_07wi",
@@ -108,7 +111,8 @@
 		"name_tr": "7. Wisconsin Gönüllü Piyade Alayı",
 		"name_ko": "제7위스콘신 의용 보병 연대",
 		"description_fr": "Brigade de Fer — participa à tous les grands engagements de l'armée du Potomac",
-		"description_es": "Brigada de Hierro — combatió en cada gran enfrentamiento del Ejército del Potomac"
+		"description_es": "Brigada de Hierro — combatió en cada gran enfrentamiento del Ejército del Potomac",
+		"description_de": "Eiserne Brigade — kämpfte in jeder größeren Schlacht der Army of the Potomac"
 	},
 	{
 		"id": "u_inf_19in",
@@ -144,7 +148,8 @@
 		"name_tr": "19. Indiana Gönüllü Piyade Alayı",
 		"name_ko": "제19인디애나 의용 보병 연대",
 		"description_fr": "Brigade de Fer — le seul régiment de l'Indiana dans cette brigade toute occidentale",
-		"description_es": "Brigada de Hierro — el único regimiento de Indiana en la brigada toda occidental"
+		"description_es": "Brigada de Hierro — el único regimiento de Indiana en la brigada toda occidental",
+		"description_de": "Eiserne Brigade — das einzige Indiana-Regiment der rein westlichen Brigade"
 	},
 	{
 		"id": "u_inf_24mi",
@@ -183,7 +188,9 @@
 		"name_tr": "24. Michigan Gönüllü Piyade Alayı",
 		"name_ko": "제24미시간 의용 보병 연대",
 		"description_fr": "Brigade de Fer — subit 80% de pertes le premier jour à Gettysburg",
-		"description_es": "Brigada de Hierro — sufrió 80% de bajas el primer día en Gettysburg"
+		"description_es": "Brigada de Hierro — sufrió 80% de bajas el primer día en Gettysburg",
+		"description_de": "Eiserne Brigade — erlitt am ersten Tag bei Gettysburg 80% Verluste",
+		"flavor_de": "„Das 24. Michigan ließ 399 seiner 496 Männer auf dem Feld zurück“"
 	},
 	{
 		"id": "u_inf_69ny",
@@ -219,7 +226,9 @@
 		"name_tr": "69. New York Gönüllü Piyade Alayı",
 		"name_ko": "제69뉴욕 의용 보병 연대",
 		"description_fr": "Le «Fighting 69th» — brigade irlandaise composée surtout d'immigrants irlandais",
-		"description_es": "El «Fighting 69th» — Brigada Irlandesa, predominantemente inmigrantes irlandeses"
+		"description_es": "El «Fighting 69th» — Brigada Irlandesa, predominantemente inmigrantes irlandeses",
+		"description_de": "Der „Fighting 69th“ — Irische Brigade, überwiegend irische Einwanderer",
+		"flavor_de": "„Sanft, wenn gestreichelt, wild, wenn gereizt“"
 	},
 	{
 		"id": "u_inf_63ny",
@@ -253,7 +262,8 @@
 		"name_tr": "63. New York Gönüllü Piyade Alayı",
 		"name_ko": "제63뉴욕 의용 보병 연대",
 		"description_fr": "Brigade irlandaise — combattit à Antietam, Fredericksburg et Gettysburg",
-		"description_es": "Brigada Irlandesa — combatió en Antietam, Fredericksburg y Gettysburg"
+		"description_es": "Brigada Irlandesa — combatió en Antietam, Fredericksburg y Gettysburg",
+		"description_de": "Irische Brigade — kämpfte bei Antietam, Fredericksburg und Gettysburg"
 	},
 	{
 		"id": "u_inf_88ny",
@@ -287,7 +297,8 @@
 		"name_tr": "88. New York Gönüllü Piyade Alayı",
 		"name_ko": "제88뉴욕 의용 보병 연대",
 		"description_fr": "Brigade irlandaise — les «Connacht Rangers», issus d'émigrés du comté de Galway",
-		"description_es": "Brigada Irlandesa — los «Connacht Rangers», reclutados entre emigrantes del condado de Galway"
+		"description_es": "Brigada Irlandesa — los «Connacht Rangers», reclutados entre emigrantes del condado de Galway",
+		"description_de": "Irische Brigade — die „Connacht Rangers“, rekrutiert aus Auswanderern des County Galway"
 	},
 	{
 		"id": "u_inf_28ma",
@@ -321,7 +332,8 @@
 		"name_tr": "28. Massachusetts Gönüllü Piyade Alayı",
 		"name_ko": "제28매사추세츠 의용 보병 연대",
 		"description_fr": "Brigade irlandaise — armée de mousquets rayés Enfield importés de Grande-Bretagne",
-		"description_es": "Brigada Irlandesa — armados con mosquetes rayados Enfield importados de Gran Bretaña"
+		"description_es": "Brigada Irlandesa — armados con mosquetes rayados Enfield importados de Gran Bretaña",
+		"description_de": "Irische Brigade — ausgerüstet mit aus Großbritannien importierten Enfield-Gewehren"
 	},
 	{
 		"id": "u_inf_116pa",
@@ -355,7 +367,8 @@
 		"name_tr": "116. Pennsylvania Gönüllü Piyade Alayı",
 		"name_ko": "제116펜실베이니아 의용 보병 연대",
 		"description_fr": "Brigade irlandaise — le seul régiment de Pennsylvanie de la brigade irlandaise",
-		"description_es": "Brigada Irlandesa — el único regimiento de Pensilvania en la Brigada Irlandesa"
+		"description_es": "Brigada Irlandesa — el único regimiento de Pensilvania en la Brigada Irlandesa",
+		"description_de": "Irische Brigade — das einzige Pennsylvania-Regiment der Irischen Brigade"
 	},
 	{
 		"id": "u_inf_20me",
@@ -393,7 +406,9 @@
 		"name_tr": "20. Maine Gönüllü Piyade Alayı",
 		"name_ko": "제20메인 의용 보병 연대",
 		"description_fr": "Charge à la baïonnette à Little Round Top, Gettysburg — tint l'extrême aile gauche de la ligne de l'Union",
-		"description_es": "Carga a bayoneta en Little Round Top, Gettysburg — sostuvo el extremo izquierdo de la línea de la Unión"
+		"description_es": "Carga a bayoneta en Little Round Top, Gettysburg — sostuvo el extremo izquierdo de la línea de la Unión",
+		"description_de": "Bajonettangriff am Little Round Top, Gettysburg — hielt den äußersten linken Flügel der Unionslinie",
+		"flavor_de": "„Bajonett! Vorwärts!“ — Oberst Joshua Chamberlain"
 	},
 	{
 		"id": "u_inf_01mn",
@@ -430,7 +445,9 @@
 		"name_tr": "1. Minnesota Gönüllü Piyade Alayı",
 		"name_ko": "제1미네소타 의용 보병 연대",
 		"description_fr": "Subit 82% de pertes en une seule charge à Gettysburg — la perte la plus lourde d'un régiment de l'Union en une bataille",
-		"description_es": "Sufrió 82% de bajas en una sola carga en Gettysburg — la mayor pérdida de cualquier regimiento de la Unión en una batalla"
+		"description_es": "Sufrió 82% de bajas en una sola carga en Gettysburg — la mayor pérdida de cualquier regimiento de la Unión en una batalla",
+		"description_de": "Er litt 82% Verluste in einer einzigen Attacke bei Gettysburg — der höchste Verlust eines Unionsregiments in einer Schlacht",
+		"flavor_de": "„Jeder Mann begriff in diesem Augenblick, was dieser Befehl bedeutete — Tod oder Verwundung für uns alle“"
 	},
 	{
 		"id": "u_inf_14ny",
@@ -465,7 +482,9 @@
 		"name_tr": "14. New York Eyalet Milis Piyade Alayı (Brooklyn)",
 		"name_ko": "제14뉴욕 주 민병대 보병 연대 (브루클린)",
 		"description_fr": "Les «diables aux jambes rouges» — pantalons rouges distinctifs, combattit au premier Bull Run",
-		"description_es": "Los «diablos de piernas rojas» — pantalones rojos distintivos, combatió en el Primer Bull Run"
+		"description_es": "Los «diablos de piernas rojas» — pantalones rojos distintivos, combatió en el Primer Bull Run",
+		"description_de": "Die „rothosigen Teufel“ — markante rote Hosen, kämpfte beim Ersten Bull Run",
+		"flavor_de": "„Da kommen schon wieder diese rothosigen Teufel!“ — Stonewall Jackson"
 	},
 	{
 		"id": "u_inf_44ny",
@@ -499,7 +518,8 @@
 		"name_tr": "44. New York Gönüllü Piyade Alayı",
 		"name_ko": "제44뉴욕 의용 보병 연대",
 		"description_fr": "Les «vengeurs d'Ellsworth» — défendit Little Round Top à Gettysburg aux côtés du 20e Maine",
-		"description_es": "Los «Vengadores de Ellsworth» — defendió Little Round Top en Gettysburg junto al 20.º de Maine"
+		"description_es": "Los «Vengadores de Ellsworth» — defendió Little Round Top en Gettysburg junto al 20.º de Maine",
+		"description_de": "„Ellsworths Rächer“ — verteidigte Little Round Top bei Gettysburg neben dem 20. Maine"
 	},
 	{
 		"id": "u_inf_83pa",
@@ -533,7 +553,8 @@
 		"name_tr": "83. Pennsylvania Gönüllü Piyade Alayı",
 		"name_ko": "제83펜실베이니아 의용 보병 연대",
 		"description_fr": "Tint Little Round Top avec le 20e Maine — parmi les régiments de volontiers les plus décorés",
-		"description_es": "Sostuvo Little Round Top con el 20.º de Maine — entre los regimientos voluntarios más condecorados"
+		"description_es": "Sostuvo Little Round Top con el 20.º de Maine — entre los regimientos voluntarios más condecorados",
+		"description_de": "Hielt Little Round Top mit dem 20. Maine — unter den meistdekorierten Freiwilligenregimentern"
 	},
 	{
 		"id": "u_inf_16mi",
@@ -567,7 +588,8 @@
 		"name_tr": "16. Michigan Gönüllü Piyade Alayı",
 		"name_ko": "제16미시간 의용 보병 연대",
 		"description_fr": "Défendit Little Round Top à Gettysburg — rattachée à la brigade de Strong Vincent",
-		"description_es": "Defendió Little Round Top en Gettysburg — parte de la brigada de Strong Vincent"
+		"description_es": "Defendió Little Round Top en Gettysburg — parte de la brigada de Strong Vincent",
+		"description_de": "Verteidigte Little Round Top bei Gettysburg — Teil der Brigade von Strong Vincent"
 	},
 	{
 		"id": "u_inf_54ma",
@@ -605,7 +627,9 @@
 		"name_tr": "54. Massachusetts Gönüllü Piyade Alayı (renkli)",
 		"name_ko": "제54매사추세츠 의용 보병 연대 (유색인종)",
 		"description_fr": "Assaut du fort Wagner — prouva le courage des soldats noirs, immortalisé dans le film «Glory»",
-		"description_es": "Asalto al Fuerte Wagner — probó el valor de los soldados negros, inmortalizado en la película «Glory»"
+		"description_es": "Asalto al Fuerte Wagner — probó el valor de los soldados negros, inmortalizado en la película «Glory»",
+		"description_de": "Sturm auf Fort Wagner — bewies den Mut schwarzer Soldaten, verewigt im Film „Glory“",
+		"flavor_de": "„Ich will, dass ihr euch beweist... Die Augen von Tausenden werden darauf schauen, was ihr heute Nacht tut“ — Col. Shaw"
 	},
 	{
 		"id": "u_inf_55ma",
@@ -638,7 +662,8 @@
 		"name_tr": "55. Massachusetts Gönüllü Piyade Alayı (renkli)",
 		"name_ko": "제55매사추세츠 의용 보병 연대 (유색인종)",
 		"description_fr": "Régiment frère du 54e Massachusetts — servit dans le département du Sud",
-		"description_es": "Regimiento hermano del 54.º de Massachusetts — sirvió en el Departamento del Sur"
+		"description_es": "Regimiento hermano del 54.º de Massachusetts — sirvió en el Departamento del Sur",
+		"description_de": "Schwesterregiment des 54. Massachusetts — diente im Department of the South"
 	},
 	{
 		"id": "u_inf_01us",
@@ -671,7 +696,8 @@
 		"name_tr": "1. ABD Piyade Alayı (düzenli ordu)",
 		"name_ko": "제1합중국 보병 연대 (정규군)",
 		"description_fr": "Armée régulière — soldats professionnels, exercice et discipline supérieurs",
-		"description_es": "Ejército Regular — soldados profesionales, instrucción y disciplina superiores"
+		"description_es": "Ejército Regular — soldados profesionales, instrucción y disciplina superiores",
+		"description_de": "Reguläre Armee — Berufssoldaten mit überlegener Ausbildung und Disziplin"
 	},
 	{
 		"id": "u_inf_04us",
@@ -705,7 +731,8 @@
 		"name_tr": "4. ABD Piyade Alayı (düzenli ordu)",
 		"name_ko": "제4합중국 보병 연대 (정규군)",
 		"description_fr": "Armée régulière — le capitaine Ulysses S. Grant servit dans ce régiment avant la guerre",
-		"description_es": "Ejército Regular — el capitán Ulysses S. Grant sirvió en este regimiento antes de la guerra"
+		"description_es": "Ejército Regular — el capitán Ulysses S. Grant sirvió en este regimiento antes de la guerra",
+		"description_de": "Reguläre Armee — Hauptmann Ulysses S. Grant diente vor dem Krieg in diesem Regiment"
 	},
 	{
 		"id": "u_inf_17us",
@@ -738,7 +765,8 @@
 		"name_tr": "17. ABD Piyade Alayı (düzenli ordu)",
 		"name_ko": "제17합중국 보병 연대 (정규군)",
 		"description_fr": "Brigade régulière — infanterie de l'armée régulière à Gettysburg et au-delà",
-		"description_es": "Brigada Regular — parte de la infantería del Ejército Regular en Gettysburg y más allá"
+		"description_es": "Brigada Regular — parte de la infantería del Ejército Regular en Gettysburg y más allá",
+		"description_de": "Reguläre Brigade — Teil der Infanterie der regulären Armee bei Gettysburg und darüber hinaus"
 	},
 	{
 		"id": "u_inf_01kc",
@@ -772,7 +800,8 @@
 		"name_tr": "1. Kansas Gönüllü Piyade Alayı (renkli)",
 		"name_ko": "제1캔자스 의용 보병 연대 (유색인종)",
 		"description_fr": "Première unité de combat noire — combattit à la bataille d'Island Mound, octobre 1862",
-		"description_es": "Primera unidad de combate negra — combatió en la batalla de Island Mound, octubre de 1862"
+		"description_es": "Primera unidad de combate negra — combatió en la batalla de Island Mound, octubre de 1862",
+		"description_de": "Erste schwarze Kampfeinheit — kämpfte in der Schlacht am Island Mound, Oktober 1862"
 	},
 	{
 		"id": "u_inf_04uc",
@@ -805,7 +834,8 @@
 		"name_tr": "4. ABD Renkli Piyade Alayı",
 		"name_ko": "제4합중국 유색 보병 연대",
 		"description_fr": "Reçut la médaille d'honneur à la bataille de Chaffin's Farm, septembre 1864",
-		"description_es": "Ganó la Medalla de Honor en la batalla de Chaffin's Farm, septiembre de 1864"
+		"description_es": "Ganó la Medalla de Honor en la batalla de Chaffin's Farm, septiembre de 1864",
+		"description_de": "Erhielt die Medal of Honor in der Schlacht am Chaffin's Farm, September 1864"
 	},
 	{
 		"id": "u_inf_22ny",
@@ -838,7 +868,8 @@
 		"name_tr": "22. New York Gönüllü Piyade Alayı",
 		"name_ko": "제22뉴욕 의용 보병 연대",
 		"description_fr": "«Brigade de Fer de l'Est» — combattit lors de la campagne du nord de la Virginie",
-		"description_es": "«Brigada de Hierro del Este» — combatió en la Campaña del Norte de Virginia"
+		"description_es": "«Brigada de Hierro del Este» — combatió en la Campaña del Norte de Virginia",
+		"description_de": "„Östliche Eiserne Brigade“ — kämpfte im Northern-Virginia-Feldzug"
 	},
 	{
 		"id": "u_inf_24ny",
@@ -871,7 +902,8 @@
 		"name_tr": "24. New York Gönüllü Piyade Alayı",
 		"name_ko": "제24뉴욕 의용 보병 연대",
 		"description_fr": "«Brigade de Fer de l'Est» — régiment de deux ans de New York",
-		"description_es": "«Brigada de Hierro del Este» — regimiento de dos años de Nueva York"
+		"description_es": "«Brigada de Hierro del Este» — regimiento de dos años de Nueva York",
+		"description_de": "„Östliche Eiserne Brigade“ — Zweijahresregiment aus New York"
 	},
 	{
 		"id": "u_inf_30ny",
@@ -904,7 +936,8 @@
 		"name_tr": "30. New York Gönüllü Piyade Alayı",
 		"name_ko": "제30뉴욕 의용 보병 연대",
 		"description_fr": "«Brigade de Fer de l'Est» — servit dans l'armée de Virginie sous Pope",
-		"description_es": "«Brigada de Hierro del Este» — sirvió en el Ejército de Virginia bajo Pope"
+		"description_es": "«Brigada de Hierro del Este» — sirvió en el Ejército de Virginia bajo Pope",
+		"description_de": "„Östliche Eiserne Brigade“ — diente in der Army of Virginia unter Pope"
 	},
 	{
 		"id": "u_cav_01us",
@@ -938,7 +971,8 @@
 		"name_tr": "1. ABD Süvari Alayı (düzenli ordu)",
 		"name_ko": "제1합중국 기병 연대 (정규군)",
 		"description_fr": "Cavalerie de l'armée régulière — troupes montées professionnelles à l'entraînement supérieur",
-		"description_es": "Caballería del Ejército Regular — tropas montadas profesionales con entrenamiento superior"
+		"description_es": "Caballería del Ejército Regular — tropas montadas profesionales con entrenamiento superior",
+		"description_de": "Kavallerie der regulären Armee — professionelle berittene Truppen mit überlegener Ausbildung"
 	},
 	{
 		"id": "u_cav_02us",
@@ -972,7 +1006,8 @@
 		"name_tr": "2. ABD Süvari Alayı (düzenli ordu)",
 		"name_ko": "제2합중국 기병 연대 (정규군)",
 		"description_fr": "Robert E. Lee et Joseph E. Johnston servirent tous deux dans ce régiment avant la guerre",
-		"description_es": "Robert E. Lee y Joseph E. Johnston sirvieron ambos en este regimiento antes de la guerra"
+		"description_es": "Robert E. Lee y Joseph E. Johnston sirvieron ambos en este regimiento antes de la guerra",
+		"description_de": "Robert E. Lee und Joseph E. Johnston dienten vor dem Krieg beide in diesem Regiment"
 	},
 	{
 		"id": "u_cav_05us",
@@ -1009,7 +1044,8 @@
 		"name_tr": "5. ABD Süvari Alayı (düzenli ordu)",
 		"name_ko": "제5합중국 기병 연대 (정규군)",
 		"description_fr": "Combattit à Yellow Tavern où J.E.B. Stuart fut mortellement blessé",
-		"description_es": "Combatió en Yellow Tavern, donde J.E.B. Stuart resultó mortalmente herido"
+		"description_es": "Combatió en Yellow Tavern, donde J.E.B. Stuart resultó mortalmente herido",
+		"description_de": "Kämpfte bei Yellow Tavern, wo J.E.B. Stuart tödlich verwundet wurde"
 	},
 	{
 		"id": "u_cav_06us",
@@ -1043,7 +1079,8 @@
 		"name_tr": "6. ABD Süvari Alayı (düzenli ordu)",
 		"name_ko": "제6합중국 기병 연대 (정규군)",
 		"description_fr": "Le seul nouveau régiment de cavalerie levé pour l'armée régulière pendant la guerre",
-		"description_es": "El único nuevo regimiento de caballería creado para el Ejército Regular durante la guerra"
+		"description_es": "El único nuevo regimiento de caballería creado para el Ejército Regular durante la guerra",
+		"description_de": "Das einzige neue Kavallerieregiment, das im Krieg für die reguläre Armee aufgestellt wurde"
 	},
 	{
 		"id": "u_cav_02mi",
@@ -1077,7 +1114,8 @@
 		"name_tr": "2. Michigan Gönüllü Süvari Alayı",
 		"name_ko": "제2미시간 의용 기병 연대",
 		"description_fr": "Premier commandement indépendant de Philip Sheridan — le début de sa carrière légendaire",
-		"description_es": "Primer mando independiente de Philip Sheridan — el comienzo de su carrera legendaria"
+		"description_es": "Primer mando independiente de Philip Sheridan — el comienzo de su carrera legendaria",
+		"description_de": "Philip Sheridans erstes eigenständiges Kommando — der Beginn seiner legendären Karriere"
 	},
 	{
 		"id": "u_cav_05mi",
@@ -1114,7 +1152,8 @@
 		"name_tr": "5. Michigan Gönüllü Süvari Alayı",
 		"name_ko": "제5미시간 의용 기병 연대",
 		"description_fr": "Brigade du Michigan de Custer — combattit à Yellow Tavern et à Gettysburg (champ de cavalerie Est)",
-		"description_es": "Brigada de Michigan de Custer — combatió en Yellow Tavern y Gettysburg (Campo de Caballería Este)"
+		"description_es": "Brigada de Michigan de Custer — combatió en Yellow Tavern y Gettysburg (Campo de Caballería Este)",
+		"description_de": "Custers Michigan-Brigade — kämpfte bei Yellow Tavern und Gettysburg (Östliches Kavalleriefeld)"
 	},
 	{
 		"id": "u_cav_06mi",
@@ -1148,7 +1187,8 @@
 		"name_tr": "6. Michigan Gönüllü Süvari Alayı",
 		"name_ko": "제6미시간 의용 기병 연대",
 		"description_fr": "Brigade du Michigan de Custer — combattit pendant les campagnes de l'Overland et de Petersburg",
-		"description_es": "Brigada de Michigan de Custer — combatió durante las campañas de Overland y Petersburg"
+		"description_es": "Brigada de Michigan de Custer — combatió durante las campañas de Overland y Petersburg",
+		"description_de": "Custers Michigan-Brigade — kämpfte in den Overland- und Petersburg-Feldzügen"
 	},
 	{
 		"id": "u_cav_07mi",
@@ -1182,7 +1222,8 @@
 		"name_tr": "7. Michigan Gönüllü Süvari Alayı",
 		"name_ko": "제7미시간 의용 기병 연대",
 		"description_fr": "Brigade du Michigan de Custer — servit avec distinction à Gettysburg et au-delà",
-		"description_es": "Brigada de Michigan de Custer — sirvió con distinción en Gettysburg y más allá"
+		"description_es": "Brigada de Michigan de Custer — sirvió con distinción en Gettysburg y más allá",
+		"description_de": "Custers Michigan-Brigade — diente mit Auszeichnung bei Gettysburg und darüber hinaus"
 	},
 	{
 		"id": "u_cav_06pa",
@@ -1216,7 +1257,8 @@
 		"name_tr": "6. Pennsylvania Gönüllü Süvari Alayı",
 		"name_ko": "제6펜실베이니아 의용 기병 연대",
 		"description_fr": "Les «lanciers» — d'abord armés de lances, puis convertis aux carabines",
-		"description_es": "Los «Lanceros» — armados inicialmente con lanzas, luego convertidos a carabinas"
+		"description_es": "Los «Lanceros» — armados inicialmente con lanzas, luego convertidos a carabinas",
+		"description_de": "Die „Ulanen“ — zunächst mit Lanzen bewaffnet, später auf Karabiner umgerüstet"
 	},
 	{
 		"id": "u_cav_01ny_mr",
@@ -1250,7 +1292,8 @@
 		"name_tr": "1. New York Atlı Nişancı Alayı",
 		"name_ko": "제1뉴욕 마상총포병 연대",
 		"description_fr": "Fusiliers montés — combattirent lors des campagnes de Suffolk et de Petersburg",
-		"description_es": "Fusileros montados — combatieron en las campañas de Suffolk y Petersburg"
+		"description_es": "Fusileros montados — combatieron en las campañas de Suffolk y Petersburg",
+		"description_de": "Berittene Schützen — kämpften in den Feldzügen von Suffolk und Petersburg"
 	},
 	{
 		"id": "u_cav_01wv",
@@ -1284,7 +1327,8 @@
 		"name_tr": "1. Batı Virginia Gönüllü Süvari Alayı",
 		"name_ko": "제1웨스트버지니아 의용 기병 연대",
 		"description_fr": "Loyalistes de l'Union de l'ouest de la Virginie — combattirent dans la vallée de Shenandoah",
-		"description_es": "Leales a la Unión del oeste de Virginia — combatieron en el valle de Shenandoah"
+		"description_es": "Leales a la Unión del oeste de Virginia — combatieron en el valle de Shenandoah",
+		"description_de": "Unionstreue aus Westvirginia — kämpften im Shenandoah-Tal"
 	},
 	{
 		"id": "u_cav_01vt",
@@ -1318,7 +1362,8 @@
 		"name_tr": "1. Vermont Gönüllü Süvari Alayı",
 		"name_ko": "제1버몬트 의용 기병 연대",
 		"description_fr": "Combattit les rangers de Mosby dans le nord de la Virginie — de Gettysburg à Appomattox",
-		"description_es": "Combatió contra los Rangers de Mosby en el norte de Virginia — de Gettysburg a Appomattox"
+		"description_es": "Combatió contra los Rangers de Mosby en el norte de Virginia — de Gettysburg a Appomattox",
+		"description_de": "Kämpfte gegen Mosbys Ranger in Nordvirginia — von Gettysburg bis Appomattox"
 	},
 	{
 		"id": "u_cav_05ny",
@@ -1352,7 +1397,8 @@
 		"name_tr": "5. New York Gönüllü Süvari Alayı",
 		"name_ko": "제5뉴욕 의용 기병 연대",
 		"description_fr": "Combattit les partisans de Mosby dans la vallée de Loudoun et le nord de la Virginie",
-		"description_es": "Combatió contra los partisanos de Mosby en el valle de Loudoun y el norte de Virginia"
+		"description_es": "Combatió contra los partisanos de Mosby en el valle de Loudoun y el norte de Virginia",
+		"description_de": "Kämpfte gegen Mosbys Partisanen im Loudoun-Tal und Nordvirginia"
 	},
 	{
 		"id": "u_cav_13ny",
@@ -1386,7 +1432,8 @@
 		"name_tr": "13. New York Gönüllü Süvari Alayı",
 		"name_ko": "제13뉴욕 의용 기병 연대",
 		"description_fr": "Pourchassa les rangers de Mosby dans tout le nord de la Virginie",
-		"description_es": "Persiguió a los Rangers de Mosby por todo el norte de Virginia"
+		"description_es": "Persiguió a los Rangers de Mosby por todo el norte de Virginia",
+		"description_de": "Verfolgte Mosbys Ranger durch ganz Nordvirginia"
 	},
 	{
 		"id": "u_art_B04us",
@@ -1420,7 +1467,8 @@
 		"name_tr": "Batarya B - 4. ABD Hafif Topçu Alayı",
 		"name_ko": "B포대 - 제4합중국 경포병 연대",
 		"description_fr": "Rattachée à la Brigade de Fer — artillerie régulière d'élite au tir remarquable",
-		"description_es": "Adscrita a la Brigada de Hierro — artillería regular de élite con puntería superior"
+		"description_es": "Adscrita a la Brigada de Hierro — artillería regular de élite con puntería superior",
+		"description_de": "Der Eisernen Brigade zugeteilt — elitäre reguläre Artillerie mit überlegener Schießkunst"
 	},
 	{
 		"id": "u_art_01us",
@@ -1453,7 +1501,8 @@
 		"name_tr": "1. ABD Topçu Alayı (düzenli ordu)",
 		"name_ko": "제1합중국 포병 연대 (정규군)",
 		"description_fr": "Armée régulière — toutes ses batteries servirent dans chaque grand théâtre de la guerre",
-		"description_es": "Ejército Regular — todas sus baterías sirvieron en cada gran teatro de la guerra"
+		"description_es": "Ejército Regular — todas sus baterías sirvieron en cada gran teatro de la guerra",
+		"description_de": "Reguläre Armee — alle Batterien dienten in jedem großen Kriegsschauplatz"
 	},
 	{
 		"id": "u_art_02us",
@@ -1487,7 +1536,8 @@
 		"name_tr": "2. ABD Topçu Alayı (düzenli ordu)",
 		"name_ko": "제2합중국 포병 연대 (정규군)",
 		"description_fr": "Artillerie à cheval de Tidball — artillerie très mobile appuyant les opérations de cavalerie",
-		"description_es": "Artillería a Caballo de Tidball — artillería muy móvil que apoyaba operaciones de caballería"
+		"description_es": "Artillería a Caballo de Tidball — artillería muy móvil que apoyaba operaciones de caballería",
+		"description_de": "Tidballs reitende Artillerie — hochmobile Artillerie zur Unterstützung von Kavallerieoperationen"
 	},
 	{
 		"id": "u_art_05us",
@@ -1520,7 +1570,8 @@
 		"name_tr": "5. ABD Topçu Alayı (düzenli ordu)",
 		"name_ko": "제5합중국 포병 연대 (정규군)",
 		"description_fr": "Artillerie de l'armée régulière — ses batteries servirent du premier Bull Run à Appomattox",
-		"description_es": "Artillería del Ejército Regular — sus baterías sirvieron del Primer Bull Run a Appomattox"
+		"description_es": "Artillería del Ejército Regular — sus baterías sirvieron del Primer Bull Run a Appomattox",
+		"description_de": "Artillerie der regulären Armee — ihre Batterien dienten vom Ersten Bull Run bis Appomattox"
 	},
 	{
 		"id": "u_art_01ct",
@@ -1554,7 +1605,8 @@
 		"name_tr": "1. Connecticut Hafif Topçusu",
 		"name_ko": "제1코네티컷 경포병",
 		"description_fr": "Armée d'obusiers de 32 livres — puissance de feu dévastatrice en siège et en garnison",
-		"description_es": "Armada con obuses de 32 libras — potencia de fuego devastadora en asedio y guarnición"
+		"description_es": "Armada con obuses de 32 libras — potencia de fuego devastadora en asedio y guarnición",
+		"description_de": "Mit 32-Pfünder-Haubitzen bewaffnet — verheerende Feuerkraft bei Belagerungen und in Garnisonen"
 	},
 	{
 		"id": "u_art_01mn",
@@ -1587,7 +1639,8 @@
 		"name_tr": "1. Minnesota Hafif Bataryası",
 		"name_ko": "제1미네소타 경포대",
 		"description_fr": "Équipée de canons rayés Ordnance de 3 pouces — pièces rayées précises et fiables",
-		"description_es": "Equipada con cañones rayados Ordnance de 3 pulgadas — piezas rayadas precisas y fiables"
+		"description_es": "Equipada con cañones rayados Ordnance de 3 pulgadas — piezas rayadas precisas y fiables",
+		"description_de": "Mit 3-Zoll-Ordnance-Geschützen ausgerüstet — präzise und zuverlässige gezogene Geschütze"
 	},
 	{
 		"id": "u_art_13in",
@@ -1620,7 +1673,8 @@
 		"name_tr": "13. Indiana Hafif Bataryası",
 		"name_ko": "제13인디애나 경포대",
 		"description_fr": "Armée de canons Napoleon de 12 livres — la pièce maîtresse de l'artillerie de campagne",
-		"description_es": "Armada con cañones Napoleon de 12 libras — el caballo de batalla de la artillería de campaña"
+		"description_es": "Armada con cañones Napoleon de 12 libras — el caballo de batalla de la artillería de campaña",
+		"description_de": "Mit 12-Pfünder-Napoleon-Geschützen bewaffnet — das Arbeitstier der Feldartillerie"
 	},
 	{
 		"id": "u_art_07ny_h",
@@ -1654,7 +1708,8 @@
 		"name_tr": "7. New York Ağır Topçusu",
 		"name_ko": "제7뉴욕 중포병 연대",
 		"description_fr": "Artillerie lourde servant comme canonniers et fantassins — fonctions de garnison et de siège",
-		"description_es": "Artillería pesada que servía como artilleros e infantería — funciones de guarnición y asedio"
+		"description_es": "Artillería pesada que servía como artilleros e infantería — funciones de guarnición y asedio",
+		"description_de": "Schwere Artillerie als Kanoniere und Infanterie — Garnisons- und Belagerungsdienst"
 	},
 	{
 		"id": "u_art_02uc",
@@ -1687,7 +1742,8 @@
 		"name_tr": "2. ABD Renkli (Hafif) Topçusu",
 		"name_ko": "제2합중국 유색 (경) 포병 연대",
 		"description_fr": "Neuf batteries distinctes d'artilleurs noirs — servirent dans le théâtre occidental",
-		"description_es": "Nueve baterías separadas de artilleros negros — sirvieron en el Teatro Occidental"
+		"description_es": "Nueve baterías separadas de artilleros negros — sirvieron en el Teatro Occidental",
+		"description_de": "Neun eigenständige Batterien schwarzer Artilleristen — dienten im westlichen Kriegsschauplatz"
 	},
 	{
 		"id": "u_ship_monitor",
@@ -1726,7 +1782,9 @@
 		"name_tr": "USS Monitor",
 		"name_ko": "USS 모니터",
 		"description_fr": "Cuirassé à tourelle — tourelle rotative révolutionnaire avec deux canons Dahlgren de 11 pouces, construit en 101 jours",
-		"description_es": "Ironclad con torreta — torreta giratoria revolucionaria con dos cañones Dahlgren de 11 pulgadas, construido en 101 días"
+		"description_es": "Ironclad con torreta — torreta giratoria revolucionaria con dos cañones Dahlgren de 11 pulgadas, construido en 101 días",
+		"description_de": "Turmschiffsmonitor — revolutionärer drehbarer Geschützturm mit zwei 11-Zoll-Dahlgren-Kanonen, in 101 Tagen gebaut",
+		"flavor_de": "„Ein Käsekasten auf einem Floß“ — Zeitgenosse"
 	},
 	{
 		"id": "u_ship_galena",
@@ -1759,7 +1817,8 @@
 		"name_tr": "USS Galena",
 		"name_ko": "USS 갈레나",
 		"description_fr": "Sloop cuirassé — l'un des trois premiers cuirassés commandés par la marine américaine",
-		"description_es": "Balandra blindada — uno de los tres primeros ironclads encargados por la Marina de EE.UU."
+		"description_es": "Balandra blindada — uno de los tres primeros ironclads encargados por la Marina de EE.UU.",
+		"description_de": "Gepanzerte Schaluppe — eines der ersten drei Panzerschiffe der US-Marine"
 	},
 	{
 		"id": "u_ship_newironsides",
@@ -1793,7 +1852,8 @@
 		"name_tr": "USS New Ironsides",
 		"name_ko": "USS 뉴아이언사이즈",
 		"description_fr": "Cuirassé à casemate — le navire à bordée le plus puissant de la marine américaine, dévasta les défenses de Charleston",
-		"description_es": "Ironclad de casamata — el buque con andanada más poderoso de la Marina de EE.UU., devastó las defensas de Charleston"
+		"description_es": "Ironclad de casamata — el buque con andanada más poderoso de la Marina de EE.UU., devastó las defensas de Charleston",
+		"description_de": "Kasematt-Panzerschiff — das stärkste Breitseitschiff der US-Marine, zerschmetterte die Verteidigung von Charleston"
 	},
 	{
 		"id": "u_ship_cairo",
@@ -1830,7 +1890,8 @@
 		"name_tr": "USS Cairo",
 		"name_ko": "USS 카이로",
 		"description_fr": "Cuirassé fluvial de classe City («Pook Turtle») — coulé par une mine confédérée sur la rivière Yazoo",
-		"description_es": "Ironclad fluvial clase City («Pook Turtle») — hundido por una mina confederada en el río Yazoo"
+		"description_es": "Ironclad fluvial clase City («Pook Turtle») — hundido por una mina confederada en el río Yazoo",
+		"description_de": "Flussmonitor der City-Klasse („Pook Turtle“) — im Yazoo von einer konföderierten Mine versenkt"
 	},
 	{
 		"id": "u_ship_carondelet",
@@ -1865,7 +1926,8 @@
 		"name_tr": "USS Carondelet",
 		"name_ko": "USS 카론들릿",
 		"description_fr": "Cuirassé fluvial de classe City — combattit dans presque tous les engagements fluviaux sur le Mississippi",
-		"description_es": "Ironclad fluvial clase City — combatió en casi todos los enfrentamientos fluviales del Mississippi"
+		"description_es": "Ironclad fluvial clase City — combatió en casi todos los enfrentamientos fluviales del Mississippi",
+		"description_de": "Flussmonitor der City-Klasse — kämpfte in fast jedem Flussgefecht am Mississippi"
 	},
 	{
 		"id": "u_ship_benton",
@@ -1901,7 +1963,8 @@
 		"name_tr": "USS Benton",
 		"name_ko": "USS 벤턴",
 		"description_fr": "Navire amiral de l'escadron du Mississippi — le cuirassé fluvial le plus puissant des eaux de l'Ouest",
-		"description_es": "Buque insignia del Escuadrón del Mississippi — el ironclad fluvial más poderoso de las aguas del Oeste"
+		"description_es": "Buque insignia del Escuadrón del Mississippi — el ironclad fluvial más poderoso de las aguas del Oeste",
+		"description_de": "Flaggschiff des Mississippi-Geschwaders — der stärkste Flussmonitor der westlichen Gewässer"
 	},
 	{
 		"id": "u_ship_kearsarge",
@@ -1937,7 +2000,8 @@
 		"name_tr": "USS Kearsarge",
 		"name_ko": "USS 키어서지",
 		"description_fr": "Coula le CSS Alabama au large de Cherbourg — une armure de chaînes cachée protégeait les machines",
-		"description_es": "Hundió al CSS Alabama frente a Cherburgo — una correa oculta de cadenas protegía las máquinas"
+		"description_es": "Hundió al CSS Alabama frente a Cherburgo — una correa oculta de cadenas protegía las máquinas",
+		"description_de": "Versenkte die CSS Alabama vor Cherbourg — versteckte Kettenpanzerung schützte die Maschinenräume"
 	},
 	{
 		"id": "u_ship_cumberland",
@@ -1973,7 +2037,8 @@
 		"name_tr": "USS Cumberland",
 		"name_ko": "USS 컴벌랜드",
 		"description_fr": "Frégate à voiles — éperonnée et coulée par le CSS Virginia à Hampton Roads, sombra canons au clair",
-		"description_es": "Fragata de vela — embestido y hundido por el CSS Virginia en Hampton Roads, se hundió con los cañones aún disparando"
+		"description_es": "Fragata de vela — embestido y hundido por el CSS Virginia en Hampton Roads, se hundió con los cañones aún disparando",
+		"description_de": "Segelfregatte — von der CSS Virginia bei Hampton Roads gerammt und versenkt, ging mit weiterfeuernden Geschützen unter"
 	},
 	{
 		"id": "u_ship_moundcity",
@@ -2008,7 +2073,8 @@
 		"name_tr": "USS Mound City",
 		"name_ko": "USS 마운드시티",
 		"description_fr": "Cuirassé fluvial de classe City — servit sur le Mississippi et ses affluents",
-		"description_es": "Ironclad fluvial clase City — sirvió en el Mississippi y sus afluentes"
+		"description_es": "Ironclad fluvial clase City — sirvió en el Mississippi y sus afluentes",
+		"description_de": "Flussmonitor der City-Klasse — diente auf dem Mississippi und seinen Nebenflüssen"
 	},
 	{
 		"id": "u_ship_louisville",
@@ -2044,7 +2110,8 @@
 		"name_tr": "USS Louisville",
 		"name_ko": "USS 루이빌",
 		"description_fr": "Cuirassé fluvial de classe City — participa à la campagne de Vicksburg",
-		"description_es": "Ironclad fluvial clase City — participó en la campaña de Vicksburg"
+		"description_es": "Ironclad fluvial clase City — participó en la campaña de Vicksburg",
+		"description_de": "Flussmonitor der City-Klasse — nahm am Vicksburg-Feldzug teil"
 	},
 	{
 		"id": "u_ship_essex",
@@ -2079,7 +2146,8 @@
 		"name_tr": "USS Essex",
 		"name_ko": "USS 에식스",
 		"description_fr": "Cuirassé fluvial — converti depuis un bateau de dégagement, combattit au fort Henry et à Vicksburg",
-		"description_es": "Ironclad fluvial — convertido a partir de un barco de desobstrucción, combatió en Fuerte Henry y Vicksburg"
+		"description_es": "Ironclad fluvial — convertido a partir de un barco de desobstrucción, combatió en Fuerte Henry y Vicksburg",
+		"description_de": "Flussmonitor — aus einem Räumboot umgebaut, kämpfte bei Fort Henry und Vicksburg"
 	},
 	{
 		"id": "u_ship_minnesota",
@@ -2113,7 +2181,8 @@
 		"name_tr": "USS Minnesota",
 		"name_ko": "USS 미네소타",
 		"description_fr": "Frégate à vapeur — navire amiral de l'escadron de blocus de l'Atlantique Nord",
-		"description_es": "Fragata de vapor — buque insignia del Escuadrón de Bloqueo del Atlántico Norte"
+		"description_es": "Fragata de vapor — buque insignia del Escuadrón de Bloqueo del Atlántico Norte",
+		"description_de": "Dampffregatte — Flaggschiff des Nordatlantik-Blockadegeschwaders"
 	},
 	{
 		"id": "u_ship_vanderbilt",
@@ -2147,7 +2216,8 @@
 		"name_tr": "USS Vanderbilt",
 		"name_ko": "USS 밴더빌트",
 		"description_fr": "Vapeur d'éperonnage — navire marchand armé conçu pour éperonner le CSS Virginia",
-		"description_es": "Vapor de espolón — mercante armado diseñado para embestir al CSS Virginia"
+		"description_es": "Vapor de espolón — mercante armado diseñado para embestir al CSS Virginia",
+		"description_de": "Ramdampfer — bewaffnetes Handelsschiff, gebaut um die CSS Virginia zu rammen"
 	},
 	{
 		"id": "u_spec_berdan1",
@@ -2185,7 +2255,9 @@
 		"name_tr": "1. ABD Keskin Nişancı Alayı (Berdan'ın)",
 		"name_ko": "제1합중국 저격병 연대 (버던)",
 		"description_fr": "Uniforme vert, fusils Sharps — tireurs d'élite mortels précis jusqu'à 600 yards",
-		"description_es": "Uniforme verde, fusiles Sharps — tiradores letales con precisión de hasta 600 yardas"
+		"description_es": "Uniforme verde, fusiles Sharps — tiradores letales con precisión de hasta 600 yardas",
+		"description_de": "Grüne Uniform, Sharps-Gewehre — tödliche Scharfschützen, auf 600 Yards treffsicher",
+		"flavor_de": "„Ein Mann, der nicht zehn Schüsse in Folge in einen Kreis von zehn Zoll auf 200 Yards brachte, wurde abgelehnt“"
 	},
 	{
 		"id": "u_spec_berdan2",
@@ -2219,7 +2291,8 @@
 		"name_tr": "2. ABD Keskin Nişancı Alayı",
 		"name_ko": "제2합중국 저격병 연대",
 		"description_fr": "Tireurs d'élite — recrutés pour leurs capacités exceptionnelles de tir à travers les états du Nord",
-		"description_es": "Tiradores de élite — reclutados por su excepcional puntería en los estados del Norte"
+		"description_es": "Tiradores de élite — reclutados por su excepcional puntería en los estados del Norte",
+		"description_de": "Eliteschützen — wegen außergewöhnlicher Schießkunst in den Nordstaaten rekrutiert"
 	},
 	{
 		"id": "u_spec_ny_ss",
@@ -2252,7 +2325,8 @@
 		"name_tr": "1. New York Gönüllü Keskin Nişancı Taburu",
 		"name_ko": "제1뉴욕 의용 저격병 대대",
 		"description_fr": "Tir de précision — bataillon indépendant de tireurs d'élite de New York",
-		"description_es": "Fuego de precisión — batallón independiente de tiradores de Nueva York"
+		"description_es": "Fuego de precisión — batallón independiente de tiradores de Nueva York",
+		"description_de": "Präzisionsfeuer — eigenständiges Scharfschützenbataillon aus New York"
 	},
 	{
 		"id": "u_spec_ma_ss",
@@ -2285,7 +2359,8 @@
 		"name_tr": "1. Massachusetts Keskin Nişancı Bölüğü (Andrew Muhafızları)",
 		"name_ko": "제1매사추세츠 저격병 중대 (앤드루 근위대)",
 		"description_fr": "Tireurs d'élite volontaires — levés par le gouverneur John Andrew du Massachusetts",
-		"description_es": "Tiradores voluntarios — reclutados por el gobernador John Andrew de Massachusetts"
+		"description_es": "Tiradores voluntarios — reclutados por el gobernador John Andrew de Massachusetts",
+		"description_de": "Freiwillige Scharfschützen — von Gouverneur John Andrew von Massachusetts aufgestellt"
 	},
 	{
 		"id": "u_spec_lightning",
@@ -2324,7 +2399,9 @@
 		"name_tr": "Wilder'ın Şimşek Tugayı",
 		"name_ko": "와일더의 번개 여단",
 		"description_fr": "Fusils à répétition Spencer — infanterie montée tirant sept coups sans recharger, révolutionna la puissance de feu",
-		"description_es": "Fusiles de repetición Spencer — infantería montada que disparaba siete tiros sin recargar, revolucionó la potencia de fuego"
+		"description_es": "Fusiles de repetición Spencer — infantería montada que disparaba siete tiros sin recargar, revolucionó la potencia de fuego",
+		"description_de": "Spencer-Repetiergewehre — berittene Infanterie mit sieben Schüssen ohne Nachladen, revolutionierte die Feuerkraft",
+		"flavor_de": "„Tief zielen, Männer, und gebt es ihnen!“ — Col. John T. Wilder bei Hoover's Gap"
 	},
 	{
 		"id": "u_spec_loudoun",
@@ -2358,7 +2435,8 @@
 		"name_tr": "Loudoun Kışancıları (Mean'in kışancıları)",
 		"name_ko": "라우든 레인저스 (민의 레인저스)",
 		"description_fr": "La seule unité levée en Virginie qui combattit pour l'Union — rangers partisans du comté de Loudoun",
-		"description_es": "La única unidad reclutada en Virginia que combatió por la Unión — rangers partisanos del condado de Loudoun"
+		"description_es": "La única unidad reclutada en Virginia que combatió por la Unión — rangers partisanos del condado de Loudoun",
+		"description_de": "Die einzige in Virginia aufgestellte Einheit, die für die Union kämpfte — Partisanenranger aus dem Loudoun County"
 	},
 	{
 		"id": "u_spec_blazer",
@@ -2392,7 +2470,8 @@
 		"name_tr": "Blazer'ın İzcileri",
 		"name_ko": "블레이저의 정찰병",
 		"description_fr": "Compagnie d'éclaireurs indépendante formée spécifiquement pour contrer les rangers de Mosby",
-		"description_es": "Compañía independiente de exploradores creada específicamente para contrarrestar a los Rangers de Mosby"
+		"description_es": "Compañía independiente de exploradores creada específicamente para contrarrestar a los Rangers de Mosby",
+		"description_de": "Eigenständige Aufklärungskompagnie, gezielt gegen Mosbys Ranger aufgestellt"
 	},
 	{
 		"id": "u_spec_1la_ng",
@@ -2427,6 +2506,7 @@
 		"name_tr": "1. Louisiana Yerli Muhafızları (renkli - Birlik)",
 		"name_ko": "제1루이지애나 원주민 위병 (유색 - 연합)",
 		"description_fr": "Créoles libres de couleur de La Nouvelle-Orléans — parmi les premières unités noires incorporées dans l'armée de l'Union",
-		"description_es": "Criollos libres de color de Nueva Orleans — entre las primeras unidades negras incorporadas al Ejército de la Unión"
+		"description_es": "Criollos libres de color de Nueva Orleans — entre las primeras unidades negras incorporadas al Ejército de la Unión",
+		"description_de": "Freie Kreolen farbiger Abstammung aus New Orleans — unter den ersten schwarzen Einheiten der Unionsarmee"
 	}
 ]

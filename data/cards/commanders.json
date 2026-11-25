@@ -32,7 +32,9 @@
 		"name_it": "Abraham Lincoln",
 		"name_pl": "Abraham Lincoln",
 		"name_tr": "Abraham Lincoln",
-		"name_ko": "에이브러햄 링컨"
+		"name_ko": "에이브러햄 링컨",
+		"effect_de": "+2 Moral, in dieser Runde 1 zusätzliche Karte ausspielen",
+		"rank_de": "Präsident"
 	},
 	{
 		"id": "cmd_grant",
@@ -69,7 +71,9 @@
 		"name_it": "Ulysses S. Grant",
 		"name_pl": "Ulysses S. Grant",
 		"name_tr": "Ulysses S. Grant",
-		"name_ko": "율리시스 S. 그랜트"
+		"name_ko": "율리시스 S. 그랜트",
+		"effect_de": "Alle Einheiten +1 ANG für 2 Runden. Risiko: Nachschublinien können überdehnt werden",
+		"rank_de": "Generalleutnant"
 	},
 	{
 		"id": "cmd_sherman",
@@ -106,7 +110,9 @@
 		"name_it": "William T. Sherman",
 		"name_pl": "William T. Sherman",
 		"name_tr": "William T. Sherman",
-		"name_ko": "윌리엄 T. 셔먼"
+		"name_ko": "윌리엄 T. 셔먼",
+		"effect_de": "In Georgia: zerstört Infrastruktur, +2 Territorien erhalten",
+		"rank_de": "Generalmajor"
 	},
 	{
 		"id": "cmd_mcclellan",
@@ -139,7 +145,9 @@
 		"name_it": "George McClellan",
 		"name_pl": "George McClellan",
 		"name_tr": "George McClellan",
-		"name_ko": "조지 매클레런"
+		"name_ko": "조지 매클레런",
+		"effect_de": "+2 VER für alle Einheiten, aber 1 Runde lang kein Angriff",
+		"rank_de": "Generalmajor"
 	},
 	{
 		"id": "cmd_meade",
@@ -173,7 +181,9 @@
 		"name_it": "George Meade",
 		"name_pl": "George Meade",
 		"name_tr": "George Meade",
-		"name_ko": "조지 미드"
+		"name_ko": "조지 미드",
+		"effect_de": "+1 VER für alle Einheiten. In Pennsylvania: +3 VER auf gewählter Position",
+		"rank_de": "Generalmajor"
 	},
 	{
 		"id": "cmd_burnside",
@@ -207,7 +217,9 @@
 		"name_it": "Ambrose Burnside",
 		"name_pl": "Ambrose Burnside",
 		"name_tr": "Ambrose Burnside",
-		"name_ko": "앰브로즈 번사이드"
+		"name_ko": "앰브로즈 번사이드",
+		"effect_de": "Frontalangriff: +2 ANG, aber alle Einheiten verlieren 50% KP",
+		"rank_de": "Generalmajor"
 	},
 	{
 		"id": "cmd_hooker",
@@ -240,7 +252,9 @@
 		"name_it": "Joseph Hooker",
 		"name_pl": "Joseph Hooker",
 		"name_tr": "Joseph Hooker",
-		"name_ko": "조지프 후커"
+		"name_ko": "조지프 후커",
+		"effect_de": "+1 ANG für die gesamte Armee. Risiko: kann in Lees Falle tappen",
+		"rank_de": "Generalmajor"
 	},
 	{
 		"id": "cmd_sheridan",
@@ -274,7 +288,9 @@
 		"name_it": "Philip Sheridan",
 		"name_pl": "Philip Sheridan",
 		"name_tr": "Philip Sheridan",
-		"name_ko": "필립 셰리든"
+		"name_ko": "필립 셰리든",
+		"effect_de": "Alle Kavallerie +2 ANG. Kann „das Tal niederbrennen“ — die gesamte Infrastruktur im Shenandoah-Tal zerstören",
+		"rank_de": "Generalmajor"
 	},
 	{
 		"id": "cmd_custer",
@@ -310,7 +326,9 @@
 		"name_it": "George Armstrong Custer",
 		"name_pl": "George Armstrong Custer",
 		"name_tr": "George Armstrong Custer",
-		"name_ko": "조지 암스트롱 커스터"
+		"name_ko": "조지 암스트롱 커스터",
+		"effect_de": "Custers Brigade +3 ANG. Risiko: greift ohne Aufklärung an",
+		"rank_de": "Brigadegeneral"
 	},
 	{
 		"id": "cmd_hancock",
@@ -343,7 +361,9 @@
 		"name_it": "Winfield Scott Hancock",
 		"name_pl": "Winfield Scott Hancock",
 		"name_tr": "Winfield Scott Hancock",
-		"name_ko": "윈필드 스콧 핸콕"
+		"name_ko": "윈필드 스콧 핸콕",
+		"effect_de": "+2 VER auf gewählter Position. „Hancock der Prächtige“",
+		"rank_de": "Generalmajor"
 	},
 	{
 		"id": "cmd_reynolds",
@@ -376,7 +396,9 @@
 		"name_it": "John Reynolds",
 		"name_pl": "John Reynolds",
 		"name_tr": "John Reynolds",
-		"name_ko": "존 레이놀즈"
+		"name_ko": "존 레이놀즈",
+		"effect_de": "Einheiten sofort auf einem angegriffenen Territorium aufstellen",
+		"rank_de": "Generalmajor"
 	},
 	{
 		"id": "cmd_chamberlain",
@@ -412,7 +434,9 @@
 		"name_it": "Joshua Chamberlain",
 		"name_pl": "Joshua Chamberlain",
 		"name_tr": "Joshua Chamberlain",
-		"name_ko": "조슈아 체임벌린"
+		"name_ko": "조슈아 체임벌린",
+		"effect_de": "An das 20. Maine gebunden: Bajonettangriff +5 ANG, verbraucht aber alle Munition",
+		"rank_de": "Oberst"
 	},
 	{
 		"id": "cmd_jefferson",
@@ -445,7 +469,9 @@
 		"name_it": "Jefferson Davis",
 		"name_pl": "Jefferson Davis",
 		"name_tr": "Jefferson Davis",
-		"name_ko": "제퍼슨 데이비스"
+		"name_ko": "제퍼슨 데이비스",
+		"effect_de": "+1 Moral, 1 Einheit auf ein beliebiges Territorium versetzen",
+		"rank_de": "Präsident der Konföderierten"
 	},
 	{
 		"id": "cmd_relee",
@@ -483,7 +509,9 @@
 		"name_it": "Robert E. Lee",
 		"name_pl": "Robert E. Lee",
 		"name_tr": "Robert E. Lee",
-		"name_ko": "로버트 E. 리"
+		"name_ko": "로버트 E. 리",
+		"effect_de": "Alle Einheiten +1 ANG und +1 VER. Risiko: neigt zur Teilung der Kräfte",
+		"rank_de": "General (Oberbefehlshaber der Konföderierten)"
 	},
 	{
 		"id": "cmd_stonewall",
@@ -520,7 +548,9 @@
 		"name_it": "Thomas Stonewall Jackson",
 		"name_pl": "Thomas Stonewall Jackson",
 		"name_tr": "Thomas Stonewall Jackson",
-		"name_ko": "토머스 스톤월 잭슨"
+		"name_ko": "토머스 스톤월 잭슨",
+		"effect_de": "Flankenmanöver: +3 ANG beim Angriff über die Flanke",
+		"rank_de": "Generalleutnant"
 	},
 	{
 		"id": "cmd_longstreet",
@@ -553,7 +583,9 @@
 		"name_it": "James Longstreet",
 		"name_pl": "James Longstreet",
 		"name_tr": "James Longstreet",
-		"name_ko": "제임스 롱스트리트"
+		"name_ko": "제임스 롱스트리트",
+		"effect_de": "Defensivtaktik: +3 VER auf gewählter Position",
+		"rank_de": "Generalleutnant"
 	},
 	{
 		"id": "cmd_stuart",
@@ -589,7 +621,9 @@
 		"name_it": "J.E.B. Stuart",
 		"name_pl": "J.E.B. Stuart",
 		"name_tr": "J.E.B. Stuart",
-		"name_ko": "J.E.B. 스튜어트"
+		"name_ko": "J.E.B. 스튜어트",
+		"effect_de": "Alle Kavallerie +2 ANG. Aufklärung: 1 feindliche Karte ansehen",
+		"rank_de": "Generalmajor"
 	},
 	{
 		"id": "cmd_aphill",
@@ -622,7 +656,9 @@
 		"name_it": "A.P. Hill",
 		"name_pl": "A.P. Hill",
 		"name_tr": "A.P. Hill",
-		"name_ko": "A.P. 힐"
+		"name_ko": "A.P. 힐",
+		"effect_de": "Gewaltmarsch: Einheiten treffen 1 Runde früher ein",
+		"rank_de": "Generalleutnant"
 	},
 	{
 		"id": "cmd_forrest",
@@ -658,7 +694,9 @@
 		"name_it": "Nathan Bedford Forrest",
 		"name_pl": "Nathan Bedford Forrest",
 		"name_tr": "Nathan Bedford Forrest",
-		"name_ko": "네이선 베드퍼드 포러스트"
+		"name_ko": "네이선 베드퍼드 포러스트",
+		"effect_de": "Bei zahlenmäßiger Unterlegenheit mit doppelter Stärke angreifen",
+		"rank_de": "Generalleutnant"
 	},
 	{
 		"id": "cmd_johnston",
@@ -694,7 +732,9 @@
 		"name_it": "Joseph Johnston",
 		"name_pl": "Joseph Johnston",
 		"name_tr": "Joseph Johnston",
-		"name_ko": "조지프 존스턴"
+		"name_ko": "조지프 존스턴",
+		"effect_de": "Rückzugstaktik: Territorium ohne Verluste aufgeben, +2 VER auf der nächsten Position",
+		"rank_de": "General"
 	},
 	{
 		"id": "cmd_bragg",
@@ -727,7 +767,9 @@
 		"name_it": "Braxton Bragg",
 		"name_pl": "Braxton Bragg",
 		"name_tr": "Braxton Bragg",
-		"name_ko": "브랙스턴 브래그"
+		"name_ko": "브랙스턴 브래그",
+		"effect_de": "-1 Moral beim Gegner, aber -1 ANG für eigene Truppen",
+		"rank_de": "General"
 	},
 	{
 		"id": "cmd_hood",
@@ -760,7 +802,9 @@
 		"name_it": "John Bell Hood",
 		"name_pl": "John Bell Hood",
 		"name_tr": "John Bell Hood",
-		"name_ko": "존 벨 후드"
+		"name_ko": "존 벨 후드",
+		"effect_de": "Aggressiver Angriff: +4 ANG, aber -3 VER",
+		"rank_de": "Generalmajor"
 	},
 	{
 		"id": "cmd_pickett",
@@ -795,7 +839,9 @@
 		"name_it": "George Pickett",
 		"name_pl": "George Pickett",
 		"name_tr": "George Pickett",
-		"name_ko": "조지 피켓"
+		"name_ko": "조지 피켓",
+		"effect_de": "Bei 5+ Brigaden und Lee auf dem Feld: massierter Angriff. Erfolg = Durchbruch, Misserfolg = alles verlieren",
+		"rank_de": "Generalmajor"
 	},
 	{
 		"id": "cmd_early",
@@ -828,6 +874,8 @@
 		"name_it": "Jubal Early",
 		"name_pl": "Jubal Early",
 		"name_tr": "Jubal Early",
-		"name_ko": "주벌 얼리"
+		"name_ko": "주벌 얼리",
+		"effect_de": "Überfall auf Washington: an der Grenze zu Maryland die Hauptstadt der Union bedrohen",
+		"rank_de": "Generalleutnant"
 	}
 ]

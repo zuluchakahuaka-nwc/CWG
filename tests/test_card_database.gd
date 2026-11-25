@@ -43,13 +43,16 @@ const CARD_LOCALES: PackedStringArray = [
 ## (no English fallback => no mid-screen mix). The guard also rejects a
 ## locale that exists only on SOME cards (partial application).
 const DESC_DONE_LOCALES: PackedStringArray = [
-	"fr", "es",
+	"fr", "es", "de",
 ]
 const FLAVOR_DONE_LOCALES: PackedStringArray = [
+	"de",
 ]
 const EFFECT_DONE_LOCALES: PackedStringArray = [
+	"de",
 ]
 const RANK_DONE_LOCALES: PackedStringArray = [
+	"de",
 ]
 
 func _all_cards_for_l10n() -> Array:

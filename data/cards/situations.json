@@ -31,7 +31,9 @@
 		"name_tr": "Cushing'ın istingalı torpidosu",
 		"name_ko": "커싱의 봉 어뢰",
 		"description_fr": "Dans la nuit du 27 octobre 1864, le lieutenant William B. Cushing mena un raid audacieux sur la Roanoke et coula le cuirassé CSS Albemarle avec une torpille d'éperon montée sur un canot à vapeur.",
-		"description_es": "En la noche del 27 de octubre de 1864, el teniente William B. Cushing dirigió una audaz incursión río Roanoke arriba y hundió el ironclad CSS Albemarle con un torpedo de espolón montado en una lancha de vapor."
+		"description_es": "En la noche del 27 de octubre de 1864, el teniente William B. Cushing dirigió una audaz incursión río Roanoke arriba y hundió el ironclad CSS Albemarle con un torpedo de espolón montado en una lancha de vapor.",
+		"description_de": "In der Nacht des 27. Oktober 1864 führte Leutnant William B. Cushing einen waghalsigen Raid den Roanoke hinauf und versenkte den Panzer CSS Albemarle mit einem Spartorpedo auf einem Dampfboot.",
+		"effect_de": "Lt. Cushing versenkt die CSS Albemarle mit einem Spartorpedo"
 	},
 	{
 		"id": "EVENT_HAMPTON_ROADS",
@@ -66,7 +68,9 @@
 		"name_tr": "İlk zırhlı savaşı",
 		"name_ko": "최초의 철갑함 전투",
 		"description_fr": "Le 9 mars 1862, l'USS Monitor affronta le CSS Virginia (ex-Merrimack) à Hampton Roads lors du premier combat de l'histoire entre cuirassés. Après des heures de combat, aucun ne put percer l'armure de l'autre.",
-		"description_es": "El 9 de marzo de 1862, el USS Monitor se enfrentó al CSS Virginia (ex-Merrimack) en Hampton Roads en la primera batalla entre buques blindados de la historia. Tras horas de combate, ninguno pudo perforar la coraza del otro."
+		"description_es": "El 9 de marzo de 1862, el USS Monitor se enfrentó al CSS Virginia (ex-Merrimack) en Hampton Roads en la primera batalla entre buques blindados de la historia. Tras horas de combate, ninguno pudo perforar la coraza del otro.",
+		"description_de": "Am 9. März 1862 traf die USS Monitor bei Hampton Roads auf die CSS Virginia (ex-Merrimack) — das erste Gefecht zwischen Panzerschiffen der Geschichte. Nach stundenlangem Kampf konnte keiner die Panzerung des anderen durchdringen.",
+		"effect_de": "Das erste Gefecht der Panzerschiffe endet unentschieden — beide überleben, die Schlacht entfällt"
 	},
 	{
 		"id": "EVENT_RAM_CUMBERLAND",
@@ -100,7 +104,9 @@
 		"name_tr": "Virginia'nın mahmuzu",
 		"name_ko": "버지니아호의 충각",
 		"description_fr": "Le 8 mars 1862, le CSS Virginia éperonna et coula l'USS Cumberland. L'éperon resta coincé dans le navire qui sombrait, manquant d'entraîner le Virginia avec lui. Le Virginia détruisit ensuite l'USS Congress par ses tirs.",
-		"description_es": "El 8 de marzo de 1862, el CSS Virginia embistió y hundió al USS Cumberland. El espolón quedó incrustado en el buque que se hundía, a punto de arrastrar al Virginia consigo. El Virginia destruyó luego al USS Congress con su artillería."
+		"description_es": "El 8 de marzo de 1862, el CSS Virginia embistió y hundió al USS Cumberland. El espolón quedó incrustado en el buque que se hundía, a punto de arrastrar al Virginia consigo. El Virginia destruyó luego al USS Congress con su artillería.",
+		"description_de": "Am 8. März 1862 rammte und versenkte die CSS Virginia die USS Cumberland. Der Rammbug blieb im sinkenden Schiff stecken und hätte die Virginia fast mitgerissen. Anschließend zerstörte die Virginia die USS Congress durch Artilleriefeuer.",
+		"effect_de": "Die CSS Virginia versenkt die USS Cumberland durch Rammstoß, die Virginia erleidet 1 Schaden"
 	},
 	{
 		"id": "EVENT_SINK_ALABAMA",
@@ -134,7 +140,9 @@
 		"name_tr": "Alabama'nın batırılışı",
 		"name_ko": "앨라배마호 격침",
 		"description_fr": "Le 19 juin 1864, l'USS Kearsarge affronta le CSS Alabama au large de Cherbourg. Son armure de chaînes cachée la protégea et elle coula le célèbre corsaire confédéré après une bataille d'une heure.",
-		"description_es": "El 19 de junio de 1864, el USS Kearsarge se enfrentó al CSS Alabama frente a Cherburgo. Su correa oculta de cadenas lo protegió y hundió al famoso corsario confederado tras una batalla de una hora."
+		"description_es": "El 19 de junio de 1864, el USS Kearsarge se enfrentó al CSS Alabama frente a Cherburgo. Su correa oculta de cadenas lo protegió y hundió al famoso corsario confederado tras una batalla de una hora.",
+		"description_de": "Am 19. Juni 1864 traf die USS Kearsarge vor Cherbourg auf die CSS Alabama. Ihre versteckte Kettenpanzerung schützte sie, und sie versenkte den berühmten konföderierten Kaperer nach einstündigem Gefecht.",
+		"effect_de": "Die USS Kearsarge versenkt die CSS Alabama vor Cherbourg"
 	},
 	{
 		"id": "EVENT_HUNLEY_ATTACK",
@@ -169,7 +177,9 @@
 		"name_tr": "Denizaltı saldırısı",
 		"name_ko": "잠수정 공격",
 		"description_fr": "Le 17 février 1864, le sous-marin confédéré H.L. Hunley devint le premier sous-marin à couler un navire de guerre ennemi, l'USS Housatonic, dans le port de Charleston. Le Hunley lui-même sombra avec tout son équipage.",
-		"description_es": "El 17 de febrero de 1864, el submarino confederado H.L. Hunley se convirtió en el primer submarino en hundir un buque de guerra enemigo, el USS Housatonic, en el puerto de Charleston. El propio Hunley se perdió con toda su tripulación."
+		"description_es": "El 17 de febrero de 1864, el submarino confederado H.L. Hunley se convirtió en el primer submarino en hundir un buque de guerra enemigo, el USS Housatonic, en el puerto de Charleston. El propio Hunley se perdió con toda su tripulación.",
+		"description_de": "Am 17. Februar 1864 wurde das konföderierte U-Boot H.L. Hunley das erste U-Boot, das ein feindliches Kriegsschiff versenkte — die USS Housatonic im Hafen von Charleston. Die Hunley selbst ging mit der gesamten Besatzung verloren.",
+		"effect_de": "Die H.L. Hunley versenkt die USS Housatonic — beide gehen verloren"
 	},
 	{
 		"id": "EVENT_CAIRO_MINES",
@@ -203,7 +213,9 @@
 		"name_tr": "Yazoo mayınları",
 		"name_ko": "야주 강의 기뢰",
 		"description_fr": "Le 12 décembre 1862, le cuirassé fluvial USS Cairo heurta une mine navale confédérée (torpille) sur la Yazoo et coula, devenant le premier navire de guerre détruit par une mine à détonation électrique.",
-		"description_es": "El 12 de diciembre de 1862, el ironclad fluvial USS Cairo chocó contra una mina naval confederada (torpedo) en el río Yazoo y se hundió, convirtiéndose en el primer buque de guerra destruido por una mina detonada eléctricamente."
+		"description_es": "El 12 de diciembre de 1862, el ironclad fluvial USS Cairo chocó contra una mina naval confederada (torpedo) en el río Yazoo y se hundió, convirtiéndose en el primer buque de guerra destruido por una mina detonada eléctricamente.",
+		"description_de": "Am 12. Dezember 1862 lief der Flusspanzer USS Cairo im Yazoo auf eine konföderierte Seemine (Torpedo) und sank — das erste Kriegsschiff, das durch eine elektrisch gezündete Mine zerstört wurde.",
+		"effect_de": "Seeminen versenken die USS Cairo"
 	},
 	{
 		"id": "EVENT_ARKANSAS_BREAKOUT",
@@ -242,7 +254,9 @@
 		"name_tr": "Arkansas'ın atılımı",
 		"name_ko": "아칸소호의 돌파",
 		"description_fr": "Le 15 juillet 1862, le CSS Arkansas navigua à travers toute la flotte de l'Union au-dessus de Vicksburg, affrontant plusieurs cuirassés et canonnières, subissant de lourds dégâts mais survivant pour s'amarrer sous les batteries de Vicksburg.",
-		"description_es": "El 15 de julio de 1862, el CSS Arkansas navegó a través de toda la flota de la Unión sobre Vicksburg, enfrentando varios ironclads y cañoneras, sufriendo graves daños pero sobreviviendo para fondear bajo las baterías de Vicksburg."
+		"description_es": "El 15 de julio de 1862, el CSS Arkansas navegó a través de toda la flota de la Unión sobre Vicksburg, enfrentando varios ironclads y cañoneras, sufriendo graves daños pero sobreviviendo para fondear bajo las baterías de Vicksburg.",
+		"description_de": "Am 15. Juli 1862 dampfte die CSS Arkansas durch die gesamte Unionsflotte oberhalb von Vicksburg, bekämpfte mehrere Panzerschiffe und Kanonenboote, erlitt schwere Schäden, überstand aber und ankerte unter den Batterien von Vicksburg.",
+		"effect_de": "Die CSS Arkansas bricht durch die Flotte der Union und schaltet einen Flusspanzer aus"
 	},
 	{
 		"id": "EVENT_CAPTURE_ATLANTA",
@@ -276,7 +290,9 @@
 		"name_tr": "Atlanta'nın ele geçirilişi",
 		"name_ko": "애틀란타호 나포",
 		"description_fr": "Le 17 juin 1863, l'USS Weehawken et l'USS Nahant capturèrent le CSS Atlanta dans le Wassaw Sound, en Géorgie. L'Atlanta s'échoua et se rendit après un bref engagement avec les monitors.",
-		"description_es": "El 17 de junio de 1863, el USS Weehawken y el USS Nahant capturaron al CSS Atlanta en Wassaw Sound, Georgia. El Atlanta encalló y se rindió tras un breve enfrentamiento con los monitors."
+		"description_es": "El 17 de junio de 1863, el USS Weehawken y el USS Nahant capturaron al CSS Atlanta en Wassaw Sound, Georgia. El Atlanta encalló y se rindió tras un breve enfrentamiento con los monitors.",
+		"description_de": "Am 17. Juni 1863 eroberten die USS Weehawken und die USS Nahant die CSS Atlanta im Wassaw Sound, Georgia. Die Atlanta lief auf Grund und kapitulierte nach kurzem Gefecht mit den Monitoren.",
+		"effect_de": "Ein Monitor der Union kapert die CSS Atlanta"
 	},
 	{
 		"id": "EVENT_MOBILE_BAY",
@@ -310,7 +326,9 @@
 		"name_tr": "Mobile Körfezi savaşı",
 		"name_ko": "모빌만 해전",
 		"description_fr": "Le 5 août 1864, l'amiral Farragut conduisit sa flotte dans la baie de Mobile, lançant son célèbre «Au diable les torpilles, toute vitesse!» Après une bataille acharnée, le CSS Tennessee se rendit à l'écrasante puissance navale de l'Union.",
-		"description_es": "El 5 de agosto de 1864, el almirante Farragut condujo su flota a la bahía de Mobile, pronunciando su célebre «¡Al diablo los torpedos, a toda máquina!» Tras una feroz batalla, el CSS Tennessee se rindió ante la abrumadora fuerza naval de la Unión."
+		"description_es": "El 5 de agosto de 1864, el almirante Farragut condujo su flota a la bahía de Mobile, pronunciando su célebre «¡Al diablo los torpedos, a toda máquina!» Tras una feroz batalla, el CSS Tennessee se rindió ante la abrumadora fuerza naval de la Unión.",
+		"description_de": "Am 5. August 1864 führte Admiral Farragut seine Flotte in die Mobile Bay und rief seinen berühmten Spruch „Zur Hölle mit den Torpedos, volle Kraft voraus!“ Nach erbittertem Kampf kapitulierte die CSS Tennessee vor der überwältigenden Marinekraft der Union.",
+		"effect_de": "Die CSS Tennessee kapituliert, wenn die Union mit 3 oder mehr Schiffen vor Ort ist"
 	},
 	{
 		"id": "EVENT_LAST_SHOT",
@@ -344,7 +362,9 @@
 		"name_tr": "Savaşın son atışı",
 		"name_ko": "전쟁의 마지막 포성",
 		"description_fr": "En juin 1865, le CSS Shenandoah, ignorant que la guerre était finie, tira les derniers coups de la guerre civile dans la mer de Béring, attaquant des baleiniers de l'Union. Il contourna ensuite le monde pour se rendre à Liverpool.",
-		"description_es": "En junio de 1865, el CSS Shenandoah, sin saber que la guerra había terminado, disparó los últimos tiros de la guerra civil en el mar de Bering, atacando barcos balleneros de la Unión. Luego navegó alrededor del mundo para rendirse en Liverpool."
+		"description_es": "En junio de 1865, el CSS Shenandoah, sin saber que la guerra había terminado, disparó los últimos tiros de la guerra civil en el mar de Bering, atacando barcos balleneros de la Unión. Luego navegó alrededor del mundo para rendirse en Liverpool.",
+		"description_de": "Im Juni 1865 feuerte die CSS Shenandoah — ohne zu wissen, dass der Krieg beendet war — die letzten Schüsse des Bürgerkriegs im Beringmeer auf Walfänger der Union. Danach segelte sie um die Welt, um in Liverpool zu kapitulieren.",
+		"effect_de": "Die CSS Shenandoah feuert den letzten Schuss des Krieges und richtet doppelten Schaden gegen den Handel an"
 	},
 	{
 		"id": "EVENT_FINGAL_RUN",
@@ -378,7 +398,9 @@
 		"name_tr": "Fingal'ın abluka yarışı",
 		"name_ko": "핑갈호의 봉쇄 돌파",
 		"description_fr": "En novembre 1861, le SS Fingal de construction britannique franchit le blocus vers Savannah, en Géorgie, avec 10 000 fusils Enfield et d'autres fournitures militaires. Il fut plus tard converti en cuirassé CSS Atlanta.",
-		"description_es": "En noviembre de 1861, el SS Fingal de construcción británica atravesó el bloqueo hasta Savannah, Georgia, llevando 10 000 fusiles Enfield y otros suministros militares. Más tarde fue convertido en el ironclad CSS Atlanta."
+		"description_es": "En noviembre de 1861, el SS Fingal de construcción británica atravesó el bloqueo hasta Savannah, Georgia, llevando 10 000 fusiles Enfield y otros suministros militares. Más tarde fue convertido en el ironclad CSS Atlanta.",
+		"description_de": "Im November 1861 durchbrach der britische Dampfer SS Fingal die Blockade nach Savannah, Georgia, mit 10 000 Enfield-Gewehren und weiteren Militärgütern. Später wurde er in den Panzer CSS Atlanta umgebaut.",
+		"effect_de": "Die SS Fingal liefert 10 000 Enfield-Gewehre und wird zur CSS Atlanta"
 	},
 	{
 		"id": "EVENT_DAMN_TORPEDOES",
@@ -410,7 +432,9 @@
 		"name_tr": "Torpidoları cehennemlik edin!",
 		"name_ko": "어뢰 따위는 지옥에나 가라!",
 		"description_fr": "Le célèbre ordre de l'amiral David Farragut à la bataille de Mobile Bay, attaché au gréement de l'USS Hartford tandis que sa flotte passait devant les mines confédérées vers la baie.",
-		"description_es": "La célebre orden del almirante David Farragut en la batalla de Mobile Bay, amarrado al aparejo del USS Hartford mientras su flota pasaba junto a las minas confederadas hacia la bahía."
+		"description_es": "La célebre orden del almirante David Farragut en la batalla de Mobile Bay, amarrado al aparejo del USS Hartford mientras su flota pasaba junto a las minas confederadas hacia la bahía.",
+		"description_de": "Admiral David Farraguts berühmter Befehl in der Schlacht in der Mobile Bay, im Takelwerk der USS Hartford festgeschnallt, während seine Flotte an den konföderierten Minen vorbei in die Bucht dampfte.",
+		"effect_de": "Alle Schiffe der Union ignorieren in dieser Runde Seeminen"
 	},
 	{
 		"id": "EVENT_FIRST_MONITOR",
@@ -444,7 +468,9 @@
 		"name_tr": "İlk Monitor",
 		"name_ko": "최초의 모니터호",
 		"description_fr": "L'USS Monitor fut lancé le 30 janvier 1862, construit en 101 jours seulement. Sa conception révolutionnaire de tourelle rotative changea pour toujours la guerre navale et donna à l'Union un puissant avantage maritime.",
-		"description_es": "El USS Monitor fue botado el 30 de enero de 1862, construido en solo 101 días. Su revolucionario diseño de torreta giratoria cambió para siempre la guerra naval y dio a la Unión una poderosa ventaja marítima."
+		"description_es": "El USS Monitor fue botado el 30 de enero de 1862, construido en solo 101 días. Su revolucionario diseño de torreta giratoria cambió para siempre la guerra naval y dio a la Unión una poderosa ventaja marítima.",
+		"description_de": "Die USS Monitor wurde am 30. Januar 1862 vom Stapel gelassen — in nur 101 Tagen gebaut. Ihr revolutionärer drehbarer Geschützturm veränderte die Seekriegsführung für immer und gab der Union einen mächtigen Seevorteil.",
+		"effect_de": "+1 Karte der Seeüberlegenheit pro Runde, solange die Monitor im Spiel ist"
 	},
 	{
 		"id": "EVENT_FRIENDLY_FIRE",
@@ -478,7 +504,9 @@
 		"name_tr": "Dost ateşi",
 		"name_ko": "아군 오사",
 		"description_fr": "Le 2 mai 1863, à la bataille de Chancellorsville, le général «Stonewall» Jackson fut abattu par méprise par des hommes du 18e d'infanterie de Caroline du Nord alors qu'il reconnaissait devant ses propres lignes de nuit.",
-		"description_es": "El 2 de mayo de 1863, en la batalla de Chancellorsville, el general «Stonewall» Jackson fue alcanzado por error por hombres del 18.º de Infantería de Carolina del Norte mientras exploraba de noche delante de sus propias líneas."
+		"description_es": "El 2 de mayo de 1863, en la batalla de Chancellorsville, el general «Stonewall» Jackson fue alcanzado por error por hombres del 18.º de Infantería de Carolina del Norte mientras exploraba de noche delante de sus propias líneas.",
+		"description_de": "Am 2. Mai 1863 wurde General „Stonewall“ Jackson in der Schlacht bei Chancellorsville versehentlich von Männern des 18. North-Carolina-Infanterieregiments erschossen, als er nachts vor den eigenen Linien Aufklärung betrieb.",
+		"effect_de": "Stonewall Jackson wird versehentlich von eigenen Männern erschossen"
 	},
 	{
 		"id": "EVENT_BAYONET_CHARGE",
@@ -512,7 +540,9 @@
 		"name_tr": "Süngü hücumu",
 		"name_ko": "총검 돌격",
 		"description_fr": "Le 2 juillet 1863, à Gettysburg, le colonel Joshua Chamberlain ordonna au 20e Maine de croiser la baïonnette et de charger Little Round Top alors que les munitions étaient presque épuisées, sauvant l'aile gauche de l'Union.",
-		"description_es": "El 2 de julio de 1863, en Gettysburg, el coronel Joshua Chamberlain ordenó al 20.º de Maine fijar bayonetas y cargar cuesta abajo por Little Round Top cuando la munición casi se agotaba, salvando el flanco izquierdo de la Unión."
+		"description_es": "El 2 de julio de 1863, en Gettysburg, el coronel Joshua Chamberlain ordenó al 20.º de Maine fijar bayonetas y cargar cuesta abajo por Little Round Top cuando la munición casi se agotaba, salvando el flanco izquierdo de la Unión.",
+		"description_de": "Am 2. Juli 1863 befahl Oberst Joshua Chamberlain beim Gettysburg dem 20. Maine, die Bajonette aufzupflanzen und den Little Round Top hinabzustürmen, als die Munition fast erschöpft war — und rettete so den linken Flügel der Union.",
+		"effect_de": "Das 20. Maine erhält +5 ANG in einem verzweifelten Bajonettangriff, verbraucht aber alle Munition"
 	},
 	{
 		"id": "EVENT_MINNESOTA_SACRIFICE",
@@ -546,7 +576,9 @@
 		"name_tr": "Minnesota'nın fedakârlığı",
 		"name_ko": "미네소타의 희생",
 		"description_fr": "Le 2 juillet 1863, le 1er Minnesota d'infanterie volontaire chargea une brigade confédérée cinq fois supérieure en nombre à Gettysburg, subissant 82% de pertes en une seule attaque — la plus lourde de tout régiment pendant la guerre.",
-		"description_es": "El 2 de julio de 1863, el 1.º de Infantería Voluntaria de Minnesota cargó contra una brigada confederada cinco veces mayor en Gettysburg, sufriendo 82% de bajas en un solo ataque — la mayor de cualquier regimiento en la guerra."
+		"description_es": "El 2 de julio de 1863, el 1.º de Infantería Voluntaria de Minnesota cargó contra una brigada confederada cinco veces mayor en Gettysburg, sufriendo 82% de bajas en un solo ataque — la mayor de cualquier regimiento en la guerra.",
+		"description_de": "Am 2. Juli 1863 griff das 1. Minnesota-Freiwilligenregiment bei Gettysburg eine konföderierte Brigade an, die fünfmal so stark war, und erlitt 82% Verluste in einem einzigen Angriff — die höchsten eines Regiments im gesamten Krieg.",
+		"effect_de": "Das 1. Minnesota opfert sich, um jeden konföderierten Angriff zu stoppen"
 	},
 	{
 		"id": "EVENT_PICKETTS_CHARGE",
@@ -578,7 +610,9 @@
 		"name_tr": "Pickett hücumu",
 		"name_ko": "피켓의 돌격",
 		"description_fr": "Le 3 juillet 1863, le général George Pickett mena environ 12 500 soldats confédérés dans un assaut désespéré à découvert contre les positions de l'Union sur Cemetery Ridge à Gettysburg. L'attaque fut repoussée avec des pertes dévastatrices.",
-		"description_es": "El 3 de julio de 1863, el general George Pickett dirigió a unos 12 500 soldados confederados en un asalto desesperado a campo abierto contra las posiciones de la Unión en Cemetery Ridge en Gettysburg. El ataque fue rechazado con pérdidas devastadoras."
+		"description_es": "El 3 de julio de 1863, el general George Pickett dirigió a unos 12 500 soldados confederados en un asalto desesperado a campo abierto contra las posiciones de la Unión en Cemetery Ridge en Gettysburg. El ataque fue rechazado con pérdidas devastadoras.",
+		"description_de": "Am 3. Juli 1863 führte General George Pickett etwa 12 500 konföderierte Soldaten in einem verzweifelten Sturmangriff über freies Feld gegen die Unionsstellungen am Cemetery Ridge bei Gettysburg. Der Angriff wurde mit verheerenden Verlusten abgewiesen.",
+		"effect_de": "Massiver Angriff mit 5+ Brigaden: Erfolg bricht die feindlichen Linien, Misserfolg verliert alle beteiligten Einheiten"
 	},
 	{
 		"id": "EVENT_STONEWALL_NAME",
@@ -616,7 +650,9 @@
 		"name_tr": "Stonewall!",
 		"name_ko": "스톤월!",
 		"description_fr": "À la première bataille de Bull Run, le 21 juillet 1861, le général Bee s'exclama «Voilà Jackson debout comme un mur de pierre!» alors que la brigade de Virginie de Thomas Jackson tenait bon face à l'assaut de l'Union.",
-		"description_es": "En la Primera Batalla de Bull Run, el 21 de julio de 1861, el general Bee exclamó «¡Ahí está Jackson como una muralla de piedra!» mientras la brigada de virginianos de Thomas Jackson resistía firme el asalto de la Unión."
+		"description_es": "En la Primera Batalla de Bull Run, el 21 de julio de 1861, el general Bee exclamó «¡Ahí está Jackson como una muralla de piedra!» mientras la brigada de virginianos de Thomas Jackson resistía firme el asalto de la Unión.",
+		"description_de": "Beim Ersten Bull Run am 21. Juli 1861 rief General Bee: „Dort steht Jackson wie eine Steinmauer!“, während Thomas Jacksons Virginia-Brigade dem Ansturm der Union standhielt.",
+		"effect_de": "Die Stonewall-Brigade erhält +4 VER und den Status „Unerschütterlich“"
 	},
 	{
 		"id": "EVENT_IRON_BRIGADE",
@@ -654,7 +690,9 @@
 		"name_tr": "Demir Tugay",
 		"name_ko": "철벽 여단",
 		"description_fr": "La Brigade de Fer de l'Ouest — les 2e, 6e, 7e du Wisconsin, 19e de l'Indiana et 24e du Michigan — gagna son nom à South Mountain et Antietam pour tenir comme du fer face aux assauts confédérés.",
-		"description_es": "La Brigada de Hierro del Oeste — los 2.º, 6.º y 7.º de Wisconsin, 19.º de Indiana y 24.º de Míchigan — ganó su nombre en South Mountain y Antietam por mantenerse como hierro frente a los asaltos confederados."
+		"description_es": "La Brigada de Hierro del Oeste — los 2.º, 6.º y 7.º de Wisconsin, 19.º de Indiana y 24.º de Míchigan — ganó su nombre en South Mountain y Antietam por mantenerse como hierro frente a los asaltos confederados.",
+		"description_de": "Die Eiserne Brigade des Westens — das 2., 6. und 7. Wisconsin, das 19. Indiana und das 24. Michigan — verdiente ihren Namen bei South Mountain und Antietam, weil sie gegen konföderierte Angriffe wie Eisen standhielt.",
+		"effect_de": "Wenn 3 oder mehr Regimenter der Eisernen Brigade im Spiel sind, erhalten alle +2 ANG"
 	},
 	{
 		"id": "EVENT_BERDAN_SNIPER",
@@ -688,7 +726,9 @@
 		"name_tr": "Berdan'ın keskin nişancıları",
 		"name_ko": "버단의 저격수",
 		"description_fr": "Les 1er et 2e US Sharpshooters du colonel Hiram Berdan, en uniformes vert distinctifs et armés de fusils Sharps, étaient des tireurs d'élite capables de toucher des cibles à 600 yards.",
-		"description_es": "Los 1.º y 2.º Tiradores de EE.UU. del coronel Hiram Berdan, con uniformes verdes distintivos y armados con fusiles Sharps, eran tiradores de élite capaces de acertar blancos a 600 yardas."
+		"description_es": "Los 1.º y 2.º Tiradores de EE.UU. del coronel Hiram Berdan, con uniformes verdes distintivos y armados con fusiles Sharps, eran tiradores de élite capaces de acertar blancos a 600 yardas.",
+		"description_de": "Oberst Hiram Berdans 1. und 2. US-Scharfschützen, in markanter grüner Uniform und mit Sharps-Gewehren bewaffnet, waren Eliteschützen, die Ziele auf 600 Yards treffen konnten.",
+		"effect_de": "Einen feindlichen Kommandeur ohne Schlacht ausschalten"
 	},
 	{
 		"id": "EVENT_FORT_WAGNER",
@@ -722,7 +762,9 @@
 		"name_tr": "Fort Wagner hücumu",
 		"name_ko": "웨그너 요새 돌격",
 		"description_fr": "Le 18 juillet 1863, le 54e Massachusetts d'infanterie volontaire, l'un des premiers régiments afro-américains, mena l'assaut sur le fort Wagner, en Caroline du Sud. Bien que l'attaque échouât, leur courage prouva la valeur des soldats noirs.",
-		"description_es": "El 18 de julio de 1863, el 54.º de Infantería Voluntaria de Massachusetts, uno de los primeros regimientos afroamericanos, lideró el asalto al Fuerte Wagner, Carolina del Sur. Aunque el ataque fracasó, su valor probó el coraje de los soldados negros."
+		"description_es": "El 18 de julio de 1863, el 54.º de Infantería Voluntaria de Massachusetts, uno de los primeros regimientos afroamericanos, lideró el asalto al Fuerte Wagner, Carolina del Sur. Aunque el ataque fracasó, su valor probó el coraje de los soldados negros.",
+		"description_de": "Am 18. Juli 1863 führte das 54. Massachusetts-Freiwilligenregiment, eines der ersten afroamerikanischen Regimenter, den Sturm auf das Fort Wagner in South Carolina. Der Angriff scheiterte, doch ihr Mut bewies den Wert schwarzer Soldaten.",
+		"effect_de": "Das 54. Massachusetts opfert sich, doch die Union erhält +5 Moral"
 	},
 	{
 		"id": "EVENT_MARCH_TO_SEA",
@@ -754,7 +796,9 @@
 		"name_tr": "Denize yürüyüş",
 		"name_ko": "바다로의 행군",
 		"description_fr": "Du 15 novembre au 21 décembre 1864, le général Sherman mena 62 000 soldats de l'Union dans une marche dévastatrice d'Atlanta à Savannah, détruisant chemins de fer, usines et approvisionnements pour briser la volonté de combattre de la Confédération.",
-		"description_es": "Del 15 de noviembre al 21 de diciembre de 1864, el general Sherman dirigió a 62 000 soldados de la Unión en una marcha devastadora de Atlanta a Savannah, destruyendo ferrocarriles, fábricas y suministros para quebrantar la voluntad de combate de la Confederación."
+		"description_es": "Del 15 de noviembre al 21 de diciembre de 1864, el general Sherman dirigió a 62 000 soldados de la Unión en una marcha devastadora de Atlanta a Savannah, destruyendo ferrocarriles, fábricas y suministros para quebrantar la voluntad de combate de la Confederación.",
+		"description_de": "Vom 15. November bis 21. Dezember 1864 führte General Sherman 62 000 Unionssoldaten auf einem verheerenden Marsch von Atlanta nach Savannah, zerstörte Eisenbahnen, Fabriken und Vorräte, um den Kampfwillen der Konföderation zu brechen.",
+		"effect_de": "Infrastruktur in ganz Georgia zerstören und +2 Territorien erhalten"
 	},
 	{
 		"id": "EVENT_HOOVERS_GAP",
@@ -788,7 +832,9 @@
 		"name_tr": "Şimşek Tugayı",
 		"name_ko": "번개 여단",
 		"description_fr": "À Hoover's Gap en juin 1863, la brigade éclair du colonel John Wilder, armée de fusils à répétition Spencer, submergea les défenseurs confédérés avec un volume de feu jusque-là impossible dans la guerre.",
-		"description_es": "En Hoover's Gap, en junio de 1863, la Brigada Relámpago del coronel John Wilder, armada con fusiles de repetición Spencer, arrasó a los defensores confederados con un volumen de fuego hasta entonces imposible en la guerra."
+		"description_es": "En Hoover's Gap, en junio de 1863, la Brigada Relámpago del coronel John Wilder, armada con fusiles de repetición Spencer, arrasó a los defensores confederados con un volumen de fuego hasta entonces imposible en la guerra.",
+		"description_de": "Bei Hoover's Gap im Juni 1863 überwältigte Oberst John Wilders Blitzbrigade, mit Spencer-Repetiergewehren bewaffnet, die konföderierten Verteidiger mit einer Feuerkraft, die es in der Kriegsführung zuvor nicht gegeben hatte.",
+		"effect_de": "Die Blitzbrigade feuert 7 Schüsse ohne Nachladen (Spencer-Repetiergewehre)"
 	},
 	{
 		"id": "EVENT_MOSBY_FAIRFAX",
@@ -822,7 +868,9 @@
 		"name_tr": "Mosby baskını",
 		"name_ko": "모즈비의 습격",
 		"description_fr": "Le 9 mars 1863, John Singleton Mosby et 29 raiders capturèrent le général de l'Union Stoughton dans son lit à Fairfax Court House, avec chevaux et fournitures, humiliant le haut commandement de l'Union.",
-		"description_es": "El 9 de marzo de 1863, John Singleton Mosby y 29 asaltantes capturaron al general de la Unión Stoughton en su cama en Fairfax Court House, junto con caballos y suministros, humillando al alto mando de la Unión."
+		"description_es": "El 9 de marzo de 1863, John Singleton Mosby y 29 asaltantes capturaron al general de la Unión Stoughton en su cama en Fairfax Court House, junto con caballos y suministros, humillando al alto mando de la Unión.",
+		"description_de": "Am 9. März 1863 ergriffen John Singleton Mosby und 29 Reiter den Unionsgeneral Stoughton in seinem Bett im Fairfax Court House — samt Pferden und Vorräten — und blamierten das Oberkommando der Union.",
+		"effect_de": "Partisanenranger stehlen eine Versorgungskarte der Union"
 	},
 	{
 		"id": "EVENT_BEEFSTEAK_RAID",
@@ -857,7 +905,9 @@
 		"name_tr": "Sığır hırsızlığı",
 		"name_ko": "소 절도 사건",
 		"description_fr": "En septembre 1864, les rangers de Mosby menèrent le célèbre «Beefsteak Raid», capturant 3 000 têtes de bétail de l'armée de l'Union près de Harrison's Landing, nourrissant directement l'armée affamée de Lee.",
-		"description_es": "En septiembre de 1864, los Rangers de Mosby realizaron el famoso «Beefsteak Raid», capturando 3 000 cabezas de ganado al ejército de la Unión cerca de Harrison's Landing, alimentando directamente al hambriento ejército de Lee."
+		"description_es": "En septiembre de 1864, los Rangers de Mosby realizaron el famoso «Beefsteak Raid», capturando 3 000 cabezas de ganado al ejército de la Unión cerca de Harrison's Landing, alimentando directamente al hambriento ejército de Lee.",
+		"description_de": "Im September 1864 führten Mosbys Ranger den berühmten „Beefsteak-Raid“ durch: 3 000 Rinder wurden bei Harrison's Landing von der Unionsarmee erbeutet und versorgten Lees hungernde Armee direkt.",
+		"effect_de": "Ranger stehlen Ressourcen der Union — Vieh und Vorräte erbeutet"
 	},
 	{
 		"id": "EVENT_TRY_US",
@@ -891,7 +941,9 @@
 		"name_tr": "Bize deneyin!",
 		"name_ko": "우리를 건드려 봐!",
 		"description_fr": "L'artillerie de Washington de La Nouvelle-Orléans portait la devise «Essayez-nous!» sur ses drapeaux de batterie. L'une des unités d'artillerie les plus élite de la Confédération, elle combattit dans plus de 60 engagements.",
-		"description_es": "La Artillería de Washington de Nueva Orleans llevaba el lema «¡Pruébanos!» en sus banderas de batería. Una de las unidades de artillería más de élite de la Confederación, combatió en más de 60 enfrentamientos."
+		"description_es": "La Artillería de Washington de Nueva Orleans llevaba el lema «¡Pruébanos!» en sus banderas de batería. Una de las unidades de artillería más de élite de la Confederación, combatió en más de 60 enfrentamientos.",
+		"description_de": "Die Washington Artillery aus New Orleans trug den Wahlspruch „Versucht uns!“ auf ihren Batterieflaggen. Eine der elitärsten Artillerieeinheiten der Konföderation, in über 60 Gefechten.",
+		"effect_de": "Die erste Salve der Washington Artillery richtet doppelten Schaden an"
 	},
 	{
 		"id": "EVENT_PELHAM_FLANK",
@@ -925,7 +977,9 @@
 		"name_tr": "Pelham Fredericksburg'da",
 		"name_ko": "프레더릭스버그의 펠햄",
 		"description_fr": "À la bataille de Fredericksburg, le 13 décembre 1862, le major John Pelham avec seulement deux canons retarda toute l'avance de l'Union sur l'aile droite confédérée pendant plus d'une heure, gagnant les louanges de Lee.",
-		"description_es": "En la batalla de Fredericksburg, el 13 de diciembre de 1862, el mayor John Pelham con solo dos cañones contuvo todo el avance de la Unión sobre el flanco derecho confederado durante más de una hora, ganándose los elogios de Lee."
+		"description_es": "En la batalla de Fredericksburg, el 13 de diciembre de 1862, el mayor John Pelham con solo dos cañones contuvo todo el avance de la Unión sobre el flanco derecho confederado durante más de una hora, ganándose los elogios de Lee.",
+		"description_de": "In der Schlacht bei Fredericksburg am 13. Dezember 1862 hielt Major John Pelham mit nur zwei Geschützen den gesamten Unionsvormarsch auf dem rechten konföderierten Flügel über eine Stunde auf — und erwarb Lees Lob.",
+		"effect_de": "Stuarts Reitende Artillerie unter Pelham blockiert einen Infanterievorstoß auf dem Flügel"
 	},
 	{
 		"id": "EVENT_PELHAM_DEATH",
@@ -959,7 +1013,9 @@
 		"name_tr": "Pelham'ın ölümü",
 		"name_ko": "펠햄의 죽음",
 		"description_fr": "Le major John Pelham, le «gallant Pelham» et chef de l'artillerie à cheval de Stuart, fut tué par un éclat d'obus de l'Union à Kelly's Ford le 17 mars 1863, à 24 ans. Lee parla d'une «perte déplorable».",
-		"description_es": "El mayor John Pelham, el «gallardo Pelham» y jefe de la artillería a caballo de Stuart, murió por una metralla de la Unión en Kelly's Ford el 17 de marzo de 1863, a los 24 años. Lee lo llamó una «pérdida deplorable»."
+		"description_es": "El mayor John Pelham, el «gallardo Pelham» y jefe de la artillería a caballo de Stuart, murió por una metralla de la Unión en Kelly's Ford el 17 de marzo de 1863, a los 24 años. Lee lo llamó una «pérdida deplorable».",
+		"description_de": "Major John Pelham, der „galante Pelham“ und Stuarts Chef der reitenden Artillerie, fiel am 17. März 1863 bei Kelly's Ford durch einen Granatsplitter der Union — 24 Jahre alt. Lee nannte es einen „bedauerlichen Verlust“.",
+		"effect_de": "Stuarts Reitende Artillerie verliert ihren brillanten Kommandeur"
 	},
 	{
 		"id": "EVENT_STUART_DEATH",
@@ -993,7 +1049,9 @@
 		"name_tr": "Stuart'ın ölümü",
 		"name_ko": "스튜어트의 죽음",
 		"description_fr": "Le 11 mai 1864, le général J.E.B. Stuart fut mortellement blessé à la bataille de Yellow Tavern par la cavalerie de l'Union sous Sheridan. Ses derniers mots furent «Je pars vite maintenant — je suis résigné».",
-		"description_es": "El 11 de mayo de 1864, el general J.E.B. Stuart resultó mortalmente herido en la batalla de Yellow Tavern por la caballería de la Unión bajo Sheridan. Sus últimas palabras fueron «Me voy rápido ya — me resigno»."
+		"description_es": "El 11 de mayo de 1864, el general J.E.B. Stuart resultó mortalmente herido en la batalla de Yellow Tavern por la caballería de la Unión bajo Sheridan. Sus últimas palabras fueron «Me voy rápido ya — me resigno».",
+		"description_de": "Am 11. Mai 1864 wurde General J.E.B. Stuart in der Schlacht bei Yellow Tavern von der Kavallerie der Union unter Sheridan tödlich verwundet. Seine letzten Worte: „Jetzt geht es schnell mit mir — ich bin gefasst.“",
+		"effect_de": "Kavallerie der Union schaltet General J.E.B. Stuart aus"
 	},
 	{
 		"id": "EVENT_FORREST_BRAVES",
@@ -1027,7 +1085,9 @@
 		"name_tr": "Eyerin büyücüsü",
 		"name_ko": "안장의 마법사",
 		"description_fr": "Nathan Bedford Forrest, surnommé le «magicien de la selle», vainquit à plusieurs reprises des forces de l'Union supérieures par des tactiques agressives. À Brice's Cross Roads, le 10 juin 1864, il mit en déroute une force deux fois supérieure à la sienne.",
-		"description_es": "Nathan Bedford Forrest, llamado el «mago de la silla», derrotó repetidamente a fuerzas de la Unión superiores mediante tácticas agresivas. En Brice's Cross Roads, el 10 de junio de 1864, deshizo a una fuerza del doble de su tamaño."
+		"description_es": "Nathan Bedford Forrest, llamado el «mago de la silla», derrotó repetidamente a fuerzas de la Unión superiores mediante tácticas agresivas. En Brice's Cross Roads, el 10 de junio de 1864, deshizo a una fuerza del doble de su tamaño.",
+		"description_de": "Nathan Bedford Forrest, der „Magier im Sattel“, schlug durch aggressive Taktik wiederholt stärkere Unionsverbände. Bei Brice's Cross Roads am 10. Juni 1864 schlug er eine doppelt so starke Truppe in die Flucht.",
+		"effect_de": "Forrests Kavalleriekorps greift bei zahlenmäßiger Unterlegenheit mit doppelter Stärke an"
 	},
 	{
 		"id": "EVENT_SIDNEY_JOHNSTON",
@@ -1061,7 +1121,9 @@
 		"name_tr": "Sidney Johnston'ın ölümü",
 		"name_ko": "시드니 존스턴의 죽음",
 		"description_fr": "Le 6 avril 1862, le général Albert Sidney Johnston, considéré comme le meilleur général du Sud, fut tué à la bataille de Shiloh. Jefferson Davis dit que sa mort fut «le tournant de notre destin».",
-		"description_es": "El 6 de abril de 1862, el general Albert Sidney Johnston, considerado el mejor general del Sur, murió en la batalla de Shiloh. Jefferson Davis dijo que su muerte fue «el punto de inflexión de nuestro destino»."
+		"description_es": "El 6 de abril de 1862, el general Albert Sidney Johnston, considerado el mejor general del Sur, murió en la batalla de Shiloh. Jefferson Davis dijo que su muerte fue «el punto de inflexión de nuestro destino».",
+		"description_de": "Am 6. April 1862 fiel General Albert Sidney Johnston, der als bester General des Südens galt, in der Schlacht von Shiloh. Jefferson Davis nannte seinen Tod „den Wendepunkt unseres Schicksals“.",
+		"effect_de": "General Albert Sidney Johnston fällt bei Shiloh — die Moral der Konföderation sinkt um 3"
 	},
 	{
 		"id": "EVENT_SYREN_BLOCKADE",
@@ -1096,7 +1158,9 @@
 		"name_tr": "Abluka yarıldı!",
 		"name_ko": "봉쇄 돌파 성공!",
 		"description_fr": "Le SS Syren établit le record avec 33 passages de blocus réussis. Les bloqueurs de blocs comme le Syren et le Robert E. Lee apportèrent à la Confédération des fournitures et des armes vitales à travers le blocus naval de l'Union.",
-		"description_es": "El SS Syren estableció el récord con 33 pasajes de bloqueo exitosos. Violadores de bloqueo como el Syren y el Robert E. Lee llevaron a la Confederación suministros y armas vitales a través del bloqueo naval de la Unión."
+		"description_es": "El SS Syren estableció el récord con 33 pasajes de bloqueo exitosos. Violadores de bloqueo como el Syren y el Robert E. Lee llevaron a la Confederación suministros y armas vitales a través del bloqueo naval de la Unión.",
+		"description_de": "Die SS Syren stellte mit 33 erfolgreichen Blockadedurchbrüchen den Rekord auf. Blockadebrecher wie die Syren und die Robert E. Lee brachten der Konföderation lebenswichtige Vorräte und Waffen durch die Seeblockade der Union.",
+		"effect_de": "+1 Ressource für jeden erfolgreichen Blockadebruch"
 	},
 	{
 		"id": "EVENT_RUSSIAN_SUPPORT",
@@ -1128,7 +1192,9 @@
 		"name_tr": "Rus desteği",
 		"name_ko": "러시아의 지지",
 		"description_fr": "En septembre 1863, les flottes russes de la Baltique et du Pacifique visitèrent New York et San Francisco en signe de soutien à l'Union, décourageant la reconnaissance britannique et française de la Confédération.",
-		"description_es": "En septiembre de 1863, las flotas rusas del Báltico y del Pacífico visitaron Nueva York y San Francisco en muestra de apoyo a la Unión, desalentando el reconocimiento británico y francés de la Confederación."
+		"description_es": "En septiembre de 1863, las flotas rusas del Báltico y del Pacífico visitaron Nueva York y San Francisco en muestra de apoyo a la Unión, desalentando el reconocimiento británico y francés de la Confederación.",
+		"description_de": "Im September 1863 besuchten die russischen Ostsee- und Pazifikflotten New York und San Francisco als Zeichen der Unterstützung für die Union — und schreckten Großbritannien und Frankreich davon ab, die Konföderation anzuerkennen.",
+		"effect_de": "+2 Diplomatie; der Süden kann in dieser Partie nicht „Europäische Anerkennung“ ausspielen"
 	},
 	{
 		"id": "EVENT_BRITISH_ENFIELDS",
@@ -1160,7 +1226,9 @@
 		"name_tr": "İngiliz Enfield tüfekleri",
 		"name_ko": "영제 엔필드 소총",
 		"description_fr": "La Confédération importa des milliers de mousquets rayés Enfield britanniques à travers le blocus. Ces armes fiables de calibre .577 étaient très prisées et supérieures à nombre d'armes nationales.",
-		"description_es": "La Confederación importó miles de mosquetes rayados Enfield británicos a través del bloqueo. Estas fiables armas de calibre .577 eran muy apreciadas y superiores a muchas armas nacionales."
+		"description_es": "La Confederación importó miles de mosquetes rayados Enfield británicos a través del bloqueo. Estas fiables armas de calibre .577 eran muy apreciadas y superiores a muchas armas nacionales.",
+		"description_de": "Die Konföderation importierte tausende britische Enfield-Gewehre durch die Blockade. Diese zuverlässigen Waffen im Kaliber .577 waren hochbegehrt und vielen heimischen Gewehren überlegen.",
+		"effect_de": "+1 ANG für 3 Infanterieregimenter mit britischen Enfield-Gewehren"
 	},
 	{
 		"id": "EVENT_EMANCIPATION",
@@ -1192,7 +1260,9 @@
 		"name_tr": "Özgürleştirme Bildirisi",
 		"name_ko": "노예 해방 선언",
 		"description_fr": "Le 1er janvier 1863, le président Lincoln promulgua la proclamation d'émancipation, déclarant libres les personnes asservies des états confédérés. Elle transforma la guerre en croisade contre l'esclavage et permit le recrutement des soldats noirs.",
-		"description_es": "El 1 de enero de 1863, el presidente Lincoln promulgó la Proclama de Emancipación, declarando la libertad de las personas esclavizadas en los estados confederados. Transformó la guerra en una cruzada contra la esclavitud y permitió el reclutamiento de soldados negros."
+		"description_es": "El 1 de enero de 1863, el presidente Lincoln promulgó la Proclama de Emancipación, declarando la libertad de las personas esclavizadas en los estados confederados. Transformó la guerra en una cruzada contra la esclavitud y permitió el reclutamiento de soldados negros.",
+		"description_de": "Am 1. Januar 1863 verkündete Präsident Lincoln die Emanzipationsproklamation und erklärte die Versklavten der Konföderiertenstaaten für frei. Sie verwandelte den Krieg in einen Kreuzzug gegen die Sklaverei und ermöglichte die Rekrutierung Schwarzer.",
+		"effect_de": "+3 Moral für die Union; eine USCT-Einheit (Farbtruppen) kostenlos rekrutieren"
 	},
 	{
 		"id": "EVENT_ATLANTA_FALL",
@@ -1224,7 +1294,9 @@
 		"name_tr": "Atlanta düştü",
 		"name_ko": "애틀랜타 함락",
 		"description_fr": "Le 2 septembre 1864, Atlanta tomba aux mains des forces de l'Union du général Sherman. La victoire assura la réélection de Lincoln et démoralisa la Confédération. Sherman télégraphia: «Atlanta est à nous, et loyalement gagnée».",
-		"description_es": "El 2 de septiembre de 1864, Atlanta cayó ante las fuerzas de la Unión del general Sherman. La victoria aseguró la reelección de Lincoln y desmoralizó a la Confederación. Sherman telegrafió: «Atlanta es nuestra, y justamente ganada»."
+		"description_es": "El 2 de septiembre de 1864, Atlanta cayó ante las fuerzas de la Unión del general Sherman. La victoria aseguró la reelección de Lincoln y desmoralizó a la Confederación. Sherman telegrafió: «Atlanta es nuestra, y justamente ganada».",
+		"description_de": "Am 2. September 1864 fiel Atlanta an die Truppen von General Sherman. Der Sieg sicherte Lincolns Wiederwahl und demoralisierte die Konföderation. Sherman telegrafierte: „Atlanta ist unser, und redlich gewonnen.“",
+		"effect_de": "Die Union erhält +5 Moral, wenn Sherman Atlanta einnimmt"
 	},
 	{
 		"id": "EVENT_LINCOLN_ASSASS",
@@ -1258,7 +1330,9 @@
 		"name_tr": "Lincoln suikastı",
 		"name_ko": "링컨 암살",
 		"description_fr": "Le 14 avril 1865, John Wilkes Booth assassina le président Lincoln au théâtre Ford. Le Nord perdit son chef quelques jours après la fin effective de la guerre, plongeant la nation dans le deuil.",
-		"description_es": "El 14 de abril de 1865, John Wilkes Booth asesinó al presidente Lincoln en el Teatro Ford. El Norte perdió a su líder días después del fin efectivo de la guerra, sumiendo a la nación en duelo."
+		"description_es": "El 14 de abril de 1865, John Wilkes Booth asesinó al presidente Lincoln en el Teatro Ford. El Norte perdió a su líder días después del fin efectivo de la guerra, sumiendo a la nación en duelo.",
+		"description_de": "Am 14. April 1865 ermordete John Wilkes Booth Präsident Lincoln im Ford's Theatre. Der Nordstaaten verlor seinen Anführer nur Tage nach dem faktischen Kriegsende — die Nation trat in Trauer.",
+		"effect_de": "Präsident Lincoln wird ermordet — die Moral der Union sinkt um 3"
 	},
 	{
 		"id": "EVENT_APPOMATTOX",
@@ -1290,7 +1364,9 @@
 		"name_tr": "Appomattox",
 		"name_ko": "애버매턱스",
 		"description_fr": "Le 9 avril 1865, le général Robert E. Lee rendit l'armée de Virginie du Nord au général Ulysses S. Grant à Appomattox Court House, mettant effectivement fin à la guerre civile américaine.",
-		"description_es": "El 9 de abril de 1865, el general Robert E. Lee rindió el Ejército de Virginia del Norte al general Ulysses S. Grant en Appomattox Court House, poniendo fin efectivo a la guerra civil estadounidense."
+		"description_es": "El 9 de abril de 1865, el general Robert E. Lee rindió el Ejército de Virginia del Norte al general Ulysses S. Grant en Appomattox Court House, poniendo fin efectivo a la guerra civil estadounidense.",
+		"description_de": "Am 9. April 1865 ergab sich General Robert E. Lee mit der Army of Northern Virginia General Ulysses S. Grant im Appomattox Court House — das faktische Ende des Amerikanischen Bürgerkriegs.",
+		"effect_de": "Automatischer Sieg der Union — Lee kapituliert vor Grant bei Appomattox"
 	},
 	{
 		"id": "EVENT_VICKSBURG",
@@ -1322,7 +1398,9 @@
 		"name_tr": "Vicksburg düştü",
 		"name_ko": "빅스버그 함락",
 		"description_fr": "Le 4 juillet 1863, Vicksburg se rendit à Grant après un siège de 47 jours. Le «Gibraltar du Mississippi» tomba, donnant à l'Union le contrôle total du fleuve et scindant la Confédération en deux.",
-		"description_es": "El 4 de julio de 1863, Vicksburg se rindió a Grant tras un asedio de 47 días. El «Gibraltar del Mississippi» cayó, dando a la Unión el control total del río y partiendo la Confederación en dos."
+		"description_es": "El 4 de julio de 1863, Vicksburg se rindió a Grant tras un asedio de 47 días. El «Gibraltar del Mississippi» cayó, dando a la Unión el control total del río y partiendo la Confederación en dos.",
+		"description_de": "Am 4. Juli 1863 kapitulierte Vicksburg nach 47 Belagerungstagen vor Grant. Das „Gibraltar des Mississippi“ fiel, die Union erhielt die volle Kontrolle über den Fluss — die Konföderation war zweigeteilt.",
+		"effect_de": "Die Konföderation verliert die Kontrolle über den Mississippi — das Trans-Mississippi-Gebiet ist abgeschnitten"
 	},
 	{
 		"id": "EVENT_LEE_REFUSAL",
@@ -1354,7 +1432,9 @@
 		"name_tr": "Bay Lee'yi tanımıyorum",
 		"name_ko": "리 씨는 모릅니다",
 		"description_fr": "En avril 1861, le général Winfield Scott offrit à Lee le commandement de l'armée de l'Union. Lee refusa, choisissant la Virginie plutôt que les États-Unis. «Je ne peux lever la main contre mon lieu de naissance», écrivit-il.",
-		"description_es": "En abril de 1861, el general Winfield Scott ofreció a Lee el mando del ejército de la Unión. Lee declinó, eligiendo Virginia sobre los Estados Unidos. «No puedo alzar mi mano contra mi lugar de nacimiento», escribió."
+		"description_es": "En abril de 1861, el general Winfield Scott ofreció a Lee el mando del ejército de la Unión. Lee declinó, eligiendo Virginia sobre los Estados Unidos. «No puedo alzar mi mano contra mi lugar de nacimiento», escribió.",
+		"description_de": "Im April 1861 bot General Winfield Scott Lee das Kommando über die Unionsarmee an. Lee lehnte ab und wählte Virginia vor den Vereinigten Staaten: „Ich kann meine Hand nicht gegen meinen Geburtsort erheben“, schrieb er.",
+		"effect_de": "Versuch, Robert E. Lee für die Union zu gewinnen — Erfolgschance 1 zu 20"
 	},
 	{
 		"id": "EVENT_ANDREWS_RAID",
@@ -1386,7 +1466,9 @@
 		"name_tr": "Andrews'ın tren baskını",
 		"name_ko": "앤드루스의 기차 습격",
 		"description_fr": "Le 12 avril 1862, le civil de l'Union James Andrews et 23 volontaires s'emparèrent de la locomotive «General» à Big Shanty, en Géorgie, tentant de détruire le chemin de fer Western & Atlantic. Huit raiders reçurent la médaille d'honneur.",
-		"description_es": "El 12 de abril de 1862, el civil de la Unión James Andrews y 23 voluntarios se apoderaron de la locomotora «General» en Big Shanty, Georgia, intentando destruir el ferrocarril Western & Atlantic. Ocho asaltantes recibieron la Medalla de Honor."
+		"description_es": "El 12 de abril de 1862, el civil de la Unión James Andrews y 23 voluntarios se apoderaron de la locomotora «General» en Big Shanty, Georgia, intentando destruir el ferrocarril Western & Atlantic. Ocho asaltantes recibieron la Medalla de Honor.",
+		"description_de": "Am 12. April 1862 bemächtigten sich der Zivilist der Union James Andrews und 23 Freiwillige der Lokomotive „General“ bei Big Shanty, Georgia, um die Western-&-Atlantic-Eisenbahn zu zerstören. Acht Raider erhielten die Medal of Honor.",
+		"effect_de": "Zerstört die Eisenbahninfrastruktur des Südens für 2 Runden"
 	},
 	{
 		"id": "SIT_ARTY_BARRAGE",
@@ -1418,7 +1500,9 @@
 		"name_tr": "Topçu hazırlığı",
 		"name_ko": "포병 준비사격",
 		"description_fr": "Un barrage d'artillerie dévastateur amollit les positions ennemies avant l'assaut principal. Pendant la guerre civile, l'artillerie concentrée pouvait briser des formations entières avant même l'engagement de l'infanterie.",
-		"description_es": "Una devastadora barrera de artillería ablanda las posiciones enemigas antes del asalto principal. En la guerra civil, la artillería concentrada podía destrozar formaciones enteras antes de que la infantería entrara en combate."
+		"description_es": "Una devastadora barrera de artillería ablanda las posiciones enemigas antes del asalto principal. En la guerra civil, la artillería concentrada podía destrozar formaciones enteras antes de que la infantería entrara en combate.",
+		"description_de": "Ein verheerendes Artilleriebombardement weicht die feindlichen Stellungen vor dem Hauptangriff auf. Im Bürgerkrieg konnten konzentrierte Artilleriesalven ganze Formationen zerschmettern, bevor die Infanterie überhaupt eingriff.",
+		"effect_de": "+2 ANG für alle Artilleriebatterien für 1 Runde"
 	},
 	{
 		"id": "SIT_FIELDWORKS",
@@ -1450,7 +1534,9 @@
 		"name_tr": "Sahra tahkimatı",
 		"name_ko": "야전 참호",
 		"description_fr": "Tranchées et fortifications de campagne offraient d'énormes avantages défensifs. Dès 1864, les deux armées creusaient systématiquement à chaque halte, transformant le paysage en ouvrages de terre élaborés.",
-		"description_es": "Las trincheras y fortificaciones de campaña proporcionaban enormes ventajas defensivas. Hacia 1864, ambos ejércitos cavaban sistemáticamente en cada alto, transformando el paisaje con obras de tierra elaboradas."
+		"description_es": "Las trincheras y fortificaciones de campaña proporcionaban enormes ventajas defensivas. Hacia 1864, ambos ejércitos cavaban sistemáticamente en cada alto, transformando el paisaje con obras de tierra elaboradas.",
+		"description_de": "Schützengräben und Feldbefestigungen boten enorme defensive Vorteile. Ab 1864 gruben sich beide Armeen bei jedem Halt ein und verwandelten die Landschaft mit aufwendigen Erdbefestigungen.",
+		"effect_de": "+3 VER für ein gewähltes Regiment"
 	},
 	{
 		"id": "SIT_SPIES",
@@ -1482,7 +1568,9 @@
 		"name_tr": "Casusluk",
 		"name_ko": "첩보",
 		"description_fr": "Les deux camps employèrent de vastes réseaux d'espions. Belle Boyd, Rose Greenhow et Timothy Webster comptent parmi les espions les plus célèbres de la guerre civile, fournissant des renseignements décisifs.",
-		"description_es": "Ambos bandos emplearon extensas redes de espías. Belle Boyd, Rose Greenhow y Timothy Webster figuran entre los espías más famosos de la guerra civil, proporcionando inteligencia decisiva."
+		"description_es": "Ambos bandos emplearon extensas redes de espías. Belle Boyd, Rose Greenhow y Timothy Webster figuran entre los espías más famosos de la guerra civil, proporcionando inteligencia decisiva.",
+		"description_de": "Beide Seiten unterhielten umfangreiche Spionagenetze. Belle Boyd, Rose Greenhow und Timothy Webster gehörten zu den berühmtesten Spionen des Bürgerkriegs und lieferten entscheidende Nachrichten.",
+		"effect_de": "1 gewählte Karte aus der Hand des Gegners ansehen"
 	},
 	{
 		"id": "SIT_COUNTERSPY",
@@ -1514,7 +1602,9 @@
 		"name_tr": "Karşı casusluk",
 		"name_ko": "반첩보",
 		"description_fr": "Les opérations de contre-espionnage étaient vitales. Allan Pinkerton dirigea le service de renseignement de l'Union, tandis que la Confédération maintenait ses propres réseaux d'espions et de contre-espionnage.",
-		"description_es": "Las operaciones de contraespionaje eran vitales. Allan Pinkerton dirigió el servicio de inteligencia de la Unión, mientras la Confederación mantenía sus propias redes de espías y operaciones de contraespionaje."
+		"description_es": "Las operaciones de contraespionaje eran vitales. Allan Pinkerton dirigió el servicio de inteligencia de la Unión, mientras la Confederación mantenía sus propias redes de espías y operaciones de contraespionaje.",
+		"description_de": "Gegenspionage war lebenswichtig. Allan Pinkerton leitete den Nachrichtendienst der Union, während die Konföderation eigene Spionagenetze und Gegenspionage unterhielt.",
+		"effect_de": "„Spionage“ oder „Mosbys Überfall“ des Gegners aufheben"
 	},
 	{
 		"id": "SIT_DESERTION",
@@ -1546,7 +1636,9 @@
 		"name_tr": "Firar",
 		"name_ko": "탈영",
 		"description_fr": "La désertion frappa les deux armées pendant toute la guerre. On estime à 200 000 les déserteurs de l'Union et à 104 000 ceux de la Confédération, les taux grimpant fortement pendant les épreuves et après les défaites.",
-		"description_es": "La deserción asoló a ambos ejércitos durante toda la guerra. Se calcula que desertaron 200 000 soldados de la Unión y 104 000 confederados, con tasas que se disparaban durante las penurias y tras las derrotas."
+		"description_es": "La deserción asoló a ambos ejércitos durante toda la guerra. Se calcula que desertaron 200 000 soldados de la Unión y 104 000 confederados, con tasas que se disparaban durante las penurias y tras las derrotas.",
+		"description_de": "Fahnenflucht plagte beide Armeen während des gesamten Kriegs. Schätzungen zufolge desertierten 200 000 Unions- und 104 000 konföderierte Soldaten — die Zahlen stiegen drastisch in Notzeiten und nach Niederlagen.",
+		"effect_de": "Der Gegner verliert 1 Einheit — Erfolg bei einem W6-Wurf von 1-2"
 	},
 	{
 		"id": "SIT_DISEASE",
@@ -1578,7 +1670,9 @@
 		"name_tr": "Tifüs/Salgın",
 		"name_ko": "장티푸스/전염병",
 		"description_fr": "La maladie tua bien plus de soldats que les combats. Typhoïde, dysenterie, pneumonie et paludisme ravagèrent les camps. Environ deux tiers de tous les décès furent dus à la maladie, non à la bataille.",
-		"description_es": "La enfermedad mató a muchos más soldados que el combate. El tifus, la disentería, la neumonía y la malaria asolaron los campamentos. Aproximadamente dos tercios de todas las muertes se debieron a enfermedad, no a batalla."
+		"description_es": "La enfermedad mató a muchos más soldados que el combate. El tifus, la disentería, la neumonía y la malaria asolaron los campamentos. Aproximadamente dos tercios de todas las muertes se debieron a enfermedad, no a batalla.",
+		"description_de": "Krankheiten töteten weitaus mehr Soldaten als Gefechte. Typhus, Ruhr, Lungenentzündung und Malaria verheerten die Lager. Rund zwei Drittel aller Todesfälle gingen auf Krankheit zurück, nicht auf die Schlacht.",
+		"effect_de": "-2 auf die Werte eines gewählten Regiments"
 	},
 	{
 		"id": "SIT_MUD",
@@ -1610,7 +1704,9 @@
 		"name_tr": "Çamur",
 		"name_ko": "진창",
 		"description_fr": "La tristement célèbre «marche dans la boue» de janvier 1863 illustre comment la météo pouvait paralyser les opérations. Les dégels du printemps et les pluies d'automne changeaient les routes de Virginie en bourbiers infranchissables.",
-		"description_es": "La tristemente célebre «Marcha del Barro» de enero de 1863 ejemplificó cómo el clima podía paralizar las operaciones. Los deshielos primaverales y las lluvias otoñales convertían los caminos de Virginia en pantanos infranqueables."
+		"description_es": "La tristemente célebre «Marcha del Barro» de enero de 1863 ejemplificó cómo el clima podía paralizar las operaciones. Los deshielos primaverales y las lluvias otoñales convertían los caminos de Virginia en pantanos infranqueables.",
+		"description_de": "Der berüchtigte „Schlamm-Marsch“ im Januar 1863 zeigte, wie Wetter Operationen lahmlegen konnte. Frühjahrstaue und Herbstregen verwandelten Virginias Straßen in unpassierbare Sümpfe.",
+		"effect_de": "Alle Bewegungen für 1 Runde um 50% reduziert"
 	},
 	{
 		"id": "SIT_RAILROAD",
@@ -1642,7 +1738,9 @@
 		"name_tr": "Demiryolu",
 		"name_ko": "철도",
 		"description_fr": "Les chemins de fer étaient les artères logistiques de la guerre. Le réseau supérieur du Nord déplaçait troupes et fournitures à une vitesse inédite, tandis que le Sud peinait à maintenir ses lignes plus limitées.",
-		"description_es": "Los ferrocarriles eran las arterias logísticas de la guerra civil. La superior red ferroviaria del Norte movía tropas y suministros con velocidad sin precedentes, mientras el Sur luchaba por mantener sus líneas más limitadas."
+		"description_es": "Los ferrocarriles eran las arterias logísticas de la guerra civil. La superior red ferroviaria del Norte movía tropas y suministros con velocidad sin precedentes, mientras el Sur luchaba por mantener sus líneas más limitadas.",
+		"description_de": "Eisenbahnen waren die Lebensadern der Logistik. Das überlegene Schienennetz des Nordens bewegte Truppen und Vorräte mit beispielloser Geschwindigkeit, während der Süden seine begrenzteren Strecken kaum instand hielt.",
+		"effect_de": "1 Einheit sofort auf ein beliebiges Territorium versetzen"
 	},
 	{
 		"id": "SIT_TELEGRAPH",
@@ -1674,7 +1772,9 @@
 		"name_tr": "Telgraf",
 		"name_ko": "전신",
 		"description_fr": "Le télégraphe révolutionna les communications militaires. Lincoln passait d'innombrables heures au bureau télégraphique, et pour la première fois un commandant en chef pouvait communiquer avec ses armées en quasi temps réel.",
-		"description_es": "El telégrafo revolucionó las comunicaciones militares. Lincoln pasaba incontables horas en la oficina telegráfica, y por primera vez un comandante en jefe podía comunicarse con los ejércitos casi en tiempo real."
+		"description_es": "El telégrafo revolucionó las comunicaciones militares. Lincoln pasaba incontables horas en la oficina telegráfica, y por primera vez un comandante en jefe podía comunicarse con los ejércitos casi en tiempo real.",
+		"description_de": "Der Telegraph revolutionierte die militärische Kommunikation. Lincoln verbrachte zahllose Stunden im Telegrafenamt — zum ersten Mal konnte ein Oberbefehlshaber nahezu in Echtzeit mit den Armeen sprechen.",
+		"effect_de": "+1 zusätzliche Aktion in dieser Runde"
 	},
 	{
 		"id": "SIT_VOLUNTEERS",
@@ -1706,7 +1806,9 @@
 		"name_tr": "Gönüllü toplama",
 		"name_ko": "지원병 모집",
 		"description_fr": "Les deux camps dépendirent fortement du recrutement de volontaires, surtout en début de guerre. La ferveur patriotique et la pression communautaire remplirent les régiments, mais l'enthousiasme faiblit à mesure que montaient les pertes.",
-		"description_es": "Ambos bandos dependieron en gran medida del reclutamiento de voluntarios, especialmente al comienzo de la guerra. El fervor patriótico y la presión comunitaria llenaron los regimientos, aunque el entusiasmo decayó al multiplicarse las bajas."
+		"description_es": "Ambos bandos dependieron en gran medida del reclutamiento de voluntarios, especialmente al comienzo de la guerra. El fervor patriótico y la presión comunitaria llenaron los regimientos, aunque el entusiasmo decayó al multiplicarse las bajas.",
+		"description_de": "Beide Seiten setzten stark auf Freiwilligenwerbung, besonders zu Kriegsbeginn. Patriotische Begeisterung und der Druck der Gemeinschaft füllten die Regimenter — doch die Euphorie verebbte, als die Verluste stiegen.",
+		"effect_de": "2 Karten aus dem Deck ziehen und +1 Moral erhalten"
 	},
 	{
 		"id": "SIT_CONSCRIPTION",
@@ -1738,7 +1840,9 @@
 		"name_tr": "Askere alma",
 		"name_ko": "징병",
 		"description_fr": "La conscription fut votée par la Confédération en avril 1862, par l'Union en mars 1863. Elle était profondément impopulaire, déclenchant les émeutes de New York de juillet 1863 qui firent plus de 100 morts.",
-		"description_es": "La Confederación decretó el reclutamiento obligatorio en abril de 1862, la Unión en marzo de 1863. El alistamiento forzoso era profundamente impopular, provocando los disturbios de reclutamiento de Nueva York de julio de 1863 con más de 100 muertos."
+		"description_es": "La Confederación decretó el reclutamiento obligatorio en abril de 1862, la Unión en marzo de 1863. El alistamiento forzoso era profundamente impopular, provocando los disturbios de reclutamiento de Nueva York de julio de 1863 con más de 100 muertos.",
+		"description_de": "Die Konföderation erließ die Einberufung im April 1862, die Union im März 1863. Die Zwangsrekrutierung war zutiefst unbeliebt — die Einberufungskrawalle in New York im Juli 1863 forderten über 100 Todesopfer.",
+		"effect_de": "1 Karte ziehen, aber 1 Moral verlieren. Aufeinanderfolgende Anwendungen lösen Kaskadenstrafen aus"
 	},
 	{
 		"id": "SIT_BLOCKADE",
@@ -1770,7 +1874,9 @@
 		"name_tr": "Deniz ablukası",
 		"name_ko": "해상 봉쇄",
 		"description_fr": "Le plan Anaconda: la marine de l'Union bloqua 3 500 milles de côtes du Sud. En 1865, le blocus captura ou dissuada plus de 1 500 bloqueurs, étranglant l'économie du Sud.",
-		"description_es": "El Plan Anaconda: la Marina de la Unión bloqueó 3 500 millas de costa sureña. Hacia 1865, el bloqueo capturó o disuadió a más de 1 500 violadores, estrangulando la economía del Sur."
+		"description_es": "El Plan Anaconda: la Marina de la Unión bloqueó 3 500 millas de costa sureña. Hacia 1865, el bloqueo capturó o disuadió a más de 1 500 violadores, estrangulando la economía del Sur.",
+		"description_de": "Der Anaconda-Plan: Die Marine der Union blockierte 3 500 Meilen Südküste. Bis 1865 brachte die Blockade über 1 500 Blockadebrecher auf oder schreckte sie ab — und würgte die Wirtschaft des Südens ab.",
+		"effect_de": "Die Konföderation verliert 1 Handelsressource"
 	},
 	{
 		"id": "SIT_BLOCKADE_RUN",
@@ -1802,7 +1908,9 @@
 		"name_tr": "Abluka yarması",
 		"name_ko": "봉쇄 돌파",
 		"description_fr": "Des vapeurs rapides et élégants franchissaient le blocus de l'Union de nuit, exportant le coton et important les armes. Wilmington, en Caroline du Nord, resta le dernier grand port partiellement ouvert aux bloqueurs.",
-		"description_es": "Vapores rápidos y esbeltos atravesaban el bloqueo de la Unión de noche, sacando algodón y metiendo armas. Wilmington, Carolina del Norte, fue el último gran puerto que permaneció parcialmente abierto a los violadores del bloqueo."
+		"description_es": "Vapores rápidos y esbeltos atravesaban el bloqueo de la Unión de noche, sacando algodón y metiendo armas. Wilmington, Carolina del Norte, fue el último gran puerto que permaneció parcialmente abierto a los violadores del bloqueo.",
+		"description_de": "Schnelle, schlanke Dampfer durchbrachen nachts die Blockade der Union, führten Baumwolle aus und Waffen ein. Wilmington in North Carolina blieb der letzte große Hafen, den Blockadebrechern teilweise offenstand.",
+		"effect_de": "„Seeblockade“ aufheben und +1 Ressource erhalten"
 	},
 	{
 		"id": "SIT_SUPRESS_REVOLT",
@@ -1834,7 +1942,9 @@
 		"name_tr": "İsyanın bastırılması",
 		"name_ko": "폭동 진압",
 		"description_fr": "Les deux camps firent face à des troubles intérieurs. La Confédération affronta les émeutes du pain et la résistance à la conscription, tandis que l'Union réprima les émeutes de New York et affronta les Copperheads et les mouvements pacifistes.",
-		"description_es": "Ambos bandos enfrentaron disturbios internos. La Confederación lidió con motines del pan y resistencia al reclutamiento, mientras la Unión reprimió los disturbios de Nueva York y enfrentó la oposición de los Copperheads y los movimientos pacifistas."
+		"description_es": "Ambos bandos enfrentaron disturbios internos. La Confederación lidió con motines del pan y resistencia al reclutamiento, mientras la Unión reprimió los disturbios de Nueva York y enfrentó la oposición de los Copperheads y los movimientos pacifistas.",
+		"description_de": "Beide Seiten hatten mit inneren Unruhen zu kämpfen. Die Konföderation erlebte Brotaufstände und Einberufungswiderstand, die Union schlug die Krawalle von New York nieder und kämpfte gegen die Kupferköpfe und Friedensbewegungen.",
+		"effect_de": "Jeden Aufstand oder jede Meuterei stoppen — kostet 2 Moral"
 	},
 	{
 		"id": "SIT_NY_DRAFT_RIOT",
@@ -1866,7 +1976,9 @@
 		"name_tr": "New York askere alma isyanı",
 		"name_ko": "뉴욕 징병 폭동",
 		"description_fr": "Du 13 au 16 juillet 1863, New York explosa dans la pire agitation civile de l'histoire américaine. Opposés à la conscription et enflammés par les tensions raciales, les émeutiers tuèrent plus de 100 personnes et incendièrent l'asile des orphelins de couleur.",
-		"description_es": "Del 13 al 16 de julio de 1863, Nueva York estalló en el peor disturbio civil de la historia estadounidense. Opuestos al reclutamiento e inflamados por la tensión racial, los amotinados mataron a más de 100 personas e incendiaron el Asilo de Huérfanos de Color."
+		"description_es": "Del 13 al 16 de julio de 1863, Nueva York estalló en el peor disturbio civil de la historia estadounidense. Opuestos al reclutamiento e inflamados por la tensión racial, los amotinados mataron a más de 100 personas e incendiaron el Asilo de Huérfanos de Color.",
+		"description_de": "Vom 13. bis 16. Juli 1863 explodierte New York in den schlimmsten zivilen Unruhen der amerikanischen Geschichte. Gegen die Einberufung und von Rassenspannungen angeheizt, töteten die Aufständischen über 100 Menschen und steckten das Waisenhaus für Farbige in Brand.",
+		"effect_de": "Wenn die Moral der Union unter -5 liegt und die Einberufung genutzt wurde: 2 Runden und 1 Einheit verlieren"
 	},
 	{
 		"id": "SIT_BREAD_RIOT",
@@ -1898,7 +2010,9 @@
 		"name_tr": "Ekmek isyanı",
 		"name_ko": "빈폭동",
 		"description_fr": "Le 2 avril 1863, des centaines de femmes marchèrent sur la capitale de Richmond exigeant du pain. L'émeute tourna au pillage généralisé jusqu'à ce que le président Davis s'adressa lui-même à la foule et menaça d'ordonner aux troupes de tirer.",
-		"description_es": "El 2 de abril de 1863, cientos de mujeres marcharon sobre la capital de Richmond exigiendo pan. El motín derivó en saqueo generalizado hasta que el presidente Davis se dirigió personalmente a la multitud y amenazó con ordenar a las tropas disparar."
+		"description_es": "El 2 de abril de 1863, cientos de mujeres marcharon sobre la capital de Richmond exigiendo pan. El motín derivó en saqueo generalizado hasta que el presidente Davis se dirigió personalmente a la multitud y amenazó con ordenar a las tropas disparar.",
+		"description_de": "Am 2. April 1863 marschierten Hunderte Frauen in Richmond auf die Hauptstadt zu und forderten Brot. Der Aufstand weitete sich zu Plünderungen aus, bis Präsident Davis die Menge persönlich ansprach und mit Schussbefehl drohte.",
+		"effect_de": "Wenn die Moral der Konföderation unter -8 liegt: Frauen plündern Läden, -2 Ressourcen, -1 Moral"
 	},
 	{
 		"id": "SIT_FOREIGN_ARMS",
@@ -1930,7 +2044,9 @@
 		"name_tr": "Yabancı silahlar",
 		"name_ko": "외국제 무기",
 		"description_fr": "Les deux camps importèrent des armes étrangères. La Confédération compta fortement sur les Enfield britanniques et les fusils Lorenz autrichiens, tandis que l'Union acheta diverses armes européennes pour compléter sa production nationale.",
-		"description_es": "Ambos bandos importaron armas extranjeras. La Confederación dependió en gran medida de los Enfield británicos y los fusiles Lorenz austriacos, mientras la Unión compró diversas armas europeas para complementar la producción nacional."
+		"description_es": "Ambos bandos importaron armas extranjeras. La Confederación dependió en gran medida de los Enfield británicos y los fusiles Lorenz austriacos, mientras la Unión compró diversas armas europeas para complementar la producción nacional.",
+		"description_de": "Beide Seiten importierten ausländische Waffen. Die Konföderation stützte sich stark auf britische Enfields und österreichische Lorenz-Gewehre, die Union kaufte verschiedene europäische Waffen zur Ergänzung der eigenen Produktion.",
+		"effect_de": "3 Infanterieregimenter mit +1 ANG verbessern"
 	},
 	{
 		"id": "SIT_PARTISAN",
@@ -1962,7 +2078,9 @@
 		"name_tr": "Korsanlık",
 		"name_ko": "사략",
 		"description_fr": "La Confédération délivra des lettres de marque à des corsaires qui s'attaquèrent au commerce de l'Union. Le seul CSS Alabama captura ou coula 65 navires de l'Union pendant sa carrière de deux ans.",
-		"description_es": "La Confederación emitió patentes de corso a corsarios que atacaban el comercio mercante de la Unión. El solo CSS Alabama capturó o hundió 65 buques de la Unión durante su carrera de dos años."
+		"description_es": "La Confederación emitió patentes de corso a corsarios que atacaban el comercio mercante de la Unión. El solo CSS Alabama capturó o hundió 65 buques de la Unión durante su carrera de dos años.",
+		"description_de": "Die Konföderation stellte Kaperbriefe für Freibeuter aus, die den Handelsschiffsverkehr der Union überfielen. Die CSS Alabama allein kaperte oder versenkte während ihrer zweijährigen Karriere 65 Schiffe der Union.",
+		"effect_de": "Der Gegner verliert 1 Ressource pro erbeutetem Handelsschiff"
 	},
 	{
 		"id": "SIT_NAVAL_MINES",
@@ -1994,7 +2112,9 @@
 		"name_tr": "Deniz mayınları",
 		"name_ko": "해상 기뢰",
 		"description_fr": "Les deux camps employèrent des mines navales, appelées «torpilles» à l'époque. Les torpilles confédérées coulèrent 29 navires de l'Union et en endommagèrent bien d'autres, s'imposant parmi les défenses côtières les plus efficaces.",
-		"description_es": "Ambos bandos emplearon minas navales, llamadas «torpedos» en la época. Los torpedos confederados hundieron 29 buques de la Unión y dañaron muchos más, convirtiéndose en una de las defensas costeras más eficaces."
+		"description_es": "Ambos bandos emplearon minas navales, llamadas «torpedos» en la época. Los torpedos confederados hundieron 29 buques de la Unión y dañaron muchos más, convirtiéndose en una de las defensas costeras más eficaces.",
+		"description_de": "Beide Seiten setzten Seeminen ein — damals „Torpedos“ genannt. Konföderierte Torpedos versenkten 29 Schiffe der Union und beschädigten viele weitere — eine der wirksamsten Küstenverteidigungen.",
+		"effect_de": "1 feindliches Schiff zerstören — Erfolg bei einem W6-Wurf von 1-3"
 	},
 	{
 		"id": "SIT_NIGHT_MARCH",
@@ -2026,7 +2146,9 @@
 		"name_tr": "Gece yürüyüşü",
 		"name_ko": "야간 행군",
 		"description_fr": "Les marches de nuit permettaient aux commandants de repositionner des forces sans être détectés. La marche de flanc de Jackson à Chancellorsville et la traversée de Grant à Bruinsburg furent de brillants exemples de surprise nocturne.",
-		"description_es": "Las marchas nocturnas permitían a los comandantes reposicionar fuerzas sin ser detectados. La marcha de flanco de Jackson en Chancellorsville y el cruce de Grant en Bruinsburg fueron brillantes ejemplos de movimiento nocturno logrando la sorpresa."
+		"description_es": "Las marchas nocturnas permitían a los comandantes reposicionar fuerzas sin ser detectados. La marcha de flanco de Jackson en Chancellorsville y el cruce de Grant en Bruinsburg fueron brillantes ejemplos de movimiento nocturno logrando la sorpresa.",
+		"description_de": "Nächtliche Märsche erlaubten es Kommandeuren, Truppen unentdeckt umzusetzen. Jacksons Flankenmarsch bei Chancellorsville und Grants Übergang bei Bruinsburg waren glänzende Beispiele nächtlicher Überraschung.",
+		"effect_de": "Einheiten unentdeckt bewegen und +1 ANG durch Überraschung erhalten"
 	},
 	{
 		"id": "SIT_AMBUSH",
@@ -2058,7 +2180,9 @@
 		"name_tr": "Pusu",
 		"name_ko": "매복",
 		"description_fr": "La Wilderness, Chickamauga et de nombreux engagements mineurs virent des embuscades dévastatrices. Les forêts denses et le terrain escarpé rendirent la guerre civile particulièrement meurtrière pour les forces surprises.",
-		"description_es": "La Wilderness, Chickamauga y numerosos enfrentamientos menores vieron emboscadas devastadoras. Los bosques densos y el terreno accidentado hicieron la guerra civil especialmente letal para las fuerzas sorprendidas."
+		"description_es": "La Wilderness, Chickamauga y numerosos enfrentamientos menores vieron emboscadas devastadoras. Los bosques densos y el terreno accidentado hicieron la guerra civil especialmente letal para las fuerzas sorprendidas.",
+		"description_de": "Die Wilderness, Chickamauga und zahllose kleinere Gefechte sahen verheerende Hinterhalte. Dichte Wälder und rauhes Gelände machten den Bürgerkrieg für überraschte Truppen besonders tödlich.",
+		"effect_de": "Bei Verteidigung in Wald oder Hügeln: +4 ANG auf den Erstschlag"
 	},
 	{
 		"id": "SIT_RECONNAISSANCE",
@@ -2090,7 +2214,9 @@
 		"name_tr": "Keşif",
 		"name_ko": "정찰",
 		"description_fr": "La reconnaissance par cavalerie était essentielle pour les commandants d'armée. Jeb Stuart et Philip Sheridan utilisaient des écrans de cavalerie pour rassembler des renseignements, mais l'absence de Stuart avant Gettysburg laissa Lee «aveugle».",
-		"description_es": "El reconocimiento de caballería era esencial para los comandantes. Jeb Stuart y Philip Sheridan usaron pantallas de caballería para reunir inteligencia, aunque la ausencia de Stuart antes de Gettysburg dejó a Lee «ciego»."
+		"description_es": "El reconocimiento de caballería era esencial para los comandantes. Jeb Stuart y Philip Sheridan usaron pantallas de caballería para reunir inteligencia, aunque la ausencia de Stuart antes de Gettysburg dejó a Lee «ciego».",
+		"description_de": "Kavallerieaufklärung war für Armeekommandeure entscheidend. Jeb Stuart und Philip Sheridan nutzten Kavallerieschirme zur Nachrichtengewinnung — doch Stuarts Abwesenheit vor Gettysburg ließ Lee „blind“ kämpfen.",
+		"effect_de": "Alle feindlichen Einheiten auf 1 gewähltem Territorium aufdecken"
 	},
 	{
 		"id": "SIT_PONTOONS",
@@ -2122,7 +2248,9 @@
 		"name_tr": "Ponton köprüleri",
 		"name_ko": "주교",
 		"description_fr": "Les pontons permettaient aux armées de franchir rapidement les grands fleuves. Les ingénieurs de l'Union devinrent des maîtres du jet de ponts sur le Rappahannock, le James et d'autres rivières pendant les campagnes.",
-		"description_es": "Los puentes de pontones permitían a los ejércitos cruzar grandes ríos rápidamente. Los ingenieros de la Unión se convirtieron en maestros del tendido de pontones sobre el Rappahannock, el James y otros ríos durante las campañas."
+		"description_es": "Los puentes de pontones permitían a los ejércitos cruzar grandes ríos rápidamente. Los ingenieros de la Unión se convirtieron en maestros del tendido de pontones sobre el Rappahannock, el James y otros ríos durante las campañas.",
+		"description_de": "Pontonbrücken erlaubten Armeen den schnellen Übergang über große Flüsse. Die Pioniere der Union wurden Meister im Bau von Pontonbrücken über Rappahannock, James und andere Flüsse.",
+		"effect_de": "Einen Fluss ohne Bewegungsmalus überqueren"
 	},
 	{
 		"id": "SIT_SIEGE_TRAIN",
@@ -2154,7 +2282,9 @@
 		"name_tr": "Kuşatma treni",
 		"name_ko": "공성 열차",
 		"description_fr": "L'artillerie lourde de siège, mortiers massifs et canons Columbiad, pouvait réduire toute fortification. Les sièges de Vicksburg et de Petersburg démontrèrent la puissance dévastatrice des trains de siège concentrés.",
-		"description_es": "La artillería pesada de asedio, incluidos morteros masivos y cañones Columbiad, podía reducir cualquier fortificación. Los asedios de Vicksburg y Petersburg demostraron el devastador poder de los trenes de asedio concentrados."
+		"description_es": "La artillería pesada de asedio, incluidos morteros masivos y cañones Columbiad, podía reducir cualquier fortificación. Los asedios de Vicksburg y Petersburg demostraron el devastador poder de los trenes de asedio concentrados.",
+		"description_de": "Schwere Belagerungsartillerie — riesige Mörser und Columbiad-Geschütze — konnte jede Festung reduzieren. Die Belagerungen von Vicksburg und Petersburg bewiesen die verheerende Kraft konzentrierter Belagerungszüge.",
+		"effect_de": "+4 ANG für Artillerie bei einer Belagerung"
 	},
 	{
 		"id": "SIT_RAIN",
@@ -2186,7 +2316,9 @@
 		"name_tr": "Yağmur",
 		"name_ko": "비",
 		"description_fr": "La pluie forte trempait les cartouches de poudre noire, encrassait les canons des fusils et changeait les champs de bataille en marécages. À plusieurs batailles, les troupes en vinrent à se battre à la baïonnette leurs armes étant devenues inutilisables.",
-		"description_es": "La lluvia intensa empapaba los cartuchos de pólvora negra, ensuciaba los cañones de los fusiles y convertía los campos de batalla en ciénagas. En varias batallas, las tropas se vieron reducidas a combatir con bayonetas cuando sus armas quedaron inservibles."
+		"description_es": "La lluvia intensa empapaba los cartuchos de pólvora negra, ensuciaba los cañones de los fusiles y convertía los campos de batalla en ciénagas. En varias batallas, las tropas se vieron reducidas a combatir con bayonetas cuando sus armas quedaron inservibles.",
+		"description_de": "Starker Regen durchnässte Schwarzpulverpatronen, verstopfte Gewehrläufe und verwandelte Schlachtfelder in Sümpfe. In mehreren Schlachten blieb den Truppen nur der Kampf mit dem Bajonett, wenn die Feuerwaffen unbrauchbar wurden.",
+		"effect_de": "-1 ANG für alle Schusswaffen für 1 Runde"
 	},
 	{
 		"id": "SIT_HARDTACK",
@@ -2218,6 +2350,8 @@
 		"name_tr": "Pesküdü ve kahve",
 		"name_ko": "건빵과 커피",
 		"description_fr": "Les rations de base du soldat de la guerre civile — des biscuits durs comme la pierre appelés hardtack et un café fort. Les soldats plaisantaient que le hardtack pouvait arrêter une balle, mais il faisait marcher les armées.",
-		"description_es": "Las raciones básicas del soldado de la guerra civil — galletas duras como piedra llamadas hardtack y café fuerte. Los soldados bromeaban que el hardtack era lo bastante duro para detener una bala, pero mantenía a los ejércitos marchando."
+		"description_es": "Las raciones básicas del soldado de la guerra civil — galletas duras como piedra llamadas hardtack y café fuerte. Los soldados bromeaban que el hardtack era lo bastante duro para detener una bala, pero mantenía a los ejércitos marchando.",
+		"description_de": "Die Grundrationen des Bürgerkriegssoldaten — steinharte Zwiebackkisten namens Hardtack und starker Kaffee. Die Soldaten scherzten, Hardtack könne eine Kugel aufhalten — doch er ließ die Armeen marschieren.",
+		"effect_de": "1 KP eines gewählten Regiments wiederherstellen"
 	}
 ]
