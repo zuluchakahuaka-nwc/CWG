@@ -701,8 +701,6 @@ func _show_card_detail(data: Dictionary) -> void:
 	_detail_effect.text = "%s: %s" % [Localization.t("ui.effect"), effect] if effect != "" else ""
 	_detail_effect.visible = effect != ""
 	var desc: String = Localization.get_card_description(data)
-	if desc == "":
-		desc = data.get("description_en", "")
 	_detail_desc.text = desc
 	_detail_desc.visible = desc != ""
 	var flavor: String = Localization.get_card_flavor(data)

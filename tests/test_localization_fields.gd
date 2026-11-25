@@ -1,11 +1,10 @@
 extends Node
 ## Card-field localization getters for the detail popup (25.11).
 ##
-## Contract: get_card_flavor / get_card_effect / get_card_rank are STRICT
-## - they return the current-language field or "" and never fall back to
-## English: the popup hides empty sections instead of mixing languages
-## on screen (hub one-language law). get_card_description keeps its
-## documented en fallback and is covered by the description oracle.
+## Contract: get_card_description / get_card_flavor / get_card_effect /
+## get_card_rank are STRICT - they return the current-language field or
+## "" and never fall back to English: the popup hides empty sections
+## instead of mixing languages on screen (hub one-language law).
 
 var _pass_count: int = 0
 var _fail_count: int = 0
@@ -38,6 +37,11 @@ func test_strict_getters_match_current_language() -> void:
 		var commander: Dictionary = CardDatabase.get_card(COMMANDER_ID)
 		var situation: Dictionary = CardDatabase.get_card(SITUATION_ID)
 		var checks: Array = [
+			[
+				"desc/%s" % lang,
+				Localization.get_card_description(unit),
+				str(unit.get("description_" + lang, "")),
+			],
 			[
 				"flavor/%s" % lang,
 				Localization.get_card_flavor(unit),

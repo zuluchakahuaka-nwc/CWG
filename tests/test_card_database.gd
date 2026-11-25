@@ -37,14 +37,19 @@ const CARD_LOCALES: PackedStringArray = [
 	"it", "pl", "tr", "ko",
 ]
 
-## Hub l10n law, part 3b: card DESCRIPTIONS (rendered in the detail
-## popup via Localization.get_card_description) must exist in every
-## locale marked done below. A locale not in the list falls back to
-## description_en = on-screen mix (tracked in the hub TODO until all
-## 12 are materialized). The guard also rejects a locale that exists
-## only on SOME cards (partial application).
+## Hub l10n law, part 3b: card text fields rendered in the detail popup
+## (Localization strict getters) must exist in every locale marked done
+## per field below. A locale not in the list simply hides that section
+## (no English fallback => no mid-screen mix). The guard also rejects a
+## locale that exists only on SOME cards (partial application).
 const DESC_DONE_LOCALES: PackedStringArray = [
 	"fr", "es",
+]
+const FLAVOR_DONE_LOCALES: PackedStringArray = [
+]
+const EFFECT_DONE_LOCALES: PackedStringArray = [
+]
+const RANK_DONE_LOCALES: PackedStringArray = [
 ]
 
 func _all_cards_for_l10n() -> Array:
@@ -60,28 +65,42 @@ func _all_cards_for_l10n() -> Array:
 
 func test_card_descriptions_locale_coverage() -> void:
 	var cards: Array = _all_cards_for_l10n()
-	var with_desc: Array = cards.filter(
-		func(c): return str(c.get("description_en", "")).strip_edges() != ""
-	)
-	var missing: Array = []
-	var partial: Array = []
-	for lang in DESC_DONE_LOCALES:
-		var have: int = 0
-		for card in with_desc:
-			var value: String = str(card.get("description_" + lang, "")).strip_edges()
-			if value == "":
-				missing.append("%s:%s" % [card.get("id", "?"), lang])
-				if missing.size() >= 5:
-					break
-			else:
-				have += 1
-		if have > 0 and have < with_desc.size():
-			partial.append("%s on %d/%d cards" % [lang, have, with_desc.size()])
-		if missing.size() >= 5:
-			break
-	_assert(missing.is_empty() and partial.is_empty(),
-		"descriptions complete in %s locales (missing=%s partial=%s)" % [
-			str(DESC_DONE_LOCALES), str(missing).left(120), str(partial)])
+	var problems: Array = []
+	for entry in [
+		["description", DESC_DONE_LOCALES],
+		["flavor", FLAVOR_DONE_LOCALES],
+		["effect", EFFECT_DONE_LOCALES],
+		["rank", RANK_DONE_LOCALES],
+	]:
+		var field: String = entry[0]
+		var done: PackedStringArray = entry[1]
+		var with_field: Array = cards.filter(
+			func(c): return str(c.get(field + "_en", "")).strip_edges() != ""
+		)
+		for lang in done:
+			var have: int = 0
+			for card in with_field:
+				var value: String = str(
+					card.get(field + "_" + lang, "")
+				).strip_edges()
+				if value == "":
+					problems.append("%s:%s:%s" % [
+						field, card.get("id", "?"), lang,
+					])
+					if problems.size() >= 5:
+						break
+				else:
+					have += 1
+			if have > 0 and have < with_field.size():
+				problems.append("%s partial on %d/%d cards (%s)" % [
+					field, have, with_field.size(), lang,
+				])
+			if problems.size() >= 5:
+				break
+	_assert(problems.is_empty(),
+		"card text fields complete per DONE lists %s" % [
+			str(problems).left(160),
+		])
 
 func test_all_cards_have_names_in_every_locale() -> void:
 	var missing: Array = []

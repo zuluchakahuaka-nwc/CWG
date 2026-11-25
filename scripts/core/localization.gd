@@ -134,17 +134,13 @@ func get_card_name(card_data: Dictionary) -> String:
 		return card_data["name_en"]
 	return card_data.get("id", "???")
 
+## All card-field getters are STRICT (hub one-language law): a missing
+## locale value returns "" and the popup hides the whole section instead
+## of mixing English into another locale's screen. ru/en always have the
+## fields; other locales gain them via the l10n 3b pipeline.
 func get_card_description(card_data: Dictionary) -> String:
-	var field: String = "description_" + _current_lang
-	if card_data.has(field):
-		return card_data[field]
-	if card_data.has("description_en"):
-		return card_data["description_en"]
-	return ""
+	return _strict_card_field(card_data, "description")
 
-## Strict getters for the detail-popup sections that must NOT fall back
-## to English mid-screen (hub one-language law): a missing locale value
-## returns "" and the popup hides the whole section instead of mixing.
 func get_card_flavor(card_data: Dictionary) -> String:
 	return _strict_card_field(card_data, "flavor")
 
